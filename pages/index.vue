@@ -94,17 +94,17 @@
               </p>
             </div>
             <div class="space-y-4">
+              <h3 class="text-xl font-bold">Performance & SEO</h3>
+              <p class="text-muted-foreground">
+                Optimizing websites for speed, search engines, and conversion
+                rates to maximize online visibility and user satisfaction.
+              </p>
+            </div>
+            <div class="space-y-4">
               <h3 class="text-xl font-bold">Technical Leadership</h3>
               <p class="text-muted-foreground">
                 Guiding teams and organizations through digital transformation
                 with modern web technologies.
-              </p>
-            </div>
-            <div class="space-y-4">
-              <h3 class="text-xl font-bold">Speaking & Workshops</h3>
-              <p class="text-muted-foreground">
-                Sharing insights and best practices in web development, UX
-                design, and digital innovation.
               </p>
             </div>
           </div>
