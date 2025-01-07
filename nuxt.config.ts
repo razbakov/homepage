@@ -5,7 +5,13 @@ export default defineNuxtConfig({
     "@nuxtjs/color-mode",
     "shadcn-nuxt",
     "@vee-validate/nuxt",
+    "@nuxt/content",
   ],
+  content: {
+    highlight: {
+      theme: "github-dark",
+    },
+  },
   colorMode: {
     classSuffix: "",
   },

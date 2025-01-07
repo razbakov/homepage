@@ -1,3 +1,9 @@
+<script setup>
+const { data: posts } = await useAsyncData("home-blog-posts", () =>
+  queryContent("blog").sort({ date: -1 }).limit(3).find()
+);
+</script>
+
 <template>
   <div>
     <!-- Hero Section -->
@@ -125,6 +131,63 @@
               <li>Mentorship Programs</li>
             </ul>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="py-16">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl font-bold mb-4">Latest Insights</h2>
+          <p class="text-lg text-muted-foreground">
+            Sharing knowledge and experiences in web development and tech
+            leadership.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+          <article v-for="post in posts" :key="post._path" class="group">
+            <NuxtLink :to="post._path" class="block">
+              <div
+                class="aspect-video mb-4 overflow-hidden rounded-lg bg-muted"
+              >
+                <img
+                  :src="post.image"
+                  :alt="post.title"
+                  class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                />
+              </div>
+              <div class="space-y-2">
+                <div
+                  class="flex items-center gap-2 text-sm text-muted-foreground"
+                >
+                  <time :datetime="post.date">{{
+                    new Date(post.date).toLocaleDateString("en-US", {
+                      month: "long",
+                      day: "numeric",
+                      year: "numeric",
+                    })
+                  }}</time>
+                </div>
+                <h3 class="text-xl font-bold group-hover:text-primary">
+                  {{ post.title }}
+                </h3>
+                <p class="text-muted-foreground line-clamp-2">
+                  {{ post.description }}
+                </p>
+              </div>
+            </NuxtLink>
+          </article>
+        </div>
+
+        <div class="text-center">
+          <NuxtLink
+            to="/blog"
+            class="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground"
+          >
+            View All Posts
+          </NuxtLink>
         </div>
       </div>
     </section>

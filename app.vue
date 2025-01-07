@@ -10,6 +10,7 @@
           <NuxtLink to="/#services" class="hover:text-primary"
             >Services</NuxtLink
           >
+          <NuxtLink to="/blog" class="hover:text-primary">Blog</NuxtLink>
           <NuxtLink to="/#contact" class="hover:text-primary">Contact</NuxtLink>
         </div>
       </nav>
