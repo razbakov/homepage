@@ -142,7 +142,7 @@
 
 <script setup>
 const { data: projects } = await useAsyncData("featured-projects", () =>
-  queryContent("projects").find()
+  queryContent("projects").sort({ date: -1 }).find()
 );
 
 const openCalendly = () => {
