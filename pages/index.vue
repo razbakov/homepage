@@ -87,10 +87,10 @@
               </p>
             </div>
             <div class="space-y-4">
-              <h3 class="text-xl font-bold">UX Design & Strategy</h3>
+              <h3 class="text-xl font-bold">AI Integration</h3>
               <p class="text-muted-foreground">
-                Creating intuitive, user-centered designs that enhance
-                engagement and drive business goals.
+                Enhancing applications with AI capabilities: smart search,
+                content generation, chatbots, and workflow automation.
               </p>
             </div>
             <div class="space-y-4">
@@ -103,8 +103,8 @@
             <div class="space-y-4">
               <h3 class="text-xl font-bold">Technical Leadership</h3>
               <p class="text-muted-foreground">
-                Guiding teams and organizations through digital transformation
-                with modern web technologies.
+                Guiding teams through digital transformation with modern web
+                technologies and AI-driven development practices.
               </p>
             </div>
           </div>
