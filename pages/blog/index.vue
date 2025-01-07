@@ -17,13 +17,36 @@ const { data: posts } = await useAsyncData("blog-posts", () =>
           <article v-for="post in posts" :key="post._path" class="group">
             <NuxtLink :to="post._path" class="block">
               <div
-                class="aspect-video mb-4 overflow-hidden rounded-lg bg-muted"
+                class="aspect-video mb-4 overflow-hidden rounded-lg bg-gradient-to-br from-muted/50 to-muted flex items-center justify-center"
               >
                 <img
+                  v-if="post.image"
                   :src="post.image"
                   :alt="post.title"
                   class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
                 />
+                <div v-else class="text-muted-foreground">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="48"
+                    height="48"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="opacity-50"
+                  >
+                    <path
+                      d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7"
+                    />
+                    <line x1="16" x2="22" y1="5" y2="5" />
+                    <line x1="19" x2="19" y1="2" y2="8" />
+                    <circle cx="9" cy="9" r="2" />
+                    <path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21" />
+                  </svg>
+                </div>
               </div>
               <div class="space-y-2">
                 <div

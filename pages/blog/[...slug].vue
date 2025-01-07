@@ -37,7 +37,10 @@ const { data: post } = await useAsyncData(`content-${path}`, () =>
         </header>
 
         <!-- Featured Image -->
-        <div class="aspect-video mb-12 overflow-hidden rounded-lg bg-muted">
+        <div
+          v-if="post.image"
+          class="aspect-video mb-12 overflow-hidden rounded-lg bg-muted"
+        >
           <img
             :src="post.image"
             :alt="post.title"
