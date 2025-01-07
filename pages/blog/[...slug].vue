@@ -136,14 +136,37 @@ const { data: post } = await useAsyncData(`content-${path}`, () =>
 .prose {
   @apply text-foreground;
 }
-.prose a {
-  @apply text-primary hover:text-primary/80;
+.prose p a,
+.prose li a {
+  @apply text-primary hover:text-primary/80 font-medium underline underline-offset-4 decoration-primary/30 hover:decoration-primary/60;
 }
 .prose code {
-  @apply text-primary bg-muted px-1 py-0.5 rounded;
+  @apply text-primary bg-muted px-1.5 py-0.5 rounded text-sm;
+}
+.prose pre {
+  @apply my-6 rounded-lg bg-zinc-900 p-4 overflow-x-auto;
 }
 .prose pre code {
-  @apply bg-transparent p-0;
+  @apply bg-transparent p-0 text-sm leading-relaxed text-zinc-200;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+}
+.prose pre code .hljs-keyword,
+.prose pre code .hljs-built_in {
+  @apply text-purple-400;
+}
+.prose pre code .hljs-string {
+  @apply text-green-400;
+}
+.prose pre code .hljs-comment {
+  @apply text-zinc-500;
+}
+.prose pre code .hljs-variable,
+.prose pre code .hljs-attr {
+  @apply text-blue-400;
+}
+.prose pre code .hljs-function {
+  @apply text-yellow-400;
 }
 .prose img {
   @apply rounded-lg;
