@@ -4,7 +4,14 @@
       <nav
         class="container mx-auto px-4 h-16 flex items-center justify-between"
       >
-        <NuxtLink to="/" class="font-bold text-xl">Alex Razbakov</NuxtLink>
+        <NuxtLink to="/" class="flex items-center gap-3 hover:opacity-80">
+          <img
+            src="/images/avatar.png"
+            alt="Alex Razbakov"
+            class="w-8 h-8 rounded-full"
+          />
+          <span class="font-bold text-xl">Alex Razbakov</span>
+        </NuxtLink>
         <div class="space-x-4">
           <NuxtLink to="/cv" class="hover:text-primary">CV</NuxtLink>
           <NuxtLink to="/projects" class="hover:text-primary"
