@@ -16,18 +16,29 @@
           <NuxtLink
             to="/cv"
             class="px-3 py-2 rounded-md text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground"
+            :class="{
+              'bg-accent text-accent-foreground': $route.path === '/cv',
+            }"
           >
             CV
           </NuxtLink>
           <NuxtLink
             to="/projects"
             class="px-3 py-2 rounded-md text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground"
+            :class="{
+              'bg-accent text-accent-foreground':
+                $route.path.startsWith('/projects'),
+            }"
           >
             Projects
           </NuxtLink>
           <NuxtLink
             to="/blog"
             class="px-3 py-2 rounded-md text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground"
+            :class="{
+              'bg-accent text-accent-foreground':
+                $route.path.startsWith('/blog'),
+            }"
           >
             Blog
           </NuxtLink>
