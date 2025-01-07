@@ -18,7 +18,9 @@
             >Projects</NuxtLink
           >
           <NuxtLink to="/blog" class="hover:text-primary">Blog</NuxtLink>
-          <NuxtLink to="/#contact" class="hover:text-primary">Contact</NuxtLink>
+          <button @click="openCalendly" class="hover:text-primary">
+            Schedule a Call
+          </button>
         </div>
       </nav>
     </header>
@@ -36,3 +38,46 @@
     </footer>
   </div>
 </template>
+
+<script setup>
+const openCalendly = () => {
+  Calendly.initPopupWidget({
+    url: "https://calendly.com/razbakov",
+    prefill: {},
+    pageSettings: {
+      backgroundColor: "ffffff",
+      hideEventTypeDetails: false,
+      hideLandingPageDetails: false,
+      primaryColor: "00a2ff",
+      height: "900",
+    },
+  });
+};
+
+onMounted(() => {
+  const script = document.createElement("script");
+  script.src = "https://assets.calendly.com/assets/external/widget.js";
+  script.async = true;
+  document.head.appendChild(script);
+});
+</script>
+
+<style>
+.calendly-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 9999;
+}
+
+.calendly-popup-content {
+  height: 900px !important;
+}
+
+.calendly-inline-widget {
+  height: 900px !important;
+}
+</style>
