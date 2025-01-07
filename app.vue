@@ -12,13 +12,29 @@
           />
           <span class="font-bold text-xl">Alex Razbakov</span>
         </NuxtLink>
-        <div class="space-x-4">
-          <NuxtLink to="/cv" class="hover:text-primary">CV</NuxtLink>
-          <NuxtLink to="/projects" class="hover:text-primary"
-            >Projects</NuxtLink
+        <div class="flex items-center gap-1">
+          <NuxtLink
+            to="/cv"
+            class="px-3 py-2 rounded-md text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground"
           >
-          <NuxtLink to="/blog" class="hover:text-primary">Blog</NuxtLink>
-          <button @click="openCalendly" class="hover:text-primary">
+            CV
+          </NuxtLink>
+          <NuxtLink
+            to="/projects"
+            class="px-3 py-2 rounded-md text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground"
+          >
+            Projects
+          </NuxtLink>
+          <NuxtLink
+            to="/blog"
+            class="px-3 py-2 rounded-md text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground"
+          >
+            Blog
+          </NuxtLink>
+          <button
+            @click="openCalendly"
+            class="px-4 py-2 rounded-md text-sm font-medium bg-primary text-primary-foreground hover:bg-primary/90 transition-colors ml-2"
+          >
             Schedule a Call
           </button>
         </div>
