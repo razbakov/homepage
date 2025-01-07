@@ -2,6 +2,16 @@
 
 A specialized AI team system for website development and design in Cursor IDE, featuring expert roles covering all aspects of web creation - from UX/UI design to technical implementation and project management.
 
+🚀 **Get your website from concept to deployment in 30 minutes!** Our AI-powered team system handles everything - concept development, design, programming, and SEO-optimized content creation, delivering production-ready websites at unprecedented speed.
+
+⏱️ **Traditional website development takes 3 days:**
+
+- 1 day for research and design
+- 1 day for programming
+- 1 day for content creation
+
+We compress this entire process into just 30 minutes without compromising quality.
+
 ## Overview
 
 This project implements a multi-role AI system where different AI personas provide specialized expertise and support. The system includes roles such as Secretary, UX Expert, UI Designer, Project Manager, Technical Lead, and Career Coach, each with their own areas of expertise and communication styles.
