@@ -50,6 +50,34 @@ const { data: post } = await useAsyncData(`content-${path}`, () =>
           <ContentDoc />
         </div>
 
+        <!-- Social Sharing -->
+        <div v-if="post.tweet" class="mt-8 p-4 rounded-lg border bg-muted/50">
+          <p class="text-sm text-muted-foreground mb-4">
+            {{
+              typeof post.tweet === "string" && post.tweet.startsWith("http")
+                ? "Join the discussion on X!"
+                : "Have thoughts about this post? Let's discuss it on X!"
+            }}
+          </p>
+          <a
+            :href="
+              typeof post.tweet === 'string' && post.tweet.startsWith('http')
+                ? post.tweet
+                : 'https://x.com/intent/tweet?text=' +
+                  encodeURIComponent(post.tweet)
+            "
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex h-9 items-center justify-center rounded-md bg-[#000000] px-4 text-sm font-medium text-white hover:bg-[#000000]/90"
+          >
+            {{
+              typeof post.tweet === "string" && post.tweet.startsWith("http")
+                ? "View Discussion"
+                : "Share on X"
+            }}
+          </a>
+        </div>
+
         <!-- Author -->
         <div class="mt-16 pt-8 border-t">
           <div class="flex items-center gap-4">
@@ -60,10 +88,29 @@ const { data: post } = await useAsyncData(`content-${path}`, () =>
             />
             <div>
               <h3 class="font-medium">Alex Razbakov</h3>
-              <p class="text-sm text-muted-foreground">
+              <p class="text-sm text-muted-foreground mb-2">
                 Senior Web Developer & Tech Speaker sharing insights on web
                 development, UX design, and tech leadership.
               </p>
+              <div class="flex items-center gap-3 text-sm">
+                <a
+                  href="https://t.me/razbakov"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-primary hover:text-primary/80"
+                >
+                  Telegram Channel
+                </a>
+                <span>•</span>
+                <a
+                  href="https://x.com/razbakov"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-primary hover:text-primary/80"
+                >
+                  Follow on X
+                </a>
+              </div>
             </div>
           </div>
         </div>
