@@ -7,13 +7,13 @@ const { data: posts } = await useAsyncData("blog-posts", () =>
 <template>
   <div class="py-16">
     <div class="container mx-auto px-4">
-      <div class="max-w-3xl mx-auto">
+      <div class="max-w-6xl mx-auto">
         <h1 class="text-4xl font-bold mb-8">Blog</h1>
         <p class="text-xl text-muted-foreground mb-12">
           Thoughts on web development, UX design, and tech leadership.
         </p>
 
-        <div class="space-y-12">
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
           <article v-for="post in posts" :key="post._path" class="group">
             <NuxtLink :to="post._path" class="block">
               <div
@@ -36,21 +36,24 @@ const { data: posts } = await useAsyncData("blog-posts", () =>
                       year: "numeric",
                     })
                   }}</time>
-                  <span>•</span>
-                  <div class="flex gap-2">
-                    <span
-                      v-for="tag in post.tags"
-                      :key="tag"
-                      class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors hover:bg-secondary"
-                    >
-                      {{ tag }}
-                    </span>
-                  </div>
                 </div>
-                <h2 class="text-2xl font-bold group-hover:text-primary">
+                <h2
+                  class="text-xl font-bold group-hover:text-primary line-clamp-2"
+                >
                   {{ post.title }}
                 </h2>
-                <p class="text-muted-foreground">{{ post.description }}</p>
+                <p class="text-sm text-muted-foreground line-clamp-2">
+                  {{ post.description }}
+                </p>
+                <div class="flex flex-wrap gap-2 pt-2">
+                  <span
+                    v-for="tag in post.tags"
+                    :key="tag"
+                    class="inline-flex items-center rounded-full border px-2 py-0.5 text-xs font-medium text-muted-foreground"
+                  >
+                    {{ tag }}
+                  </span>
+                </div>
               </div>
             </NuxtLink>
           </article>
