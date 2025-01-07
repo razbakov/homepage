@@ -7,6 +7,9 @@
         <NuxtLink to="/" class="font-bold text-xl">Alex Razbakov</NuxtLink>
         <div class="space-x-4">
           <NuxtLink to="/#about" class="hover:text-primary">About</NuxtLink>
+          <NuxtLink to="/projects" class="hover:text-primary"
+            >Projects</NuxtLink
+          >
           <NuxtLink to="/#services" class="hover:text-primary"
             >Services</NuxtLink
           >
