@@ -32,6 +32,7 @@ This project implements a multi-role AI system where different AI personas provi
 - **Project Manager (Tom)**: Project planning and coordination
 - **Technical Lead (Dev)**: Development architecture and technical guidance
 - **Career Coach (Claire)**: Career development and professional growth
+- **Marketing Expert (Mark)**: SEO optimization and content strategy
 
 ## Usage
 
