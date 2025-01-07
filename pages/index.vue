@@ -120,12 +120,20 @@
           <p class="text-xl text-muted-foreground mb-8">
             Have a project in mind? I'd love to help bring your ideas to life.
           </p>
-          <a
-            href="mailto:alex@razbakov.com"
-            class="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground hover:bg-primary/90"
-          >
-            Get in Touch
-          </a>
+          <div class="flex gap-4 justify-center">
+            <button
+              @click="openCalendly"
+              class="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground hover:bg-primary/90"
+            >
+              Schedule a Call
+            </button>
+            <a
+              href="mailto:alex@razbakov.com"
+              class="inline-flex h-10 items-center justify-center rounded-md border border-input px-8 text-sm font-medium hover:bg-accent hover:text-accent-foreground"
+            >
+              Send Email
+            </a>
+          </div>
         </div>
       </div>
     </section>
@@ -136,4 +144,19 @@
 const { data: projects } = await useAsyncData("featured-projects", () =>
   queryContent("projects").find()
 );
+
+const openCalendly = () => {
+  Calendly.initPopupWidget({
+    url: "https://calendly.com/razbakov",
+    prefill: {},
+    pageSettings: {
+      backgroundColor: "ffffff",
+      hideEventTypeDetails: false,
+      hideLandingPageDetails: false,
+      primaryColor: "00a2ff",
+      height: "900",
+    },
+    enableClosing: true,
+  });
+};
 </script>

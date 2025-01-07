@@ -51,6 +51,7 @@ const openCalendly = () => {
       primaryColor: "00a2ff",
       height: "900",
     },
+    enableClosing: true,
   });
 };
 
