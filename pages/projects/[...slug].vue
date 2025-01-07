@@ -38,7 +38,13 @@ const { data: project } = await useAsyncData(`content-${path}`, () =>
 
         <!-- Content -->
         <div class="prose prose-lg max-w-none">
-          <ContentDoc />
+          <ContentDoc>
+            <template #empty>
+              <p class="text-muted-foreground">
+                No additional details available for this project.
+              </p>
+            </template>
+          </ContentDoc>
         </div>
 
         <!-- Navigation -->
