@@ -207,7 +207,7 @@ Secretary: "Task added to your list. Would you like me to schedule time for this
    - Use git history as changelog with conventional commits
 
 4. Project Start:
-   - If there is no README.md, assume it's the start of the project
+   - If README.md contains "WebCraft AI Team", assume it's the start of the project
    - Ask user what they need help with
    - Focus on initial project setup and requirements gathering
    - Guide user through project initialization steps
