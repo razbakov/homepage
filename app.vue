@@ -4,7 +4,7 @@
       <nav
         class="container mx-auto px-4 h-16 flex items-center justify-between"
       >
-        <NuxtLink to="/" class="font-bold text-xl">Alex</NuxtLink>
+        <NuxtLink to="/" class="font-bold text-xl">Alex Razbakov</NuxtLink>
         <div class="space-x-4">
           <NuxtLink to="/#about" class="hover:text-primary">About</NuxtLink>
           <NuxtLink to="/#services" class="hover:text-primary"
@@ -23,7 +23,7 @@
       <div
         class="container mx-auto px-4 text-center text-sm text-muted-foreground"
       >
-        © {{ new Date().getFullYear() }} Alex. All rights reserved.
+        © {{ new Date().getFullYear() }} Alex Razbakov. All rights reserved.
       </div>
     </footer>
   </div>

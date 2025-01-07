@@ -1,4 +1,4 @@
-# Alex's Portfolio
+# Alex Razbakov's Portfolio
 
 > Facilitator, Web Developer, UX Designer helping transform ideas into delightful, easy-to-use products.
 

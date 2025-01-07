@@ -14,4 +14,5 @@ export default defineNuxtConfig({
     componentDir: "./components/ui",
   },
   devtools: { enabled: true },
+  compatibilityDate: "2025-01-07",
 });
