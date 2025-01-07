@@ -1,0 +1,127 @@
+<template>
+  <div class="py-16">
+    <div class="container mx-auto px-4">
+      <div class="max-w-3xl mx-auto">
+        <header class="mb-12">
+          <h1 class="text-4xl font-bold mb-6">
+            Senior Web Developer & Tech Speaker
+          </h1>
+          <p class="text-xl text-muted-foreground">
+            Empowering teams and audiences with expertise in web development, UX
+            design, and digital transformation.
+          </p>
+        </header>
+
+        <!-- Quick Info -->
+        <div class="grid sm:grid-cols-2 gap-8 mb-12">
+          <div class="space-y-4">
+            <div class="flex items-center gap-2">
+              <span class="font-medium">Location:</span>
+              <span class="text-muted-foreground">Remote / Worldwide</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="font-medium">Experience:</span>
+              <span class="text-muted-foreground">8+ years</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="font-medium">Speaking Topics:</span>
+              <span class="text-muted-foreground"
+                >Web Development, UX, Team Leadership</span
+              >
+            </div>
+          </div>
+          <div class="space-y-4">
+            <div class="flex items-center gap-2">
+              <span class="font-medium">Email:</span>
+              <a
+                href="mailto:alex@razbakov.com"
+                class="text-primary hover:text-primary/80"
+                >alex@razbakov.com</a
+              >
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="font-medium">LinkedIn:</span>
+              <a
+                href="https://linkedin.com/in/razbakov"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-primary hover:text-primary/80"
+                >@razbakov</a
+              >
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="font-medium">GitHub:</span>
+              <a
+                href="https://github.com/razbakov"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-primary hover:text-primary/80"
+                >@razbakov</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Technical Expertise -->
+        <section class="mb-12">
+          <h2 class="text-2xl font-bold mb-6">Technical Expertise</h2>
+          <div class="grid sm:grid-cols-2 gap-8">
+            <div class="space-y-4">
+              <h3 class="text-xl font-medium">Frontend Development</h3>
+              <ul class="space-y-2 text-muted-foreground">
+                <li>Vue.js & Nuxt.js</li>
+                <li>TypeScript</li>
+                <li>TailwindCSS</li>
+                <li>Performance Optimization</li>
+              </ul>
+            </div>
+            <div class="space-y-4">
+              <h3 class="text-xl font-medium">Backend & Infrastructure</h3>
+              <ul class="space-y-2 text-muted-foreground">
+                <li>Node.js</li>
+                <li>Firebase</li>
+                <li>Netlify</li>
+                <li>CI/CD</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Speaking & Community -->
+        <section class="mb-12">
+          <h2 class="text-2xl font-bold mb-6">Speaking & Community</h2>
+          <div class="grid sm:grid-cols-2 gap-8">
+            <div class="space-y-4">
+              <h3 class="text-xl font-medium">Conference Topics</h3>
+              <ul class="space-y-2 text-muted-foreground">
+                <li>Modern Web Development</li>
+                <li>UX Design Implementation</li>
+                <li>Team Leadership & Culture</li>
+                <li>Digital Transformation</li>
+              </ul>
+            </div>
+            <div class="space-y-4">
+              <h3 class="text-xl font-medium">Community Involvement</h3>
+              <ul class="space-y-2 text-muted-foreground">
+                <li>Conference Speaking</li>
+                <li>Workshop Facilitation</li>
+                <li>Technical Writing</li>
+                <li>Mentorship Programs</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Download CV -->
+        <div class="text-center">
+          <a
+            href="/cv.pdf"
+            class="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground hover:bg-primary/90"
+          >
+            Download CV
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>

@@ -1,225 +1,139 @@
-<script setup>
-const { data: posts } = await useAsyncData("home-blog-posts", () =>
-  queryContent("blog").sort({ date: -1 }).limit(3).find()
-);
-</script>
-
 <template>
   <div>
-    <!-- Hero Section -->
-    <section class="py-20 bg-gradient-to-b from-primary/10 to-background">
+    <!-- Hero -->
+    <section class="py-20 md:py-32">
       <div class="container mx-auto px-4">
-        <div class="max-w-2xl">
-          <h1 class="text-4xl font-bold mb-6">
-            Senior Web Developer & Tech Speaker
+        <div class="max-w-3xl mx-auto text-center">
+          <h1 class="text-4xl md:text-5xl font-bold mb-6">
+            Empowering Digital Innovation
           </h1>
-          <p class="text-xl text-muted-foreground mb-4">
-            Empowering teams and audiences with expertise in web development, UX
-            design, and digital transformation.
-          </p>
           <p class="text-xl text-muted-foreground mb-8">
-            Available for speaking engagements, technical leadership roles, and
-            select freelance projects.
+            I help businesses and organizations create impactful digital
+            experiences that connect with their audience and drive results.
           </p>
-          <div class="space-x-4">
+          <div class="flex gap-4 justify-center">
             <NuxtLink
-              to="/#contact"
-              class="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground ring-offset-background transition-colors hover:bg-primary/90"
+              to="/projects"
+              class="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground hover:bg-primary/90"
             >
-              Let's Connect
+              View Projects
             </NuxtLink>
-            <a
-              href="/cv.pdf"
-              class="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground"
+            <NuxtLink
+              to="/about"
+              class="inline-flex h-10 items-center justify-center rounded-md border border-input px-8 text-sm font-medium hover:bg-accent hover:text-accent-foreground"
             >
-              Download CV
-            </a>
+              Learn More
+            </NuxtLink>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="py-16">
+    <!-- Featured Projects -->
+    <section class="py-16 bg-muted/50">
       <div class="container mx-auto px-4">
-        <h2 class="text-3xl font-bold mb-8">About Me</h2>
-        <div class="grid md:grid-cols-2 gap-12">
-          <div>
-            <p class="text-lg mb-4">
-              As a Senior Web Developer and conference speaker, I combine
-              technical expertise with the ability to communicate complex
-              concepts to diverse audiences.
-            </p>
-            <p class="text-lg text-muted-foreground mb-6">
-              My mission is to elevate the web development community through
-              knowledge sharing, while delivering impactful solutions for
-              businesses.
-            </p>
-            <div class="space-y-2">
-              <div class="flex items-center gap-2">
-                <span class="font-medium">Location:</span>
-                <span class="text-muted-foreground">Remote / Worldwide</span>
-              </div>
-              <div class="flex items-center gap-2">
-                <span class="font-medium">Experience:</span>
-                <span class="text-muted-foreground">8+ years</span>
-              </div>
-              <div class="flex items-center gap-2">
-                <span class="font-medium">Speaking Topics:</span>
-                <span class="text-muted-foreground"
-                  >Web Development, UX, Team Leadership</span
-                >
-              </div>
-            </div>
+        <div class="max-w-6xl mx-auto">
+          <h2 class="text-3xl font-bold mb-12 text-center">Featured Work</h2>
+          <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <article
+              v-for="project in projects?.slice(0, 3)"
+              :key="project._path"
+              class="group"
+            >
+              <NuxtLink :to="project._path" class="block">
+                <img
+                  v-if="project.icon"
+                  :src="project.icon"
+                  :alt="project.title"
+                  class="h-7 w-auto mb-4"
+                  style="max-width: 120px"
+                />
+                <div class="space-y-2">
+                  <h3
+                    class="text-xl font-bold group-hover:text-primary line-clamp-2"
+                  >
+                    {{ project.title }}
+                  </h3>
+                  <p class="text-sm text-muted-foreground line-clamp-2">
+                    {{ project.description }}
+                  </p>
+                </div>
+              </NuxtLink>
+            </article>
           </div>
-          <div class="space-y-4">
-            <div class="p-4 rounded-lg border">
-              <h3 class="font-medium mb-2">Technical Leadership</h3>
-              <p class="text-sm text-muted-foreground">
-                Leading development teams and sharing expertise through
-                conference talks
-              </p>
-            </div>
-            <div class="p-4 rounded-lg border">
-              <h3 class="font-medium mb-2">Public Speaking</h3>
-              <p class="text-sm text-muted-foreground">
-                Engaging audiences with insights on web development and digital
-                transformation
-              </p>
-            </div>
-            <div class="p-4 rounded-lg border">
-              <h3 class="font-medium mb-2">Community Building</h3>
-              <p class="text-sm text-muted-foreground">
-                Fostering knowledge sharing and professional growth in tech
-                communities
-              </p>
-            </div>
+          <div class="text-center mt-12">
+            <NuxtLink
+              to="/projects"
+              class="inline-flex h-10 items-center justify-center rounded-md border border-input px-8 text-sm font-medium hover:bg-accent hover:text-accent-foreground"
+            >
+              View All Projects
+            </NuxtLink>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Expertise Section -->
-    <section id="services" class="py-16 bg-muted/50">
-      <div class="container mx-auto px-4">
-        <h2 class="text-3xl font-bold mb-8">Expertise</h2>
-        <div class="grid md:grid-cols-3 gap-8">
-          <div class="p-6 rounded-lg bg-background border">
-            <h3 class="text-xl font-medium mb-4">Technical Expertise</h3>
-            <ul class="space-y-2 text-muted-foreground">
-              <li>Modern Frontend (Vue.js, Nuxt)</li>
-              <li>Performance Optimization</li>
-              <li>Technical Architecture</li>
-              <li>Developer Experience</li>
-            </ul>
-          </div>
-          <div class="p-6 rounded-lg bg-background border">
-            <h3 class="text-xl font-medium mb-4">Speaking Topics</h3>
-            <ul class="space-y-2 text-muted-foreground">
-              <li>Web Development Best Practices</li>
-              <li>UX Design & Implementation</li>
-              <li>Team Leadership & Culture</li>
-              <li>Digital Transformation</li>
-            </ul>
-          </div>
-          <div class="p-6 rounded-lg bg-background border">
-            <h3 class="text-xl font-medium mb-4">Community Impact</h3>
-            <ul class="space-y-2 text-muted-foreground">
-              <li>Conference Speaking</li>
-              <li>Workshop Facilitation</li>
-              <li>Technical Writing</li>
-              <li>Mentorship Programs</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Blog Section -->
+    <!-- Services -->
     <section class="py-16">
       <div class="container mx-auto px-4">
-        <div class="text-center mb-12">
-          <h2 class="text-3xl font-bold mb-4">Latest Insights</h2>
-          <p class="text-lg text-muted-foreground">
-            Sharing knowledge and experiences in web development and tech
-            leadership.
-          </p>
-        </div>
-
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-          <article v-for="post in posts" :key="post._path" class="group">
-            <NuxtLink :to="post._path" class="block">
-              <div
-                class="aspect-video mb-4 overflow-hidden rounded-lg bg-muted"
-              >
-                <img
-                  :src="post.image"
-                  :alt="post.title"
-                  class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
-                />
-              </div>
-              <div class="space-y-2">
-                <div
-                  class="flex items-center gap-2 text-sm text-muted-foreground"
-                >
-                  <time :datetime="post.date">{{
-                    new Date(post.date).toLocaleDateString("en-US", {
-                      month: "long",
-                      day: "numeric",
-                      year: "numeric",
-                    })
-                  }}</time>
-                </div>
-                <h3 class="text-xl font-bold group-hover:text-primary">
-                  {{ post.title }}
-                </h3>
-                <p class="text-muted-foreground line-clamp-2">
-                  {{ post.description }}
-                </p>
-              </div>
-            </NuxtLink>
-          </article>
-        </div>
-
-        <div class="text-center">
-          <NuxtLink
-            to="/blog"
-            class="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground"
-          >
-            View All Posts
-          </NuxtLink>
+        <div class="max-w-3xl mx-auto">
+          <h2 class="text-3xl font-bold mb-12 text-center">How I Can Help</h2>
+          <div class="grid sm:grid-cols-2 gap-8">
+            <div class="space-y-4">
+              <h3 class="text-xl font-bold">Digital Product Development</h3>
+              <p class="text-muted-foreground">
+                From concept to launch, I help create web applications that
+                solve real problems and deliver value to users.
+              </p>
+            </div>
+            <div class="space-y-4">
+              <h3 class="text-xl font-bold">UX Design & Strategy</h3>
+              <p class="text-muted-foreground">
+                Creating intuitive, user-centered designs that enhance
+                engagement and drive business goals.
+              </p>
+            </div>
+            <div class="space-y-4">
+              <h3 class="text-xl font-bold">Technical Leadership</h3>
+              <p class="text-muted-foreground">
+                Guiding teams and organizations through digital transformation
+                with modern web technologies.
+              </p>
+            </div>
+            <div class="space-y-4">
+              <h3 class="text-xl font-bold">Speaking & Workshops</h3>
+              <p class="text-muted-foreground">
+                Sharing insights and best practices in web development, UX
+                design, and digital innovation.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="py-16">
+    <!-- Contact -->
+    <section id="contact" class="py-16 bg-muted/50">
       <div class="container mx-auto px-4">
-        <div class="max-w-xl mx-auto text-center">
-          <h2 class="text-3xl font-bold mb-4">Let's Connect</h2>
-          <p class="text-lg text-muted-foreground mb-8">
-            Whether you're looking for a speaker for your next event, a
-            technical leader for your team, or help with a project, I'd love to
-            discuss how we can work together.
+        <div class="max-w-3xl mx-auto text-center">
+          <h2 class="text-3xl font-bold mb-4">Let's Work Together</h2>
+          <p class="text-xl text-muted-foreground mb-8">
+            Have a project in mind? I'd love to help bring your ideas to life.
           </p>
-          <div class="space-x-4">
-            <a
-              href="mailto:alex@razbakov.com"
-              class="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground ring-offset-background transition-colors hover:bg-primary/90"
-            >
-              Email Me
-            </a>
-            <a
-              href="https://linkedin.com/in/razbakov"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground"
-            >
-              LinkedIn
-            </a>
-          </div>
+          <a
+            href="mailto:alex@razbakov.com"
+            class="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground hover:bg-primary/90"
+          >
+            Get in Touch
+          </a>
         </div>
       </div>
     </section>
   </div>
 </template>
+
+<script setup>
+const { data: projects } = await useAsyncData("featured-projects", () =>
+  queryContent("projects").find()
+);
+</script>

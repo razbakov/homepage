@@ -6,12 +6,9 @@
       >
         <NuxtLink to="/" class="font-bold text-xl">Alex Razbakov</NuxtLink>
         <div class="space-x-4">
-          <NuxtLink to="/#about" class="hover:text-primary">About</NuxtLink>
+          <NuxtLink to="/cv" class="hover:text-primary">CV</NuxtLink>
           <NuxtLink to="/projects" class="hover:text-primary"
             >Projects</NuxtLink
-          >
-          <NuxtLink to="/#services" class="hover:text-primary"
-            >Services</NuxtLink
           >
           <NuxtLink to="/blog" class="hover:text-primary">Blog</NuxtLink>
           <NuxtLink to="/#contact" class="hover:text-primary">Contact</NuxtLink>
