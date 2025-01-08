@@ -6,6 +6,7 @@ date: 2018-05-16
 category: Creativity
 image: /img/6hats.png
 tweet: https://twitter.com/razbakov/status/997392437189505024
+hideImage: true
 ---
 
 Six Thinking Hats is a system designed by Edward de Bono which describes a tool for group discussion and individual thinking involving six colored hats. "Six Thinking Hats" and the associated idea parallel thinking provide a means for groups to plan thinking processes in a detailed and cohesive way, and in doing so to think together more effectively. ([Source](https://en.wikipedia.org/wiki/Six_Thinking_Hats))

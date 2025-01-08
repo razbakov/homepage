@@ -38,7 +38,7 @@ const { data: post } = await useAsyncData(`content-${path}`, () =>
 
         <!-- Featured Image -->
         <div
-          v-if="post.image"
+          v-if="post.image && !post.hideImage"
           class="aspect-video mb-12 overflow-hidden rounded-lg bg-muted"
         >
           <img
