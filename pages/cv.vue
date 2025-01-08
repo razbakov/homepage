@@ -83,8 +83,8 @@
             <div class="space-y-4">
               <h3 class="text-xl font-medium">Backend & Infrastructure</h3>
               <ul class="space-y-2 text-muted-foreground">
-                <li>Backend: PHP, Node.js, Python</li>
-                <li>CMS: Ibexa DXP, WordPress, Magento</li>
+                <li>Backend: PHP (Symfony), Node.js, Python</li>
+                <li>CMS & DXP: Ibexa DXP, WordPress, Magento</li>
                 <li>Databases: MongoDB, ElasticSearch</li>
                 <li>Message Queue: RabbitMQ</li>
                 <li>Cloud: AWS, Firebase, Azure</li>
