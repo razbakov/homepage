@@ -51,7 +51,7 @@ Think of managing AI agents like running an HR department for a high-performing 
 2. Task Management:
    - Break down into epics and user stories
    - Define clear success metrics
-   - Track progress systematically
+   - Track progress systematically using [structured templates](/ru/gtd-diary)
 
 ### Phase 2: Development Approach
 
@@ -113,6 +113,8 @@ Utilize git for:
 - Exploring alternative approaches
 - Maintaining implementation flexibility
 - Managing multiple solution paths
+
+Similar to a [personal life management system](/personal-life-management-system), version control allows you to track the evolution of your multi-agent system, document decisions, and maintain a clear history of changes.
 
 ### Continuous Improvement
 
