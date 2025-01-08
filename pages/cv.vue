@@ -83,8 +83,10 @@
               <ul class="space-y-2 text-muted-foreground">
                 <li>Node.js & PHP</li>
                 <li>Firebase & Ibexa DXP</li>
+                <li>AWS & Cloud Services</li>
                 <li>Netlify</li>
-                <li>CI/CD</li>
+                <li>CI/CD & DevOps</li>
+                <li>Varnish & ElasticSearch</li>
               </ul>
             </div>
           </div>
@@ -131,6 +133,33 @@
                 <li>Integrated Microsoft Azure SSO and OneDrive</li>
                 <li>
                   Established SCRUM processes and mentored junior developers
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="text-xl font-medium">
+                kirchbergerknorr Digital Agency, Munich
+              </h3>
+              <p class="text-muted-foreground">Magento Developer (2012-2017)</p>
+              <ul class="mt-2 space-y-2 text-muted-foreground">
+                <li>
+                  Led implementation of Continuous Integration and automated
+                  deployment processes
+                </li>
+                <li>
+                  Architected and developed e-commerce solutions using Magento,
+                  Varnish, and ElasticSearch
+                </li>
+                <li>Established SCRUM methodology and BDD practices</li>
+                <li>Managed server infrastructure and AWS cloud services</li>
+                <li>Mentored junior developers and conducted code reviews</li>
+                <li>
+                  Contributed to open source projects and participated in
+                  hackathons
+                </li>
+                <li>
+                  Created technical documentation and delivered conference
+                  presentations
                 </li>
               </ul>
             </div>
