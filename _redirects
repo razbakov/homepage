@@ -6,20 +6,22 @@
 /mafia https://gutenabend.netlify.com/mafia/
 /gear /uses
 /about /
-/blog/germany /blog/2020-02-29-germany
-/6-hats /blog/2020-03-17-6-hats
-/ru/fantasy /blog/2020-02-29-fantasy
-/dancing/salsa-cubana /blog/2020-02-29-salsa-cubana
-/es/isla-de-los-deseos /blog/2020-02-29-island-of-desires
-/island-of-desires /blog/2020-02-29-island-of-desires
+
+# Blog posts
+
+/6-hats /blog/2018-05-16-thinking-hats
+/ru/fantasy /blog/2018-05-22-fantasy
+/dancing/salsa-cubana /blog/2018-03-29-en-cuban-salsa
+/es/isla-de-los-deseos /blog/2018-05-22-isla-de-los-deseos
+/island-of-desires /blog/2018-05-22-island-of-desires
 /2017/02/13/\_02-13-how-to-be-happy /blog/2017-02-13-how-to-be-happy
-/ru/ostrov-zhelaniy /blog/2020-02-29-island-of-desires
-/telegram /blog/2020-02-29-telegram
-/munich /blog/2020-02-29-munich
-/ru/munich /blog/2020-02-29-munich
-/blog/js-const-objects-are-references /blog/2020-02-29-js-const-objects-are-references
-/ru/telegram /blog/2020-02-29-telegram
-/how-to-improve-foreign-language /blog/2018-08-18-как-улучшить-иностранный-язык
+/ru/ostrov-zhelaniy /blog/2018-05-22-остров-желаний
+/telegram /blog/2018-05-25-telegram-en
+/munich /blog/2018-06-11-munich-en
+/ru/munich /blog/2018-06-11-munich-ru
+/blog/js-const-objects-are-references /blog/2018-06-29-ecmascript-const
+/ru/telegram /blog/2018-05-25-telegram-ru
+/how-to-improve-foreign-language /blog/2018-08-18-how-to-improve-foreign-language
 /ru/как-улучшить-иностранный-язык /blog/2018-08-18-как-улучшить-иностранный-язык
 /kakeibo /blog/2020-01-06-kekeibo
 /vue-google-firebase-analytics /blog/2020-01-12-vue-google-firebase-analytics
@@ -28,7 +30,3 @@
 /google-ads-php /blog/2020-07-30-google-ads-php
 /projects/\_15x4 /projects/15x4
 /personal-life-management-system /blog/2025-01-07-personal-life-management-system
-/projects/gutenabend /projects/gutenabend
-/projects/instafest /projects/instafest
-/projects/moneydo /projects/moneydo
-/projects/wedance /projects/wedance
