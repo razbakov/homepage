@@ -3,15 +3,13 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "nuxt build",
+    "build": "slides:build && nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "slides:serve": "node scripts/serve-slidev.js",
-    "slides:build": "slidev build content/slides/example/slides.md --out public/slides/example",
-    "slides:dev": "pm2 start pm2.config.js",
-    "slides:stop": "pm2 stop all"
+    "slides:build": "rm -rf public/slides && mkdir -p public/slides && slidev build content/slides/slidev/slides.md --base /slides/slidev/ && mv content/slides/slidev/dist public/slides/slidev"
   },
   "dependencies": {
     "@slidev/theme-default": "^0.25.0",
