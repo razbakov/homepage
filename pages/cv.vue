@@ -40,7 +40,10 @@ const downloadPDF = async () => {
     <div v-else-if="cv" class="container mx-auto px-4 print:px-0">
       <div class="max-w-3xl mx-auto cv-content">
         <header class="mb-12 print:mb-4">
-          <h1 class="text-4xl font-bold mb-6">{{ cv.title }}</h1>
+          <h1 class="text-4xl font-bold mb-2">{{ cv.name }}</h1>
+          <h2 class="text-2xl font-medium mb-6 text-muted-foreground">
+            {{ cv.title }}
+          </h2>
           <p class="text-xl text-muted-foreground print:text-base">
             {{ cv.summary }}
           </p>
@@ -329,16 +332,16 @@ const downloadPDF = async () => {
             </div>
           </div>
         </section>
+      </div>
 
-        <!-- Download CV -->
-        <div class="text-center print:hidden">
-          <button
-            @click="downloadPDF"
-            class="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground hover:bg-primary/90"
-          >
-            Download CV
-          </button>
-        </div>
+      <!-- Download CV - moved outside cv-content -->
+      <div class="text-center print:hidden mt-8">
+        <button
+          @click="downloadPDF"
+          class="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground hover:bg-primary/90"
+        >
+          Download CV
+        </button>
       </div>
     </div>
 
