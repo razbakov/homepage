@@ -11,6 +11,22 @@ if (error.value) {
     message: "Failed to load CV data",
   });
 }
+
+const downloadPDF = async () => {
+  if (!process.client) return;
+
+  const html2pdf = (await import("html2pdf.js")).default;
+  const element = document.querySelector(".cv-content");
+  const opt = {
+    margin: [10, 10],
+    filename: "cv.pdf",
+    image: { type: "jpeg", quality: 0.98 },
+    html2canvas: { scale: 2 },
+    jsPDF: { unit: "mm", format: "a4", orientation: "portrait" },
+  };
+
+  html2pdf().set(opt).from(element).save();
+};
 </script>
 
 <template>
@@ -22,7 +38,7 @@ if (error.value) {
     </div>
 
     <div v-else-if="cv" class="container mx-auto px-4 print:px-0">
-      <div class="max-w-3xl mx-auto">
+      <div class="max-w-3xl mx-auto cv-content">
         <header class="mb-12 print:mb-4">
           <h1 class="text-4xl font-bold mb-6">{{ cv.title }}</h1>
           <p class="text-xl text-muted-foreground print:text-base">
@@ -316,12 +332,12 @@ if (error.value) {
 
         <!-- Download CV -->
         <div class="text-center print:hidden">
-          <a
-            href="/cv.pdf"
+          <button
+            @click="downloadPDF"
             class="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground hover:bg-primary/90"
           >
             Download CV
-          </a>
+          </button>
         </div>
       </div>
     </div>
