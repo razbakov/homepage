@@ -273,6 +273,89 @@ title: Enhancing Development with AI-Powered Systems
 
 ---
 
+# Meta Rules & System Behavior
+
+### Core System Rules
+
+1. **Rule Management**
+
+   - Auto-update system rules
+   - Maintain documentation sync
+   - Version control integration
+
+2. **System Intelligence**
+   - Context awareness
+   - Research mode (`think`)
+   - System health checks
+   - Progress tracking
+
+---
+
+# Memory & Documentation
+
+### File Structure
+
+```
+memory/
+├── inbox.md         # Quick capture
+├── tasks/
+│   ├── projects.md  # Active projects
+│   ├── someday.md  # Future ideas
+│   └── waiting.md  # Follow-ups
+└── docs/
+    ├── assessments/
+    ├── decisions/
+    └── objectives/
+```
+
+---
+
+# Review Cycles
+
+<div class="grid grid-cols-2 gap-4">
+<div>
+
+### Regular Reviews
+
+- **Daily**: Process inbox, update actions
+- **Weekly**: List review, project docs
+- **Monthly**: OKR progress, cleanup
+- **Quarterly**: Full assessment
+
+</div>
+<div>
+
+### Progress Tracking
+
+- Assessment to plan linking
+- Plan to review connection
+- Key metrics monitoring
+- Regular check-ins
+
+</div>
+</div>
+
+---
+
+# Activity Management
+
+### Smart Scheduling
+
+1. **Regular Activities**
+
+   - Weekly commitments
+   - Focus time blocks
+   - Exercise routines
+   - Personal time
+
+2. **Task Integration**
+   - Todo management
+   - Project tracking
+   - Context-based actions
+   - Follow-up system
+
+---
+
 # Personal Life OS Principles
 
 ### Bringing Software Best Practices to Work
@@ -285,6 +368,10 @@ title: Enhancing Development with AI-Powered Systems
 
 <div class="mt-8">
 🔄 Systematic approach to personal and team productivity
+</div>
+
+<div class="mt-4 text-sm">
+📦 Open Source Implementation: https://github.com/razbakov/life-os/
 </div>
 
 ---
