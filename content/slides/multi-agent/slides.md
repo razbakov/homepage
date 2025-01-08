@@ -84,6 +84,108 @@ title: Enhancing Development with AI-Powered Systems
 
 ---
 
+# Real-World Agent Examples
+
+<div class="grid grid-cols-2 gap-4">
+<div>
+
+### Secretary Agent
+
+```json
+{
+  "name": "Secretary",
+  "triggers": ["hi", "hello"],
+  "responsibilities": [
+    "Review priorities",
+    "Track decisions",
+    "Guide next steps"
+  ]
+}
+```
+
+</div>
+<div>
+
+### Rule Manager Agent
+
+```json
+{
+  "name": "Rule Manager",
+  "triggers": ["rule:"],
+  "responsibilities": ["Parse rule description", "Generate rule structure"]
+}
+```
+
+</div>
+</div>
+
+---
+
+# System Organization
+
+### Core Components
+
+1. **User Management**
+
+   - Personalized configurations
+   - Role-based access
+   - Circle memberships
+   - Onboarding process
+
+2. **Default Behaviors**
+   - Initial role assignment
+   - Documentation requirements
+   - Context management
+   - Check-in protocols
+
+---
+
+# Specialized Experts
+
+<div class="grid grid-cols-2 gap-4">
+<div>
+
+### Business & Product
+
+- Revenue strategies
+- Technical architecture
+- Feature design
+- Quality standards
+
+</div>
+<div>
+
+### Community & Operations
+
+- Event organization
+- Safety protocols
+- Member engagement
+- Documentation sync
+
+</div>
+</div>
+
+---
+
+# Automation Features
+
+### Key Capabilities
+
+1. **Change Management**
+
+   - Automated commits
+   - Conventional commit messages
+   - Documentation sync
+   - Implementation tracking
+
+2. **Documentation**
+   - Auto-update user stories
+   - Technical docs sync
+   - Link related docs
+   - Track decisions
+
+---
+
 # Setup Guide
 
 ### Basic Implementation
