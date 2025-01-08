@@ -75,13 +75,14 @@
                 <li>TypeScript</li>
                 <li>TailwindCSS</li>
                 <li>Performance Optimization</li>
+                <li>Ibexa DXP & CMS</li>
               </ul>
             </div>
             <div class="space-y-4">
               <h3 class="text-xl font-medium">Backend & Infrastructure</h3>
               <ul class="space-y-2 text-muted-foreground">
-                <li>Node.js</li>
-                <li>Firebase</li>
+                <li>Node.js & PHP</li>
+                <li>Firebase & Ibexa DXP</li>
                 <li>Netlify</li>
                 <li>CI/CD</li>
               </ul>
@@ -93,6 +94,18 @@
         <section class="mb-12">
           <h2 class="text-2xl font-bold mb-6">Professional Experience</h2>
           <div class="space-y-8">
+            <div>
+              <h3 class="text-xl font-medium">OMMAX</h3>
+              <p class="text-muted-foreground">
+                Senior Fullstack Developer (2024-Present)
+              </p>
+              <ul class="mt-2 space-y-2 text-muted-foreground">
+                <li>Full-stack development with Ibexa DXP platform</li>
+                <li>Digital Strategy & Transaction Advisory</li>
+                <li>AI & Tech Implementation</li>
+                <li>Digital Execution & Leadership</li>
+              </ul>
+            </div>
             <div>
               <h3 class="text-xl font-medium">Banovo GmbH, Munich</h3>
               <p class="text-muted-foreground">
