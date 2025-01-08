@@ -42,6 +42,15 @@
           >
             Blog
           </NuxtLink>
+          <NuxtLink
+            to="/uses"
+            class="px-3 py-2 rounded-md text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground"
+            :class="{
+              'bg-accent text-accent-foreground': $route.path === '/uses',
+            }"
+          >
+            Uses
+          </NuxtLink>
           <button
             @click="openCalendly"
             class="px-4 py-2 rounded-md text-sm font-medium bg-primary text-primary-foreground hover:bg-primary/90 transition-colors ml-2"
