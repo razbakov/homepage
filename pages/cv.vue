@@ -200,6 +200,26 @@
               <p class="text-muted-foreground">
                 Founder & Tech Lead (2020-Present)
               </p>
+              <div class="grid sm:grid-cols-3 gap-4 mt-4 mb-4">
+                <div class="text-center p-4 bg-muted rounded-lg">
+                  <div class="text-2xl font-bold">231</div>
+                  <div class="text-sm text-muted-foreground">
+                    Cities in 60 Countries
+                  </div>
+                </div>
+                <div class="text-center p-4 bg-muted rounded-lg">
+                  <div class="text-2xl font-bold">3,118</div>
+                  <div class="text-sm text-muted-foreground">
+                    Active Members
+                  </div>
+                </div>
+                <div class="text-center p-4 bg-muted rounded-lg">
+                  <div class="text-2xl font-bold">5,749</div>
+                  <div class="text-sm text-muted-foreground">
+                    Events Organized
+                  </div>
+                </div>
+              </div>
               <ul class="mt-2 space-y-2 text-muted-foreground">
                 <li>
                   Built and scaled dance community platform from concept to
