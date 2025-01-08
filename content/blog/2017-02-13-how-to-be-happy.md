@@ -8,8 +8,6 @@ image: /img/happy.jpg
 
 Few words and videos about happiness, hugs, improvisation and dance.
 
-![](/img/happy.jpg)
-
 ## Is there a way how to be happy?
 
 There was a question on Quora: [Why do we need to hug and to be hugged?](https://www.quora.com/Why-do-we-need-to-hug-and-to-be-hugged)
