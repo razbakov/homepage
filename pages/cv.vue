@@ -90,6 +90,20 @@
           </div>
         </section>
 
+        <!-- Certifications -->
+        <section class="mb-12">
+          <h2 class="text-2xl font-bold mb-6">Certifications</h2>
+          <div class="space-y-8">
+            <div>
+              <h3 class="text-xl font-medium">Magento Certified Developer</h3>
+              <p class="text-muted-foreground">Prometric (December 2014)</p>
+              <p class="text-sm text-muted-foreground">
+                Credential ID: z89dus5271
+              </p>
+            </div>
+          </div>
+        </section>
+
         <!-- Professional Experience -->
         <section class="mb-12">
           <h2 class="text-2xl font-bold mb-6">Professional Experience</h2>
@@ -143,6 +157,44 @@
                 <li>Code Review Culture</li>
                 <li>Knowledge Sharing</li>
                 <li>Process Automation</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Volunteering & Community -->
+        <section class="mb-12">
+          <h2 class="text-2xl font-bold mb-6">
+            Volunteering & Community Leadership
+          </h2>
+          <div class="space-y-8">
+            <div>
+              <h3 class="text-xl font-medium">Co-Founder, WeHelp</h3>
+              <p class="text-muted-foreground">
+                Disaster and Humanitarian Relief
+              </p>
+            </div>
+            <div>
+              <h3 class="text-xl font-medium">Co-Founder, 15x4 Munich e.V.</h3>
+              <p class="text-muted-foreground">Education</p>
+              <ul class="mt-2 space-y-2 text-muted-foreground">
+                <li>Kickstarted educational organization in Munich</li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="text-xl font-medium">
+                FrontConf — Munich Frontend Conference
+              </h3>
+              <p class="text-muted-foreground">Volunteer</p>
+            </div>
+            <div>
+              <h3 class="text-xl font-medium">AIESEC in Ukraine</h3>
+              <p class="text-muted-foreground">
+                Communication & External Relations Manager (2013-2014)
+              </p>
+              <ul class="mt-2 space-y-2 text-muted-foreground">
+                <li>Managed external communications and partnerships</li>
+                <li>Coordinated educational initiatives</li>
               </ul>
             </div>
           </div>
