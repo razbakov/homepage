@@ -52,19 +52,19 @@ const downloadPDF = async () => {
         <!-- Quick Info -->
         <div class="grid sm:grid-cols-2 gap-8 mb-12 print:mb-4 print:gap-4">
           <div class="space-y-4">
-            <div class="flex items-center gap-2">
+            <div class="flex items-start gap-2">
               <span class="font-medium">Location:</span>
               <span class="text-muted-foreground">{{
                 cv.quick_info.location
               }}</span>
             </div>
-            <div class="flex items-center gap-2">
+            <div class="flex items-start gap-2">
               <span class="font-medium">Experience:</span>
               <span class="text-muted-foreground">{{
                 cv.quick_info.experience
               }}</span>
             </div>
-            <div class="flex items-center gap-2">
+            <div class="flex items-start gap-2">
               <span class="font-medium">Languages:</span>
               <span class="text-muted-foreground">{{
                 cv.quick_info.languages.join(", ")
@@ -72,7 +72,7 @@ const downloadPDF = async () => {
             </div>
           </div>
           <div class="space-y-4">
-            <div class="flex items-center gap-2">
+            <div class="flex items-start gap-2">
               <span class="font-medium">Email:</span>
               <a
                 :href="'mailto:' + cv.quick_info.contact.email"
@@ -80,7 +80,7 @@ const downloadPDF = async () => {
                 >{{ cv.quick_info.contact.email }}</a
               >
             </div>
-            <div class="flex items-center gap-2">
+            <div class="flex items-start gap-2">
               <span class="font-medium">LinkedIn:</span>
               <a
                 :href="
@@ -92,7 +92,7 @@ const downloadPDF = async () => {
                 >@{{ cv.quick_info.contact.linkedin }}</a
               >
             </div>
-            <div class="flex items-center gap-2">
+            <div class="flex items-start gap-2">
               <span class="font-medium">GitHub:</span>
               <a
                 :href="'https://github.com/' + cv.quick_info.contact.github"
