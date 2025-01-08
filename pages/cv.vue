@@ -81,14 +81,15 @@
             <div class="space-y-4">
               <h3 class="text-xl font-medium">Backend & Infrastructure</h3>
               <ul class="space-y-2 text-muted-foreground">
-                <li>Node.js & PHP</li>
-                <li>Firebase & Ibexa DXP</li>
-                <li>AWS & Cloud Services</li>
-                <li>MongoDB & RabbitMQ</li>
-                <li>Python & WordPress</li>
-                <li>Netlify</li>
-                <li>CI/CD & DevOps</li>
-                <li>Varnish & ElasticSearch</li>
+                <li>Backend: PHP, Node.js, Python</li>
+                <li>CMS: Ibexa DXP, WordPress, Magento</li>
+                <li>Databases: MongoDB, ElasticSearch</li>
+                <li>Message Queue: RabbitMQ</li>
+                <li>Cloud: AWS, Firebase, Azure</li>
+                <li>DevOps: Docker, CI/CD, Varnish</li>
+                <li>
+                  Deployment: Netlify, Vercel, Platform.sh, Cloud Platforms
+                </li>
               </ul>
             </div>
           </div>
@@ -271,6 +272,24 @@
                 <li>Workshop Facilitation</li>
                 <li>Technical Writing</li>
                 <li>Mentorship Programs</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Education -->
+        <section class="mb-12">
+          <h2 class="text-2xl font-bold mb-6">Education</h2>
+          <div class="space-y-8">
+            <div>
+              <h3 class="text-xl font-medium">
+                Kharkiv National University of Radioelectronics
+              </h3>
+              <p class="text-muted-foreground">Computer Science (2005-2007)</p>
+              <ul class="mt-2 space-y-2 text-muted-foreground">
+                <li>Member of University Debate Team</li>
+                <li>Active member of AIESEC student organization</li>
+                <li>Organized educational conferences and events</li>
               </ul>
             </div>
           </div>
