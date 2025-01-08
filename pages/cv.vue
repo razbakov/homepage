@@ -4,11 +4,13 @@
       <div class="max-w-3xl mx-auto">
         <header class="mb-12">
           <h1 class="text-4xl font-bold mb-6">
-            Senior Web Developer & Tech Speaker
+            Senior Full Stack Developer & Tech Lead
           </h1>
           <p class="text-xl text-muted-foreground">
-            Empowering teams and audiences with expertise in web development, UX
-            design, and digital transformation.
+            Seasoned developer with 14+ years of experience, specializing in
+            Vue.js ecosystem and cloud solutions. Passionate about improving
+            developer experience, implementing efficient processes, and
+            mentoring teams.
           </p>
         </header>
 
@@ -17,16 +19,16 @@
           <div class="space-y-4">
             <div class="flex items-center gap-2">
               <span class="font-medium">Location:</span>
-              <span class="text-muted-foreground">Remote / Worldwide</span>
+              <span class="text-muted-foreground">Munich, Germany</span>
             </div>
             <div class="flex items-center gap-2">
               <span class="font-medium">Experience:</span>
-              <span class="text-muted-foreground">8+ years</span>
+              <span class="text-muted-foreground">14+ years</span>
             </div>
             <div class="flex items-center gap-2">
-              <span class="font-medium">Speaking Topics:</span>
+              <span class="font-medium">Languages:</span>
               <span class="text-muted-foreground"
-                >Web Development, UX, Team Leadership</span
+                >English, German, Spanish, Ukrainian, Russian</span
               >
             </div>
           </div>
@@ -82,6 +84,52 @@
                 <li>Firebase</li>
                 <li>Netlify</li>
                 <li>CI/CD</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Professional Experience -->
+        <section class="mb-12">
+          <h2 class="text-2xl font-bold mb-6">Professional Experience</h2>
+          <div class="space-y-8">
+            <div>
+              <h3 class="text-xl font-medium">Banovo GmbH, Munich</h3>
+              <p class="text-muted-foreground">
+                Senior Full Stack Developer (2017-2023)
+              </p>
+              <ul class="mt-2 space-y-2 text-muted-foreground">
+                <li>Led migration from native Android app to Vue.js PWA</li>
+                <li>Implemented TypeScript and GraphQL in tech stack</li>
+                <li>Integrated Microsoft Azure SSO and OneDrive</li>
+                <li>
+                  Established SCRUM processes and mentored junior developers
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Leadership & Process -->
+        <section class="mb-12">
+          <h2 class="text-2xl font-bold mb-6">Leadership & Process</h2>
+          <div class="grid sm:grid-cols-2 gap-8">
+            <div class="space-y-4">
+              <h3 class="text-xl font-medium">Process Improvement</h3>
+              <ul class="space-y-2 text-muted-foreground">
+                <li>Agile/SCRUM Implementation</li>
+                <li>CI/CD Pipeline Optimization</li>
+                <li>Development Standards</li>
+                <li>Documentation Management</li>
+              </ul>
+            </div>
+            <div class="space-y-4">
+              <h3 class="text-xl font-medium">Team Leadership</h3>
+              <ul class="space-y-2 text-muted-foreground">
+                <li>Technical Mentorship</li>
+                <li>Code Review Culture</li>
+                <li>Knowledge Sharing</li>
+                <li>Process Automation</li>
               </ul>
             </div>
           </div>
