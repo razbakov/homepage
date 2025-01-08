@@ -194,4 +194,10 @@ const { data: post } = await useAsyncData(`content-${path}`, () =>
 .prose blockquote {
   @apply mt-6 border-l-2 pl-6 italic;
 }
+.prose .aspect-ratio {
+  @apply relative w-full pb-[56.25%] my-6;
+}
+.prose .aspect-ratio iframe {
+  @apply absolute top-0 left-0 w-full h-full rounded-lg;
+}
 </style>
