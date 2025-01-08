@@ -19,7 +19,7 @@
               View Projects
             </NuxtLink>
             <NuxtLink
-              to="/about"
+              to="/cv"
               class="inline-flex h-10 items-center justify-center rounded-md border border-input px-8 text-sm font-medium hover:bg-accent hover:text-accent-foreground"
             >
               Learn More
