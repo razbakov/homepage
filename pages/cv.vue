@@ -122,9 +122,13 @@
             </div>
             <div>
               <h3 class="text-xl font-medium">Magento Certified Developer</h3>
-              <p class="text-muted-foreground">Prometric (December 2014)</p>
+              <p class="text-muted-foreground">
+                Magento/Prometric (December 2014)
+              </p>
               <p class="text-sm text-muted-foreground">
-                Credential ID: z89dus5271
+                Professional certification validating expertise in Magento's
+                architectural concepts and customization according to best
+                practices. Registration ID: z89dus5271
               </p>
             </div>
           </div>
