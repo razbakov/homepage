@@ -190,11 +190,11 @@
           },
           "methods": {
             "development": {
-              "command": "slidev content/slides/[topic]/slides.md",
+              "command": "pnpm slides:serve [topic-name]",
               "url": "http://localhost:3030"
             },
             "production": {
-              "command": "slidev build content/slides/[topic]/slides.md",
+              "command": "pnpm slides:build",
               "output": "public/slides/[topic]"
             }
           }
@@ -203,7 +203,9 @@
           "Use relative paths for assets: ./assets/image.png",
           "Keep presentations in topic-specific folders",
           "Follow markdown best practices",
-          "Use Slidev features for interactivity"
+          "Use Slidev features for interactivity",
+          "Each presentation should be in its own directory under content/slides/",
+          "Main presentation file should be named slides.md"
         ],
         "reference": "skills/presentation.md"
       }
