@@ -189,7 +189,16 @@ const { data: post } = await useAsyncData(`content-${path}`, () =>
   @apply leading-7 [&:not(:first-child)]:mt-6;
 }
 .prose ul {
-  @apply my-6 ml-6 list-disc [&>li]:mt-2;
+  @apply my-6 ml-6 list-disc;
+}
+.prose ul li {
+  @apply mt-2 leading-7;
+}
+.prose ol {
+  @apply my-6 ml-6 list-decimal;
+}
+.prose ol li {
+  @apply mt-2 leading-7;
 }
 .prose blockquote {
   @apply mt-6 border-l-2 pl-6 italic;
