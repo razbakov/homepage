@@ -9,7 +9,7 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "slides:serve": "node scripts/serve-slidev.js",
-    "slides:build": "rm -rf public/slides && mkdir -p public/slides && slidev build content/slides/slidev/slides.md --base /slides/slidev/ && mv content/slides/slidev/dist public/slides/slidev"
+    "slides:build": "node scripts/build-slidev.js"
   },
   "dependencies": {
     "@slidev/theme-default": "^0.25.0",
