@@ -113,6 +113,14 @@
               </p>
             </div>
             <div>
+              <h3 class="text-xl font-medium">Ibexa Connect Training (4.4)</h3>
+              <p class="text-muted-foreground">Ibexa (January 2024)</p>
+              <p class="text-sm text-muted-foreground">
+                Core certification covering Ibexa DXP platform fundamentals and
+                implementation practices
+              </p>
+            </div>
+            <div>
               <h3 class="text-xl font-medium">Magento Certified Developer</h3>
               <p class="text-muted-foreground">Prometric (December 2014)</p>
               <p class="text-sm text-muted-foreground">
