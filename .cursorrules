@@ -178,7 +178,35 @@
         "Vue",
         "Windi CSS",
         "Prism.js"
-      ]
+      ],
+      "documentation": {
+        "setup": {
+          "directory": {
+            "structure": "content/slides/[topic-name]/",
+            "files": [
+              "slides.md",
+              "assets/"
+            ]
+          },
+          "methods": {
+            "development": {
+              "command": "slidev content/slides/[topic]/slides.md",
+              "url": "http://localhost:3030"
+            },
+            "production": {
+              "command": "slidev build content/slides/[topic]/slides.md",
+              "output": "public/slides/[topic]"
+            }
+          }
+        },
+        "bestPractices": [
+          "Use relative paths for assets: ./assets/image.png",
+          "Keep presentations in topic-specific folders",
+          "Follow markdown best practices",
+          "Use Slidev features for interactivity"
+        ],
+        "reference": "skills/presentation.md"
+      }
     },
     "MarketingExpert": {
       "name": "Mark",
