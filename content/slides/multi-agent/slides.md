@@ -1,6 +1,5 @@
 ---
-theme: default
-background: https://source.unsplash.com/featured/?technology,matrix
+theme: apple-basic
 class: text-center
 highlighter: shiki
 lineNumbers: false
