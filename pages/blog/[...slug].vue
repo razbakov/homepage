@@ -54,7 +54,7 @@ const { data: post } = await useAsyncData(`content-${path}`, () =>
         </div>
 
         <!-- Social Sharing -->
-        <div v-if="post.tweet" class="mt-8 p-4 rounded-lg border bg-muted/50">
+        <div class="mt-8 p-4 rounded-lg border bg-muted/50">
           <p class="text-sm text-muted-foreground mb-4">
             {{
               typeof post.tweet === "string" && post.tweet.startsWith("http")
@@ -67,7 +67,10 @@ const { data: post } = await useAsyncData(`content-${path}`, () =>
               typeof post.tweet === 'string' && post.tweet.startsWith('http')
                 ? post.tweet
                 : 'https://x.com/intent/tweet?text=' +
-                  encodeURIComponent(post.tweet)
+                  encodeURIComponent(
+                    post.tweet ||
+                      `${post.title}\n\nhttps://razbakov.com${post.permalink}\n\nby @razbakov`
+                  )
             "
             target="_blank"
             rel="noopener noreferrer"
