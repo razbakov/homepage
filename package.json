@@ -7,9 +7,14 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "slides:serve": "node scripts/serve-slidev.js",
+    "slides:build": "slidev build content/slides/example/slides.md --out public/slides/example",
+    "slides:dev": "pm2 start pm2.config.js",
+    "slides:stop": "pm2 stop all"
   },
   "dependencies": {
+    "@slidev/theme-default": "^0.25.0",
     "nuxt": "^3.15.1",
     "vue": "latest",
     "vue-router": "latest"
@@ -19,9 +24,11 @@
     "@nuxt/content": "^2.13.4",
     "@nuxtjs/color-mode": "^3.5.2",
     "@nuxtjs/tailwindcss": "^6.12.2",
+    "@slidev/cli": "0.51.0-beta.4",
     "@vee-validate/nuxt": "^4.15.0",
     "@vee-validate/zod": "^4.15.0",
     "autoprefixer": "^10.4.20",
+    "pm2": "^5.4.3",
     "postcss": "^8.4.49",
     "shadcn-nuxt": "^0.11.3",
     "tailwindcss": "^3.4.17",
