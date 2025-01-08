@@ -189,6 +189,66 @@
           </div>
         </section>
 
+        <!-- Major Projects -->
+        <section class="mb-12">
+          <h2 class="text-2xl font-bold mb-6">Major Projects</h2>
+          <div class="space-y-8">
+            <div>
+              <h3 class="text-xl font-medium">WeDance Platform</h3>
+              <p class="text-muted-foreground">
+                Founder & Tech Lead (2020-Present)
+              </p>
+              <ul class="mt-2 space-y-2 text-muted-foreground">
+                <li>
+                  Built and scaled dance community platform from concept to
+                  implementation
+                </li>
+                <li>
+                  Developed full-stack solution using Vue.js, Nuxt, Firebase
+                </li>
+                <li>
+                  Led design sprints and implemented agile development processes
+                </li>
+                <li>
+                  Managed international team of developers, designers, and
+                  community managers
+                </li>
+                <li>
+                  Established partnerships and ambassador programs across
+                  multiple cities
+                </li>
+                <li>
+                  Implemented features like city profiles, event management, and
+                  community tools
+                </li>
+                <li>
+                  Evolved from Kizomba.news (2017) through DanceCard to WeDance
+                  platform
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="text-xl font-medium">MoneyDo</h3>
+              <p class="text-muted-foreground">Personal Finance App (2020)</p>
+              <ul class="mt-2 space-y-2 text-muted-foreground">
+                <li>
+                  Designed and developed personal finance management app based
+                  on Japanese Kakeibo method
+                </li>
+                <li>Built with Vue.js, Nuxt, Firebase, and TailwindCSS</li>
+                <li>
+                  Implemented smart budgeting algorithms and daily spending
+                  calculations
+                </li>
+                <li>
+                  Created flexible expense tracking system with real-time
+                  updates
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
         <!-- Leadership & Process -->
         <section class="mb-12">
           <h2 class="text-2xl font-bold mb-6">Leadership & Process</h2>
@@ -290,6 +350,20 @@
                 <li>Member of University Debate Team</li>
                 <li>Active member of AIESEC student organization</li>
                 <li>Organized educational conferences and events</li>
+                <li>Maintained university's online library system</li>
+                <li>
+                  Developed car number plate recognition system from photos
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="text-xl font-medium">Kharkiv Himnaziya No 116</h3>
+              <p class="text-muted-foreground">
+                General Secondary Education (1999-2006)
+              </p>
+              <ul class="mt-2 space-y-2 text-muted-foreground">
+                <li>Setup and maintained school's computer infrastructure</li>
+                <li>Editor of school's website</li>
               </ul>
             </div>
           </div>
