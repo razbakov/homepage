@@ -1,12 +1,12 @@
 <template>
-  <div class="py-16">
-    <div class="container mx-auto px-4">
+  <div class="py-16 print:py-4 print:text-sm">
+    <div class="container mx-auto px-4 print:px-0">
       <div class="max-w-3xl mx-auto">
-        <header class="mb-12">
+        <header class="mb-12 print:mb-4">
           <h1 class="text-4xl font-bold mb-6">
             Senior Full Stack Developer & Tech Lead
           </h1>
-          <p class="text-xl text-muted-foreground">
+          <p class="text-xl text-muted-foreground print:text-base">
             Seasoned developer with 14+ years of experience, specializing in
             Vue.js ecosystem and cloud solutions. Passionate about improving
             developer experience, implementing efficient processes, and
@@ -15,7 +15,7 @@
         </header>
 
         <!-- Quick Info -->
-        <div class="grid sm:grid-cols-2 gap-8 mb-12">
+        <div class="grid sm:grid-cols-2 gap-8 mb-12 print:mb-4 print:gap-4">
           <div class="space-y-4">
             <div class="flex items-center gap-2">
               <span class="font-medium">Location:</span>
@@ -65,8 +65,10 @@
         </div>
 
         <!-- Technical Expertise -->
-        <section class="mb-12">
-          <h2 class="text-2xl font-bold mb-6">Technical Expertise</h2>
+        <section class="mb-12 print:mb-4">
+          <h2 class="text-2xl font-bold mb-6 print:mb-2 print:text-xl">
+            Technical Expertise
+          </h2>
           <div class="grid sm:grid-cols-2 gap-8">
             <div class="space-y-4">
               <h3 class="text-xl font-medium">Frontend Development</h3>
@@ -371,7 +373,7 @@
         </section>
 
         <!-- Download CV -->
-        <div class="text-center">
+        <div class="text-center print:hidden">
           <a
             href="/cv.pdf"
             class="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground hover:bg-primary/90"
