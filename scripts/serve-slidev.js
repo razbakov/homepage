@@ -1,4 +1,5 @@
-const { exec } = require("child_process");
+import { exec } from "child_process";
+
 const topic = process.argv[2];
 
 if (!topic) {
