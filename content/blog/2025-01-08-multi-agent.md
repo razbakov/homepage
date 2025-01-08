@@ -80,6 +80,13 @@ Interact with AI agents using clear, purpose-driven communication:
    - Constructive criticism: Ask probing questions
    - Iteration requests: "Try another approach"
    - Alternative exploration: Request multiple solutions
+   - Structured feedback using [Six Thinking Hats](/6-hats) methodology:
+     - White Hat: Focus on facts and data
+     - Red Hat: Express feelings and intuitions
+     - Black Hat: Point out potential issues
+     - Yellow Hat: Highlight benefits and value
+     - Green Hat: Explore creative alternatives
+     - Blue Hat: Manage the thinking process
 
 ### Quality Control
 
