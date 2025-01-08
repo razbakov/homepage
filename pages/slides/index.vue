@@ -1,11 +1,23 @@
-<script setup lang="ts">
-const presentations = [
-  {
-    title: "Example Presentation",
-    description: "A demo of Slidev with Nuxt integration",
-    path: "/slides/example",
-  },
-];
+<script setup>
+const { data: presentations } = await useAsyncData("slides-list", () =>
+  queryContent("slides")
+    .where({
+      _extension: "md",
+      _file: { $regex: /slides\.md$/ }, // Only include files named slides.md
+    })
+    .find()
+    .then((items) =>
+      items.map((item) => {
+        const pathParts = item._file?.split("/") || [];
+        const topic = pathParts[pathParts.length - 2] || "";
+        return {
+          title: item.title || topic,
+          description: item.description,
+          path: `/slides/${topic}`,
+        };
+      })
+    )
+);
 
 useHead({
   title: "Presentations",
@@ -38,9 +50,10 @@ useHead({
       </a>
     </div>
 
-    <div v-if="!presentations.length" class="text-center py-12">
+    <div v-if="!presentations?.length" class="text-center py-12">
       <p class="text-gray-600 dark:text-gray-400">
-        No presentations available yet.
+        No presentations available yet. Add markdown files to
+        content/slides/[topic]/slides.md
       </p>
     </div>
   </main>
