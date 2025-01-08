@@ -319,16 +319,17 @@
             <div class="space-y-4">
               <h3 class="text-xl font-medium">Conference Topics</h3>
               <ul class="space-y-2 text-muted-foreground">
-                <li>Modern Web Development</li>
-                <li>UX Design Implementation</li>
-                <li>Team Leadership & Culture</li>
-                <li>Digital Transformation</li>
+                <li>
+                  "Continuous Integration with Magento Community" at Meet
+                  Magento Germany 2015
+                </li>
               </ul>
             </div>
             <div class="space-y-4">
               <h3 class="text-xl font-medium">Community Involvement</h3>
               <ul class="space-y-2 text-muted-foreground">
-                <li>Conference Speaking</li>
+                <li>Active open source contributor</li>
+                <li>Regular hackathon participant</li>
                 <li>Workshop Facilitation</li>
                 <li>Technical Writing</li>
                 <li>Mentorship Programs</li>
