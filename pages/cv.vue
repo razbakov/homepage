@@ -84,6 +84,8 @@
                 <li>Node.js & PHP</li>
                 <li>Firebase & Ibexa DXP</li>
                 <li>AWS & Cloud Services</li>
+                <li>MongoDB & RabbitMQ</li>
+                <li>Python & WordPress</li>
                 <li>Netlify</li>
                 <li>CI/CD & DevOps</li>
                 <li>Varnish & ElasticSearch</li>
@@ -161,6 +163,26 @@
                   Created technical documentation and delivered conference
                   presentations
                 </li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="text-xl font-medium">YOTTOS</h3>
+              <p class="text-muted-foreground">Python Developer (2011-2012)</p>
+              <ul class="mt-2 space-y-2 text-muted-foreground">
+                <li>Developed search engine using Python and MongoDB</li>
+                <li>Implemented message queuing with RabbitMQ</li>
+                <li>Built frontend interface using ExtJS</li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="text-xl font-medium">Zfort Group</h3>
+              <p class="text-muted-foreground">PHP Developer (2009-2011)</p>
+              <ul class="mt-2 space-y-2 text-muted-foreground">
+                <li>
+                  Developed websites using WordPress, Yii, and Zend Framework
+                </li>
+                <li>Implemented custom PHP solutions</li>
+                <li>Built responsive web interfaces</li>
               </ul>
             </div>
           </div>
