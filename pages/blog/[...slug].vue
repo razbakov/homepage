@@ -174,6 +174,15 @@ const { data: post } = await useAsyncData(`content-${path}`, () =>
 .prose img {
   @apply rounded-lg;
 }
+.prose figure {
+  @apply my-6 text-center;
+}
+.prose figure img {
+  @apply mx-auto;
+}
+.prose figcaption {
+  @apply mt-2 text-sm text-muted-foreground italic;
+}
 .prose h2,
 .prose h3,
 .prose h4 {
