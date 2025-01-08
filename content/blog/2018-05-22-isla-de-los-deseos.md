@@ -8,15 +8,11 @@ category: Philisophy
 image: /img/island-of-desires.jpg
 tweet: https://twitter.com/razbakov/status/999291156700762112
 translations:
- ru: /ru/ostrov-zhelaniy
- en: /island-of-desires
+  ru: /ru/ostrov-zhelaniy
+  en: /island-of-desires
 ---
 
 ¿Has notado esas condiciones cuando no tienes motivación, ni deseos ni apatía por lo que te rodea? ¿Y hubo momentos en los que deseabas más y más, una sensación de fortaleza y un enorme potencial interno?
-
-<figure class="aspect-ratio">
-  <iframe src="https://www.youtube.com/embed/Istn1BiKTIc" frameborder="0" allowfullscreen></iframe>
-</figure>
 
 Propongo imaginar la vida como un viaje en el océano. Nadamos sobre el agua y debajo del agua, a veces nadamos hasta los islotes, a veces hasta el continente.
 
@@ -41,3 +37,7 @@ También será útil encontrar nadadores que ayudarán a alcanzar la corriente d
 A menudo se detiene en lugares hermosos: continentes, islas, el fondo del océano con hermosos arrecifes y peces exóticos. Esto y las oportunidades y partes tangibles de lo que te espera en la isla de los deseos. Algo se puede obtener hoy.
 
 Lo principal es conocer y recordar su curso y obtener una brújula a tiempo.
+
+<figure class="aspect-ratio">
+  <iframe src="https://www.youtube.com/embed/Istn1BiKTIc" frameborder="0" allowfullscreen></iframe>
+</figure>

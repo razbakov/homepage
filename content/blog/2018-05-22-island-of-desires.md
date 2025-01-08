@@ -8,15 +8,11 @@ category: Philisophy
 image: /img/island-of-desires.jpg
 tweet: https://twitter.com/razbakov/status/999291156700762112
 translations:
- es: /es/isla-de-los-deseos
- ru: /ru/ostrov-zhelaniy
+  es: /es/isla-de-los-deseos
+  ru: /ru/ostrov-zhelaniy
 ---
 
 Have you noticed such conditions when you have no motivation, no desires and apathy to everything around you? And there were times when you want more and more, a sense of strength and a huge internal potential?
-
-<figure class="aspect-ratio">
-  <iframe src="https://www.youtube.com/embed/Istn1BiKTIc" frameborder="0" allowfullscreen></iframe>
-</figure>
 
 I propose to imagine life as a journey in the ocean. We swim above the water and under the water, sometimes swim to the islets, sometimes to the mainland.
 
@@ -41,3 +37,7 @@ It will also be useful to find swimmers who will help to reach the desired curre
 Often stop in beautiful places: continents, islands, the bottoms of the ocean with beautiful reefs and exotic fish. This and the opportunities and tangible parts of what awaits you on the island of desires. Something can be obtained today.
 
 The main thing is to know and remember your course and get yourself a compass in time.
+
+<figure class="aspect-ratio">
+  <iframe src="https://www.youtube.com/embed/Istn1BiKTIc" frameborder="0" allowfullscreen></iframe>
+</figure>
