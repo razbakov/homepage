@@ -102,6 +102,17 @@
           <h2 class="text-2xl font-bold mb-6">Certifications</h2>
           <div class="space-y-8">
             <div>
+              <h3 class="text-xl font-medium">
+                Ibexa DXP 4.5 Advanced Developer Training
+              </h3>
+              <p class="text-muted-foreground">Ibexa (January 2024)</p>
+              <p class="text-sm text-muted-foreground">
+                Advanced certification demonstrating expertise in
+                enterprise-level Ibexa DXP development, architecture, and
+                implementation
+              </p>
+            </div>
+            <div>
               <h3 class="text-xl font-medium">Magento Certified Developer</h3>
               <p class="text-muted-foreground">Prometric (December 2014)</p>
               <p class="text-sm text-muted-foreground">
