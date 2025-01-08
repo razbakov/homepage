@@ -21,4 +21,9 @@ export default defineNuxtConfig({
   },
   devtools: { enabled: true },
   compatibilityDate: "2025-01-07",
+  nitro: {
+    routeRules: {
+      "/slides/**": { static: true },
+    },
+  },
 });
