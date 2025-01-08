@@ -10,6 +10,30 @@ export default defineNuxtConfig({
   content: {
     highlight: {
       theme: "github-dark",
+      preload: [
+        "json",
+        "js",
+        "ts",
+        "html",
+        "css",
+        "vue",
+        "diff",
+        "shell",
+        "markdown",
+        "yaml",
+        "bash",
+        "ini",
+      ],
+    },
+    markdown: {
+      toc: {
+        depth: 4,
+        searchDepth: 4,
+      },
+    },
+    experimental: {
+      clientDB: true,
+      stripQueryParameters: true,
     },
   },
   colorMode: {

@@ -1,0 +1,197 @@
+---
+title: Senior Full Stack Developer & Tech Lead
+summary: Seasoned developer with 14+ years of experience, specializing in Vue.js ecosystem and cloud solutions. Passionate about improving developer experience, implementing efficient processes, and mentoring teams.
+
+quick_info:
+  location: Munich, Germany
+  experience: 14+ years
+  languages:
+    - English
+    - German
+    - Spanish
+    - Ukrainian
+    - Russian
+  contact:
+    email: alex@razbakov.com
+    linkedin: razbakov
+    github: razbakov
+
+technical_expertise:
+  frontend_development:
+    title: Frontend Development
+    skills:
+      - Vue.js & Nuxt.js
+      - TypeScript
+      - TailwindCSS
+      - Performance Optimization
+      - Ibexa DXP & CMS
+
+  backend_infrastructure:
+    title: Backend & Infrastructure
+    skills:
+      - "Backend: PHP (Symfony), Node.js, Python"
+      - "CMS & DXP: Ibexa DXP, WordPress, Magento"
+      - "Databases: MongoDB, ElasticSearch"
+      - "Message Queue: RabbitMQ"
+      - "Cloud: AWS, Firebase, Azure"
+      - "DevOps: Docker, CI/CD, Varnish"
+      - "Deployment: Netlify, Vercel, Platform.sh, Cloud Platforms"
+
+certifications:
+  - title: Ibexa DXP 4.5 Advanced Developer Training
+    issuer: Ibexa
+    date: January 2024
+    description: Advanced certification demonstrating expertise in enterprise-level Ibexa DXP development, architecture, and implementation
+
+  - title: Ibexa Connect Training (4.4)
+    issuer: Ibexa
+    date: January 2024
+    description: Core certification covering Ibexa DXP platform fundamentals and implementation practices
+
+  - title: Magento Certified Developer
+    issuer: Magento/Prometric
+    date: December 2014
+    description: Professional certification validating expertise in Magento's architectural concepts and customization according to best practices.
+    registration_id: z89dus5271
+
+professional_experience:
+  - company: OMMAX
+    position: Senior Fullstack Developer
+    period: 2024-Present
+    responsibilities:
+      - Full-stack development with Ibexa DXP platform
+      - Digital Strategy & Transaction Advisory
+      - AI & Tech Implementation
+      - Digital Execution & Leadership
+
+  - company: Banovo GmbH
+    location: Munich
+    position: Senior Full Stack Developer
+    period: 2017-2023
+    responsibilities:
+      - Led migration from native Android app to Vue.js PWA
+      - Implemented TypeScript and GraphQL in tech stack
+      - Integrated Microsoft Azure SSO and OneDrive
+      - Established SCRUM processes and mentored junior developers
+
+  - company: kirchbergerknorr Digital Agency
+    location: Munich
+    position: Magento Developer
+    period: 2012-2017
+    responsibilities:
+      - Led implementation of Continuous Integration and automated deployment processes
+      - Architected and developed e-commerce solutions using Magento, Varnish, and ElasticSearch
+      - Established SCRUM methodology and BDD practices
+      - Managed server infrastructure and AWS cloud services
+      - Mentored junior developers and conducted code reviews
+      - Contributed to open source projects and participated in hackathons
+      - Created technical documentation and delivered conference presentations
+
+  - company: YOTTOS
+    position: Python Developer
+    period: 2011-2012
+    responsibilities:
+      - Developed search engine using Python and MongoDB
+      - Implemented message queuing with RabbitMQ
+      - Built frontend interface using ExtJS
+
+  - company: Zfort Group
+    position: PHP Developer
+    period: 2009-2011
+    responsibilities:
+      - Developed websites using WordPress, Yii, and Zend Framework
+      - Implemented custom PHP solutions
+      - Built responsive web interfaces
+
+major_projects:
+  - name: WeDance Platform
+    role: Founder & Tech Lead
+    period: 2020-Present
+    stats:
+      cities: 231
+      countries: 60
+      active_members: 3118
+      events_organized: 5749
+    achievements:
+      - Built and scaled dance community platform from concept to implementation
+      - Developed full-stack solution using Vue.js, Nuxt, Firebase
+      - Led design sprints and implemented agile development processes
+      - Managed international team of developers, designers, and community managers
+      - Established partnerships and ambassador programs across multiple cities
+      - Implemented features like city profiles, event management, and community tools
+      - Evolved from Kizomba.news (2017) through DanceCard to WeDance platform
+
+  - name: MoneyDo
+    role: Personal Finance App
+    period: 2020
+    achievements:
+      - Designed and developed personal finance management app based on Japanese Kakeibo method
+      - Built with Vue.js, Nuxt, Firebase, and TailwindCSS
+      - Implemented smart budgeting algorithms and daily spending calculations
+      - Created flexible expense tracking system with real-time updates
+
+leadership_process:
+  process_improvement:
+    - Agile/SCRUM Implementation
+    - CI/CD Pipeline Optimization
+    - Development Standards
+    - Documentation Management
+
+  team_leadership:
+    - Technical Mentorship
+    - Code Review Culture
+    - Knowledge Sharing
+    - Process Automation
+
+volunteering:
+  - organization: WeHelp
+    role: Co-Founder
+    field: Disaster and Humanitarian Relief
+
+  - organization: 15x4 Munich e.V.
+    role: Co-Founder
+    field: Education
+    achievements:
+      - Kickstarted educational organization in Munich
+
+  - organization: FrontConf — Munich Frontend Conference
+    role: Volunteer
+    field: Technology
+
+  - organization: AIESEC in Ukraine
+    role: Communication & External Relations Manager
+    period: 2013-2014
+    field: Education
+    responsibilities:
+      - Managed external communications and partnerships
+      - Coordinated educational initiatives
+
+speaking_community:
+  conference_talks:
+    - title: Continuous Integration with Magento Community
+      event: Meet Magento Germany 2015
+
+  community_involvement:
+    - Active open source contributor
+    - Regular hackathon participant
+    - Workshop Facilitation
+    - Technical Writing
+    - Mentorship Programs
+
+education:
+  - institution: Kharkiv National University of Radioelectronics
+    degree: Computer Science
+    period: 2005-2007
+    achievements:
+      - Member of University Debate Team
+      - Active member of AIESEC student organization
+      - Organized educational conferences and events
+      - Maintained university's online library system
+      - Developed car number plate recognition system from photos
+
+  - institution: Kharkiv Himnaziya No 116
+    degree: General Secondary Education
+    period: 1999-2006
+    achievements:
+      - Setup and maintained school's computer infrastructure
+      - Editor of school's website
