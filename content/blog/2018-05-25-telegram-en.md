@@ -6,11 +6,9 @@ date: 2018-05-25
 category: Apps
 image: /img/telegram.jpg
 translations:
- ru: /ru/telegram
+  ru: /ru/telegram
 ---
 
-![](/img/telegram.jpg)
- 
 - Telegram is much more secure
 - You don’t have to share your phone number to use Telegram
 - Telegram is not owned by Facebook

@@ -7,10 +7,8 @@ language: ru
 category: Apps
 image: /img/telegram.jpg
 translations:
- en: /telegram
+  en: /telegram
 ---
-
-![](/img/telegram.jpg)
 
 - Telegram намного безопаснее
 - Вам не нужно показывать свой номер телефона, когда вступаете в группы
