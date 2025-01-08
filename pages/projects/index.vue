@@ -65,6 +65,30 @@ const { data: projects } = await useAsyncData("projects-list", () =>
                     {{ tech }}
                   </span>
                 </div>
+                <a
+                  v-if="project.url"
+                  :href="project.url"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-flex items-center gap-1 mt-2 text-xs font-medium text-primary hover:text-primary/80"
+                  @click.stop
+                >
+                  Visit Site
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M7 7h10v10" />
+                    <path d="M7 17 17 7" />
+                  </svg>
+                </a>
               </div>
             </NuxtLink>
           </article>

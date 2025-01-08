@@ -31,7 +31,32 @@ const { data: project } = await useAsyncData(`content-${path}`, () =>
               :alt="project.title"
               class="w-16 h-16"
             />
-            <h1 class="text-4xl font-bold">{{ project.title }}</h1>
+            <div>
+              <h1 class="text-4xl font-bold">{{ project.title }}</h1>
+              <a
+                v-if="project.url"
+                :href="project.url"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex items-center gap-2 mt-2 text-sm font-medium text-primary hover:text-primary/80"
+              >
+                Visit Site
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M7 7h10v10" />
+                  <path d="M7 17 17 7" />
+                </svg>
+              </a>
+            </div>
           </div>
           <p class="text-xl text-muted-foreground">{{ project.description }}</p>
         </header>
@@ -40,9 +65,7 @@ const { data: project } = await useAsyncData(`content-${path}`, () =>
         <div class="prose prose-lg max-w-none">
           <ContentDoc>
             <template #empty>
-              <p class="text-muted-foreground">
-                No additional details available for this project.
-              </p>
+              <p class="text-muted-foreground"></p>
             </template>
           </ContentDoc>
         </div>
