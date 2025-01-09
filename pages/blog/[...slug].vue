@@ -57,31 +57,45 @@ const { data: post } = await useAsyncData(`content-${path}`, () =>
         <div class="mt-8 p-4 rounded-lg border bg-muted/50">
           <p class="text-sm text-muted-foreground mb-4">
             {{
-              typeof post.tweet === "string" && post.tweet.startsWith("http")
+              post.telegram
+                ? "Join the discussion on Telegram!"
+                : typeof post.tweet === "string" &&
+                  post.tweet.startsWith("http")
                 ? "Join the discussion on X!"
                 : "Have thoughts about this post? Let's discuss it on X!"
             }}
           </p>
-          <a
-            :href="
-              typeof post.tweet === 'string' && post.tweet.startsWith('http')
-                ? post.tweet
-                : 'https://x.com/intent/tweet?text=' +
-                  encodeURIComponent(
-                    post.tweet ||
-                      `${post.title}\n\nhttps://razbakov.com${post.permalink}\n\nby @razbakov`
-                  )
-            "
-            target="_blank"
-            rel="noopener noreferrer"
-            class="inline-flex h-9 items-center justify-center rounded-md bg-[#000000] px-4 text-sm font-medium text-white hover:bg-[#000000]/90"
-          >
-            {{
-              typeof post.tweet === "string" && post.tweet.startsWith("http")
-                ? "View Discussion"
-                : "Share on X"
-            }}
-          </a>
+          <div class="flex flex-wrap gap-3">
+            <a
+              v-if="post.telegram"
+              :href="post.telegram"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex h-9 items-center justify-center rounded-md bg-[#229ED9] px-4 text-sm font-medium text-white hover:bg-[#229ED9]/90"
+            >
+              Join Telegram Discussion
+            </a>
+            <a
+              :href="
+                typeof post.tweet === 'string' && post.tweet.startsWith('http')
+                  ? post.tweet
+                  : 'https://x.com/intent/tweet?text=' +
+                    encodeURIComponent(
+                      post.tweet ||
+                        `${post.title}\n\nhttps://razbakov.com${post.permalink}\n\nby @razbakov`
+                    )
+              "
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex h-9 items-center justify-center rounded-md bg-[#000000] px-4 text-sm font-medium text-white hover:bg-[#000000]/90"
+            >
+              {{
+                typeof post.tweet === "string" && post.tweet.startsWith("http")
+                  ? "View Discussion on X"
+                  : "Share on X"
+              }}
+            </a>
+          </div>
         </div>
 
         <!-- Author -->
