@@ -22,7 +22,7 @@ const { data: post } = await useAsyncData(`content-${path}`, () =>
               })
             }}</time>
             <span>•</span>
-            <div class="flex gap-2">
+            <div class="flex flex-wrap gap-2">
               <span
                 v-for="tag in post.tags"
                 :key="tag"
