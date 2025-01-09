@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "nuxt build && cd slidev && pnpm install && pnpm build",
+    "build": "pnpm build:nuxt",
     "build:nuxt": "nuxt build",
     "build:slides": "cd slidev && pnpm install && pnpm build",
     "dev": "nuxt dev",
