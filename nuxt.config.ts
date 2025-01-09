@@ -40,6 +40,7 @@ export default defineNuxtConfig({
     classSuffix: "",
     preference: "light",
     fallback: "light",
+    disableTransition: true,
   },
   shadcn: {
     prefix: "",
