@@ -12,7 +12,31 @@
           />
           <span class="font-bold text-xl">Alex Razbakov</span>
         </NuxtLink>
-        <div class="flex items-center gap-1">
+
+        <!-- Mobile Menu Button -->
+        <button
+          @click="isMenuOpen = !isMenuOpen"
+          class="md:hidden p-2 rounded-md hover:bg-accent"
+          aria-label="Toggle menu"
+        >
+          <div class="w-6 h-6 flex flex-col justify-center gap-1.5">
+            <span
+              class="block w-full h-0.5 bg-foreground transition-transform"
+              :class="{ 'rotate-45 translate-y-2': isMenuOpen }"
+            ></span>
+            <span
+              class="block w-full h-0.5 bg-foreground transition-opacity"
+              :class="{ 'opacity-0': isMenuOpen }"
+            ></span>
+            <span
+              class="block w-full h-0.5 bg-foreground transition-transform"
+              :class="{ '-rotate-45 -translate-y-2': isMenuOpen }"
+            ></span>
+          </div>
+        </button>
+
+        <!-- Desktop Menu -->
+        <div class="hidden md:flex items-center gap-1">
           <NuxtLink
             to="/cv"
             class="px-3 py-2 rounded-md text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground"
@@ -59,6 +83,65 @@
           </button>
         </div>
       </nav>
+
+      <!-- Mobile Menu -->
+      <div v-if="isMenuOpen" class="md:hidden border-t">
+        <div class="container mx-auto px-4 py-4 flex flex-col gap-2">
+          <NuxtLink
+            to="/cv"
+            class="px-3 py-2 rounded-md text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground"
+            :class="{
+              'bg-accent text-accent-foreground': $route.path === '/cv',
+            }"
+            @click="isMenuOpen = false"
+          >
+            CV
+          </NuxtLink>
+          <NuxtLink
+            to="/projects"
+            class="px-3 py-2 rounded-md text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground"
+            :class="{
+              'bg-accent text-accent-foreground':
+                $route.path.startsWith('/projects'),
+            }"
+            @click="isMenuOpen = false"
+          >
+            Projects
+          </NuxtLink>
+          <NuxtLink
+            to="/blog"
+            class="px-3 py-2 rounded-md text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground"
+            :class="{
+              'bg-accent text-accent-foreground':
+                $route.path.startsWith('/blog'),
+            }"
+            @click="isMenuOpen = false"
+          >
+            Blog
+          </NuxtLink>
+          <NuxtLink
+            to="/uses"
+            class="px-3 py-2 rounded-md text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground"
+            :class="{
+              'bg-accent text-accent-foreground': $route.path === '/uses',
+            }"
+            @click="isMenuOpen = false"
+          >
+            Uses
+          </NuxtLink>
+          <button
+            @click="
+              () => {
+                openCalendly();
+                isMenuOpen = false;
+              }
+            "
+            class="px-4 py-2 rounded-md text-sm font-medium bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
+          >
+            Schedule a Call
+          </button>
+        </div>
+      </div>
     </header>
 
     <main>
@@ -76,6 +159,10 @@
 </template>
 
 <script setup>
+import { ref } from "vue";
+
+const isMenuOpen = ref(false);
+
 const openCalendly = () => {
   Calendly.initPopupWidget({
     url: "https://calendly.com/razbakov",
