@@ -6,6 +6,7 @@ permalink: /personal-life-management-system
 category: Productivity
 tags: [productivity, git, cursor, ai, personal development, life management]
 image: /img/lifeos.webp
+telegram: https://t.me/razbakov/48
 ---
 
 In today's fast-paced world, managing personal growth and life goals can be overwhelming. I've recently implemented a systematic approach to personal development using Git and markdown files. Here's how and why I built this system.
