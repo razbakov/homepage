@@ -2,7 +2,6 @@
 export default defineNuxtConfig({
   modules: [
     "@nuxtjs/tailwindcss",
-    "@nuxtjs/color-mode",
     "shadcn-nuxt",
     "@vee-validate/nuxt",
     "@nuxt/content",
@@ -35,12 +34,6 @@ export default defineNuxtConfig({
       clientDB: true,
       stripQueryParameters: true,
     },
-  },
-  colorMode: {
-    classSuffix: "",
-    preference: "light",
-    fallback: "light",
-    disableTransition: true,
   },
   shadcn: {
     prefix: "",
