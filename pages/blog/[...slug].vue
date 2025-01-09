@@ -71,8 +71,9 @@ const { data: post } = await useAsyncData(`content-${path}`, () =>
               :href="post.telegram"
               target="_blank"
               rel="noopener noreferrer"
-              class="inline-flex h-9 items-center justify-center rounded-md bg-[#229ED9] px-4 text-sm font-medium text-white hover:bg-[#229ED9]/90"
+              class="inline-flex h-9 items-center justify-center rounded-md bg-sky-500 px-4 text-sm font-medium text-white hover:bg-sky-600 gap-2"
             >
+              <Icon name="mdi:telegram" class="w-4 h-4" />
               Join Telegram Discussion
             </a>
             <a
@@ -87,8 +88,9 @@ const { data: post } = await useAsyncData(`content-${path}`, () =>
               "
               target="_blank"
               rel="noopener noreferrer"
-              class="inline-flex h-9 items-center justify-center rounded-md bg-[#000000] px-4 text-sm font-medium text-white hover:bg-[#000000]/90"
+              class="inline-flex h-9 items-center justify-center rounded-md bg-[#000000] px-4 text-sm font-medium text-white hover:bg-[#000000]/90 gap-2"
             >
+              <Icon name="simple-icons:x" class="w-4 h-4" />
               {{
                 typeof post.tweet === "string" && post.tweet.startsWith("http")
                   ? "View Discussion on X"
