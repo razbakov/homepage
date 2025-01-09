@@ -38,6 +38,8 @@ export default defineNuxtConfig({
   },
   colorMode: {
     classSuffix: "",
+    preference: "light",
+    fallback: "light",
   },
   shadcn: {
     prefix: "",
