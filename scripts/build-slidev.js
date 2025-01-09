@@ -23,7 +23,7 @@ for (const dir of dirs) {
 
   try {
     // Build slides
-    execSync(`slidev build ${slidePath} --base /slides/${dir}/`, {
+    execSync(`pnpm slidev build ${slidePath} --base /slides/${dir}/`, {
       stdio: "inherit",
     });
     // Move built files to public directory
