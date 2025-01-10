@@ -127,4 +127,6 @@ Remember that each interaction and setup variation can produce different results
 
 Building effective multi-agent AI systems requires a balanced approach combining technical expertise with management principles. Success comes from clear communication, structured development, and consistent oversight while remaining flexible enough to adapt to emerging possibilities.
 
+For a practical implementation of these principles, see how the [AI Secretary](/blog/2025-01-10-ai-first) project creates an AI-first organizational experience using multi-agent systems.
+
 Remember: The key to mastering multi-agent systems lies in treating them as both powerful tools and team members that require guidance, structure, and clear communication protocols.

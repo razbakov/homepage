@@ -104,6 +104,8 @@ The Architect framework excels in various scenarios:
 - Project management requiring multiple specialized agents
 - Quality assurance systems with multiple validation layers
 
+For a real-world example of Architect in action, check out the [AI Secretary](/blog/2025-01-10-ai-first) project, which implements this framework to create a complete AI-first organizational system.
+
 ## Conclusion
 
 Architect represents a significant step forward in AI agent framework design. By combining structured agent creation, sophisticated memory systems, and clear interaction patterns, it provides a robust foundation for building effective AI teams.

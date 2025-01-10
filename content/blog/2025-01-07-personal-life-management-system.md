@@ -80,6 +80,8 @@ What makes this system truly unique is its integration with Cursor AI powered by
   - Adapt the system to your personal style and needs
 - **Natural Communication**: Simply express what you want to achieve, and the AI helps formulate concrete actions and next steps
 
+> For a more comprehensive implementation of AI-powered assistance in an organizational context, check out the [AI Secretary](/blog/2025-01-10-ai-first) project, which extends these principles to team management and business operations.
+
 ## Benefits
 
 1. **Version Control**
