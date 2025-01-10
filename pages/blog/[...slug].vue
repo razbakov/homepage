@@ -3,6 +3,18 @@ const { path } = useRoute();
 const { data: post } = await useAsyncData(`content-${path}`, () =>
   queryContent(path).findOne()
 );
+
+// Fetch related articles data
+const { data: relatedPosts } = await useAsyncData(
+  `related-${path}`,
+  async () => {
+    if (!post.value?.related?.length) return [];
+    const posts = await Promise.all(
+      post.value.related.map((path) => queryContent(path).findOne())
+    );
+    return posts.filter(Boolean);
+  }
+);
 </script>
 
 <template>
@@ -51,6 +63,18 @@ const { data: post } = await useAsyncData(`content-${path}`, () =>
         <!-- Content -->
         <div class="prose prose-lg max-w-none">
           <ContentDoc />
+        </div>
+
+        <!-- CTA -->
+        <div v-if="post.cta" class="mt-8 flex justify-center">
+          <a
+            :href="post.cta.url"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground hover:bg-primary/90"
+          >
+            {{ post.cta.label }}
+          </a>
         </div>
 
         <!-- Social Sharing -->
@@ -146,6 +170,27 @@ const { data: post } = await useAsyncData(`content-${path}`, () =>
             ← Back to Blog
           </NuxtLink>
         </nav>
+
+        <!-- Related Articles -->
+        <div v-if="relatedPosts?.length" class="mt-12 border-t pt-8">
+          <h2 class="text-2xl font-bold mb-6">Related Articles</h2>
+          <div class="grid gap-6">
+            <article
+              v-for="related in relatedPosts"
+              :key="related._path"
+              class="group"
+            >
+              <NuxtLink :to="related._path" class="flex flex-col gap-2">
+                <h3 class="text-lg font-semibold group-hover:text-primary">
+                  {{ related.title }}
+                </h3>
+                <p class="text-sm text-muted-foreground line-clamp-2">
+                  {{ related.description }}
+                </p>
+              </NuxtLink>
+            </article>
+          </div>
+        </div>
       </div>
     </div>
   </article>

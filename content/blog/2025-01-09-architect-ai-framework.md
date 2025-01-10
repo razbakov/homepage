@@ -7,6 +7,12 @@ category: "Artificial Intelligence"
 tags:
   ["AI", "Framework", "Agent Systems", "Team Building", "Software Architecture"]
 image:
+cta:
+  label: Get Started with Architect
+  url: https://github.com/razbakov/ai-architect
+related:
+  - /blog/2025-01-10-ai-first
+  - /blog/2025-01-08-multi-agent
 ---
 
 ## Introduction

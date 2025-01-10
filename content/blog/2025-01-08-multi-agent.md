@@ -6,6 +6,12 @@ permalink: /multi-agent
 category: "Artificial Intelligence"
 tags: ["AI", "Multi-Agent Systems", "Software Development", "Team Management"]
 image:
+cta:
+  label: See it in Action
+  url: /blog/2025-01-10-ai-first
+related:
+  - /blog/2025-01-10-ai-first
+  - /blog/2025-01-09-architect-ai-framework
 ---
 
 ## Introduction

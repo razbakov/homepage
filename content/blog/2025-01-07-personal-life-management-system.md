@@ -7,6 +7,11 @@ category: Productivity
 tags: [productivity, git, cursor, ai, personal development, life management]
 image: /img/lifeos.webp
 telegram: https://t.me/razbakov/48
+cta:
+  label: Try Life OS
+  url: https://github.com/razbakov/life-os
+related:
+  - /blog/2025-01-10-ai-first
 ---
 
 In today's fast-paced world, managing personal growth and life goals can be overwhelming. I've recently implemented a systematic approach to personal development using Git and markdown files. Here's how and why I built this system.
