@@ -57,7 +57,7 @@ Think of managing AI agents like running an HR department for a high-performing 
 2. Task Management:
    - Break down into epics and user stories
    - Define clear success metrics
-   - Track progress systematically using [structured templates](/ru/gtd-diary)
+   - Track progress systematically using structured templates
 
 ### Phase 2: Development Approach
 
@@ -86,7 +86,7 @@ Interact with AI agents using clear, purpose-driven communication:
    - Constructive criticism: Ask probing questions
    - Iteration requests: "Try another approach"
    - Alternative exploration: Request multiple solutions
-   - Structured feedback using [Six Thinking Hats](/6-hats) methodology:
+   - Structured feedback using [Six Thinking Hats](/blog/2018-05-16-thinking-hats) methodology:
      - White Hat: Focus on facts and data
      - Red Hat: Express feelings and intuitions
      - Black Hat: Point out potential issues
@@ -120,7 +120,7 @@ Utilize git for:
 - Maintaining implementation flexibility
 - Managing multiple solution paths
 
-Similar to a [personal life management system](/personal-life-management-system), version control allows you to track the evolution of your multi-agent system, document decisions, and maintain a clear history of changes.
+Similar to a [personal life management system](/blog/2025-01-07-personal-life-management-system), version control allows you to track the evolution of your multi-agent system, document decisions, and maintain a clear history of changes.
 
 ### Continuous Improvement
 
