@@ -12,8 +12,10 @@ export default defineNuxtConfig({
     "@nuxt/icon",
     "@nuxtjs/robots",
     "@nuxtjs/sitemap",
+    "nuxt-schema-org",
   ],
   content: {
+    documentDriven: true,
     highlight: {
       theme: "github-dark",
       preload: [
