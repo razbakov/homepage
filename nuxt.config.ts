@@ -1,8 +1,21 @@
+import { definePerson } from "nuxt-schema-org/schema";
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   site: {
     url: "https://razbakov.com",
     name: "Alex Razbakov",
+  },
+  schemaOrg: {
+    identity: definePerson({
+      name: "Alex Razbakov",
+
+      image: "/images/avatar.png",
+      description: "Software engineer and open-source contributor",
+
+      url: "razbakov.com",
+      sameAs: ["https://github.com/razbakov"],
+    }),
   },
   modules: [
     "@nuxtjs/tailwindcss",
