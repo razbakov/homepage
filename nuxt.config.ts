@@ -13,6 +13,7 @@ export default defineNuxtConfig({
     "@nuxtjs/robots",
     "@nuxtjs/sitemap",
     "nuxt-schema-org",
+    "nuxt-og-image",
   ],
   content: {
     documentDriven: true,
