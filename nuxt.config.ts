@@ -1,5 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  site: {
+    url: "https://razbakov.com",
+    name: "Alex Razbakov",
+  },
   modules: [
     "@nuxtjs/tailwindcss",
     "shadcn-nuxt",
