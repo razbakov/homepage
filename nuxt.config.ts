@@ -47,4 +47,10 @@ export default defineNuxtConfig({
       "/slides/**": { static: true },
     },
   },
+  runtimeConfig: {
+    public: {
+      posthogPublicKey: "phc_OmGQ7s6qOxYgndhw6m3gh18Kkby0a2NdMGx4lGsEoob",
+      posthogHost: "https://eu.i.posthog.com",
+    },
+  },
 });
