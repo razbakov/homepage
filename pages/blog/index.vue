@@ -16,7 +16,10 @@ const availableTags = computed(() => {
   return new Set(
     posts.value
       .filter((post) => post.category === selectedCategory.value)
-      .flatMap((post) => post.tags || [])
+      .flatMap(
+        (post) =>
+          post.tags?.filter((tag) => tag !== selectedCategory.value) || []
+      )
   );
 });
 
