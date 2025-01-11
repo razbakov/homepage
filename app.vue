@@ -37,109 +37,18 @@
 
         <!-- Desktop Menu -->
         <div class="hidden md:flex items-center gap-1">
-          <NuxtLink
-            to="/cv"
-            class="px-3 py-2 rounded-md text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground"
-            :class="{
-              'bg-accent text-accent-foreground': $route.path === '/cv',
-            }"
-          >
-            CV
-          </NuxtLink>
-          <NuxtLink
-            to="/projects"
-            class="px-3 py-2 rounded-md text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground"
-            :class="{
-              'bg-accent text-accent-foreground':
-                $route.path.startsWith('/projects'),
-            }"
-          >
-            Projects
-          </NuxtLink>
-          <NuxtLink
-            to="/blog"
-            class="px-3 py-2 rounded-md text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground"
-            :class="{
-              'bg-accent text-accent-foreground':
-                $route.path.startsWith('/blog'),
-            }"
-          >
-            Blog
-          </NuxtLink>
-          <NuxtLink
-            to="/uses"
-            class="px-3 py-2 rounded-md text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground"
-            :class="{
-              'bg-accent text-accent-foreground': $route.path === '/uses',
-            }"
-          >
-            Uses
-          </NuxtLink>
-          <button
-            @click="openCalendly"
-            class="px-4 py-2 rounded-md text-sm font-medium bg-primary text-primary-foreground hover:bg-primary/90 transition-colors ml-2"
-          >
-            Schedule a Call
-          </button>
+          <MainNav @schedule-call="openCalendly" />
         </div>
       </nav>
 
       <!-- Mobile Menu -->
       <div v-if="isMenuOpen" class="md:hidden border-t">
         <div class="container mx-auto px-4 py-4 flex flex-col gap-2">
-          <NuxtLink
-            to="/cv"
-            class="px-3 py-2 rounded-md text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground"
-            :class="{
-              'bg-accent text-accent-foreground': $route.path === '/cv',
-            }"
-            @click="isMenuOpen = false"
-          >
-            CV
-          </NuxtLink>
-          <NuxtLink
-            to="/projects"
-            class="px-3 py-2 rounded-md text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground"
-            :class="{
-              'bg-accent text-accent-foreground':
-                $route.path.startsWith('/projects'),
-            }"
-            @click="isMenuOpen = false"
-          >
-            Projects
-          </NuxtLink>
-          <NuxtLink
-            to="/blog"
-            class="px-3 py-2 rounded-md text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground"
-            :class="{
-              'bg-accent text-accent-foreground':
-                $route.path.startsWith('/blog'),
-            }"
-            @click="isMenuOpen = false"
-          >
-            Blog
-          </NuxtLink>
-          <NuxtLink
-            to="/uses"
-            class="px-3 py-2 rounded-md text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground"
-            :class="{
-              'bg-accent text-accent-foreground': $route.path === '/uses',
-            }"
-            @click="isMenuOpen = false"
-          >
-            Uses
-          </NuxtLink>
-          <button
-            @click="
-              () => {
-                openCalendly();
-                isMenuOpen = false;
-              }
-            "
-            class="px-4 py-2 rounded-md text-sm font-medium bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
-          >
-            Schedule a Call
-          </button>
+          <MainNav
+            :is-mobile="true"
+            @item-click="isMenuOpen = false"
+            @schedule-call="openCalendlyMobile"
+          />
         </div>
       </div>
     </header>
@@ -176,6 +85,11 @@ const openCalendly = () => {
     },
     enableClosing: true,
   });
+};
+
+const openCalendlyMobile = () => {
+  isMenuOpen.value = false;
+  openCalendly();
 };
 
 onMounted(() => {
