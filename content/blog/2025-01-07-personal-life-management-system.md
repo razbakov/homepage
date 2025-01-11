@@ -1,10 +1,14 @@
 ---
-title: "Life OS: The AI Assistant That Actually Works 🤖"
-description: "Tired of Siri's empty promises? I built a personal AI system that actually helps you achieve your goals"
+title: Personal Life Management System
+description: A gamified approach to personal development and productivity
 date: 2025-01-07
 permalink: /personal-life-management-system
 category: Productivity
-tags: [productivity, git, cursor, ai, personal development, life management]
+tags:
+  - Productivity
+  - Personal Development
+  - Life Management
+  - Gamification
 image: /img/lifeos.webp
 telegram: https://t.me/razbakov/48
 cta:

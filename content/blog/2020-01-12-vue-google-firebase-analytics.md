@@ -4,12 +4,12 @@ description: How to integrate Google Analytics App + Web and Firebase Analytics 
 permalink: /vue-google-firebase-analytics
 date: 2020-01-12
 image: https://thepracticaldev.s3.amazonaws.com/i/z96uk4p7dwsx7nx9f3jm.png
-tags: 
+tags:
   - Vue
   - Analytics
   - Quasar
   - Firebase
-category: WebDev
+  - Web Development
 tweet: https://twitter.com/razbakov/status/1233891527916691463
 ---
 
@@ -83,7 +83,6 @@ Your `package.json` should look like this:
     "vue-template-compiler": "^2.6.11"
   }
 }
-
 ```
 
 Go to the [Firebase console](https://console.firebase.google.com/) and setup new app with activated Analytics.
@@ -99,7 +98,7 @@ import App from './App.vue'
 import * as firebase from "firebase/app";
 import "firebase/firestore";
 import "firebase/analytics";
-    
+
 const firebaseConfig = {
   apiKey: '<your-api-key>',
   authDomain: '<your-auth-domain>',
@@ -122,7 +121,7 @@ Vue.prototype.$analytics = firebase.analytics();
 new Vue({
   render: h => h(App),
 }).$mount('#app')
-    
+
 ```
 
 Now you can track events in your component methods like this:
@@ -177,21 +176,21 @@ export default {
       firebase.analytics().logEvent("screen_view", {
         app_name: isPWA() ? "pwa" : "web",
         screen_name: metaInfo.title,
-        app_version: version
+        app_version: version,
       });
-    }
+    },
   },
   mounted() {
-    firebase.auth().onAuthStateChanged(user => {
+    firebase.auth().onAuthStateChanged((user) => {
       if (user) {
         this.$analytics.setUserId(user.uid);
         this.$analytics.setUserProperties({
-          account_type: "Basic" // can help you to define audiences
+          account_type: "Basic", // can help you to define audiences
         });
       }
     });
-  }
-}
+  },
+};
 ```
 
 ## Debugging
@@ -207,6 +206,6 @@ I used the following browser extensions to debug tracking:
 
 App version is [automatically collected user property](https://support.google.com/analytics/answer/9268042?hl=en&ref_topic=9228654), but not in case if it is a web app.
 
-[gtag screenview](https://developers.google.com/analytics/devguides/collection/gtagjs/screens) has an `app_version`, somehow Analytics doesn't use it in reporting. 
+[gtag screenview](https://developers.google.com/analytics/devguides/collection/gtagjs/screens) has an `app_version`, somehow Analytics doesn't use it in reporting.
 
 Other option is to add it to user properties, at least it becomes visible and filterable in reporting, but it is not clear if it works as intended.

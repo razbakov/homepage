@@ -1,10 +1,12 @@
 ---
-title: How to use Google Ads API in PHP
-description: Step by step guide how to use Google Ads API
-permalink: /google-ads-php
+title: Google Ads API with PHP
+description: How to setup Google Ads API with PHP and get reports
 date: 2020-07-30
-category: WebDev
-image: /img/google-ads-php/api-access.png
+tags:
+  - PHP
+  - Google Ads
+  - API Integration
+  - Web Development
 ---
 
 ## 5 steps guide how to use googleads-php-lib

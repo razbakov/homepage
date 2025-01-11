@@ -1,9 +1,11 @@
 ---
 title: Telegram
 description: Reasons to use this messenger
-permalink: /telegram
 date: 2018-05-25
-category: Apps
+tags:
+  - Tools & Apps
+  - Communication
+  - Productivity
 image: /img/telegram.jpg
 translations:
   ru: /ru/telegram

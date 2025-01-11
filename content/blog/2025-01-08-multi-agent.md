@@ -1,17 +1,12 @@
 ---
-title: "Building Effective Multi-Agent AI Systems: A Comprehensive Guide"
-description: "Learn how to create, manage, and optimize multi-agent AI systems using best practices from software development and team management."
+title: Building Multi-Agent Systems
+description: A guide to creating and managing effective multi-agent AI systems
 date: 2025-01-08
-permalink: /multi-agent
-category: "Artificial Intelligence"
-tags: ["AI", "Multi-Agent Systems", "Software Development", "Team Management"]
-image: /img/ai-guide.webp
-cta:
-  label: See it in Action
-  url: /blog/2025-01-10-ai-first
-related:
-  - /blog/2025-01-10-ai-first
-  - /blog/2025-01-09-architect-ai-framework
+tags:
+  - AI & Machine Learning
+  - Development
+  - System Architecture
+  - Team Management
 ---
 
 ## Introduction

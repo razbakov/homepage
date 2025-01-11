@@ -1,9 +1,12 @@
 ---
 title: 6 Thinking Hats
-description: Tool for group discussion and individual thinking
-permalink: /6-hats
+description: Six Thinking Hats is a system designed by Edward de Bono which describes a tool for group discussion and individual thinking
 date: 2018-05-16
-category: Creativity
+tags:
+  - Creativity
+  - Problem Solving
+  - Decision Making
+  - Productivity
 image: /img/6hats.png
 tweet: https://twitter.com/razbakov/status/997392437189505024
 hideImage: true

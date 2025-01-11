@@ -1,10 +1,13 @@
 ---
 title: Island of desires
-description: Have you noticed such conditions when you have no motivation?
-permalink: /island-of-desires
+description: A story about desires and their fulfillment
 date: 2018-05-22
 language: en
-category: Philisophy
+tags:
+  - Philosophy
+  - Personal Growth
+  - Life Lessons
+  - Storytelling
 image: /img/island-of-desires.jpg
 tweet: https://twitter.com/razbakov/status/999291156700762112
 translations:

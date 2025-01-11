@@ -1,10 +1,13 @@
 ---
-title: Телеграм
-description: Причины использовать этот мессенджер
-permalink: /ru/telegram
+title: Telegram
+description: Почему я использую Telegram
 date: 2018-05-25
 language: ru
-category: Apps
+tags:
+  - Apps
+  - Communication
+  - Messaging
+  - Technology
 image: /img/telegram.jpg
 translations:
   en: /telegram

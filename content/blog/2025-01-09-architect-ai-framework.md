@@ -1,18 +1,12 @@
 ---
-title: "Architect: A Powerful Framework for Building AI Agent Teams"
-description: "Discover Architect - a revolutionary framework for creating, managing, and evolving specialized AI agents that work together seamlessly."
+title: Architect AI Framework
+description: A comprehensive framework for building and managing AI agent systems
 date: 2025-01-09
-permalink: /architect
-category: "Artificial Intelligence"
 tags:
-  ["AI", "Framework", "Agent Systems", "Team Building", "Software Architecture"]
-image: /img/ai-architect.webp
-cta:
-  label: Get Started with Architect
-  url: https://github.com/razbakov/ai-architect
-related:
-  - /blog/2025-01-10-ai-first
-  - /blog/2025-01-08-multi-agent
+  - AI & Machine Learning
+  - Development
+  - System Architecture
+  - Best Practices
 ---
 
 ## Introduction

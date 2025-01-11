@@ -1,10 +1,13 @@
 ---
 title: Isla de los deseos
-permalink: /es/isla-de-los-deseos
-description: ¿Has notado esas condiciones cuando no tienes motivación?
+description: Una historia sobre los deseos y su cumplimiento
 date: 2018-05-22
 language: es
-category: Philisophy
+tags:
+  - Philosophy
+  - Personal Growth
+  - Life Lessons
+  - Storytelling
 image: /img/island-of-desires.jpg
 tweet: https://twitter.com/razbakov/status/999291156700762112
 translations:

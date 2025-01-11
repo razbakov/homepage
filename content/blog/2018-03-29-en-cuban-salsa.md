@@ -1,10 +1,12 @@
 ---
-title: Cuban Salsa History
-description: Salsa is one of the most dynamic and important musical phenomena of the 1900
-permalink: /dancing/salsa-cubana
+title: Cuban Salsa
+description: Cuban Salsa is a partner dance, where leader and follower create beautiful dance together
 date: 2018-03-29
-category: Dancing
-image: /img/salsa_cubana.jpg
+tags:
+  - Dance
+  - Salsa
+  - Partner Dance
+  - Social Dancing
 ---
 
 ## Music
@@ -22,7 +24,6 @@ Leading musicians playing Cuban Timba:
 - Maraca
 - Charanga Habanera
 - NG La Banda
-
 
 ![](/img/salsa_cubana.jpg)
 
@@ -80,7 +81,6 @@ There are other aspects outside of the Clave that help define Salsa rhythm: the 
 The cowbell is played on the core beats of Salsa, 1, 3, 5 and 7. The basic Salsa rhythm is quick, quick, slow, quick, quick, slow, in other words, 1, 2, 3, 5, 6 and 7, which are very similar to the beats of the cowbell. Recognizing the rhythm of the cowbell helps one stay on Salsa rhythm.
 The Montuno rhythm is a rhythm that is often played with a piano. The Montuno rhythm loops over the 8 counts and is useful for finding the direction of the music. By listening to the same rhythm, that loops back to the beginning after eight counts, one can recognize which count is the first beat of the music.
 Tumbao is a rhythm in salsa that is played with the conga drums. It sounds like: “cu, cum.. pa… cu, cum… pa”. Its most basic pattern is played on the beats 2,3,4,6,7, and 8. Tumbao rhythm is helpful for learning to dance contra-tiempo (“On2”).
-
 
 ## History of Timba
 
