@@ -60,13 +60,20 @@ const { data: relatedPosts } = await useAsyncData(
           />
         </div>
 
-        <!-- Content -->
-        <div class="prose prose-lg max-w-none">
-          <ContentDoc />
-        </div>
-
         <!-- CTA -->
-        <div v-if="post.cta" class="mt-8 flex justify-center">
+        <div
+          v-if="post.cta"
+          class="mb-12 rounded-lg border bg-muted/50 p-8 text-center"
+        >
+          <h2 class="text-2xl font-bold mb-4">
+            {{ post.cta.title || "Ready to Get Started?" }}
+          </h2>
+          <p class="text-muted-foreground mb-6">
+            {{
+              post.cta.description ||
+              "Take the next step and explore more resources."
+            }}
+          </p>
           <a
             :href="post.cta.url"
             target="_blank"
@@ -75,6 +82,11 @@ const { data: relatedPosts } = await useAsyncData(
           >
             {{ post.cta.label }}
           </a>
+        </div>
+
+        <!-- Content -->
+        <div class="prose prose-lg max-w-none">
+          <ContentDoc />
         </div>
 
         <!-- Social Sharing -->
