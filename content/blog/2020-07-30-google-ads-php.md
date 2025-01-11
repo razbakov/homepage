@@ -2,6 +2,7 @@
 title: Google Ads API with PHP
 description: How to setup Google Ads API with PHP and get reports
 date: 2020-07-30
+category: Development
 tags:
   - PHP
   - Google Ads

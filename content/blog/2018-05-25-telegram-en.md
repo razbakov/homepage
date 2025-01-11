@@ -2,6 +2,7 @@
 title: Telegram
 description: Reasons to use this messenger
 date: 2018-05-25
+category: Technology
 tags:
   - Tools & Apps
   - Communication

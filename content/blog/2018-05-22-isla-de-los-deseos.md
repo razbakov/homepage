@@ -3,6 +3,7 @@ title: Isla de los deseos
 description: Una historia sobre los deseos y su cumplimiento
 date: 2018-05-22
 language: es
+category: Philosophy
 tags:
   - Philosophy
   - Personal Growth

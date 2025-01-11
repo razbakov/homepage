@@ -2,6 +2,7 @@
 title: Architect AI Framework
 description: A comprehensive framework for building and managing AI agent systems
 date: 2025-01-09
+category: Technology
 tags:
   - AI & Machine Learning
   - Development

@@ -2,6 +2,7 @@
 title: Building Multi-Agent Systems
 description: A guide to creating and managing effective multi-agent AI systems
 date: 2025-01-08
+category: Technology
 tags:
   - AI & Machine Learning
   - Development

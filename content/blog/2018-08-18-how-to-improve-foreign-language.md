@@ -1,14 +1,16 @@
 ---
-title: How to improve foreign language
-description: List of activities to improve your language skills
+title: How to Improve Foreign Language Skills
+description: List of activities to improve foreign language
 date: 2018-08-18
 language: en
+category: Education
 tags:
   - Language Learning
   - Education
   - Self Improvement
+  - Study Tips
 translations:
-  ru: /ru/how-to-improve-foreign-language
+  ru: /как-улучшить-иностранный-язык
 ---
 
 ## Dream

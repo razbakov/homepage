@@ -2,6 +2,7 @@
 title: ECMAScript const objects are references
 description: A note about const in JavaScript, which is not a constant, but a way to solve some JavaScript problems related to block scopes.
 date: 2018-06-29
+category: Development
 tags:
   - JavaScript
   - Web Development

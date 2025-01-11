@@ -5,6 +5,7 @@ title: How to Become a Graphic Designer
 description: List of helpfull articles to learn graphic design
 date: 2018-08-20
 language: en
+category: Design
 tags:
   - Design
   - Career Development

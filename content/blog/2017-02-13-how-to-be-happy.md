@@ -2,6 +2,7 @@
 title: How to be happy?
 description: Few words and videos about happiness, hugs, improvisation and dance.
 date: 2017-02-13
+category: Lifestyle
 tags:
   - Dance
   - Wellness

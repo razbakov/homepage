@@ -2,6 +2,7 @@
 title: Cuban Salsa
 description: Cuban Salsa is a partner dance, where leader and follower create beautiful dance together
 date: 2018-03-29
+category: Dance
 tags:
   - Dance
   - Salsa

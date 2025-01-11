@@ -1,8 +1,9 @@
 ---
-title: Island of desires
-description: A story about desires and their fulfillment
+title: Island of Desires
+description: A story about desires and determination
 date: 2018-05-22
 language: en
+category: Philosophy
 tags:
   - Philosophy
   - Personal Growth

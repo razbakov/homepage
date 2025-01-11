@@ -3,13 +3,14 @@ title: Vue + Google Firebase Analytics
 description: How to integrate Google Analytics App + Web and Firebase Analytics into Vue (Quasar)?
 permalink: /vue-google-firebase-analytics
 date: 2020-01-12
-image: https://thepracticaldev.s3.amazonaws.com/i/z96uk4p7dwsx7nx9f3jm.png
+category: Development
 tags:
   - Vue
   - Analytics
   - Quasar
   - Firebase
   - Web Development
+image: https://thepracticaldev.s3.amazonaws.com/i/z96uk4p7dwsx7nx9f3jm.png
 tweet: https://twitter.com/razbakov/status/1233891527916691463
 ---
 
