@@ -4,6 +4,7 @@
     "name": "Alex Razbakov",
     "avatar": "/images/avatar.png",
     "description": "Software engineer and open-source contributor",
+    "email": "alex@razbakov.com",
     "social": {
       "github": "https://github.com/razbakov"
     },
@@ -22,6 +23,66 @@
         "publicKey": "phc_OmGQ7s6qOxYgndhw6m3gh18Kkby0a2NdMGx4lGsEoob",
         "host": "https://eu.i.posthog.com"
       }
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Empowering Digital Innovation",
+      "description": "I help businesses and organizations create impactful digital experiences that connect with their audience and drive results.",
+      "cta": [
+        {
+          "text": "View Projects",
+          "link": "/projects",
+          "primary": true
+        },
+        {
+          "text": "Learn More",
+          "link": "/cv",
+          "primary": false
+        }
+      ]
+    },
+    "featured": {
+      "title": "Featured Work",
+      "viewAllText": "View All Projects",
+      "maxItems": 3
+    },
+    "services": {
+      "title": "How I Can Help",
+      "items": [
+        {
+          "title": "Digital Product Development",
+          "description": "From concept to launch, I help create web applications that solve real problems and deliver value to users."
+        },
+        {
+          "title": "AI Integration",
+          "description": "Enhancing applications with AI capabilities: smart search, content generation, chatbots, and workflow automation."
+        },
+        {
+          "title": "Performance & SEO",
+          "description": "Optimizing websites for speed, search engines, and conversion rates to maximize online visibility and user satisfaction."
+        },
+        {
+          "title": "Technical Leadership",
+          "description": "Guiding teams through digital transformation with modern web technologies and AI-driven development practices."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Let's Work Together",
+      "description": "Have a project in mind? I'd love to help bring your ideas to life.",
+      "cta": [
+        {
+          "text": "Schedule a Call",
+          "action": "calendly",
+          "primary": true
+        },
+        {
+          "text": "Send Email",
+          "action": "mailto",
+          "primary": false
+        }
+      ]
     }
   }
 }

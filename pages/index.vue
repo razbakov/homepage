@@ -5,24 +5,24 @@
       <div class="container mx-auto px-4">
         <div class="max-w-3xl mx-auto text-center">
           <h1 class="text-4xl md:text-5xl font-bold mb-6">
-            Empowering Digital Innovation
+            {{ config.home.hero.title }}
           </h1>
           <p class="text-xl text-muted-foreground mb-8">
-            I help businesses and organizations create impactful digital
-            experiences that connect with their audience and drive results.
+            {{ config.home.hero.description }}
           </p>
           <div class="flex gap-4 justify-center">
             <NuxtLink
-              to="/projects"
-              class="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground hover:bg-primary/90"
+              v-for="button in config.home.hero.cta"
+              :key="button.link"
+              :to="button.link"
+              class="inline-flex h-10 items-center justify-center rounded-md px-8 text-sm font-medium"
+              :class="
+                button.primary
+                  ? 'bg-primary text-primary-foreground hover:bg-primary/90'
+                  : 'border border-input hover:bg-accent hover:text-accent-foreground'
+              "
             >
-              View Projects
-            </NuxtLink>
-            <NuxtLink
-              to="/cv"
-              class="inline-flex h-10 items-center justify-center rounded-md border border-input px-8 text-sm font-medium hover:bg-accent hover:text-accent-foreground"
-            >
-              Learn More
+              {{ button.text }}
             </NuxtLink>
           </div>
         </div>
@@ -33,15 +33,20 @@
     <section class="py-16 bg-muted/50">
       <div class="container mx-auto px-4">
         <div class="max-w-6xl mx-auto">
-          <h2 class="text-3xl font-bold mb-12 text-center">Featured Work</h2>
+          <h2 class="text-3xl font-bold mb-12 text-center">
+            {{ config.home.featured.title }}
+          </h2>
           <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
             <article
-              v-for="project in projects?.slice(0, 3)"
+              v-for="project in projects?.slice(
+                0,
+                config.home.featured.maxItems
+              )"
               :key="project._path"
               class="group"
             >
               <NuxtLink :to="project._path" class="block">
-                <NuxtImg
+                <img
                   v-if="project.icon"
                   :src="project.icon"
                   :alt="project.title"
@@ -67,7 +72,7 @@
               to="/projects"
               class="inline-flex h-10 items-center justify-center rounded-md border border-input px-8 text-sm font-medium hover:bg-accent hover:text-accent-foreground"
             >
-              View All Projects
+              {{ config.home.featured.viewAllText }}
             </NuxtLink>
           </div>
         </div>
@@ -78,34 +83,18 @@
     <section class="py-16">
       <div class="container mx-auto px-4">
         <div class="max-w-3xl mx-auto">
-          <h2 class="text-3xl font-bold mb-12 text-center">How I Can Help</h2>
+          <h2 class="text-3xl font-bold mb-12 text-center">
+            {{ config.home.services.title }}
+          </h2>
           <div class="grid sm:grid-cols-2 gap-8">
-            <div class="space-y-4">
-              <h3 class="text-xl font-bold">Digital Product Development</h3>
+            <div
+              v-for="service in config.home.services.items"
+              :key="service.title"
+              class="space-y-4"
+            >
+              <h3 class="text-xl font-bold">{{ service.title }}</h3>
               <p class="text-muted-foreground">
-                From concept to launch, I help create web applications that
-                solve real problems and deliver value to users.
-              </p>
-            </div>
-            <div class="space-y-4">
-              <h3 class="text-xl font-bold">AI Integration</h3>
-              <p class="text-muted-foreground">
-                Enhancing applications with AI capabilities: smart search,
-                content generation, chatbots, and workflow automation.
-              </p>
-            </div>
-            <div class="space-y-4">
-              <h3 class="text-xl font-bold">Performance & SEO</h3>
-              <p class="text-muted-foreground">
-                Optimizing websites for speed, search engines, and conversion
-                rates to maximize online visibility and user satisfaction.
-              </p>
-            </div>
-            <div class="space-y-4">
-              <h3 class="text-xl font-bold">Technical Leadership</h3>
-              <p class="text-muted-foreground">
-                Guiding teams through digital transformation with modern web
-                technologies and AI-driven development practices.
+                {{ service.description }}
               </p>
             </div>
           </div>
@@ -117,23 +106,42 @@
     <section id="contact" class="py-16 bg-muted/50">
       <div class="container mx-auto px-4">
         <div class="max-w-3xl mx-auto text-center">
-          <h2 class="text-3xl font-bold mb-4">Let's Work Together</h2>
+          <h2 class="text-3xl font-bold mb-4">
+            {{ config.home.contact.title }}
+          </h2>
           <p class="text-xl text-muted-foreground mb-8">
-            Have a project in mind? I'd love to help bring your ideas to life.
+            {{ config.home.contact.description }}
           </p>
           <div class="flex gap-4 justify-center">
-            <button
-              @click="openCalendly"
-              class="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground hover:bg-primary/90"
+            <template
+              v-for="button in config.home.contact.cta"
+              :key="button.text"
             >
-              Schedule a Call
-            </button>
-            <a
-              href="mailto:alex@razbakov.com"
-              class="inline-flex h-10 items-center justify-center rounded-md border border-input px-8 text-sm font-medium hover:bg-accent hover:text-accent-foreground"
-            >
-              Send Email
-            </a>
+              <button
+                v-if="button.action === 'calendly'"
+                @click="openCalendly"
+                class="inline-flex h-10 items-center justify-center rounded-md px-8 text-sm font-medium"
+                :class="
+                  button.primary
+                    ? 'bg-primary text-primary-foreground hover:bg-primary/90'
+                    : 'border border-input hover:bg-accent hover:text-accent-foreground'
+                "
+              >
+                {{ button.text }}
+              </button>
+              <a
+                v-else-if="button.action === 'mailto'"
+                :href="`mailto:${config.site.email}`"
+                class="inline-flex h-10 items-center justify-center rounded-md px-8 text-sm font-medium"
+                :class="
+                  button.primary
+                    ? 'bg-primary text-primary-foreground hover:bg-primary/90'
+                    : 'border border-input hover:bg-accent hover:text-accent-foreground'
+                "
+              >
+                {{ button.text }}
+              </a>
+            </template>
           </div>
         </div>
       </div>
@@ -142,21 +150,17 @@
 </template>
 
 <script setup>
+import config from "~/content/config.json";
+
 const { data: projects } = await useAsyncData("featured-projects", () =>
   queryContent("projects").sort({ date: -1 }).find()
 );
 
 const openCalendly = () => {
   Calendly.initPopupWidget({
-    url: "https://calendly.com/razbakov",
+    url: `https://calendly.com/${config.site.calendly.username}`,
     prefill: {},
-    pageSettings: {
-      backgroundColor: "ffffff",
-      hideEventTypeDetails: false,
-      hideLandingPageDetails: false,
-      primaryColor: "00a2ff",
-      height: "900",
-    },
+    pageSettings: config.site.calendly.settings,
     enableClosing: true,
   });
 };
