@@ -2,6 +2,33 @@
 const { data: posts } = await useAsyncData("blog-posts", () =>
   queryContent("blog").sort({ date: -1 }).find()
 );
+
+// Add category filtering
+const selectedTags = ref(new Set());
+
+const allTags = computed(() => {
+  if (!posts.value) return new Set();
+  return new Set(posts.value.flatMap((post) => post.tags || []));
+});
+
+const filteredPosts = computed(() => {
+  if (!posts.value) return [];
+  if (selectedTags.value.size === 0) return posts.value;
+
+  return posts.value.filter((post) =>
+    post.tags?.some((tag) => selectedTags.value.has(tag))
+  );
+});
+
+const toggleTag = (tag) => {
+  if (selectedTags.value.has(tag)) {
+    selectedTags.value.delete(tag);
+  } else {
+    selectedTags.value.add(tag);
+  }
+  // Create a new Set to trigger reactivity
+  selectedTags.value = new Set(selectedTags.value);
+};
 </script>
 
 <template>
@@ -9,12 +36,44 @@ const { data: posts } = await useAsyncData("blog-posts", () =>
     <div class="container mx-auto px-4">
       <div class="max-w-6xl mx-auto">
         <h1 class="text-4xl font-bold mb-8">Blog</h1>
-        <p class="text-xl text-muted-foreground mb-12">
+        <p class="text-xl text-muted-foreground mb-8">
           Thoughts on web development, UX design, and tech leadership.
         </p>
 
+        <!-- Category Filter -->
+        <div class="mb-12">
+          <h2 class="text-sm font-medium text-muted-foreground mb-4">
+            Filter by Category
+          </h2>
+          <div class="flex flex-wrap gap-2">
+            <button
+              v-for="tag in allTags"
+              :key="tag"
+              @click="toggleTag(tag)"
+              :class="[
+                'inline-flex items-center rounded-full px-3 py-1.5 text-sm font-medium transition-colors',
+                selectedTags.has(tag)
+                  ? 'bg-primary text-primary-foreground hover:bg-primary/90'
+                  : 'bg-muted hover:bg-muted/80',
+              ]"
+            >
+              {{ tag }}
+              <span
+                v-if="selectedTags.has(tag)"
+                class="ml-1 text-xs"
+                aria-hidden="true"
+                >×</span
+              >
+            </button>
+          </div>
+        </div>
+
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          <article v-for="post in posts" :key="post._path" class="group">
+          <article
+            v-for="post in filteredPosts"
+            :key="post._path"
+            class="group"
+          >
             <NuxtLink :to="post._path" class="block">
               <div
                 class="aspect-video mb-4 overflow-hidden rounded-lg bg-gradient-to-br from-muted/50 to-muted flex items-center justify-center"
