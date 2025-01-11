@@ -2,6 +2,13 @@
 title: Architect AI Framework
 description: A comprehensive framework for building and managing AI agent systems
 date: 2025-01-09
+image: /img/ai-architect.webp
+cta:
+  label: Get Started with Architect
+  url: https://github.com/razbakov/ai-architect
+related:
+  - /blog/2025-01-10-ai-first
+  - /blog/2025-01-08-multi-agent
 category: Technology
 tags:
   - AI & Machine Learning

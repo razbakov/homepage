@@ -2,6 +2,13 @@
 title: Building Multi-Agent Systems
 description: A guide to creating and managing effective multi-agent AI systems
 date: 2025-01-08
+image: /img/ai-guide.webp
+cta:
+  label: See it in Action
+  url: /blog/2025-01-10-ai-first
+related:
+  - /blog/2025-01-10-ai-first
+  - /blog/2025-01-09-architect-ai-framework
 category: Technology
 tags:
   - AI & Machine Learning
