@@ -21,7 +21,7 @@ const { data: projects } = await useAsyncData("projects-list", () =>
             class="group"
           >
             <NuxtLink :to="project._path" class="block">
-              <NuxtImg
+              <img
                 v-if="project.icon"
                 :src="project.icon"
                 :alt="project.title"

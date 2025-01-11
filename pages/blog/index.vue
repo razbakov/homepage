@@ -140,7 +140,7 @@ const toggleTag = (tag) => {
               <div
                 class="aspect-video mb-4 overflow-hidden rounded-lg bg-gradient-to-br from-muted/50 to-muted flex items-center justify-center"
               >
-                <NuxtImg
+                <img
                   v-if="post.image"
                   :src="post.image"
                   :alt="post.title"

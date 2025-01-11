@@ -53,7 +53,7 @@ const { data: relatedPosts } = await useAsyncData(
           v-if="post.image && !post.hideImage"
           class="aspect-video mb-12 overflow-hidden rounded-lg bg-muted"
         >
-          <NuxtImg
+          <img
             :src="post.image"
             :alt="post.title"
             class="h-full w-full object-cover"
