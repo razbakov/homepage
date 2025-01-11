@@ -1,20 +1,19 @@
 import { definePerson } from "nuxt-schema-org/schema";
+import config from "./content/config.json";
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   site: {
-    url: "https://razbakov.com",
-    name: "Alex Razbakov",
+    url: config.site.url,
+    name: config.site.name,
   },
   schemaOrg: {
     identity: definePerson({
-      name: "Alex Razbakov",
-
-      image: "/images/avatar.png",
-      description: "Software engineer and open-source contributor",
-
-      url: "razbakov.com",
-      sameAs: ["https://github.com/razbakov"],
+      name: config.site.name,
+      image: config.site.avatar,
+      description: config.site.description,
+      url: config.site.url,
+      sameAs: [config.site.social.github],
     }),
   },
   modules: [
@@ -72,8 +71,8 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      posthogPublicKey: "phc_OmGQ7s6qOxYgndhw6m3gh18Kkby0a2NdMGx4lGsEoob",
-      posthogHost: "https://eu.i.posthog.com",
+      posthogPublicKey: config.site.analytics.posthog.publicKey,
+      posthogHost: config.site.analytics.posthog.host,
     },
   },
 });

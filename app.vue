@@ -6,13 +6,13 @@
       >
         <NuxtLink to="/" class="flex items-center gap-3 hover:opacity-80">
           <NuxtImg
-            src="/images/avatar.png"
-            alt="Alex Razbakov"
+            :src="config.site.avatar"
+            :alt="config.site.name"
             class="w-8 h-8 rounded-full"
             width="32"
             height="32"
           />
-          <span class="font-bold text-xl">Alex Razbakov</span>
+          <span class="font-bold text-xl">{{ config.site.name }}</span>
         </NuxtLink>
 
         <!-- Mobile Menu Button -->
@@ -63,7 +63,8 @@
       <div
         class="container mx-auto px-4 text-center text-sm text-muted-foreground"
       >
-        © {{ new Date().getFullYear() }} Alex Razbakov. All rights reserved.
+        © {{ new Date().getFullYear() }} {{ config.site.name }}. All rights
+        reserved.
       </div>
     </footer>
   </div>
@@ -71,20 +72,15 @@
 
 <script setup>
 import { ref } from "vue";
+import config from "~/content/config.json";
 
 const isMenuOpen = ref(false);
 
 const openCalendly = () => {
   Calendly.initPopupWidget({
-    url: "https://calendly.com/razbakov",
+    url: `https://calendly.com/${config.site.calendly.username}`,
     prefill: {},
-    pageSettings: {
-      backgroundColor: "ffffff",
-      hideEventTypeDetails: false,
-      hideLandingPageDetails: false,
-      primaryColor: "00a2ff",
-      height: "900",
-    },
+    pageSettings: config.site.calendly.settings,
     enableClosing: true,
   });
 };

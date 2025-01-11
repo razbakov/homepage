@@ -1,0 +1,27 @@
+{
+  "site": {
+    "url": "https://razbakov.com",
+    "name": "Alex Razbakov",
+    "avatar": "/images/avatar.png",
+    "description": "Software engineer and open-source contributor",
+    "social": {
+      "github": "https://github.com/razbakov"
+    },
+    "calendly": {
+      "username": "razbakov",
+      "settings": {
+        "backgroundColor": "ffffff",
+        "hideEventTypeDetails": false,
+        "hideLandingPageDetails": false,
+        "primaryColor": "00a2ff",
+        "height": "900"
+      }
+    },
+    "analytics": {
+      "posthog": {
+        "publicKey": "phc_OmGQ7s6qOxYgndhw6m3gh18Kkby0a2NdMGx4lGsEoob",
+        "host": "https://eu.i.posthog.com"
+      }
+    }
+  }
+}
