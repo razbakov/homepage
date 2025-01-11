@@ -70,7 +70,8 @@ const toggleTag = (tag) => {
       <div class="max-w-6xl mx-auto">
         <h1 class="text-4xl font-bold mb-8">Blog</h1>
         <p class="text-xl text-muted-foreground mb-8">
-          Thoughts on web development, UX design, and tech leadership.
+          Sharing insights and experiences on topics I'm passionate about.
+          Browse by category below to explore what interests you.
         </p>
 
         <!-- Category Filter -->
