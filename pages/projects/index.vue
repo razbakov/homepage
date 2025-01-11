@@ -21,12 +21,13 @@ const { data: projects } = await useAsyncData("projects-list", () =>
             class="group"
           >
             <NuxtLink :to="project._path" class="block">
-              <img
+              <NuxtImg
                 v-if="project.icon"
                 :src="project.icon"
                 :alt="project.title"
                 class="h-7 w-auto mb-4"
                 style="max-width: 120px"
+                height="28"
               />
               <div v-else class="h-7 mb-4 text-muted-foreground">
                 <svg

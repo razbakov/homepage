@@ -27,6 +27,7 @@ export default defineNuxtConfig({
     "@nuxtjs/sitemap",
     "nuxt-schema-org",
     "nuxt-og-image",
+    "@nuxt/image",
   ],
   content: {
     documentDriven: true,

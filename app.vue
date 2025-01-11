@@ -5,10 +5,12 @@
         class="container mx-auto px-4 h-16 flex items-center justify-between"
       >
         <NuxtLink to="/" class="flex items-center gap-3 hover:opacity-80">
-          <img
+          <NuxtImg
             src="/images/avatar.png"
             alt="Alex Razbakov"
             class="w-8 h-8 rounded-full"
+            width="32"
+            height="32"
           />
           <span class="font-bold text-xl">Alex Razbakov</span>
         </NuxtLink>

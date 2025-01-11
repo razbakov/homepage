@@ -53,10 +53,12 @@ const { data: relatedPosts } = await useAsyncData(
           v-if="post.image && !post.hideImage"
           class="aspect-video mb-12 overflow-hidden rounded-lg bg-muted"
         >
-          <img
+          <NuxtImg
             :src="post.image"
             :alt="post.title"
             class="h-full w-full object-cover"
+            width="1200"
+            height="675"
           />
         </div>
 
@@ -139,10 +141,12 @@ const { data: relatedPosts } = await useAsyncData(
         <!-- Author -->
         <div class="mt-16 pt-8 border-t">
           <div class="flex items-center gap-4">
-            <img
+            <NuxtImg
               src="/images/avatar.png"
               alt="Alex Razbakov"
               class="w-16 h-16 rounded-full object-cover bg-muted"
+              width="64"
+              height="64"
             />
             <div>
               <h3 class="font-medium">Alex Razbakov</h3>

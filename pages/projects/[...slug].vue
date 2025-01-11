@@ -25,11 +25,13 @@ const { data: project } = await useAsyncData(`content-${path}`, () =>
             </div>
           </div>
           <div class="flex items-center gap-6 mb-6">
-            <img
+            <NuxtImg
               v-if="project.icon"
               :src="project.icon"
               :alt="project.title"
               class="w-16 h-16"
+              width="64"
+              height="64"
             />
             <div>
               <h1 class="text-4xl font-bold">{{ project.title }}</h1>
