@@ -3,22 +3,52 @@ const { data: posts } = await useAsyncData("blog-posts", () =>
   queryContent("blog").sort({ date: -1 }).find()
 );
 
-// Add category filtering
+const selectedCategory = ref(null);
 const selectedTags = ref(new Set());
 
-const allTags = computed(() => {
+const allCategories = computed(() => {
   if (!posts.value) return new Set();
-  return new Set(posts.value.flatMap((post) => post.tags || []));
+  return new Set(posts.value.map((post) => post.category).filter(Boolean));
+});
+
+const availableTags = computed(() => {
+  if (!posts.value || !selectedCategory.value) return new Set();
+  return new Set(
+    posts.value
+      .filter((post) => post.category === selectedCategory.value)
+      .flatMap((post) => post.tags || [])
+  );
 });
 
 const filteredPosts = computed(() => {
   if (!posts.value) return [];
-  if (selectedTags.value.size === 0) return posts.value;
 
-  return posts.value.filter((post) =>
-    post.tags?.some((tag) => selectedTags.value.has(tag))
-  );
+  let filtered = posts.value;
+
+  if (selectedCategory.value) {
+    filtered = filtered.filter(
+      (post) => post.category === selectedCategory.value
+    );
+  }
+
+  if (selectedTags.value.size > 0) {
+    filtered = filtered.filter((post) =>
+      post.tags?.some((tag) => selectedTags.value.has(tag))
+    );
+  }
+
+  return filtered;
 });
+
+const selectCategory = (category) => {
+  if (selectedCategory.value === category) {
+    selectedCategory.value = null;
+  } else {
+    selectedCategory.value = category;
+  }
+  // Clear selected tags when changing category
+  selectedTags.value = new Set();
+};
 
 const toggleTag = (tag) => {
   if (selectedTags.value.has(tag)) {
@@ -41,13 +71,41 @@ const toggleTag = (tag) => {
         </p>
 
         <!-- Category Filter -->
-        <div class="mb-12">
+        <div class="mb-8">
           <h2 class="text-sm font-medium text-muted-foreground mb-4">
             Filter by Category
           </h2>
           <div class="flex flex-wrap gap-2">
             <button
-              v-for="tag in allTags"
+              v-for="category in allCategories"
+              :key="category"
+              @click="selectCategory(category)"
+              :class="[
+                'inline-flex items-center rounded-full px-3 py-1.5 text-sm font-medium transition-colors',
+                selectedCategory === category
+                  ? 'bg-primary text-primary-foreground hover:bg-primary/90'
+                  : 'bg-muted hover:bg-muted/80',
+              ]"
+            >
+              {{ category }}
+              <span
+                v-if="selectedCategory === category"
+                class="ml-1 text-xs"
+                aria-hidden="true"
+                >×</span
+              >
+            </button>
+          </div>
+        </div>
+
+        <!-- Tag Filter (shown only when category is selected) -->
+        <div v-if="selectedCategory" class="mb-12">
+          <h2 class="text-sm font-medium text-muted-foreground mb-4">
+            Filter by Tag
+          </h2>
+          <div class="flex flex-wrap gap-2">
+            <button
+              v-for="tag in availableTags"
               :key="tag"
               @click="toggleTag(tag)"
               :class="[
