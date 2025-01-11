@@ -6,7 +6,7 @@ permalink: /architect
 category: "Artificial Intelligence"
 tags:
   ["AI", "Framework", "Agent Systems", "Team Building", "Software Architecture"]
-image:
+image: /img/ai-architect.webp
 cta:
   label: Get Started with Architect
   url: https://github.com/razbakov/ai-architect

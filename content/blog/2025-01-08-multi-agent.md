@@ -5,7 +5,7 @@ date: 2025-01-08
 permalink: /multi-agent
 category: "Artificial Intelligence"
 tags: ["AI", "Multi-Agent Systems", "Software Development", "Team Management"]
-image:
+image: /img/ai-guide.webp
 cta:
   label: See it in Action
   url: /blog/2025-01-10-ai-first
