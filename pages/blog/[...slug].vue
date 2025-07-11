@@ -121,7 +121,7 @@ const { data: relatedPosts } = await useAsyncData(
                   : 'https://x.com/intent/tweet?text=' +
                     encodeURIComponent(
                       post.tweet ||
-                        `${post.title}\n\nhttps://razbakov.com${post.permalink}\n\nby @razbakov`
+                        `${post.title}\n\nhttps://razbakov.com${post._path}\n\nby @razbakov`
                     )
               "
               target="_blank"
