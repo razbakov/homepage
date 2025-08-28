@@ -131,7 +131,7 @@ const downloadPDF = async () => {
               <p class="text-muted-foreground">
                 {{ exp.position }} ({{ exp.period }})
               </p>
-              <ul class="mt-2 space-y-2 text-muted-foreground list-disc">
+              <ul class="mt-2 space-y-2 text-muted-foreground list-disc ml-5">
                 <li v-for="resp in exp.responsibilities" :key="resp">
                   {{ resp }}
                 </li>
@@ -153,7 +153,7 @@ const downloadPDF = async () => {
               <p class="text-muted-foreground">{{ vol.field }}</p>
               <ul
                 v-if="vol.achievements"
-                class="mt-2 space-y-2 text-muted-foreground list-disc"
+                class="mt-2 space-y-2 text-muted-foreground list-disc ml-5"
               >
                 <li v-for="achievement in vol.achievements" :key="achievement">
                   {{ achievement }}
@@ -161,7 +161,7 @@ const downloadPDF = async () => {
               </ul>
               <ul
                 v-if="vol.responsibilities"
-                class="mt-2 space-y-2 text-muted-foreground list-disc"
+                class="mt-2 space-y-2 text-muted-foreground list-disc ml-5"
               >
                 <li v-for="resp in vol.responsibilities" :key="resp">
                   {{ resp }}
@@ -177,7 +177,7 @@ const downloadPDF = async () => {
           <div class="grid sm:grid-cols-2 gap-8">
             <div class="space-y-4">
               <h3 class="text-xl font-medium">Conference Topics</h3>
-              <ul class="space-y-2 text-muted-foreground list-disc">
+              <ul class="space-y-2 text-muted-foreground list-disc ml-5">
                 <li
                   v-for="talk in cv.speaking_community.conference_talks"
                   :key="talk.title"
@@ -188,7 +188,7 @@ const downloadPDF = async () => {
             </div>
             <div class="space-y-4">
               <h3 class="text-xl font-medium">Community Involvement</h3>
-              <ul class="space-y-2 text-muted-foreground list-disc">
+              <ul class="space-y-2 text-muted-foreground list-disc ml-5">
                 <li
                   v-for="item in cv.speaking_community.community_involvement"
                   :key="item"
@@ -203,7 +203,7 @@ const downloadPDF = async () => {
         <!-- Certifications -->
         <section class="mb-12">
           <h2 class="text-2xl font-bold mb-6">Certifications</h2>
-          <ul class="space-y-2 text-muted-foreground list-disc">
+          <ul class="space-y-2 text-muted-foreground list-disc ml-5">
             <li v-for="cert in cv.certifications" :key="cert.title">
               {{ cert.title }} - {{ cert.issuer }}, {{ cert.date }}
             </li>
@@ -219,7 +219,7 @@ const downloadPDF = async () => {
               <p class="text-muted-foreground">
                 {{ edu.degree }} ({{ edu.period }})
               </p>
-              <ul class="mt-2 space-y-2 text-muted-foreground list-disc">
+              <ul class="mt-2 space-y-2 text-muted-foreground list-disc ml-5">
                 <li v-for="achievement in edu.achievements" :key="achievement">
                   {{ achievement }}
                 </li>
