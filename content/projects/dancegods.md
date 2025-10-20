@@ -2,7 +2,7 @@
 title: Dance Gods
 description: Kubanischer Tanz in München
 icon: https://dancegods.netlify.app/.netlify/images?w=128&h=128&url=%2Flogo.png
-url: https://dancegods.netlify.app/
+url: https://dancegodscompany.com/
 date: 2024-03-21
 status: launched
 stack:
