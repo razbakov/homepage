@@ -2,6 +2,9 @@
 title: I Asked AI "Why Do I Exist?" — Here's What Happened
 description: How a two-hour conversation with AI became my life operating system — from finding my ikigai to testing a business hypothesis at a dance festival.
 date: 2026-03-20
+image: /img/ikigai-legacy-through-usefulness.png
+telegram: https://t.me/razbakov/79
+tweet: https://x.com/razbakov/status/2035096030228709492
 category: Technology
 tags:
   - Artificial Intelligence
@@ -26,6 +29,8 @@ So I did something unusual. I opened a terminal, typed one command, and had a tw
 
 ## "Why does this project need to exist?"
 
+![Why Do You Exist?](/img/ikigai-why-do-you-exist.png)
+
 That was the first question. Not "what are you building?" or "who's your target market?" — but *why does this need to exist at all?*
 
 I wasn't expecting that. I sat there for a moment and then typed something I'd never said out loud:
@@ -36,6 +41,8 @@ I'd been telling people I was building apps. But what I was really doing was sea
 
 ## Legacy through usefulness
 
+![Legacy Through Usefulness](/img/ikigai-legacy-through-usefulness.png)
+
 The next question hit harder: *If this succeeds, what does your life look like?*
 
 > I want to be useful. Create an app that someone is using and they find helpful. Teaching someone something so that maybe after I die people still remember and find it useful.
@@ -43,6 +50,8 @@ The next question hit harder: *If this succeeds, what does your life look like?*
 Not fame. Not wealth. Usefulness that outlives me. I'm an engineer — that means building something that works and matters. An app, a lesson, a tool. Something that people remember not because of marketing, but because it was genuinely helpful.
 
 ## The hypothesis
+
+![The Hypothesis](/img/ikigai-the-hypothesis.png)
 
 Then something clicked. The AI took everything I said — the five projects, the full-time job, the desire for independence — and distilled it into one sentence:
 
@@ -54,6 +63,8 @@ That's it. That's the whole bet. Not "build all five projects." Not "quit your j
 
 ## Real deadlines change everything
 
+![Real Deadlines](/img/ikigai-real-deadlines.png)
+
 Right after that crystallized, I mentioned something I'd been sitting on:
 
 > Next week there is a festival. The goal is to test the hypothesis... people would pay one euro. Also I found a partner — he has 500,000 followers.
@@ -63,6 +74,8 @@ The AI's response was immediate: *This changes everything. You have a deadline, 
 It was right. I'd been treating my side projects like hobbies — no deadlines, no accountability, no skin in the game. But suddenly I had all three. A festival in Vienna called Meneate. A price: one euro per festival. A partner with half a million followers on Social Dance TV. And about seven days to make it work.
 
 ## "That's a chief of staff role"
+
+![Chief of Staff](/img/ikigai-chief-of-staff.png)
 
 The conversation shifted from *what* to *how*. I told the AI what I actually needed help with:
 
@@ -79,6 +92,8 @@ Simple rituals. Not a fancy productivity system. Just three recurring moments wh
 We set them up in Google Calendar right there.
 
 ## Two AIs, one life OS
+
+![Two AIs, One Life OS](/img/ikigai-two-ais-one-life-os.png)
 
 Here's where it got weird — in a good way.
 
@@ -116,8 +131,12 @@ That's the ikigai way I'm trying to practice: not just thinking about purpose, b
 
 ## What's next
 
+![Read the Full Story](/img/ikigai-read-the-full-story.png)
+
 I'm heading to the Meneate festival in Vienna. Fifty dancers. One euro each. A partner with 500,000 followers. And one question: *will they pay?*
 
 If yes, I have a business. If no, I have data.
 
 Either way, I'm no longer just thinking about it.
+
+---
