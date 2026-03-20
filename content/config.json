@@ -9,12 +9,12 @@
       "github": "https://github.com/razbakov"
     },
     "calendly": {
-      "username": "razbakov",
+      "username": "razbakov/online",
       "settings": {
-        "backgroundColor": "ffffff",
+        "backgroundColor": "fffbf9",
         "hideEventTypeDetails": false,
         "hideLandingPageDetails": false,
-        "primaryColor": "00a2ff",
+        "primaryColor": "ff6f61",
         "height": "900"
       }
     },

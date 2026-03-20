@@ -3,25 +3,28 @@
     v-for="item in menuItems"
     :key="item.to"
     :to="item.to"
-    class="px-3 py-2 rounded-md text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground"
+    class="px-3 py-2 rounded-lg text-sm font-medium transition-colors hover:bg-secondary hover:text-foreground"
     :class="{
-      'bg-accent text-accent-foreground': isActive(item),
+      'bg-secondary text-foreground': isActive(item),
     }"
     @click="$emit('itemClick')"
   >
     {{ item.label }}
   </NuxtLink>
-  <button
-    @click="$emit('scheduleCall')"
-    class="px-4 py-2 rounded-md text-sm font-medium bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
+  <a
+    :href="calendlyUrl"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="px-4 py-2 rounded-lg text-sm font-medium bg-primary text-primary-foreground hover:bg-primary/90 shadow-md shadow-primary/20 hover:shadow-lg hover:shadow-primary/25 transition-all duration-200"
     :class="{ 'ml-2': !isMobile }"
   >
     Schedule a Call
-  </button>
+  </a>
 </template>
 
 <script setup>
 import { useRoute } from "vue-router";
+import config from "~/content/config.json";
 
 const props = defineProps({
   isMobile: {
@@ -30,12 +33,13 @@ const props = defineProps({
   },
 });
 
-defineEmits(["itemClick", "scheduleCall"]);
+defineEmits(["itemClick"]);
 
 const route = useRoute();
+const calendlyUrl = `https://calendly.com/${config.site.calendly.username}`;
 
 const menuItems = [
-  { to: "/cv", label: "CV" },
+  { to: "/about", label: "About" },
   { to: "/projects", label: "Projects" },
   { to: "/blog", label: "Blog" },
   { to: "/slides", label: "Slides" },
@@ -43,7 +47,7 @@ const menuItems = [
 ];
 
 const isActive = (item) => {
-  if (item.to === "/cv" || item.to === "/uses") {
+  if (item.to === "/about" || item.to === "/uses") {
     return route.path === item.to;
   }
   return route.path.startsWith(item.to);

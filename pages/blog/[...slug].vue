@@ -20,11 +20,11 @@ const { data: relatedPosts } = await useAsyncData(
 <template>
   <article class="py-16">
     <div class="container mx-auto px-4">
-      <div class="max-w-3xl mx-auto">
+      <div class="max-w-lg mx-auto">
         <!-- Header -->
         <header class="mb-12">
           <div
-            class="flex items-center gap-2 text-sm text-muted-foreground mb-4"
+            class="text-sm text-muted-foreground mb-4 space-y-2"
           >
             <time :datetime="post.date">{{
               new Date(post.date).toLocaleDateString("en-US", {
@@ -33,7 +33,6 @@ const { data: relatedPosts } = await useAsyncData(
                 year: "numeric",
               })
             }}</time>
-            <span>•</span>
             <div class="flex flex-wrap gap-2">
               <span
                 v-for="tag in post.tags"
@@ -163,7 +162,6 @@ const { data: relatedPosts } = await useAsyncData(
                 >
                   Telegram Channel
                 </a>
-                <span>•</span>
                 <a
                   href="https://x.com/razbakov"
                   target="_blank"

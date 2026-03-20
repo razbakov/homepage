@@ -85,10 +85,10 @@ const toggleTag = (tag) => {
               :key="category"
               @click="selectCategory(category)"
               :class="[
-                'inline-flex items-center rounded-full px-3 py-1.5 text-sm font-medium transition-colors',
+                'inline-flex items-center rounded-full px-3 py-1.5 text-sm font-medium transition-all duration-200',
                 selectedCategory === category
-                  ? 'bg-primary text-primary-foreground hover:bg-primary/90'
-                  : 'bg-muted hover:bg-muted/80',
+                  ? 'bg-primary text-primary-foreground shadow-md shadow-primary/20'
+                  : 'bg-secondary hover:bg-secondary/80',
               ]"
             >
               {{ category }}
@@ -96,7 +96,7 @@ const toggleTag = (tag) => {
                 v-if="selectedCategory === category"
                 class="ml-1 text-xs"
                 aria-hidden="true"
-                >×</span
+                >&times;</span
               >
             </button>
           </div>
@@ -113,10 +113,10 @@ const toggleTag = (tag) => {
               :key="tag"
               @click="toggleTag(tag)"
               :class="[
-                'inline-flex items-center rounded-full px-3 py-1.5 text-sm font-medium transition-colors',
+                'inline-flex items-center rounded-full px-3 py-1.5 text-sm font-medium transition-all duration-200',
                 selectedTags.has(tag)
-                  ? 'bg-primary text-primary-foreground hover:bg-primary/90'
-                  : 'bg-muted hover:bg-muted/80',
+                  ? 'bg-primary text-primary-foreground shadow-md shadow-primary/20'
+                  : 'bg-secondary hover:bg-secondary/80',
               ]"
             >
               {{ tag }}
@@ -124,7 +124,7 @@ const toggleTag = (tag) => {
                 v-if="selectedTags.has(tag)"
                 class="ml-1 text-xs"
                 aria-hidden="true"
-                >×</span
+                >&times;</span
               >
             </button>
           </div>
@@ -134,11 +134,11 @@ const toggleTag = (tag) => {
           <article
             v-for="post in filteredPosts"
             :key="post._path"
-            class="group"
+            class="group bg-card rounded-xl border border-border/50 overflow-hidden hover:border-primary/20 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300"
           >
             <NuxtLink :to="post._path" class="block">
               <div
-                class="aspect-video mb-4 overflow-hidden rounded-lg bg-gradient-to-br from-muted/50 to-muted flex items-center justify-center"
+                class="aspect-video overflow-hidden bg-gradient-to-br from-coral-50 to-teal-50/50 flex items-center justify-center"
               >
                 <img
                   v-if="post.image"
@@ -148,7 +148,7 @@ const toggleTag = (tag) => {
                   width="800"
                   height="450"
                 />
-                <div v-else class="text-muted-foreground">
+                <div v-else class="text-primary/30">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="48"
@@ -159,7 +159,6 @@ const toggleTag = (tag) => {
                     stroke-width="1"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    class="opacity-50"
                   >
                     <path
                       d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7"
@@ -171,7 +170,7 @@ const toggleTag = (tag) => {
                   </svg>
                 </div>
               </div>
-              <div class="space-y-2">
+              <div class="p-6 space-y-2">
                 <div
                   class="flex items-center gap-2 text-sm text-muted-foreground"
                 >
@@ -184,7 +183,7 @@ const toggleTag = (tag) => {
                   }}</time>
                 </div>
                 <h2
-                  class="text-xl font-bold group-hover:text-primary line-clamp-2"
+                  class="text-xl font-bold group-hover:text-primary transition-colors line-clamp-2"
                 >
                   {{ post.title }}
                 </h2>
@@ -195,7 +194,7 @@ const toggleTag = (tag) => {
                   <span
                     v-for="tag in post.tags"
                     :key="tag"
-                    class="inline-flex items-center rounded-full border px-2 py-0.5 text-xs font-medium text-muted-foreground"
+                    class="inline-flex items-center rounded-full bg-secondary px-2.5 py-0.5 text-xs font-medium text-muted-foreground"
                   >
                     {{ tag }}
                   </span>

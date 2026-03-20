@@ -18,7 +18,7 @@ const { data: projects } = await useAsyncData("projects-list", () =>
           <article
             v-for="project in projects"
             :key="project._path"
-            class="group"
+            class="group bg-card rounded-xl p-6 border border-border/50 hover:border-primary/20 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300"
           >
             <NuxtLink :to="project._path" class="block">
               <img
@@ -50,7 +50,7 @@ const { data: projects } = await useAsyncData("projects-list", () =>
               </div>
               <div class="space-y-2">
                 <h2
-                  class="text-xl font-bold group-hover:text-primary line-clamp-2"
+                  class="text-xl font-bold group-hover:text-primary transition-colors line-clamp-2"
                 >
                   {{ project.title }}
                 </h2>
@@ -61,7 +61,7 @@ const { data: projects } = await useAsyncData("projects-list", () =>
                   <span
                     v-for="tech in project.stack"
                     :key="tech"
-                    class="inline-flex items-center rounded-full border px-2 py-0.5 text-xs font-medium text-muted-foreground"
+                    class="inline-flex items-center rounded-full bg-secondary px-2.5 py-0.5 text-xs font-medium text-muted-foreground"
                   >
                     {{ tech }}
                   </span>

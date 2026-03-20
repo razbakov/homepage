@@ -41,7 +41,7 @@ const downloadPDF = async () => {
       <div class="max-w-3xl mx-auto cv-content">
         <header class="mb-12 print:mb-4">
           <h1 class="text-4xl font-bold mb-2">{{ cv.name }}</h1>
-          <h2 class="text-2xl font-medium mb-6 text-muted-foreground">
+          <h2 class="text-2xl font-medium mb-6 text-primary">
             {{ cv.title }}
           </h2>
           <p class="text-xl text-muted-foreground print:text-base">
@@ -113,7 +113,7 @@ const downloadPDF = async () => {
               <div
                 v-for="(skills, title) in cv.skills"
                 :key="title"
-                class="text-sm"
+                class="text-sm p-4 rounded-xl bg-secondary/50"
               >
                 <div class="font-medium text-foreground">{{ title }}:</div>
                 <div class="text-muted-foreground">{{ skills.join(", ") }}</div>
@@ -126,7 +126,7 @@ const downloadPDF = async () => {
         <section class="mb-12">
           <h2 class="text-2xl font-bold mb-6">Professional Experience</h2>
           <div class="space-y-8">
-            <div v-for="exp in cv.professional_experience" :key="exp.company">
+            <div v-for="exp in cv.professional_experience" :key="exp.company" class="border-l-2 border-primary/20 pl-6">
               <h3 class="text-xl font-medium">{{ exp.company }}</h3>
               <p class="text-muted-foreground">
                 {{ exp.position }} ({{ exp.period }})
@@ -146,7 +146,7 @@ const downloadPDF = async () => {
             Volunteering & Community Leadership
           </h2>
           <div class="space-y-8">
-            <div v-for="vol in cv.volunteering" :key="vol.organization">
+            <div v-for="vol in cv.volunteering" :key="vol.organization" class="border-l-2 border-accent/20 pl-6">
               <h3 class="text-xl font-medium">
                 {{ vol.role }}, {{ vol.organization }}
               </h3>
@@ -233,7 +233,7 @@ const downloadPDF = async () => {
       <div class="text-center print:hidden mt-8">
         <button
           @click="downloadPDF"
-          class="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground hover:bg-primary/90"
+          class="inline-flex h-11 items-center justify-center rounded-lg bg-primary px-8 text-sm font-medium text-primary-foreground hover:bg-primary/90 shadow-lg shadow-primary/25 transition-all duration-200"
         >
           Download CV
         </button>
