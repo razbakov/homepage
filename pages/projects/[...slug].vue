@@ -9,58 +9,68 @@ const { data: project } = await useAsyncData(`content-${path}`, () =>
   <article class="py-16">
     <div class="container mx-auto px-4">
       <div class="max-w-3xl mx-auto">
-        <!-- Header -->
+        <!-- Screenshot -->
+        <div
+          v-if="project.screenshot"
+          class="mb-8 rounded-xl overflow-hidden border border-border/50 shadow-lg"
+        >
+          <img
+            :src="project.screenshot"
+            :alt="`${project.title} screenshot`"
+            class="w-full h-auto"
+          />
+        </div>
+
+        <!-- Header: small logo + title -->
         <header class="mb-12">
-          <div
-            class="flex items-center gap-2 text-sm text-muted-foreground mb-4"
-          >
-            <div v-if="project.stack?.length" class="flex gap-2">
-              <span
-                v-for="tech in project.stack"
-                :key="tech"
-                class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors hover:bg-secondary"
-              >
-                {{ tech }}
-              </span>
-            </div>
-          </div>
-          <div class="flex items-center gap-6 mb-6">
+          <div class="flex items-center gap-4 mb-4">
             <img
               v-if="project.icon"
               :src="project.icon"
               :alt="project.title"
-              class="w-16 h-16"
-              width="64"
-              height="64"
+              class="w-10 h-10 shrink-0"
+              width="40"
+              height="40"
             />
-            <div>
-              <h1 class="text-4xl font-bold">{{ project.title }}</h1>
-              <a
-                v-if="project.url"
-                :href="project.url"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="inline-flex items-center gap-2 mt-2 text-sm font-medium text-primary hover:text-primary/80"
-              >
-                Visit Site
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path d="M7 7h10v10" />
-                  <path d="M7 17 17 7" />
-                </svg>
-              </a>
-            </div>
+            <h1 class="text-4xl font-bold">{{ project.title }}</h1>
           </div>
-          <p class="text-xl text-muted-foreground">{{ project.description }}</p>
+          <p class="text-xl text-muted-foreground mb-4">
+            {{ project.description }}
+          </p>
+          <div class="flex items-center gap-4">
+            <a
+              v-if="project.url"
+              :href="project.url"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80"
+            >
+              Visit Site
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M7 7h10v10" />
+                <path d="M7 17 17 7" />
+              </svg>
+            </a>
+          </div>
+          <div v-if="project.stack?.length" class="flex flex-wrap gap-2 mt-4">
+            <span
+              v-for="tech in project.stack"
+              :key="tech"
+              class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors hover:bg-secondary"
+            >
+              {{ tech }}
+            </span>
+          </div>
         </header>
 
         <!-- Content -->
