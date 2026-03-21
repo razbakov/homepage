@@ -6,6 +6,10 @@ screenshot: /img/projects/moneydo.png
 cover: /img/moneydo.png
 url: https://moneydo.vip/
 status: launched
+roles:
+  - Code
+  - Design
+  - Concept
 date: 2020-04-29
 stack:
   - TailwindCSS

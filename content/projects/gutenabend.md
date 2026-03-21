@@ -6,6 +6,9 @@ screenshot: /img/projects/gutenabend.png
 url: https://gutenabend.netlify.app/
 date: 2020-03-31
 status: launched
+roles:
+  - Code
+  - Concept
 stack:
   - TailwindCSS
   - Nuxtjs

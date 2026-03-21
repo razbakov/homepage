@@ -57,6 +57,27 @@
           </div>
         </section>
 
+        <!-- Photo gallery -->
+        <section class="mb-16">
+          <h2 class="text-2xl font-bold mb-6">{{ $t('about.photosTitle') }}</h2>
+          <div v-for="gallery in galleries" :key="gallery.titleKey" class="mb-8 last:mb-0">
+            <h3 class="text-lg font-semibold mb-3 text-muted-foreground">{{ $t(gallery.titleKey) }}</h3>
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
+              <figure v-for="photo in gallery.photos" :key="photo.src" class="group">
+                <NuxtImg
+                  :src="photo.src"
+                  :alt="$t(photo.altKey)"
+                  class="rounded-xl object-cover w-full aspect-[3/4] group-hover:scale-[1.02] transition-transform duration-300"
+                  width="800"
+                  height="1422"
+                  loading="lazy"
+                />
+                <figcaption class="text-xs text-muted-foreground mt-1.5 px-0.5">{{ $t(photo.captionKey) }}</figcaption>
+              </figure>
+            </div>
+          </div>
+        </section>
+
         <!-- Fun facts -->
         <section class="mb-16">
           <h2 class="text-2xl font-bold mb-6">{{ $t('about.factsTitle') }}</h2>
@@ -104,6 +125,31 @@ import config from "~/content/config.json";
 
 const calendlyUrl = `https://calendly.com/${config.site.calendly.username}`;
 const email = config.site.email;
+
+const galleries = [
+  {
+    titleKey: "about.galleryKenya",
+    photos: [
+      { src: "/images/about/kenya-giraffe.jpg", altKey: "about.photoGiraffe", captionKey: "about.captionGiraffe" },
+      { src: "/images/about/kenya-atv.jpg", altKey: "about.photoAtv", captionKey: "about.captionAtv" },
+      { src: "/images/about/kenya-beach.jpg", altKey: "about.photoBeach", captionKey: "about.captionBeach" },
+      { src: "/images/about/kenya-mangroves.jpg", altKey: "about.photoMangroves", captionKey: "about.captionMangroves" },
+      { src: "/images/about/kenya-sunset.jpg", altKey: "about.photoSunset", captionKey: "about.captionSunset" },
+      { src: "/images/about/kenya-matatu.jpg", altKey: "about.photoMatatu", captionKey: "about.captionMatatu" },
+    ],
+  },
+  {
+    titleKey: "about.galleryCuba",
+    photos: [
+      { src: "/images/about/cuba-vinales.jpg", altKey: "about.photoCubaVinales", captionKey: "about.captionCubaVinales" },
+      { src: "/images/about/cuba-malecon.jpg", altKey: "about.photoCubaMalecon", captionKey: "about.captionCubaMalecon" },
+      { src: "/images/about/cuba-vintage-car.jpg", altKey: "about.photoCubaVintageCar", captionKey: "about.captionCubaVintageCar" },
+      { src: "/images/about/cuba-havana-street.jpg", altKey: "about.photoCubaHavanaStreet", captionKey: "about.captionCubaHavanaStreet" },
+      { src: "/images/about/cuba-habana-concert.jpg", altKey: "about.photoCubaHabanaConcert", captionKey: "about.captionCubaHabanaConcert" },
+      { src: "/images/about/cuba-sign.jpg", altKey: "about.photoCubaSign", captionKey: "about.captionCubaSign" },
+    ],
+  },
+];
 
 const facts = [
   { icon: "lucide:map-pin", key: "about.factMunich" },

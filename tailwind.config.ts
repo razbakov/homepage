@@ -19,7 +19,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ["Inter var", ...defaultTheme.fontFamily.sans],
+        sans: ["Open Sans", ...defaultTheme.fontFamily.sans],
+        heading: ["Roboto Slab", ...defaultTheme.fontFamily.serif],
       },
       colors: {
         border: "hsl(var(--border))",

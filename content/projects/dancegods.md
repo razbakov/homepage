@@ -6,6 +6,10 @@ screenshot: /img/projects/dancegods.png
 url: https://dancegodscompany.com/
 date: 2024-03-21
 status: launched
+roles:
+  - Code
+  - Design
+  - For clients
 stack:
   - Nuxtjs
   - TailwindCSS

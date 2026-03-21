@@ -92,17 +92,22 @@
 import { ref } from "vue";
 import config from "~/content/config.json";
 
+const { locale } = useI18n();
 const localePath = useLocalePath();
 const isMenuOpen = ref(false);
 
-const socialLinks = [
+const telegramUrl = computed(() =>
+  ['ru', 'uk'].includes(locale.value) ? 'https://t.me/razbakov_ru' : 'https://t.me/razbakov'
+);
+
+const socialLinks = computed(() => [
   { href: "https://github.com/razbakov", icon: "simple-icons:github", label: "GitHub" },
   { href: "https://x.com/razbakov", icon: "simple-icons:x", label: "X" },
-  { href: "https://t.me/razbakov", icon: "mdi:telegram", label: "Telegram" },
+  { href: telegramUrl.value, icon: "mdi:telegram", label: "Telegram" },
   { href: "https://linkedin.com/in/razbakov", icon: "simple-icons:linkedin", label: "LinkedIn" },
   { href: "https://youtube.com/@razbakov", icon: "simple-icons:youtube", label: "YouTube" },
   { href: "https://twitch.tv/razbakov", icon: "simple-icons:twitch", label: "Twitch" },
   { href: "https://instagram.com/alosha_timba_munich", icon: "simple-icons:instagram", label: "Instagram" },
   { href: "https://www.threads.com/@alosha_timba_munich", icon: "simple-icons:threads", label: "Threads" },
-];
+]);
 </script>

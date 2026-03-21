@@ -6,6 +6,10 @@ screenshot: /img/projects/dora-torres.png
 url: https://dora-torres.netlify.app/
 date: 2024-03-21
 status: launched
+roles:
+  - Code
+  - Design
+  - For clients
 stack:
   - Nuxtjs
   - TailwindCSS

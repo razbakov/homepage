@@ -21,9 +21,9 @@
         </div>
 
         <!-- CTAs -->
-        <div class="grid sm:grid-cols-2 gap-4 mb-12">
+        <div class="grid sm:grid-cols-2 gap-4 mb-8">
           <a
-            href="https://t.me/razbakov"
+            :href="telegramUrl"
             target="_blank"
             rel="noopener noreferrer"
             class="flex items-center gap-4 p-5 rounded-lg border border-border/50 hover:border-primary/30 hover:bg-muted/50 transition-all"
@@ -48,6 +48,22 @@
           </a>
         </div>
 
+        <!-- Interest filters -->
+        <div class="flex gap-2 overflow-x-auto pb-2 mb-10 -mx-4 px-4 scrollbar-none">
+          <button
+            v-for="interest in interests"
+            :key="interest.key"
+            @click="activeInterest = interest.key"
+            class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-all duration-200 shrink-0"
+            :class="activeInterest === interest.key
+              ? 'bg-coral-500 text-white shadow-sm'
+              : 'border border-border text-muted-foreground hover:border-coral-300 hover:text-foreground'"
+          >
+            <Icon v-if="interest.icon" :name="interest.icon" class="w-4 h-4" />
+            {{ $t(`home.interests.${interest.key}`) }}
+          </button>
+        </div>
+
         <p v-if="postsByYear.length === 0" class="text-muted-foreground text-center py-12">
           {{ $t('blog.noPosts') }}
         </p>
@@ -60,7 +76,7 @@
               :key="post._path"
               class="group"
             >
-              <NuxtLink :to="post._path" class="block py-3 -ml-6 pl-6 hover:bg-muted/50 rounded-r-lg transition-all duration-200">
+              <NuxtLink :to="localePath(post._path)" class="block py-3 -ml-6 pl-6 hover:bg-muted/50 rounded-r-lg transition-all duration-200">
                 <div class="flex items-baseline gap-4">
                   <time :datetime="post.date" class="text-sm text-muted-foreground shrink-0 tabular-nums">
                     {{ new Date(post.date).toLocaleDateString(locale, { month: "short", day: "numeric" }) }}
@@ -89,13 +105,34 @@ const { locale } = useI18n();
 const localePath = useLocalePath();
 const { filterByLanguage } = useLanguageFilter();
 
+const telegramUrl = computed(() =>
+  ['ru', 'uk'].includes(locale.value) ? 'https://t.me/razbakov_ru' : 'https://t.me/razbakov'
+);
+
+const activeInterest = ref('all');
+
+const interests = [
+  { key: 'all', icon: null, categories: [] },
+  { key: 'building', icon: 'lucide:code', categories: ['Technology'] },
+  { key: 'dancing', icon: 'lucide:music', categories: ['Dance'] },
+  { key: 'thinking', icon: 'lucide:lightbulb', categories: ['Philosophy', 'Ideas', 'Writing'] },
+  { key: 'optimizing', icon: 'lucide:settings', categories: ['Productivity', 'Personal Finance', 'Lifestyle'] },
+  { key: 'exploring', icon: 'lucide:compass', categories: ['Travel'] },
+];
+
 const { data: posts } = await useAsyncData("blog-posts", () =>
   queryContent("blog").sort({ date: -1 }).find()
 );
 
 const postsByYear = computed(() => {
   if (!posts.value) return [];
-  const filtered = filterByLanguage(posts.value);
+  let filtered = filterByLanguage(posts.value);
+
+  const active = interests.find(i => i.key === activeInterest.value);
+  if (active && active.categories.length > 0) {
+    filtered = filtered.filter(post => active.categories.includes(post.category));
+  }
+
   const grouped = new Map();
   for (const post of filtered) {
     const year = new Date(post.date).getFullYear();

@@ -6,6 +6,10 @@ screenshot: /img/projects/wedance.png
 url: https://wedance.vip
 date: 2020-05-16
 status: in progress
+roles:
+  - Code
+  - Design
+  - Concept
 stack:
   - TailwindCSS
   - Nuxtjs

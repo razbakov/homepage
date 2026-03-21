@@ -32,9 +32,6 @@ watch(
     const postLang = post.value.language || "en";
     if (postLang === language.value) return;
 
-    const translations = post.value.translations;
-    if (!translations?.[language.value]) return;
-
     // Find the translated post by matching date and language
     const translated = allPosts.value.find(
       (p) =>
@@ -43,7 +40,7 @@ watch(
     );
 
     if (translated) {
-      navigateTo(translated._path, { replace: true });
+      navigateTo(localePath(translated._path), { replace: true });
     }
   },
   { immediate: true }
@@ -64,12 +61,28 @@ const { data: relatedPosts } = await useAsyncData(
 
 <template>
   <article class="py-16">
+    <!-- Hero Image (full-width, before title) -->
+    <div
+      v-if="post.image && !post.hideImage && post.heroImage"
+      class="container mx-auto px-4 mb-12"
+    >
+      <div class="max-w-4xl mx-auto overflow-hidden rounded-lg bg-muted">
+        <img
+          :src="post.image"
+          :alt="post.title"
+          class="w-full object-cover"
+          width="1200"
+          height="675"
+        />
+      </div>
+    </div>
+
     <div class="container mx-auto px-4">
       <div class="max-w-lg mx-auto">
         <!-- Header -->
         <header class="mb-12">
           <div
-            class="text-sm text-muted-foreground mb-4 space-y-2"
+            class="text-sm text-muted-foreground mb-4"
           >
             <time :datetime="post.date">{{
               new Date(post.date).toLocaleDateString(locale, {
@@ -78,23 +91,14 @@ const { data: relatedPosts } = await useAsyncData(
                 year: "numeric",
               })
             }}</time>
-            <div class="flex flex-wrap gap-2">
-              <span
-                v-for="tag in post.tags"
-                :key="tag"
-                class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors hover:bg-secondary"
-              >
-                {{ tag }}
-              </span>
-            </div>
           </div>
           <h1 class="text-4xl font-bold mb-6">{{ post.title }}</h1>
           <p class="text-xl text-muted-foreground">{{ post.description }}</p>
         </header>
 
-        <!-- Featured Image -->
+        <!-- Featured Image (default, inside content column) -->
         <div
-          v-if="post.image && !post.hideImage"
+          v-if="post.image && !post.hideImage && !post.heroImage"
           class="aspect-video mb-12 overflow-hidden rounded-lg bg-muted"
         >
           <img
@@ -220,6 +224,17 @@ const { data: relatedPosts } = await useAsyncData(
           </div>
         </div>
 
+        <!-- Tags -->
+        <div v-if="post.tags?.length" class="mt-8 flex flex-wrap gap-2">
+          <span
+            v-for="tag in post.tags"
+            :key="tag"
+            class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors hover:bg-secondary"
+          >
+            {{ tag }}
+          </span>
+        </div>
+
         <!-- Navigation -->
         <nav class="mt-12 flex justify-between">
           <NuxtLink
@@ -239,7 +254,7 @@ const { data: relatedPosts } = await useAsyncData(
               :key="related._path"
               class="group"
             >
-              <NuxtLink :to="related._path" class="flex flex-col gap-2">
+              <NuxtLink :to="localePath(related._path)" class="flex flex-col gap-2">
                 <h3 class="text-lg font-semibold group-hover:text-primary">
                   {{ related.title }}
                 </h3>

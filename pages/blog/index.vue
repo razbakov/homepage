@@ -1,5 +1,6 @@
 <script setup>
 const { locale, t } = useI18n();
+const localePath = useLocalePath();
 const { filterByLanguage } = useLanguageFilter();
 
 const { data: posts } = await useAsyncData("blog-posts", () =>
@@ -145,7 +146,7 @@ const toggleTag = (tag) => {
             :key="post._path"
             class="group bg-card rounded-xl border border-border/50 overflow-hidden hover:border-primary/20 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300"
           >
-            <NuxtLink :to="post._path" class="block">
+            <NuxtLink :to="localePath(post._path)" class="block">
               <div
                 class="aspect-video overflow-hidden bg-gradient-to-br from-coral-50 to-teal-50/50 flex items-center justify-center"
               >
