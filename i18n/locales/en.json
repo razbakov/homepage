@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "blog": "Blog",
+    "slides": "Slides",
+    "uses": "Uses",
+    "scheduleCall": "Schedule a Call"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Sharing insights and experiences on topics I'm passionate about.",
+    "subtitleBrowse": "Browse by category below to explore what interests you.",
+    "filterByCategory": "Filter by Category",
+    "filterByTag": "Filter by Tag",
+    "noPosts": "No posts available in this language yet.",
+    "backToBlog": "Back to Blog",
+    "relatedArticles": "Related Articles",
+    "readyToStart": "Ready to Get Started?",
+    "takeNextStep": "Take the next step and explore more resources.",
+    "joinTelegram": "Join Telegram Discussion",
+    "joinDiscussionTelegram": "Join the discussion on Telegram!",
+    "joinDiscussionX": "Join the discussion on X!",
+    "haveThoughts": "Have thoughts about this post? Let's discuss it on X!",
+    "viewDiscussionX": "View Discussion on X",
+    "shareOnX": "Share on X",
+    "telegramChannel": "Telegram Channel",
+    "followOnX": "Follow on X"
+  },
+  "home": {
+    "title": "Hey, I'm Alex",
+    "subtitleBefore": "Developer, community builder,",
+    "subtitleTeacher": "salsa teacher",
+    "subtitleAfter": ". Writing to find my people.",
+    "learnMore": "More about me →",
+    "joinTelegram": "Join My Telegram Channel",
+    "telegramDescription": "Updates on live coding, projects, and tech insights",
+    "joinYoutube": "Subscribe on YouTube",
+    "youtubeDescription": "Tutorials, talks, and live coding sessions"
+  },
+  "about": {
+    "title": "Alex Razbakov",
+    "intro": "Senior fullstack developer based in Munich. I build things that bring people together — through code, through dance, through community. I believe the best technology disappears into the human experience it creates.",
+    "believeTitle": "What I believe",
+    "believe1": "Blogging is a complex search query — I write to find my people, not to build an audience. Every post is a signal sent out, hoping someone resonates.",
+    "believe2": "The best products are built by people who care about the humans using them. I'd rather prototype than philosophize, build than speculate, connect than broadcast.",
+    "doTitle": "What I do",
+    "doCode": "Fullstack Development",
+    "doCodeDesc": "Vue.js, Nuxt, Firebase, Postgres, Prisma — building web apps that solve real problems.",
+    "doAI": "AI Integration",
+    "doAIDesc": "LangChain, Claude, smart search, workflow automation — making AI useful, not just flashy.",
+    "doCommunity": "Community Building",
+    "doCommunityDesc": "7+ years building WeDance, a platform connecting dancers worldwide.",
+    "doDance": "Salsa Teaching",
+    "doDanceDesc": "Cuban salsa teacher in Munich — bridging cultures through movement and music.",
+    "factsTitle": "Quick facts",
+    "factMunich": "Living in Munich, Germany — mountains nearby, good coffee everywhere",
+    "factLanguages": "I speak Ukrainian, Russian, German, English, and Spanish",
+    "factWeDance": "Building WeDance for 7+ years — a passion project that became a platform",
+    "factSciFi": "Grew up on sci-fi — still ask 'what if?' about everything",
+    "factChess": "Chess player — I like games where every move matters",
+    "ctaTitle": "Let's connect",
+    "ctaDescription": "Have a project in mind, want to chat about tech, or just want to say hi?",
+    "sendEmail": "Send Email"
+  },
+  "footer": {
+    "allRightsReserved": "All rights reserved."
+  }
+}
