@@ -269,23 +269,21 @@ const { data: relatedProjects } = await useAsyncData(
         <!-- Related Projects -->
         <div v-if="relatedProjects?.length" class="mt-12 border-t pt-8">
           <h2 class="text-2xl font-bold mb-4">Related Projects</h2>
-          <div class="flex flex-wrap gap-4">
+          <div class="grid grid-cols-2 gap-4">
             <NuxtLink
               v-for="project in relatedProjects"
               :key="project._path"
               :to="project._path"
-              class="group flex items-center gap-3 px-4 py-3 rounded-lg border border-border/50 hover:border-coral-300 hover:bg-coral-50/30 transition-all"
+              class="group flex flex-col items-center text-center p-5 rounded-xl border border-border/50 hover:border-coral-300 hover:bg-coral-50/30 transition-all"
             >
               <img
                 v-if="project.icon"
                 :src="project.icon"
                 :alt="project.title"
-                class="w-8 h-8 object-contain shrink-0"
+                class="w-12 h-12 object-contain mb-3 group-hover:scale-110 transition-transform duration-200"
               />
-              <div>
-                <span class="text-sm font-semibold group-hover:text-coral-500 transition-colors">{{ project.title }}</span>
-                <p class="text-xs text-muted-foreground">{{ project.description }}</p>
-              </div>
+              <span class="text-sm font-semibold group-hover:text-coral-500 transition-colors">{{ project.title }}</span>
+              <p class="text-xs text-muted-foreground mt-1">{{ project.description }}</p>
             </NuxtLink>
           </div>
         </div>
