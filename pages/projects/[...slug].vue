@@ -1,7 +1,32 @@
 <script setup>
+const { locale } = useI18n();
+const localePath = useLocalePath();
+const { filterByLanguage } = useLanguageFilter();
 const { path } = useRoute();
+
 const { data: project } = await useAsyncData(`content-${path}`, () =>
   queryContent(path).findOne()
+);
+
+const { data: relatedPosts } = await useAsyncData(
+  `project-posts-${path}`,
+  async () => {
+    if (!project.value) return [];
+    const title = project.value.title?.toLowerCase();
+    const slug = path.split("/").pop();
+    const allPosts = await queryContent("blog").sort({ date: -1 }).find();
+    const posts = filterByLanguage(allPosts);
+    return posts.filter((post) => {
+      const postPath = post._path?.toLowerCase() || "";
+      const postTags = post.tags?.map((t) => t.toLowerCase()) || [];
+      const postTitle = post.title?.toLowerCase() || "";
+      return (
+        postPath.includes(slug) ||
+        postTags.some((t) => t.includes(title) || title.includes(t)) ||
+        postTitle.includes(title)
+      );
+    });
+  }
 );
 </script>
 
@@ -12,7 +37,7 @@ const { data: project } = await useAsyncData(`content-${path}`, () =>
         <!-- Screenshot -->
         <div
           v-if="project.screenshot"
-          class="mb-8 rounded-xl overflow-hidden border border-border/50 shadow-lg"
+          class="mb-8 rounded-xl overflow-hidden border border-border/50"
         >
           <img
             :src="project.screenshot"
@@ -32,45 +57,30 @@ const { data: project } = await useAsyncData(`content-${path}`, () =>
               width="40"
               height="40"
             />
-            <h1 class="text-4xl font-bold">{{ project.title }}</h1>
-          </div>
-          <p class="text-xl text-muted-foreground mb-4">
-            {{ project.description }}
-          </p>
-          <div class="flex items-center gap-4">
+            <h1 class="text-4xl font-bold flex-1">{{ project.title }}</h1>
             <a
               v-if="project.url"
               :href="project.url"
               target="_blank"
               rel="noopener noreferrer"
-              class="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80"
+              class="inline-flex h-10 items-center justify-center rounded-lg px-6 text-sm font-medium bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg shadow-primary/25 hover:-translate-y-0.5 transition-all duration-200 gap-2 shrink-0"
             >
-              Visit Site
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path d="M7 7h10v10" />
-                <path d="M7 17 17 7" />
-              </svg>
+              Visit Website
+              <Icon name="lucide:external-link" class="w-4 h-4" />
             </a>
           </div>
-          <div v-if="project.stack?.length" class="flex flex-wrap gap-2 mt-4">
-            <span
-              v-for="tech in project.stack"
-              :key="tech"
-              class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors hover:bg-secondary"
-            >
-              {{ tech }}
-            </span>
-          </div>
+          <p class="text-xl text-muted-foreground mb-2">
+            {{ project.description }}
+          </p>
+          <a
+            v-if="project.url"
+            :href="project.url"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-sm text-muted-foreground/70 hover:text-primary transition-colors"
+          >
+            {{ project.url.replace(/^https?:\/\//, '').replace(/\/$/, '') }}
+          </a>
         </header>
 
         <!-- Content -->
@@ -80,6 +90,37 @@ const { data: project } = await useAsyncData(`content-${path}`, () =>
               <p class="text-muted-foreground"></p>
             </template>
           </ContentDoc>
+        </div>
+
+        <!-- Tags -->
+        <div v-if="project.stack?.length" class="flex flex-wrap gap-2 mt-8">
+          <span
+            v-for="tech in project.stack"
+            :key="tech"
+            class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold text-muted-foreground"
+          >
+            {{ tech }}
+          </span>
+        </div>
+
+        <!-- Related Blog Posts -->
+        <div v-if="relatedPosts?.length" class="mt-12 border-t pt-8">
+          <h2 class="text-xl font-bold mb-4">Related Posts</h2>
+          <div class="space-y-3">
+            <NuxtLink
+              v-for="post in relatedPosts"
+              :key="post._path"
+              :to="localePath(post._path)"
+              class="group flex items-baseline gap-3 py-2 hover:bg-muted/50 -mx-3 px-3 rounded-lg transition-colors"
+            >
+              <time :datetime="post.date" class="text-sm text-muted-foreground shrink-0 tabular-nums">
+                {{ new Date(post.date).toLocaleDateString(locale, { month: 'short', year: 'numeric' }) }}
+              </time>
+              <span class="text-base group-hover:text-primary transition-colors">
+                {{ post.title }}
+              </span>
+            </NuxtLink>
+          </div>
         </div>
 
         <!-- Navigation -->

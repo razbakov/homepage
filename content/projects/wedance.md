@@ -18,7 +18,6 @@ stack:
   - Netlify
 ---
 
-## Use Case
 
 WeDance is a community platform that connects dancers worldwide. Users can discover bachata, salsa, kizomba, and other dance events near them, organize their own events, and promote dance activities.
 

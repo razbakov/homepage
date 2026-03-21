@@ -16,7 +16,6 @@ stack:
   - Netlify
 ---
 
-## Use Case
 
 Dance Gods Company is a Cuban dance school in Munich led by instructor Amado. The website serves as a booking and information hub for students interested in Salsa Cubana, Timba, Son Cubano, Rumba Guaguanco, and Afro-Cubano classes.
 

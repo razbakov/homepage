@@ -57,6 +57,27 @@ const { data: relatedPosts } = await useAsyncData(
     return posts.filter(Boolean);
   }
 );
+
+// Fetch related projects
+const { data: relatedProjects } = await useAsyncData(
+  `post-projects-${route.path}`,
+  async () => {
+    if (!post.value) return [];
+    const slug = contentPath.value.split("/").pop();
+    const postTags = post.value.tags?.map((t) => t.toLowerCase()) || [];
+    const postTitle = post.value.title?.toLowerCase() || "";
+    const projects = await queryContent("projects").find();
+    return projects.filter((project) => {
+      const title = project.title?.toLowerCase() || "";
+      const projectSlug = project._path?.split("/").pop() || "";
+      return (
+        slug.includes(projectSlug) ||
+        postTags.some((t) => t.includes(title) || title.includes(t)) ||
+        postTitle.includes(title)
+      );
+    });
+  }
+);
 </script>
 
 <template>
@@ -244,6 +265,30 @@ const { data: relatedPosts } = await useAsyncData(
             ← {{ $t('blog.backToBlog') }}
           </NuxtLink>
         </nav>
+
+        <!-- Related Projects -->
+        <div v-if="relatedProjects?.length" class="mt-12 border-t pt-8">
+          <h2 class="text-2xl font-bold mb-4">Related Projects</h2>
+          <div class="flex flex-wrap gap-4">
+            <NuxtLink
+              v-for="project in relatedProjects"
+              :key="project._path"
+              :to="project._path"
+              class="group flex items-center gap-3 px-4 py-3 rounded-lg border border-border/50 hover:border-coral-300 hover:bg-coral-50/30 transition-all"
+            >
+              <img
+                v-if="project.icon"
+                :src="project.icon"
+                :alt="project.title"
+                class="w-8 h-8 object-contain shrink-0"
+              />
+              <div>
+                <span class="text-sm font-semibold group-hover:text-coral-500 transition-colors">{{ project.title }}</span>
+                <p class="text-xs text-muted-foreground">{{ project.description }}</p>
+              </div>
+            </NuxtLink>
+          </div>
+        </div>
 
         <!-- Related Articles -->
         <div v-if="relatedPosts?.length" class="mt-12 border-t pt-8">

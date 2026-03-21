@@ -23,7 +23,7 @@ const filtered = computed(() => {
 <template>
   <div class="py-16">
     <div class="container mx-auto px-4">
-      <div class="max-w-6xl mx-auto">
+      <div class="max-w-4xl mx-auto">
         <h1 class="text-4xl font-bold mb-8">Projects</h1>
         <p class="text-xl text-muted-foreground mb-4">
           A showcase of my work in web development, UX design, and tech
@@ -46,22 +46,33 @@ const filtered = computed(() => {
           </button>
         </div>
 
-        <!-- Masonry grid -->
-        <div class="columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6">
-          <article
+        <!-- Logo grid -->
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-6">
+          <NuxtLink
             v-for="project in filtered"
             :key="project._path"
-            class="group break-inside-avoid"
+            :to="project._path"
+            class="group flex flex-col items-center text-center p-6 rounded-xl border border-border/50 hover:border-coral-300 hover:bg-coral-50/30 transition-all duration-200"
           >
-            <NuxtLink :to="project._path" class="block">
-              <img
-                v-if="project.screenshot"
-                :src="project.screenshot"
-                :alt="`${project.title} screenshot`"
-                class="w-full h-auto border border-black/10 hover:opacity-90 transition-opacity duration-200"
-              />
-            </NuxtLink>
-          </article>
+            <img
+              v-if="project.icon"
+              :src="project.icon"
+              :alt="project.title"
+              class="w-16 h-16 object-contain mb-4 group-hover:scale-110 transition-transform duration-200"
+            />
+            <div
+              v-else
+              class="w-16 h-16 rounded-full bg-muted flex items-center justify-center mb-4 text-2xl font-bold text-muted-foreground"
+            >
+              {{ project.title?.charAt(0) }}
+            </div>
+            <h2 class="text-base font-semibold group-hover:text-coral-500 transition-colors">
+              {{ project.title }}
+            </h2>
+            <p class="text-sm text-muted-foreground mt-1">
+              {{ project.description }}
+            </p>
+          </NuxtLink>
         </div>
       </div>
     </div>

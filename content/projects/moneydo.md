@@ -19,7 +19,6 @@ stack:
   - Netlify
 ---
 
-## Use Case
 
 MoneyDo is a personal budgeting app inspired by the Japanese Kakeibo method. It helps users plan monthly budgets, set daily spending limits, and track expenses mindfully.
 

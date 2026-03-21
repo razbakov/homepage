@@ -17,7 +17,6 @@ stack:
   - Netlify
 ---
 
-## Use Case
 
 GutenAbend was born during the COVID-19 lockdown as a virtual social club to help people stay connected. The platform hosts online activities like Mafia Game, Geo Guess, CashFlow, Salsa Warm Up, and group conversations.
 

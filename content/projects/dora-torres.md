@@ -16,7 +16,6 @@ stack:
   - Netlify
 ---
 
-## Use Case
 
 Dorileana Torres is a piano teacher, musician, and singer based in Munich specializing in Latin Jazz, Cuban, and Classical music. The website acts as her professional portfolio and booking page for piano lessons and band performances.
 
