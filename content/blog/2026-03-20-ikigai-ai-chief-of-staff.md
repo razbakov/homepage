@@ -13,9 +13,9 @@ tags:
   - Ikigai
 cta:
   title: "Try This Yourself"
-  description: "Set up OpenClaw and give it this skill: github.com/razbakov/skills/tree/main/skills/startup-coach"
-  label: "Get Started with OpenClaw"
-  url: "https://openclaw.ai/"
+  description: "Use this skill with Claude Code or any AI agent to run your own startup coaching session."
+  label: "Get the Startup Coach Skill"
+  url: "https://github.com/razbakov/skills/tree/main/skills/startup-coach"
 related:
   - /blog/2025-01-10-ai-first
   - /blog/2025-01-07-personal-life-management-system
