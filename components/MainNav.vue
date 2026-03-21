@@ -1,15 +1,15 @@
 <template>
   <NuxtLink
     v-for="item in menuItems"
-    :key="item.to"
-    :to="item.to"
+    :key="item.key"
+    :to="localePath(item.to)"
     class="px-3 py-2 rounded-lg text-sm font-medium transition-colors hover:bg-secondary hover:text-foreground"
     :class="{
       'bg-secondary text-foreground': isActive(item),
     }"
     @click="$emit('itemClick')"
   >
-    {{ item.label }}
+    {{ $t(`nav.${item.key}`) }}
   </NuxtLink>
   <a
     :href="calendlyUrl"
@@ -18,7 +18,7 @@
     class="px-4 py-2 rounded-lg text-sm font-medium bg-primary text-primary-foreground hover:bg-primary/90 shadow-md shadow-primary/20 hover:shadow-lg hover:shadow-primary/25 transition-all duration-200"
     :class="{ 'ml-2': !isMobile }"
   >
-    Schedule a Call
+    {{ $t('nav.scheduleCall') }}
   </a>
 </template>
 
@@ -36,20 +36,20 @@ const props = defineProps({
 defineEmits(["itemClick"]);
 
 const route = useRoute();
+const localePath = useLocalePath();
 const calendlyUrl = `https://calendly.com/${config.site.calendly.username}`;
 
 const menuItems = [
-  { to: "/about", label: "About" },
-  { to: "/projects", label: "Projects" },
-  { to: "/blog", label: "Blog" },
-  { to: "/slides", label: "Slides" },
-  { to: "/uses", label: "Uses" },
+  { to: "/", key: "home" },
+  { to: "/about", key: "about" },
+  { to: "/projects", key: "projects" },
 ];
 
 const isActive = (item) => {
-  if (item.to === "/about" || item.to === "/uses") {
-    return route.path === item.to;
+  const localized = localePath(item.to);
+  if (item.key === "home") {
+    return route.path === localized;
   }
-  return route.path.startsWith(item.to);
+  return route.path.startsWith(localized);
 };
 </script>

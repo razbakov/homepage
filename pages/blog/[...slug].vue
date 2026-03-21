@@ -1,16 +1,61 @@
 <script setup>
-const { path } = useRoute();
-const { data: post } = await useAsyncData(`content-${path}`, () =>
-  queryContent(path).findOne()
+const { locale, t } = useI18n();
+const localePath = useLocalePath();
+const route = useRoute();
+const { language } = useLanguageFilter();
+
+// Strip locale prefix from path for content query
+const contentPath = computed(() => {
+  const path = route.path;
+  const localePrefix = `/${locale.value}`;
+  if (locale.value !== "en" && path.startsWith(localePrefix)) {
+    return path.slice(localePrefix.length);
+  }
+  return path;
+});
+
+const { data: post } = await useAsyncData(
+  `content-${route.path}`,
+  () => queryContent(contentPath.value).findOne()
+);
+
+// Redirect to translated version if user prefers a different language
+const { data: allPosts } = await useAsyncData("blog-posts", () =>
+  queryContent("blog").sort({ date: -1 }).find()
+);
+
+watch(
+  () => [post.value, language.value, allPosts.value],
+  () => {
+    if (!post.value || !allPosts.value) return;
+
+    const postLang = post.value.language || "en";
+    if (postLang === language.value) return;
+
+    const translations = post.value.translations;
+    if (!translations?.[language.value]) return;
+
+    // Find the translated post by matching date and language
+    const translated = allPosts.value.find(
+      (p) =>
+        p.date === post.value.date &&
+        (p.language || "en") === language.value
+    );
+
+    if (translated) {
+      navigateTo(translated._path, { replace: true });
+    }
+  },
+  { immediate: true }
 );
 
 // Fetch related articles data
 const { data: relatedPosts } = await useAsyncData(
-  `related-${path}`,
+  `related-${route.path}`,
   async () => {
     if (!post.value?.related?.length) return [];
     const posts = await Promise.all(
-      post.value.related.map((path) => queryContent(path).findOne())
+      post.value.related.map((p) => queryContent(p).findOne())
     );
     return posts.filter(Boolean);
   }
@@ -27,7 +72,7 @@ const { data: relatedPosts } = await useAsyncData(
             class="text-sm text-muted-foreground mb-4 space-y-2"
           >
             <time :datetime="post.date">{{
-              new Date(post.date).toLocaleDateString("en-US", {
+              new Date(post.date).toLocaleDateString(locale, {
                 month: "long",
                 day: "numeric",
                 year: "numeric",
@@ -67,12 +112,12 @@ const { data: relatedPosts } = await useAsyncData(
           class="mb-12 rounded-lg border bg-muted/50 p-8 text-center"
         >
           <h2 class="text-2xl font-bold mb-4">
-            {{ post.cta.title || "Ready to Get Started?" }}
+            {{ post.cta.title || $t('blog.readyToStart') }}
           </h2>
           <p class="text-muted-foreground mb-6">
             {{
               post.cta.description ||
-              "Take the next step and explore more resources."
+              $t('blog.takeNextStep')
             }}
           </p>
           <a
@@ -87,7 +132,7 @@ const { data: relatedPosts } = await useAsyncData(
 
         <!-- Content -->
         <div class="prose prose-lg max-w-none">
-          <ContentDoc />
+          <ContentDoc :path="contentPath" />
         </div>
 
         <!-- Social Sharing -->
@@ -95,11 +140,11 @@ const { data: relatedPosts } = await useAsyncData(
           <p class="text-sm text-muted-foreground mb-4">
             {{
               post.telegram
-                ? "Join the discussion on Telegram!"
+                ? $t('blog.joinDiscussionTelegram')
                 : typeof post.tweet === "string" &&
                   post.tweet.startsWith("http")
-                ? "Join the discussion on X!"
-                : "Have thoughts about this post? Let's discuss it on X!"
+                ? $t('blog.joinDiscussionX')
+                : $t('blog.haveThoughts')
             }}
           </p>
           <div class="flex flex-wrap gap-3">
@@ -111,7 +156,7 @@ const { data: relatedPosts } = await useAsyncData(
               class="inline-flex h-9 items-center justify-center rounded-md bg-sky-500 px-4 text-sm font-medium text-white hover:bg-sky-600 gap-2"
             >
               <Icon name="mdi:telegram" class="w-4 h-4" />
-              Join Telegram Discussion
+              {{ $t('blog.joinTelegram') }}
             </a>
             <a
               :href="
@@ -130,8 +175,8 @@ const { data: relatedPosts } = await useAsyncData(
               <Icon name="simple-icons:x" class="w-4 h-4" />
               {{
                 typeof post.tweet === "string" && post.tweet.startsWith("http")
-                  ? "View Discussion on X"
-                  : "Share on X"
+                  ? $t('blog.viewDiscussionX')
+                  : $t('blog.shareOnX')
               }}
             </a>
           </div>
@@ -160,7 +205,7 @@ const { data: relatedPosts } = await useAsyncData(
                   rel="noopener noreferrer"
                   class="text-primary hover:text-primary/80"
                 >
-                  Telegram Channel
+                  {{ $t('blog.telegramChannel') }}
                 </a>
                 <a
                   href="https://x.com/razbakov"
@@ -168,7 +213,7 @@ const { data: relatedPosts } = await useAsyncData(
                   rel="noopener noreferrer"
                   class="text-primary hover:text-primary/80"
                 >
-                  Follow on X
+                  {{ $t('blog.followOnX') }}
                 </a>
               </div>
             </div>
@@ -178,16 +223,16 @@ const { data: relatedPosts } = await useAsyncData(
         <!-- Navigation -->
         <nav class="mt-12 flex justify-between">
           <NuxtLink
-            to="/blog"
+            :to="localePath('/blog')"
             class="inline-flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-primary"
           >
-            ← Back to Blog
+            ← {{ $t('blog.backToBlog') }}
           </NuxtLink>
         </nav>
 
         <!-- Related Articles -->
         <div v-if="relatedPosts?.length" class="mt-12 border-t pt-8">
-          <h2 class="text-2xl font-bold mb-6">Related Articles</h2>
+          <h2 class="text-2xl font-bold mb-6">{{ $t('blog.relatedArticles') }}</h2>
           <div class="grid gap-6">
             <article
               v-for="related in relatedPosts"

@@ -1,4 +1,7 @@
 <script setup>
+const { locale, t } = useI18n();
+const { filterByLanguage } = useLanguageFilter();
+
 const { data: posts } = await useAsyncData("blog-posts", () =>
   queryContent("blog").sort({ date: -1 }).find()
 );
@@ -6,15 +9,19 @@ const { data: posts } = await useAsyncData("blog-posts", () =>
 const selectedCategory = ref(null);
 const selectedTags = ref(new Set());
 
+const languageFilteredPosts = computed(() => {
+  if (!posts.value) return [];
+  return filterByLanguage(posts.value);
+});
+
 const allCategories = computed(() => {
-  if (!posts.value) return new Set();
-  return new Set(posts.value.map((post) => post.category).filter(Boolean));
+  return new Set(languageFilteredPosts.value.map((post) => post.category).filter(Boolean));
 });
 
 const availableTags = computed(() => {
-  if (!posts.value || !selectedCategory.value) return new Set();
+  if (!selectedCategory.value) return new Set();
   return new Set(
-    posts.value
+    languageFilteredPosts.value
       .filter((post) => post.category === selectedCategory.value)
       .flatMap(
         (post) =>
@@ -24,9 +31,7 @@ const availableTags = computed(() => {
 });
 
 const filteredPosts = computed(() => {
-  if (!posts.value) return [];
-
-  let filtered = posts.value;
+  let filtered = languageFilteredPosts.value;
 
   if (selectedCategory.value) {
     filtered = filtered.filter(
@@ -68,16 +73,16 @@ const toggleTag = (tag) => {
   <div class="py-16">
     <div class="container mx-auto px-4">
       <div class="max-w-6xl mx-auto">
-        <h1 class="text-4xl font-bold mb-8">Blog</h1>
+        <h1 class="text-4xl font-bold mb-8">{{ $t('blog.title') }}</h1>
         <p class="text-xl text-muted-foreground mb-8">
-          Sharing insights and experiences on topics I'm passionate about.
-          Browse by category below to explore what interests you.
+          {{ $t('blog.subtitle') }}
+          {{ $t('blog.subtitleBrowse') }}
         </p>
 
         <!-- Category Filter -->
         <div class="mb-8">
           <h2 class="text-sm font-medium text-muted-foreground mb-4">
-            Filter by Category
+            {{ $t('blog.filterByCategory') }}
           </h2>
           <div class="flex flex-wrap gap-2">
             <button
@@ -105,7 +110,7 @@ const toggleTag = (tag) => {
         <!-- Tag Filter (shown only when category is selected) -->
         <div v-if="selectedCategory" class="mb-12">
           <h2 class="text-sm font-medium text-muted-foreground mb-4">
-            Filter by Tag
+            {{ $t('blog.filterByTag') }}
           </h2>
           <div class="flex flex-wrap gap-2">
             <button
@@ -129,6 +134,10 @@ const toggleTag = (tag) => {
             </button>
           </div>
         </div>
+
+        <p v-if="filteredPosts.length === 0" class="text-muted-foreground text-center py-12">
+          {{ $t('blog.noPosts') }}
+        </p>
 
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
           <article
@@ -175,7 +184,7 @@ const toggleTag = (tag) => {
                   class="flex items-center gap-2 text-sm text-muted-foreground"
                 >
                   <time :datetime="post.date">{{
-                    new Date(post.date).toLocaleDateString("en-US", {
+                    new Date(post.date).toLocaleDateString(locale, {
                       month: "long",
                       day: "numeric",
                       year: "numeric",

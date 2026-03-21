@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über mich",
+    "projects": "Projekte",
+    "blog": "Blog",
+    "slides": "Vorträge",
+    "uses": "Tools",
+    "scheduleCall": "Termin buchen"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Einblicke und Erfahrungen zu Themen, die mich begeistern.",
+    "subtitleBrowse": "Durchsuche nach Kategorie, um das zu finden, was dich interessiert.",
+    "filterByCategory": "Nach Kategorie filtern",
+    "filterByTag": "Nach Tag filtern",
+    "noPosts": "Noch keine Beiträge in dieser Sprache verfügbar.",
+    "backToBlog": "Zurück zum Blog",
+    "relatedArticles": "Verwandte Artikel",
+    "readyToStart": "Bereit loszulegen?",
+    "takeNextStep": "Mach den nächsten Schritt und entdecke weitere Ressourcen.",
+    "joinTelegram": "Telegram-Diskussion beitreten",
+    "joinDiscussionTelegram": "Diskutiere mit auf Telegram!",
+    "joinDiscussionX": "Diskutiere mit auf X!",
+    "haveThoughts": "Gedanken zu diesem Beitrag? Lass uns auf X diskutieren!",
+    "viewDiscussionX": "Diskussion auf X ansehen",
+    "shareOnX": "Auf X teilen",
+    "telegramChannel": "Telegram-Kanal",
+    "followOnX": "Folge auf X"
+  },
+  "home": {
+    "title": "Hey, ich bin Alex",
+    "subtitleBefore": "Entwickler, Community-Builder,",
+    "subtitleTeacher": "Salsalehrer",
+    "subtitleAfter": ". Ich schreibe, um meine Leute zu finden.",
+    "learnMore": "Mehr über mich →",
+    "joinTelegram": "Meinem Telegram-Kanal beitreten",
+    "telegramDescription": "Updates zu Live-Coding, Projekten und Tech-Einblicken",
+    "joinYoutube": "Auf YouTube abonnieren",
+    "youtubeDescription": "Tutorials, Vorträge und Live-Coding-Sessions"
+  },
+  "about": {
+    "title": "Alex Razbakov",
+    "intro": "Senior Fullstack-Entwickler in München. Ich baue Dinge, die Menschen zusammenbringen — durch Code, durch Tanz, durch Community. Die beste Technologie verschwindet in der menschlichen Erfahrung, die sie schafft.",
+    "believeTitle": "Woran ich glaube",
+    "believe1": "Bloggen ist eine komplexe Suchanfrage — ich schreibe, um meine Leute zu finden, nicht um ein Publikum aufzubauen. Jeder Beitrag ist ein Signal, in der Hoffnung, dass jemand darauf anspringt.",
+    "believe2": "Die besten Produkte werden von Menschen gebaut, denen die Nutzer am Herzen liegen. Ich prototype lieber als zu philosophieren, baue lieber als zu spekulieren, verbinde lieber als zu senden.",
+    "doTitle": "Was ich mache",
+    "doCode": "Fullstack-Entwicklung",
+    "doCodeDesc": "Vue.js, Nuxt, Firebase, Postgres, Prisma — Web-Apps, die echte Probleme lösen.",
+    "doAI": "KI-Integration",
+    "doAIDesc": "LangChain, Claude, intelligente Suche, Workflow-Automatisierung — KI nützlich machen, nicht nur auffällig.",
+    "doCommunity": "Community Building",
+    "doCommunityDesc": "Seit über 7 Jahren WeDance aufbauen — eine Plattform, die Tänzer weltweit verbindet.",
+    "doDance": "Salsalehrer",
+    "doDanceDesc": "Kubanischer Salsalehrer in München — Brücken bauen zwischen Kulturen durch Bewegung und Musik.",
+    "factsTitle": "Kurz & knapp",
+    "factMunich": "Lebe in München — Berge in der Nähe, überall guter Kaffee",
+    "factLanguages": "Ich spreche Ukrainisch, Russisch, Deutsch, Englisch und Spanisch",
+    "factWeDance": "Seit über 7 Jahren WeDance aufbauen — aus Leidenschaft wurde eine Plattform",
+    "factSciFi": "Mit Sci-Fi aufgewachsen — frage immer noch 'Was wäre wenn?'",
+    "factChess": "Schachspieler — ich mag Spiele, in denen jeder Zug zählt",
+    "ctaTitle": "Lass uns connecten",
+    "ctaDescription": "Hast du ein Projekt im Kopf, willst über Tech reden, oder einfach Hallo sagen?",
+    "sendEmail": "E-Mail schreiben"
+  },
+  "footer": {
+    "allRightsReserved": "Alle Rechte vorbehalten."
+  }
+}

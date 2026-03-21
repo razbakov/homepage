@@ -20,6 +20,7 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "shadcn-nuxt",
     "@vee-validate/nuxt",
+    "@nuxtjs/i18n",
     "@nuxt/content",
     "@nuxt/icon",
     "@nuxtjs/robots",
@@ -28,8 +29,29 @@ export default defineNuxtConfig({
     "nuxt-og-image",
     "@nuxt/image",
   ],
+  i18n: {
+    locales: [
+      { code: "en", name: "English", file: "en.json" },
+      { code: "de", name: "Deutsch", file: "de.json" },
+      { code: "es", name: "Español", file: "es.json" },
+      { code: "ru", name: "Русский", file: "ru.json" },
+      { code: "uk", name: "Українська", file: "uk.json" },
+    ],
+    defaultLocale: "en",
+    strategy: "prefix_except_default",
+    lazy: true,
+    langDir: "locales",
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: "i18n_redirected",
+      redirectOn: "root",
+    },
+    bundle: {
+      optimizeTranslationDirective: false,
+    },
+  },
   content: {
-    documentDriven: true,
+    documentDriven: false,
     highlight: {
       theme: "github-dark",
       preload: [

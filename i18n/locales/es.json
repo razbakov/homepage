@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "blog": "Blog",
+    "slides": "Charlas",
+    "uses": "Herramientas",
+    "scheduleCall": "Agendar llamada"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Compartiendo ideas y experiencias sobre temas que me apasionan.",
+    "subtitleBrowse": "Explora por categoría para encontrar lo que te interesa.",
+    "filterByCategory": "Filtrar por categoría",
+    "filterByTag": "Filtrar por etiqueta",
+    "noPosts": "Aún no hay publicaciones disponibles en este idioma.",
+    "backToBlog": "Volver al Blog",
+    "relatedArticles": "Artículos relacionados",
+    "readyToStart": "¿Listo para empezar?",
+    "takeNextStep": "Da el siguiente paso y explora más recursos.",
+    "joinTelegram": "Únete a la discusión en Telegram",
+    "joinDiscussionTelegram": "¡Únete a la discusión en Telegram!",
+    "joinDiscussionX": "¡Únete a la discusión en X!",
+    "haveThoughts": "¿Tienes ideas sobre esta publicación? ¡Discutámoslo en X!",
+    "viewDiscussionX": "Ver discusión en X",
+    "shareOnX": "Compartir en X",
+    "telegramChannel": "Canal de Telegram",
+    "followOnX": "Seguir en X"
+  },
+  "home": {
+    "title": "Hola, soy Alex",
+    "subtitleBefore": "Desarrollador, constructor de comunidades,",
+    "subtitleTeacher": "profesor de salsa",
+    "subtitleAfter": ". Escribo para encontrar a mi gente.",
+    "learnMore": "Más sobre mí →",
+    "joinTelegram": "Únete a mi canal de Telegram",
+    "telegramDescription": "Actualizaciones sobre programación en vivo, proyectos e ideas tech",
+    "joinYoutube": "Suscríbete en YouTube",
+    "youtubeDescription": "Tutoriales, charlas y sesiones de programación en vivo"
+  },
+  "about": {
+    "title": "Alex Razbakov",
+    "intro": "Desarrollador fullstack senior en Múnich. Construyo cosas que unen a las personas — a través del código, del baile, de la comunidad. La mejor tecnología desaparece en la experiencia humana que crea.",
+    "believeTitle": "En lo que creo",
+    "believe1": "Bloguear es una búsqueda compleja — escribo para encontrar a mi gente, no para construir una audiencia. Cada post es una señal enviada, esperando que alguien resuene.",
+    "believe2": "Los mejores productos los construyen personas que se preocupan por quienes los usan. Prefiero prototipar que filosofar, construir que especular, conectar que transmitir.",
+    "doTitle": "Lo que hago",
+    "doCode": "Desarrollo Fullstack",
+    "doCodeDesc": "Vue.js, Nuxt, Firebase, Postgres, Prisma — apps web que resuelven problemas reales.",
+    "doAI": "Integración de IA",
+    "doAIDesc": "LangChain, Claude, búsqueda inteligente, automatización — haciendo la IA útil, no solo llamativa.",
+    "doCommunity": "Construcción de comunidad",
+    "doCommunityDesc": "Más de 7 años construyendo WeDance, una plataforma que conecta bailarines en todo el mundo.",
+    "doDance": "Profesor de salsa",
+    "doDanceDesc": "Profesor de salsa cubana en Múnich — tendiendo puentes entre culturas a través del movimiento y la música.",
+    "factsTitle": "Datos rápidos",
+    "factMunich": "Vivo en Múnich, Alemania — montañas cerca, buen café por todas partes",
+    "factLanguages": "Hablo ucraniano, ruso, alemán, inglés y español",
+    "factWeDance": "Construyendo WeDance hace más de 7 años — un proyecto personal que se convirtió en plataforma",
+    "factSciFi": "Crecí con la ciencia ficción — sigo preguntando '¿y si...?' sobre todo",
+    "factChess": "Jugador de ajedrez — me gustan los juegos donde cada movimiento importa",
+    "ctaTitle": "Conectemos",
+    "ctaDescription": "¿Tienes un proyecto en mente, quieres hablar de tech, o simplemente saludar?",
+    "sendEmail": "Enviar email"
+  },
+  "footer": {
+    "allRightsReserved": "Todos los derechos reservados."
+  }
+}
