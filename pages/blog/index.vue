@@ -1,13 +1,12 @@
 <script setup>
+const { locale, t } = useI18n();
 useHead({ title: "Blog — AI, Web Development & Building Products" });
 useSeoMeta({
-  description: "Articles on AI integration, multi-agent systems, Vue.js, Nuxt, community platforms, and building products as a solo developer. By Alex Razbakov.",
+  description: () => t('seo.blogDesc'),
   ogTitle: "Blog · Alex Razbakov",
-  ogDescription: "Thinking out loud about building, AI, and purpose.",
+  ogDescription: () => t('seo.blogDesc'),
   twitterCard: "summary",
 });
-
-const { locale, t } = useI18n();
 const localePath = useLocalePath();
 const { filterByLanguage } = useLanguageFilter();
 

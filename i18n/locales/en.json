@@ -99,6 +99,14 @@
     "ctaDescription": "Have a project in mind, want to chat about tech, or just want to say hi?",
     "sendEmail": "Send Email"
   },
+  "seo": {
+    "homeDesc": "Fullstack developer and AI engineer based in Munich. Building community platforms, AI tools, and open-source projects. Vue.js, Nuxt, Firebase, LangChain, Claude.",
+    "aboutDesc": "Senior fullstack developer in Munich. 15+ years building web apps with Vue.js, Nuxt, and AI. Creator of WeDance community platform. Open-source contributor.",
+    "projectsDesc": "Web applications, AI-powered tools, and community platforms built by Alex Razbakov. Vue.js, Nuxt, Firebase, LangChain. Open-source and client work.",
+    "blogDesc": "Articles on AI integration, multi-agent systems, Vue.js, Nuxt, community platforms, and building products as a solo developer. By Alex Razbakov.",
+    "cvDesc": "Senior Fullstack Developer in Munich — 15+ years experience with Vue.js, Nuxt, Firebase, AI integration (LangChain, Claude). Available for projects and consulting.",
+    "talksDesc": "Conference talks and presentations by Alex Razbakov on AI agents, multi-agent systems, Vue.js, and modern web development."
+  },
   "footer": {
     "allRightsReserved": "All rights reserved."
   }

@@ -19,11 +19,12 @@ const { data: presentations } = await useAsyncData("slides-list", () =>
     )
 );
 
+const { t } = useI18n();
 useHead({ title: "Talks — AI & Web Development" });
 useSeoMeta({
-  description: "Conference talks and presentations by Alex Razbakov on AI agents, multi-agent systems, Vue.js, and modern web development.",
+  description: () => t('seo.talksDesc'),
   ogTitle: "Talks · Alex Razbakov",
-  ogDescription: "Talks on AI, multi-agent systems, and web development.",
+  ogDescription: () => t('seo.talksDesc'),
   twitterCard: "summary",
 });
 </script>

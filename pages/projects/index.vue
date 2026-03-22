@@ -1,9 +1,10 @@
 <script setup>
+const { t } = useI18n();
 useHead({ title: "Projects — Web Apps, AI Tools & Community Platforms" });
 useSeoMeta({
-  description: "Web applications, AI-powered tools, and community platforms built by Alex Razbakov. Vue.js, Nuxt, Firebase, LangChain. Open-source and client work.",
+  description: () => t('seo.projectsDesc'),
   ogTitle: "Projects · Alex Razbakov",
-  ogDescription: "Things I've built, shipped, or am still figuring out.",
+  ogDescription: () => t('seo.projectsDesc'),
   twitterCard: "summary",
 });
 

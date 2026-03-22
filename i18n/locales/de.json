@@ -99,6 +99,14 @@
     "ctaDescription": "Hast du ein Projekt im Kopf, willst über Tech reden, oder einfach Hallo sagen?",
     "sendEmail": "E-Mail schreiben"
   },
+  "seo": {
+    "homeDesc": "Fullstack-Entwickler und KI-Ingenieur in München. Community-Plattformen, KI-Tools und Open-Source-Projekte. Vue.js, Nuxt, Firebase, LangChain, Claude.",
+    "aboutDesc": "Senior Fullstack-Entwickler in München. 15+ Jahre Web-Apps mit Vue.js, Nuxt und KI. Gründer der WeDance-Community-Plattform. Open-Source-Contributor.",
+    "projectsDesc": "Web-Anwendungen, KI-Tools und Community-Plattformen von Alex Razbakov. Vue.js, Nuxt, Firebase, LangChain. Open-Source und Kundenprojekte.",
+    "blogDesc": "Artikel über KI-Integration, Multi-Agent-Systeme, Vue.js, Nuxt, Community-Plattformen und Produktentwicklung als Solo-Entwickler. Von Alex Razbakov.",
+    "cvDesc": "Senior Fullstack-Entwickler in München — 15+ Jahre Erfahrung mit Vue.js, Nuxt, Firebase, KI-Integration (LangChain, Claude). Verfügbar für Projekte und Beratung.",
+    "talksDesc": "Konferenzvorträge und Präsentationen von Alex Razbakov über KI-Agenten, Multi-Agent-Systeme, Vue.js und moderne Webentwicklung."
+  },
   "footer": {
     "allRightsReserved": "Alle Rechte vorbehalten."
   }

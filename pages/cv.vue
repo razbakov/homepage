@@ -1,9 +1,10 @@
 <script setup>
+const { t } = useI18n();
 useHead({ title: "Senior Fullstack Developer in Munich" });
 useSeoMeta({
-  description: "Senior Fullstack Developer in Munich — 15+ years experience with Vue.js, Nuxt, Firebase, AI integration (LangChain, Claude). Available for projects and consulting.",
+  description: () => t('seo.cvDesc'),
   ogTitle: "Senior Fullstack Developer in Munich — Alex Razbakov",
-  ogDescription: "15+ years building web apps. Vue.js, Nuxt, AI integration. Munich.",
+  ogDescription: () => t('seo.cvDesc'),
   twitterCard: "summary",
 });
 

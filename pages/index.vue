@@ -101,16 +101,15 @@
 </template>
 
 <script setup>
+const { locale, t } = useI18n();
 useHead({ titleTemplate: "Alex Razbakov — Fullstack Developer & AI Engineer in Munich" });
 useSeoMeta({
-  description: "Fullstack developer and AI engineer based in Munich. Building community platforms, AI tools, and open-source projects. Vue.js, Nuxt, Firebase, LangChain, Claude.",
+  description: () => t('seo.homeDesc'),
   ogTitle: "Alex Razbakov",
-  ogDescription: "Developer, community builder, writing to find my people.",
+  ogDescription: () => t('seo.homeDesc'),
   ogImage: "/images/avatar.png",
   twitterCard: "summary",
 });
-
-const { locale } = useI18n();
 const localePath = useLocalePath();
 const { filterByLanguage } = useLanguageFilter();
 
