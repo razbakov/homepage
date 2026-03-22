@@ -11,7 +11,7 @@ const { data: project } = await useAsyncData(`content-${path}`, () =>
 useHead({ title: computed(() => project.value?.title) });
 useSeoMeta({
   description: computed(() => project.value?.description),
-  ogTitle: computed(() => project.value?.title ? `${project.value.title} - Alex Razbakov` : undefined),
+  ogTitle: computed(() => project.value?.title ? `${project.value.title} · Alex Razbakov` : undefined),
   ogDescription: computed(() => project.value?.description),
   ogImage: computed(() => project.value?.screenshot || project.value?.icon),
   twitterCard: "summary_large_image",

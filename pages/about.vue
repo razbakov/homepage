@@ -121,11 +121,11 @@
 </template>
 
 <script setup>
-useHead({ title: "About" });
+useHead({ title: "About Alex Razbakov — Developer, Builder & Community Creator in Munich" });
 useSeoMeta({
-  description: "Senior fullstack developer in Munich. Building community platforms, teaching salsa, making AI useful. 7+ years on WeDance, speaks 5 languages.",
-  ogTitle: "About - Alex Razbakov",
-  ogDescription: "Building things that bring people together — through code, dance, and community.",
+  description: "Senior fullstack developer in Munich. 15+ years building web apps with Vue.js, Nuxt, and AI. Creator of WeDance community platform. Open-source contributor.",
+  ogTitle: "About Alex Razbakov",
+  ogDescription: "Building things that bring people together — through code, community, and purpose.",
   ogImage: "/images/alex-top.png",
   twitterCard: "summary",
 });

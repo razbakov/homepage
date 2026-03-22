@@ -1,9 +1,9 @@
 <script setup>
-useHead({ title: "Blog" });
+useHead({ title: "Blog — AI, Web Development & Building Products" });
 useSeoMeta({
-  description: "Thinking out loud about building, dancing, and purpose. Posts on AI, community platforms, salsa, and finding meaning through building.",
-  ogTitle: "Blog - Alex Razbakov",
-  ogDescription: "Thinking out loud about building, dancing, and purpose.",
+  description: "Articles on AI integration, multi-agent systems, Vue.js, Nuxt, community platforms, and building products as a solo developer. By Alex Razbakov.",
+  ogTitle: "Blog · Alex Razbakov",
+  ogDescription: "Thinking out loud about building, AI, and purpose.",
   twitterCard: "summary",
 });
 

@@ -1,9 +1,9 @@
 <script setup>
-useHead({ title: "Projects" });
+useHead({ title: "Projects — Web Apps, AI Tools & Community Platforms" });
 useSeoMeta({
-  description: "Community platforms, AI tools, client sites, and side projects — things I've built, shipped, or am still figuring out.",
-  ogTitle: "Projects - Alex Razbakov",
-  ogDescription: "Community platforms, AI tools, client sites, and side projects.",
+  description: "Web applications, AI-powered tools, and community platforms built by Alex Razbakov. Vue.js, Nuxt, Firebase, LangChain. Open-source and client work.",
+  ogTitle: "Projects · Alex Razbakov",
+  ogDescription: "Things I've built, shipped, or am still figuring out.",
   twitterCard: "summary",
 });
 

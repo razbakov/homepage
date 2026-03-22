@@ -101,11 +101,11 @@
 </template>
 
 <script setup>
-useHead({ titleTemplate: "Alex Razbakov" });
+useHead({ titleTemplate: "Alex Razbakov — Fullstack Developer & AI Engineer in Munich" });
 useSeoMeta({
-  description: "Developer, community builder, salsa teacher. Building things that bring people together — through code, dance, and community.",
+  description: "Fullstack developer and AI engineer based in Munich. Building community platforms, AI tools, and open-source projects. Vue.js, Nuxt, Firebase, LangChain, Claude.",
   ogTitle: "Alex Razbakov",
-  ogDescription: "Developer, community builder, salsa teacher. Writing to find my people.",
+  ogDescription: "Developer, community builder, writing to find my people.",
   ogImage: "/images/avatar.png",
   twitterCard: "summary",
 });
