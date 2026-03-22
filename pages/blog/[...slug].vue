@@ -19,6 +19,8 @@ const { data: post } = await useAsyncData(
   () => queryContent(contentPath.value).findOne()
 );
 
+useHead({ title: computed(() => post.value?.title) });
+
 // Redirect to translated version if user prefers a different language
 const { data: allPosts } = await useAsyncData("blog-posts", () =>
   queryContent("blog").sort({ date: -1 }).find()

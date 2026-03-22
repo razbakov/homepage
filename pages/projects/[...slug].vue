@@ -8,6 +8,8 @@ const { data: project } = await useAsyncData(`content-${path}`, () =>
   queryContent(path).findOne()
 );
 
+useHead({ title: computed(() => project.value?.title) });
+
 const { data: relatedPosts } = await useAsyncData(
   `project-posts-${path}`,
   async () => {

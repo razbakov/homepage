@@ -20,7 +20,7 @@ const { data: presentations } = await useAsyncData("slides-list", () =>
 );
 
 useHead({
-  title: "Presentations",
+  title: "Talks",
   meta: [{ name: "description", content: "Talks and presentations by Alex Razbakov" }],
 });
 </script>
@@ -28,7 +28,7 @@ useHead({
 <template>
   <main class="container mx-auto px-4 py-8">
     <h1 class="text-4xl font-bold mb-8 text-gray-900 dark:text-white">
-      Presentations
+      Talks
     </h1>
 
     <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">

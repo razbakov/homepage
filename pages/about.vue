@@ -121,6 +121,8 @@
 </template>
 
 <script setup>
+useHead({ title: "About" });
+
 import config from "~/content/config.json";
 
 const calendlyUrl = `https://calendly.com/${config.site.calendly.username}`;

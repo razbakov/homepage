@@ -1,4 +1,6 @@
 <script setup>
+useHead({ title: "Projects" });
+
 const { data: projects } = await useAsyncData("projects-list", () =>
   queryContent("projects").sort({ date: -1 }).find()
 );

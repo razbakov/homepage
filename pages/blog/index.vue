@@ -1,4 +1,6 @@
 <script setup>
+useHead({ title: "Blog" });
+
 const { locale, t } = useI18n();
 const localePath = useLocalePath();
 const { filterByLanguage } = useLanguageFilter();

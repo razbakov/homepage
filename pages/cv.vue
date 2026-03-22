@@ -1,4 +1,6 @@
 <script setup>
+useHead({ title: "CV" });
+
 const {
   data: cv,
   pending,

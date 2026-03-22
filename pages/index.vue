@@ -101,6 +101,8 @@
 </template>
 
 <script setup>
+useHead({ titleTemplate: "Alex Razbakov" });
+
 const { locale } = useI18n();
 const localePath = useLocalePath();
 const { filterByLanguage } = useLanguageFilter();
