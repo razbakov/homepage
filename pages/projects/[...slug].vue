@@ -16,6 +16,26 @@ useSeoMeta({
   ogImage: computed(() => project.value?.screenshot || project.value?.icon),
   twitterCard: "summary_large_image",
 });
+useSchemaOrg([
+  defineSoftwareApp({
+    name: computed(() => project.value?.title),
+    description: computed(() => project.value?.description),
+    image: computed(() => project.value?.screenshot || project.value?.icon),
+    url: computed(() => project.value?.url),
+    applicationCategory: "WebApplication",
+    author: {
+      "@type": "Person",
+      name: "Alex Razbakov",
+      url: "https://razbakov.com",
+    },
+  }),
+  defineBreadcrumb({
+    itemListElement: computed(() => [
+      { name: "Projects", item: "/projects" },
+      { name: project.value?.title || "" },
+    ]),
+  }),
+]);
 
 const { data: relatedPosts } = await useAsyncData(
   `project-posts-${path}`,

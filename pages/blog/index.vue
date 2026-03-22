@@ -7,6 +7,12 @@ useSeoMeta({
   ogDescription: () => t('seo.blogDesc'),
   twitterCard: "summary",
 });
+useSchemaOrg([
+  defineWebPage({ "@type": "CollectionPage", name: "Blog" }),
+  defineBreadcrumb({
+    itemListElement: [{ name: "Blog" }],
+  }),
+]);
 const localePath = useLocalePath();
 const { filterByLanguage } = useLanguageFilter();
 

@@ -7,6 +7,12 @@ useSeoMeta({
   ogDescription: () => t('seo.projectsDesc'),
   twitterCard: "summary",
 });
+useSchemaOrg([
+  defineWebPage({ name: "Projects" }),
+  defineBreadcrumb({
+    itemListElement: [{ name: "Projects" }],
+  }),
+]);
 
 const { data: projects } = await useAsyncData("projects-list", () =>
   queryContent("projects").sort({ date: -1 }).find()

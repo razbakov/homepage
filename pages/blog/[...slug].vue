@@ -27,6 +27,26 @@ useSeoMeta({
   ogImage: computed(() => post.value?.image),
   twitterCard: "summary_large_image",
 });
+useSchemaOrg([
+  defineArticle({
+    "@type": "BlogPosting",
+    headline: computed(() => post.value?.title),
+    description: computed(() => post.value?.description),
+    image: computed(() => post.value?.image),
+    datePublished: computed(() => post.value?.date),
+    author: {
+      "@type": "Person",
+      name: "Alex Razbakov",
+      url: "https://razbakov.com/about",
+    },
+  }),
+  defineBreadcrumb({
+    itemListElement: computed(() => [
+      { name: "Blog", item: "/blog" },
+      { name: post.value?.title || "" },
+    ]),
+  }),
+]);
 
 // Redirect to translated version if user prefers a different language
 const { data: allPosts } = await useAsyncData("blog-posts", () =>

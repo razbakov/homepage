@@ -110,6 +110,10 @@ useSeoMeta({
   ogImage: "/images/avatar.png",
   twitterCard: "summary",
 });
+useSchemaOrg([
+  defineWebSite({ name: "Alex Razbakov" }),
+  defineWebPage({ name: "Alex Razbakov — Fullstack Developer & AI Engineer in Munich" }),
+]);
 const localePath = useLocalePath();
 const { filterByLanguage } = useLanguageFilter();
 

@@ -7,6 +7,12 @@ useSeoMeta({
   ogDescription: () => t('seo.cvDesc'),
   twitterCard: "summary",
 });
+useSchemaOrg([
+  defineWebPage({ name: "CV — Alex Razbakov" }),
+  defineBreadcrumb({
+    itemListElement: [{ name: "CV" }],
+  }),
+]);
 
 const {
   data: cv,

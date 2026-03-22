@@ -130,6 +130,25 @@ useSeoMeta({
   ogImage: "/images/alex-top.png",
   twitterCard: "summary",
 });
+useSchemaOrg([
+  defineWebPage({
+    "@type": "AboutPage",
+    name: "About Alex Razbakov",
+  }),
+  definePerson({
+    name: "Alex Razbakov",
+    jobTitle: "Senior Fullstack Developer",
+    worksFor: { "@type": "Organization", name: "OMMAX" },
+    knowsLanguage: ["en", "de", "es", "uk", "ru"],
+    url: "https://razbakov.com",
+    sameAs: [
+      "https://github.com/razbakov",
+      "https://linkedin.com/in/razbakov",
+      "https://x.com/razbakov",
+      "https://youtube.com/@razbakov",
+    ],
+  }),
+]);
 
 import config from "~/content/config.json";
 

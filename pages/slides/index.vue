@@ -27,6 +27,12 @@ useSeoMeta({
   ogDescription: () => t('seo.talksDesc'),
   twitterCard: "summary",
 });
+useSchemaOrg([
+  defineWebPage({ "@type": "CollectionPage", name: "Talks" }),
+  defineBreadcrumb({
+    itemListElement: [{ name: "Talks" }],
+  }),
+]);
 </script>
 
 <template>
