@@ -96,6 +96,13 @@ const { locale } = useI18n();
 const localePath = useLocalePath();
 const isMenuOpen = ref(false);
 
+const i18nHead = useLocaleHead({ addSeoAttributes: true });
+useHead({
+  htmlAttrs: computed(() => ({ lang: i18nHead.value.htmlAttrs?.lang })),
+  link: computed(() => i18nHead.value.link || []),
+  meta: computed(() => i18nHead.value.meta || []),
+});
+
 const telegramUrl = computed(() =>
   ['ru', 'uk'].includes(locale.value) ? 'https://t.me/razbakov_ru' : 'https://t.me/razbakov'
 );
