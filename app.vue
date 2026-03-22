@@ -67,11 +67,12 @@
     <footer class="border-t border-border/50">
       <div class="flex justify-center">
         <NuxtImg
-          src="/images/alex-welcome.png"
+          src="/images/alex-welcome.webp"
           alt="Alex Razbakov"
           class="max-h-[32rem] object-contain"
           width="500"
           height="640"
+          loading="lazy"
         />
       </div>
       <div class="container mx-auto px-4 flex flex-col items-center gap-4 py-8">

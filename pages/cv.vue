@@ -27,20 +27,8 @@ if (error.value) {
   });
 }
 
-const downloadPDF = async () => {
-  if (!process.client) return;
-
-  const html2pdf = (await import("html2pdf.js")).default;
-  const element = document.querySelector(".cv-content");
-  const opt = {
-    margin: [10, 10],
-    filename: "cv.pdf",
-    image: { type: "jpeg", quality: 0.98 },
-    html2canvas: { scale: 2 },
-    jsPDF: { unit: "mm", format: "a4", orientation: "portrait" },
-  };
-
-  html2pdf().set(opt).from(element).save();
+const downloadPDF = () => {
+  if (process.client) window.print();
 };
 </script>
 

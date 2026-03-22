@@ -4,11 +4,14 @@
       <div class="max-w-3xl mx-auto">
         <div class="flex flex-col md:flex-row items-center gap-8 mb-8">
           <NuxtImg
-            src="/images/alex-top.png"
+            src="/images/alex-top.webp"
             alt="Alex Razbakov"
             class="w-48 md:w-56 object-contain shrink-0"
             width="224"
             height="280"
+            sizes="192px md:224px"
+            loading="eager"
+            preload
           />
           <div>
             <h1 class="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-coral-600 via-coral-500 to-teal-600 bg-clip-text text-transparent">
