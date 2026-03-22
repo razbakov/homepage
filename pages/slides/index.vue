@@ -21,7 +21,7 @@ const { data: presentations } = await useAsyncData("slides-list", () =>
 
 useHead({
   title: "Presentations",
-  meta: [{ name: "description", content: "List of available presentations" }],
+  meta: [{ name: "description", content: "Talks and presentations by Alex Razbakov" }],
 });
 </script>
 
@@ -52,8 +52,7 @@ useHead({
 
     <div v-if="!presentations?.length" class="text-center py-12">
       <p class="text-gray-600 dark:text-gray-400">
-        No presentations available yet. Add markdown files to
-        content/slides/[topic]/slides.md
+        No presentations yet.
       </p>
     </div>
   </main>

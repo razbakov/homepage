@@ -220,8 +220,7 @@ const { data: relatedProjects } = await useAsyncData(
             <div>
               <h3 class="font-medium">Alex Razbakov</h3>
               <p class="text-sm text-muted-foreground mb-2">
-                Senior Web Developer & Tech Speaker sharing insights on web
-                development, UX design, and tech leadership.
+                Building community platforms, teaching salsa, writing to find my people.
               </p>
               <div class="flex items-center gap-3 text-sm">
                 <a

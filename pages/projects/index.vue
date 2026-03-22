@@ -27,8 +27,7 @@ const filtered = computed(() => {
       <div class="max-w-4xl mx-auto">
         <h1 class="text-4xl font-bold mb-8">Projects</h1>
         <p class="text-xl text-muted-foreground mb-4">
-          A showcase of my work in web development, UX design, and tech
-          leadership.
+          Things I've built, shipped, or am still figuring out.
         </p>
 
         <!-- Filter pills -->
