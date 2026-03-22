@@ -106,8 +106,9 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   compatibilityDate: "2025-01-07",
   nitro: {
-    routeRules: {
-      "/slides/**": { static: true },
+    prerender: {
+      crawlLinks: true,
+      routes: ["/", "/about", "/blog", "/projects", "/cv", "/slides"],
     },
   },
   runtimeConfig: {
