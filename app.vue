@@ -96,11 +96,17 @@ const { locale } = useI18n();
 const localePath = useLocalePath();
 const isMenuOpen = ref(false);
 
+const route = useRoute();
 const i18nHead = useLocaleHead({ addSeoAttributes: true });
-useHead({
-  htmlAttrs: computed(() => ({ lang: i18nHead.value.htmlAttrs?.lang })),
-  link: computed(() => i18nHead.value.link || []),
-  meta: computed(() => i18nHead.value.meta || []),
+useHead(() => {
+  const head = i18nHead.value;
+  // Force route dependency so SSR re-evaluates per page
+  const _path = route.path;
+  return {
+    htmlAttrs: head.htmlAttrs || {},
+    link: head.link || [],
+    meta: head.meta || [],
+  };
 });
 
 const telegramUrl = computed(() =>
