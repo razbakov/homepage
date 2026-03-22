@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "pnpm build:nuxt",
-    "build:nuxt": "nuxt build",
+    "build:nuxt": "nuxt generate",
     "build:slides": "cd slidev && pnpm install && pnpm build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
