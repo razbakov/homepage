@@ -34,20 +34,8 @@ const { data: relatedPosts } = await useAsyncData(
   <article class="py-16">
     <div class="container mx-auto px-4">
       <div class="max-w-3xl mx-auto">
-        <!-- Screenshot -->
-        <div
-          v-if="project.screenshot"
-          class="mb-8 rounded-xl overflow-hidden border border-border/50"
-        >
-          <img
-            :src="project.screenshot"
-            :alt="`${project.title} screenshot`"
-            class="w-full h-auto"
-          />
-        </div>
-
         <!-- Header: small logo + title -->
-        <header class="mb-12">
+        <header class="mb-8">
           <div class="flex items-center gap-4 mb-4">
             <img
               v-if="project.icon"
@@ -82,6 +70,18 @@ const { data: relatedPosts } = await useAsyncData(
             {{ project.url.replace(/^https?:\/\//, '').replace(/\/$/, '') }}
           </a>
         </header>
+
+        <!-- Screenshot -->
+        <div
+          v-if="project.screenshot"
+          class="mb-12 rounded-xl overflow-hidden border border-border/50"
+        >
+          <img
+            :src="project.screenshot"
+            :alt="`${project.title} screenshot`"
+            class="w-full h-auto"
+          />
+        </div>
 
         <!-- Content -->
         <div class="prose prose-lg max-w-none">

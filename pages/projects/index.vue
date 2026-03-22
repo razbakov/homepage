@@ -11,6 +11,7 @@ const filters = [
   { key: "Design", label: "Design", icon: "lucide:palette" },
   { key: "For clients", label: "For clients", icon: "lucide:handshake" },
   { key: "Concept", label: "Concept", icon: "lucide:lightbulb" },
+  { key: "AI", label: "AI", icon: "lucide:bot" },
 ];
 
 const filtered = computed(() => {
