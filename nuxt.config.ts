@@ -48,12 +48,13 @@ export default defineNuxtConfig({
     "@nuxt/image",
   ],
   i18n: {
+    baseUrl: config.site.url,
     locales: [
-      { code: "en", name: "English", file: "en.json" },
-      { code: "de", name: "Deutsch", file: "de.json" },
-      { code: "es", name: "Español", file: "es.json" },
-      { code: "ru", name: "Русский", file: "ru.json" },
-      { code: "uk", name: "Українська", file: "uk.json" },
+      { code: "en", name: "English", file: "en.json", language: "en" },
+      { code: "de", name: "Deutsch", file: "de.json", language: "de" },
+      { code: "es", name: "Español", file: "es.json", language: "es" },
+      { code: "ru", name: "Русский", file: "ru.json", language: "ru" },
+      { code: "uk", name: "Українська", file: "uk.json", language: "uk" },
     ],
     defaultLocale: "en",
     strategy: "prefix_except_default",
