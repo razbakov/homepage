@@ -97,15 +97,35 @@ const localePath = useLocalePath();
 const isMenuOpen = ref(false);
 
 const route = useRoute();
-const i18nHead = useLocaleHead({ addSeoAttributes: true });
+const baseUrl = "https://razbakov.com";
+const locales = ["en", "de", "es", "ru", "uk"];
+
 useHead(() => {
-  const head = i18nHead.value;
-  // Force route dependency so SSR re-evaluates per page
-  const _path = route.path;
+  // Strip locale prefix to get the base path
+  const path = route.path;
+  let basePath = path;
+  for (const loc of locales) {
+    if (path === `/${loc}` || path.startsWith(`/${loc}/`)) {
+      basePath = path.slice(loc.length + 1) || "/";
+      break;
+    }
+  }
+
+  const enPath = basePath === "/" ? "" : basePath;
+  const links = [
+    { rel: "canonical", href: `${baseUrl}${path === "/" ? "" : path}` },
+    { rel: "alternate", href: `${baseUrl}${enPath}`, hreflang: "x-default" },
+    { rel: "alternate", href: `${baseUrl}${enPath}`, hreflang: "en" },
+    ...locales.filter(l => l !== "en").map(l => ({
+      rel: "alternate",
+      href: `${baseUrl}/${l}${basePath === "/" ? "" : basePath}`,
+      hreflang: l,
+    })),
+  ];
+
   return {
-    htmlAttrs: head.htmlAttrs || {},
-    link: head.link || [],
-    meta: head.meta || [],
+    htmlAttrs: { lang: locale.value },
+    link: links,
   };
 });
 
