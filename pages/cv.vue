@@ -1,5 +1,11 @@
 <script setup>
 useHead({ title: "CV" });
+useSeoMeta({
+  description: "Senior Full Stack Developer with 15+ years of experience. Vue.js, Nuxt, AI integration, cloud platforms. Based in Munich.",
+  ogTitle: "CV - Alex Razbakov",
+  ogDescription: "Senior Full Stack Developer — 15+ years, Vue.js, Nuxt, AI integration. Munich.",
+  twitterCard: "summary",
+});
 
 const {
   data: cv,

@@ -20,6 +20,13 @@ const { data: post } = await useAsyncData(
 );
 
 useHead({ title: computed(() => post.value?.title) });
+useSeoMeta({
+  description: computed(() => post.value?.description),
+  ogTitle: computed(() => post.value?.title),
+  ogDescription: computed(() => post.value?.description),
+  ogImage: computed(() => post.value?.image),
+  twitterCard: "summary_large_image",
+});
 
 // Redirect to translated version if user prefers a different language
 const { data: allPosts } = await useAsyncData("blog-posts", () =>

@@ -1,5 +1,11 @@
 <script setup>
 useHead({ title: "Blog" });
+useSeoMeta({
+  description: "Thinking out loud about building, dancing, and purpose. Posts on AI, community platforms, salsa, and finding meaning through building.",
+  ogTitle: "Blog - Alex Razbakov",
+  ogDescription: "Thinking out loud about building, dancing, and purpose.",
+  twitterCard: "summary",
+});
 
 const { locale, t } = useI18n();
 const localePath = useLocalePath();

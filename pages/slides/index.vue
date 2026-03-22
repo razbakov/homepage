@@ -19,9 +19,12 @@ const { data: presentations } = await useAsyncData("slides-list", () =>
     )
 );
 
-useHead({
-  title: "Talks",
-  meta: [{ name: "description", content: "Talks and presentations by Alex Razbakov" }],
+useHead({ title: "Talks" });
+useSeoMeta({
+  description: "Talks and presentations by Alex Razbakov on AI, multi-agent systems, and web development.",
+  ogTitle: "Talks - Alex Razbakov",
+  ogDescription: "Talks and presentations on AI, multi-agent systems, and web development.",
+  twitterCard: "summary",
 });
 </script>
 

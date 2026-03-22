@@ -102,6 +102,13 @@
 
 <script setup>
 useHead({ titleTemplate: "Alex Razbakov" });
+useSeoMeta({
+  description: "Developer, community builder, salsa teacher. Building things that bring people together — through code, dance, and community.",
+  ogTitle: "Alex Razbakov",
+  ogDescription: "Developer, community builder, salsa teacher. Writing to find my people.",
+  ogImage: "/images/avatar.png",
+  twitterCard: "summary",
+});
 
 const { locale } = useI18n();
 const localePath = useLocalePath();

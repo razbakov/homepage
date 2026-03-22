@@ -122,6 +122,13 @@
 
 <script setup>
 useHead({ title: "About" });
+useSeoMeta({
+  description: "Senior fullstack developer in Munich. Building community platforms, teaching salsa, making AI useful. 7+ years on WeDance, speaks 5 languages.",
+  ogTitle: "About - Alex Razbakov",
+  ogDescription: "Building things that bring people together — through code, dance, and community.",
+  ogImage: "/images/alex-top.png",
+  twitterCard: "summary",
+});
 
 import config from "~/content/config.json";
 

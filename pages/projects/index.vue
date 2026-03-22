@@ -1,5 +1,11 @@
 <script setup>
 useHead({ title: "Projects" });
+useSeoMeta({
+  description: "Community platforms, AI tools, client sites, and side projects — things I've built, shipped, or am still figuring out.",
+  ogTitle: "Projects - Alex Razbakov",
+  ogDescription: "Community platforms, AI tools, client sites, and side projects.",
+  twitterCard: "summary",
+});
 
 const { data: projects } = await useAsyncData("projects-list", () =>
   queryContent("projects").sort({ date: -1 }).find()
