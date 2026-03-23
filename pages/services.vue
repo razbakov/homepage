@@ -115,7 +115,7 @@ const services = [
   {
     key: "studyGroup",
     icon: "lucide:users",
-    cta: { url: "https://www.twitch.tv/razbakov", external: true },
+    cta: { url: "https://t.me/+VNlqacOP9PgyNThi", external: true },
   },
 ];
 
