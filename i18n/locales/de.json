@@ -108,6 +108,14 @@
     "talksDesc": "Konferenzvorträge und Präsentationen von Alex Razbakov über KI-Agenten, Multi-Agent-Systeme, Vue.js und moderne Webentwicklung."
   },
   "footer": {
-    "allRightsReserved": "Alle Rechte vorbehalten."
+    "allRightsReserved": "Alle Rechte vorbehalten.",
+    "privacy": "Datenschutz",
+    "cookieSettings": "Cookie-Einstellungen"
+  },
+  "cookies": {
+    "message": "Diese Website verwendet Cookies für Analysen, um zu verstehen, wie Besucher die Seite nutzen.",
+    "learnMore": "Mehr erfahren",
+    "accept": "Akzeptieren",
+    "decline": "Ablehnen"
   }
 }

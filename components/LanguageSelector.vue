@@ -19,7 +19,7 @@
         v-for="lang in languages"
         :key="lang.code"
         :to="switchLocalePath(lang.code)"
-        @click="open = false"
+        @click="trackLanguageSwitch(language, lang.code); open = false"
         :class="[
           'block w-full text-left px-3 py-2 text-sm transition-colors flex items-center gap-2',
           language === lang.code
@@ -41,6 +41,7 @@ defineProps({
 
 const { language, languages } = useLanguageFilter();
 const switchLocalePath = useSwitchLocalePath();
+const { trackLanguageSwitch } = useAnalytics();
 const open = ref(false);
 const wrapper = ref(null);
 

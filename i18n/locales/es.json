@@ -108,6 +108,14 @@
     "talksDesc": "Charlas y presentaciones de Alex Razbakov sobre agentes de IA, sistemas multi-agente, Vue.js y desarrollo web moderno."
   },
   "footer": {
-    "allRightsReserved": "Todos los derechos reservados."
+    "allRightsReserved": "Todos los derechos reservados.",
+    "privacy": "Privacidad",
+    "cookieSettings": "Configuración de cookies"
+  },
+  "cookies": {
+    "message": "Este sitio usa cookies de análisis para entender cómo los visitantes usan la web.",
+    "learnMore": "Más información",
+    "accept": "Aceptar",
+    "decline": "Rechazar"
   }
 }

@@ -108,6 +108,14 @@
     "talksDesc": "Conference talks and presentations by Alex Razbakov on AI agents, multi-agent systems, Vue.js, and modern web development."
   },
   "footer": {
-    "allRightsReserved": "All rights reserved."
+    "allRightsReserved": "All rights reserved.",
+    "privacy": "Privacy",
+    "cookieSettings": "Cookie Settings"
+  },
+  "cookies": {
+    "message": "This site uses cookies for analytics to understand how visitors use the site.",
+    "learnMore": "Learn more",
+    "accept": "Accept",
+    "decline": "Decline"
   }
 }

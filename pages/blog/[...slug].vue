@@ -3,6 +3,7 @@ const { locale, t } = useI18n();
 const localePath = useLocalePath();
 const route = useRoute();
 const { language } = useLanguageFilter();
+const { trackBlogPostRead } = useAnalytics();
 
 // Strip locale prefix from path for content query
 const contentPath = computed(() => {
@@ -18,6 +19,13 @@ const { data: post } = await useAsyncData(
   `content-${route.path}`,
   () => queryContent(contentPath.value).findOne()
 );
+
+onMounted(() => {
+  if (post.value) {
+    const slug = contentPath.value.split('/').pop() || '';
+    trackBlogPostRead(slug, post.value.title || '');
+  }
+});
 
 useHead({ title: computed(() => post.value?.title) });
 useSeoMeta({
