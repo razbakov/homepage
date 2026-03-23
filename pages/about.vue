@@ -42,11 +42,11 @@
               <h3 class="font-bold mb-2">{{ $t('about.doCode') }}</h3>
               <p class="text-sm text-muted-foreground">{{ $t('about.doCodeDesc') }}</p>
             </div>
-            <div class="p-6 rounded-xl border border-border/50 hover:border-primary/20 transition-colors">
+            <NuxtLink :to="localePath('/services')" class="block p-6 rounded-xl border border-border/50 hover:border-primary/20 transition-colors">
               <Icon name="lucide:sparkles" class="w-8 h-8 text-primary mb-3" />
               <h3 class="font-bold mb-2">{{ $t('about.doAI') }}</h3>
               <p class="text-sm text-muted-foreground">{{ $t('about.doAIDesc') }}</p>
-            </div>
+            </NuxtLink>
             <div class="p-6 rounded-xl border border-border/50 hover:border-primary/20 transition-colors">
               <Icon name="lucide:users" class="w-8 h-8 text-primary mb-3" />
               <h3 class="font-bold mb-2">{{ $t('about.doCommunity') }}</h3>
@@ -128,6 +128,7 @@
 <script setup>
 const { t } = useI18n();
 const { trackCalendlyOpen, trackEmailClick } = useAnalytics();
+const localePath = useLocalePath();
 useHead({ title: "About Alex Razbakov — Developer, Builder & Community Creator in Munich" });
 useSeoMeta({
   description: () => t('seo.aboutDesc'),

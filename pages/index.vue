@@ -51,6 +51,12 @@
           </a>
         </div>
 
+        <!-- Services nudge -->
+        <p class="text-sm text-muted-foreground mb-8">
+          {{ $t('home.servicesNudge') }}
+          <NuxtLink :to="localePath('/services')" class="text-primary hover:underline">{{ $t('home.servicesNudgeLink') }}</NuxtLink>
+        </p>
+
         <!-- Interest filters -->
         <div class="flex gap-2 overflow-x-auto pb-2 mb-10 -mx-4 px-4 scrollbar-none">
           <button

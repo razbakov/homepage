@@ -6,6 +6,7 @@
     "blog": "Blog",
     "slides": "Slides",
     "uses": "Uses",
+    "services": "Pricing",
     "scheduleCall": "Let's talk"
   },
   "blog": {
@@ -38,6 +39,8 @@
     "telegramDescription": "Updates on live coding, projects, and tech insights",
     "joinYoutube": "Subscribe on YouTube",
     "youtubeDescription": "Tutorials, talks, and live coding sessions",
+    "servicesNudge": "I also help teams work smarter with AI.",
+    "servicesNudgeLink": "See how →",
     "interests": {
       "all": "All",
       "building": "Building",
@@ -99,12 +102,65 @@
     "ctaDescription": "Have a project in mind, want to chat about tech, or just want to say hi?",
     "sendEmail": "Send Email"
   },
+  "services": {
+    "title": "I help people work smarter with AI",
+    "subtitle": "I run 20+ AI agents daily, built 60+ custom skills, and automate real workflows. Here's how I can help you do the same.",
+    "deliverable": "What you get",
+    "audience": "Best for",
+    "audit": {
+      "title": "AI Workflow Audit",
+      "description": "A 1-hour deep dive into your workflows. I'll find what's worth automating, what tools fit, and where AI actually saves you time — no fluff, just actionable next steps.",
+      "deliverable": "Recorded session + written report with quick wins and a long-term automation plan",
+      "audience": "Founders, team leads, and solopreneurs drowning in manual tasks",
+      "price": "€199",
+      "cta": "Book an audit"
+    },
+    "agents": {
+      "title": "Custom AI Agents",
+      "description": "I build AI agents tailored to your specific workflows. From drafting and research to data processing and notifications — if it's repetitive, I can automate it.",
+      "deliverable": "Working agents, documentation, and a handover session",
+      "audience": "Dev teams and businesses with repetitive processes",
+      "cta": "Let's talk"
+    },
+    "workshops": {
+      "title": "Team Workshops",
+      "description": "Half-day hands-on training for your team. We cover prompt engineering, AI code editors, agent workflows, and how to actually ship with AI — not just talk about it.",
+      "deliverable": "Workshop + materials + follow-up Q&A session",
+      "audience": "Dev teams adopting AI tools",
+      "price": "€1,500",
+      "cta": "Book a workshop"
+    },
+    "studyGroup": {
+      "title": "AI Study Group",
+      "description": "A free community where we learn AI together. Weekly Friday streams on Twitch, recorded on YouTube, with a Telegram group for ongoing discussion.",
+      "deliverable": "Weekly live streams, YouTube recordings, Telegram community",
+      "audience": "Developers and AI-curious people who want to learn together",
+      "cta": "Join the community"
+    },
+    "stats": {
+      "agents": {
+        "value": "20+",
+        "label": "AI agents running daily"
+      },
+      "skills": {
+        "value": "60+",
+        "label": "Custom skills built"
+      },
+      "community": {
+        "value": "15+",
+        "label": "Study group members"
+      }
+    },
+    "ctaTitle": "Not sure which is right for you?",
+    "ctaDescription": "Book a free call and I'll point you in the right direction."
+  },
   "seo": {
     "homeDesc": "Fullstack developer and AI engineer based in Munich. Building community platforms, AI tools, and open-source projects. Vue.js, Nuxt, Firebase, LangChain, Claude.",
     "aboutDesc": "Senior fullstack developer in Munich. 15+ years building web apps with Vue.js, Nuxt, and AI. Creator of WeDance community platform. Open-source contributor.",
     "projectsDesc": "Web applications, AI-powered tools, and community platforms built by Alex Razbakov. Vue.js, Nuxt, Firebase, LangChain. Open-source and client work.",
     "blogDesc": "Articles on AI integration, multi-agent systems, Vue.js, Nuxt, community platforms, and building products as a solo developer. By Alex Razbakov.",
     "cvDesc": "Senior Fullstack Developer in Munich — 15+ years experience with Vue.js, Nuxt, Firebase, AI integration (LangChain, Claude). Available for projects and consulting.",
+    "servicesDesc": "AI consulting services by Alex Razbakov: workflow audits, custom AI agents, team workshops, and a free AI study group. Based in Munich.",
     "talksDesc": "Conference talks and presentations by Alex Razbakov on AI agents, multi-agent systems, Vue.js, and modern web development."
   },
   "footer": {

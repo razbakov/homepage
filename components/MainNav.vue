@@ -45,6 +45,7 @@ const calendlyUrl = `https://calendly.com/${config.site.calendly.username}`;
 const menuItems = [
   { to: "/", key: "home" },
   { to: "/about", key: "about" },
+  { to: "/services", key: "services" },
   { to: "/projects", key: "projects" },
 ];
 
