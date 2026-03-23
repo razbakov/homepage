@@ -3,6 +3,8 @@ title: "Dancing With AI: What If the Best Interface Is Your Body?"
 description: "One monitor isn't enough. I need space to think — real, physical space. What if the next interface isn't a screen but a dance floor where prompts are spells and movement is meaning?"
 date: 2026-03-21
 image: /images/blog/dancing-with-ai.png
+telegram: https://t.me/razbakov/81
+tweet: https://x.com/i/status/2035920783231308075
 heroImage: true
 category: Ideas
 related:
