@@ -24,6 +24,9 @@
             <p class="text-muted-foreground leading-relaxed mb-4">
               {{ $t(`services.${service.key}.description`) }}
             </p>
+            <p v-if="service.showPrice" class="text-2xl font-bold text-primary mb-4">
+              {{ $t(`services.${service.key}.price`) }}
+            </p>
             <div class="space-y-2 mb-6 text-sm">
               <p>
                 <span class="font-medium">{{ $t('services.deliverable') }}:</span>
@@ -35,16 +38,6 @@
               </p>
             </div>
             <a
-              v-if="service.cta.external"
-              :href="service.cta.url"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="inline-flex h-10 items-center justify-center rounded-lg px-6 text-sm font-medium bg-primary text-primary-foreground hover:bg-primary/90 shadow-md shadow-primary/20 hover:shadow-lg hover:shadow-primary/25 hover:-translate-y-0.5 transition-all duration-200"
-            >
-              {{ $t(`services.${service.key}.cta`) }}
-            </a>
-            <a
-              v-else
               :href="service.cta.url"
               target="_blank"
               rel="noopener noreferrer"
@@ -105,6 +98,7 @@ const services = [
   {
     key: "audit",
     icon: "lucide:scan",
+    showPrice: true,
     cta: { url: calendlyUrl, external: true },
   },
   {
@@ -115,6 +109,7 @@ const services = [
   {
     key: "workshops",
     icon: "lucide:presentation",
+    showPrice: true,
     cta: { url: calendlyUrl, external: true },
   },
   {

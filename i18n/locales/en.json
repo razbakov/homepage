@@ -110,6 +110,7 @@
       "description": "A 1-hour deep dive into your workflows. I'll find what's worth automating, what tools fit, and where AI actually saves you time — no fluff, just actionable next steps.",
       "deliverable": "Recorded session + written report with quick wins and a long-term automation plan",
       "audience": "Founders, team leads, and solopreneurs drowning in manual tasks",
+      "price": "€199",
       "cta": "Book an audit"
     },
     "agents": {
@@ -124,6 +125,7 @@
       "description": "Half-day hands-on training for your team. We cover prompt engineering, AI code editors, agent workflows, and how to actually ship with AI — not just talk about it.",
       "deliverable": "Workshop + materials + follow-up Q&A session",
       "audience": "Dev teams adopting AI tools",
+      "price": "€1,500",
       "cta": "Book a workshop"
     },
     "studyGroup": {
