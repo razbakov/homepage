@@ -13,15 +13,15 @@ export function useAnalytics() {
   }
 
   function trackCalendlyOpen(source: string) {
-    track('calendly_open', { source })
+    track('calendly_open', { source, page: useRoute().path })
   }
 
   function trackEmailClick(source: string) {
-    track('email_click', { source })
+    track('email_click', { source, page: useRoute().path })
   }
 
   function trackSocialLinkClick(platform: string, href: string) {
-    track('social_link_click', { platform, href })
+    track('social_link_click', { platform, href, page: useRoute().path })
   }
 
   function trackOutboundLinkClick(href: string) {
@@ -29,15 +29,15 @@ export function useAnalytics() {
   }
 
   function trackBlogPostRead(slug: string, title: string) {
-    track('blog_post_read', { slug, title })
+    track('blog_post_read', { slug, title, page: useRoute().path })
   }
 
   function trackProjectView(slug: string, title: string) {
-    track('project_view', { slug, title })
+    track('project_view', { slug, title, page: useRoute().path })
   }
 
   function trackLanguageSwitch(from: string, to: string) {
-    track('language_switch', { from, to })
+    track('language_switch', { from, to, page: useRoute().path })
   }
 
   function trackCvDownload() {

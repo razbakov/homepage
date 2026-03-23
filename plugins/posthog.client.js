@@ -10,7 +10,6 @@ export default defineNuxtPlugin((nuxtApp) => {
     const { default: posthog } = await import("posthog-js");
 
     const consent = localStorage.getItem(CONSENT_KEY);
-    const hasDeclined = consent === "denied";
 
     const posthogClient = posthog.init(runtimeConfig.public.posthogPublicKey, {
       api_host: runtimeConfig.public.posthogHost,
@@ -19,7 +18,7 @@ export default defineNuxtPlugin((nuxtApp) => {
       persistence: consent === "granted" ? "localStorage+cookie" : "memory",
       loaded: (posthog) => {
         if (import.meta.env.MODE === "development") posthog.debug();
-        if (hasDeclined) {
+        if (consent !== "granted") {
           posthog.opt_out_capturing();
         }
       },

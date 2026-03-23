@@ -70,12 +70,12 @@ function decline() {
   }
 }
 
-defineExpose({ showSettings })
-
 function showSettings() {
   localStorage.removeItem(CONSENT_KEY)
   showBanner.value = true
 }
+
+defineExpose({ showSettings })
 </script>
 
 <style scoped>

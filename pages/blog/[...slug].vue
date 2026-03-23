@@ -20,12 +20,15 @@ const { data: post } = await useAsyncData(
   () => queryContent(contentPath.value).findOne()
 );
 
-onMounted(() => {
-  if (post.value) {
-    const slug = contentPath.value.split('/').pop() || '';
+watch(
+  () => post.value?._path,
+  (path, prevPath) => {
+    if (!import.meta.client || !path || path === prevPath) return;
+    const slug = path.split('/').pop() || '';
     trackBlogPostRead(slug, post.value.title || '');
-  }
-});
+  },
+  { immediate: true }
+);
 
 useHead({ title: computed(() => post.value?.title) });
 useSeoMeta({

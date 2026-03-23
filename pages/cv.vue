@@ -29,8 +29,11 @@ if (error.value) {
 
 const { trackCvDownload } = useAnalytics();
 const downloadPDF = () => {
-  trackCvDownload();
-  if (process.client) window.print();
+  try {
+    trackCvDownload();
+  } finally {
+    if (process.client) window.print();
+  }
 };
 </script>
 
