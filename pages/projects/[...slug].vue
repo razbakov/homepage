@@ -3,10 +3,18 @@ const { locale } = useI18n();
 const localePath = useLocalePath();
 const { filterByLanguage } = useLanguageFilter();
 const { path } = useRoute();
+const { trackProjectView } = useAnalytics();
 
 const { data: project } = await useAsyncData(`content-${path}`, () =>
   queryContent(path).findOne()
 );
+
+onMounted(() => {
+  if (project.value) {
+    const slug = path.split('/').pop() || '';
+    trackProjectView(slug, project.value.title || '');
+  }
+});
 
 useHead({ title: computed(() => project.value?.title) });
 useSeoMeta({

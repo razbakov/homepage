@@ -106,12 +106,14 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 class="inline-flex h-11 items-center justify-center rounded-lg px-8 text-sm font-medium bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg shadow-primary/25 hover:shadow-xl hover:shadow-primary/30 hover:-translate-y-0.5 transition-all duration-200"
+                @click="trackCalendlyOpen('about_cta')"
               >
                 {{ $t('nav.scheduleCall') }}
               </a>
               <a
                 :href="`mailto:${email}`"
                 class="inline-flex h-11 items-center justify-center rounded-lg border border-input px-8 text-sm font-medium hover:bg-secondary hover:text-foreground transition-colors"
+                @click="trackEmailClick('about_cta')"
               >
                 {{ $t('about.sendEmail') }}
               </a>
@@ -125,6 +127,7 @@
 
 <script setup>
 const { t } = useI18n();
+const { trackCalendlyOpen, trackEmailClick } = useAnalytics();
 useHead({ title: "About Alex Razbakov — Developer, Builder & Community Creator in Munich" });
 useSeoMeta({
   description: () => t('seo.aboutDesc'),

@@ -3,6 +3,7 @@ const { locale, t } = useI18n();
 const localePath = useLocalePath();
 const route = useRoute();
 const { language } = useLanguageFilter();
+const { trackBlogPostRead } = useAnalytics();
 
 // Strip locale prefix from path for content query
 const contentPath = computed(() => {
@@ -17,6 +18,16 @@ const contentPath = computed(() => {
 const { data: post } = await useAsyncData(
   `content-${route.path}`,
   () => queryContent(contentPath.value).findOne()
+);
+
+watch(
+  () => post.value?._path,
+  (path, prevPath) => {
+    if (!import.meta.client || !path || path === prevPath) return;
+    const slug = path.split('/').pop() || '';
+    trackBlogPostRead(slug, post.value.title || '');
+  },
+  { immediate: true }
 );
 
 useHead({ title: computed(() => post.value?.title) });

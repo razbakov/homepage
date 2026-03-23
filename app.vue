@@ -77,15 +77,27 @@
       </div>
       <div class="container mx-auto px-4 flex flex-col items-center gap-4 py-8">
         <div class="flex items-center gap-1">
-          <a v-for="link in socialLinks" :key="link.label" :href="link.href" target="_blank" rel="noopener noreferrer" class="p-2 rounded-md text-muted-foreground hover:text-foreground hover:bg-secondary transition-colors" :aria-label="link.label">
+          <a v-for="link in socialLinks" :key="link.label" :href="link.href" target="_blank" rel="noopener noreferrer" class="p-2 rounded-md text-muted-foreground hover:text-foreground hover:bg-secondary transition-colors" :aria-label="link.label" @click="trackSocialLinkClick(link.label, link.href)">
             <Icon :name="link.icon" class="w-4 h-4" />
           </a>
         </div>
-        <p class="text-sm text-muted-foreground">
-          &copy; {{ new Date().getFullYear() }} {{ config.site.name }}. {{ $t('footer.allRightsReserved') }}
-        </p>
+        <div class="flex items-center gap-3 text-sm text-muted-foreground">
+          <p>
+            &copy; {{ new Date().getFullYear() }} {{ config.site.name }}. {{ $t('footer.allRightsReserved') }}
+          </p>
+          <span class="text-border">|</span>
+          <NuxtLink :to="localePath('/privacy')" class="hover:text-foreground transition-colors">
+            {{ $t('footer.privacy') }}
+          </NuxtLink>
+          <span class="text-border">|</span>
+          <button @click="cookieConsent?.showSettings()" class="hover:text-foreground transition-colors">
+            {{ $t('footer.cookieSettings') }}
+          </button>
+        </div>
       </div>
     </footer>
+
+    <CookieConsent ref="cookieConsent" />
   </div>
 </template>
 
@@ -96,6 +108,8 @@ import config from "~/content/config.json";
 const { locale } = useI18n();
 const localePath = useLocalePath();
 const isMenuOpen = ref(false);
+const cookieConsent = ref(null);
+const { trackSocialLinkClick } = useAnalytics();
 
 const route = useRoute();
 const baseUrl = "https://razbakov.com";

@@ -111,7 +111,7 @@ export default defineNuxtConfig({
     preset: "static",
     prerender: {
       crawlLinks: true,
-      routes: ["/", "/about", "/blog", "/projects", "/cv", "/slides"],
+      routes: ["/", "/about", "/blog", "/projects", "/cv", "/slides", "/privacy"],
       failOnError: false,
     },
   },
