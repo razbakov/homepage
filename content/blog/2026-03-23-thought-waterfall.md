@@ -2,6 +2,8 @@
 title: "Thought Waterfall: When Ideas Arrive Faster Than You Can Catch Them"
 description: "There's a state where one idea triggers the next, which triggers the next, and suddenly you're drowning in connections. I call it Thought Waterfall. Here's how free writing and AI sub-agents trigger it — and how it differs from flow."
 date: 2026-03-23
+image: /images/blog/thought-waterfall.png
+heroImage: true
 category: Ideas
 related:
   - /blog/2026-03-21-dancing-with-ai
