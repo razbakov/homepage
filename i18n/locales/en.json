@@ -6,7 +6,7 @@
     "blog": "Blog",
     "slides": "Slides",
     "uses": "Uses",
-    "services": "Services",
+    "services": "Pricing",
     "scheduleCall": "Let's talk"
   },
   "blog": {
@@ -39,6 +39,8 @@
     "telegramDescription": "Updates on live coding, projects, and tech insights",
     "joinYoutube": "Subscribe on YouTube",
     "youtubeDescription": "Tutorials, talks, and live coding sessions",
+    "servicesNudge": "I also help teams work smarter with AI.",
+    "servicesNudgeLink": "See how →",
     "interests": {
       "all": "All",
       "building": "Building",
