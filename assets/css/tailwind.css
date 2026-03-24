@@ -78,6 +78,24 @@
 .prose blockquote {
   @apply mt-6 border-l-2 border-primary/30 pl-6 italic;
 }
+.prose table {
+  @apply my-6 w-full border-collapse text-sm;
+}
+.prose thead {
+  @apply border-b-2 border-border;
+}
+.prose th {
+  @apply px-4 py-2 text-left font-bold text-foreground;
+}
+.prose td {
+  @apply px-4 py-2 border-b border-border;
+}
+.prose tbody tr:hover {
+  @apply bg-muted/50;
+}
+.prose thead th {
+  @apply bg-muted/30;
+}
 .prose .aspect-ratio {
   @apply relative w-full pb-[56.25%] my-6;
 }
