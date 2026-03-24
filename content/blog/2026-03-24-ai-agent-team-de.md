@@ -2,6 +2,7 @@
 title: "Ich habe ein Führungsteam aus 6 KI-Agenten aufgebaut, um meine 15 Nebenprojekte zu managen"
 description: "Wie ich Claude Code nutze, um ein autonomes KI-Agententeam zu betreiben, das Code-Reviews, Content, Strategie, Coaching und Community über 15 Projekte hinweg übernimmt — neben meinem Vollzeitjob."
 date: 2026-03-24
+language: de
 image: /images/blog/ai-agent-team.png
 heroImage: true
 tweet: https://x.com/razbakov/status/1904281908619587855

@@ -2,6 +2,7 @@
 title: "Construí un equipo directivo de 6 agentes de IA para gestionar mis 15 proyectos paralelos"
 description: "Cómo uso Claude Code para dirigir un equipo autónomo de agentes de IA que se encarga de revisiones de código, contenido, estrategia, coaching y comunidad en 15 proyectos mientras trabajo a tiempo completo."
 date: 2026-03-24
+language: es
 image: /images/blog/ai-agent-team.png
 heroImage: true
 tweet: https://x.com/razbakov/status/1904281908619587855
