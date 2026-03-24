@@ -6,6 +6,7 @@ language: uk
 image: /images/blog/ai-agent-team.png
 heroImage: true
 tweet: https://x.com/razbakov/status/1904281908619587855
+telegram: https://t.me/razbakov/83
 category: Технології
 tags:
   - Штучний інтелект

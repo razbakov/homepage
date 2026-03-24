@@ -6,6 +6,7 @@ language: ru
 image: /images/blog/ai-agent-team.png
 heroImage: true
 tweet: https://x.com/razbakov/status/1904281908619587855
+telegram: https://t.me/razbakov_ru/40
 category: Технологии
 tags:
   - Искусственный интеллект

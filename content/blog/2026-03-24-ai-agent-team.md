@@ -5,6 +5,7 @@ date: 2026-03-24
 image: /images/blog/ai-agent-team.png
 heroImage: true
 tweet: https://x.com/razbakov/status/1904281908619587855
+telegram: https://t.me/razbakov/83
 category: Technology
 tags:
   - Artificial Intelligence
