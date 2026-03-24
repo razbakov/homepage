@@ -4,7 +4,7 @@ description: "How I use Claude Code to run an autonomous AI agent team that hand
 date: 2026-03-24
 image: /images/blog/ai-agent-team.png
 heroImage: true
-tweet: https://x.com/AiRazbakov/status/1904281908619587855
+tweet: https://x.com/razbakov/status/1904281908619587855
 category: Technology
 tags:
   - Artificial Intelligence
@@ -96,4 +96,4 @@ I recorded a 7-minute video walking through the full setup, presented from my Ap
 
 ---
 
-What's your approach to managing multiple projects with AI? I'd love to hear how others are doing this. [Find me on X](https://x.com/AiRazbakov) or drop a comment on [the YouTube video](https://www.youtube.com/watch?v=6Jwb8pSOZ4M).
+What's your approach to managing multiple projects with AI? I'd love to hear how others are doing this. [Find me on X](https://x.com/razbakov) or drop a comment on [the YouTube video](https://www.youtube.com/watch?v=6Jwb8pSOZ4M).
