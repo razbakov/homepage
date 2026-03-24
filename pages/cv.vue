@@ -41,7 +41,7 @@ const downloadPDF = () => {
   <div class="py-16 print:py-4 print:text-sm">
     <div v-if="pending" class="container mx-auto px-4 print:px-0">
       <div class="max-w-3xl mx-auto">
-        <p class="text-center text-muted-foreground">Loading CV...</p>
+        <p class="text-center text-muted-foreground">{{ $t('cv.loading') }}</p>
       </div>
     </div>
 
@@ -61,19 +61,19 @@ const downloadPDF = () => {
         <div class="grid sm:grid-cols-2 gap-8 mb-8 print:mb-4 print:gap-4">
           <div class="space-y-4">
             <div class="flex items-start gap-2">
-              <span class="font-medium">Location:</span>
+              <span class="font-medium">{{ $t('cv.location') }}:</span>
               <span class="text-muted-foreground">{{
                 cv.quick_info.location
               }}</span>
             </div>
             <div class="flex items-start gap-2">
-              <span class="font-medium">Experience:</span>
+              <span class="font-medium">{{ $t('cv.experience') }}:</span>
               <span class="text-muted-foreground">{{
                 cv.quick_info.experience
               }}</span>
             </div>
             <div class="flex items-start gap-2">
-              <span class="font-medium">Languages:</span>
+              <span class="font-medium">{{ $t('cv.languages') }}:</span>
               <span class="text-muted-foreground">{{
                 cv.quick_info.languages.join(", ")
               }}</span>
@@ -81,7 +81,7 @@ const downloadPDF = () => {
           </div>
           <div class="space-y-4">
             <div class="flex items-start gap-2">
-              <span class="font-medium">Email:</span>
+              <span class="font-medium">{{ $t('cv.email') }}:</span>
               <a
                 :href="'mailto:' + cv.quick_info.contact.email"
                 class="text-primary hover:text-primary/80"
@@ -89,7 +89,7 @@ const downloadPDF = () => {
               >
             </div>
             <div class="flex items-start gap-2">
-              <span class="font-medium">LinkedIn:</span>
+              <span class="font-medium">{{ $t('cv.linkedin') }}:</span>
               <a
                 :href="
                   'https://linkedin.com/in/' + cv.quick_info.contact.linkedin
@@ -101,7 +101,7 @@ const downloadPDF = () => {
               >
             </div>
             <div class="flex items-start gap-2">
-              <span class="font-medium">GitHub:</span>
+              <span class="font-medium">{{ $t('cv.github') }}:</span>
               <a
                 :href="'https://github.com/' + cv.quick_info.contact.github"
                 target="_blank"
@@ -116,7 +116,7 @@ const downloadPDF = () => {
         <!-- Skills Summary -->
         <section class="mb-12">
           <div class="space-y-4">
-            <h2 class="text-2xl font-bold mb-6">Skills</h2>
+            <h2 class="text-2xl font-bold mb-6">{{ $t('cv.skills') }}</h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
               <div
                 v-for="(skills, title) in cv.skills"
@@ -132,7 +132,7 @@ const downloadPDF = () => {
 
         <!-- Professional Experience -->
         <section class="mb-12">
-          <h2 class="text-2xl font-bold mb-6">Professional Experience</h2>
+          <h2 class="text-2xl font-bold mb-6">{{ $t('cv.professionalExperience') }}</h2>
           <div class="space-y-8">
             <div v-for="exp in cv.professional_experience" :key="exp.company" class="border-l-2 border-primary/20 pl-6">
               <h3 class="text-xl font-medium">{{ exp.company }}</h3>
@@ -151,7 +151,7 @@ const downloadPDF = () => {
         <!-- Volunteering & Community -->
         <section class="mb-12">
           <h2 class="text-2xl font-bold mb-6">
-            Volunteering & Community Leadership
+            {{ $t('cv.volunteering') }}
           </h2>
           <div class="space-y-8">
             <div v-for="vol in cv.volunteering" :key="vol.organization" class="border-l-2 border-accent/20 pl-6">
@@ -181,10 +181,10 @@ const downloadPDF = () => {
 
         <!-- Speaking & Community -->
         <section class="mb-12">
-          <h2 class="text-2xl font-bold mb-6">Speaking & Community</h2>
+          <h2 class="text-2xl font-bold mb-6">{{ $t('cv.speaking') }}</h2>
           <div class="grid sm:grid-cols-2 gap-8">
             <div class="space-y-4">
-              <h3 class="text-xl font-medium">Conference Topics</h3>
+              <h3 class="text-xl font-medium">{{ $t('cv.conferenceTopics') }}</h3>
               <ul class="space-y-2 text-muted-foreground list-disc ml-5">
                 <li
                   v-for="talk in cv.speaking_community.conference_talks"
@@ -195,7 +195,7 @@ const downloadPDF = () => {
               </ul>
             </div>
             <div class="space-y-4">
-              <h3 class="text-xl font-medium">Community Involvement</h3>
+              <h3 class="text-xl font-medium">{{ $t('cv.communityInvolvement') }}</h3>
               <ul class="space-y-2 text-muted-foreground list-disc ml-5">
                 <li
                   v-for="item in cv.speaking_community.community_involvement"
@@ -210,7 +210,7 @@ const downloadPDF = () => {
 
         <!-- Certifications -->
         <section class="mb-12">
-          <h2 class="text-2xl font-bold mb-6">Certifications</h2>
+          <h2 class="text-2xl font-bold mb-6">{{ $t('cv.certifications') }}</h2>
           <ul class="space-y-2 text-muted-foreground list-disc ml-5">
             <li v-for="cert in cv.certifications" :key="cert.title">
               {{ cert.title }} - {{ cert.issuer }}, {{ cert.date }}
@@ -220,7 +220,7 @@ const downloadPDF = () => {
 
         <!-- Education -->
         <section class="mb-12">
-          <h2 class="text-2xl font-bold mb-6">Education</h2>
+          <h2 class="text-2xl font-bold mb-6">{{ $t('cv.education') }}</h2>
           <div class="space-y-8">
             <div v-for="edu in cv.education" :key="edu.institution">
               <h3 class="text-xl font-medium">{{ edu.institution }}</h3>
@@ -243,14 +243,14 @@ const downloadPDF = () => {
           @click="downloadPDF"
           class="inline-flex h-11 items-center justify-center rounded-lg bg-primary px-8 text-sm font-medium text-primary-foreground hover:bg-primary/90 shadow-lg shadow-primary/25 transition-all duration-200"
         >
-          Download CV
+          {{ $t('cv.download') }}
         </button>
       </div>
     </div>
 
     <div v-else class="container mx-auto px-4 print:px-0">
       <div class="max-w-3xl mx-auto">
-        <p class="text-center text-destructive">Failed to load CV data</p>
+        <p class="text-center text-destructive">{{ $t('cv.failed') }}</p>
       </div>
     </div>
   </div>

@@ -27,7 +27,9 @@
     "viewDiscussionX": "View Discussion on X",
     "shareOnX": "Share on X",
     "telegramChannel": "Telegram Channel",
-    "followOnX": "Follow on X"
+    "followOnX": "Follow on X",
+    "authorBio": "Building community platforms, teaching salsa, writing to find my people.",
+    "relatedProjects": "Related Projects"
   },
   "home": {
     "title": "Hey, I'm Alex",
@@ -162,6 +164,40 @@
     "cvDesc": "Senior Fullstack Developer in Munich — 15+ years experience with Vue.js, Nuxt, Firebase, AI integration (LangChain, Claude). Available for projects and consulting.",
     "servicesDesc": "AI consulting services by Alex Razbakov: workflow audits, custom AI agents, team workshops, and a free AI study group. Based in Munich.",
     "talksDesc": "Conference talks and presentations by Alex Razbakov on AI agents, multi-agent systems, Vue.js, and modern web development."
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Things I've built, shipped, or am still figuring out.",
+    "filters": {
+      "all": "Show all",
+      "code": "Code",
+      "design": "Design",
+      "forClients": "For clients",
+      "concept": "Concept",
+      "ai": "AI"
+    },
+    "visitWebsite": "Visit Website",
+    "relatedPosts": "Related Posts",
+    "backToProjects": "← Back to Projects"
+  },
+  "cv": {
+    "loading": "Loading CV...",
+    "failed": "Failed to load CV data",
+    "location": "Location",
+    "experience": "Experience",
+    "languages": "Languages",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "skills": "Skills",
+    "professionalExperience": "Professional Experience",
+    "volunteering": "Volunteering & Community Leadership",
+    "speaking": "Speaking & Community",
+    "conferenceTopics": "Conference Topics",
+    "communityInvolvement": "Community Involvement",
+    "certifications": "Certifications",
+    "education": "Education",
+    "download": "Download CV"
   },
   "footer": {
     "allRightsReserved": "All rights reserved.",

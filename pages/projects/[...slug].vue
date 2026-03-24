@@ -90,7 +90,7 @@ const { data: relatedPosts } = await useAsyncData(
               rel="noopener noreferrer"
               class="inline-flex h-10 items-center justify-center rounded-lg px-6 text-sm font-medium bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg shadow-primary/25 hover:-translate-y-0.5 transition-all duration-200 gap-2 shrink-0"
             >
-              Visit Website
+              {{ $t('projects.visitWebsite') }}
               <Icon name="lucide:external-link" class="w-4 h-4" />
             </a>
           </div>
@@ -142,7 +142,7 @@ const { data: relatedPosts } = await useAsyncData(
 
         <!-- Related Blog Posts -->
         <div v-if="relatedPosts?.length" class="mt-12 border-t pt-8">
-          <h2 class="text-xl font-bold mb-4">Related Posts</h2>
+          <h2 class="text-xl font-bold mb-4">{{ $t('projects.relatedPosts') }}</h2>
           <div class="space-y-3">
             <NuxtLink
               v-for="post in relatedPosts"
@@ -163,10 +163,10 @@ const { data: relatedPosts } = await useAsyncData(
         <!-- Navigation -->
         <nav class="mt-12 flex justify-between">
           <NuxtLink
-            to="/projects"
+            :to="localePath('/projects')"
             class="inline-flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-primary"
           >
-            ← Back to Projects
+            {{ $t('projects.backToProjects') }}
           </NuxtLink>
         </nav>
       </div>

@@ -21,12 +21,12 @@ const { data: projects } = await useAsyncData("projects-list", () =>
 const activeFilter = ref("all");
 
 const filters = [
-  { key: "all", label: "Show all", icon: "lucide:sparkles" },
-  { key: "Code", label: "Code", icon: "lucide:code" },
-  { key: "Design", label: "Design", icon: "lucide:palette" },
-  { key: "For clients", label: "For clients", icon: "lucide:handshake" },
-  { key: "Concept", label: "Concept", icon: "lucide:lightbulb" },
-  { key: "AI", label: "AI", icon: "lucide:bot" },
+  { key: "all", tKey: "all", icon: "lucide:sparkles" },
+  { key: "Code", tKey: "code", icon: "lucide:code" },
+  { key: "Design", tKey: "design", icon: "lucide:palette" },
+  { key: "For clients", tKey: "forClients", icon: "lucide:handshake" },
+  { key: "Concept", tKey: "concept", icon: "lucide:lightbulb" },
+  { key: "AI", tKey: "ai", icon: "lucide:bot" },
 ];
 
 const filtered = computed(() => {
@@ -40,9 +40,9 @@ const filtered = computed(() => {
   <div class="py-16">
     <div class="container mx-auto px-4">
       <div class="max-w-4xl mx-auto">
-        <h1 class="text-4xl font-bold mb-8">Projects</h1>
+        <h1 class="text-4xl font-bold mb-8">{{ $t('projects.title') }}</h1>
         <p class="text-xl text-muted-foreground mb-4">
-          Things I've built, shipped, or am still figuring out.
+          {{ $t('projects.subtitle') }}
         </p>
 
         <!-- Filter pills -->
@@ -57,7 +57,7 @@ const filtered = computed(() => {
               : 'border border-border text-muted-foreground hover:border-coral-300 hover:text-foreground'"
           >
             <Icon v-if="f.icon" :name="f.icon" class="w-4 h-4" />
-            {{ f.label }}
+            {{ $t(`projects.filters.${f.tKey}`) }}
           </button>
         </div>
 

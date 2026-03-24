@@ -6,6 +6,7 @@
     "blog": "Blog",
     "slides": "Charlas",
     "uses": "Herramientas",
+    "services": "Precios",
     "scheduleCall": "Hablemos"
   },
   "blog": {
@@ -26,7 +27,9 @@
     "viewDiscussionX": "Ver discusión en X",
     "shareOnX": "Compartir en X",
     "telegramChannel": "Canal de Telegram",
-    "followOnX": "Seguir en X"
+    "followOnX": "Seguir en X",
+    "authorBio": "Construyo plataformas comunitarias, enseño salsa, escribo para encontrar a mi gente.",
+    "relatedProjects": "Proyectos relacionados"
   },
   "home": {
     "title": "Hola, soy Alex",
@@ -38,6 +41,8 @@
     "telegramDescription": "Actualizaciones sobre programación en vivo, proyectos e ideas tech",
     "joinYoutube": "Suscríbete en YouTube",
     "youtubeDescription": "Tutoriales, charlas y sesiones de programación en vivo",
+    "servicesNudge": "También ayudo a equipos a trabajar de forma más inteligente con IA.",
+    "servicesNudgeLink": "Descubre cómo →",
     "interests": {
       "all": "Todo",
       "building": "Construir",
@@ -99,13 +104,100 @@
     "ctaDescription": "¿Tienes un proyecto en mente, quieres hablar de tech, o simplemente saludar?",
     "sendEmail": "Enviar email"
   },
+  "services": {
+    "title": "Ayudo a las personas a trabajar de forma más inteligente con IA",
+    "subtitle": "Ejecuto más de 20 agentes de IA diariamente, he creado más de 60 habilidades personalizadas y automatizo flujos de trabajo reales. Así es como puedo ayudarte a hacer lo mismo.",
+    "deliverable": "Qué obtienes",
+    "audience": "Ideal para",
+    "audit": {
+      "title": "Auditoría de flujo de trabajo con IA",
+      "description": "Una inmersión profunda de 1 hora en tus flujos de trabajo. Identificaré qué vale la pena automatizar, qué herramientas encajan y dónde la IA realmente te ahorra tiempo — sin rodeos, solo próximos pasos accionables.",
+      "deliverable": "Sesión grabada + informe escrito con victorias rápidas y un plan de automatización a largo plazo",
+      "audience": "Fundadores, líderes de equipo y solopreneurs agobiados por tareas manuales",
+      "price": "€199",
+      "cta": "Reservar una auditoría"
+    },
+    "agents": {
+      "title": "Agentes de IA personalizados",
+      "description": "Creo agentes de IA adaptados a tus flujos de trabajo específicos. Desde redacción e investigación hasta procesamiento de datos y notificaciones — si es repetitivo, puedo automatizarlo.",
+      "deliverable": "Agentes funcionales, documentación y una sesión de traspaso",
+      "audience": "Equipos de desarrollo y empresas con procesos repetitivos",
+      "cta": "Hablemos"
+    },
+    "workshops": {
+      "title": "Talleres para equipos",
+      "description": "Formación práctica de medio día para tu equipo. Cubrimos prompt engineering, editores de código con IA, flujos de trabajo con agentes y cómo realmente entregar con IA — no solo hablar de ello.",
+      "deliverable": "Taller + materiales + sesión de preguntas y respuestas de seguimiento",
+      "audience": "Equipos de desarrollo que adoptan herramientas de IA",
+      "price": "€1.500",
+      "cta": "Reservar un taller"
+    },
+    "studyGroup": {
+      "title": "Grupo de estudio de IA",
+      "description": "Una comunidad gratuita donde aprendemos IA juntos. Streams semanales los viernes en Twitch, grabados en YouTube, con un grupo de Telegram para debate continuo.",
+      "deliverable": "Streams semanales en directo, grabaciones de YouTube, comunidad de Telegram",
+      "audience": "Desarrolladores y personas curiosas sobre IA que quieren aprender juntos",
+      "cta": "Unirse a la comunidad"
+    },
+    "stats": {
+      "agents": {
+        "value": "20+",
+        "label": "Agentes de IA en funcionamiento diario"
+      },
+      "skills": {
+        "value": "60+",
+        "label": "Habilidades personalizadas creadas"
+      },
+      "community": {
+        "value": "15+",
+        "label": "Miembros del grupo de estudio"
+      }
+    },
+    "ctaTitle": "¿No estás seguro de cuál es la opción correcta para ti?",
+    "ctaDescription": "Reserva una llamada gratuita y te orientaré en la dirección correcta."
+  },
   "seo": {
     "homeDesc": "Desarrollador fullstack e ingeniero de IA en Múnich. Plataformas comunitarias, herramientas de IA y proyectos open-source. Vue.js, Nuxt, Firebase, LangChain, Claude.",
     "aboutDesc": "Desarrollador fullstack senior en Múnich. 15+ años construyendo apps web con Vue.js, Nuxt e IA. Creador de la plataforma WeDance. Contribuidor open-source.",
     "projectsDesc": "Aplicaciones web, herramientas de IA y plataformas comunitarias de Alex Razbakov. Vue.js, Nuxt, Firebase, LangChain. Open-source y trabajo para clientes.",
     "blogDesc": "Artículos sobre integración de IA, sistemas multi-agente, Vue.js, Nuxt, plataformas comunitarias y desarrollo de productos como desarrollador independiente. Por Alex Razbakov.",
     "cvDesc": "Desarrollador Fullstack Senior en Múnich — 15+ años de experiencia con Vue.js, Nuxt, Firebase, integración de IA (LangChain, Claude). Disponible para proyectos y consultoría.",
+    "servicesDesc": "Servicios de consultoría de IA por Alex Razbakov: auditorías de flujo de trabajo, agentes de IA personalizados, talleres para equipos y un grupo de estudio gratuito. Basado en Múnich.",
     "talksDesc": "Charlas y presentaciones de Alex Razbakov sobre agentes de IA, sistemas multi-agente, Vue.js y desarrollo web moderno."
+  },
+  "projects": {
+    "title": "Proyectos",
+    "subtitle": "Cosas que he construido, lanzado o todavía estoy descubriendo.",
+    "filters": {
+      "all": "Mostrar todo",
+      "code": "Código",
+      "design": "Diseño",
+      "forClients": "Para clientes",
+      "concept": "Concepto",
+      "ai": "IA"
+    },
+    "visitWebsite": "Visitar sitio web",
+    "relatedPosts": "Posts relacionados",
+    "backToProjects": "← Volver a proyectos"
+  },
+  "cv": {
+    "loading": "Cargando CV...",
+    "failed": "Error al cargar el CV",
+    "location": "Ubicación",
+    "experience": "Experiencia",
+    "languages": "Idiomas",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "skills": "Habilidades",
+    "professionalExperience": "Experiencia profesional",
+    "volunteering": "Voluntariado y liderazgo comunitario",
+    "speaking": "Charlas y comunidad",
+    "conferenceTopics": "Temas de conferencia",
+    "communityInvolvement": "Participación comunitaria",
+    "certifications": "Certificaciones",
+    "education": "Educación",
+    "download": "Descargar CV"
   },
   "footer": {
     "allRightsReserved": "Todos los derechos reservados.",

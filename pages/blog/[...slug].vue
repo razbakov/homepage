@@ -260,7 +260,7 @@ const { data: relatedProjects } = await useAsyncData(
             <div>
               <h3 class="font-medium">Alex Razbakov</h3>
               <p class="text-sm text-muted-foreground mb-2">
-                Building community platforms, teaching salsa, writing to find my people.
+                {{ $t('blog.authorBio') }}
               </p>
               <div class="flex items-center gap-3 text-sm">
                 <a
@@ -307,7 +307,7 @@ const { data: relatedProjects } = await useAsyncData(
 
         <!-- Related Projects -->
         <div v-if="relatedProjects?.length" class="mt-12 border-t pt-8">
-          <h2 class="text-2xl font-bold mb-4">Related Projects</h2>
+          <h2 class="text-2xl font-bold mb-4">{{ $t('blog.relatedProjects') }}</h2>
           <div class="grid grid-cols-2 gap-4">
             <NuxtLink
               v-for="project in relatedProjects"

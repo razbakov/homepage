@@ -6,6 +6,7 @@
     "blog": "Blog",
     "slides": "Vorträge",
     "uses": "Tools",
+    "services": "Preise",
     "scheduleCall": "Lass uns reden"
   },
   "blog": {
@@ -26,7 +27,9 @@
     "viewDiscussionX": "Diskussion auf X ansehen",
     "shareOnX": "Auf X teilen",
     "telegramChannel": "Telegram-Kanal",
-    "followOnX": "Folge auf X"
+    "followOnX": "Folge auf X",
+    "authorBio": "Baue Community-Plattformen auf, unterrichte Salsa, schreibe, um meine Leute zu finden.",
+    "relatedProjects": "Verwandte Projekte"
   },
   "home": {
     "title": "Hey, ich bin Alex",
@@ -38,6 +41,8 @@
     "telegramDescription": "Updates zu Live-Coding, Projekten und Tech-Einblicken",
     "joinYoutube": "Auf YouTube abonnieren",
     "youtubeDescription": "Tutorials, Vorträge und Live-Coding-Sessions",
+    "servicesNudge": "Ich helfe Teams auch dabei, smarter mit KI zu arbeiten.",
+    "servicesNudgeLink": "Mehr dazu →",
     "interests": {
       "all": "Alles",
       "building": "Bauen",
@@ -99,13 +104,100 @@
     "ctaDescription": "Hast du ein Projekt im Kopf, willst über Tech reden, oder einfach Hallo sagen?",
     "sendEmail": "E-Mail schreiben"
   },
+  "services": {
+    "title": "Ich helfe Menschen, smarter mit KI zu arbeiten",
+    "subtitle": "Ich betreibe täglich 20+ KI-Agenten, habe 60+ eigene Skills entwickelt und automatisiere echte Workflows. So kann ich dir helfen, dasselbe zu tun.",
+    "deliverable": "Was du bekommst",
+    "audience": "Am besten für",
+    "audit": {
+      "title": "KI-Workflow-Audit",
+      "description": "Ein einstündiger Deep Dive in deine Workflows. Ich finde heraus, was es wert ist zu automatisieren, welche Tools passen und wo KI wirklich Zeit spart — kein Blabla, nur umsetzbare nächste Schritte.",
+      "deliverable": "Aufgezeichnete Session + schriftlicher Bericht mit Quick Wins und einem langfristigen Automatisierungsplan",
+      "audience": "Gründer, Teamleiter und Solopreneure, die in manuellen Aufgaben versinken",
+      "price": "€199",
+      "cta": "Audit buchen"
+    },
+    "agents": {
+      "title": "Individuelle KI-Agenten",
+      "description": "Ich entwickle KI-Agenten, die genau auf deine Workflows zugeschnitten sind — vom Entwurf und Recherche bis zur Datenverarbeitung und Benachrichtigungen. Wenn es repetitiv ist, kann ich es automatisieren.",
+      "deliverable": "Funktionierende Agenten, Dokumentation und eine Übergabe-Session",
+      "audience": "Dev-Teams und Unternehmen mit wiederkehrenden Prozessen",
+      "cta": "Lass uns reden"
+    },
+    "workshops": {
+      "title": "Team-Workshops",
+      "description": "Halbtägiges Hands-on-Training für dein Team. Wir behandeln Prompt Engineering, KI-Code-Editoren, Agenten-Workflows und wie man mit KI wirklich liefert — nicht nur darüber redet.",
+      "deliverable": "Workshop + Materialien + Follow-up Q&A-Session",
+      "audience": "Dev-Teams, die KI-Tools einführen",
+      "price": "€1.500",
+      "cta": "Workshop buchen"
+    },
+    "studyGroup": {
+      "title": "KI-Lerngruppe",
+      "description": "Eine kostenlose Community, in der wir gemeinsam KI lernen. Wöchentliche Freitags-Streams auf Twitch, aufgezeichnet auf YouTube, mit einer Telegram-Gruppe für laufende Diskussionen.",
+      "deliverable": "Wöchentliche Livestreams, YouTube-Aufzeichnungen, Telegram-Community",
+      "audience": "Entwickler und KI-Interessierte, die gemeinsam lernen möchten",
+      "cta": "Community beitreten"
+    },
+    "stats": {
+      "agents": {
+        "value": "20+",
+        "label": "KI-Agenten täglich im Einsatz"
+      },
+      "skills": {
+        "value": "60+",
+        "label": "Eigene Skills entwickelt"
+      },
+      "community": {
+        "value": "15+",
+        "label": "Mitglieder der Lerngruppe"
+      }
+    },
+    "ctaTitle": "Nicht sicher, was das Richtige für dich ist?",
+    "ctaDescription": "Buche ein kostenloses Gespräch und ich zeige dir den richtigen Weg."
+  },
   "seo": {
     "homeDesc": "Fullstack-Entwickler und KI-Ingenieur in München. Community-Plattformen, KI-Tools und Open-Source-Projekte. Vue.js, Nuxt, Firebase, LangChain, Claude.",
     "aboutDesc": "Senior Fullstack-Entwickler in München. 15+ Jahre Web-Apps mit Vue.js, Nuxt und KI. Gründer der WeDance-Community-Plattform. Open-Source-Contributor.",
     "projectsDesc": "Web-Anwendungen, KI-Tools und Community-Plattformen von Alex Razbakov. Vue.js, Nuxt, Firebase, LangChain. Open-Source und Kundenprojekte.",
     "blogDesc": "Artikel über KI-Integration, Multi-Agent-Systeme, Vue.js, Nuxt, Community-Plattformen und Produktentwicklung als Solo-Entwickler. Von Alex Razbakov.",
     "cvDesc": "Senior Fullstack-Entwickler in München — 15+ Jahre Erfahrung mit Vue.js, Nuxt, Firebase, KI-Integration (LangChain, Claude). Verfügbar für Projekte und Beratung.",
+    "servicesDesc": "KI-Beratungsleistungen von Alex Razbakov: Workflow-Audits, individuelle KI-Agenten, Team-Workshops und eine kostenlose KI-Lerngruppe. Standort München.",
     "talksDesc": "Konferenzvorträge und Präsentationen von Alex Razbakov über KI-Agenten, Multi-Agent-Systeme, Vue.js und moderne Webentwicklung."
+  },
+  "projects": {
+    "title": "Projekte",
+    "subtitle": "Dinge, die ich gebaut, veröffentlicht oder noch in Arbeit habe.",
+    "filters": {
+      "all": "Alle anzeigen",
+      "code": "Code",
+      "design": "Design",
+      "forClients": "Für Kunden",
+      "concept": "Konzept",
+      "ai": "KI"
+    },
+    "visitWebsite": "Website besuchen",
+    "relatedPosts": "Verwandte Beiträge",
+    "backToProjects": "← Zurück zu den Projekten"
+  },
+  "cv": {
+    "loading": "Lebenslauf wird geladen...",
+    "failed": "Lebenslauf konnte nicht geladen werden",
+    "location": "Standort",
+    "experience": "Erfahrung",
+    "languages": "Sprachen",
+    "email": "E-Mail",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "skills": "Fähigkeiten",
+    "professionalExperience": "Berufserfahrung",
+    "volunteering": "Ehrenamt & Community-Engagement",
+    "speaking": "Vorträge & Community",
+    "conferenceTopics": "Konferenzthemen",
+    "communityInvolvement": "Community-Engagement",
+    "certifications": "Zertifizierungen",
+    "education": "Ausbildung",
+    "download": "Lebenslauf herunterladen"
   },
   "footer": {
     "allRightsReserved": "Alle Rechte vorbehalten.",
