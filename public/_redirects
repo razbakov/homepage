@@ -6,6 +6,10 @@
 /mafia https://gutenabend.netlify.com/mafia/
 /gear /uses
 
+# Proxied apps
+/mindmap/* https://razbakov.github.io/mindmap-command-center/:splat 200
+/mindmap https://razbakov.github.io/mindmap-command-center/ 200
+
 # Blog posts
 
 /6-hats /blog/2018-05-16-thinking-hats
