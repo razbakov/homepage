@@ -37,9 +37,9 @@ Un árbol radial con D3.js. La misión en el centro. Todo lo demás se ramifica:
 
 La tecnología es deliberadamente mínima — D3.js v7, TypeScript, Vite, unos 20KB de código fuente. Sin framework. Quería algo que pudiera abrir en un navegador y que funcionara inmediatamente, no algo que necesite tres instalaciones de npm y un archivo de configuración.
 
-[Prueba la demo en vivo →](https://razbakov.com/mindmap)
+[Prueba la demo en vivo →](https://razbakov.com/mindmap/)
 
-Código fuente en GitHub: [razbakov/mindmap-command-center](https://github.com/razbakov/mindmap-command-center)
+Código fuente en GitHub: [razbakov/mindmap](https://github.com/razbakov/mindmap)
 
 ## Construirlo era el objetivo
 
@@ -82,7 +82,7 @@ Eso es un proyecto de fin de semana. Quizá dos.
 
 El mindmap es open source. Si gestionas múltiples proyectos, la estructura podría ser útil — no necesariamente el código, sino el acto de obligarte a mapearlo todo.
 
-[razbakov.com/mindmap](https://razbakov.com/mindmap) — demo en vivo
-[github.com/razbakov/mindmap-command-center](https://github.com/razbakov/mindmap-command-center) — código fuente
+[razbakov.com/mindmap](https://razbakov.com/mindmap/) — demo en vivo
+[github.com/razbakov/mindmap](https://github.com/razbakov/mindmap) — código fuente
 
 Los 20 minutos que toma dibujar tu sistema como un árbol valen la pena. No porque el mapa sea la respuesta. Sino porque dibujarlo te obliga a hacer la pregunta correcta.

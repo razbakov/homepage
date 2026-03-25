@@ -37,9 +37,9 @@ related:
 
 Стек свідомо мінімальний — D3.js v7, TypeScript, Vite, приблизно 20КБ коду. Без фреймворку. Мені потрібно було щось, що відкриваєш у браузері — і воно працює. Не щось, що потребує трьох npm install і конфігу.
 
-[Спробувати live-демо →](https://razbakov.com/mindmap)
+[Спробувати live-демо →](https://razbakov.com/mindmap/)
 
-Вихідний код на GitHub: [razbakov/mindmap-command-center](https://github.com/razbakov/mindmap-command-center)
+Вихідний код на GitHub: [razbakov/mindmap](https://github.com/razbakov/mindmap)
 
 ## Будувати — і було метою
 
@@ -82,7 +82,7 @@ Mindmap — не менеджер завдань. Він не відстежує
 
 Mindmap — open source. Якщо ти керуєш кількома проєктами, структура може стати в пригоді — не обов'язково код, а сам акт змусити себе намалювати карту.
 
-[razbakov.com/mindmap](https://razbakov.com/mindmap) — live-демо
-[github.com/razbakov/mindmap-command-center](https://github.com/razbakov/mindmap-command-center) — вихідний код
+[razbakov.com/mindmap](https://razbakov.com/mindmap/) — live-демо
+[github.com/razbakov/mindmap](https://github.com/razbakov/mindmap) — вихідний код
 
 20 хвилин на те, щоб зобразити свою систему у вигляді дерева, того варті. Не тому що карта — це відповідь. А тому що малювання змушує поставити правильне запитання.

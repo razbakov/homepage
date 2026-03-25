@@ -36,9 +36,9 @@ A D3.js radial tree. Mission at the center. Everything else branches out: OKRs, 
 
 Tech is deliberately minimal — D3.js v7, TypeScript, Vite, about 20KB of source. No framework. I wanted something I could open in a browser and have work immediately, not something that requires three npm installs and a config file.
 
-[Try the live demo →](https://razbakov.com/mindmap)
+[Try the live demo →](https://razbakov.com/mindmap/)
 
-Source on GitHub: [razbakov/mindmap-command-center](https://github.com/razbakov/mindmap-command-center)
+Source on GitHub: [razbakov/mindmap](https://github.com/razbakov/mindmap)
 
 ## Building It Was the Point
 
@@ -81,7 +81,7 @@ That's a weekend project. Maybe two.
 
 The mindmap is open source. If you manage multiple projects, the structure might be useful — not necessarily the code, but the act of forcing yourself to map it.
 
-[razbakov.com/mindmap](https://razbakov.com/mindmap) — live demo
-[github.com/razbakov/mindmap-command-center](https://github.com/razbakov/mindmap-command-center) — source
+[razbakov.com/mindmap](https://razbakov.com/mindmap/) — live demo
+[github.com/razbakov/mindmap](https://github.com/razbakov/mindmap) — source
 
 The 20 minutes it takes to lay out your system as a tree is worth it. Not because the map is the answer. Because drawing it forces the question.
