@@ -7,8 +7,8 @@
 /gear /uses
 
 # Proxied apps
-/mindmap/* https://razbakov.github.io/mindmap-command-center/:splat 200
-/mindmap https://razbakov.github.io/mindmap-command-center/ 200
+/mindmap/* https://razbakov.github.io/mindmap/:splat 200
+/mindmap https://razbakov.github.io/mindmap/ 200
 
 # Blog posts
 
