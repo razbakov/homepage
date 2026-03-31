@@ -111,7 +111,15 @@ export default defineNuxtConfig({
     preset: "static",
     prerender: {
       crawlLinks: true,
-      routes: ["/", "/about", "/blog", "/projects", "/cv", "/slides", "/privacy"],
+      routes: [
+        "/", "/about", "/blog", "/projects", "/cv", "/slides", "/privacy",
+        // Unlisted blog posts (hidden from listings, accessible via direct link)
+        "/blog/2026-03-25-why-openclaw-has-no-soul",
+        "/blog/2026-03-25-my-ai-team-runs-my-day",
+        "/blog/2026-03-25-from-idea-to-mvp-in-minutes",
+        "/blog/2026-03-25-ai-agents-need-goals",
+        "/blog/2026-03-25-stop-estimating-in-hours",
+      ],
       failOnError: false,
     },
   },
