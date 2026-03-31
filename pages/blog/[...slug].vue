@@ -25,7 +25,7 @@ watch(
   (path, prevPath) => {
     if (!import.meta.client || !path || path === prevPath) return;
     const slug = path.split('/').pop() || '';
-    trackBlogPostRead(slug, post.value.title || '');
+    trackBlogPostRead(slug, post.value?.title || '');
   },
   { immediate: true }
 );
@@ -121,7 +121,7 @@ const { data: relatedProjects } = await useAsyncData(
 </script>
 
 <template>
-  <article class="py-16">
+  <article v-if="post" class="py-16">
     <!-- Hero Image (full-width, before title) -->
     <div
       v-if="post.image && !post.hideImage && post.heroImage"
