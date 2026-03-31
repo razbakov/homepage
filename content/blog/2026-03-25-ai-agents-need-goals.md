@@ -3,6 +3,7 @@ title: "AI Agents Need Goals Too: How I Gave My Bots OKRs"
 description: "Without goals, AI agents are lazy bastards. Here's how OKRs turned my reactive bots into a proactive executive team."
 date: 2026-03-25
 category: Unlisted
+image: /images/blog/agents-need-goals.png
 tags:
   - AI Agents
   - Productivity

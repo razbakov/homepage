@@ -3,6 +3,7 @@ title: "Stop Estimating in Hours: Story Points for AI Development"
 description: "AI agents give human-era time estimates. Here's how to use story points to calibrate your actual velocity when building with AI."
 date: 2026-03-25
 category: Unlisted
+image: /images/blog/stop-estimating-hours.png
 tags:
   - AI Agents
   - Productivity

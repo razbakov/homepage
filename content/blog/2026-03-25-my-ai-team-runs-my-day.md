@@ -3,6 +3,7 @@ title: "My AI Team Runs My Day: A Full Workflow Demo"
 description: "From 9am check-in to dinner planning — how 6 AI agents manage my calendar, meals, travel, and meetings while I focus on what matters."
 date: 2026-03-25
 category: Unlisted
+image: /images/blog/ai-team-runs-my-day.png
 tags:
   - AI Agents
   - Productivity

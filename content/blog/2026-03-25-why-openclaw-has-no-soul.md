@@ -3,6 +3,7 @@ title: "Why OpenClaw Has No Soul (And How I Built My Own)"
 description: "OpenClaw is a Telegram wrapper. I built 6 AI agents with distinct personalities, voice calls, and autonomous decision-making — a year before it launched."
 date: 2026-03-25
 category: Unlisted
+image: /images/blog/openclaw-no-soul.png
 tags:
   - AI Agents
   - Building in Public

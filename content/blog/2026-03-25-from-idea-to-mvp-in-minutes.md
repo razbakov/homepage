@@ -3,6 +3,7 @@ title: "From Idea to MVP in Minutes: The Startup Coach Skill"
 description: "A single Claude Code skill that takes a business idea, runs design thinking phases, and produces a working prototype — live demo included."
 date: 2026-03-25
 category: Unlisted
+image: /images/blog/idea-to-mvp.png
 tags:
   - AI Agents
   - Building in Public
