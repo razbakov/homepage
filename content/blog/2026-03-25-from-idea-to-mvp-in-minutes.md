@@ -9,7 +9,6 @@ tags:
   - Claude Code
   - Design Thinking
   - Startup
-image: /images/blog/idea-to-mvp.png
 related:
   - /blog/2026-03-25-why-openclaw-has-no-soul
   - /blog/2026-03-25-stop-estimating-in-hours

@@ -9,7 +9,6 @@ tags:
   - Building in Public
   - OKRs
   - Claude Code
-image: /images/blog/agents-need-goals.png
 related:
   - /blog/2026-03-25-my-ai-team-runs-my-day
   - /blog/2026-03-25-why-openclaw-has-no-soul

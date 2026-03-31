@@ -9,7 +9,6 @@ tags:
   - Building in Public
   - Software Development
   - Estimation
-image: /images/blog/stop-estimating-hours.png
 related:
   - /blog/2026-03-25-from-idea-to-mvp-in-minutes
   - /blog/2026-03-25-my-ai-team-runs-my-day

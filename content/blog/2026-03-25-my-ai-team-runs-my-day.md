@@ -9,7 +9,6 @@ tags:
   - Building in Public
   - Claude Code
   - GTD
-image: /images/blog/ai-team-runs-my-day.png
 related:
   - /blog/2026-03-25-why-openclaw-has-no-soul
   - /blog/2026-03-25-ai-agents-need-goals

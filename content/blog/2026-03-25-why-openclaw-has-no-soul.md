@@ -8,7 +8,6 @@ tags:
   - Building in Public
   - Claude Code
   - Productivity
-image: /images/blog/openclaw-no-soul.png
 related:
   - /blog/2026-03-24-ai-agent-team
   - /blog/2026-03-25-mindmap-command-center
