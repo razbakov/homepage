@@ -25,7 +25,9 @@ const selectedTags = ref(new Set());
 
 const languageFilteredPosts = computed(() => {
   if (!posts.value) return [];
-  return filterByLanguage(posts.value);
+  return filterByLanguage(posts.value).filter(
+    (post) => post.category !== "Unlisted"
+  );
 });
 
 const allCategories = computed(() => {
