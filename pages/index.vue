@@ -147,7 +147,9 @@ const { data: posts } = await useAsyncData("blog-posts", () =>
 
 const postsByYear = computed(() => {
   if (!posts.value) return [];
-  let filtered = filterByLanguage(posts.value);
+  let filtered = filterByLanguage(posts.value).filter(
+    (post) => post.category !== "Unlisted"
+  );
 
   const active = interests.find(i => i.key === activeInterest.value);
   if (active && active.categories.length > 0) {
