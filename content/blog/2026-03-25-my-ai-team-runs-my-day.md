@@ -17,7 +17,7 @@ cta:
   title: "Want this workflow?"
   description: "Join the AI Study Group to get early access to the agent team setup."
   label: "Join the Community"
-  url: "https://razbakov.com/#pricing"
+  url: "https://razbakov.com/services"
 ---
 
 I have 15 active side projects and a full-time engineering job. The math doesn't work unless you delegate.

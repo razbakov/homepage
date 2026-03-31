@@ -17,7 +17,7 @@ cta:
   title: "Join the conversation"
   description: "We discuss AI-augmented development workflows in the AI Study Group."
   label: "Join the Community"
-  url: "https://razbakov.com/#pricing"
+  url: "https://razbakov.com/services"
 ---
 
 My AI agent said it would take 2-3 weeks to build a trading bot prototype.

@@ -16,7 +16,7 @@ cta:
   title: "Want to try this setup?"
   description: "Join the AI Study Group — we share tools, skills, and workflows for AI-augmented development."
   label: "Join the Community"
-  url: "https://razbakov.com/#pricing"
+  url: "https://razbakov.com/services"
 ---
 
 When OpenClaw launched, everyone lost their minds. An AI agent with identity! Personality! Soul!
