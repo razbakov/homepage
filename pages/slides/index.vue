@@ -23,7 +23,7 @@ const { t } = useI18n();
 useHead({ title: "Talks — AI & Web Development" });
 useSeoMeta({
   description: () => t('seo.talksDesc'),
-  ogTitle: "Talks · Alex Razbakov",
+  ogTitle: "Talks · Alösha",
   ogDescription: () => t('seo.talksDesc'),
   twitterCard: "summary",
 });

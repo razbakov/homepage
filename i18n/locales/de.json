@@ -32,7 +32,7 @@
     "relatedProjects": "Verwandte Projekte"
   },
   "home": {
-    "title": "Hey, ich bin Alex",
+    "title": "Hey, ich bin Alösha",
     "subtitleBefore": "Entwickler, Community-Builder,",
     "subtitleTeacher": "Salsalehrer",
     "subtitleAfter": ". Ich schreibe, um meine Leute zu finden.",
@@ -53,7 +53,7 @@
     }
   },
   "about": {
-    "title": "Alex Razbakov",
+    "title": "Alösha",
     "intro": "Senior Fullstack-Entwickler in München. Ich baue Dinge, die Menschen zusammenbringen — durch Code, durch Tanz, durch Community. Die beste Technologie verschwindet in der menschlichen Erfahrung, die sie schafft.",
     "believeTitle": "Woran ich glaube",
     "believe1": "Bloggen ist eine komplexe Suchanfrage — ich schreibe, um meine Leute zu finden, nicht um ein Publikum aufzubauen. Jeder Beitrag ist ein Signal, in der Hoffnung, dass jemand darauf anspringt.",
@@ -159,11 +159,11 @@
   "seo": {
     "homeDesc": "Fullstack-Entwickler und KI-Ingenieur in München. Community-Plattformen, KI-Tools und Open-Source-Projekte. Vue.js, Nuxt, Firebase, LangChain, Claude.",
     "aboutDesc": "Senior Fullstack-Entwickler in München. 15+ Jahre Web-Apps mit Vue.js, Nuxt und KI. Gründer der WeDance-Community-Plattform. Open-Source-Contributor.",
-    "projectsDesc": "Web-Anwendungen, KI-Tools und Community-Plattformen von Alex Razbakov. Vue.js, Nuxt, Firebase, LangChain. Open-Source und Kundenprojekte.",
-    "blogDesc": "Artikel über KI-Integration, Multi-Agent-Systeme, Vue.js, Nuxt, Community-Plattformen und Produktentwicklung als Solo-Entwickler. Von Alex Razbakov.",
+    "projectsDesc": "Web-Anwendungen, KI-Tools und Community-Plattformen von Alösha. Vue.js, Nuxt, Firebase, LangChain. Open-Source und Kundenprojekte.",
+    "blogDesc": "Artikel über KI-Integration, Multi-Agent-Systeme, Vue.js, Nuxt, Community-Plattformen und Produktentwicklung als Solo-Entwickler. Von Alösha.",
     "cvDesc": "Senior Fullstack-Entwickler in München — 15+ Jahre Erfahrung mit Vue.js, Nuxt, Firebase, KI-Integration (LangChain, Claude). Verfügbar für Projekte und Beratung.",
-    "servicesDesc": "KI-Beratungsleistungen von Alex Razbakov: Workflow-Audits, individuelle KI-Agenten, Team-Workshops und eine kostenlose KI-Lerngruppe. Standort München.",
-    "talksDesc": "Konferenzvorträge und Präsentationen von Alex Razbakov über KI-Agenten, Multi-Agent-Systeme, Vue.js und moderne Webentwicklung."
+    "servicesDesc": "KI-Beratungsleistungen von Alösha: Workflow-Audits, individuelle KI-Agenten, Team-Workshops und eine kostenlose KI-Lerngruppe. Standort München.",
+    "talksDesc": "Konferenzvorträge und Präsentationen von Alösha über KI-Agenten, Multi-Agent-Systeme, Vue.js und moderne Webentwicklung."
   },
   "projects": {
     "title": "Projekte",

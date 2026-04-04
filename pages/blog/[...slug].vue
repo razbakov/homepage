@@ -47,7 +47,8 @@ useSchemaOrg([
     datePublished: computed(() => post.value?.date),
     author: {
       "@type": "Person",
-      name: "Alex Razbakov",
+      name: "Alösha",
+      alternateName: "Oleksii Razbakov",
       url: "https://razbakov.com/about",
     },
   }),
@@ -252,13 +253,13 @@ const { data: relatedProjects } = await useAsyncData(
           <div class="flex items-center gap-4">
             <NuxtImg
               src="/images/avatar.png"
-              alt="Alex Razbakov"
+              alt="Alösha"
               class="w-16 h-16 rounded-full object-cover bg-muted"
               width="64"
               height="64"
             />
             <div>
-              <h3 class="font-medium">Alex Razbakov</h3>
+              <h3 class="font-medium">Alösha</h3>
               <p class="text-sm text-muted-foreground mb-2">
                 {{ $t('blog.authorBio') }}
               </p>

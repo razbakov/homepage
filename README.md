@@ -1,4 +1,4 @@
-# Alex Razbakov's Portfolio
+# Alösha's Portfolio
 
 > Facilitator, Web Developer, UX Designer helping transform ideas into delightful, easy-to-use products.
 

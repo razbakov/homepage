@@ -3,12 +3,12 @@ const { t } = useI18n();
 useHead({ title: "Senior Fullstack Developer in Munich" });
 useSeoMeta({
   description: () => t('seo.cvDesc'),
-  ogTitle: "Senior Fullstack Developer in Munich — Alex Razbakov",
+  ogTitle: "Senior Fullstack Developer in Munich — Oleksii Razbakov",
   ogDescription: () => t('seo.cvDesc'),
   twitterCard: "summary",
 });
 useSchemaOrg([
-  defineWebPage({ name: "CV — Alex Razbakov" }),
+  defineWebPage({ name: "CV — Oleksii Razbakov" }),
   defineBreadcrumb({
     itemListElement: [{ name: "CV" }],
   }),

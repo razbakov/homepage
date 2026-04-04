@@ -19,7 +19,7 @@ onMounted(() => {
 useHead({ title: computed(() => project.value?.title) });
 useSeoMeta({
   description: computed(() => project.value?.description),
-  ogTitle: computed(() => project.value?.title ? `${project.value.title} · Alex Razbakov` : undefined),
+  ogTitle: computed(() => project.value?.title ? `${project.value.title} · Alösha` : undefined),
   ogDescription: computed(() => project.value?.description),
   ogImage: computed(() => project.value?.screenshot || project.value?.icon),
   twitterCard: "summary_large_image",
@@ -33,7 +33,8 @@ useSchemaOrg([
     applicationCategory: "WebApplication",
     author: {
       "@type": "Person",
-      name: "Alex Razbakov",
+      name: "Alösha",
+      alternateName: "Oleksii Razbakov",
       url: "https://razbakov.com",
     },
   }),

@@ -3,7 +3,7 @@ const { locale, t } = useI18n();
 useHead({ title: "Blog — AI, Web Development & Building Products" });
 useSeoMeta({
   description: () => t('seo.blogDesc'),
-  ogTitle: "Blog · Alex Razbakov",
+  ogTitle: "Blog · Alösha",
   ogDescription: () => t('seo.blogDesc'),
   twitterCard: "summary",
 });

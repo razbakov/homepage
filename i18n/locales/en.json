@@ -32,7 +32,7 @@
     "relatedProjects": "Related Projects"
   },
   "home": {
-    "title": "Hey, I'm Alex",
+    "title": "Hey, I'm Alösha",
     "subtitleBefore": "Developer, community builder,",
     "subtitleTeacher": "salsa teacher",
     "subtitleAfter": ". Writing to find my people.",
@@ -53,7 +53,7 @@
     }
   },
   "about": {
-    "title": "Alex Razbakov",
+    "title": "Alösha",
     "intro": "Senior fullstack developer based in Munich. I build things that bring people together — through code, through dance, through community. I believe the best technology disappears into the human experience it creates.",
     "believeTitle": "What I believe",
     "believe1": "Blogging is a complex search query — I write to find my people, not to build an audience. Every post is a signal sent out, hoping someone resonates.",
@@ -159,11 +159,11 @@
   "seo": {
     "homeDesc": "Fullstack developer and AI engineer based in Munich. Building community platforms, AI tools, and open-source projects. Vue.js, Nuxt, Firebase, LangChain, Claude.",
     "aboutDesc": "Senior fullstack developer in Munich. 15+ years building web apps with Vue.js, Nuxt, and AI. Creator of WeDance community platform. Open-source contributor.",
-    "projectsDesc": "Web applications, AI-powered tools, and community platforms built by Alex Razbakov. Vue.js, Nuxt, Firebase, LangChain. Open-source and client work.",
-    "blogDesc": "Articles on AI integration, multi-agent systems, Vue.js, Nuxt, community platforms, and building products as a solo developer. By Alex Razbakov.",
+    "projectsDesc": "Web applications, AI-powered tools, and community platforms built by Alösha. Vue.js, Nuxt, Firebase, LangChain. Open-source and client work.",
+    "blogDesc": "Articles on AI integration, multi-agent systems, Vue.js, Nuxt, community platforms, and building products as a solo developer. By Alösha.",
     "cvDesc": "Senior Fullstack Developer in Munich — 15+ years experience with Vue.js, Nuxt, Firebase, AI integration (LangChain, Claude). Available for projects and consulting.",
-    "servicesDesc": "AI consulting services by Alex Razbakov: workflow audits, custom AI agents, team workshops, and a free AI study group. Based in Munich.",
-    "talksDesc": "Conference talks and presentations by Alex Razbakov on AI agents, multi-agent systems, Vue.js, and modern web development."
+    "servicesDesc": "AI consulting services by Alösha: workflow audits, custom AI agents, team workshops, and a free AI study group. Based in Munich.",
+    "talksDesc": "Conference talks and presentations by Alösha on AI agents, multi-agent systems, Vue.js, and modern web development."
   },
   "projects": {
     "title": "Projects",

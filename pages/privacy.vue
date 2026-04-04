@@ -7,7 +7,7 @@
 
         <h2>Who I am</h2>
         <p>
-          This website is operated by Alex Razbakov. The site address is
+          This website is operated by Oleksii Razbakov. The site address is
           <a href="https://razbakov.com">https://razbakov.com</a>.
         </p>
 
@@ -61,6 +61,6 @@
 useHead({ title: "Privacy Policy" });
 useSeoMeta({
   description: "Privacy policy for razbakov.com — how analytics data is collected and your choices.",
-  ogTitle: "Privacy Policy — Alex Razbakov",
+  ogTitle: "Privacy Policy — Alösha",
 });
 </script>

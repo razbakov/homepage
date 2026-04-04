@@ -68,7 +68,7 @@
       <div class="flex justify-center">
         <NuxtImg
           src="/images/alex-welcome.webp"
-          alt="Alex Razbakov"
+          alt="Alösha"
           class="max-h-[32rem] object-contain"
           width="500"
           height="640"

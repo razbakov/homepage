@@ -2,7 +2,7 @@
 
 ## Context
 
-This is Alex Razbakov's personal website (Nuxt 3 + Tailwind + Nuxt Content).
+This is Alösha's personal website (Nuxt 3 + Tailwind + Nuxt Content).
 
 Brand, strategy, and project definitions live in the ikigai workspace:
 
@@ -63,7 +63,7 @@ Coral is the only accent color — never blue, green, or purple as accents.
 
 ### Writing Blog Posts
 
-- Write as Alex — first person, authentic voice
+- Write as Alösha — first person, authentic voice
 - Process-oriented: share the journey, not just the result
 - "What if" framing works well (reflects his thinking pattern)
 - Purpose-first: connect topics back to "does this matter?"
@@ -75,8 +75,8 @@ Coral is the only accent color — never blue, green, or purple as accents.
 
 When writing or updating any website copy (hero, services, CTAs, descriptions):
 
-- Lead with what Alex actually builds: dance community platforms, AI tools, open-source
-- His ikigai: "Building technology platforms that create human connection through culture and movement"
+- Lead with what Alösha actually builds: dance community platforms, AI tools, open-source
+- Alösha's ikigai: "Building technology platforms that create human connection through culture and movement"
 - Avoid generic consultancy language ("impactful digital experiences", "drive results")
 - Services should reflect actual work: community platforms, AI integration, fullstack development, open-source
 - Keep CTAs direct and human ("Let's talk" > "Schedule a consultation")

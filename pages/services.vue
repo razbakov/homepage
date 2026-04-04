@@ -81,10 +81,10 @@
 
 <script setup>
 const { t } = useI18n();
-useHead({ title: "AI Consulting Services — Alex Razbakov" });
+useHead({ title: "AI Consulting Services — Alösha" });
 useSeoMeta({
   description: () => t('seo.servicesDesc'),
-  ogTitle: "AI Consulting Services — Alex Razbakov",
+  ogTitle: "AI Consulting Services — Alösha",
   ogDescription: () => t('seo.servicesDesc'),
   ogImage: "/images/alex-top.png",
   twitterCard: "summary",

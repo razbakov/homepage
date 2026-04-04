@@ -32,7 +32,7 @@
     "relatedProjects": "Proyectos relacionados"
   },
   "home": {
-    "title": "Hola, soy Alex",
+    "title": "Hola, soy Alösha",
     "subtitleBefore": "Desarrollador, constructor de comunidades,",
     "subtitleTeacher": "profesor de salsa",
     "subtitleAfter": ". Escribo para encontrar a mi gente.",
@@ -53,7 +53,7 @@
     }
   },
   "about": {
-    "title": "Alex Razbakov",
+    "title": "Alösha",
     "intro": "Desarrollador fullstack senior en Múnich. Construyo cosas que unen a las personas — a través del código, del baile, de la comunidad. La mejor tecnología desaparece en la experiencia humana que crea.",
     "believeTitle": "En lo que creo",
     "believe1": "Bloguear es una búsqueda compleja — escribo para encontrar a mi gente, no para construir una audiencia. Cada post es una señal enviada, esperando que alguien resuene.",
@@ -159,11 +159,11 @@
   "seo": {
     "homeDesc": "Desarrollador fullstack e ingeniero de IA en Múnich. Plataformas comunitarias, herramientas de IA y proyectos open-source. Vue.js, Nuxt, Firebase, LangChain, Claude.",
     "aboutDesc": "Desarrollador fullstack senior en Múnich. 15+ años construyendo apps web con Vue.js, Nuxt e IA. Creador de la plataforma WeDance. Contribuidor open-source.",
-    "projectsDesc": "Aplicaciones web, herramientas de IA y plataformas comunitarias de Alex Razbakov. Vue.js, Nuxt, Firebase, LangChain. Open-source y trabajo para clientes.",
-    "blogDesc": "Artículos sobre integración de IA, sistemas multi-agente, Vue.js, Nuxt, plataformas comunitarias y desarrollo de productos como desarrollador independiente. Por Alex Razbakov.",
+    "projectsDesc": "Aplicaciones web, herramientas de IA y plataformas comunitarias de Alösha. Vue.js, Nuxt, Firebase, LangChain. Open-source y trabajo para clientes.",
+    "blogDesc": "Artículos sobre integración de IA, sistemas multi-agente, Vue.js, Nuxt, plataformas comunitarias y desarrollo de productos como desarrollador independiente. Por Alösha.",
     "cvDesc": "Desarrollador Fullstack Senior en Múnich — 15+ años de experiencia con Vue.js, Nuxt, Firebase, integración de IA (LangChain, Claude). Disponible para proyectos y consultoría.",
-    "servicesDesc": "Servicios de consultoría de IA por Alex Razbakov: auditorías de flujo de trabajo, agentes de IA personalizados, talleres para equipos y un grupo de estudio gratuito. Basado en Múnich.",
-    "talksDesc": "Charlas y presentaciones de Alex Razbakov sobre agentes de IA, sistemas multi-agente, Vue.js y desarrollo web moderno."
+    "servicesDesc": "Servicios de consultoría de IA por Alösha: auditorías de flujo de trabajo, agentes de IA personalizados, talleres para equipos y un grupo de estudio gratuito. Basado en Múnich.",
+    "talksDesc": "Charlas y presentaciones de Alösha sobre agentes de IA, sistemas multi-agente, Vue.js y desarrollo web moderno."
   },
   "projects": {
     "title": "Proyectos",

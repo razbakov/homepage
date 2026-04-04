@@ -5,7 +5,7 @@
         <div class="flex flex-col md:flex-row items-center gap-8 mb-8">
           <NuxtImg
             src="/images/alex-top.webp"
-            alt="Alex Razbakov"
+            alt="Alösha"
             class="w-48 md:w-56 object-contain shrink-0"
             width="224"
             height="280"
@@ -111,17 +111,17 @@
 
 <script setup>
 const { locale, t } = useI18n();
-useHead({ titleTemplate: "Alex Razbakov — Fullstack Developer & AI Engineer in Munich" });
+useHead({ titleTemplate: "Alösha — Fullstack Developer & AI Engineer in Munich" });
 useSeoMeta({
   description: () => t('seo.homeDesc'),
-  ogTitle: "Alex Razbakov",
+  ogTitle: "Alösha",
   ogDescription: () => t('seo.homeDesc'),
   ogImage: "/images/avatar.png",
   twitterCard: "summary",
 });
 useSchemaOrg([
-  defineWebSite({ name: "Alex Razbakov" }),
-  defineWebPage({ name: "Alex Razbakov — Fullstack Developer & AI Engineer in Munich" }),
+  defineWebSite({ name: "Alösha" }),
+  defineWebPage({ name: "Alösha — Fullstack Developer & AI Engineer in Munich" }),
 ]);
 const localePath = useLocalePath();
 const { filterByLanguage } = useLanguageFilter();

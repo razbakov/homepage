@@ -3,7 +3,7 @@ const { t } = useI18n();
 useHead({ title: "Projects — Web Apps, AI Tools & Community Platforms" });
 useSeoMeta({
   description: () => t('seo.projectsDesc'),
-  ogTitle: "Projects · Alex Razbakov",
+  ogTitle: "Projects · Alösha",
   ogDescription: () => t('seo.projectsDesc'),
   twitterCard: "summary",
 });

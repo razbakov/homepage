@@ -5,8 +5,8 @@ import config from "./content/config.json";
 export default defineNuxtConfig({
   app: {
     head: {
-      titleTemplate: "%s · Alex Razbakov",
-      title: "Alex Razbakov",
+      titleTemplate: "%s · Alösha",
+      title: "Alösha",
       link: [
         { rel: "preconnect", href: "https://fonts.googleapis.com" },
         {

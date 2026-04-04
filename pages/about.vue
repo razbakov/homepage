@@ -6,7 +6,7 @@
         <div class="flex flex-col md:flex-row items-center gap-8 mb-16">
           <NuxtImg
             src="/images/alex-top.webp"
-            alt="Alex Razbakov"
+            alt="Alösha"
             class="w-48 md:w-56 object-contain shrink-0"
             width="224"
             height="280"
@@ -129,10 +129,10 @@
 const { t } = useI18n();
 const { trackCalendlyOpen, trackEmailClick } = useAnalytics();
 const localePath = useLocalePath();
-useHead({ title: "About Alex Razbakov — Developer, Builder & Community Creator in Munich" });
+useHead({ title: "About Alösha — Developer, Builder & Community Creator in Munich" });
 useSeoMeta({
   description: () => t('seo.aboutDesc'),
-  ogTitle: "About Alex Razbakov",
+  ogTitle: "About Alösha",
   ogDescription: () => t('seo.aboutDesc'),
   ogImage: "/images/alex-top.webp",
   twitterCard: "summary",
@@ -140,10 +140,11 @@ useSeoMeta({
 useSchemaOrg([
   defineWebPage({
     "@type": "AboutPage",
-    name: "About Alex Razbakov",
+    name: "About Alösha",
   }),
   definePerson({
-    name: "Alex Razbakov",
+    name: "Alösha",
+    alternateName: "Oleksii Razbakov",
     jobTitle: "Senior Fullstack Developer",
     worksFor: { "@type": "Organization", name: "OMMAX" },
     knowsLanguage: ["en", "de", "es", "uk", "ru"],
