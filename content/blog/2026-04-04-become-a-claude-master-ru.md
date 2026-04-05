@@ -15,6 +15,8 @@ related:
   - /blog/2026-03-25-my-ai-team-runs-my-day
   - /blog/2026-03-24-ai-executive-team
   - /blog/2026-03-20-ikigai-ai-chief-of-staff
+telegram: https://t.me/razbakov_ru/42
+tweet: https://x.com/razbakov/status/2040772376988643580
 cta:
   title: "Попробуй сам"
   description: "Установи скилл и начни свой путь обучения Claude Code за 5 минут."

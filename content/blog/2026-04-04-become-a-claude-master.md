@@ -14,6 +14,8 @@ related:
   - /blog/2026-03-25-my-ai-team-runs-my-day
   - /blog/2026-03-24-ai-executive-team
   - /blog/2026-03-20-ikigai-ai-chief-of-staff
+telegram: https://t.me/razbakov/85
+tweet: https://x.com/razbakov/status/2040772376988643580
 cta:
   title: "Try it yourself"
   description: "Install the skill and start your Claude Code learning journey in 5 minutes."
