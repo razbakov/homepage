@@ -12,23 +12,6 @@
           </p>
         </section>
 
-        <!-- Academy banner -->
-        <a
-          href="https://learn-by-doing-academy.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="flex items-center gap-4 p-5 rounded-lg border border-border/50 hover:border-primary/30 hover:bg-muted/50 transition-all mb-16 group"
-        >
-          <div class="flex items-center justify-center w-10 h-10 rounded-lg bg-emerald-500/10 border border-emerald-500/20 shrink-0">
-            <span class="text-emerald-600 dark:text-emerald-400 font-mono font-bold text-xs">&lt;LBD&gt;</span>
-          </div>
-          <div class="flex-1 min-w-0">
-            <h3 class="font-semibold group-hover:text-primary transition-colors">{{ $t('home.academyTitle') }}</h3>
-            <p class="text-sm text-muted-foreground">{{ $t('home.academyDescription') }}</p>
-          </div>
-          <span class="text-primary text-sm font-medium shrink-0 hidden sm:block">{{ $t('home.academyCta') }} →</span>
-        </a>
-
         <!-- Social proof -->
         <section class="mb-16">
           <div class="flex flex-wrap justify-center gap-6 md:gap-12 text-center">
@@ -66,6 +49,23 @@
             </div>
           </div>
         </section>
+
+        <!-- Academy banner -->
+        <a
+          href="https://learn-by-doing-academy.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="flex items-center gap-4 p-5 rounded-lg border border-border/50 hover:border-primary/30 hover:bg-muted/50 transition-all mb-16 group"
+        >
+          <div class="flex items-center justify-center w-10 h-10 rounded-lg bg-emerald-500/10 border border-emerald-500/20 shrink-0">
+            <span class="text-emerald-600 dark:text-emerald-400 font-mono font-bold text-xs">&lt;LBD&gt;</span>
+          </div>
+          <div class="flex-1 min-w-0">
+            <h3 class="font-semibold group-hover:text-primary transition-colors">{{ $t('home.academyTitle') }}</h3>
+            <p class="text-sm text-muted-foreground">{{ $t('home.academyDescription') }}</p>
+          </div>
+          <span class="text-primary text-sm font-medium shrink-0 hidden sm:block">{{ $t('home.academyCta') }} →</span>
+        </a>
 
         <!-- Bottom CTA -->
         <section class="relative rounded-2xl overflow-hidden p-8 md:p-12 text-center">
