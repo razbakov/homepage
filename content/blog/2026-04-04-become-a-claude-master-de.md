@@ -97,3 +97,7 @@ claude install-skill https://github.com/razbakov/skills/tree/main/skills/become-
 ```
 
 Dann einfach `/become-claude-master` eintippen und mitmachen.
+
+---
+
+*Dieser Skill ist Open Source. Wenn du strukturiertes Mentoring beim Aufbau solcher Systeme möchtest — mit Live-Sessions, Code-Reviews und einer Community von Buildern — schau dir die [Learn By Doing Academy](https://learn-by-doing-academy.com) an.*

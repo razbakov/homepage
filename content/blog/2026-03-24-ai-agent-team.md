@@ -98,3 +98,7 @@ I recorded a 7-minute video walking through the full setup, presented from my Ap
 ---
 
 What's your approach to managing multiple projects with AI? I'd love to hear how others are doing this. [Find me on X](https://x.com/razbakov) or drop a comment on [the YouTube video](https://www.youtube.com/watch?v=6Jwb8pSOZ4M).
+
+---
+
+*This agent team is one of the projects built at [Learn By Doing Academy](https://learn-by-doing-academy.com). Students learn to build their own AI agent systems as part of the program.*

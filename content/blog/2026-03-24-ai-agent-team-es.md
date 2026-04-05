@@ -99,3 +99,7 @@ Grabé un video de 7 minutos recorriendo toda la configuración, presentado desd
 ---
 
 ¿Cuál es tu enfoque para gestionar múltiples proyectos con IA? Me encantaría saber cómo lo hacen otros. [Encuéntrame en X](https://x.com/razbakov) o deja un comentario en [el video de YouTube](https://www.youtube.com/watch?v=6Jwb8pSOZ4M).
+
+---
+
+*Este equipo de agentes es uno de los proyectos construidos en [Learn By Doing Academy](https://learn-by-doing-academy.com). Los estudiantes aprenden a construir sus propios sistemas de agentes IA como parte del programa.*

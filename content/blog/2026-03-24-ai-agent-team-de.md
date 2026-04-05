@@ -99,3 +99,7 @@ Ich habe ein 7-Minuten-Video aufgenommen, das den kompletten Aufbau zeigt, präs
 ---
 
 Wie managst du mehrere Projekte mit KI? Ich würde gerne hören, wie andere das machen. [Finde mich auf X](https://x.com/razbakov) oder hinterlasse einen Kommentar beim [YouTube-Video](https://www.youtube.com/watch?v=6Jwb8pSOZ4M).
+
+---
+
+*Dieses Agenten-Team ist eines der Projekte, die in der [Learn By Doing Academy](https://learn-by-doing-academy.com) entstanden sind. Teilnehmer lernen, ihre eigenen KI-Agenten-Systeme als Teil des Programms zu bauen.*
