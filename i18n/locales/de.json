@@ -41,6 +41,9 @@
     "telegramDescription": "Updates zu Live-Coding, Projekten und Tech-Einblicken",
     "joinYoutube": "Auf YouTube abonnieren",
     "youtubeDescription": "Tutorials, Vorträge und Live-Coding-Sessions",
+    "academyTitle": "Learn by Doing Academy",
+    "academyDescription": "Lerne, mit KI zu bauen. Wöchentliche Live-Sessions, reale Projekte, Absolventen bei echten Unternehmen.",
+    "academyCta": "Kostenlos testen",
     "servicesNudge": "Ich helfe Teams auch dabei, smarter mit KI zu arbeiten.",
     "servicesNudgeLink": "Mehr dazu →",
     "interests": {
@@ -132,12 +135,13 @@
       "price": "€1.500",
       "cta": "Workshop buchen"
     },
-    "studyGroup": {
-      "title": "KI-Lerngruppe",
-      "description": "Eine kostenlose Community, in der wir gemeinsam KI lernen. Wöchentliche Freitags-Streams auf Twitch, aufgezeichnet auf YouTube, mit einer Telegram-Gruppe für laufende Diskussionen.",
-      "deliverable": "Wöchentliche Livestreams, YouTube-Aufzeichnungen, Telegram-Community",
-      "audience": "Entwickler und KI-Interessierte, die gemeinsam lernen möchten",
-      "cta": "Community beitreten"
+    "academy": {
+      "title": "Learn by Doing Academy",
+      "description": "Ein strukturiertes, mentor-geführtes Programm, in dem du lernst, echte Produkte mit KI zu bauen. Wöchentliche Live-Sessions, reale Projekte und Absolventen, die bei echten Unternehmen arbeiten.",
+      "deliverable": "Wöchentliche Live-Sessions, Projekt-Mentoring, Aufzeichnungsbibliothek, Telegram-Community",
+      "audience": "Quereinsteiger, Junior-Entwickler und Unternehmer, die mit KI bauen wollen",
+      "price": "ab €29/Mo.",
+      "cta": "Kostenlos testen"
     },
     "stats": {
       "agents": {
@@ -149,8 +153,8 @@
         "label": "Eigene Skills entwickelt"
       },
       "community": {
-        "value": "15+",
-        "label": "Mitglieder der Lerngruppe"
+        "value": "6",
+        "label": "Academy-Absolventen eingestellt"
       }
     },
     "ctaTitle": "Nicht sicher, was das Richtige für dich ist?",
@@ -162,7 +166,7 @@
     "projectsDesc": "Web-Anwendungen, KI-Tools und Community-Plattformen von Alösha. Vue.js, Nuxt, Firebase, LangChain. Open-Source und Kundenprojekte.",
     "blogDesc": "Artikel über KI-Integration, Multi-Agent-Systeme, Vue.js, Nuxt, Community-Plattformen und Produktentwicklung als Solo-Entwickler. Von Alösha.",
     "cvDesc": "Senior Fullstack-Entwickler in München — 15+ Jahre Erfahrung mit Vue.js, Nuxt, Firebase, KI-Integration (LangChain, Claude). Verfügbar für Projekte und Beratung.",
-    "servicesDesc": "KI-Beratungsleistungen von Alösha: Workflow-Audits, individuelle KI-Agenten, Team-Workshops und eine kostenlose KI-Lerngruppe. Standort München.",
+    "servicesDesc": "KI-Beratungsleistungen von Alösha: Workflow-Audits, individuelle KI-Agenten, Team-Workshops und die Learn by Doing Academy. Standort München.",
     "talksDesc": "Konferenzvorträge und Präsentationen von Alösha über KI-Agenten, Multi-Agent-Systeme, Vue.js und moderne Webentwicklung."
   },
   "projects": {

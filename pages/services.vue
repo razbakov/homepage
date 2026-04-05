@@ -113,9 +113,10 @@ const services = [
     cta: { url: calendlyUrl, external: true },
   },
   {
-    key: "studyGroup",
-    icon: "lucide:users",
-    cta: { url: "https://t.me/+VNlqacOP9PgyNThi", external: true },
+    key: "academy",
+    icon: "lucide:graduation-cap",
+    showPrice: true,
+    cta: { url: "https://learn-by-doing-academy.com", external: true },
   },
 ];
 

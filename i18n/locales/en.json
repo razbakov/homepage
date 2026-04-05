@@ -41,6 +41,9 @@
     "telegramDescription": "Updates on live coding, projects, and tech insights",
     "joinYoutube": "Subscribe on YouTube",
     "youtubeDescription": "Tutorials, talks, and live coding sessions",
+    "academyTitle": "Learn by Doing Academy",
+    "academyDescription": "Learn to build with AI. Weekly live sessions, real projects, graduates at real companies.",
+    "academyCta": "Start free trial",
     "servicesNudge": "I also help teams work smarter with AI.",
     "servicesNudgeLink": "See how →",
     "interests": {
@@ -132,12 +135,13 @@
       "price": "€1,500",
       "cta": "Book a workshop"
     },
-    "studyGroup": {
-      "title": "AI Study Group",
-      "description": "A free community where we learn AI together. Weekly Friday streams on Twitch, recorded on YouTube, with a Telegram group for ongoing discussion.",
-      "deliverable": "Weekly live streams, YouTube recordings, Telegram community",
-      "audience": "Developers and AI-curious people who want to learn together",
-      "cta": "Join the community"
+    "academy": {
+      "title": "Learn by Doing Academy",
+      "description": "A structured, mentor-led program where you learn to build real products with AI. Weekly live sessions, real projects, and graduates working at real companies.",
+      "deliverable": "Weekly live sessions, project mentorship, recordings library, Telegram community",
+      "audience": "Career changers, junior developers, and entrepreneurs who want to build with AI",
+      "price": "from €29/mo",
+      "cta": "Start free trial"
     },
     "stats": {
       "agents": {
@@ -149,8 +153,8 @@
         "label": "Custom skills built"
       },
       "community": {
-        "value": "15+",
-        "label": "Study group members"
+        "value": "6",
+        "label": "Academy graduates hired"
       }
     },
     "ctaTitle": "Not sure which is right for you?",
@@ -162,7 +166,7 @@
     "projectsDesc": "Web applications, AI-powered tools, and community platforms built by Alösha. Vue.js, Nuxt, Firebase, LangChain. Open-source and client work.",
     "blogDesc": "Articles on AI integration, multi-agent systems, Vue.js, Nuxt, community platforms, and building products as a solo developer. By Alösha.",
     "cvDesc": "Senior Fullstack Developer in Munich — 15+ years experience with Vue.js, Nuxt, Firebase, AI integration (LangChain, Claude). Available for projects and consulting.",
-    "servicesDesc": "AI consulting services by Alösha: workflow audits, custom AI agents, team workshops, and a free AI study group. Based in Munich.",
+    "servicesDesc": "AI consulting services by Alösha: workflow audits, custom AI agents, team workshops, and Learn by Doing Academy. Based in Munich.",
     "talksDesc": "Conference talks and presentations by Alösha on AI agents, multi-agent systems, Vue.js, and modern web development."
   },
   "projects": {

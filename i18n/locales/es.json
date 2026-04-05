@@ -41,6 +41,9 @@
     "telegramDescription": "Actualizaciones sobre programación en vivo, proyectos e ideas tech",
     "joinYoutube": "Suscríbete en YouTube",
     "youtubeDescription": "Tutoriales, charlas y sesiones de programación en vivo",
+    "academyTitle": "Learn by Doing Academy",
+    "academyDescription": "Aprende a construir con IA. Sesiones en vivo semanales, proyectos reales, graduados en empresas reales.",
+    "academyCta": "Empezar prueba gratuita",
     "servicesNudge": "También ayudo a equipos a trabajar de forma más inteligente con IA.",
     "servicesNudgeLink": "Descubre cómo →",
     "interests": {
@@ -132,12 +135,13 @@
       "price": "€1.500",
       "cta": "Reservar un taller"
     },
-    "studyGroup": {
-      "title": "Grupo de estudio de IA",
-      "description": "Una comunidad gratuita donde aprendemos IA juntos. Streams semanales los viernes en Twitch, grabados en YouTube, con un grupo de Telegram para debate continuo.",
-      "deliverable": "Streams semanales en directo, grabaciones de YouTube, comunidad de Telegram",
-      "audience": "Desarrolladores y personas curiosas sobre IA que quieren aprender juntos",
-      "cta": "Unirse a la comunidad"
+    "academy": {
+      "title": "Learn by Doing Academy",
+      "description": "Un programa estructurado con mentor donde aprendes a construir productos reales con IA. Sesiones en vivo semanales, proyectos reales y graduados trabajando en empresas reales.",
+      "deliverable": "Sesiones en vivo semanales, mentoría de proyectos, biblioteca de grabaciones, comunidad de Telegram",
+      "audience": "Personas en transición de carrera, desarrolladores junior y emprendedores que quieren construir con IA",
+      "price": "desde €29/mes",
+      "cta": "Empezar prueba gratuita"
     },
     "stats": {
       "agents": {
@@ -149,8 +153,8 @@
         "label": "Habilidades personalizadas creadas"
       },
       "community": {
-        "value": "15+",
-        "label": "Miembros del grupo de estudio"
+        "value": "6",
+        "label": "Graduados de la Academy contratados"
       }
     },
     "ctaTitle": "¿No estás seguro de cuál es la opción correcta para ti?",
@@ -162,7 +166,7 @@
     "projectsDesc": "Aplicaciones web, herramientas de IA y plataformas comunitarias de Alösha. Vue.js, Nuxt, Firebase, LangChain. Open-source y trabajo para clientes.",
     "blogDesc": "Artículos sobre integración de IA, sistemas multi-agente, Vue.js, Nuxt, plataformas comunitarias y desarrollo de productos como desarrollador independiente. Por Alösha.",
     "cvDesc": "Desarrollador Fullstack Senior en Múnich — 15+ años de experiencia con Vue.js, Nuxt, Firebase, integración de IA (LangChain, Claude). Disponible para proyectos y consultoría.",
-    "servicesDesc": "Servicios de consultoría de IA por Alösha: auditorías de flujo de trabajo, agentes de IA personalizados, talleres para equipos y un grupo de estudio gratuito. Basado en Múnich.",
+    "servicesDesc": "Servicios de consultoría de IA por Alösha: auditorías de flujo de trabajo, agentes de IA personalizados, talleres para equipos y la Learn by Doing Academy. Basado en Múnich.",
     "talksDesc": "Charlas y presentaciones de Alösha sobre agentes de IA, sistemas multi-agente, Vue.js y desarrollo web moderno."
   },
   "projects": {
