@@ -27,16 +27,7 @@
             <p v-if="service.showPrice" class="text-2xl font-bold text-primary mb-4">
               {{ $t(`services.${service.key}.price`) }}
             </p>
-            <div class="space-y-2 mb-6 text-sm">
-              <p>
-                <span class="font-medium">{{ $t('services.deliverable') }}:</span>
-                <span class="text-muted-foreground"> {{ $t(`services.${service.key}.deliverable`) }}</span>
-              </p>
-              <p>
-                <span class="font-medium">{{ $t('services.audience') }}:</span>
-                <span class="text-muted-foreground"> {{ $t(`services.${service.key}.audience`) }}</span>
-              </p>
-            </div>
+            <div class="mb-6"></div>
             <a
               :href="service.cta.url"
               target="_blank"
