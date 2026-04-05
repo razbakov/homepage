@@ -56,18 +56,16 @@
           href="https://learn-by-doing-academy.com"
           target="_blank"
           rel="noopener noreferrer"
-          class="block p-6 rounded-xl bg-gradient-to-r from-emerald-950/80 to-slate-900/80 border border-emerald-500/20 hover:border-emerald-500/40 transition-all duration-300 mb-8 group"
+          class="flex items-center gap-4 p-5 rounded-lg border border-border/50 hover:border-primary/30 hover:bg-muted/50 transition-all mb-8 group"
         >
-          <div class="flex items-center gap-4">
-            <div class="flex items-center justify-center w-12 h-12 rounded-lg bg-emerald-500/10 border border-emerald-500/20 shrink-0">
-              <span class="text-emerald-500 font-mono font-bold text-sm">&lt;LBD&gt;</span>
-            </div>
-            <div class="flex-1 min-w-0">
-              <h3 class="font-bold text-foreground group-hover:text-emerald-400 transition-colors">{{ $t('home.academyTitle') }}</h3>
-              <p class="text-sm text-muted-foreground">{{ $t('home.academyDescription') }}</p>
-            </div>
-            <span class="text-emerald-500 text-sm font-medium shrink-0 hidden sm:block">{{ $t('home.academyCta') }} →</span>
+          <div class="flex items-center justify-center w-10 h-10 rounded-lg bg-emerald-500/10 border border-emerald-500/20 shrink-0">
+            <span class="text-emerald-600 dark:text-emerald-400 font-mono font-bold text-xs">&lt;LBD&gt;</span>
           </div>
+          <div class="flex-1 min-w-0">
+            <h3 class="font-semibold group-hover:text-primary transition-colors">{{ $t('home.academyTitle') }}</h3>
+            <p class="text-sm text-muted-foreground">{{ $t('home.academyDescription') }}</p>
+          </div>
+          <span class="text-primary text-sm font-medium shrink-0 hidden sm:block">{{ $t('home.academyCta') }} →</span>
         </a>
 
         <!-- Services nudge -->
