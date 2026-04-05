@@ -92,9 +92,9 @@ El equipo sigue patrones de S3:
 
 ## Pruébalo tú mismo
 
-Todo el sistema funciona con Claude Code y archivos de habilidades en Markdown. No se necesita infraestructura especial. Empieza con un agente (un Chief of Staff para revisiones diarias) y expande desde ahí.
+Todo el sistema funciona con Claude Code y archivos de habilidades en Markdown. No se necesita infraestructura especial. Visita [Ikigai Team](https://ikigai.razbakov.com) para ver el sistema completo y empezar.
 
-Grabé un video de 7 minutos recorriendo toda la configuración, presentado desde mi espacio de trabajo en Apple Vision Pro. Míralo arriba o [en YouTube](https://www.youtube.com/watch?v=6Jwb8pSOZ4M).
+También grabé un video de 7 minutos recorriendo la configuración desde mi espacio de trabajo en Apple Vision Pro. Míralo arriba o [en YouTube](https://www.youtube.com/watch?v=6Jwb8pSOZ4M).
 
 ---
 

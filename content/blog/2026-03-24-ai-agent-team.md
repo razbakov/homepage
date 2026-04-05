@@ -91,9 +91,9 @@ The team follows S3 patterns:
 
 ## Try It Yourself
 
-The whole system runs on Claude Code with markdown skill files. No special infrastructure needed. Start with one agent (a Chief of Staff for daily reviews) and expand from there.
+The whole system runs on Claude Code with markdown skill files. No special infrastructure needed. Check out [Ikigai Team](https://ikigai.razbakov.com) to see the full system and get started.
 
-I recorded a 7-minute video walking through the full setup, presented from my Apple Vision Pro workspace. Watch it above or [on YouTube](https://www.youtube.com/watch?v=6Jwb8pSOZ4M).
+I also recorded a 7-minute video walking through the setup from my Apple Vision Pro workspace. Watch it above or [on YouTube](https://www.youtube.com/watch?v=6Jwb8pSOZ4M).
 
 ---
 

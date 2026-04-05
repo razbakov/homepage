@@ -92,9 +92,9 @@ Das Team folgt S3-Mustern:
 
 ## Probier es selbst aus
 
-Das gesamte System läuft auf Claude Code mit Markdown-Skill-Dateien. Keine besondere Infrastruktur nötig. Starte mit einem Agenten (einem Chief of Staff für tägliche Reviews) und erweitere von dort aus.
+Das gesamte System läuft auf Claude Code mit Markdown-Skill-Dateien. Keine besondere Infrastruktur nötig. Schau dir [Ikigai Team](https://ikigai.razbakov.com) an, um das vollständige System zu sehen und loszulegen.
 
-Ich habe ein 7-Minuten-Video aufgenommen, das den kompletten Aufbau zeigt, präsentiert aus meinem Apple Vision Pro Workspace. Schau es dir oben an oder [auf YouTube](https://www.youtube.com/watch?v=6Jwb8pSOZ4M).
+Ich habe auch ein 7-Minuten-Video aufgenommen, das den Aufbau zeigt, präsentiert aus meinem Apple Vision Pro Workspace. Schau es dir oben an oder [auf YouTube](https://www.youtube.com/watch?v=6Jwb8pSOZ4M).
 
 ---
 
