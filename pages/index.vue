@@ -23,34 +23,6 @@
           </div>
         </div>
 
-        <!-- CTAs -->
-        <div class="grid sm:grid-cols-2 gap-4 mb-8">
-          <a
-            :href="telegramUrl"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="flex items-center gap-4 p-5 rounded-lg border border-border/50 hover:border-primary/30 hover:bg-muted/50 transition-all"
-          >
-            <Icon name="mdi:telegram" class="w-8 h-8 text-sky-500 shrink-0" />
-            <div>
-              <h3 class="font-semibold">{{ $t('home.joinTelegram') }}</h3>
-              <p class="text-sm text-muted-foreground">{{ $t('home.telegramDescription') }}</p>
-            </div>
-          </a>
-          <a
-            href="https://youtube.com/@razbakov"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="flex items-center gap-4 p-5 rounded-lg border border-border/50 hover:border-primary/30 hover:bg-muted/50 transition-all"
-          >
-            <Icon name="simple-icons:youtube" class="w-8 h-8 text-red-500 shrink-0" />
-            <div>
-              <h3 class="font-semibold">{{ $t('home.joinYoutube') }}</h3>
-              <p class="text-sm text-muted-foreground">{{ $t('home.youtubeDescription') }}</p>
-            </div>
-          </a>
-        </div>
-
         <!-- Academy banner -->
         <a
           href="https://learn-by-doing-academy.com"
