@@ -12,9 +12,26 @@
           </p>
         </section>
 
+        <!-- Academy banner -->
+        <a
+          href="https://learn-by-doing-academy.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="flex items-center gap-4 p-5 rounded-lg border border-border/50 hover:border-primary/30 hover:bg-muted/50 transition-all mb-16 group"
+        >
+          <div class="flex items-center justify-center w-10 h-10 rounded-lg bg-emerald-500/10 border border-emerald-500/20 shrink-0">
+            <span class="text-emerald-600 dark:text-emerald-400 font-mono font-bold text-xs">&lt;LBD&gt;</span>
+          </div>
+          <div class="flex-1 min-w-0">
+            <h3 class="font-semibold group-hover:text-primary transition-colors">{{ $t('home.academyTitle') }}</h3>
+            <p class="text-sm text-muted-foreground">{{ $t('home.academyDescription') }}</p>
+          </div>
+          <span class="text-primary text-sm font-medium shrink-0 hidden sm:block">{{ $t('home.academyCta') }} →</span>
+        </a>
+
         <!-- Services -->
         <section class="mb-16">
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div
               v-for="service in services"
               :key="service.key"
@@ -94,21 +111,15 @@ const services = [
     cta: { url: calendlyUrl, external: true },
   },
   {
-    key: "agents",
-    icon: "lucide:bot",
-    cta: { url: calendlyUrl, external: true },
-  },
-  {
     key: "workshops",
     icon: "lucide:presentation",
     showPrice: true,
     cta: { url: calendlyUrl, external: true },
   },
   {
-    key: "academy",
-    icon: "lucide:graduation-cap",
-    showPrice: true,
-    cta: { url: "https://learn-by-doing-academy.com", external: true },
+    key: "agents",
+    icon: "lucide:bot",
+    cta: { url: calendlyUrl, external: true },
   },
 ];
 
