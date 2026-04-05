@@ -29,6 +29,16 @@
           <span class="text-primary text-sm font-medium shrink-0 hidden sm:block">{{ $t('home.academyCta') }} →</span>
         </a>
 
+        <!-- Social proof -->
+        <section class="mb-16">
+          <div class="flex flex-wrap justify-center gap-6 md:gap-12 text-center">
+            <div v-for="stat in stats" :key="stat.key">
+              <p class="text-2xl font-bold text-primary">{{ $t(`services.stats.${stat.key}.value`) }}</p>
+              <p class="text-sm text-muted-foreground">{{ $t(`services.stats.${stat.key}.label`) }}</p>
+            </div>
+          </div>
+        </section>
+
         <!-- Services -->
         <section class="mb-16">
           <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -53,16 +63,6 @@
               >
                 {{ $t(`services.${service.key}.cta`) }}
               </a>
-            </div>
-          </div>
-        </section>
-
-        <!-- Social proof -->
-        <section class="mb-16">
-          <div class="flex flex-wrap justify-center gap-6 md:gap-12 text-center">
-            <div v-for="stat in stats" :key="stat.key">
-              <p class="text-2xl font-bold text-primary">{{ $t(`services.stats.${stat.key}.value`) }}</p>
-              <p class="text-sm text-muted-foreground">{{ $t(`services.stats.${stat.key}.label`) }}</p>
             </div>
           </div>
         </section>
