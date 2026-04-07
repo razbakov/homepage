@@ -21,10 +21,10 @@ cta:
   title: "Попробуй сам"
   description: "Открой Claude Code на десктопе, вставь эту команду и начни обучение за 5 минут."
   stepTitle: "1. Открой Claude Code на десктопе"
-  stepDescription: "2. Вставь эту команду"
-  copyLabel: "Скопировать команду"
+  stepDescription: "2. Вставь этот промпт"
+  copyLabel: "Скопировать промпт"
   copiedLabel: "Скопировано"
-  prompt: "/become-claude-master"
+  prompt: "Установи навык из https://github.com/razbakov/skills/tree/main/skills/become-claude-master, а затем запусти /become-claude-master"
   label: "Установить скилл"
   url: "https://github.com/razbakov/skills/tree/main/skills/become-claude-master"
 ---
