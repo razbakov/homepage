@@ -18,9 +18,14 @@ related:
 telegram: https://t.me/razbakov/85
 tweet: https://x.com/razbakov/status/2040772376988643580
 cta:
-  title: "Pruebalo tu mismo"
-  description: "Instala el skill y comienza tu viaje de aprendizaje con Claude Code en 5 minutos."
-  label: "Obtener el Skill"
+  title: "Pruébalo tú mismo"
+  description: "Abre Claude Code en desktop, pega este comando y empieza tu aprendizaje en 5 minutos."
+  stepTitle: "1. Abre Claude Code en desktop"
+  stepDescription: "2. Pega este comando"
+  copyLabel: "Copiar comando"
+  copiedLabel: "Copiado"
+  prompt: "/become-claude-master"
+  label: "Instalar el skill"
   url: "https://github.com/razbakov/skills/tree/main/skills/become-claude-master"
 ---
 

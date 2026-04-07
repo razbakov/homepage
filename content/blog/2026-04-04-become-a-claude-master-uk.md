@@ -19,7 +19,12 @@ telegram: https://t.me/razbakov/85
 tweet: https://x.com/razbakov/status/2040772376988643580
 cta:
   title: "Спробуй сам"
-  description: "Встанови скіл і почни свій шлях навчання Claude Code за 5 хвилин."
+  description: "Відкрий Claude Code на десктопі, встав цю команду й почни навчання за 5 хвилин."
+  stepTitle: "1. Відкрий Claude Code на десктопі"
+  stepDescription: "2. Встав цю команду"
+  copyLabel: "Скопіювати команду"
+  copiedLabel: "Скопійовано"
+  prompt: "/become-claude-master"
   label: "Встановити скіл"
   url: "https://github.com/razbakov/skills/tree/main/skills/become-claude-master"
 ---
