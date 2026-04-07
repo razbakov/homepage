@@ -14,6 +14,8 @@ related:
   - /blog/2026-04-07-severance-but-for-ai
   - /blog/2026-03-24-ai-agent-team
   - /blog/2025-01-10-ai-first
+image: /images/blog/what-if-democracy-had-an-api/hero.png
+heroImage: true
 ---
 
 I have been thinking about politics lately. Not the kind where people yell at each other on television. The kind where you actually try to answer: how should seven billion people make decisions together?
@@ -76,6 +78,8 @@ What if we split governance into layers, and gave each layer to the system that 
 
 The flow looks like this:
 
+![Three-Layer Governance Model: Personal Sovereignty at top, Values and Direction in middle, Resource Management at bottom](/images/blog/what-if-democracy-had-an-api/three-layers.png)
+
 Your values → your AI agents → your trust circle → liquid democracy → aggregated priorities → resource management AI → allocation and production → free access to you.
 
 ## The thread that holds it together
@@ -120,4 +124,4 @@ But this time, with better tools.
 
 ---
 
-*I am building this in the open. The code is at [github.com/razbakov/ikigai-team](https://github.com/razbakov/ikigai-team). The governance research is at [~/Orgs/Agora](https://github.com/razbakov). If any of this resonates, I would love to hear from you.*
+*I am building this in the open. The code is at [github.com/razbakov/ikigai-team](https://github.com/razbakov/ikigai-team). The governance research is at [agora.razbakov.com](https://agora.razbakov.com). If any of this resonates, I would love to hear from you.*
