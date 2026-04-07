@@ -18,7 +18,7 @@
               {{ $t('home.title') }}
             </h1>
             <p class="text-lg text-muted-foreground leading-relaxed">
-              {{ $t('home.subtitleBefore') }} <a href="https://wedance.vip/alexrazbakov" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">{{ $t('home.subtitleTeacher') }}</a>{{ $t('home.subtitleAfter') }} <NuxtLink :to="localePath('/about')" class="text-primary hover:underline">{{ $t('home.learnMore') }}</NuxtLink>
+              {{ $t('home.subtitleBefore') }} <a href="https://montuno.club" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">{{ $t('home.subtitleTeacher') }}</a>{{ $t('home.subtitleAfter') }} <NuxtLink :to="localePath('/about')" class="text-primary hover:underline">{{ $t('home.learnMore') }}</NuxtLink>
             </p>
           </div>
         </div>
