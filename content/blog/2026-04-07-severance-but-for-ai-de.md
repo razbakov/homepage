@@ -1,5 +1,5 @@
 ---
-title: "Severance, aber für AI"
+title: "Severance, aber für KI"
 description: "Warum persönliche und berufliche Avatare getrennte Erinnerungen brauchen und warum sie manchmal trotzdem miteinander sprechen sollten."
 date: 2026-04-07
 image: /images/blog/severance-but-for-ai/hero-3.png
@@ -17,7 +17,7 @@ related:
   - /blog/2026-03-24-ai-agent-team
 ---
 
-Was wäre, wenn die eigentliche Zukunft von AI nicht ein Assistent ist, der alles über dich weiß, sondern mehrere Versionen von dir, die wissen, wann sie getrennt bleiben und wann sie miteinander sprechen sollten?
+Was wäre, wenn die eigentliche Zukunft von KI nicht ein Assistent ist, der alles über dich weiß, sondern mehrere Versionen von dir, die wissen, wann sie getrennt bleiben und wann sie miteinander sprechen sollten?
 
 Dieser Gedanke kam mir heute wegen *Severance*.
 
@@ -27,7 +27,7 @@ Und trotzdem kann ich nicht aufhören zu denken, dass in dieser Idee etwas Nütz
 
 Nicht der Chip. Nicht der Horror. Die Grenze.
 
-## Ich glaube nicht, dass AI alles von mir gleichzeitig wissen sollte
+## Ich glaube nicht, dass KI alles von mir gleichzeitig wissen sollte
 
 Wenn ich über [Ikigai Team](https://ikigai.razbakov.com) nachdenke, komme ich immer wieder auf dasselbe zurück: Das Erste, was ich brauche, ist kein Schwarm von Agenten.
 
@@ -72,7 +72,7 @@ Genau deshalb glaube ich, dass das besser funktioniert als ein riesiger Assisten
 Und der schöne Teil ist: Die Rolle kann gleich bleiben, während sich die Grenze ändert.
 
 Es kann eine persönliche Maya geben und eine Arbeits-Maya.
-Gleicher Archetyp. Anderer Speicher. Andere Prioritäten. Ein anderes Gefühl dafür, was „Hilfe“ überhaupt bedeutet.
+Gleicher Archetyp. Anderer Erinnerungskontext. Andere Prioritäten. Ein anderes Gefühl dafür, was „Hilfe“ überhaupt bedeutet.
 
 Das fühlt sich für mich viel menschlicher an, als für jedes neue Projekt eine komplett neue fiktive Besetzung zu erfinden.
 
@@ -95,7 +95,7 @@ Vielleicht sieht die Form also so aus:
 - Projekt für den Ausführungskontext
 - Agenten als Persönlichkeiten, die dir helfen, diese Ebenen zu navigieren
 
-![Geschichtetes AI-Identitätsmodell: Avatar im Zentrum, darum Agenten, dann Organisation und Projekte](/images/blog/severance-but-for-ai/diagram-1.png)
+![Geschichtetes KI-Identitätsmodell: Avatar im Zentrum, darum Agenten, dann Organisation und Projekte](/images/blog/severance-but-for-ai/diagram-1.png)
 
 Ich mag das, weil es sich baubar anfühlt.
 Nicht wie abstrakte Philosophie. Sondern wie etwas, das man prototypen kann.
@@ -135,14 +135,14 @@ Vielleicht geht es darum, ihn so klar darzustellen, dass ich endlich entscheiden
 
 ## Das fühlt sich näher am eigentlichen Produkt an
 
-Ich glaube nicht, dass Menschen nur intelligentere AI wollen.
-Ich glaube, sie wollen AI, die versteht, mit welchem Selbst sie gerade spricht.
+Ich glaube nicht, dass Menschen nur intelligentere KI wollen.
+Ich glaube, sie wollen KI, die versteht, mit welchem Selbst sie gerade spricht.
 
 Das Selbst, das ein Quartal plant, ist nicht dasselbe Selbst, das nachts im Bett liegt und sich fragt, was eigentlich zählt.
 Das Selbst bei der Arbeit ist nicht das Selbst in der Liebe.
 Das Selbst, das ein Projekt führt, ist nicht das Selbst, das versucht, ein Leben aufzubauen.
 
-Wenn AI ein echter Kollaborateur werden soll, reicht Erinnerung allein nicht aus.
+Wenn KI ein echter Kollaborateur werden soll, reicht Erinnerung allein nicht aus.
 Sie braucht Grenzen.
 
 Und vielleicht ist genau das die tiefere Produktidee, die unter Ikigai Team verborgen liegt.

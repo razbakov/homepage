@@ -1,5 +1,5 @@
 ---
-title: "Severance, pero para AI"
+title: "Severance, pero para IA"
 description: "Por qué los avatares personales y de trabajo necesitan memoria separada y por qué a veces deberían poder hablar entre ellos."
 date: 2026-04-07
 image: /images/blog/severance-but-for-ai/hero-3.png
@@ -17,7 +17,7 @@ related:
   - /blog/2026-03-24-ai-agent-team
 ---
 
-¿Y si el verdadero futuro de la AI no fuera un único asistente que lo sabe todo sobre ti, sino varias versiones tuyas que saben cuándo mantenerse separadas y cuándo hablar entre ellas?
+¿Y si el verdadero futuro de la IA no fuera un único asistente que lo sabe todo sobre ti, sino varias versiones tuyas que saben cuándo mantenerse separadas y cuándo hablar entre ellas?
 
 Ese pensamiento me golpeó hoy por *Severance*.
 
@@ -27,7 +27,7 @@ Y aun así, no puedo dejar de pensar que dentro de esa idea hay algo útil.
 
 No el chip. No el horror. El límite.
 
-## No creo que la AI deba saber todo de mí al mismo tiempo
+## No creo que la IA deba saber todo de mí al mismo tiempo
 
 Cuando pienso en [Ikigai Team](https://ikigai.razbakov.com), siempre vuelvo a lo mismo: lo primero que necesito no es un enjambre de agentes.
 
@@ -95,7 +95,7 @@ Así que quizá la forma es esta:
 - proyecto para el contexto de ejecución
 - agentes como las personalidades que te ayudan a navegar cada capa
 
-![Modelo de identidad AI por capas: avatar en el centro, agentes alrededor, luego organización y proyectos](/images/blog/severance-but-for-ai/diagram-1.png)
+![Modelo de identidad de IA por capas: avatar en el centro, agentes alrededor, luego organización y proyectos](/images/blog/severance-but-for-ai/diagram-1.png)
 
 Me gusta porque se siente construible.
 No como filosofía abstracta. Sino como algo que puedes prototipar.
@@ -135,14 +135,14 @@ Quizá el punto es escenificarlo con suficiente claridad como para que por fin p
 
 ## Esto se siente más cerca del verdadero producto
 
-No creo que la gente solo quiera AI más inteligente.
-Creo que quieren AI que entienda con qué versión de sí mismos está hablando.
+No creo que la gente solo quiera una IA más inteligente.
+Creo que quieren una IA que entienda con qué versión de sí mismos está hablando.
 
 El yo que planifica un trimestre no es el mismo yo que está acostado en la cama a medianoche preguntándose qué importa de verdad.
 El yo del trabajo no es el yo enamorado.
 El yo que lleva un proyecto no es el yo que intenta construir una vida.
 
-Si la AI va a convertirse en una colaboradora real, la memoria por sí sola no basta.
+Si la IA va a convertirse en una colaboradora real, la memoria por sí sola no basta.
 Necesita límites.
 
 Y quizá esa es la idea de producto más profunda escondida debajo de Ikigai Team.
