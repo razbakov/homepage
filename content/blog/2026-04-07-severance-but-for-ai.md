@@ -95,6 +95,8 @@ So maybe the shape is:
 - project for the execution context
 - agents as the personalities that help you navigate each layer
 
+![Layered AI identity model: avatar in the center, agents around it, then organization, then projects](/images/blog/severance-but-for-ai/diagram-1.png)
+
 I like this because it feels buildable.
 Not abstract philosophy. Something you can prototype.
 
