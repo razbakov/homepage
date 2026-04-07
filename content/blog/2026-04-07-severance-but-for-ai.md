@@ -15,162 +15,133 @@ related:
   - /blog/2026-03-24-ai-agent-team
 ---
 
-What if your AI had a work self and a home self, and they were not allowed to share memory by default?
+What if the real future of AI is not one assistant that knows everything about you, but several versions of you that know when to stay separate and when to talk?
 
-If you have seen *Severance*, you already understand the emotional shape of the idea.
+That thought hit me today because of *Severance*.
 
-In the show, the split is brutal. Your work self does not remember your personal life. Your personal self does not remember your work. It is horrifying because the separation is absolute.
+In the show, the split between work and personal life is horrifying because it is absolute. Your work self does not remember your home. Your home self does not remember your work. It is a clean boundary, but it is also a violent one.
 
-But as a product idea for AI, I think there is something real there.
+And still, I cannot stop thinking that there is something useful hidden inside that idea.
 
-Ikigai Team probably needs a softer, healthier version of severance.
+Not the chip. Not the horror. The boundary.
 
-## Start with an avatar, not a swarm
+## I do not think AI should know all of me at once
 
-When you set up Ikigai Team, the first thing you should get is not a random swarm of agents.
+When I think about Ikigai Team, I keep coming back to this: the first thing I need is not a swarm of agents.
 
-You should get an **avatar**.
+I need an **avatar**.
 
-An avatar is the identity boundary for a specific part of your life.
+An avatar is a version of me with a specific boundary.
 
-For example:
+A **personal avatar** should know my goals, my relationships, my energy, what matters to me, what kind of life I am trying to build.
 
-- a **personal avatar** that knows your goals, relationships, health context, values, routines, and long-term direction
-- a **work avatar** that knows your role, team, projects, deadlines, meetings, and professional priorities
+A **work avatar** should know my role, my meetings, my projects, my deadlines, and the politics of the environment I am operating in.
 
-These should not automatically share memory.
+I do not want those two to automatically share memory.
 
-Your work avatar should not casually know your private reflections.
-Your personal avatar should not constantly drag work context into your life.
+I do not want my work assistant casually carrying my private reflections into every conversation.
+I do not want my personal assistant dragging Slack-brain into the rest of my life.
 
-That is not just a privacy feature. It is a cognitive feature.
+That is not only about privacy. It is about clarity.
 
-It helps the system stay clear.
-It helps the human feel safe.
-It helps the assistant act with the right priorities.
+Different parts of me need different contexts to think well.
 
-## The agents come after
+## Then come the agents
 
-This clarified something for me.
+This is the part I am slowly understanding.
 
 The main product is not really "a team of six agents."
-The main product is **contextual identity separation**.
+The main product is identity with boundaries.
 
-Agents are the interface layer around that identity.
+The agents come after that.
+They are the memorable interface around the boundary.
 
-Once the avatar exists, the team forms around it:
+So yes, I still want Sage, Maya, Viktor, Marco, Luna, Kai.
 
-- **Sage** for reflection, coaching, meaning
-- **Marco** for strategy and tradeoffs
-- **Maya** for operations, planning, delegation
-- **Viktor** for engineering and technical execution
-- **Luna** for content and growth
-- **Kai** for community and partnerships
+I want Sage when I need reflection.
+I want Maya when I need someone to take chaos and turn it into motion.
+I want Viktor when I need technical depth.
 
-This part matters because humans route by character.
+Names matter. Faces matter. Voice matters.
+Humans remember characters better than features.
 
-If I need life advice, I go to Sage.
-If I need delegation and planning, I go to Maya.
-If I need technical depth, I go to Viktor.
+That is why I think this works better than one giant assistant with one giant prompt.
 
-That is easier to remember than one generic assistant with a giant hidden prompt.
+And the nice part is that the role can stay the same while the boundary changes.
 
-The same role can also exist in different scopes:
+There can be a personal Maya and a work Maya.
+Same archetype. Different memory. Different priorities. Different sense of what "help" means.
 
-- personal Maya
-- work Maya
-- organization Maya
-- project Maya
+That feels much more human to me than inventing a whole new fictional cast every time a new project appears.
 
-Same role, different boundary.
-Same voice, different memory.
-Same helper, different priorities.
+## The next circles are organizations and projects
 
-That feels cleaner than inventing a brand new cast of characters for every project.
+Once I started thinking about avatars this way, the next layers became clearer.
 
-## Then come organizations and projects
+An organization is also a boundary.
+It has its own goals, language, principles, access rules, and memory.
+Not a person, exactly, but definitely its own identity.
 
-The next circle beyond the personal avatar is the organization.
+And then projects sit inside that.
 
-An organization is not just a folder or a shared drive. It is a context where multiple humans share goals, constraints, responsibilities, and language.
+A project does not necessarily need a permanent full cast of agents. But it does need context: the codebase, the user stories, the tradeoffs, the architecture, the current state of reality.
 
-That means an organization probably needs its own identity boundary too:
+So maybe the shape is:
 
-- shared goals
-- principles
-- operating rules
-- domain knowledge
-- memory boundaries
-- access boundaries
+- avatar for the self
+- organization for the shared mission
+- project for the execution context
+- agents as the personalities that help you navigate each layer
 
-Projects then sit inside that as focused execution contexts.
+I like this because it feels buildable.
+Not abstract philosophy. Something you can prototype.
 
-A project may not need a whole permanent cast of agents, but it does need its own scoped context:
+## But the most interesting part is not separation
 
-- codebase
-- vision
-- user stories
-- jobs to be done
-- architecture decisions
-- delivery status
+The most interesting part is consultation.
 
-So the model starts to look like this:
+I do not want the personal and work avatars permanently merged.
+I do not want silent leaking between them.
+I do not want a fake clean wall either.
 
-- **Avatar** = who this system is for, and which part of life it represents
-- **Agents** = specialized voices around that avatar
-- **Organization** = shared mission and operating context
-- **Project** = focused execution context
-- **Skills / frameworks** = the methods the agents use
+What I want is a deliberate channel.
 
-Agents are the **who**.
-Skills are the **how**.
-Avatars, orgs, and projects are the **where**.
-Memory and goals are the **why**.
+A way to say:
 
-## The interesting part is not separation. It is consultation.
+- my work self wants this promotion
+- my personal self thinks this will cost too much
+- let them talk
 
-In *Severance*, the split is absolute.
-That is what makes it horrifying.
+That is where this becomes more than a memory architecture.
+That is where it becomes useful.
 
-For AI, I think the split should be the default, but not absolute.
+Because the hardest decisions in life are usually not purely personal or purely professional.
+They live in the collision.
 
-What I want is not full memory merge.
-Not silent leaking.
-Not permanent background sharing.
+Should I take the new role?
+Should I move cities for work?
+Should I start the company?
+Should I keep chasing the thing that pays well if it is draining the rest of my life?
 
-I want a **controlled consultation channel**.
+One assistant usually smooths this tension out too early.
+But maybe tension is exactly what I need to see.
 
-For example:
+Maybe the point is not to collapse the conflict.
+Maybe the point is to stage it clearly enough that I can finally decide.
 
-- "My work avatar thinks I should take this promotion"
-- "My personal avatar is worried this will destroy my energy and relationships"
-- "Let them debate and help me see the tradeoff"
+## This feels closer to the real product
 
-That could be one of the most valuable features in the whole system.
+I do not think people only want smarter AI.
+I think they want AI that understands which self it is talking to.
 
-Because the hardest decisions are often cross-boundary decisions:
+The self that is planning a quarter is not the same self that is lying in bed at midnight wondering what actually matters.
+The self at work is not the self in love.
+The self running a project is not the self trying to build a life.
 
-- work-life balance
-- taking a new job
-- moving cities for career reasons
-- starting a company
-- saying no to a project that pays well but drains meaning
+If AI is going to become a real collaborator, memory alone is not enough.
+It needs boundaries.
 
-A single assistant tends to flatten these tensions.
-Two avatars with different responsibilities might make the tension visible.
+And maybe that is the deeper product idea hiding underneath Ikigai Team.
 
-That is not a bug. That is the point.
-
-## Maybe this is the real product
-
-People do not just want AI that is smart.
-They want AI that knows which version of them it is talking to.
-
-The self at work is not the same as the self at home.
-The self planning a quarter is not the same as the self having a hard evening.
-The self running a company is not the same as the self wondering what actually matters.
-
-If AI is going to become a real collaborator, it needs boundaries, not just memory.
-
-Maybe the future is not one assistant that knows everything about you.
-Maybe it is a set of selves that know exactly enough, and know when to talk to each other.
+Not one assistant that knows everything.
+A small society of selves that know exactly enough, and know when to talk to each other.
