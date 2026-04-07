@@ -2,6 +2,8 @@
 title: "Severance, but for AI"
 description: "Why personal and work avatars need separate memory, and why they should sometimes be allowed to talk."
 date: 2026-04-07
+image: /images/blog/severance-but-for-ai/hero-3.png
+heroImage: true
 language: en
 category: Technology
 tags:
