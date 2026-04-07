@@ -5,6 +5,18 @@ const route = useRoute();
 const { language } = useLanguageFilter();
 const { trackBlogPostRead } = useAnalytics();
 
+const ctaCopied = ref(false);
+
+async function copyCtaPrompt(prompt) {
+  if (!prompt || !import.meta.client) return;
+  await navigator.clipboard.writeText(prompt);
+  ctaCopied.value = true;
+
+  setTimeout(() => {
+    ctaCopied.value = false;
+  }, 2000);
+}
+
 // Strip locale prefix from path for content query
 const contentPath = computed(() => {
   const path = route.path;
@@ -175,25 +187,73 @@ const { data: relatedProjects } = await useAsyncData(
         <!-- CTA -->
         <div
           v-if="post.cta"
-          class="mb-12 rounded-lg border bg-muted/50 p-8 text-center"
+          class="mb-12 rounded-lg border bg-muted/50 p-8"
         >
-          <h2 class="text-2xl font-bold mb-4">
-            {{ post.cta.title || $t('blog.readyToStart') }}
-          </h2>
-          <p class="text-muted-foreground mb-6">
-            {{
-              post.cta.description ||
-              $t('blog.takeNextStep')
-            }}
-          </p>
-          <a
-            :href="post.cta.url"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground hover:bg-primary/90"
-          >
-            {{ post.cta.label }}
-          </a>
+          <template v-if="post.cta.prompt">
+            <h2 class="text-2xl font-bold mb-4 text-center">
+              {{ post.cta.title || $t('blog.readyToStart') }}
+            </h2>
+            <p class="text-muted-foreground mb-6 text-center">
+              {{
+                post.cta.description ||
+                $t('blog.takeNextStep')
+              }}
+            </p>
+
+            <div class="max-w-2xl mx-auto rounded-2xl border bg-background/80 text-left shadow-sm">
+              <div class="flex flex-col gap-4 border-b px-4 py-3 sm:flex-row sm:items-center sm:justify-between">
+                <div>
+                  <p class="text-sm font-medium">{{ post.cta.stepTitle || '1. Open Claude Code on Desktop' }}</p>
+                  <p class="text-sm text-muted-foreground">{{ post.cta.stepDescription || '2. Paste this prompt' }}</p>
+                </div>
+                <button
+                  type="button"
+                  class="inline-flex items-center justify-center gap-2 rounded-lg bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:bg-primary/90"
+                  @click="copyCtaPrompt(post.cta.prompt)"
+                >
+                  <Icon :name="ctaCopied ? 'lucide:check' : 'lucide:copy'" class="h-4 w-4" />
+                  {{ ctaCopied ? (post.cta.copiedLabel || 'Copied') : (post.cta.copyLabel || 'Copy prompt') }}
+                </button>
+              </div>
+
+              <div class="px-4 py-4">
+                <pre class="whitespace-pre-wrap break-words text-sm sm:text-base leading-7 text-foreground font-mono">{{ post.cta.prompt }}</pre>
+              </div>
+
+              <div v-if="post.cta.url && post.cta.label" class="px-4 pb-4">
+                <a
+                  :href="post.cta.url"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-flex h-10 items-center justify-center rounded-md border px-4 text-sm font-medium hover:bg-muted"
+                >
+                  {{ post.cta.label }}
+                </a>
+              </div>
+            </div>
+          </template>
+
+          <template v-else>
+            <h2 class="text-2xl font-bold mb-4 text-center">
+              {{ post.cta.title || $t('blog.readyToStart') }}
+            </h2>
+            <p class="text-muted-foreground mb-6 text-center">
+              {{
+                post.cta.description ||
+                $t('blog.takeNextStep')
+              }}
+            </p>
+            <div class="text-center">
+              <a
+                :href="post.cta.url"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground hover:bg-primary/90"
+              >
+                {{ post.cta.label }}
+              </a>
+            </div>
+          </template>
         </div>
 
         <!-- Content -->
