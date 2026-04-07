@@ -29,7 +29,7 @@ No el chip. No el horror. El límite.
 
 ## No creo que la AI deba saber todo de mí al mismo tiempo
 
-Cuando pienso en Ikigai Team, siempre vuelvo a lo mismo: lo primero que necesito no es un enjambre de agentes.
+Cuando pienso en [Ikigai Team](https://ikigai.razbakov.com), siempre vuelvo a lo mismo: lo primero que necesito no es un enjambre de agentes.
 
 Necesito un **avatar**.
 

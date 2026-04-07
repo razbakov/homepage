@@ -29,7 +29,7 @@ Not the chip. Not the horror. The boundary.
 
 ## I do not think AI should know all of me at once
 
-When I think about Ikigai Team, I keep coming back to this: the first thing I need is not a swarm of agents.
+When I think about [Ikigai Team](https://ikigai.razbakov.com), I keep coming back to this: the first thing I need is not a swarm of agents.
 
 I need an **avatar**.
 

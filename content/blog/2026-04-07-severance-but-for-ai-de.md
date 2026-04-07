@@ -29,7 +29,7 @@ Nicht der Chip. Nicht der Horror. Die Grenze.
 
 ## Ich glaube nicht, dass AI alles von mir gleichzeitig wissen sollte
 
-Wenn ich über Ikigai Team nachdenke, komme ich immer wieder auf dasselbe zurück: Das Erste, was ich brauche, ist kein Schwarm von Agenten.
+Wenn ich über [Ikigai Team](https://ikigai.razbakov.com) nachdenke, komme ich immer wieder auf dasselbe zurück: Das Erste, was ich brauche, ist kein Schwarm von Agenten.
 
 Ich brauche einen **Avatar**.
 
