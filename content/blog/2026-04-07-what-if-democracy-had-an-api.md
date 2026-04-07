@@ -1,5 +1,5 @@
 ---
-title: "What If Democracy Had an API?"
+title: "Democracy Is Broken. Here's an Architecture to Fix It."
 description: "Combining liquid democracy, AI agents, and resource-based economics into a system where your values actually matter."
 date: 2026-04-07
 language: en

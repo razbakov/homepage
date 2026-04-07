@@ -1,5 +1,5 @@
 ---
-title: "Was wäre, wenn Demokratie eine API hätte?"
+title: "Demokratie ist kaputt. Hier ist eine Architektur, die sie repariert."
 description: "Liquide Demokratie, KI-Agenten und ressourcenbasierte Wirtschaft zu einem System kombinieren, in dem deine Werte wirklich zählen."
 date: 2026-04-07
 language: de

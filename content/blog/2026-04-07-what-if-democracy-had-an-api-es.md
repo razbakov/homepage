@@ -1,5 +1,5 @@
 ---
-title: "¿Y si la democracia tuviera una API?"
+title: "La democracia está rota. Aquí hay una arquitectura para arreglarla."
 description: "Combinando democracia líquida, agentes de IA y economía basada en recursos en un sistema donde tus valores realmente importan."
 date: 2026-04-07
 language: es
