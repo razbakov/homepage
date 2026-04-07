@@ -14,7 +14,7 @@ related:
   - /blog/2026-04-07-severance-but-for-ai
   - /blog/2026-03-24-ai-agent-team
   - /blog/2025-01-10-ai-first
-image: /images/blog/what-if-democracy-had-an-api/hero.png
+image: /images/blog/democracy-is-broken/hero.png
 heroImage: true
 ---
 
@@ -78,7 +78,7 @@ Was wäre, wenn wir Governance in Schichten aufteilen und jede Schicht dem Syste
 
 Der Ablauf sieht so aus:
 
-![Three-Layer Governance Model: Personal Sovereignty at top, Values and Direction in middle, Resource Management at bottom](/images/blog/what-if-democracy-had-an-api/three-layers.png)
+![Three-Layer Governance Model: Personal Sovereignty at top, Values and Direction in middle, Resource Management at bottom](/images/blog/democracy-is-broken/three-layers.png)
 
 Deine Werte → deine KI-Agenten → dein Vertrauenskreis → liquide Demokratie → aggregierte Prioritäten → Ressourcenmanagement-KI → Verteilung und Produktion → freier Zugang für dich.
 

@@ -14,7 +14,7 @@ related:
   - /blog/2026-04-07-severance-but-for-ai
   - /blog/2026-03-24-ai-agent-team
   - /blog/2025-01-10-ai-first
-image: /images/blog/what-if-democracy-had-an-api/hero.png
+image: /images/blog/democracy-is-broken/hero.png
 heroImage: true
 ---
 
@@ -78,7 +78,7 @@ heroImage: true
 
 Схема выглядит так:
 
-![Three-Layer Governance Model: Personal Sovereignty at top, Values and Direction in middle, Resource Management at bottom](/images/blog/what-if-democracy-had-an-api/three-layers.png)
+![Three-Layer Governance Model: Personal Sovereignty at top, Values and Direction in middle, Resource Management at bottom](/images/blog/democracy-is-broken/three-layers.png)
 
 Ваши ценности → ваши ИИ-агенты → ваш круг доверия → ликвидная демократия → агрегированные приоритеты → ИИ управления ресурсами → распределение и производство → свободный доступ для вас.
 
