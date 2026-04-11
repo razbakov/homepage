@@ -71,7 +71,7 @@ Wir gingen tief in die Philosophie -- Dualitaet, Schoepfung und Zerstoerung, die
 
 ## Web100 Projekt-Demo
 
-Ich zeigte das [Web100](https://web100.dev) Projekt -- die Idee, 100 Websites fuer 100 lokale Unternehmen zu bauen. Wir gingen ein echtes Beispiel durch: ein Redesign fuer einen Thai-Massage-Salon, komplett von KI-Agenten im Autopilot erstellt.
+Ich zeigte das Web100 Projekt -- die Idee, 100 Websites fuer 100 lokale Unternehmen zu bauen. Wir gingen ein echtes Beispiel durch: ein Redesign fuer einen Thai-Massage-Salon, komplett von KI-Agenten im Autopilot erstellt.
 
 Die Demo umfasste:
 - Einen Entscheidungsbaum fuer die Dienstleistungsauswahl

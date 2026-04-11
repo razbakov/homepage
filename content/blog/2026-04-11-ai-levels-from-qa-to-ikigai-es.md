@@ -71,7 +71,7 @@ Profundizamos en la filosofia -- dualidad, creacion y destruccion, la conexion c
 
 ## Demo del Proyecto Web100
 
-Mostre el proyecto [Web100](https://web100.dev) -- la idea de construir 100 sitios web para 100 negocios locales. Recorrimos un ejemplo real: el rediseno de un salon de masaje tailandes hecho completamente por agentes de IA en piloto automatico.
+Mostre el proyecto Web100 -- la idea de construir 100 sitios web para 100 negocios locales. Recorrimos un ejemplo real: el rediseno de un salon de masaje tailandes hecho completamente por agentes de IA en piloto automatico.
 
 La demo incluyo:
 - Un arbol de decisiones para la seleccion de servicios

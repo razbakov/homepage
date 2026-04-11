@@ -71,7 +71,7 @@ We went deep into the philosophy — duality, creation and destruction, the conn
 
 ## Web100 Project Demo
 
-I showed the [Web100](https://web100.dev) project — the idea of building 100 websites for 100 local businesses. We walked through a real example: a Thai massage salon redesign done entirely by AI agents on autopilot.
+I showed the Web100 project — the idea of building 100 websites for 100 local businesses. We walked through a real example: a Thai massage salon redesign done entirely by AI agents on autopilot.
 
 The demo included:
 - A decision tree for service selection
