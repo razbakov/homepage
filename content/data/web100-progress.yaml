@@ -1,0 +1,11 @@
+# Web100 Marathon — manual progress tracker
+# Update `completed` when a new site ships. `target` stays at 100.
+# Edit this file and commit — no backend.
+
+target: 100
+completed: 0
+started_at: "2026-04-01"
+ends_at: "2026-06-30"
+# Short status line shown under the counter. Keep honest.
+status_de: "Los geht's. Die erste Website nimmt immer am längsten."
+status_en: "Just started. The first site always takes longest."
