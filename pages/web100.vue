@@ -177,17 +177,12 @@
           <form
             v-else
             name="web100-lead"
-            method="POST"
-            data-netlify="true"
-            data-netlify-honeypot="bot-field"
-            netlify
             @submit.prevent="onSubmit"
             class="space-y-5 rounded-xl border border-border/50 p-6 md:p-8 bg-card"
           >
-            <!-- Netlify form detection -->
-            <input type="hidden" name="form-name" value="web100-lead" />
-            <p class="hidden">
-              <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+            <!-- Honeypot — real humans leave this empty. -->
+            <p class="hidden" aria-hidden="true">
+              <label>Don't fill this out: <input v-model="honeypot" tabindex="-1" autocomplete="off" /></label>
             </p>
 
             <div>
@@ -412,6 +407,7 @@ const errors = reactive({
 });
 const submitting = ref(false);
 const submitted = ref(false);
+const honeypot = ref("");
 
 const schema = computed(() => {
   const e = copy.value?.form?.errors || {};
@@ -443,38 +439,35 @@ function validate() {
 }
 
 async function onSubmit() {
+  // Silent no-op for bot submissions (honeypot filled).
+  if (honeypot.value) {
+    submitted.value = true;
+    return;
+  }
   if (!validate()) return;
   submitting.value = true;
   try {
-    // Netlify form submission — works on the deployed static site.
-    const body = new URLSearchParams();
-    body.append("form-name", "web100-lead");
-    body.append("business", form.business);
-    body.append("url", form.url || "");
-    body.append("description", form.description);
-    body.append("email", form.email);
-    body.append("language", form.language);
-    body.append("locale", locale.value);
-
-    await fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: body.toString(),
-    });
-    submitted.value = true;
-  } catch (err) {
-    // Fall back to mailto if Netlify isn't available (local dev)
-    const subject = encodeURIComponent(`Web100 — ${form.business}`);
+    // No custom form backend on this repo (Vercel-hosted static site, no
+    // existing contact endpoint). Primary submission: mailto — opens the
+    // user's mail client with a pre-filled message to alex@razbakov.com.
+    // When a serverless handler (or Formspree/Netlify-style form backend)
+    // is added, swap this block for a fetch() to it and keep mailto as a
+    // fallback in the catch.
+    const subject = `Web100 — ${form.business}`;
     const lines = [
       `Business: ${form.business}`,
       form.url ? `URL: ${form.url}` : "",
-      `Language: ${form.language}`,
+      `Preferred language: ${form.language}`,
       "",
       form.description,
       "",
       `— ${form.email}`,
     ].filter(Boolean);
-    window.location.href = `mailto:${config.site.email}?subject=${subject}&body=${encodeURIComponent(lines.join("\n"))}`;
+    const href = `mailto:${config.site.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(lines.join("\n"))}`;
+    // Optimistically show success — we can't observe whether the mail
+    // client opened. A server-side backend is the right v2.
+    window.location.href = href;
+    submitted.value = true;
   } finally {
     submitting.value = false;
   }
