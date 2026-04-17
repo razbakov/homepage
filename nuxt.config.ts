@@ -112,7 +112,7 @@ export default defineNuxtConfig({
     prerender: {
       crawlLinks: true,
       routes: [
-        "/", "/about", "/blog", "/projects", "/cv", "/slides", "/privacy",
+        "/", "/about", "/blog", "/projects", "/cv", "/slides", "/privacy", "/web100",
         // Unlisted blog posts (hidden from listings, accessible via direct link)
         "/blog/2026-03-25-why-openclaw-has-no-soul",
         "/blog/2026-03-25-my-ai-team-runs-my-day",

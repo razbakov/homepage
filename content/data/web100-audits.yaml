@@ -1,0 +1,19 @@
+# Public audit feed for /web100.
+# Each entry = one YouTube audit video of a prospect website.
+# Keep 6–12 most recent on the page.
+#
+# Fields:
+#   title       — the video title (German)
+#   business    — name of the audited business (or "Anonym" if requested)
+#   vertical    — shoemaker | cafe | studio | hotel | other
+#   url         — full YouTube URL (youtu.be or youtube.com/watch)
+#   thumbnail   — optional override; otherwise derived from youtube id
+#   published   — YYYY-MM-DD
+
+audits: []
+# Example entry (delete when first real audit lands):
+# - title: "Warum diese Schuhmacher-Website keine Kunden bringt"
+#   business: "Schuhmacher Müller"
+#   vertical: "shoemaker"
+#   url: "https://youtu.be/XXXXXXXXXXX"
+#   published: "2026-04-20"
