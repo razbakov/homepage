@@ -44,6 +44,10 @@ export function useAnalytics() {
     track('cv_download', { page: useRoute().path })
   }
 
+  function trackVcardDownload(source: string) {
+    track('homepage_vcard_download', { source, page: useRoute().path })
+  }
+
   return {
     track,
     trackCtaClick,
@@ -55,5 +59,6 @@ export function useAnalytics() {
     trackProjectView,
     trackLanguageSwitch,
     trackCvDownload,
+    trackVcardDownload,
   }
 }
