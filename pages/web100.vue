@@ -337,16 +337,9 @@ const [{ data: copyData }, { data: progressData }, { data: auditsData }] = await
   useAsyncData("web100-audits", () => queryContent("data/web100-audits").findOne()),
 ]);
 
-// German is the primary audience for /web100 (Munich business cards).
-// We serve DE by default on every locale. English (and future es/ru/uk)
-// readers can still see the full site in their language elsewhere, but
-// this marathon page stays narrative-coherent in German for now.
-// To enable EN copy later, change the fallback chain below or set
-// `PRIMARY_LOCALE` to `locale.value`.
-const PRIMARY_LOCALE = "de";
 const copy = computed(() => {
   const c = copyData.value || {};
-  return c[PRIMARY_LOCALE] || c[locale.value] || c.de || c.en || {};
+  return c[locale.value] || c.en || c.de || {};
 });
 
 const progress = computed(() => ({

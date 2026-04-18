@@ -9,3 +9,6 @@ ends_at: "2026-06-30"
 # Short status line shown under the counter. Keep honest.
 status_de: "Los geht's. Die erste Website nimmt immer am längsten."
 status_en: "Just started. The first site always takes longest."
+status_es: "Empezando. El primer sitio siempre tarda más."
+status_ru: "Только начал. Первый сайт всегда идёт дольше всех."
+status_uk: "Щойно почав. Перший сайт завжди йде найдовше."
