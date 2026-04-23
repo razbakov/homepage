@@ -19,6 +19,7 @@ related:
 cta:
   label: "¿Tienes las mismas dos casillas sin marcar? Escríbeme."
   url: "https://t.me/razbakov"
+telegram: "https://t.me/razbakov/100"
 ---
 
 Llevo 10 años viviendo en Múnich.

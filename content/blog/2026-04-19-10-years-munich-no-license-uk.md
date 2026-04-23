@@ -18,7 +18,8 @@ related:
   - /blog/2026-04-11-ai-levels-from-qa-to-ikigai
 cta:
   label: "Ті самі два пункти у тебе не закриті? Напиши мені."
-  url: "https://t.me/razbakov"
+  url: "https://t.me/razbakov_ru"
+telegram: "https://t.me/razbakov_ru/45"
 ---
 
 Я живу в Мюнхені 10 років.

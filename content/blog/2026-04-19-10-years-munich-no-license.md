@@ -19,6 +19,7 @@ related:
 cta:
   label: "Have the same two boxes unchecked? Write me."
   url: "https://t.me/razbakov"
+telegram: "https://t.me/razbakov/100"
 ---
 
 I have lived in Munich for 10 years.

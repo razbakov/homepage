@@ -19,6 +19,7 @@ related:
 cta:
   label: "Dieselben zwei Kästchen noch nicht abgehakt? Schreib mir."
   url: "https://t.me/razbakov"
+telegram: "https://t.me/razbakov/100"
 ---
 
 Ich lebe seit 10 Jahren in München.
