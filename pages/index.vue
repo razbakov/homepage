@@ -17,9 +17,18 @@
             <h1 class="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-coral-600 via-coral-500 to-teal-600 bg-clip-text text-transparent">
               {{ $t('home.title') }}
             </h1>
-            <p class="text-lg text-muted-foreground leading-relaxed">
+            <p class="text-lg text-muted-foreground leading-relaxed mb-5">
               {{ $t('home.subtitleBefore') }} <a href="https://montuno.club" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">{{ $t('home.subtitleTeacher') }}</a>{{ $t('home.subtitleAfter') }} <NuxtLink :to="localePath('/about')" class="text-primary hover:underline">{{ $t('home.learnMore') }}</NuxtLink>
             </p>
+            <a
+              href="/alosha-razbakov.vcf"
+              download="alosha-razbakov.vcf"
+              class="inline-flex h-11 items-center justify-center gap-2 rounded-lg px-6 text-sm font-medium bg-primary text-primary-foreground hover:bg-primary/90 shadow-md shadow-primary/20 hover:shadow-lg hover:shadow-primary/25 transition-all duration-200"
+              @click="trackVcardDownload('home_hero')"
+            >
+              <Icon name="lucide:contact" class="w-4 h-4" />
+              {{ $t('home.saveContact') }}
+            </a>
           </div>
         </div>
 
@@ -114,6 +123,7 @@ useSchemaOrg([
 ]);
 const localePath = useLocalePath();
 const { filterByLanguage } = useLanguageFilter();
+const { trackVcardDownload } = useAnalytics();
 
 const telegramUrl = computed(() =>
   ['ru', 'uk'].includes(locale.value) ? 'https://t.me/razbakov_ru' : 'https://t.me/razbakov'
