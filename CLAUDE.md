@@ -1,5 +1,11 @@
 # razbakov.com — Personal Website
 
+## Framework
+
+@/Users/razbakov/Projects/ikigai-team/CLAUDE.md
+
+---
+
 ## Context
 
 This is Alösha's personal website (Nuxt 3 + Tailwind + Nuxt Content).
