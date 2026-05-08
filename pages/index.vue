@@ -115,7 +115,17 @@ useSchemaOrg([
 const localePath = useLocalePath();
 const route = useRoute();
 const { filterByLanguage } = useLanguageFilter();
-const showHidden = computed(() => 'drafts' in route.query);
+
+// Defer until after hydration so SSR and initial client render match.
+// Reading route.query during prerender returns {} but on client it has ?drafts,
+// which would cause Vue to swap list items mid-hydration and corrupt the DOM.
+const showHidden = ref(false);
+onMounted(() => {
+  showHidden.value = 'drafts' in route.query;
+});
+watch(() => route.query, (q) => {
+  showHidden.value = 'drafts' in q;
+});
 
 const telegramUrl = computed(() =>
   ['ru', 'uk'].includes(locale.value) ? 'https://t.me/razbakov_ru' : 'https://t.me/razbakov'
