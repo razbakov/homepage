@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "I Have Connection to the Quantum World — But Not Influence (Yet)"
 description: "I can see, dream, and build what arrives in my mind. But shaping the imagination of millions is a different mountain — and I'm honest about where I stand."
 date: 2026-05-08

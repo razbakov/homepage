@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Egregores Are Living Organisms — Just Not the Kind You Can Touch"
 description: "Brands, religions, programming languages — egregores meet every honest definition of life. They just live in a dimension our hands can't reach."
 date: 2026-05-08

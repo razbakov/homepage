@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "The Deeper You Can Imagine a Structure, the More You Can Control It"
 description: "Control isn't a leadership trait or a willpower thing. It's a resolution thing — you can only operate a system as deeply as you can picture it."
 date: 2026-05-08

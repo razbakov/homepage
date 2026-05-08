@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Why I Stopped Treating Myself Like a One-Job Person"
 description: "Career advice told me to pick one thing and go deep. I tried. It worked, and it slowly made me miserable. Here's what I do instead."
 date: 2026-05-08

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Novel Ideas vs. Remixes: Why Most Content Is Fusion, Not Creation"
 description: "Most of what we call creativity is fusion — recombining existing pieces. A novel idea is something else entirely, and far rarer than the feed admits."
 date: 2026-05-08

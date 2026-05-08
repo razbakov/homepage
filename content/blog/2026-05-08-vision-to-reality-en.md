@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "From Vision to Reality: How Resources, Trust, and Delegated Power Compound"
 description: "A vision becomes real when you invest first. Then trust compounds, and one day people hand you the steering wheel. Here is the mechanism."
 date: 2026-05-08
