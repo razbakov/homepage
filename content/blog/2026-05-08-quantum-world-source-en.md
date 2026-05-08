@@ -1,5 +1,5 @@
 ---
-draft: true
+hidden: true
 title: "The Quantum World Is Where Things Begin, the Material World Is Where Things End"
 description: "Every building, app, and song started as a thought. The imagination layer is the source — the material world is just the receipt."
 date: 2026-05-08

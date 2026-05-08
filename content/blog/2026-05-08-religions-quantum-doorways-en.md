@@ -1,5 +1,5 @@
 ---
-draft: true
+hidden: true
 title: "Every Religion Describes the Same Quantum World From a Different Doorway"
 description: "Religions aren't competing truth claims — they're different doorways into the same hidden territory of beings, forces, and structures."
 date: 2026-05-08

@@ -1,5 +1,5 @@
 ---
-draft: true
+hidden: true
 title: "The Spoon Doesn't Exist: How Logic Builds the Cage You Can't Escape"
 description: "The smarter you are, the tighter your prison. How logical frameworks become invisible cages, and why your PhD might be the bars."
 date: 2026-05-08

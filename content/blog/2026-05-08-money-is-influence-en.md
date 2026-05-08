@@ -1,5 +1,5 @@
 ---
-draft: true
+hidden: true
 title: "Money Is Just Crystallized Influence — and Influence Is Just Clarity of Vision"
 description: "Money is downstream of vision-clarity. Chasing money directly is like chasing fame — it's the symptom, not the cause. Here's the chain in plain terms."
 date: 2026-05-08

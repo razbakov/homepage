@@ -1,5 +1,5 @@
 ---
-draft: true
+hidden: true
 title: "Why You Can't Fly: Your Brain Is the Limit, Not Physics"
 description: "Most of what you'll never try isn't blocked by physics. It's blocked by a Newton-grade ceiling installed in your head."
 date: 2026-05-08

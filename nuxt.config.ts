@@ -3,15 +3,16 @@ import { readFileSync, readdirSync } from "node:fs";
 import { resolve } from "node:path";
 import config from "./content/config.json";
 
-// Collect routes for blog posts marked `draft: true`. Drafts are hidden from
-// listings (filtered in pages/index.vue unless ?drafts is present), but their
-// pages still need to be prerendered so direct links work.
-const draftRoutes = (() => {
+// Collect routes for blog posts marked `hidden: true`. Hidden posts are
+// filtered out of listings (see pages/index.vue, unhidden via ?drafts) but
+// their pages still need to be prerendered so direct links work.
+// Note: avoid `draft: true` — Nuxt Content auto-excludes those from queryContent.
+const hiddenRoutes = (() => {
   const dir = resolve("./content/blog");
   try {
     return readdirSync(dir)
       .filter((f) => f.endsWith(".md"))
-      .filter((f) => /^draft:\s*true/m.test(readFileSync(resolve(dir, f), "utf8")))
+      .filter((f) => /^hidden:\s*true/m.test(readFileSync(resolve(dir, f), "utf8")))
       .map((f) => `/blog/${f.replace(/\.md$/, "")}`);
   } catch {
     return [];
@@ -136,7 +137,7 @@ export default defineNuxtConfig({
         "/blog/2026-03-25-from-idea-to-mvp-in-minutes",
         "/blog/2026-03-25-ai-agents-need-goals",
         "/blog/2026-03-25-stop-estimating-in-hours",
-        ...draftRoutes,
+        ...hiddenRoutes,
       ],
       failOnError: false,
     },

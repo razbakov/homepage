@@ -115,7 +115,7 @@ useSchemaOrg([
 const localePath = useLocalePath();
 const route = useRoute();
 const { filterByLanguage } = useLanguageFilter();
-const showDrafts = computed(() => 'drafts' in route.query);
+const showHidden = computed(() => 'drafts' in route.query);
 
 const telegramUrl = computed(() =>
   ['ru', 'uk'].includes(locale.value) ? 'https://t.me/razbakov_ru' : 'https://t.me/razbakov'
@@ -139,7 +139,7 @@ const { data: posts } = await useAsyncData("blog-posts", () =>
 const postsByYear = computed(() => {
   if (!posts.value) return [];
   let filtered = filterByLanguage(posts.value).filter(
-    (post) => post.category !== "Unlisted" && (showDrafts.value || !post.draft)
+    (post) => post.category !== "Unlisted" && (showHidden.value || !post.hidden)
   );
 
   const active = interests.find(i => i.key === activeInterest.value);

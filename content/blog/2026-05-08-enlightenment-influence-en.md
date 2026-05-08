@@ -1,5 +1,5 @@
 ---
-draft: true
+hidden: true
 title: "Enlightenment Is Influence in Both Worlds at Once"
 description: "Enlightenment isn't dissolving into bliss — it's gaining real influence in the material world and the world of meaning at the same time."
 date: 2026-05-08

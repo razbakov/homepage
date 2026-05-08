@@ -1,5 +1,5 @@
 ---
-draft: true
+hidden: true
 title: "The Leonardo Pattern: Why Polymaths Touch the Quantum World More Directly"
 description: "Specialists drill deeper. Polymaths cross wires nobody else can — and that's where the novel ideas come from."
 date: 2026-05-08

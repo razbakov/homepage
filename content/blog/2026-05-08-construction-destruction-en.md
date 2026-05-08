@@ -1,5 +1,5 @@
 ---
-draft: true
+hidden: true
 title: "Construction and Destruction: The Two Forces Behind Every Idea That Becomes Real"
 description: "Every act of creation is also an act of destruction. Most people only celebrate the building. The other half is silent but always present."
 date: 2026-05-08

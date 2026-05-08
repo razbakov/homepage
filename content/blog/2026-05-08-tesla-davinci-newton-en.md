@@ -1,5 +1,5 @@
 ---
-draft: true
+hidden: true
 title: "What Tesla, Da Vinci, and Newton Actually Did (And Why It Wasn't 'Work')"
 description: "The myth says geniuses out-grinded everyone. The record says they sat still long enough for the next layer of the universe to come find them."
 date: 2026-05-08
