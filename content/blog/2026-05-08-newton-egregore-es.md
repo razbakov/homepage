@@ -1,5 +1,4 @@
 ---
-hidden: true
 title: "La realidad es un egrégor: por qué seguimos viviendo dentro de la mente de Newton"
 description: "Newton lleva muerto casi tres siglos. ¿Por qué entonces su física todavía se siente como el suelo bajo nuestros pies?"
 date: 2026-05-08

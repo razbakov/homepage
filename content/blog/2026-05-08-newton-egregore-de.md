@@ -1,5 +1,4 @@
 ---
-hidden: true
 title: "Die Realität ist ein Egregor: Warum wir immer noch in Newtons Geist leben"
 description: "Newton ist seit fast drei Jahrhunderten tot. Warum fühlt sich seine Physik dann immer noch wie der Boden unter unseren Füßen an?"
 date: 2026-05-08

@@ -1,5 +1,4 @@
 ---
-hidden: true
 title: "Reality Is an Egregore: Why We Still Live Inside Newton's Mind"
 description: "Newton has been dead for almost three centuries. So why does his physics still feel like the floor under our feet?"
 date: 2026-05-08
