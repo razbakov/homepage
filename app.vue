@@ -154,8 +154,6 @@ const socialLinks = computed(() => [
   { href: telegramUrl.value, icon: "mdi:telegram", label: "Telegram" },
   { href: "https://linkedin.com/in/razbakov", icon: "simple-icons:linkedin", label: "LinkedIn" },
   { href: "https://youtube.com/@razbakov", icon: "simple-icons:youtube", label: "YouTube" },
-  { href: "https://twitch.tv/razbakov", icon: "simple-icons:twitch", label: "Twitch" },
-  { href: "https://instagram.com/alosha_timba_munich", icon: "simple-icons:instagram", label: "Instagram" },
-  { href: "https://www.threads.com/@alosha_timba_munich", icon: "simple-icons:threads", label: "Threads" },
+  { href: "https://www.instagram.com/alosha.ai", icon: "simple-icons:instagram", label: "Instagram" },
 ]);
 </script>

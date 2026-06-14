@@ -37,25 +37,25 @@
         <section class="mb-16">
           <h2 class="text-2xl font-bold mb-6">{{ $t('about.doTitle') }}</h2>
           <div class="grid sm:grid-cols-2 gap-6">
-            <div class="p-6 rounded-xl border border-border/50 hover:border-primary/20 transition-colors">
-              <Icon name="lucide:code-2" class="w-8 h-8 text-primary mb-3" />
-              <h3 class="font-bold mb-2">{{ $t('about.doCode') }}</h3>
-              <p class="text-sm text-muted-foreground">{{ $t('about.doCodeDesc') }}</p>
-            </div>
             <NuxtLink :to="localePath('/services')" class="block p-6 rounded-xl border border-border/50 hover:border-primary/20 transition-colors">
               <Icon name="lucide:sparkles" class="w-8 h-8 text-primary mb-3" />
               <h3 class="font-bold mb-2">{{ $t('about.doAI') }}</h3>
               <p class="text-sm text-muted-foreground">{{ $t('about.doAIDesc') }}</p>
             </NuxtLink>
             <div class="p-6 rounded-xl border border-border/50 hover:border-primary/20 transition-colors">
+              <Icon name="lucide:code-2" class="w-8 h-8 text-primary mb-3" />
+              <h3 class="font-bold mb-2">{{ $t('about.doCode') }}</h3>
+              <p class="text-sm text-muted-foreground">{{ $t('about.doCodeDesc') }}</p>
+            </div>
+            <div class="p-6 rounded-xl border border-border/50 hover:border-primary/20 transition-colors">
+              <Icon name="lucide:pen-line" class="w-8 h-8 text-primary mb-3" />
+              <h3 class="font-bold mb-2">{{ $t('about.doWriting') }}</h3>
+              <p class="text-sm text-muted-foreground">{{ $t('about.doWritingDesc') }}</p>
+            </div>
+            <div class="p-6 rounded-xl border border-border/50 hover:border-primary/20 transition-colors">
               <Icon name="lucide:users" class="w-8 h-8 text-primary mb-3" />
               <h3 class="font-bold mb-2">{{ $t('about.doCommunity') }}</h3>
               <p class="text-sm text-muted-foreground">{{ $t('about.doCommunityDesc') }}</p>
-            </div>
-            <div class="p-6 rounded-xl border border-border/50 hover:border-primary/20 transition-colors">
-              <Icon name="lucide:music" class="w-8 h-8 text-primary mb-3" />
-              <h3 class="font-bold mb-2">{{ $t('about.doDance') }}</h3>
-              <p class="text-sm text-muted-foreground">{{ $t('about.doDanceDesc') }}</p>
             </div>
           </div>
         </section>
@@ -129,7 +129,7 @@
 const { t } = useI18n();
 const { trackCalendlyOpen, trackEmailClick } = useAnalytics();
 const localePath = useLocalePath();
-useHead({ title: "About Alösha — Developer, Builder & Community Creator in Munich" });
+useHead({ title: "About Alösha — AI-systems builder & writer in Munich" });
 useSeoMeta({
   description: () => t('seo.aboutDesc'),
   ogTitle: "About Alösha",
