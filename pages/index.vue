@@ -18,7 +18,7 @@
               {{ $t('home.title') }}
             </h1>
             <p class="text-lg text-muted-foreground leading-relaxed">
-              {{ $t('home.subtitleBefore') }} <a href="https://montuno.club" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">{{ $t('home.subtitleTeacher') }}</a>{{ $t('home.subtitleAfter') }} <NuxtLink :to="localePath('/about')" class="text-primary hover:underline">{{ $t('home.learnMore') }}</NuxtLink>
+              {{ $t('home.subtitle') }} <NuxtLink :to="localePath('/about')" class="text-primary hover:underline">{{ $t('home.learnMore') }}</NuxtLink>
             </p>
           </div>
         </div>
@@ -41,9 +41,17 @@
         </a>
 
         <!-- Services nudge -->
-        <p class="text-sm text-muted-foreground mb-8">
+        <p class="text-sm text-muted-foreground mb-3">
           {{ $t('home.servicesNudge') }}
           <NuxtLink :to="localePath('/services')" class="text-primary hover:underline">{{ $t('home.servicesNudgeLink') }}</NuxtLink>
+        </p>
+
+        <!-- Cuban world link-out -->
+        <p class="text-sm text-muted-foreground mb-8">
+          {{ $t('home.cubanNudge') }}
+          <a href="https://corazoncubano.de" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">corazoncubano.de</a>
+          {{ $t('home.cubanNudgeAnd') }}
+          <a href="https://aguapichi.com" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">aguapichi.com</a>
         </p>
 
         <!-- Interest filters -->
@@ -100,7 +108,7 @@
 
 <script setup>
 const { locale, t } = useI18n();
-useHead({ titleTemplate: "Alösha — Fullstack Developer & AI Engineer in Munich" });
+useHead({ titleTemplate: "Alösha — AI-systems builder who writes, in Munich" });
 useSeoMeta({
   description: () => t('seo.homeDesc'),
   ogTitle: "Alösha",
