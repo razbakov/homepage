@@ -17,9 +17,38 @@
             <h1 class="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-coral-600 via-coral-500 to-teal-600 bg-clip-text text-transparent">
               {{ $t('home.title') }}
             </h1>
-            <p class="text-lg text-muted-foreground leading-relaxed">
+            <p class="text-lg text-muted-foreground leading-relaxed mb-5">
               {{ $t('home.subtitle') }} <NuxtLink :to="localePath('/about')" class="text-primary hover:underline">{{ $t('home.learnMore') }}</NuxtLink>
             </p>
+
+            <!-- Contact row: WhatsApp CTA + social links (above the fold) -->
+            <div class="flex flex-wrap items-center gap-2">
+              <a
+                :href="whatsappUrl"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#25D366] text-white font-medium text-sm shadow-sm hover:bg-[#1ebe57] transition-colors"
+                aria-label="Chat on WhatsApp"
+                @click="trackSocialLinkClick('WhatsApp', whatsappUrl)"
+              >
+                <Icon name="simple-icons:whatsapp" class="w-4 h-4" />
+                <span>{{ $t('home.whatsappCta') }}</span>
+              </a>
+              <div class="flex items-center gap-1">
+                <a
+                  v-for="link in socialLinks"
+                  :key="link.label"
+                  :href="link.href"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="p-2 rounded-full text-muted-foreground hover:text-foreground hover:bg-secondary transition-colors"
+                  :aria-label="link.label"
+                  @click="trackSocialLinkClick(link.label, link.href)"
+                >
+                  <Icon :name="link.icon" class="w-5 h-5" />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -123,6 +152,8 @@ useSchemaOrg([
 const localePath = useLocalePath();
 const route = useRoute();
 const { filterByLanguage } = useLanguageFilter();
+const { socialLinks, whatsappUrl } = useSocialLinks();
+const { trackSocialLinkClick } = useAnalytics();
 
 // Defer until after hydration so SSR and initial client render match.
 // Reading route.query during prerender returns {} but on client it has ?drafts,
@@ -134,10 +165,6 @@ onMounted(() => {
 watch(() => route.query, (q) => {
   showHidden.value = 'drafts' in q;
 });
-
-const telegramUrl = computed(() =>
-  ['ru', 'uk'].includes(locale.value) ? 'https://t.me/razbakov_ru' : 'https://t.me/razbakov'
-);
 
 const activeInterest = ref('all');
 
