@@ -123,6 +123,13 @@ export default defineNuxtConfig({
     prefix: "",
     componentDir: "./components/ui",
   },
+  routeRules: {
+    // /feed is Alex's private "morning intelligence" page — unlisted + noindex.
+    // `robots: false` makes @nuxtjs/robots emit X-Robots-Tag: noindex,nofollow
+    // and disallow it in robots.txt; @nuxtjs/sitemap reads the same rule and
+    // excludes it from the sitemap. The page also sets a robots meta tag itself.
+    "/feed": { robots: false },
+  },
   devtools: { enabled: true },
   compatibilityDate: "2025-01-07",
   nitro: {
@@ -131,6 +138,8 @@ export default defineNuxtConfig({
       crawlLinks: true,
       routes: [
         "/", "/about", "/blog", "/projects", "/cv", "/slides", "/privacy", "/web100",
+        // Unlisted, noindex "morning intelligence" feed (see routeRules + pages/feed.vue)
+        "/feed",
         // Unlisted blog posts (hidden from listings, accessible via direct link)
         "/blog/2026-03-25-why-openclaw-has-no-soul",
         "/blog/2026-03-25-my-ai-team-runs-my-day",
