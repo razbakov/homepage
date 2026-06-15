@@ -53,7 +53,7 @@
 </template>
 
 <script setup lang="ts">
-const { t } = useI18n();
+const { t, locale } = useI18n();
 
 type State = "idle" | "loading" | "success" | "error";
 
@@ -70,14 +70,14 @@ async function onSubmit() {
   try {
     const res = await $fetch<{ ok: boolean; status: string }>("/api/subscribe", {
       method: "POST",
-      body: { email: email.value },
+      body: { email: email.value, locale: locale.value },
     });
 
     state.value = "success";
     message.value =
       res.status === "already_subscribed"
         ? t("home.newsletter.alreadySubscribed")
-        : t("home.newsletter.success");
+        : t("home.newsletter.checkInbox");
     email.value = "";
   } catch (err: unknown) {
     state.value = "error";

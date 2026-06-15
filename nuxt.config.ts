@@ -165,11 +165,13 @@ export default defineNuxtConfig({
     },
   },
   runtimeConfig: {
-    // Server-only (private). Populated at runtime from NUXT_RESEND_API_KEY and
-    // NUXT_RESEND_AUDIENCE_ID env vars. NEVER move these into `public` — the
-    // Resend key must never reach the client bundle.
+    // Server-only (private). Populated at runtime from NUXT_RESEND_API_KEY,
+    // NUXT_RESEND_AUDIENCE_ID and NUXT_NEWSLETTER_SECRET env vars. NEVER move
+    // these into `public` — they must never reach the client bundle.
     resendApiKey: "",
     resendAudienceId: "",
+    // HMAC secret that signs the double opt-in confirmation tokens.
+    newsletterSecret: "",
     public: {
       posthogPublicKey: config.site.analytics.posthog.publicKey,
       posthogHost: config.site.analytics.posthog.host,
