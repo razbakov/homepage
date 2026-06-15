@@ -106,8 +106,10 @@ export default defineEventHandler(async (event) => {
   );
 
   if (existingRes.ok) {
-    const existing = (await existingRes.json()) as { data?: { unsubscribed?: boolean } };
-    if (existing?.data?.unsubscribed === false) {
+    // Resend returns the contact fields at the top level (no `data` wrapper):
+    // { object, id, email, unsubscribed, ... }
+    const existing = (await existingRes.json()) as { unsubscribed?: boolean };
+    if (existing?.unsubscribed === false) {
       return { ok: true, status: "already_subscribed" };
     }
     // Exists but still pending (unsubscribed: true) — fall through and re-send
