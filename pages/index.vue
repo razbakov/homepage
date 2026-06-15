@@ -83,6 +83,9 @@
           <a href="https://aguapichi.com" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">aguapichi.com</a>
         </p>
 
+        <!-- Newsletter signup -->
+        <NewsletterSignup class="mb-10" />
+
         <!-- Interest filters -->
         <div class="flex gap-2 overflow-x-auto pb-2 mb-10 -mx-4 px-4 scrollbar-none">
           <button

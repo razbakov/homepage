@@ -54,6 +54,16 @@
       "thinking": "Denken",
       "optimizing": "Optimieren",
       "exploring": "Entdecken"
+    },
+    "newsletter": {
+      "title": "Newsletter abonnieren",
+      "valueProp": "Neue Blogbeiträge, Projekte, Aktivitäten und Kooperationen — direkt in dein Postfach. Kein Spam.",
+      "emailLabel": "E-Mail-Adresse",
+      "placeholder": "du{'@'}email.com",
+      "button": "Abonnieren",
+      "success": "Geschafft! Schau bald in dein Postfach.",
+      "alreadySubscribed": "Du bist bereits angemeldet — danke!",
+      "error": "Etwas ist schiefgelaufen. Bitte versuche es erneut."
     }
   },
   "about": {
