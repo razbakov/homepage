@@ -2,16 +2,26 @@
   <div class="py-16">
     <div class="container mx-auto px-4">
       <div class="max-w-3xl mx-auto">
-        <!-- Empty / not-found state: no dated feed file matched -->
+        <!-- Back to history index -->
+        <NuxtLink
+          to="/feed"
+          class="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors mb-8"
+        >
+          <Icon name="lucide:arrow-left" class="w-4 h-4" />
+          All days
+        </NuxtLink>
+
+        <!-- Not-found state: no dated feed file matched this route -->
         <div
           v-if="!feed"
           class="rounded-xl border border-dashed border-border/70 p-10 text-center bg-muted/20"
         >
           <Icon name="lucide:youtube" class="w-8 h-8 text-muted-foreground mx-auto mb-3" />
-          <h1 class="font-semibold mb-2">No feed yet</h1>
+          <h1 class="font-semibold mb-2">No feed for this date</h1>
           <p class="text-sm text-muted-foreground max-w-md mx-auto">
-            Nothing summarized for this date. The morning intelligence run writes a
-            dated file to <code>content/data/feed/</code>; once it does, it shows up here.
+            Nothing summarized for <code>{{ routeDate }}</code>. The morning
+            intelligence run writes a dated file to <code>content/data/feed/</code>;
+            once it does, the day shows up here.
           </p>
         </div>
 
@@ -25,10 +35,10 @@
               YouTube feed · {{ formattedDate }}
             </h1>
             <p class="text-muted-foreground">
-              <span class="font-semibold text-foreground tabular-nums">{{ feed.total_recommended }}</span>
-              recommended,
               <span class="font-semibold text-foreground tabular-nums">{{ feed.summarized }}</span>
-              summarized
+              of
+              <span class="font-semibold text-foreground tabular-nums">{{ feed.total_recommended }}</span>
+              recommendations summarized
             </p>
           </header>
 
@@ -97,6 +107,30 @@
               </article>
             </div>
           </section>
+
+          <!-- Prev / next day navigation (only when an adjacent day exists) -->
+          <nav
+            v-if="prevDate || nextDate"
+            class="flex items-center justify-between gap-4 border-t border-border/50 pt-6 mt-4"
+          >
+            <NuxtLink
+              v-if="prevDate"
+              :to="`/feed/${prevDate}`"
+              class="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors"
+            >
+              <Icon name="lucide:chevron-left" class="w-4 h-4" />
+              {{ prevDate }}
+            </NuxtLink>
+            <span v-else></span>
+            <NuxtLink
+              v-if="nextDate"
+              :to="`/feed/${nextDate}`"
+              class="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors ml-auto"
+            >
+              {{ nextDate }}
+              <Icon name="lucide:chevron-right" class="w-4 h-4" />
+            </NuxtLink>
+          </nav>
         </template>
       </div>
     </div>
@@ -105,21 +139,38 @@
 
 <script setup>
 const route = useRoute();
+const routeDate = computed(() => String(route.params.date || ""));
 
 // Load every dated feed file under content/data/feed/. Each file is a JSON doc
 // keyed by date (YYYY-MM-DD.json) with { date, source, total_recommended,
-// summarized, items[] }. We pick the latest by date, or the ?date= override.
-const { data: feeds } = await useAsyncData("feed-list", () =>
+// summarized, items[] }. Days are never overwritten — history is the set of files.
+const { data: feeds } = await useAsyncData("feed-files", () =>
   queryContent("data/feed").find()
+);
+
+// All available dates, newest-first.
+const dates = computed(() =>
+  (feeds.value || [])
+    .map((f) => f?.date)
+    .filter(Boolean)
+    .sort((a, b) => (a < b ? 1 : -1))
 );
 
 const feed = computed(() => {
   const list = (feeds.value || []).filter((f) => f?.date);
-  if (!list.length) return null;
-  // Optional ?date=YYYY-MM-DD to view a past day; otherwise newest by date.
-  const wanted = route.query.date;
-  if (wanted) return list.find((f) => f.date === wanted) || null;
-  return [...list].sort((a, b) => (a.date < b.date ? 1 : -1))[0];
+  return list.find((f) => f.date === routeDate.value) || null;
+});
+
+// Adjacent days for prev/next links. dates is newest-first, so the "next" (newer)
+// day sits before the current index and "prev" (older) sits after it.
+const currentIdx = computed(() => dates.value.indexOf(routeDate.value));
+const nextDate = computed(() => {
+  const i = currentIdx.value;
+  return i > 0 ? dates.value[i - 1] : null;
+});
+const prevDate = computed(() => {
+  const i = currentIdx.value;
+  return i >= 0 && i < dates.value.length - 1 ? dates.value[i + 1] : null;
 });
 
 // Group items by category, preserving first-seen category order.
@@ -162,11 +213,10 @@ function youtubeThumbnail(url) {
 }
 
 // SEO: this page is UNLISTED + NOINDEX. The robots meta below is the per-page
-// belt; nuxt.config.ts routeRules also disallows /feed (X-Robots-Tag header +
-// sitemap exclusion via @nuxtjs/robots + @nuxtjs/sitemap). It is intentionally
-// not linked from nav/footer.
+// belt; nuxt.config.ts routeRules also disallows /feed/** (X-Robots-Tag header +
+// robots.txt disallow + sitemap exclusion). It is intentionally not linked from nav.
 useHead({
-  title: "Feed",
+  title: `Feed · ${routeDate.value}`,
   meta: [{ name: "robots", content: "noindex, nofollow" }],
 });
 </script>
