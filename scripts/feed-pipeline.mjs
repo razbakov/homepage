@@ -117,7 +117,7 @@ function ytdlpList(url, limit) {
 // Obvious filler we never want to even fetch transcripts for. The LLM does the
 // nuanced curation; this is just a cheap pre-filter on the title.
 const FILLER_RE =
-  /\b(fireplace|crackling|lofi|lo-fi|sleep music|rain sounds|ambience|ambient|live[: ]|🔴|mix -|official music video|music video|full match|highlights|vs\.?|nba|nfl|ufc|24\/7|asmr|нажив|новини|новости|радіо|radio)\b/i;
+  /(\b(fireplace|crackling|lofi|lo-fi|sleep music|rain sounds|ambience|ambient|chillout|chill out|deep house|lounge mix|official music video|music video|full match|highlights|nba|nfl|ufc|asmr|нажив|новини|новости|радіо|radio|official trailer|official video)\b|\b(claude ?fm|24\/7)\b|🔴|🍓|^mix -| - .*\bmix\b|\blive\b ?[:|]|\bvs\.? )/i;
 
 function collect({ source, candidates }) {
   const want = Number(candidates) || 40;
