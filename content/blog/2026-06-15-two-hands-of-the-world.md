@@ -3,7 +3,7 @@ title: "Two Hands of the World"
 description: "Why do some peoples write left to right and others right to left? An essay on the two hands of the soul — analysis and embrace, IQ and EQ, the two pillars of Kabbalah — and a people who refused to let one hand strangle the other."
 date: 2026-06-15
 image: /images/blog/two-hands-of-the-world.png
-telegram: # TODO: add after posting to Telegram
+telegram: https://t.me/razbakov/107
 heroImage: true
 category: Ideas
 tags:

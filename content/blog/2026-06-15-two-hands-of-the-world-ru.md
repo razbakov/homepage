@@ -3,6 +3,7 @@ title: "Две руки мира"
 description: "Почему одни народы пишут слева направо, а другие — справа налево? Эссе о двух руках души — анализе и объятии, IQ и EQ, двух столпах Каббалы — и о народе, который не дал одной руке задушить другую."
 date: 2026-06-15
 language: ru
+telegram: https://t.me/razbakov_ru/47
 image: /images/blog/two-hands-of-the-world.png
 heroImage: true
 category: Ideas
