@@ -65,7 +65,10 @@
       "alreadySubscribed": "Ya estás suscrito — ¡gracias!",
       "error": "Algo salió mal. Inténtalo de nuevo.",
       "checkInbox": "Ya casi — revisa tu bandeja de entrada y haz clic en el enlace para confirmar."
-    }
+    },
+    "salsaTitle": "Baila conmigo en Múnich",
+    "salsaDescription": "Clase gratis de Salsa Cubana para principiantes los domingos en Buena Vista Bar, y noche cubana los lunes en La Frida — con Montuno Club.",
+    "salsaCta": "Ver el horario"
   },
   "about": {
     "title": "Alösha",

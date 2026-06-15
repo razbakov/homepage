@@ -65,7 +65,10 @@
       "alreadySubscribed": "You're already subscribed — thanks!",
       "error": "Something went wrong. Please try again.",
       "checkInbox": "Almost there — check your inbox and click the link to confirm."
-    }
+    },
+    "salsaTitle": "Dance with me in Munich",
+    "salsaDescription": "Free Salsa Cubana beginner class Sundays at Buena Vista Bar, and a Cuban night Mondays at La Frida — with Montuno Club.",
+    "salsaCta": "See the schedule"
   },
   "about": {
     "title": "Alösha",
