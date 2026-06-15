@@ -233,6 +233,10 @@
       "invalidTitle": "Link expired or invalid",
       "invalidBody": "This confirmation link didn't work. Try subscribing again from the homepage.",
       "backHome": "Back to homepage"
+    },
+    "unsubscribed": {
+      "title": "You're unsubscribed",
+      "body": "You won't receive any more emails from this newsletter. No hard feelings — you can resubscribe anytime from the homepage."
     }
   }
 }
