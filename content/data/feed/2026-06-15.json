@@ -1,0 +1,118 @@
+{
+  "date": "2026-06-15",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 60,
+  "summarized": 11,
+  "items": [
+    {
+      "id": "b3jlsjOIOzs",
+      "title": "Why Claude Fable 5 Was Just Forced Offline",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration": "10:03",
+      "category": "AI / Anthropic",
+      "url": "https://youtu.be/b3jlsjOIOzs",
+      "summary": "Filmed mid-flight, 'because this is unprecedented.' A US government order moved to block foreign access to Anthropic's top models (Fable 5, Mythos 5) — covering foreign governments, companies, individuals, even foreign nationals inside the US. The only practical way to comply is to shut the models off for everyone. Three layers: a thin-but-real safety concern (a jailbreak pathway), a 'foreign nationals' legal fig-leaf, and a business reality that's why he doesn't think it lasts.",
+      "relevance": "The clearest read on the Fable export-control mess — and why frontier models being treated as controlled national-security assets, not software products, is the real story for anyone building on AI."
+    },
+    {
+      "id": "jB2iKoBSPyo",
+      "title": "Elon won after all",
+      "channel": "Theo - t3·gg",
+      "duration": "23:21",
+      "category": "AI / Industry",
+      "url": "https://youtu.be/jB2iKoBSPyo",
+      "summary": "The thing Microsoft, Google, and Anthropic share: they're all compute-constrained and can't make more money because they can't get enough GPUs. Anthropic is now paying SpaceX ~$1B/month for spare compute (the same SpaceX it banned over distillation fears); Google pays ~$920M/month. H100s are effectively sold out; even Western Digital sold out 2026 hard-drive capacity. Hence the title — Musk's compute position quietly became leverage over everyone.",
+      "relevance": "If you build on any frontier lab, this is the constraint that actually governs pricing and availability right now. Theo connects the dots better than the headlines do."
+    },
+    {
+      "id": "X_nWKJg_D6Q",
+      "title": "The Man Replacing LLMs (And He Has $1B to Prove It)",
+      "channel": "AI Explained-ish",
+      "duration": "10:10",
+      "category": "AI / Research",
+      "url": "https://youtu.be/X_nWKJg_D6Q",
+      "summary": "Yann LeCun (2018 Turing Award, 12 years as Meta's chief AI scientist) calls LLMs a dead end — and left to raise $1B for something different. The argument: LLMs only predict the next token; they know a dropped glass 'falls and breaks' because those words co-occur, not because they model gravity or momentum. His bet is on world models that actually represent physics, not pattern-matching over text.",
+      "relevance": "The most credible insider case against the LLM paradigm. Worth it to pressure-test your own assumption that scaling next-token prediction gets us all the way there."
+    },
+    {
+      "id": "flZaAYYrKpY",
+      "title": "Stop Using One LLM. Build an AI Council Instead.",
+      "channel": "Alex Shershebnev",
+      "duration": "5:43",
+      "category": "AI / Building",
+      "url": "https://youtu.be/flZaAYYrKpY",
+      "summary": "A concrete multi-agent workflow: spawn three parallel sub-agents (Claude, OpenAI Codex, Gemini Pro) on the same prompt, then have them grade each other's output to converge on the best answer. Demoed on a small, real task (naming a conference talk) — 15 candidates in the time it takes to refill coffee — with a meta twist: the script itself was produced this way.",
+      "relevance": "A clean, small demo of the 'AI council' pattern you already run with sub-agents. Good reminder that orchestration + cross-grading beats any single model on taste-driven tasks."
+    },
+    {
+      "id": "kKRt-jEzlpg",
+      "title": "Google Made AI 4x Faster With a Diffusion Model",
+      "channel": "Bitwise AI",
+      "duration": "4:43",
+      "category": "AI / Research",
+      "url": "https://youtu.be/kKRt-jEzlpg",
+      "summary": "Diffusion Gemma drops left-to-right autoregression: instead of generating one token at a time (bottlenecked by streaming all parameters out of memory per token), it starts with a block of ~256 garbage tokens and sharpens the whole block at once, like an image diffuser. Result: ~1,000 tokens/sec, runnable free on a single gaming GPU.",
+      "relevance": "Diffusion-for-text is the most interesting architectural shift in a while — if it generalizes, the latency math for local agents changes completely. Five minutes well spent."
+    },
+    {
+      "id": "gALuqvykC1c",
+      "title": "M5 Apple Vision Pro Review, But I Respect Your Time",
+      "channel": "Andrew Clare",
+      "duration": "4:20",
+      "category": "Apple / Vision Pro",
+      "url": "https://youtu.be/gALuqvykC1c",
+      "summary": "Tight, honest M5 AVP review. The new dual-knit band fixes cheekbone pressure; M5 is visibly snappier (faster startup, eye-tracking, refresh). Battery hits 3+ hours but he wants 6–8 to survive a transatlantic flight without a charger. His core point: AVP on long flights is genuinely transformative — 'why wouldn't you buy this' if you fly a lot — even if he won't tell you to spend $3,500.",
+      "relevance": "Straight to the point on the M5 bump, from someone who actually flies with it. The transatlantic-flight use case is exactly your kind of test for whether spatial computing earns its place."
+    },
+    {
+      "id": "KtZe9JSi04Y",
+      "title": "Quest 3 Graphics Just Made a Generational Leap",
+      "channel": "Gamertag VR",
+      "duration": "8:01",
+      "category": "Apple / Vision Pro",
+      "url": "https://youtu.be/KtZe9JSi04Y",
+      "summary": "Quest Optimizer added two visual boosters — Meta Quest Super Resolution (Snapdragon upscaling) and Fidelity FX CAS — both toggleable in options. They sharpen native Quest titles noticeably and also improve PC VR over Steam Link / Metal Link. Caveat: the gains are hard to prove on video, so it's a trust-me-tested claim.",
+      "relevance": "The counterweight to the AVP hardware story: Meta closing the visual-fidelity gap in software. Useful if you're tracking where standalone headsets actually are vs. the $3,500 option."
+    },
+    {
+      "id": "m0UjqT45JsQ",
+      "title": "Science is shattering our intuitions about consciousness | Annaka Harris",
+      "channel": "Big Think",
+      "duration": "10:14",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/m0UjqT45JsQ",
+      "summary": "Annaka Harris lays out the panpsychist case: if our intuition that consciousness 'arises from complex processing in brains' is wrong, maybe felt experience is a basic feature of nature — more like gravity, pervading everything. Anchored in Nagel's 'What is it like to be a bat?' to separate consciousness (felt experience) from cognition.",
+      "relevance": "A crisp, serious 10-minute primer on panpsychism. Good thinking fuel if the 'is consciousness fundamental?' question is in your orbit alongside the simulation stuff."
+    },
+    {
+      "id": "cXlxCOoNZ7E",
+      "title": "Spacetime Is The Memory Of A Self-Knowing Universe | Federico Faggin",
+      "channel": "Essentia Foundation-ish",
+      "duration": "1:22:00",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/cXlxCOoNZ7E",
+      "summary": "Federico Faggin — inventor of the first microprocessor — on his quantum theory of consciousness: body = classical information, mind = quantum information, spirit = meaning. Reality starts with 'one,' everything is interconnected, and each person must know themselves through direct experience rather than by 'reading a book and repeating it — that's what AI does.' Long, mystical, more philosophy than physics.",
+      "relevance": "The chip pioneer turned consciousness mystic. Speculative and heady, but the 'self-knowing through experience, not repetition' jab at AI is a sharp frame worth sitting with."
+    },
+    {
+      "id": "niRCi5zJvHU",
+      "title": "We made a window manager for macOS",
+      "channel": "Theo Browne / friends-ish",
+      "duration": "NA",
+      "category": "Building / Dev",
+      "url": "https://youtu.be/niRCi5zJvHU",
+      "summary": "Two devs ship Reef, a free open-source macOS window manager, because Command-Tab and dragging windows are too slow when you're cycling editor / Safari / terminal / GitHub CLI / Codex. Walkthrough of the problem, their design, and the genuinely painful lessons of building a first native app in Xcode (bugs they 'never thought were possible').",
+      "relevance": "Equal parts useful tool and honest field report on shipping native macOS in Xcode. The Xcode-pain section will feel familiar from your own native-app sprints."
+    },
+    {
+      "id": "kimf1nhQXaA",
+      "title": "He Cracked Multiple Realities... Then Died",
+      "channel": "Be Inspired",
+      "duration": "17:24",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/kimf1nhQXaA",
+      "summary": "A profile of Michael Talbot (The Holographic Universe): reality has many levels we simply haven't accessed; the world is one of multiple parallel realities we normally can't perceive. He was writing a book on the practical, everyday applications of the holographic idea — then died suddenly and strangely shortly after stating his thesis on TV.",
+      "relevance": "Holographic-universe lore with a documentary hook. More vibes than rigor, but it's the speculative-reality lane you enjoy — fine as background curiosity, not gospel."
+    }
+  ]
+}
