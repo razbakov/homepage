@@ -64,6 +64,15 @@
       <NuxtPage />
     </main>
 
+    <!-- Site-wide newsletter signup (end of articles, feed, and other pages).
+         Excluded on the homepage — which has its own in-hero signup — and on
+         the newsletter result / web100 / slides routes. -->
+    <section v-if="showNewsletter" class="container mx-auto px-4 mb-16">
+      <div class="max-w-3xl mx-auto">
+        <NewsletterSignup />
+      </div>
+    </section>
+
     <footer class="border-t border-border/50">
       <div class="flex justify-center">
         <NuxtImg
@@ -115,6 +124,16 @@ const { socialLinks } = useSocialLinks();
 const route = useRoute();
 const baseUrl = "https://razbakov.com";
 const locales = ["en", "de", "es", "ru", "uk"];
+
+// Show the site-wide newsletter band everywhere except the homepage (it has its
+// own in-hero signup) and a few routes where it would be redundant or off-flow.
+const showNewsletter = computed(() => {
+  const segments = route.path.split("/").filter(Boolean);
+  const rest = locales.includes(segments[0]) ? segments.slice(1) : segments;
+  const norm = "/" + rest.join("/");
+  if (norm === "/") return false; // homepage — already has a signup
+  return !/^\/(newsletter|web100|slides)(\/|$)/.test(norm);
+});
 
 useHead(() => {
   // Strip locale prefix to get the base path
