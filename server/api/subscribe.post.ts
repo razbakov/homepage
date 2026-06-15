@@ -1,5 +1,6 @@
 import { defineEventHandler, readBody, createError, getRequestURL } from "h3";
 import { createConfirmToken } from "../utils/newsletterToken";
+import { brandedEmail, sendNewsletterEmail, type Locale } from "../utils/newsletterMail";
 
 // Newsletter signup — double opt-in (GDPR).
 //
@@ -12,11 +13,6 @@ import { createConfirmToken } from "../utils/newsletterToken";
 // The Resend key never leaves the server — it is read from runtimeConfig.
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-const FROM = "Alösha <hello@razbakov.com>";
-const REPLY_TO = "alex@razbakov.com";
-
-type Locale = "en" | "de" | "es" | "ru" | "uk";
 
 // Confirmation email copy per locale. Kept here (not in i18n json) because it's
 // server-rendered HTML, never shipped to the client bundle.
@@ -57,19 +53,6 @@ const EMAIL: Record<Locale, { subject: string; heading: string; body: string; bu
     footer: "Якщо ви не запитували цей лист, просто проігноруйте його.",
   },
 };
-
-function confirmEmailHtml(confirmUrl: string, t: (typeof EMAIL)[Locale]): string {
-  return `<!doctype html>
-<html><body style="margin:0;background:#fffbf9;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#1f2937;">
-  <div style="max-width:480px;margin:0 auto;padding:40px 24px;">
-    <h1 style="font-size:22px;margin:0 0 16px;color:#111827;">${t.heading}</h1>
-    <p style="font-size:15px;line-height:1.6;margin:0 0 28px;color:#374151;">${t.body}</p>
-    <a href="${confirmUrl}" style="display:inline-block;background:#ff6f61;color:#ffffff;text-decoration:none;font-weight:600;font-size:15px;padding:12px 24px;border-radius:9999px;">${t.button}</a>
-    <p style="font-size:13px;line-height:1.6;margin:32px 0 0;color:#9ca3af;">${t.footer}</p>
-    <p style="font-size:13px;margin:8px 0 0;color:#9ca3af;">— Alösha · <a href="https://razbakov.com" style="color:#9ca3af;">razbakov.com</a></p>
-  </div>
-</body></html>`;
-}
 
 async function resendFetch(path: string, apiKey: string, init: RequestInit) {
   return fetch(`https://api.resend.com${path}`, {
@@ -134,17 +117,13 @@ export default defineEventHandler(async (event) => {
   const origin = getRequestURL(event).origin;
   const confirmUrl = `${origin}/api/confirm?token=${encodeURIComponent(token)}&l=${locale}`;
   const copy = EMAIL[locale];
-
-  const mailRes = await resendFetch(`/emails`, resendApiKey, {
-    method: "POST",
-    body: JSON.stringify({
-      from: FROM,
-      to: email,
-      reply_to: REPLY_TO,
-      subject: copy.subject,
-      html: confirmEmailHtml(confirmUrl, copy),
-    }),
+  const html = brandedEmail({
+    heading: copy.heading,
+    body: copy.body,
+    footer: copy.footer,
+    cta: { label: copy.button, href: confirmUrl },
   });
+  const mailRes = await sendNewsletterEmail(resendApiKey, email, copy.subject, html);
 
   if (!mailRes.ok) {
     const detail = await mailRes.text();
