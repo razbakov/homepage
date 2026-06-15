@@ -148,7 +148,11 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   compatibilityDate: "2025-01-07",
   nitro: {
-    preset: "static",
+    // `netlify` preset (not `static`): prerendered pages still ship as static
+    // HTML, but dynamic server routes (e.g. /api/subscribe) are emitted as
+    // Netlify Functions so they run at request time. A pure `static` preset
+    // would silently drop the subscribe endpoint.
+    preset: "netlify",
     prerender: {
       crawlLinks: true,
       routes: [
@@ -168,6 +172,11 @@ export default defineNuxtConfig({
     },
   },
   runtimeConfig: {
+    // Server-only (private). Populated at runtime from NUXT_RESEND_API_KEY and
+    // NUXT_RESEND_AUDIENCE_ID env vars. NEVER move these into `public` — the
+    // Resend key must never reach the client bundle.
+    resendApiKey: "",
+    resendAudienceId: "",
     public: {
       posthogPublicKey: config.site.analytics.posthog.publicKey,
       posthogHost: config.site.analytics.posthog.host,

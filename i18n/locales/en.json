@@ -54,6 +54,16 @@
       "thinking": "Thinking",
       "optimizing": "Optimizing",
       "exploring": "Exploring"
+    },
+    "newsletter": {
+      "title": "Get my newsletter",
+      "valueProp": "New blog posts, projects, activities, and collaborations — straight to your inbox. No spam.",
+      "emailLabel": "Email address",
+      "placeholder": "you{'@'}email.com",
+      "button": "Subscribe",
+      "success": "You're in! Check your inbox soon.",
+      "alreadySubscribed": "You're already subscribed — thanks!",
+      "error": "Something went wrong. Please try again."
     }
   },
   "about": {

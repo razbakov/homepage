@@ -1,6 +1,10 @@
 [build]
   command = "pnpm build"
-  publish = ".output/public"
+  # `nuxt build` with the Nitro `netlify` preset writes prerendered static
+  # pages to dist/ and dynamic server routes (e.g. /api/subscribe) to
+  # .netlify/functions-internal/ (auto-detected by Netlify). Was .output/public
+  # under the old `nuxt generate` (static) flow, which had no server runtime.
+  publish = "dist"
 
 [build.environment]
   NODE_OPTIONS = "--max-old-space-size=4096"
