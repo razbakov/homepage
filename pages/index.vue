@@ -52,6 +52,21 @@
           </div>
         </div>
 
+        <!-- Daily YouTube feed highlight -->
+        <NuxtLink
+          to="/feed"
+          class="flex items-center gap-4 p-5 rounded-lg border border-coral-200 bg-coral-50/40 hover:border-coral-400 hover:bg-coral-50 transition-all mb-4 group"
+        >
+          <div class="flex items-center justify-center w-10 h-10 rounded-lg bg-coral-500/10 border border-coral-500/20 shrink-0">
+            <Icon name="lucide:youtube" class="w-5 h-5 text-coral-600" />
+          </div>
+          <div class="flex-1 min-w-0">
+            <h3 class="font-semibold group-hover:text-coral-700 transition-colors">My daily YouTube feed</h3>
+            <p class="text-sm text-muted-foreground">The videos worth my time — AI, Apple, consciousness, science — summarized, with my take on each.</p>
+          </div>
+          <span class="text-coral-600 text-sm font-medium shrink-0 hidden sm:block">Today →</span>
+        </NuxtLink>
+
         <!-- Academy banner -->
         <a
           href="https://learn-by-doing-academy.com"

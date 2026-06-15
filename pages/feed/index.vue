@@ -11,9 +11,9 @@
             YouTube feed
           </h1>
           <p class="text-muted-foreground max-w-xl mx-auto">
-            A daily, summarized digest of YouTube homepage recommendations — each
-            with a per-video note on why it matters to your projects. One page per
-            day; history is kept.
+            A daily, summarized digest of the videos worth my time — AI, Apple,
+            consciousness, science — each with my take on why it's interesting.
+            One page per day; the archive stays up.
           </p>
         </header>
 
@@ -86,11 +86,10 @@ function formatDate(date) {
   });
 }
 
-// SEO: this page is UNLISTED + NOINDEX (see nuxt.config.ts routeRules for
-// /feed/**). It is the durable entry point for the feed but is not linked
-// anywhere in nav/footer.
+// Public, indexable. Durable entry point for the daily feed; linked from the
+// homepage and included in the sitemap.
 useHead({
-  title: "Feed",
-  meta: [{ name: "robots", content: "noindex, nofollow" }],
+  title: "YouTube feed",
+  meta: [{ name: "description", content: "Alösha's daily, summarized digest of the YouTube videos worth your time — AI, Apple, consciousness, science — with a personal take on each." }],
 });
 </script>
