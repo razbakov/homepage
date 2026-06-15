@@ -1,0 +1,128 @@
+{
+  "date": "2026-06-14",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 45,
+  "summarized": 12,
+  "items": [
+    {
+      "id": "b3jlsjOIOzs",
+      "title": "Why Claude Fable 5 Was Just Forced Offline",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration": "10:03",
+      "category": "AI / Anthropic / Fable",
+      "url": "https://youtu.be/b3jlsjOIOzs",
+      "summary": "Analysis of the US export-control takedown. Three layers: a real safety concern (a jailbreak likely generalizes across frontier models), a 'foreign nationals' legal fig-leaf that in practice = a full shutdown, and business reality → he expects it resolved soon.",
+      "relevance": "You run a Claude-based agent team and the ban hit you personally — his 'never depend on one model/lab/country' point is a direct ops-risk lesson."
+    },
+    {
+      "id": "0pgCBV8CTZY",
+      "title": "Anthropic is starting to panic…",
+      "channel": "Fireship",
+      "duration": "5:03",
+      "category": "AI / Anthropic / Fable",
+      "url": "https://youtu.be/0pgCBV8CTZY",
+      "summary": "Anthropic passes OpenAI in valuation + files a trillion-$ IPO, yet proposes a global AI 'pause' over recursive self-improvement (conveniently freezing its lead). Cites the 'AI Layoff Trap' paper and MIT's 95%-of-AI-projects-zero-ROI finding.",
+      "relevance": "The IPO/'pause' politics behind the Fable ban you're living through. 5-min context."
+    },
+    {
+      "id": "1PBRhm5ZnjU",
+      "title": "Anthropic begged the world to stop AI… then shipped this",
+      "channel": "Fireship",
+      "duration": "5:08",
+      "category": "AI / Anthropic / Fable",
+      "url": "https://youtu.be/1PBRhm5ZnjU",
+      "summary": "Fable = Mythos + a safety 'muzzle': $50/M output tokens vs $25 Opus; classifiers block cyber/bio/chem/distillation and route those to Opus; free on paid plans till Jun 22. Strong reviews (Bend creator's 'singularity moment').",
+      "relevance": "Explains Fable's price + muzzle vs Opus — you build with Claude Code daily, so this is your tooling."
+    },
+    {
+      "id": "TzJCly4YgDQ",
+      "title": "I Made Opus 4.8 and Fable 5 Build the Same App (RAW RESULTS)",
+      "channel": "Pat Simmons",
+      "duration": "21:11",
+      "category": "AI / Anthropic / Fable",
+      "url": "https://youtu.be/TzJCly4YgDQ",
+      "summary": "One-shot builds of an e-commerce store, a 3D art-history museum, and an Age of Empires clone. Fable 5 won all three — faster, more token-efficient (cheaper net despite higher price), better taste, working interactivity where Opus broke.",
+      "relevance": "Direct comparison of the exact models your agents run; the token-efficiency speaks to your build costs."
+    },
+    {
+      "id": "tSg3FAdWvzI",
+      "title": "Claude Fable 5 UI/UX One-Shots - 5 Tests",
+      "channel": "DesignCourse",
+      "duration": "8:21",
+      "category": "AI / Anthropic / Fable",
+      "url": "https://youtu.be/tSg3FAdWvzI",
+      "summary": "Five one-shot UI generations (award portfolio, 3JS gallery, hero redesign, Craigslist modernization, recreate an award site). Calls it the best one-shot UI he's seen; argues taste still separates the top 10% of designers.",
+      "relevance": "One-shot UI quality — useful for razbakov.com, Web100 client sites, and rapid mockups."
+    },
+    {
+      "id": "i9TvUGeTltE",
+      "title": "My Take on The New Apple",
+      "channel": "Marques Brownlee",
+      "duration": "11:09",
+      "category": "Apple / Vision Pro",
+      "url": "https://youtu.be/i9TvUGeTltE",
+      "summary": "Tim Cook → chairman; John Ternus (a hardware/product guy) becomes CEO in Sept, capping a coordinated generational handover of Apple's C-suite. Hopes for bolder hardware (folding iPhone) over the services drift; worries Apple plays too safe.",
+      "relevance": "Apple shifting to a product CEO — context for betting Loci on Apple's near-term roadmap."
+    },
+    {
+      "id": "x7VDNH3SIJQ",
+      "title": "Is Apple Vision Pro Dead? I Asked Apple's CFO",
+      "channel": "Bobby Tonelli",
+      "duration": "6:13",
+      "category": "Apple / Vision Pro",
+      "url": "https://youtu.be/x7VDNH3SIJQ",
+      "summary": "Interview with CFO Kevan Parekh at NUS Singapore. Frames AVP as a long-term ecosystem play in 'early innings' — real traction in surgical training, education, and design/HVAC visualization. Message: not dead, developer-first.",
+      "relevance": "Apple's own framing of AVP as long-term — a signal for your Loci/VPG path."
+    },
+    {
+      "id": "xqz0j21oc-U",
+      "title": "Siri AI in Vision Pro - First Look",
+      "channel": "Himels Tech",
+      "duration": "11:26",
+      "category": "Apple / Vision Pro",
+      "url": "https://youtu.be/xqz0j21oc-U",
+      "summary": "Hands-on with visionOS 27 dev-beta Siri: LLM-based, contextual across iMessage/photos/calendar, sees through your gaze, movable orb. Nails some queries (flight/hotel context, plant ID), misses many (group texts, bill-split). Promising but beta-rough.",
+      "relevance": "Literally the surface you're building Loci on (Foundation Models, App Intents, spatial)."
+    },
+    {
+      "id": "djJXKfS9zTw",
+      "title": "Why you don't really exist | Sam Harris, Roger Penrose, Sophie Scott",
+      "channel": "The Institute of Art and Ideas",
+      "duration": "23:54",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/djJXKfS9zTw",
+      "summary": "Panel on the self. Harris: the 'I' behind experience is an illusion (though consciousness itself can't be); Penrose: ties self to consciousness, split-brain complicates it; Scott: self = brain network + memory + social modeling.",
+      "relevance": "The self as illusion — feeds Agora's 'personal sovereignty' layer and your dual-register Loci thinking."
+    },
+    {
+      "id": "EykaPqzzdQg",
+      "title": "What's Outside The Simulation w/ Donald Hoffman?",
+      "channel": "Tom Bilyeu",
+      "duration": "1:40:03",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/EykaPqzzdQg",
+      "summary": "Hoffman: spacetime isn't fundamental ('doomed' at the Planck scale); reality is conscious agents + Markov chains, and science could find the 'code' outside the headset and edit it → magic-like tech. Bilyeu counters: we're computational NPCs with no exit and no free will. Long, speculative.",
+      "relevance": "Consciousness-as-fundamental + agents — aligns with your Agora + AI-governance worldview."
+    },
+    {
+      "id": "9lPYPVxxQBU",
+      "title": "If You Hack The Code Of Reality, You Become God | Dr Melvin Vopson",
+      "channel": "The Peter McCormack Show",
+      "duration": "1:23:26",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/9lPYPVxxQBU",
+      "summary": "Vopson's 'information physics': information as a 5th state of matter with mass; his 'second law of infodynamics' (the universe compresses/optimizes → symmetry, error-correcting codes in string theory) as evidence reality is computational; dark matter as the 'code'; a fly-brain emulation as proof life can be simulated. Heavy speculation (incl. reading John 1:1 as 'God is an AI').",
+      "relevance": "Information physics + simulation — same philosophical lane as Agora / liquid democracy."
+    },
+    {
+      "id": "8HBDE-msUjw",
+      "title": "Weird Things Happen When You Look At The Gaps Between Primes",
+      "channel": "Veritasium",
+      "duration": "41:30",
+      "category": "Science",
+      "url": "https://youtu.be/8HBDE-msUjw",
+      "summary": "The twin-prime story: Brun's sieve → Yitang Zhang's 2013 breakthrough (bounded gap of 70M, done in obscurity) → Maynard/Tao/Polymath pushing it to 246. The 'one-half barrier' was a mirage.",
+      "relevance": "No project tie — pure enjoyment, plus the 'ignoring impossible is how it got solved' meta-lesson."
+    }
+  ]
+}

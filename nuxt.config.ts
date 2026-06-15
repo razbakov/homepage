@@ -19,6 +19,20 @@ const hiddenRoutes = (() => {
   }
 })();
 
+// Collect a prerender route per dated feed file (content/data/feed/YYYY-MM-DD.json).
+// The /feed history index links to these, but we list them explicitly so each
+// day's page is prerendered even without crawling. History is the set of files.
+const feedRoutes = (() => {
+  const dir = resolve("./content/data/feed");
+  try {
+    return readdirSync(dir)
+      .filter((f) => /^\d{4}-\d{2}-\d{2}\.json$/.test(f))
+      .map((f) => `/feed/${f.replace(/\.json$/, "")}`);
+  } catch {
+    return [];
+  }
+})();
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   app: {
@@ -123,6 +137,14 @@ export default defineNuxtConfig({
     prefix: "",
     componentDir: "./components/ui",
   },
+  routeRules: {
+    // /feed is Alex's private "morning intelligence" page — unlisted + noindex.
+    // `robots: false` makes @nuxtjs/robots emit X-Robots-Tag: noindex,nofollow
+    // and disallow it in robots.txt; @nuxtjs/sitemap reads the same rule and
+    // excludes it from the sitemap. The page also sets a robots meta tag itself.
+    "/feed": { robots: false },
+    "/feed/**": { robots: false },
+  },
   devtools: { enabled: true },
   compatibilityDate: "2025-01-07",
   nitro: {
@@ -131,6 +153,9 @@ export default defineNuxtConfig({
       crawlLinks: true,
       routes: [
         "/", "/about", "/blog", "/projects", "/cv", "/slides", "/privacy", "/web100",
+        // Unlisted, noindex "morning intelligence" feed (see routeRules + pages/feed/)
+        "/feed",
+        ...feedRoutes,
         // Unlisted blog posts (hidden from listings, accessible via direct link)
         "/blog/2026-03-25-why-openclaw-has-no-soul",
         "/blog/2026-03-25-my-ai-team-runs-my-day",
