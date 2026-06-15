@@ -65,7 +65,10 @@
       "alreadySubscribed": "Du bist bereits angemeldet — danke!",
       "error": "Etwas ist schiefgelaufen. Bitte versuche es erneut.",
       "checkInbox": "Fast geschafft — schau in dein Postfach und klicke den Link zur Bestätigung."
-    }
+    },
+    "salsaTitle": "Tanz mit mir in München",
+    "salsaDescription": "Kostenlose Salsa-Cubana-Anfängerstunde sonntags im Buena Vista Bar und kubanische Nacht montags im La Frida — mit Montuno Club.",
+    "salsaCta": "Zum Stundenplan"
   },
   "about": {
     "title": "Alösha",

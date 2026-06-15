@@ -72,7 +72,7 @@
           href="https://learn-by-doing-academy.com"
           target="_blank"
           rel="noopener noreferrer"
-          class="flex items-center gap-4 p-5 rounded-lg border border-border/50 hover:border-primary/30 hover:bg-muted/50 transition-all mb-8 group"
+          class="flex items-center gap-4 p-5 rounded-lg border border-border/50 hover:border-primary/30 hover:bg-muted/50 transition-all mb-4 group"
         >
           <div class="flex items-center justify-center w-10 h-10 rounded-lg bg-emerald-500/10 border border-emerald-500/20 shrink-0">
             <span class="text-emerald-600 dark:text-emerald-400 font-mono font-bold text-xs">&lt;LBD&gt;</span>
@@ -82,6 +82,23 @@
             <p class="text-sm text-muted-foreground">{{ $t('home.academyDescription') }}</p>
           </div>
           <span class="text-primary text-sm font-medium shrink-0 hidden sm:block">{{ $t('home.academyCta') }} →</span>
+        </a>
+
+        <!-- Salsa classes (Montuno Club) -->
+        <a
+          href="https://montuno.club"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="flex items-center gap-4 p-5 rounded-lg border border-border/50 hover:border-coral-300 hover:bg-coral-50/40 transition-all mb-8 group"
+        >
+          <div class="flex items-center justify-center w-10 h-10 rounded-lg bg-coral-500/10 border border-coral-500/20 shrink-0">
+            <Icon name="lucide:music" class="w-5 h-5 text-coral-600 dark:text-coral-400" />
+          </div>
+          <div class="flex-1 min-w-0">
+            <h3 class="font-semibold group-hover:text-coral-700 dark:group-hover:text-coral-400 transition-colors">{{ $t('home.salsaTitle') }}</h3>
+            <p class="text-sm text-muted-foreground">{{ $t('home.salsaDescription') }}</p>
+          </div>
+          <span class="text-coral-600 text-sm font-medium shrink-0 hidden sm:block">{{ $t('home.salsaCta') }} →</span>
         </a>
 
         <!-- Services nudge -->
