@@ -63,7 +63,8 @@
       "button": "Suscribirme",
       "success": "¡Listo! Revisa tu correo pronto.",
       "alreadySubscribed": "Ya estás suscrito — ¡gracias!",
-      "error": "Algo salió mal. Inténtalo de nuevo."
+      "error": "Algo salió mal. Inténtalo de nuevo.",
+      "checkInbox": "Ya casi — revisa tu bandeja de entrada y haz clic en el enlace para confirmar."
     }
   },
   "about": {
@@ -224,5 +225,14 @@
     "learnMore": "Más información",
     "accept": "Aceptar",
     "decline": "Rechazar"
+  },
+  "newsletter": {
+    "confirmed": {
+      "title": "¡Estás suscrito! 🎉",
+      "body": "Gracias por confirmar. Ahora recibirás novedades sobre nuevas publicaciones, proyectos y colaboraciones.",
+      "invalidTitle": "Enlace caducado o no válido",
+      "invalidBody": "Este enlace de confirmación no funcionó. Intenta suscribirte de nuevo desde la página principal.",
+      "backHome": "Volver al inicio"
+    }
   }
 }

@@ -63,7 +63,8 @@
       "button": "Subscribe",
       "success": "You're in! Check your inbox soon.",
       "alreadySubscribed": "You're already subscribed — thanks!",
-      "error": "Something went wrong. Please try again."
+      "error": "Something went wrong. Please try again.",
+      "checkInbox": "Almost there — check your inbox and click the link to confirm."
     }
   },
   "about": {
@@ -224,5 +225,14 @@
     "learnMore": "Learn more",
     "accept": "Accept",
     "decline": "Decline"
+  },
+  "newsletter": {
+    "confirmed": {
+      "title": "You're subscribed! 🎉",
+      "body": "Thanks for confirming. You'll now get updates on new posts, projects, and collaborations.",
+      "invalidTitle": "Link expired or invalid",
+      "invalidBody": "This confirmation link didn't work. Try subscribing again from the homepage.",
+      "backHome": "Back to homepage"
+    }
   }
 }

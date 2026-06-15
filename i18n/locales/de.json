@@ -63,7 +63,8 @@
       "button": "Abonnieren",
       "success": "Geschafft! Schau bald in dein Postfach.",
       "alreadySubscribed": "Du bist bereits angemeldet — danke!",
-      "error": "Etwas ist schiefgelaufen. Bitte versuche es erneut."
+      "error": "Etwas ist schiefgelaufen. Bitte versuche es erneut.",
+      "checkInbox": "Fast geschafft — schau in dein Postfach und klicke den Link zur Bestätigung."
     }
   },
   "about": {
@@ -224,5 +225,14 @@
     "learnMore": "Mehr erfahren",
     "accept": "Akzeptieren",
     "decline": "Ablehnen"
+  },
+  "newsletter": {
+    "confirmed": {
+      "title": "Du bist dabei! 🎉",
+      "body": "Danke für die Bestätigung. Du bekommst jetzt Updates zu neuen Beiträgen, Projekten und Kooperationen.",
+      "invalidTitle": "Link abgelaufen oder ungültig",
+      "invalidBody": "Dieser Bestätigungslink hat nicht funktioniert. Versuche es erneut über die Startseite.",
+      "backHome": "Zurück zur Startseite"
+    }
   }
 }
