@@ -233,6 +233,10 @@
       "invalidTitle": "Link abgelaufen oder ungültig",
       "invalidBody": "Dieser Bestätigungslink hat nicht funktioniert. Versuche es erneut über die Startseite.",
       "backHome": "Zurück zur Startseite"
+    },
+    "unsubscribed": {
+      "title": "Du bist abgemeldet",
+      "body": "Du erhältst keine weiteren E-Mails aus diesem Newsletter. Alles gut — du kannst dich jederzeit auf der Startseite wieder anmelden."
     }
   }
 }

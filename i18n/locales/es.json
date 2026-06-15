@@ -233,6 +233,10 @@
       "invalidTitle": "Enlace caducado o no válido",
       "invalidBody": "Este enlace de confirmación no funcionó. Intenta suscribirte de nuevo desde la página principal.",
       "backHome": "Volver al inicio"
+    },
+    "unsubscribed": {
+      "title": "Te has dado de baja",
+      "body": "No recibirás más correos de este boletín. Sin problema — puedes volver a suscribirte cuando quieras desde la página principal."
     }
   }
 }
