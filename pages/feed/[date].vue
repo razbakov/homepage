@@ -94,11 +94,11 @@
                       {{ item.summary }}
                     </p>
 
-                    <!-- "Why it matters to you" — visually distinct relevance line -->
+                    <!-- "Alösha's take" — visually distinct curator note -->
                     <div class="flex gap-2 rounded-lg border border-coral-200 bg-coral-50/40 px-3 py-2">
                       <Icon name="lucide:sparkles" class="w-4 h-4 text-coral-600 shrink-0 mt-0.5" />
                       <p class="text-sm text-foreground/90 leading-relaxed">
-                        <span class="font-semibold text-coral-700">Why it matters to you: </span>
+                        <span class="font-semibold text-coral-700">Alösha's take: </span>
                         {{ item.relevance }}
                       </p>
                     </div>
@@ -212,11 +212,12 @@ function youtubeThumbnail(url) {
   return id ? `https://i.ytimg.com/vi/${id}/hqdefault.jpg` : "";
 }
 
-// SEO: this page is UNLISTED + NOINDEX. The robots meta below is the per-page
-// belt; nuxt.config.ts routeRules also disallows /feed/** (X-Robots-Tag header +
-// robots.txt disallow + sitemap exclusion). It is intentionally not linked from nav.
+// Public, indexable content (Alösha's daily YouTube digest). Linked from the
+// homepage and included in the sitemap.
 useHead({
-  title: `Feed · ${routeDate.value}`,
-  meta: [{ name: "robots", content: "noindex, nofollow" }],
+  title: `YouTube feed · ${routeDate.value}`,
+  meta: [
+    { name: "description", content: `Alösha's summarized digest of YouTube recommendations for ${routeDate.value} — AI, Apple, consciousness, science, with a personal take on each.` },
+  ],
 });
 </script>
