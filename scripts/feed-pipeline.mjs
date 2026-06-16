@@ -83,16 +83,43 @@ function todayBerlin() {
 }
 
 /* ------------------------------------------------------------------ *
- * (a) COLLECT — yt-dlp + Chrome cookies. recs primary, subs fallback. *
+ * (a) COLLECT — yt-dlp + a cookies FILE. recs primary, subs fallback. *
  * ------------------------------------------------------------------ */
+
+// We read cookies from a plain file, NOT --cookies-from-browser, because the
+// 8am launchd run happens with the screen locked → the login keychain is locked
+// → decrypting Chrome's cookies hangs on a prompt nobody can answer (it gets
+// killed at the timeout, yielding zero candidates). A cookies file needs no
+// keychain. We refresh it opportunistically whenever the machine IS unlocked.
+const COOKIE_FILE =
+  process.env.FEED_COOKIES || join(homedir(), ".config/feed/yt-cookies.txt");
+
+// Try to refresh the cookies file from the live browser. Non-fatal and
+// short-timed: if the keychain is locked (screen locked) this hangs and gets
+// killed, leaving the last good file in place — exactly what we want.
+function refreshCookies() {
+  if (process.env.FEED_SKIP_COOKIE_REFRESH) return;
+  try { mkdirSync(dirname(COOKIE_FILE), { recursive: true }); } catch {}
+  const res = spawnSync(
+    "yt-dlp",
+    ["--no-update", "--cookies-from-browser", "chrome", "--cookies", COOKIE_FILE,
+     "--flat-playlist", "--playlist-end", "1", "--print", "%(id)s",
+     "https://www.youtube.com/feed/subscriptions"],
+    { encoding: "utf8", timeout: 45000 }
+  );
+  log(res.status === 0
+    ? "cookies: refreshed from browser (machine unlocked)"
+    : "cookies: refresh skipped (browser locked/unavailable) — using last saved file");
+}
 
 function ytdlpList(url, limit) {
   // --flat-playlist is fast (no per-video network); we resolve real metadata in (b).
   const res = spawnSync(
     "yt-dlp",
     [
-      "--cookies-from-browser",
-      "chrome",
+      "--no-update",
+      "--cookies",
+      COOKIE_FILE,
       "--flat-playlist",
       "--playlist-end",
       String(limit),
@@ -124,6 +151,8 @@ function collect({ source, candidates }) {
   const tryRecs = source !== "subs";
   let items = [];
   let used = source === "subs" ? "subs" : "recs";
+
+  refreshCookies(); // keep the file fresh when unlocked; no-op/keeps file when locked
 
   if (tryRecs) {
     log("collect: trying personalized homepage recommendations…");
