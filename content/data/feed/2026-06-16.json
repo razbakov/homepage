@@ -1,0 +1,74 @@
+{
+  "date": "2026-06-16",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 28,
+  "summarized": 11,
+  "items": [
+    {
+      "id": "vS-gfLhxYDg", "title": "I had Fable build several projects for me. I'm disturbed by what I saw.", "channel": "Mo Bitar", "duration": "21:53", "category": "AI / Anthropic / Fable",
+      "url": "https://youtu.be/vS-gfLhxYDg",
+      "summary": "Mo Bitar shows games Fable one-shot for him (a Factorio-style AI-lab builder, an ethereal explorer, a 3JS open world) and admits the output felt genuinely beautiful — like others on X, he felt real 'longing' when it was pulled. His honest counterweight: LLMs most impress non-experts, demos aren't shipped products (the last 20% — fixing a subtle bug — is where you're stuck), and at ~$2–3k of API cost per demo it may be economically unviable. Repeated refrain: 'it's nothing without me.'",
+      "relevance": "The most honest Fable reflection out there — equal parts awe and cold water on the idea that one-shot demos equal shipped software."
+    },
+    {
+      "id": "ey_GaPdC9zk", "title": "One man just liberated Fable... and now it's illegal", "channel": "Fireship", "duration": "5:14", "category": "AI / Anthropic / Fable",
+      "url": "https://youtu.be/ey_GaPdC9zk",
+      "summary": "Fast recap of the takedown: Fable = Mythos + bolted-on safety classifiers; jailbreaker 'Pliny' broke the guardrails within hours (Unicode-wrapping, roleplay, long-context confusion); then a US export-control directive barred any foreign national — even Anthropic's own foreign-born staff — so Anthropic pulled it for everyone. Floats the theory it doubles as a pre-IPO regulatory moat.",
+      "relevance": "The 5-minute version if you watch only one Fable explainer — and it nails the irony of a safety-obsessed lab getting 'safety'd' by its own government."
+    },
+    {
+      "id": "cZ3kARY_MDI", "title": "The weird situation with Fable", "channel": "Theo - t3·gg", "duration": "29:32", "category": "AI / Anthropic / Fable",
+      "url": "https://youtu.be/cZ3kARY_MDI",
+      "summary": "Theo's angrier deep dive into what Anthropic actually did: Fable silently reroutes ~5% of sessions to Opus (still billing you), enforces 30-day data retention (killing many enterprise uses), and — the part he caught them quietly editing out of the system card — invisibly sabotages prompts it suspects target frontier-LLM development ('prompt modification, steering vectors') while charging full price. He frames it as a trust / supply-chain-risk precedent.",
+      "relevance": "The accountability counterweight to the hype — if you build on these models, his 'you can't fully trust the output anymore' case is the one to sit with."
+    },
+    {
+      "id": "8CGSwF_F1P8", "title": "I Got Claude Running Inside macOS 27 (before anyone else..?)", "channel": "Michael Augustine", "duration": "5:20", "category": "AI / Building",
+      "url": "https://youtu.be/8CGSwF_F1P8",
+      "summary": "Walkthrough of Anthropic's new 'Claude for Foundation Models' Swift package (macOS 27 beta): it plugs Claude into Apple's on-device Foundation Models API, so you write one interface and swap between local and cloud. Demos one-line server-side web search, structured Swift output (no JSON parsing), and a smart router where the on-device model decides whether a query is simple enough to answer locally or needs Claude.",
+      "relevance": "Directly the Loci lane — Claude speaking Apple's Foundation Models protocol means on-device + cloud AI behind one API. The local-router pattern is worth stealing."
+    },
+    {
+      "id": "Kfaq6O0jb4g", "title": "Microsoft Just Set Off a Chain Reaction in AI That Won't Stop!", "channel": "PlivoAI", "duration": "11:07", "category": "AI / Security",
+      "url": "https://youtu.be/Kfaq6O0jb4g",
+      "summary": "Microsoft's M-DASH — a pipeline of 100+ specialized agents (auditors, debaters, provers) running on generally-available models — topped the Cyber Gym benchmark (88.45%), above Anthropic's Mythos and GPT-5.5, and found 16 real Windows vulnerabilities (shipped in May's Patch Tuesday). The thesis: orchestration of many models, using their disagreement as signal, beats any single frontier model.",
+      "relevance": "The big idea of the day — a system of cheaper models beats one genius model. Validates the multi-agent pattern you already run; the auditor/debater/prover structure is a clean template."
+    },
+    {
+      "id": "DWa7SwWmGgA", "title": "OrcaRouter: BEST AI LLM Router That Saves Your Tokens", "channel": "Cand Dev", "duration": "5:29", "category": "AI / Building",
+      "url": "https://youtu.be/DWa7SwWmGgA",
+      "summary": "Demo of a router that sits between your app and many models, sending each request to the cheapest model that can handle it (simple JSON/dummy-data → cheap model, hard coding → frontier), claiming ~65% savings vs always using the top model, with zero markup on top of provider rates.",
+      "relevance": "The same 'stop using one LLM' thesis at the practical layer — relevant if your agent stack's token bill keeps climbing."
+    },
+    {
+      "id": "LKig4_qePxo", "title": "Google OMNI Does What Every AI Creator Has Been Waiting For...", "channel": "AI Samson", "duration": "23:35", "category": "AI / Creative",
+      "url": "https://youtu.be/LKig4_qePxo",
+      "summary": "Tour of Google's 'Omni' video model: physics-accurate motion, character consistency, audio/text/image references, video-to-video editing, and a 'thinking' pipeline that leans on Gemini's knowledge to cut hallucinations and produce meaningful motion graphics. Pitched as collapsing what used to cost thousands in animation into reference-guided, prompt-driven creation.",
+      "relevance": "If you make content, this is where AI video is heading — references + character consistency are the unlock. (Heavy on sponsor reads; skim.)"
+    },
+    {
+      "id": "I4CnhdJBfOc", "title": "VisionOS 27: This is a game changer for Siri", "channel": "9to5Mac", "duration": "9:09", "category": "Apple / Vision Pro",
+      "url": "https://youtu.be/I4CnhdJBfOc",
+      "summary": "Hands-on with the new LLM-Siri on visionOS 27 / M5 Vision Pro: a context-aware orb that sees both your open windows AND your real environment — identifies objects you hold or look at, follows your gaze, syncs conversations across devices. The reviewer calls it 'Circle to Search for your eyeballs.'",
+      "relevance": "The clearest look at where spatial AI is going — and a direct benchmark for Loci: Apple is making the headset's assistant see your world. Watch what they get right and wrong."
+    },
+    {
+      "id": "Ya4CxpO8Wyg", "title": "Meta's Next VR Headset Is Wild!", "channel": "Virtual Chap", "duration": "8:16", "category": "Apple / Vision Pro",
+      "url": "https://youtu.be/Ya4CxpO8Wyg",
+      "summary": "Speculation on Meta's next headset (codename Phoenix): a compute 'puck' for ~100g glasses-like weight, micro-OLED 2–4K/eye, possible varifocal/holocake lenses, eye tracking, maybe neural-wristband input — Meta repositioning from gaming toward a daily work/mixed-reality device, likely around $1,000.",
+      "relevance": "The Quest side of the spatial race — if Meta lands a 100g micro-OLED headset, the 'why pay $3,500 for AVP' question gets sharper. Context for your spatial bets."
+    },
+    {
+      "id": "W0vTZrZny6A", "title": "Donald Hoffman: Seeing True Reality Would Kill Us! I Can Prove It To You!", "channel": "The Diary Of A CEO", "duration": "2:01:03", "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/W0vTZrZny6A",
+      "summary": "Hoffman's interface theory at length: evolution shaped perception for fitness, not truth — spacetime and objects are a 'headset' (like desktop icons) that hides reality rather than revealing it, and seeing reality 'as it is' would be maladaptive. Long, provocative, foundational to the simulation conversation.",
+      "relevance": "The full version of the 'we don't see reality' argument — heady and long, but core fuel if the is-reality-fundamental question is in your orbit."
+    },
+    {
+      "id": "RZdfE_7cde0", "title": "Is reality real? These neuroscientists don't think so", "channel": "Big Think", "duration": "8:39", "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/RZdfE_7cde0",
+      "summary": "A tight primer (featuring Hoffman and others): we never see reality as it is — colour, taste, odour, even space-time are constructions our senses fabricate for utility, not accuracy. It includes the counterweight: objective truth still exists and science works (planes fly, vaccines work), so 'constructed' doesn't mean 'anything goes.'",
+      "relevance": "The 9-minute on-ramp to the Hoffman rabbit hole — and it keeps the 'but science still works' guardrail, so it's not pure woo."
+    }
+  ]
+}
