@@ -164,6 +164,13 @@ export default defineNuxtConfig({
       failOnError: false,
     },
   },
+  // Keep the /drafts admin page out of search engines and the sitemap.
+  robots: {
+    disallow: ["/drafts"],
+  },
+  sitemap: {
+    exclude: ["/drafts", "/*/drafts"],
+  },
   runtimeConfig: {
     // Server-only (private). Populated at runtime from NUXT_RESEND_API_KEY,
     // NUXT_RESEND_AUDIENCE_ID and NUXT_NEWSLETTER_SECRET env vars. NEVER move
@@ -172,6 +179,10 @@ export default defineNuxtConfig({
     resendAudienceId: "",
     // HMAC secret that signs the double opt-in confirmation tokens.
     newsletterSecret: "",
+    // /drafts admin: fine-grained GitHub PAT (contents:write on razbakov/homepage)
+    // and the password that gates the publish/delete endpoints.
+    githubToken: "",
+    draftsSecret: "",
     public: {
       posthogPublicKey: config.site.analytics.posthog.publicKey,
       posthogHost: config.site.analytics.posthog.host,

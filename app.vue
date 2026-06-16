@@ -132,7 +132,7 @@ const showNewsletter = computed(() => {
   const rest = locales.includes(segments[0]) ? segments.slice(1) : segments;
   const norm = "/" + rest.join("/");
   if (norm === "/") return false; // homepage — already has a signup
-  return !/^\/(newsletter|web100|slides)(\/|$)/.test(norm);
+  return !/^\/(newsletter|web100|slides|drafts)(\/|$)/.test(norm);
 });
 
 useHead(() => {
