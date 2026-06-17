@@ -1,0 +1,98 @@
+{
+  "date": "2026-06-17",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 21,
+  "summarized": 9,
+  "items": [
+    {
+      "id": "ey_GaPdC9zk",
+      "title": "One man just liberated Fable... and now it’s illegal",
+      "channel": "Fireship",
+      "duration": "5:14",
+      "category": "AI / Anthropic / Fable",
+      "url": "https://youtu.be/ey_GaPdC9zk",
+      "summary": "The Code Report's fast recap of the Fable shutdown. It explains that Fable 5 is the same model as Mythos 5 with safety classifiers 'bolted on,' and that an anonymous user, Pliny the Liberator, broke those guardrails on June 10 by fragmenting dirty requests into innocent-looking pieces (weird Unicode, roleplay, long-context confusion) — described as working 'a lot like money laundering.' After Anthropic refused a takedown request, the video says the US Commerce Department issued an export-control directive barring any foreign national — even Anthropic's own foreign-born staff — from accessing Fable 5 or Mythos 5, so Anthropic pulled both models for everyone. It floats speculation that the whole thing could be a publicity stunt to build a regulatory moat before Anthropic's IPO.",
+      "relevance": "The cleanest five-minute version of the week's biggest AI story — how a frontier model became a controlled export overnight, told with Fireship's usual sardonic speed."
+    },
+    {
+      "id": "vZ6pj1l_bC4",
+      "title": "It's over.",
+      "channel": "Mo Bitar",
+      "duration": "21:20",
+      "category": "AI / Anthropic / Fable",
+      "url": "https://youtu.be/vZ6pj1l_bC4",
+      "summary": "A conversational reaction to the Fable takedown that argues it was never about safety — 'safety has never mattered to anyone' — but about power. Bitar's read: Anthropic now holds something like 90% of the enterprise API market and has out-shipped every rival for several cycles, so the government and competing labs want it checked. Citing Politico's reporting, he assigns rough odds (≈45% to individuals wanting IPO leverage, ≈10% to a coordinated play). His technical aside is the sharpest part: Fable 'one-shots' executives who only prototype and never read the code — he built and threw away several games, impressed by speed but unconvinced on code quality, concluding the model 'is nothing without me' and augments rather than replaces.",
+      "relevance": "The cynic's counter-read to the official story — power, not safety — plus a grounded reminder that a slick prototype is not shippable code."
+    },
+    {
+      "id": "or5Ox93EPik",
+      "title": "Anthropic Studied 81,000 AI Users. Only One Group Is Actually Getting Ahead.",
+      "channel": "Flo Carvalho",
+      "duration": "7:46",
+      "category": "AI / Research",
+      "url": "https://youtu.be/or5Ox93EPik",
+      "summary": "Walks through an Anthropic study of roughly 81,000 people across 150 countries and 79 languages. The claim: a small group extracts real money from AI at more than three times the rate of everyone else, and the dividing line is ownership — solo operators, small-business owners, and side-builders pull ahead, while employees using the exact same tools stay put. The reasoning is that AI now hands one person the team, capital, and tooling a business used to require; examples cited include a butcher of 20 years and a healthcare worker who built and launched her own app without coding. Note: the video leans heavily on promoting Claude Co-work, Claude Small Business, and the creator's own AI agency.",
+      "relevance": "The takeaway worth keeping past the sales pitch — the people pulling ahead with AI are the ones building something they own, not speeding up a job that belongs to someone else."
+    },
+    {
+      "id": "2d9ZmA-4QzU",
+      "title": "Your Apps Don't Need an API Anymore. Codex Just Proved It.",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration": "21:00",
+      "category": "Building / Dev",
+      "url": "https://youtu.be/2d9ZmA-4QzU",
+      "summary": "Argues the model is now 'the brain' and the labs are racing to build 'the body.' OpenAI's Codex release turned it into a desktop agent that drives any Mac app by seeing the screen and clicking — running in the background, in parallel, without stealing focus — which Jones finds faster and more reliable than Claude's computer use. He frames a strategic split: Anthropic bets on structured interfaces (MCP, connectors) that require the ecosystem to cooperate, while OpenAI bets on computer-use that works on anything with a screen, including legacy software that never shipped an API. He credits OpenAI's acquisition of the Sky team (ex-Workflow/Shortcuts, ex-Apple) for the OS-level polish that makes background control feel like a coworker rather than malware.",
+      "relevance": "The sharpest framing of the Anthropic-versus-OpenAI strategy divide — and why 'if it has a screen, an agent can drive it' widens what's automatable far more than most people are budgeting for."
+    },
+    {
+      "id": "0Pf5GSCjfj4",
+      "title": "GPT Realtime 2 Can Now Run Your Entire Computer (Just Your Voice)",
+      "channel": "Pat Simmons",
+      "duration": "19:16",
+      "category": "Building / Dev",
+      "url": "https://youtu.be/0Pf5GSCjfj4",
+      "summary": "A build walkthrough using GPT Realtime 2 — a voice model that can also fire tool calls mid-conversation — plus Claude Code to assemble a voice assistant that opens apps, searches the web, and controls software by speaking. Simmons stages it from a naive always-listening version (and its problems) to push-to-talk, then layers in browser control, an Obsidian MCP server, and finally driving an API-less app like Premiere Pro via the macOS accessibility tree plus an open-source 'Agent Desktop' repo. He's honest about the caveats: not every app exposes its controls, each command costs a few cents, and there's noticeable latency.",
+      "relevance": "A hands-on recipe for voice-driving your whole machine — and a concrete look at how accessibility trees let agents control apps that never shipped an API."
+    },
+    {
+      "id": "PqBrnip-ZLw",
+      "title": "Private AI on the go… a new trick",
+      "channel": "Alex Ziskind",
+      "duration": "9:09",
+      "category": "Building / Dev",
+      "url": "https://youtu.be/PqBrnip-ZLw",
+      "summary": "Demonstrates LM Studio 4.5's new 'LM Link' feature, which uses Tailscale under the hood to let a lightweight 16GB MacBook Air remotely tap huge models — Qwen Coder 480B, Kimi K2.5 — hosted on your own beefier machines, with near-zero model-switch time and VS Code integration. The pitch is private, secure, local inference for protecting company code without hauling a 128GB laptop everywhere. Ziskind shows that prompt-processing is the real bottleneck on weak hardware, while a fast GPU like an RTX Pro 6000 pushes 150+ tokens per second on an 80-billion-parameter model.",
+      "relevance": "A practical trick for running frontier-size open models privately from a thin laptop — local AI that keeps your code off other people's servers."
+    },
+    {
+      "id": "Ya4CxpO8Wyg",
+      "title": "Meta’s Next VR Headset Is Wild!",
+      "channel": "Virtual Chap",
+      "duration": "8:16",
+      "category": "Apple / Vision Pro",
+      "url": "https://youtu.be/Ya4CxpO8Wyg",
+      "summary": "Speculates on Meta's next headset, codenamed 'Phoenix,' from leaked specs and renders. The headline claim is a roughly 100-gram headset — about six times lighter than the Quest 3 — achieved by moving the CPU, GPU, and battery into a tethered 'puck.' Other rumored upgrades: micro-OLED panels near Vision Pro quality (2–4K per eye), and possibly varifocal or holographic 'holocake' lenses thin as ski goggles. The argument is that gaming remains Meta's moat, but the device is being aimed at work, entertainment, and daily use to answer the Apple Vision Pro and Valve's Steam Frame, likely landing near $1,000.",
+      "relevance": "A grounded leak-roundup on where standalone headsets head next — lighter, sharper, puck-powered — and how Meta plans to respond to the Vision Pro."
+    },
+    {
+      "id": "RZdfE_7cde0",
+      "title": "Is reality real? These neuroscientists don’t think so | Big Think",
+      "channel": "Big Think",
+      "duration": "8:39",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/RZdfE_7cde0",
+      "summary": "A panel argues we never perceive objective reality directly — only a useful interface our senses construct. Colors, tastes, and odors aren't properties of the world but fabrications of perception; in a Donald Hoffman vein, even space-time and objects may be constructions evolution shaped to keep us alive rather than to show us truth ('you're seeing the utility of the data, not the data'). A counterpoint insists objective truth still exists — science works, it builds planes and cures disease — and that reality is 'transperspectival': no single viewpoint captures it, so multiple partial perspectives must be seamed together.",
+      "relevance": "A tight primer on perception-as-interface and why 'useful' and 'true' come apart — core fuel for the simulation and consciousness questions."
+    },
+    {
+      "id": "cOZ3Kto6NIc",
+      "title": "The Physicist Who Uncovered \"Negative\" Time",
+      "channel": "Curt Jaimungal",
+      "duration": "2:21:29",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/cOZ3Kto6NIc",
+      "summary": "Toronto physicist Aephraim Steinberg explains his lab's 'negative time' result beyond the faster-than-light headlines. When single photons pass through a cloud of resonant rubidium atoms, the atoms can appear to spend a negative amount of time in their excited state — and crucially, he stresses it's a specific measurable time scale that comes out negative, not 'time itself,' with no information ever traveling faster than light. The deeper claim is that the same negative number keeps describing different, independently-measured effects, which hints it reflects something real about the physics rather than a measurement artifact. He also covers weak/conditional measurements and why the textbook 'measurement disturbs the system' story of Heisenberg's uncertainty principle was shown experimentally to be incomplete.",
+      "relevance": "A rigorous, myth-busting deep-dive into what 'negative time' actually means — and why the pop-science 'faster than light' framing misses the genuinely strange part."
+    }
+  ]
+}
