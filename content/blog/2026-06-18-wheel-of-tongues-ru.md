@@ -3,7 +3,7 @@ title: "Колесо языков"
 description: "Что культура и язык делают с нашим мышлением — честная карта и миф, который стоит сохранить. Эссе в двух голосах: эмпирическом и имагинальном, образ плюс доказательство."
 date: 2026-06-18
 language: ru
-telegram: https://t.me/razbakov_ru
+telegram: https://t.me/razbakov_ru/49
 image: /images/blog/wheel-of-tongues.png
 heroImage: true
 category: Ideas

@@ -3,7 +3,7 @@ title: "The Wheel of Tongues"
 description: "What culture and language do to the way we think — an honest map, and a myth worth keeping. An essay in two voices: the empirical and the imaginal, image plus evidence."
 date: 2026-06-18
 image: /images/blog/wheel-of-tongues.png
-telegram: https://t.me/razbakov
+telegram: https://t.me/razbakov/110
 heroImage: true
 category: Ideas
 tags:
