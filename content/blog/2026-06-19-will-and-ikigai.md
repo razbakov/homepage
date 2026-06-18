@@ -3,6 +3,7 @@ title: "Who Am I? Will, Suffering, and Ikigai"
 description: "Schopenhauer said the world is a blind will — an all-powerful energy with no direction. The mission of a life is to give that energy its direction. An essay on the one question worth answering, why life is suffering, and the three ways out."
 date: 2026-06-19
 image: /images/blog/will-and-ikigai.png
+telegram: https://t.me/razbakov/112
 heroImage: true
 category: Ideas
 tags:

@@ -3,6 +3,7 @@ title: "Вода — это память"
 description: "Вода помнит. Она хранит форму того, что её коснулось, а мы по большей части и есть вода — значит, память живёт не только в мозге, но в теле, в крови, в океанах, во льдах на краях земли. Эссе о памяти планеты и о нашей собственной."
 date: 2026-06-19
 image: /images/blog/water-is-memory.png
+telegram: https://t.me/razbakov_ru/50
 heroImage: true
 category: Ideas
 language: ru

@@ -3,6 +3,7 @@ title: "Water Is Memory"
 description: "Water remembers. It holds the shape of what touches it, and we are mostly water — which means memory is not only in the brain but in the body, in the blood, in the oceans, in the ice at the ends of the earth. An essay on the planet's memory and our own."
 date: 2026-06-19
 image: /images/blog/water-is-memory.png
+telegram: https://t.me/razbakov/111
 heroImage: true
 category: Ideas
 tags:
