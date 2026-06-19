@@ -1,0 +1,128 @@
+{
+  "date": "2026-06-19",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 80,
+  "summarized": 12,
+  "items": [
+    {
+      "id": "OOCepY3H8k4",
+      "title": "What is happening at Meta?",
+      "channel": "The PrimeTime",
+      "duration": "14:01",
+      "category": "AI / Startups",
+      "url": "https://youtu.be/OOCepY3H8k4",
+      "summary": "Meta forced ~6,500 engineers into a new Applied AI unit with no opt-out (quit or comply), tasking them with generating coding puzzles to train frontier models while recording their screens. Employee morale is cratering — workers call themselves 'draftees' and describe the work as soul-crushing. Management response: hackathons, team events, and a 50:1 manager ratio fix, while Zuckerberg promises no *more* mass layoffs 'this year.' Meanwhile, production JSON parse errors are hitting users.",
+      "relevance": "A real-time case study in how NOT to reorganize a 6,500-person org around AI — useful mirror for anyone building teams that actually want to ship."
+    },
+    {
+      "id": "W0vTZrZny6A",
+      "title": "Top Psychologist, Donald Hoffman: Seeing True Reality Would Kill Us! I Can Prove It To You!",
+      "channel": "The Diary Of A CEO",
+      "duration": "2:01:03",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/W0vTZrZny6A",
+      "summary": "Cognitive scientist Donald Hoffman argues with mathematical proofs that Darwin's theory implies zero probability our senses evolved to perceive objective reality — they evolved solely to guide adaptive behavior for survival. He frames spacetime as a VR headset: a useful interface, not fundamental reality. Beyond the Planck scale (10⁻³³ cm), spacetime breaks down, and Hoffman's recent work explores geometric 'obelisk' structures outside spacetime that may constitute deeper reality, with implications for radically new technologies.",
+      "relevance": "Hoffman's interface theory of perception is the most rigorous version of the simulation argument — and he's now claiming the math is cracking open. Worth the full two hours."
+    },
+    {
+      "id": "FMsqQuROvOc",
+      "title": "The SHOCKING Truth About Humanity No One Tells You",
+      "channel": "The Diary Of A CEO Clips",
+      "duration": "22:57",
+      "category": "Science / History",
+      "url": "https://youtu.be/FMsqQuROvOc",
+      "summary": "Graham Hancock argues anatomically modern humans have existed 315,000+ years but civilization only becomes archaeologically visible ~5,500 years ago — a gap he attributes to a lost pre-Ice Age civilization destroyed by the Younger Dryas comet impact (~12,800 years ago). He cites Göbekli Tepe (11,600 years old, built by hunter-gatherers with organized labor), ancient maps showing Antarctica before its 1820 discovery with accurate longitudes predating Harrison's chronometer, and the simultaneous emergence of complex civilizations (Sumer, Egypt, Caral-Supe in Peru) around 3500 BC as evidence of a forgotten predecessor culture.",
+      "relevance": "Hancock's core question — why 300K years of modern brains before civilization? — is the kind of timeline puzzle that hits differently when you're thinking about intelligence emergence and simulation arguments."
+    },
+    {
+      "id": "j3aaXpFe8so",
+      "title": "Gracia Gaussian Splat Video Streaming on Vision Pro",
+      "channel": "Himels Tech",
+      "duration": "8:03",
+      "category": "Apple / Vision Pro",
+      "url": "https://youtu.be/j3aaXpFe8so",
+      "summary": "Demo of Gracia 4DGS app on Vision Pro, which streams and plays back Gaussian Splat videos — 3D volumetric captures from a 50-camera rig that you can place, resize, and walk around in your space. Shows streaming vs downloaded splats (300MB–2GB for 9–30s clips), lighting presets, and quality tradeoffs at different scales. Early-stage tech but points toward a future where volumetric video becomes as mainstream as 4K streaming.",
+      "relevance": "Gaussian splats as a video format on Vision Pro — this is the spatial content pipeline I've been waiting to see mature."
+    },
+    {
+      "id": "NRTH809cCIs",
+      "title": "You are the Universe Experiencing Itself | Spinoza's God",
+      "channel": "Aperture",
+      "duration": "48:39",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/NRTH809cCIs",
+      "summary": "Deep dive into Spinoza's radical monism — the claim that God and Nature are literally identical (Deus sive Natura), that mind and matter are parallel attributes of one substance, and that humans are temporary 'modes' like waves on an ocean. Covers his 1656 excommunication, Einstein's famous telegram endorsing Spinoza's God, and how substance monism anticipated modern neuroscience's view of consciousness as physical process rather than separate soul.",
+      "relevance": "Spinoza's 'you are the universe experiencing itself' maps directly onto the simulation/consciousness thread — one of the cleanest philosophical frameworks for why self-awareness emerges from matter."
+    },
+    {
+      "id": "ey_GaPdC9zk",
+      "title": "One man just liberated Fable... and now it’s illegal",
+      "channel": "Fireship",
+      "duration": "5:14",
+      "category": "AI / Anthropic",
+      "url": "https://youtu.be/ey_GaPdC9zk",
+      "summary": "Fireship covers the Fable 5 jailbreak incident: an anonymous hacker ('Plenty The Liberator') defeated Anthropic's safety classifiers using fragmentation techniques (Unicode wrapping, roleplay farming, large-context confusion), exposing the underlying Mythos 5 capabilities. The US Commerce Department responded with an export control directive barring foreign nationals from accessing Fable/Mythos — even Anthropic's own foreign-born employees — leading Anthropic to pull both models entirely and demote users back to Opus 4.8. First time a federal order has forced a major AI company to yank a live public model.",
+      "relevance": "The company I build on daily just got its flagship model pulled by the feds — need to understand the export-control implications and what this means for API access going forward."
+    },
+    {
+      "id": "9gjR3VKuPg0",
+      "title": "The Real Reason Companies Are Shedding Workers",
+      "channel": "Two Cents",
+      "duration": "8:49",
+      "category": "AI / Startups",
+      "url": "https://youtu.be/9gjR3VKuPg0",
+      "summary": "Argues most CEO claims of AI-driven layoffs are 'AI-washing': Penn Wharton estimates only 0.01% productivity boost from AI in 2025, 90% of 6,000 execs report zero impact, and 95% of MIT-tracked AI pilots failed. Real drivers are post-pandemic hiring corrections, stock-price incentives (Block's stock jumped 20% after framing cuts as AI), and pressure to justify hundreds of billions in AI investment. Cites the 1970s–80s productivity paradox as a historical parallel.",
+      "relevance": "Useful counter-narrative to the 'AI replaces everyone' hype — the macro data doesn't support it yet, and the incentive analysis is sharp."
+    },
+    {
+      "id": "iJVJwmCKW9o",
+      "title": "I guess we're writing loops now?",
+      "channel": "Theo - t3․gg",
+      "duration": "24:44",
+      "category": "AI / Dev Tooling",
+      "url": "https://youtu.be/iJVJwmCKW9o",
+      "summary": "Theo explores the shift from manually prompting AI coding agents to designing self-running loops: agents that monitor PRs for review comments and auto-address them, spin up sub-agents to parallelize work across worktrees, and chain multi-PR refactors with plans generated as HTML. He references Anthropic's recursive self-improvement framing and Pete's Codex orchestrator pattern, while pushing back on pre-defined persona agents as missing the point of dynamic AI.",
+      "relevance": "Practically identical to what we're doing with dispatch + worktree + auto-review loops — validation that the pattern works at scale, plus a few tricks worth stealing (HTML plans, PR-comment-watching agents)."
+    },
+    {
+      "id": "odW0x21nD2k",
+      "title": "Самовыражение — пустая трата жизни",
+      "channel": "Садхгуру — официальный канал на русском",
+      "duration": "9:01",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/odW0x21nD2k",
+      "summary": "Sadhguru argues that self-expression as commonly understood is a waste of life — chasing external validation through identity performance rather than turning inward. He contrasts reactive self-expression with conscious action rooted in inner clarity, a recurring theme in his teaching on moving beyond compulsive mind patterns.",
+      "relevance": "Short Russian-language Sadhguru clip on ditching performative identity — fits the 'who am I beyond the doing' thread."
+    },
+    {
+      "id": "LbLLWmmL3YE",
+      "title": "What Came Before The Big Bang?",
+      "channel": "AstroKobi",
+      "duration": "31:56",
+      "category": "Science",
+      "url": "https://youtu.be/LbLLWmmL3YE",
+      "summary": "Physics graduate walks through why the textbook Big Bang singularity is almost certainly wrong. Covers the full arc — Newton's static universe, Einstein's cosmological constant, Hubble's redshift discovery, Gamow's nucleosynthesis predictions, CMB radiation — then argues most physicists now believe the Big Bang was not the beginning but a transition from a prior state.",
+      "relevance": "Solid 30-min primer on modern cosmology that goes beyond the school version — worth it if you want to update your mental model of the universe's origin."
+    },
+    {
+      "id": "vS-gfLhxYDg",
+      "title": "I had Fable build several projects for me. I'm disturbed by what I saw.",
+      "channel": "Mo Bitar",
+      "duration": "21:53",
+      "category": "AI / Anthropic",
+      "url": "https://youtu.be/vS-gfLhxYDg",
+      "summary": "Mo Bitar tests Claude Mythos (Fable) by having it build several games (Factorio-style AI lab, ethereal relic collector, open-world 3JS crafter, piano practice tools). Finds the model produces strikingly beautiful one-shot demos with no iteration needed, but highlights the 80/20 problem: when bugs appear (e.g., broken water rendering), describing them back to the LLM is nearly impossible and the generated code is unmaintainable. Discusses the emotional 'longing' users report after Fable was taken down — attributing beauty to the model's 'mind' — while cautioning this is partly anthropomorphization and expertise bias.",
+      "relevance": "Honest practitioner report on Claude Mythos capabilities and the exact wall where 'vibe coding' breaks down — the 80/20 gap is the real engineering problem to solve."
+    },
+    {
+      "id": "iwrh4TS9uS0",
+      "title": "A Simple Framework for AI Native Businesses",
+      "channel": "Devin Kearns | CustomAI Studio",
+      "duration": "17:29",
+      "category": "AI / Startups",
+      "url": "https://youtu.be/iwrh4TS9uS0",
+      "summary": "Presents an 'Agentic OS' framework for transforming businesses into AI-native operations. Core idea: don't start by building scattered agents — first solve data readiness by capturing events (emails, meetings, Slack) and auto-provisioning them into source-of-truth platforms (CRM, project management). Then layer workflows on top with confidence scoring, human-in-the-loop escalation, and per-workflow state machines. Argues most 'agent' projects fail because the underlying data environment isn't clean enough for agents to operate autonomously.",
+      "relevance": "Practical architecture for event-driven agent systems — mirrors what I'm building with the ikigai dispatch loop, and the 'data readiness before agents' lesson is one I keep re-learning."
+    }
+  ]
+}
