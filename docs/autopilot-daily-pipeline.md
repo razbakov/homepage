@@ -151,7 +151,7 @@ Built on the exact `feed-daily` launchd pattern (`scripts/feed-pipeline.mjs` +
 [later]  render step (NOT in this PR): script → ElevenLabs TTS → (HeyGen) → video
 ```
 
-**Shipped in this PR (the free step):**
+**Shipped (script step, PR #38):**
 - `scripts/daily-video-script.mjs` — the generator. `build` / `latest` commands,
   STDERR logs + one-line JSON STDOUT status, exit codes 0/2/3/4. Anthropic
   backend detected exactly like `feed-pipeline.mjs` (API key → keychain OAuth →
@@ -162,8 +162,34 @@ Built on the exact `feed-daily` launchd pattern (`scripts/feed-pipeline.mjs` +
 - `~/Orgs/ikigai/.bin/com.razbakov.daily-video-script.plist` — launchd job,
   08:30 daily. **Ships UNLOADED** — Alex bootstraps it.
 
-**NOT in this PR (needs the paid subscriptions approved first):**
-- the ElevenLabs TTS call + HeyGen render call + ffmpeg assembly.
+**Shipped (render step, Option C — this follow-up PR):**
+- `scripts/daily-video-render.mjs` — the render module. Commands: `render` /
+  `assemble` / `narration` / `latest`. STDERR logs + one-line JSON STDOUT,
+  exit codes 0/2/3/4/5/6. Pipeline: strip directions → spoken narration →
+  ElevenLabs TTS (cloned voice) → mp3 → ffmpeg (hero image + audio → 1920×1080
+  h264/aac MP4, limited-range yuv420p, +faststart, `-shortest`) → MP4 +
+  `<date>__<slug>.youtube.txt` paste-ready metadata. Reads `ELEVENLABS_API_KEY`
+  / `ELEVENLABS_VOICE_ID` from env (runner sources `~/.config/feed/.env`).
+  The `assemble` command does the ffmpeg step from an existing audio file with
+  no API call — used to prove the MP4 builds without a key.
+- `daily-video-script.sh` now calls the render step after the script publishes:
+  **only when both `ELEVENLABS_API_KEY` and `ELEVENLABS_VOICE_ID` are set**;
+  otherwise it stops after the script with a clear log line (not a failure).
+  A rendered MP4 is moved out of the repo into `~/Local/ikigai/razbakov-daily/`
+  (large binary — `.mp4`/`.mp3`/`.wav` are gitignored under the staging folder).
+- **Verified without the key:** `assemble` against the real `water-is-memory.png`
+  + a 211 s silent placeholder track → valid MP4 (`h264` 1920×1080, `aac`,
+  `pix_fmt=yuv420p`, `color_range=tv`, ~212.7 s, ~23 MB). ElevenLabs was NOT
+  called (no key). The launchd job stays UNLOADED.
+
+**Captions:** SKIPPED for now. Burned-in word-level captions need the TTS
+timestamps endpoint (`/v1/text-to-speech/{voice_id}/with-timestamps`) → an SRT
+→ an ffmpeg `subtitles` filter. It's a clean follow-up but not "cheap" (extra
+API shape + alignment), so v1 ships caption-free over the hero image. The script
+already carries `[TEXT ON SCREEN]` lines if we later want manual lower-thirds.
+
+**NOT in this work (later, if Option C proves watch time):**
+- the HeyGen avatar render (Options A/B) + burned-in captions.
 
 ### To activate the free step (Alex)
 ```bash
@@ -175,7 +201,67 @@ Optional reliability: add `DAILY_VIDEO_ANTHROPIC_API_KEY=sk-ant-...` to
 
 ---
 
-## 5. Bottom line
+## 5. Go-live checklist (Option C — Alex)
+
+Everything below is a one-time setup. Once the two env values are in place, the
+08:30 job renders a ready-to-upload MP4 every day a script is generated.
+
+1. **Sign up for ElevenLabs Creator ($22/mo).**
+   - https://elevenlabs.io → Sign up → Subscription → **Creator** ($22/mo).
+   - Creator is the cheapest tier with **Professional Voice Cloning (PVC)**.
+
+2. **Create the voice clone.** Two options:
+   - **Instant Voice Clone (IVC)** — *same-day, ready in ~1 minute.* Voices →
+     **Add Voice → Instant Voice Clone** → upload **1–3 min** of clean Alex-only
+     audio. Good enough to launch today. (Source already on disk — extract a
+     clean stretch from `~/Local/ikigai/ai-study-group/.../livestream.wav` with
+     ffmpeg; no new recording needed.)
+   - **Professional Voice Clone (PVC)** — *higher fidelity, trains in a few
+     hours.* Voices → **Add Voice → Professional Voice Clone** → upload **≥30 min**
+     (ideally 30 min–2 h) of clean audio, then consent-verify. Use this once IVC
+     proves the format; it's the better long-term voice.
+   - Recommendation: **start with IVC to go live today**, swap in the PVC voice
+     id later (just change `ELEVENLABS_VOICE_ID`).
+
+3. **Copy the two values into `~/.config/feed/.env`** (same file the daily jobs
+   already source):
+   ```bash
+   ELEVENLABS_API_KEY=sk-...          # ElevenLabs → Profile → API Keys
+   ELEVENLABS_VOICE_ID=...            # the voice's id (Voices → … → "Copy Voice ID")
+   ```
+   - API key: ElevenLabs dashboard → **profile icon → API Keys → Create**.
+   - Voice id: **Voices → the cloned voice → ⋯ menu → Copy Voice ID**.
+   - Optional knobs (defaults are fine): `ELEVENLABS_MODEL_ID`
+     (default `eleven_multilingual_v2`), `ELEVENLABS_OUTPUT_FORMAT`
+     (default `mp3_44100_192`).
+
+4. **Smoke-test the render once, by hand** (does one real ElevenLabs call):
+   ```bash
+   source ~/.config/feed/.env
+   cd ~/Projects/razbakov.com
+   node scripts/daily-video-render.mjs render --date 2026-06-19 --slug water-is-memory --force
+   ```
+   Expect a JSON line with `"ok":true`, an MP4 in
+   `content/data/video-scripts/` (then moved by the runner to
+   `~/Local/ikigai/razbakov-daily/`), and a `.youtube.txt` next to the script.
+   Open the MP4, confirm the voice sounds right.
+
+5. **Activate the daily job** (it ships UNLOADED — same as the script step):
+   ```bash
+   cp ~/Orgs/ikigai/.bin/com.razbakov.daily-video-script.plist ~/Library/LaunchAgents/
+   launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.razbakov.daily-video-script.plist
+   ```
+   From then on: 08:00 feed → 08:30 script → (if the keys are set) auto-render →
+   Forge DM with the MP4 path + paste-ready metadata.
+
+**What Forge needs from Alex to go live:** exactly two values —
+`ELEVENLABS_API_KEY` and `ELEVENLABS_VOICE_ID` — pasted into
+`~/.config/feed/.env`. Nothing else. The code, ffmpeg assembly, and the runner
+wiring are done and verified.
+
+---
+
+## 6. Bottom line
 
 - **Audio ready, avatar needs one 2–5 min recording.**
 - **Cheapest path to a first video: $22/mo (Option C, voice-only), same-day.**
