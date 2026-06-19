@@ -1,0 +1,148 @@
+{
+  "date": "2026-06-18",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 28,
+  "summarized": 14,
+  "items": [
+    {
+      "id": "vS-gfLhxYDg",
+      "title": "I had Fable build several projects for me. I'm disturbed by what I saw.",
+      "channel": "Mo Bitar",
+      "duration": "21:53",
+      "category": "AI / Anthropic / Fable",
+      "url": "https://youtu.be/vS-gfLhxYDg",
+      "summary": "Mo Bitar one-shots several games with Claude Fable (Anthropic's Mythos with safety classifiers bolted on) — a Factorio-style AI-lab builder, an ethereal floating collector, a Three.js open-world game, a piano-practice tool — and reports a strange sense of 'beauty and longing' that others on X echoed. His sharper point: Fable nails the impressive 80% demo, but the model most impresses people who aren't experts in the field, and the last 20% (fixing a janky water shader you can't describe in a prompt) is where non-experts get stuck. He closes on François Chollet's line that the model 'is nothing without me' — a human stayed in the loop directing every step.",
+      "relevance": "A grounded counterweight to the Fable hype: the demos are real and beautiful, but shipping the last 20% still needs a human who understands the code. Worth it for the honesty about what one-shotting actually delivers."
+    },
+    {
+      "id": "ey_GaPdC9zk",
+      "title": "One man just liberated Fable... and now it's illegal",
+      "channel": "Fireship",
+      "duration": "5:14",
+      "category": "AI / Anthropic / Fable",
+      "url": "https://youtu.be/ey_GaPdC9zk",
+      "summary": "Fireship's fast recap of the Fable saga: Mythos 5 was the raw model with strong cybersecurity capability, locked to trusted partners under 'Glass Wing'; Fable 5 was the same brain with a child-lock that reroutes risky requests to Opus 4.8. Three days after Fable went public, a jailbreaker calling himself 'Pliny the Liberator' popped the guardrails (the video frames the method as money-laundering-style request fragmentation rather than a sci-fi exploit). On June 13 an export-control directive signed by the Commerce Secretary barred foreign-national access — including Anthropic's own foreign-born staff — so the company pulled both models entirely. The video also flags speculation it doubled as a pre-IPO publicity/regulatory-moat move.",
+      "relevance": "The five-minute version of why a live AI model got yanked by government order for the first time. Fireship lays out the jailbreak-then-export-control chain cleanly."
+    },
+    {
+      "id": "YCHyStqpwrg",
+      "title": "Do This Before You Build with Codex, Claude, or Cursor!",
+      "channel": "Eric Michaud",
+      "duration": "9:59",
+      "category": "Building / Dev",
+      "url": "https://youtu.be/YCHyStqpwrg",
+      "summary": "Six techniques to stop treating coding agents like a slot machine. (1) Have the AI interview you to remove ambiguity before any code; (2) make it write an implementation spec with an explicit 'what done looks like' win-condition; (3) split work across parallel sub-agents for speed and diverse perspectives; (4) make it state its verification plan up front and gate high-impact actions (payments, API keys, posting) behind human review; (5) persist good context to claude.md/agents.md so you don't re-explain; (6) only automate tasks you've first done manually end-to-end and that have a low cost of failure.",
+      "relevance": "A tight checklist for getting reliable output from any coding agent. The 'interview me first' and 'define what done looks like' habits do most of the work."
+    },
+    {
+      "id": "ZK3JhU73W18",
+      "title": "Record & Replay in Codex",
+      "channel": "OpenAI",
+      "duration": "2:05",
+      "category": "Building / Dev",
+      "url": "https://youtu.be/ZK3JhU73W18",
+      "summary": "OpenAI demos a Codex feature where you let it watch you perform a task once — here, their team's YouTube publishing process: pulling metadata from a spreadsheet, matching assets, filling fields in YouTube Studio, adding captions, saving as private. Codex reviews the recording and turns it into a reusable skill that remembers where the data lives and how the steps go. In a fresh thread you hand it the next video package and it completes the upload itself using computer use, browser use, and connected plugins — no step-by-step prompt.",
+      "relevance": "A concrete look at 'show, don't prompt' — teaching an agent a repetitive workflow by demonstration. The publishing-pipeline example maps onto a lot of real busywork."
+    },
+    {
+      "id": "iwrh4TS9uS0",
+      "title": "A Simple Framework for AI Native Businesses",
+      "channel": "Devin Kearns | CustomAI Studio",
+      "duration": "17:29",
+      "category": "AI / Research",
+      "url": "https://youtu.be/iwrh4TS9uS0",
+      "summary": "Kearns argues most companies fail at agents because they jump straight to building agents before the foundation exists. His 'agentic OS' framework starts with capturing data at its origination points (meeting transcripts, email, internal chat), deduping and cleaning it, matching it to a 'work item' (a CRM deal, a case, a project) with a confidence-scored human-in-the-loop step, and pushing it to the source-of-truth platform. Only after the data is reliable and an audit/monitoring layer watches the human work do you build the actual workflows — which range from fully deterministic automations to flexible tool-using agents. The argument: 'data readiness' is really a human bottleneck, and skipping the foundation produces brittle systems.",
+      "relevance": "Useful corrective for anyone tempted to deploy a pile of agents on day one. The sequence — capture and clean data first, automate the doing last — is the part most teams skip."
+    },
+    {
+      "id": "iJVJwmCKW9o",
+      "title": "I guess we're writing loops now?",
+      "channel": "Theo - t3·gg",
+      "duration": "24:44",
+      "category": "Building / Dev",
+      "url": "https://youtu.be/iJVJwmCKW9o",
+      "summary": "Theo describes his shift from prompting agents step-by-step to designing loops that let agents prompt themselves — spinning up sub-threads, monitoring their own PRs for review-bot comments and addressing them, and even building a dynamic workflow that filed four stacked PRs overnight while he slept. He distinguishes this from the rigid 'pre-defined persona' sub-agent setups he dislikes: the agent should construct context dynamically. He's candid about the caveats — he's not at fully autonomous, loops burn far more tokens (he reports ~$10k of inference value in 17 days across three $200 plans), and you shouldn't run this on million-user production code yet. His takeaway: notice what you do after the agent finishes, and try prompting yourself out of it.",
+      "relevance": "The current frontier of agent workflows from someone actually shipping with them. Honest about both the 'awesome' and the token cost, with the loops-that-spawn-loops pattern as the headline."
+    },
+    {
+      "id": "j3aaXpFe8so",
+      "title": "Gracia Gaussian Splat Video Streaming on Vision Pro",
+      "channel": "Himels Tech",
+      "duration": "8:03",
+      "category": "Apple / Vision Pro",
+      "url": "https://youtu.be/j3aaXpFe8so",
+      "summary": "A walkthrough of Gracia, a 4D Gaussian-splat viewer on Apple Vision Pro that streams volumetric video — captured with a portable rig of 50 genlocked cameras — that you can walk around, rescale, and drop onto your desk or couch. The reviewer notes the quality isn't quite Apple-immersive-video sharpness (you lose fine detail at scene edges and when scaled large), files are big (a 30-second clip is ~1.8GB), and lighting presets let the splat match your room's time of day. He frames it as an early preview, comparing it to YouTube's pre-4K days: rough now, but pointing at where spatial content is going.",
+      "relevance": "A real demo of volumetric/4D video on Vision Pro you can place in your room — the most tangible glimpse yet of where spatial content capture is heading, file-size warts and all."
+    },
+    {
+      "id": "x7VDNH3SIJQ",
+      "title": "Is Apple Vision Pro Dead? I Asked Apple's CFO",
+      "channel": "Bobby Tonelli",
+      "duration": "6:13",
+      "category": "Apple / Vision Pro",
+      "url": "https://youtu.be/x7VDNH3SIJQ",
+      "summary": "Bobby Tonelli interviews Apple's CFO at the National University of Singapore, where students take a spatial-computing course built on Vision Pro. The CFO repeatedly frames Vision Pro as 'really early innings' and an ecosystem-and-long-term play rather than a unit-sales product, leaning on the developer community and visionOS tooling. He cites real use cases — surgical training without a cadaver, HVAC/airflow visualization for home design, medical rehab visualization — and says his own go-to is immersive content as an escape. Notably no sales figures and no denial of the 'it's dead' rumors; the message is patience and ecosystem.",
+      "relevance": "Apple's own framing of where Vision Pro stands amid the 'it's dead' chatter: a long-term ecosystem bet, not a sales story. Read the deflections as much as the answers."
+    },
+    {
+      "id": "IlIJa_FDK-0",
+      "title": "macOS 27 Golden Gate - Top 10 Features!",
+      "channel": "MacVince",
+      "duration": "7:24",
+      "category": "Apple / Vision Pro",
+      "url": "https://youtu.be/IlIJa_FDK-0",
+      "summary": "A hands-on beta tour of macOS 27 'Golden Gate', which the reviewer calls a fix-up of last year's rushed Liquid Glass redesign (transparency slider, sharper icons, uniform corner radii) plus a big invisible upgrade: on install, the Mac reindexes all your files, photos, mail and iCloud, and the new Siri is built on top of that index. Siri can now find your stuff across the system, acts in Spotlight/right-click/a dedicated chatbot app, and gets visual intelligence. Other AI additions: Safari can build browser extensions from a prompt, Shortcuts can be described in natural language, and Photos gets expand/reframe/cleanup tools.",
+      "relevance": "The clearest preview of where Apple's on-device AI is going — Siri rebuilt on a local search index plus prompt-to-extension and prompt-to-shortcut. The infrastructure changes matter more than the cosmetics."
+    },
+    {
+      "id": "6Dn6qy4sQgM",
+      "title": "Here's your next iPhone",
+      "channel": "fpt.",
+      "duration": "9:05",
+      "category": "Apple / Vision Pro",
+      "url": "https://youtu.be/6Dn6qy4sQgM",
+      "summary": "The video reads iOS 27 beta code — strings like 'fold state' and 'angle degrees' — as Apple's closest-yet tacit confirmation of a foldable iPhone, paired with WWDC guidance telling developers to stop designing for fixed orientations and prepare for dynamic sizes and aspect ratios. It then renders a speculative 'iPhone Ultra': titanium, ~4.5mm thin when open (thinner than iPhone Air), creaseless inner display, wide+ultra-wide cameras (no telephoto), in-house A20 chip and modem, 12GB RAM, ~$2,000+, and — the long-requested feature — split-screen multitasking exclusive to this folding device.",
+      "relevance": "A code-grounded case that the foldable iPhone is real and near. The developer-guidance signal ('design for dynamic sizes') is the strongest tell, beyond the rumor noise."
+    },
+    {
+      "id": "NRTH809cCIs",
+      "title": "You are the Universe Experiencing Itself | Spinoza's God",
+      "channel": "Aperture",
+      "duration": "48:39",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/NRTH809cCIs",
+      "summary": "A long-form essay on Baruch Spinoza's philosophy: 'Deus sive Natura' — God and the universe are literally one infinite substance, not a creator standing outside it. Mind and matter are two attributes of the same reality, not separate things; free will in the absolute sense is an illusion (the famous thrown-stone that thinks it chose its path); and emotions are natural events with causes, so understanding replaces blame. The payoff is Spinoza's 'intellectual love of God' — the joy of seeing reality's interconnectedness clearly — and freedom as aligning with nature's laws rather than fighting them. It traces his excommunication at 23 and his influence from Einstein to modern neuroscience.",
+      "relevance": "A genuinely rigorous walk through Spinoza — determinism, the dissolving boundary between self and cosmos, spirituality without abandoning reason. The 'understanding replaces hatred' thread is the one worth sitting with."
+    },
+    {
+      "id": "W0vTZrZny6A",
+      "title": "Top Psychologist, Donald Hoffman: Seeing True Reality Would Kill Us! I Can Prove It To You!",
+      "channel": "The Diary Of A CEO",
+      "duration": "2:01:03",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/W0vTZrZny6A",
+      "summary": "Cognitive scientist Donald Hoffman argues that evolution shaped our senses for fitness, not truth — so spacetime is best understood as a 'virtual-reality headset,' a useful interface rather than fundamental reality. He leans on physics (he claims spacetime stops making mathematical sense below ~10^-33 cm) to say spacetime 'is doomed' as the bottom layer, and that science is now probing structures outside it. The conversation extends to identity (you're the 'programmer' of the game, with nothing to prove) and speculative claims about powerful technologies emerging from editing reality's 'code.'",
+      "relevance": "Hoffman's interface theory of perception, at length — provocative and worth examining critically. Treat the spacetime-is-doomed and tech-prediction claims as arguments to weigh, not settled facts."
+    },
+    {
+      "id": "OOCepY3H8k4",
+      "title": "What is happening at Meta?",
+      "channel": "The PrimeTime",
+      "duration": "14:01",
+      "category": "AI / Research",
+      "url": "https://youtu.be/OOCepY3H8k4",
+      "summary": "Reacting to a Wired report, ThePrimeagen walks through Meta's new Applied AI org: ~6,500 engineers reassigned in waves (some calling themselves 'draftees' since the alternative is leaving), screens recorded to feed model training, and weekly tasks generating toy coding problems to train and evaluate frontier models — work many describe as soul-crushing. He pushes back on the 'it's a gulag' framing as overblown while granting the morale problem is real, and quotes CPO Chris Cox's line that AI 'is neither God nor the devil... nowhere near as good or as bad as you think, and it doesn't know what day of the week it is.' He ties low morale plus instability to shipped bugs like unparseable JSON reaching production.",
+      "relevance": "A pointed look at the human cost inside a frontier lab's AI push — engineers possibly training their own replacements. Cox's 'neither God nor devil' framing is the quotable bit; the morale-to-shipped-bugs link is the warning."
+    },
+    {
+      "id": "ERWicRX7M5g",
+      "title": "The Spiritual Trap of Helping Others | Nisargadatta Maharaj",
+      "channel": "Eternal Life | Non-Duality",
+      "duration": "4:48",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/ERWicRX7M5g",
+      "summary": "A short non-duality reflection drawn from Nisargadatta Maharaj: the urge to save the world can be the ego in a white robe, because to help you must first label someone as broken — dividing existence into savior and victim. Using the metaphor of a dreamer who exhausts himself feeding dream-villagers (the only real help is to wake up), it argues the deepest service is the dissolution of the 'me' that wants to help. Crucially it rejects coldness: you still cover a bleeding wound the way your left hand tends your right — spontaneous action without a 'doer' keeping score.",
+      "relevance": "A sharp five-minute provocation about the ego hidden inside helping. The 'act without a doer keeping score' distinction keeps it from sliding into indifference."
+    }
+  ]
+}
