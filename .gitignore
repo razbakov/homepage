@@ -24,3 +24,10 @@ logs
 .env.*
 !.env.example
 .vercel
+
+# Rendered daily-video media (large binaries) — the .md scripts and the
+# paste-ready .youtube.txt stay tracked; the rendered audio/video do not.
+# The final MP4 is delivered out-of-band (Telegram / ~/Local/ikigai), not via git.
+content/data/video-scripts/*.mp4
+content/data/video-scripts/*.mp3
+content/data/video-scripts/*.wav
