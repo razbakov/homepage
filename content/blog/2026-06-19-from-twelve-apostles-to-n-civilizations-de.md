@@ -13,7 +13,7 @@ tags:
   - Kognition
   - Alignment
   - Essay
-telegram:
+telegram: https://t.me/razbakov/115
 ---
 
 Im letzten Essay habe ich ein Spiel mit zwölf Menschen gespielt. Zwölf Apostel, ein Lehrer, eine Abfolge von Ereignissen — und zwölf messerscharf voneinander verschiedene Weisen, ein und dieselbe Sache zu verstehen oder daran zu scheitern. Petrus handelt, bevor er nachdenkt; Thomas fordert die Wundmale in den Händen; Matthäus zählt und strukturiert; Judas fragt, was du ihm dafür gibst. Ich nannte es Kognitionswissenschaft vor der Kognitionswissenschaft: Die Evangelien hatten die schwere Arbeit geleistet, zwölf miteinander unvereinbare menschliche Reaktionen auf eine einzige Begegnung auszuwählen — und jedes Jahrhundert seither hat seine jeweils neueste Psychologie auf dieses feststehende Ensemble projiziert und festgestellt, dass sie passt.

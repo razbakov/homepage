@@ -13,7 +13,7 @@ tags:
   - Cognición
   - Alignment
   - Ensayo
-telegram:
+telegram: https://t.me/razbakov/115
 ---
 
 En el ensayo anterior jugué a un juego con doce personas. Doce apóstoles, un maestro, una misma serie de hechos, y doce maneras nítidamente distintas de fracasar y de lograr entender lo mismo. Pedro actúa antes de reflexionar; Tomás exige ver las marcas en las manos; Mateo cuenta y estructura; Judas pregunta qué le darás a cambio. Lo llamé ciencia cognitiva anterior a la ciencia cognitiva: los Evangelios hicieron el trabajo difícil de seleccionar doce respuestas humanas incompatibles ante un mismo encuentro, y cada siglo desde entonces ha proyectado su psicología más reciente sobre ese conjunto fijo y ha encontrado que encaja.

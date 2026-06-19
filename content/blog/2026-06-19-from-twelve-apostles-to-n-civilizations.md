@@ -13,7 +13,7 @@ tags:
   - Cognition
   - Alignment
   - Essay
-telegram:
+telegram: https://t.me/razbakov/115
 ---
 
 In the last essay I played a game with twelve people. Twelve apostles, one teacher, one set of events — and twelve sharply distinct ways of failing and succeeding to understand the same thing. Peter acts before he reflects, Thomas demands the marks in the hands, Matthew counts and structures, Judas asks what you'll give him. I called it pre-cognitive-science cognitive science: the Gospels did the hard work of selecting twelve incompatible human responses to one encounter, and every century since has projected its newest psychology onto that fixed set and found it fits.
