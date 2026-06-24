@@ -319,9 +319,16 @@ async function synthesize(text, outMp3) {
  * ------------------------------------------------------------------ */
 
 function heroImageFor(slug) {
-  // primary: public/images/blog/<slug>.png  (also try .jpg/.jpeg/.webp)
+  // Blog heroes use two conventions over time:
+  //   legacy flat:     public/images/blog/<slug>.png
+  //   current nested:  public/images/blog/<slug>/hero.png   (matches blog frontmatter)
+  // Check both (and common extensions) so the render works regardless of vintage.
+  const candidates = [];
   for (const ext of ["png", "jpg", "jpeg", "webp"]) {
-    const p = join(HERO_DIR, `${slug}.${ext}`);
+    candidates.push(join(HERO_DIR, `${slug}.${ext}`));
+    candidates.push(join(HERO_DIR, slug, `hero.${ext}`));
+  }
+  for (const p of candidates) {
     if (existsSync(p)) return p;
   }
   return null;
