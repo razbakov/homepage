@@ -36,6 +36,8 @@ import {
   readFileSync,
   existsSync,
   mkdtempSync,
+  renameSync,
+  rmSync,
 } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, resolve, join } from "node:path";
@@ -94,22 +96,43 @@ function todayBerlin() {
 const COOKIE_FILE =
   process.env.FEED_COOKIES || join(homedir(), ".config/feed/yt-cookies.txt");
 
-// Try to refresh the cookies file from the live browser. Non-fatal and
-// short-timed: if the keychain is locked (screen locked) this hangs and gets
-// killed, leaving the last good file in place — exactly what we want.
+// Try to refresh the cookies file from the live browser. Non-fatal, short-timed,
+// and VALIDATED: refreshes into a temp file and only replaces the real cookie
+// file if the result contains a genuine logged-in session (the LOGIN_INFO
+// cookie). On Chrome 127+ macOS, App-Bound Encryption makes --cookies-from-browser
+// silently emit a *logged-out* cookie set (no LOGIN_INFO) — overwriting a good
+// manually-exported file with that is exactly how the feed broke. So we never
+// clobber a known-good file with an unvalidated refresh. Set FEED_SKIP_COOKIE_REFRESH=1
+// to disable auto-refresh entirely (recommended when cookies are maintained by hand).
+function cookieFileHasLogin(path) {
+  try { return /\bLOGIN_INFO\b/.test(readFileSync(path, "utf8")); }
+  catch { return false; }
+}
 function refreshCookies() {
-  if (process.env.FEED_SKIP_COOKIE_REFRESH) return;
+  if (process.env.FEED_SKIP_COOKIE_REFRESH) {
+    log("cookies: auto-refresh disabled (FEED_SKIP_COOKIE_REFRESH) — using saved file");
+    return;
+  }
   try { mkdirSync(dirname(COOKIE_FILE), { recursive: true }); } catch {}
+  const tmp = `${COOKIE_FILE}.refresh`;
   const res = spawnSync(
     "yt-dlp",
-    ["--no-update", "--cookies-from-browser", "chrome", "--cookies", COOKIE_FILE,
+    ["--no-update", "--cookies-from-browser", "chrome", "--cookies", tmp,
      "--flat-playlist", "--playlist-end", "1", "--print", "%(id)s",
      "https://www.youtube.com/feed/subscriptions"],
     { encoding: "utf8", timeout: 45000 }
   );
-  log(res.status === 0
-    ? "cookies: refreshed from browser (machine unlocked)"
-    : "cookies: refresh skipped (browser locked/unavailable) — using last saved file");
+  if (res.status === 0 && cookieFileHasLogin(tmp)) {
+    try { renameSync(tmp, COOKIE_FILE); log("cookies: refreshed from browser (valid logged-in session)"); }
+    catch { log("cookies: refresh ok but could not replace file — keeping existing"); }
+  } else {
+    // Either locked/unavailable, or the refresh produced a logged-out set (ABE).
+    // Keep whatever good file we already have; never overwrite it with junk.
+    try { rmSync(tmp, { force: true }); } catch {}
+    log(res.status === 0
+      ? "cookies: refresh produced no LOGIN_INFO (Chrome App-Bound Encryption?) — keeping existing file"
+      : "cookies: refresh skipped (browser locked/unavailable) — using last saved file");
+  }
 }
 
 function ytdlpList(url, limit) {
@@ -146,23 +169,99 @@ function ytdlpList(url, limit) {
 const FILLER_RE =
   /(\b(fireplace|crackling|lofi|lo-fi|sleep music|rain sounds|ambience|ambient|chillout|chill out|deep house|lounge mix|official music video|music video|full match|highlights|nba|nfl|ufc|asmr|нажив|новини|новости|радіо|radio|official trailer|official video)\b|\b(claude ?fm|24\/7)\b|🔴|🍓|^mix -| - .*\bmix\b|\blive\b ?[:|]|\bvs\.? )/i;
 
+// (a-fallback) PUBLIC channel RSS — NO cookies, NO auth, NO keychain. The
+// bulletproof floor: works even when Chrome is locked or the cookie session is
+// dead (the recurring 8am failure mode). Reads a curated channel allowlist
+// (channel_id<TAB>name per line, '#' comments ok) and pulls each channel's public
+// Atom feed at youtube.com/feeds/videos.xml, keeping uploads inside the lookback
+// window. yt-dlp/Chrome are never touched on this path.
+const CHANNELS_FILE =
+  process.env.FEED_CHANNELS || join(homedir(), ".config/feed/channels.txt");
+
+function readChannelList() {
+  if (!existsSync(CHANNELS_FILE)) return [];
+  const out = [];
+  for (const line of readFileSync(CHANNELS_FILE, "utf8").split("\n")) {
+    const s = line.trim();
+    if (!s || s.startsWith("#")) continue;
+    const id = s.split(/\s+/)[0];
+    if (/^UC[A-Za-z0-9_-]{20,}$/.test(id)) out.push(id);
+  }
+  return out;
+}
+
+function decodeXml(s) {
+  return String(s)
+    .replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'").replace(/&apos;/g, "'").replace(/&amp;/g, "&");
+}
+
+function fetchChannelRss(channelId) {
+  const res = spawnSync(
+    "curl",
+    ["-sS", "--max-time", "20", "-A", "Mozilla/5.0",
+     `https://www.youtube.com/feeds/videos.xml?channel_id=${channelId}`],
+    { encoding: "utf8", maxBuffer: 16 * 1024 * 1024 }
+  );
+  if (res.status !== 0 || !res.stdout) return [];
+  const out = [];
+  for (const e of res.stdout.split("<entry>").slice(1)) {
+    const id = (e.match(/<yt:videoId>([^<]+)<\/yt:videoId>/) || [])[1];
+    const title = (e.match(/<title>([^<]*)<\/title>/) || [])[1] || "";
+    const published = (e.match(/<published>([^<]+)<\/published>/) || [])[1] || "";
+    if (id && /^[A-Za-z0-9_-]{6,}$/.test(id))
+      out.push({ id, title: decodeXml(title), published });
+  }
+  return out;
+}
+
+function collectRss(want) {
+  const channels = readChannelList();
+  if (!channels.length) {
+    log(`collect: RSS fallback unavailable — no channel list at ${CHANNELS_FILE}`);
+    return [];
+  }
+  const lookbackDays = Number(process.env.FEED_RSS_LOOKBACK_DAYS) || 2;
+  const cutoff = Date.now() - lookbackDays * 86400000;
+  log(`collect: RSS fallback — ${channels.length} channels, lookback ${lookbackDays}d (no auth, no cookies)…`);
+  const seen = new Set();
+  const items = [];
+  for (const ch of channels) {
+    for (const v of fetchChannelRss(ch)) {
+      if (seen.has(v.id)) continue;
+      const t = Date.parse(v.published);
+      if (Number.isFinite(t) && t < cutoff) continue;
+      seen.add(v.id);
+      items.push(v);
+    }
+  }
+  items.sort((a, b) => (Date.parse(b.published) || 0) - (Date.parse(a.published) || 0));
+  return items.slice(0, want);
+}
+
 function collect({ source, candidates }) {
   const want = Number(candidates) || 40;
-  const tryRecs = source !== "subs";
+  const tryRecs = source !== "subs" && source !== "rss";
   let items = [];
-  let used = source === "subs" ? "subs" : "recs";
+  let used = source === "subs" ? "subs" : source === "rss" ? "rss" : "recs";
 
-  refreshCookies(); // keep the file fresh when unlocked; no-op/keeps file when locked
+  if (source !== "rss")
+    refreshCookies(); // keep the file fresh when unlocked; no-op/keeps file when locked
 
   if (tryRecs) {
     log("collect: trying personalized homepage recommendations…");
     items = ytdlpList("https://www.youtube.com/", want * 2);
     if (items.length) used = "recs";
   }
-  if (!items.length) {
+  if (source !== "rss" && !items.length) {
     log("collect: falling back to subscriptions feed…");
     items = ytdlpList("https://www.youtube.com/feed/subscriptions", want * 2);
-    used = "subs";
+    if (items.length) used = "subs";
+  }
+  if (!items.length) {
+    // No-auth safety net: never hard-fail just because cookies are dead/locked.
+    items = collectRss(want * 2);
+    if (items.length) used = "rss";
   }
 
   // de-dupe by id, drop obvious filler titles, cap to want
@@ -430,6 +529,8 @@ function build(flags) {
     source:
       source === "recs"
         ? "youtube-homepage-recommendations"
+        : source === "rss"
+        ? "curated-channel-rss"
         : "youtube-subscriptions",
     total_recommended: totalRaw || candidates.length,
     summarized: summarizedCount,
@@ -453,12 +554,96 @@ function build(flags) {
   );
 }
 
+/* ------------------------------------------------------------------ *
+ * (e) EDITOR'S NOTE — audience-voice, PUBLIC. Resilience-gated: only   *
+ *     succeeds with REAL AI summaries + a working backend. Writes HTML *
+ *     to --out and exits 0; any failure logs a reason to stderr and    *
+ *     exits non-zero so the runner NEVER posts an empty/bad note.      *
+ * ------------------------------------------------------------------ */
+
+const NOTE_PERSONA = `You are Alösha (Alex Razbakov) writing a short first-person "Editor's Note" to your Telegram audience, introducing today's curated YouTube digest. Munich-based founder/engineer. Interests: AI (esp. Anthropic/Claude), Apple & Vision Pro / spatial computing, consciousness & simulation & philosophy, science, building/startups, Cuban dance. Voice: warm, curious, concise, a little wry — never hypey or corporate.`;
+
+function editorsnote(flags) {
+  const date = flags.date && flags.date !== true ? String(flags.date) : todayBerlin();
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) {
+    log(`editorsnote: --date must be YYYY-MM-DD, got: ${date}`);
+    process.exit(1);
+  }
+  const inPath = join(FEED_DIR, `${date}.json`);
+  if (!existsSync(inPath)) {
+    log(`editorsnote: no feed file for ${date} at ${inPath}`);
+    process.exit(1);
+  }
+  let doc;
+  try { doc = JSON.parse(readFileSync(inPath, "utf8")); }
+  catch (e) { log(`editorsnote: cannot parse ${inPath}: ${e.message}`); process.exit(1); }
+
+  // Resilience gate: only post when there are REAL AI summaries.
+  const real = (doc.items || []).filter(
+    (it) => it.summary && !/^\(summary pending/i.test(it.summary)
+  );
+  if (!real.length) {
+    log(`editorsnote: no real AI summaries for ${date} — refusing to post a note`);
+    process.exit(1);
+  }
+
+  const binDir = nodeBinDir();
+  const backend = binDir ? detectLlmBackend(binDir) : null;
+  if (!backend) {
+    log("editorsnote: no working claude -p backend (stale OAuth / no API key) — refusing to post");
+    process.exit(1);
+  }
+
+  const feedUrl = `https://razbakov.com/feed/${date}`;
+  const lines = real
+    .map((it) => `- [${it.category || "Other"}] ${it.title} — ${it.channel}: ${it.summary}`)
+    .join("\n");
+  const prompt = `${NOTE_PERSONA}
+
+Below are today's kept items (${real.length}). Write a SHORT Editor's Note (3-5 sentences, ~70-110 words) that:
+- opens in your own voice,
+- names 2-3 threads/themes you find most interesting today (group, don't list everything),
+- ends inviting them to read the full digest.
+
+Output ONLY Telegram-safe HTML using these tags and nothing else: <b>, <i>, <a href="...">. NO markdown, NO headers, NO bullet lists, NO code fences. Do not wrap in quotes. Write the link as <a href="${feedUrl}">today's feed</a> somewhere natural.
+
+TODAY'S ITEMS:
+${lines}`;
+
+  const res = spawnSync("claude", ["-p"], {
+    input: prompt,
+    encoding: "utf8",
+    timeout: 120000,
+    env: backend.env,
+    maxBuffer: 16 * 1024 * 1024,
+  });
+  if (res.status !== 0) {
+    log(`editorsnote: claude -p failed (status ${res.status}): ${(res.stderr || "").trim().slice(0, 120)}`);
+    process.exit(1);
+  }
+  let html = (res.stdout || "").trim()
+    .replace(/^```(?:html)?\s*/i, "").replace(/\s*```$/i, "").trim();
+  if (!html) {
+    log("editorsnote: backend returned empty note");
+    process.exit(1);
+  }
+  const header = `<b>🎬 Daily YouTube feed — ${date}</b>\n\n`;
+  const out = header + html;
+  if (flags.out && flags.out !== true) {
+    writeFileSync(String(flags.out), out, "utf8");
+    log(`editorsnote: wrote note (${real.length} items, ${backend.label}) to ${flags.out}`);
+  } else {
+    process.stdout.write(out + "\n");
+  }
+}
+
 /* ----------------------------- CLI ----------------------------- */
 
 function main() {
   const [cmd, ...rest] = process.argv.slice(2);
   const flags = parseFlags(rest);
   if (cmd === "build") return build(flags);
+  if (cmd === "editorsnote") return editorsnote(flags);
   if (cmd === "collect") {
     const r = collect({
       source: flags.source && flags.source !== true ? String(flags.source) : "recs",
@@ -474,6 +659,7 @@ function main() {
       "commands:",
       "  build [--date YYYY-MM-DD] [--source recs|subs] [--candidates N] [--keep N] [--force]",
       "  collect [--source recs|subs] [--candidates N]",
+      "  editorsnote [--date YYYY-MM-DD] [--out PATH]",
     ].join("\n")
   );
   process.exit(cmd ? 1 : 0);
