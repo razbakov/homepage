@@ -600,12 +600,16 @@ function editorsnote(flags) {
     .join("\n");
   const prompt = `${NOTE_PERSONA}
 
-Below are today's kept items (${real.length}). Write a SHORT Editor's Note (3-5 sentences, ~70-110 words) that:
-- opens in your own voice,
-- names 2-3 threads/themes you find most interesting today (group, don't list everything),
-- ends inviting them to read the full digest.
+Write today's Editor's Note as a "Po" — Edward de Bono's provocation operation from lateral thinking. A "po" is a deliberate provocation that suspends judgment and triggers the NEXT THOUGHT. So the note is an EXECUTIVE SUMMARY of the day delivered IN THE FORM OF A PROVOCATIVE QUESTION — not a recap, a provocation that moves the reader forward.
 
-Output ONLY Telegram-safe HTML using these tags and nothing else: <b>, <i>, <a href="...">. NO markdown, NO headers, NO bullet lists, NO code fences. Do not wrap in quotes. Write the link as <a href="${feedUrl}">today's feed</a> somewhere natural.
+How:
+- Find the deepest throughline across today's items — the tension or pattern UNDER the surface topics (don't just list the topics).
+- Turn it into ONE sharp provocative question that synthesizes the day and opens a new line of thinking. It should land as "the next thought," slightly destabilizing, the kind of question you can't un-think. This is the lead and the spine of the note.
+- The question must carry the summary: a reader should infer what today's feed is broadly about FROM the provocation itself.
+- Then ONE short sentence that grounds it in 2-3 of today's concrete items (names/specifics), so it stays an executive summary, not a free-floating abstraction.
+- Tight: ~45-85 words total. Your voice — curious, a little wry, never hypey. Do NOT literally write the word "po" or explain the technique; just deliver the provocation.
+
+Output ONLY Telegram-safe HTML using these tags and nothing else: <b>, <i>, <a href="...">. NO markdown, NO headers, NO bullet lists, NO code fences. Do not wrap in quotes. LEAD with the provocative question (wrap it in <b>). End with <a href="${feedUrl}">today's feed</a>.
 
 TODAY'S ITEMS:
 ${lines}`;
