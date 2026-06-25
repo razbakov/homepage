@@ -71,9 +71,12 @@ const SCRIPT_DIR =
 const ELEVEN_API_KEY = process.env.ELEVENLABS_API_KEY || "";
 const ELEVEN_VOICE_ID = process.env.ELEVENLABS_VOICE_ID || "";
 const ELEVEN_MODEL = process.env.ELEVENLABS_MODEL_ID || "eleven_multilingual_v2";
-// mp3_44100_192 is the highest-quality mp3 the Creator plan exposes via API.
+// Default to mp3_44100_128 — the highest mp3 bitrate allowed on the free/Starter
+// ElevenLabs tier. mp3_44100_192 requires Creator tier and 403s otherwise (the
+// silent render failure on 2026-06-25). Override via ELEVENLABS_OUTPUT_FORMAT in
+// ~/.config/feed/.env once on a higher tier.
 const ELEVEN_OUTPUT_FORMAT =
-  process.env.ELEVENLABS_OUTPUT_FORMAT || "mp3_44100_192";
+  process.env.ELEVENLABS_OUTPUT_FORMAT || "mp3_44100_128";
 
 const FFMPEG = process.env.FFMPEG_BIN || "ffmpeg";
 const FFPROBE = process.env.FFPROBE_BIN || "ffprobe";
