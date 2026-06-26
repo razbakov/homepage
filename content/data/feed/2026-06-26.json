@@ -1,0 +1,128 @@
+{
+  "date": "2026-06-26",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 80,
+  "summarized": 12,
+  "items": [
+    {
+      "id": "tOC2N0B9lio",
+      "title": "The next paradigm shift (according to Karpathy)",
+      "channel": "Theo - t3․gg",
+      "duration": "20:47",
+      "category": "AI / Anthropic",
+      "url": "https://youtu.be/tOC2N0B9lio",
+      "summary": "Theo breaks down Karpathy's enthusiasm for Claude Tag (Anthropic's Slack-based agent). Argues this represents the third major LLM UX paradigm: from website to desktop app to persistent async entity embedded in team workflows. Key insight is channel-based context management — each Slack channel gives Claude different memory/tools/context, solving the messy problem of scoping agent knowledge across teams, projects, and codebases.",
+      "relevance": "Directly relevant to how I structure my own multi-agent setup with per-project routing and context isolation — channels as context boundaries is a pattern worth stealing."
+    },
+    {
+      "id": "j3aaXpFe8so",
+      "title": "Gracia Gaussian Splat Video Streaming on Vision Pro",
+      "channel": "Himels Tech",
+      "duration": "8:03",
+      "category": "Apple / Vision Pro",
+      "url": "https://youtu.be/j3aaXpFe8so",
+      "summary": "Demo of Gracia 4D GS app on Vision Pro that streams volumetric Gaussian splat videos — captured with a 50-camera genlock rig, turned into 3D point clouds you can walk around, resize, and place in your room. Files range from 300MB to 2GB for 9-30 second clips; streaming mode also available. Quality is decent but below Apple Immersive Video fidelity, with detail dropping at scene edges.",
+      "relevance": "Early glimpse of what volumetric video streaming could become on Vision Pro — the spatial computing equivalent of early YouTube buffering 240p."
+    },
+    {
+      "id": "Qh8-DkxNGOQ",
+      "title": "Оркестрация ИИ-агентов: парадигма разработки в Google Antigravity 2.0",
+      "channel": "ATDIGIT",
+      "duration": "13:32",
+      "category": "AI / Agents",
+      "url": "https://youtu.be/Qh8-DkxNGOQ",
+      "summary": "Russian-language talk from ATDIGIT covering Google's Antigravity 2.0 event, focusing on the paradigm shift toward AI agent orchestration — how to coordinate multiple AI agents in development workflows, Google's approach to multi-agent systems, and practical patterns for building agent pipelines.",
+      "relevance": "Agent orchestration is exactly what I'm building daily — worth checking Google's angle on multi-agent coordination."
+    },
+    {
+      "id": "vlahV4NoVzo",
+      "title": "Schrödinger’s Cat Just Got Real (Scientists Can’t Explain It)",
+      "channel": "Julia McCoy",
+      "duration": "10:35",
+      "category": "Science / Quantum Physics",
+      "url": "https://youtu.be/vlahV4NoVzo",
+      "summary": "Covers a 2026 University of Vienna experiment (published in Nature) that placed clusters of ~7,000 sodium atoms (~170,000 amu, virus-scale) into quantum superposition — an order of magnitude beyond the previous 2019 record. Discusses implications: no proven size limit on quantum mechanics, decoherence as the reason macro objects appear classical, and the still-open interpretive questions (measurement problem, observer role, multiverse). Padded with faith/meaning commentary and a course sales pitch.",
+      "relevance": "The underlying experiment is genuinely fascinating for the consciousness/simulation question, but the clickbait title oversells it and half the runtime is filler — read the Nature paper directly instead."
+    },
+    {
+      "id": "XqUOgqlZ8bc",
+      "title": "A Mysterious Design That Appears Across Millennia | Terry Moore | TED",
+      "channel": "TED",
+      "duration": "6:08",
+      "category": "Science / Philosophy",
+      "url": "https://youtu.be/XqUOgqlZ8bc",
+      "summary": "TED talk connecting Penrose's aperiodic tiling (two shapes, infinite non-repeating pattern) to identical patterns found on a 14th-century madrassa in Uzbekistan — 500 years before Penrose. Argues these ancient designs encode a worldview about life's complexity, aperiodicity, and a hidden underlying unity (Plato's 'first cause,' Bohm's 'implicate order'), common across civilizations from Egypt to Mesoamerica.",
+      "relevance": "Short, dense connection between math, physics, and ancient philosophy about hidden order in complexity — right up the consciousness/simulation alley."
+    },
+    {
+      "id": "J-HDHwEJ2z8",
+      "title": "Why Intelligence May Be Everywhere",
+      "channel": "Quanta Magazine",
+      "duration": "8:01",
+      "category": "Consciousness / Science",
+      "url": "https://youtu.be/J-HDHwEJ2z8",
+      "summary": "Michael Levin explains his 'diverse intelligence' framework: intelligence is goal-directed problem-solving, not neurons. He introduces the 'cognitive light cone' concept to map intelligences by goal-scope, shows how cell collectives use bioelectricity (same mechanisms as brains) to pursue anatomical goals like limb regeneration, and demonstrates tadpoles with eyes on tails that can see without evolutionary adaptation — evidence of deep biological problem-solving down to molecular networks.",
+      "relevance": "Levin's cognitive light cone is one of the most useful mental models for thinking about intelligence across scales — from cells to AI systems."
+    },
+    {
+      "id": "TkQeM7NbYdU",
+      "title": "Apple's New Siri is Actually INSANE",
+      "channel": "brooke tierney",
+      "duration": "9:08",
+      "category": "Apple / AI",
+      "url": "https://youtu.be/TkQeM7NbYdU",
+      "summary": "Hands-on with the redesigned Siri in Apple's developer beta: new liquid-glass UI in Dynamic Island, standalone conversation app, camera-app integration replacing Visual Intelligence. Key upgrades include true conversational flow (interruptions, corrections), deep personal context pulling from messages/photos/calendar simultaneously, on-screen awareness that detects addresses and events in any app, and multi-step in-app actions like editing contacts, composing emails, and building grocery lists from Safari recipes — all processed on-device or via Private Cloud Compute.",
+      "relevance": "Finally a credible Siri demo — the personal-context and cross-app chaining looks like what Apple Intelligence promised; worth seeing where it still breaks in beta."
+    },
+    {
+      "id": "Bm8Ex-k1mLw",
+      "title": "Your Brain Doesn't Make Consciousness. It Receives It.",
+      "channel": "The Archivist's Journal",
+      "duration": "14:38",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/Bm8Ex-k1mLw",
+      "summary": "Explores the 'radio theory' of consciousness — the brain as receiver, not producer. Covers Pim van Lommel's Lancet-published study (344 cardiac arrest patients, 18% reported structured experiences with flat EEGs), Sam Parnia's AWARE II study finding gamma-wave activity during CPR, and Jimo Borjigin's discovery of brain surges at death. Cross-cultural research shows identical NDE structure regardless of religion or prior knowledge, with only cultural details varying.",
+      "relevance": "Solid survey of the best empirical data we have on consciousness surviving brain shutdown — exactly the kind of evidence that makes the simulation/filter hypothesis hard to dismiss."
+    },
+    {
+      "id": "gALuqvykC1c",
+      "title": "M5 Apple Vision Pro Review, But I Respect Your Time",
+      "channel": "Andrew Clare",
+      "duration": "4:20",
+      "category": "Apple / Vision Pro",
+      "url": "https://youtu.be/gALuqvykC1c",
+      "summary": "Quick-hit M5 Vision Pro review: dual knit band improves comfort, M5 chip noticeably faster with better eye/hand tracking, Personas out of beta and impressively realistic. Battery still only ~3 hrs (wants 6-8 for transatlantic flights). Reviewer argues spatial computing is very much alive but wishes Apple had hit a $2,500 price point.",
+      "relevance": "Concise, no-fluff M5 Vision Pro take — good pulse check on where spatial computing actually stands after 2 years."
+    },
+    {
+      "id": "QUB0eoTxiRI",
+      "title": "Why AI Safety Benchmarks Fail | LLM Guardrail Benchmark Lies | @AI-Red-Teaming",
+      "channel": "Red Teaming AI",
+      "duration": "6:03",
+      "category": "AI / Safety & Security",
+      "url": "https://youtu.be/QUB0eoTxiRI",
+      "summary": "Research shows popular LLM guardrails (Meta's LlamaGuard 3, Prompt Guard 2) drop from 99% benchmark performance to 7% under targeted attacks. Two key flaws: LlamaGuard crashes on tool-role messages (bypassing safety entirely), and Prompt Guard flattens conversation structure so injected commands blend with legitimate instructions. Paper proposes activation-based probes that read internal neural activations to detect malicious intent regardless of surface-level wording.",
+      "relevance": "If you're building agents with tool use, these guardrail blind spots around tool-role messages are a real architectural concern worth understanding."
+    },
+    {
+      "id": "Ws6Opg41oD4",
+      "title": "Нереальная граница между ЖИВОЙ и НЕ ЖИВОЙ материей | Безумные научные идеи",
+      "channel": "SciOne",
+      "duration": "38:38",
+      "category": "Science / Consciousness",
+      "url": "https://youtu.be/Ws6Opg41oD4",
+      "summary": "SciOne explores the blurry boundary between living and non-living matter, examining scientific theories and experiments that challenge traditional definitions of life — from self-organizing chemical systems to protocells and the origins of biological complexity.",
+      "relevance": "Прямо в тему consciousness и simulation — где именно проходит граница между материей и жизнью, и существует ли она вообще."
+    },
+    {
+      "id": "JIcnLX6mgXg",
+      "title": "Top Neuroscientist Demonstrates What’s Behind Reality",
+      "channel": "Video Advice",
+      "duration": "21:03",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/JIcnLX6mgXg",
+      "summary": "Explores Karl Pribram's holonomic brain theory: memories are distributed as interference patterns (like holograms) rather than stored in specific brain locations. Pribram found the math governing dendritic field interactions mirrors quantum wave equations, leading him to propose a 'spectral domain' where the brain encodes reality as frequencies, not spatial forms — connecting to David Bohm's implicate order. Practical validation: MRI/CAT scans use identical Fourier-transform logic to reconstruct 3D images from scattered signals.",
+      "relevance": "Pribram's spectral-domain idea is one of the strongest neuroscience-grounded arguments that consciousness operates closer to a holographic simulation than a naive realist picture — worth revisiting."
+    }
+  ]
+}
