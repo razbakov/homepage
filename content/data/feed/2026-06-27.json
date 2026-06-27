@@ -1,0 +1,128 @@
+{
+  "date": "2026-06-27",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 80,
+  "summarized": 12,
+  "items": [
+    {
+      "id": "Bm8Ex-k1mLw",
+      "title": "Your Brain Doesn't Make Consciousness. It Receives It.",
+      "channel": "The Archivist's Journal",
+      "duration": "14:38",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/Bm8Ex-k1mLw",
+      "summary": "Surveys the 'brain as receiver' theory of consciousness through peer-reviewed medical data: Pim van Lommel's 344-patient Lancet study (18% reported structured experiences during flat EEG), Sam Parnia's AWARE II finding organized gamma waves deep into CPR, and Jimo Borjigin's discovery of death-moment brain surges with heightened connectivity. Cross-cultural research shows identical NDE structure regardless of religion or prior knowledge. Also covers counter-arguments (anoxia, endogenous DMT) and their limitations.",
+      "relevance": "Solid survey connecting William James's transmission theory to modern clinical data — useful if you're thinking about consciousness as non-local or filtered rather than generated."
+    },
+    {
+      "id": "TkQeM7NbYdU",
+      "title": "Apple's New Siri is Actually INSANE",
+      "channel": "brooke tierney",
+      "duration": "9:08",
+      "category": "Apple / Siri",
+      "url": "https://youtu.be/TkQeM7NbYdU",
+      "summary": "Hands-on walkthrough of Apple's redesigned Siri in the developer beta: new liquid-glass UI in Dynamic Island, standalone conversation app, camera-app integration replacing Visual Intelligence, and deep personal context (cross-referencing calendar events with messages, pulling location names from 10-year-old photos). Demos on-screen awareness (auto-detecting addresses/dates in Messages/Safari), multi-step action chaining (updating contacts, creating structured Notes, building grocery lists from recipes), and natural conversation with interruptions and corrections. Still buggy in email composition but functional.",
+      "relevance": "Finally a Siri that actually chains actions across apps — the personal context and on-screen awareness demos alone make this worth watching to see where Apple's AI assistant is headed."
+    },
+    {
+      "id": "cXlxCOoNZ7E",
+      "title": "Spacetime Is The Memory  Of A Self Knowing Universe | Federico Faggin",
+      "channel": "Essentia Foundation",
+      "duration": "1:37:03",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/cXlxCOoNZ7E",
+      "summary": "Federico Faggin (inventor of the first microprocessor) presents his quantum theory of consciousness: reality starts from an indivisible conscious whole ('One') rather than separate parts, with spacetime and matter emerging as the memory of this self-knowing field. He argues quantum entanglement proves non-locality and interconnectedness, making reductionist approaches (including string theory's 80-year failure) fundamentally misguided. Covers the holographic nature of reality, qualia as evidence of deeper structure, and why the subject-object divide is arbitrary.",
+      "relevance": "Faggin bridges hardcore physics credentials with a rigorous consciousness-first cosmology — exactly the kind of thinker who makes the 'simulation / consciousness' rabbit hole worth going deep on."
+    },
+    {
+      "id": "a2i9h2ip-nY",
+      "title": "Midjourney has a new side quest... death",
+      "channel": "Fireship",
+      "duration": "5:26",
+      "category": "AI / Startups",
+      "url": "https://youtu.be/a2i9h2ip-nY",
+      "summary": "Midjourney announces Midjourney Medical — an ultrasonic CT scanner using 500K micro-sensors in warm water to create full-body imaging via sound waves, leveraging their image-reconstruction AI expertise. Plans include a 25K sq ft 'spa' in SF by end of 2027 where scans happen passively, with FDA clearance and 50K-machine scale targeted by 2031. Doctors note ultrasound can't penetrate air-filled lungs or bone-wrapped brains, and the prototype still takes 20 min vs the promised 60 seconds.",
+      "relevance": "A profitable, bootstrapped AI lab pivoting from art generation to accessible healthcare hardware — rare to see this kind of ambition outside the God-building race."
+    },
+    {
+      "id": "OLjaIK48s1A",
+      "title": "Clone any voice with incredible fidelity, now faster + 9 papers & 10 AI trends | ArXiv June 24",
+      "channel": "Hang Liu",
+      "duration": "23:25",
+      "category": "AI / Research",
+      "url": "https://youtu.be/OLjaIK48s1A",
+      "summary": "ArXiv roundup covering 9 papers: Zonos 2's MoE-based voice cloning achieving near-human fidelity, Qwen Agent World training 39.7B language models as world simulators for agent RL, a formal defense (TMENM) that drops LLM memory-poisoning attack success to 0%, Open Thoughts Agent releasing a full open-source pipeline for training generalist agents (32B model hits 44.8 avg on benchmarks), plus work on verified robot safety, African-language tokenization cost penalties, and LLM-driven quantum code discovery.",
+      "relevance": "Solid 23-min scan of this week's most interesting papers — the agent world-model work from Qwen and the open-source agent training pipeline are especially worth tracking."
+    },
+    {
+      "id": "vlahV4NoVzo",
+      "title": "Schrödinger’s Cat Just Got Real (Scientists Can’t Explain It)",
+      "channel": "Julia McCoy",
+      "duration": "10:35",
+      "category": "Science / Consciousness",
+      "url": "https://youtu.be/vlahV4NoVzo",
+      "summary": "Covers a 2026 University of Vienna experiment (published in Nature) that placed clusters of ~7,000 sodium atoms (~170,000 AMU, virus-scale) into quantum superposition — an order of magnitude beyond the 2019 record. Discusses implications: no proven size limit on quantum mechanics, decoherence as the reason macroscopic objects appear classical, and the still-open interpretive questions (measurement problem, observer role, multiverse). Presentation leans philosophical/faith-adjacent and ends with course promotion.",
+      "relevance": "The Vienna superposition result is legit and fascinating for the 'where does quantum end and classical begin' question — though you'll want the Nature paper itself over the motivational framing here."
+    },
+    {
+      "id": "8xvbmi9F-tU",
+      "title": "Expand your perception. Change your life. | Dr. Jill Bolte Taylor",
+      "channel": "Big Think",
+      "duration": "9:13",
+      "category": "Consciousness / Science",
+      "url": "https://youtu.be/8xvbmi9F-tU",
+      "summary": "Neuroanatomist Dr. Jill Bolte Taylor maps the brain into four 'characters' — left/right thinking and left/right emotion — each producing distinct personality modes. She recounts her 1996 left-hemisphere stroke that dissolved her ego and individual identity, leaving only present-moment expansive consciousness, and her 8-year recovery that led her to operate as a 'collective democracy' of all four modules rather than defaulting to left-hemisphere dominance.",
+      "relevance": "A first-person account of ego dissolution through brain trauma — rare empirical data on consciousness from someone who can narrate the neuroanatomy in real time."
+    },
+    {
+      "id": "qKZvAwcXceE",
+      "title": "I finally understood why matter curves spacetime! (My mind is blown)",
+      "channel": "FloatHeadPhysics",
+      "duration": "28:49",
+      "category": "Science",
+      "url": "https://youtu.be/qKZvAwcXceE",
+      "summary": "A step-by-step intuitive derivation of why gravity implies curved spacetime: starts from Newton's force law, highlights the suspicious equality of gravitational and inertial mass, then uses Einstein's equivalence principle (freefall = weightlessness) to argue gravity isn't a force but an artifact of the ground accelerating upward — leading naturally to the conclusion that spacetime itself must be curved.",
+      "relevance": "Love this kind of first-principles thinking — not memorizing 'mass tells spacetime how to curve' but actually re-deriving *why* that must be true."
+    },
+    {
+      "id": "tOC2N0B9lio",
+      "title": "The next paradigm shift (according to Karpathy)",
+      "channel": "Theo - t3․gg",
+      "duration": "20:47",
+      "category": "AI / Anthropic",
+      "url": "https://youtu.be/tOC2N0B9lio",
+      "summary": "Theo breaks down Karpathy's enthusiasm for Anthropic's Claude Tag — a Slack integration where Claude joins as a persistent, multiplayer team member with per-channel context and memory. The key insight: channels are a far better abstraction for context boundaries than project/org/codebase splits, letting different teams have entirely different Claude experiences. 65% of Anthropic's product team code now comes through this workflow.",
+      "relevance": "Per-channel context isolation is exactly the problem I'm solving with per-project routing agents — this validates the pattern and shows where it's heading."
+    },
+    {
+      "id": "yHSB1wwv24s",
+      "title": "Here's What Most People Don't Understand About God | Eckhart Tolle",
+      "channel": "Eckhart Tolle",
+      "duration": "6:47",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/yHSB1wwv24s",
+      "summary": "Eckhart Tolle explores the Christian theological concept of God as both immanent and transcendent, drawing parallels with Advaita non-duality and the Tao Te Ching. He argues God doesn't exist in space-time but emanates consciousness into this dimension the way the sun emanates light — consciousness at various vibrational frequencies (matter, mind, spirit) is God's emanation, not God itself.",
+      "relevance": "Neat synthesis of non-duality across traditions — Tolle connects Jesus, Advaita, and the Tao Te Ching into one coherent framework on consciousness as emanation."
+    },
+    {
+      "id": "PqBrnip-ZLw",
+      "title": "Private AI on the go… a new trick",
+      "channel": "Alex Ziskind",
+      "duration": "9:09",
+      "category": "AI / Local Infrastructure",
+      "url": "https://youtu.be/PqBrnip-ZLw",
+      "summary": "Demo of LM Studio 4.5's new LM Link feature, which uses Tailscale under the hood to let you run massive models (Qwen 480B, Kimi K2.5 at 1TB+) on beefy remote machines while working from a 16GB MacBook Air. Shows 152 tok/s on Qwen 3 80B via RTX Pro 6000, seamless model switching across machines, and VS Code integration — all private, no cloud API needed.",
+      "relevance": "Practical setup for private local AI coding — relevant if you want Claude-level firepower without sending code to the cloud."
+    },
+    {
+      "id": "Ws6Opg41oD4",
+      "title": "Нереальная граница между ЖИВОЙ и НЕ ЖИВОЙ материей | Безумные научные идеи",
+      "channel": "SciOne",
+      "duration": "38:38",
+      "category": "Science / Consciousness",
+      "url": "https://youtu.be/Ws6Opg41oD4",
+      "summary": "SciOne explores where the boundary between living and non-living matter actually lies, examining scientific ideas about abiogenesis, self-organizing chemical systems, and why the transition from chemistry to biology may not be a sharp line but a continuum. Covers frameworks from origin-of-life research and provocative hypotheses challenging traditional definitions of life.",
+      "relevance": "Alösha's take: If you've ever wondered whether 'alive' is a binary or a spectrum, this is a solid deep-dive — right at the intersection of science and philosophy."
+    }
+  ]
+}
