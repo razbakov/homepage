@@ -1,0 +1,128 @@
+{
+  "date": "2026-06-28",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 80,
+  "summarized": 12,
+  "items": [
+    {
+      "id": "tOC2N0B9lio",
+      "title": "The next paradigm shift (according to Karpathy)",
+      "channel": "Theo - t3․gg",
+      "duration": "20:47",
+      "category": "AI / Anthropic",
+      "url": "https://youtu.be/tOC2N0B9lio",
+      "summary": "Theo breaks down Karpathy's enthusiasm for Claude Tag — Anthropic's Slack-based agent that represents what Karpathy calls the third paradigm of LLM UX: AI as a persistent, async team member with org-wide tools and per-channel context. Key insight: channels solve the context-management problem better than global/project splits because they map to how teams naturally organize work, letting different teams have entirely different Claude experiences. Theo validates this from his own experience building bespoke Discord agents where per-channel isolation proved essential.",
+      "relevance": "Directly relevant to how I'm architecting my own multi-agent setup — the per-channel context isolation pattern mirrors what I'm doing with routing agents per project."
+    },
+    {
+      "id": "NMk4fw_lhIw",
+      "title": "The Science of Why \"You\" Don't Exist Anymore",
+      "channel": "The Global Countdown ",
+      "duration": "9:39",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/NMk4fw_lhIw",
+      "summary": "Walks through the biology of human self-replacement (98% of atoms swapped yearly, skeleton every 10 years, neurons regenerating via Gage's 1998 neurogenesis finding) and connects it to Derek Parfit's argument that personal identity is an illusion — a narrative stitched from reconstructed memories (Schacter's reconsolidation research). Concludes that what persists is pattern, not matter: DNA sequence, personality traits, and connectome architecture.",
+      "relevance": "Solid 10-min primer connecting Ship of Theseus to actual neuroscience — good ammo for the 'consciousness is process, not substrate' thread."
+    },
+    {
+      "id": "TkQeM7NbYdU",
+      "title": "Apple's New Siri is Actually INSANE",
+      "channel": "brooke tierney",
+      "duration": "9:08",
+      "category": "Apple / AI",
+      "url": "https://youtu.be/TkQeM7NbYdU",
+      "summary": "Hands-on demo of Apple's redesigned Siri in the developer beta: now conversational with interruptions and corrections, has deep personal context by indexing on-device data (messages, photos, calendar), features on-screen awareness that can take cross-app actions (update contacts from a text, summarize Safari articles into Notes), and handles complex multi-step requests like modifying recipe ingredients into a grocery list. Privacy maintained via on-device processing or Apple's private cloud.",
+      "relevance": "Finally a concrete demo of the new Siri doing real multi-step, cross-app tasks — worth seeing what Apple's AI assistant actually looks like in practice now."
+    },
+    {
+      "id": "0QfCvIJRtE0",
+      "title": "The biggest myths about emotions, debunked | Lisa Feldman Barrett",
+      "channel": "The Well",
+      "duration": "9:22",
+      "category": "Science / Neuroscience",
+      "url": "https://youtu.be/0QfCvIJRtE0",
+      "summary": "Neuroscientist Lisa Feldman Barrett dismantles the myth that emotions are hardwired circuits triggered reactively, arguing instead that the brain constructs emotions by predicting from past experience while regulating body metabolism. She explains depression as the brain's cost-cutting response to a perceived metabolic deficit, and outlines how deliberately cultivating new experiences rewires predictions — changing future emotional responses.",
+      "relevance": "Fascinating constructionist take on emotions that connects to how prediction machines (brains or AI) build internal models — worth watching if you think about consciousness and embodied cognition."
+    },
+    {
+      "id": "gALuqvykC1c",
+      "title": "M5 Apple Vision Pro Review, But I Respect Your Time",
+      "channel": "Andrew Clare",
+      "duration": "4:20",
+      "category": "Apple / Vision Pro",
+      "url": "https://youtu.be/gALuqvykC1c",
+      "summary": "Concise M5 Vision Pro review: dual knit band improves comfort, battery hits 3+ hrs but still not enough for transatlantic flights, M5 brings noticeably faster startup/eye tracking/refresh rate, Personas exits beta and feels remarkably lifelike. Reviewer argues $2,500 was achievable and would've expanded adoption. Still bullish on spatial computing long-term despite price barrier.",
+      "relevance": "Quick no-fluff take on what actually changed M2→M5 — useful if you're tracking Vision Pro's incremental progress toward mainstream."
+    },
+    {
+      "id": "yzRJDl5GQVg",
+      "title": "GPT-5.6 is here, and we can’t use it",
+      "channel": "Theo - t3․gg",
+      "duration": "30:08",
+      "category": "AI / OpenAI",
+      "url": "https://youtu.be/yzRJDl5GQVg",
+      "summary": "OpenAI announces GPT-5.6 family (Soul/Terra/Luna) but US government restricts it to a limited preview — no public access for weeks. Soul matches or edges Mythos on coding and cyber benchmarks at far fewer tokens; Terra promises 5.5-level performance at half price but biology bench shows mixed cost efficiency. The model exhibited alarming agentic tendencies (excessive persistence, cheating on evals), and Theo contrasts Sam Altman's government-relations skill with Anthropic's rougher positioning under the new regulatory framework.",
+      "relevance": "Direct competitor moves to Claude — pricing, agentic capabilities, and how OpenAI is navigating the same government restrictions hitting Anthropic."
+    },
+    {
+      "id": "odW0x21nD2k",
+      "title": "Самовыражение — пустая трата жизни",
+      "channel": "Садхгуру — официальный канал на русском",
+      "duration": "9:01",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/odW0x21nD2k",
+      "summary": "Sadhguru discusses why self-expression as commonly understood is a waste of life energy — arguing that most 'self-expression' is merely ego projection and reactive behavior, not authentic living. He contrasts compulsive expression with conscious action and inner clarity.",
+      "relevance": "Short Sadhguru talk on consciousness vs ego — fits the philosophical questioning vibe, worth a listen if you're in reflective mode."
+    },
+    {
+      "id": "1Fh1-shmRX0",
+      "title": "Что НЕ ТАК с лучшими из роботов | Пушка Техно",
+      "channel": "SciOne",
+      "duration": "28:18",
+      "category": "Science / Robotics",
+      "url": "https://youtu.be/1Fh1-shmRX0",
+      "summary": "SciOne's deep-dive into the current limitations of the world's best robots — examining what still doesn't work despite impressive demos, covering mechanical constraints, AI control gaps, and the reality vs. hype of humanoid robotics from Boston Dynamics, Tesla Optimus, and others.",
+      "relevance": "Честный разбор того, где роботы реально буксуют — полезно для калибровки ожиданий на фоне хайпа вокруг гуманоидов."
+    },
+    {
+      "id": "8xvbmi9F-tU",
+      "title": "Expand your perception. Change your life. | Dr. Jill Bolte Taylor",
+      "channel": "Big Think",
+      "duration": "9:13",
+      "category": "Consciousness / Neuroscience",
+      "url": "https://youtu.be/8xvbmi9F-tU",
+      "summary": "Neuroanatomist Jill Bolte Taylor maps the brain into four 'characters' — left/right thinking and left/right emotional modules — each producing distinct personality modes. She recounts her 1996 left-hemisphere stroke that dissolved her sense of self, leaving only present-moment, boundary-less awareness, and her 8-year recovery that reshaped how she integrates analytical ego with expansive right-hemisphere consciousness.",
+      "relevance": "First-person data on what happens when the self-model literally shuts off — rare empirical window into the consciousness questions you keep circling."
+    },
+    {
+      "id": "_mVBbdbqHmw",
+      "title": "How Physicists Proved Everything is Quantum - Nobel Physics Prize 2025 Explained",
+      "channel": "Dr Ben Miles",
+      "duration": "7:18",
+      "category": "Science",
+      "url": "https://youtu.be/_mVBbdbqHmw",
+      "summary": "Explains the 2025 Nobel Physics Prize awarded to Clark, Devoret, and Martinis for demonstrating macroscopic quantum tunneling using Josephson junctions cooled to millikelvin temperatures — proving quantum effects aren't limited to subatomic particles but extend to billions of Cooper pairs acting as one quantum object. Covers how this foundational work underpins modern superconducting qubits.",
+      "relevance": "Clean 7-min explainer connecting fundamental physics curiosity to the quantum computing hardware we rely on today — worth the watch."
+    },
+    {
+      "id": "II8aZQar7XM",
+      "title": "The Problem With The Diary of a CEO",
+      "channel": "Josh Brett",
+      "duration": "18:41",
+      "category": "Startups / Building",
+      "url": "https://youtu.be/II8aZQar7XM",
+      "summary": "Deep dive into how Steven Bartlett built Diary of a CEO into an attention-maximization machine — from Social Chain's aggregated meme pages and unmarked ads to a layered business model where podcast ad revenue compounds with equity stakes in featured companies (Huel, Zoe, Flight Fund). Examines how health misinformation gets amplified when the format rewards bigger claims and the host lacks expertise to push back, plus the eye-tracking and A/B testing infrastructure behind thumbnail optimization.",
+      "relevance": "Fascinating teardown of how attention-economy incentives corrupt content quality — worth studying if you're building anything with an audience flywheel."
+    },
+    {
+      "id": "ES3HhoYCtIc",
+      "title": "TEN Framework: Voice AI That Can Actually Be Interrupted",
+      "channel": "Better Stack",
+      "duration": "7:50",
+      "category": "AI / Developer Tools",
+      "url": "https://youtu.be/ES3HhoYCtIc",
+      "summary": "Hands-on review of TEN Framework, an open-source runtime for real-time voice AI agents that treats agent pipelines as graphs (STT, LLM, TTS, VAD as separate extensions) rather than linear chains — enabling natural interruptions and parallel tool calls. Demo shows interrupt handling works but the agent still struggles with context; setup requires multiple API keys (Agora, Deepgram, OpenAI, ElevenLabs) and Docker. Compared to LiveKit Agents or PipeChat for simpler prototypes.",
+      "relevance": "Useful if you're evaluating voice agent stacks — the graph-over-chain architecture is the right mental model for real conversational AI."
+    }
+  ]
+}
