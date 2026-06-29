@@ -1,0 +1,128 @@
+{
+  "date": "2026-06-29",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 80,
+  "summarized": 12,
+  "items": [
+    {
+      "id": "gALuqvykC1c",
+      "title": "M5 Apple Vision Pro Review, But I Respect Your Time",
+      "channel": "Andrew Clare",
+      "duration": "4:20",
+      "category": "Apple / Vision Pro",
+      "url": "https://youtu.be/gALuqvykC1c",
+      "summary": "Concise review of the M5 Apple Vision Pro: dual knit band improves comfort, M5 chip noticeably faster with better eye/hand tracking, Personas out of beta and impressively realistic. Battery still only ~3 hours (wants 6-8 for transatlantic flights). Reviewer argues spatial computing is far from dead despite the $3,500 price point.",
+      "relevance": "Quick no-fluff take on whether the M5 upgrade actually matters — good pulse check on where spatial computing stands after 2 years."
+    },
+    {
+      "id": "pV5LZ4RfrHU",
+      "title": "OpenAI's First Custom Chip 'Jalapeño' — The Real Story Isn't Nvidia, It's Claude Code",
+      "channel": "Tech with RKM",
+      "duration": "8:32",
+      "category": "AI / Anthropic",
+      "url": "https://youtu.be/pV5LZ4RfrHU",
+      "summary": "OpenAI shipped its first custom ASIC 'Jalapeño' co-designed with Broadcom in just 9 months, using its own models for RTL generation and verification — a concrete example of recursive self-improvement in compute infrastructure. The chip targets coding inference specifically (GPT-5.3 Codex Spark), not chat, aiming to cut Codex inference costs ~40% and squeeze Anthropic's Claude Code margins since Anthropic lacks equivalent custom silicon and runs on cloud GPUs. The 'Nvidia killer' framing is wrong — OpenAI still depends on Nvidia for training; this is a margin play on the one workload (coding) that Anthropic just proved monetizes.",
+      "relevance": "Direct competitive pressure on Claude Code's unit economics — worth understanding since Anthropic's inference cost structure is the strategic vulnerability being targeted here."
+    },
+    {
+      "id": "pJvV7MI-LyY",
+      "title": "This Simple Wave Explains Quantum Mechanics",
+      "channel": "The Action Lab",
+      "duration": "6:43",
+      "category": "Science",
+      "url": "https://youtu.be/pJvV7MI-LyY",
+      "summary": "Demonstrates a rarely-seen 'rotating wave' phenomenon in a children's wading pool that physically carries angular momentum without bulk water motion. Uses this as a direct analog to electron orbitals (p, d, f) — the rotating lobes match the mathematical structure of quantum wave functions. Explains how the uncertainty principle forces these rotating waves into standing patterns (the familiar orbital shapes) when atoms bond in fixed spatial directions.",
+      "relevance": "Elegant physical demo that makes quantum orbital angular momentum click — the pool-to-electron analogy is genuinely illuminating."
+    },
+    {
+      "id": "a2i9h2ip-nY",
+      "title": "Midjourney has a new side quest... death",
+      "channel": "Fireship",
+      "duration": "5:26",
+      "category": "AI / Startups",
+      "url": "https://youtu.be/a2i9h2ip-nY",
+      "summary": "Midjourney announces Midjourney Medical — an ultrasonic CT scanner using half a million tiny sensors in a water pool, leveraging their image-reconstruction AI expertise. Plans include a 25k sqft 'spa' in SF by end of 2027, FDA clearance roadmap, and scaling to 50k machines by 2031. Doctors flag physics limits: ultrasound can't penetrate air-filled lungs or bone-wrapped brains, and the prototype still takes 20 min vs. the 60-second goal.",
+      "relevance": "A profitable, bootstrapped AI lab pivoting from image gen to healthcare hardware — rare enough to pay attention to, even with the legitimate physics skepticism."
+    },
+    {
+      "id": "odW0x21nD2k",
+      "title": "Самовыражение — пустая трата жизни",
+      "channel": "Садхгуру — официальный канал на русском",
+      "duration": "9:01",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/odW0x21nD2k",
+      "summary": "Sadhguru discusses why self-expression as commonly understood is a waste of life energy — arguing that what people call self-expression is usually ego-expression, reactive personality patterns rather than genuine inner nature. He contrasts compulsive self-expression with conscious action rooted in awareness.",
+      "relevance": "Short Sadhguru talk in Russian on ego vs. consciousness — right up your philosophy lane, and quick enough for a commute listen."
+    },
+    {
+      "id": "8xvbmi9F-tU",
+      "title": "Expand your perception. Change your life. | Dr. Jill Bolte Taylor",
+      "channel": "Big Think",
+      "duration": "9:13",
+      "category": "Consciousness / Neuroscience",
+      "url": "https://youtu.be/8xvbmi9F-tU",
+      "summary": "Neuroanatomist Dr. Jill Bolte Taylor explains her four-character brain model — left/right thinking and left/right emotional modules — and how her massive left-hemisphere stroke at 37 dissolved her sense of individual self, leaving only expansive present-moment awareness. After 8 years of recovery she reorganized her inner life as a 'collective democracy' between hemispheres rather than letting the ego-driven left brain dominate.",
+      "relevance": "First-person neuroscience of ego dissolution and consciousness — connects brain anatomy to the 'expanded self' experience that simulation/consciousness discussions usually only approach philosophically."
+    },
+    {
+      "id": "TkQeM7NbYdU",
+      "title": "Apple's New Siri is Actually INSANE",
+      "channel": "brooke tierney",
+      "duration": "9:08",
+      "category": "Apple / AI",
+      "url": "https://youtu.be/TkQeM7NbYdU",
+      "summary": "Hands-on demo of Apple's redesigned Siri in the developer beta: now fully conversational with interruptions and corrections, has deep personal context (indexes messages, emails, photos on-device or via Private Cloud Compute), on-screen awareness that detects addresses/events and can take cross-app actions, and can handle complex multi-step requests like modifying a recipe's ingredient list and setting location-based reminders. New standalone app stores conversation history, and visual intelligence is now built into the camera app. Still has bugs in email composition but core capabilities work well.",
+      "relevance": "Finally a credible Siri demo — the personal context and multi-step action chaining look like what Apple promised years ago, worth seeing if it actually delivers."
+    },
+    {
+      "id": "ISM9OeWs7yw",
+      "title": "The real risks of psychedelics, explained by an expert | Dr. Matthew Johnson",
+      "channel": "Big Think",
+      "duration": "5:12",
+      "category": "Science",
+      "url": "https://youtu.be/ISM9OeWs7yw",
+      "summary": "Johns Hopkins psychedelics researcher Dr. Matthew Johnson explains that psilocybin and LSD rank lowest in harm among all major psychoactive substances (far below alcohol and tobacco), are non-addictive with no known lethal overdose, and that most risks stem from uncontrolled settings rather than the compounds themselves. He argues proper clinical frameworks with sober guides dramatically reduce adverse events, and that psychedelics hold promise for understanding and preventing mental disorders.",
+      "relevance": "Concise expert breakdown cutting through both hype and fearmongering — useful mental model for anyone following the psychedelics-as-therapy wave."
+    },
+    {
+      "id": "vlahV4NoVzo",
+      "title": "Schrödinger’s Cat Just Got Real (Scientists Can’t Explain It)",
+      "channel": "Julia McCoy",
+      "duration": "10:35",
+      "category": "Science / Quantum Physics",
+      "url": "https://youtu.be/vlahV4NoVzo",
+      "summary": "Covers a 2026 University of Vienna experiment (published in Nature) that placed clusters of ~7,000 sodium atoms (~170,000 AMU, virus-scale) into quantum superposition — an order of magnitude beyond the 2019 record. Discusses decoherence as the reason macroscopic objects appear classical, and explores interpretive implications: measurement problem, observer role, multiverse branching. Ends with philosophical reflection on reality emerging through connection rather than being a brute default.",
+      "relevance": "Solid recap of a genuinely landmark quantum result that feeds directly into the 'is reality fundamental or emergent?' question — worth it for the science even if the theological editorializing and course pitch at the end are skippable."
+    },
+    {
+      "id": "IlIJa_FDK-0",
+      "title": "macOS 27 Golden Gate - Top 10 Features!",
+      "channel": "MacVince",
+      "duration": "7:24",
+      "category": "Apple / macOS",
+      "url": "https://youtu.be/IlIJa_FDK-0",
+      "summary": "Hands-on walkthrough of macOS 27 Golden Gate beta: polished liquid glass UI fixes, overhauled system-wide search with re-indexed files/photos, a genuinely capable Siri now built on local context (files, messages, photos) with a dedicated chat app syncing via iCloud. Standout AI features include Safari letting you prompt custom extensions on the fly, Shortcuts gaining a natural-language builder, and new Photos tools (image expand, reframe with background separation, improved cleanup).",
+      "relevance": "Finally a macOS update worth paying attention to — the Safari extension prompting and Siri-on-local-context stuff is legitimately useful, not just demo candy."
+    },
+    {
+      "id": "tOC2N0B9lio",
+      "title": "The next paradigm shift (according to Karpathy)",
+      "channel": "Theo - t3․gg",
+      "duration": "20:47",
+      "category": "AI / Anthropic",
+      "url": "https://youtu.be/tOC2N0B9lio",
+      "summary": "Theo breaks down Karpathy's enthusiasm for Claude Tag (Anthropic's Slack-based AI teammate). Argues this represents the third major LLM UI paradigm: from website to desktop app to persistent async entity with org-wide tools and per-channel context. Key insight is that Slack channels solve the unsolved context-management problem — different teams get different Claude memories, tools, and knowledge without manual isolation, which Theo validates from his own experience building bespoke Discord agents with painful per-channel container setups.",
+      "relevance": "Directly relevant to your agent routing architecture in ikigai — the per-channel context pattern mirrors your per-project agent dispatch, and Claude Tag's approach could inform how you structure multi-agent coordination."
+    },
+    {
+      "id": "Zp8lr6IzUnQ",
+      "title": "GLM 5.2 Is Free And Beats Claude On Most Work. So Why Can't Companies Switch?",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration": "17:35",
+      "category": "AI / Strategy",
+      "url": "https://youtu.be/Zp8lr6IzUnQ",
+      "summary": "Analyzes why GLM 5.2 (free, open-source) beats Claude on routine 'center of distribution' tasks but companies still can't switch — the real lock-in is the harness (memory, tool calls, system prompts), not model intelligence. Highlights Claude Tag as Anthropic's sticky team-level play that embeds context in Slack, making rip-out nearly impossible regardless of cheaper alternatives. Argues the scarce resource is AI talent who can build model-agnostic routing and refactor agentic pipelines for open-source models.",
+      "relevance": "Sharp framing of why I'm locked into Claude despite cheaper options — it's the harness and context moat, not raw capability. Useful lens for my own multi-model routing decisions."
+    }
+  ]
+}
