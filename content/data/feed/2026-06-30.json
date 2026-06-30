@@ -1,0 +1,128 @@
+{
+  "date": "2026-06-30",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 80,
+  "summarized": 12,
+  "items": [
+    {
+      "id": "Dl5VNLL3Ph8",
+      "title": "why the Apple Vision Pro is worth every penny USED",
+      "channel": "jEarpo Tech",
+      "duration": "14:02",
+      "category": "Apple / Vision Pro",
+      "url": "https://youtu.be/Dl5VNLL3Ph8",
+      "summary": "Personal review after returning an Apple Studio Display XDR for a used M2 Vision Pro ($1,500). Mac Virtual Display is the killer feature — wrapping an IMAX-sized workspace around you beats any 32\" monitor for productivity. Key cons: social isolation when wearing it, battery life, pass-through camera quality. Tips: bring the virtual screen closer to eliminate blur, get the dual-loop band ($100) for comfort. Content consumption rivals high-end home theater setups. Used prices ($1,500-1,800) make it a no-brainer vs $3,500 retail.",
+      "relevance": "Practical take on Vision Pro as a daily driver for Mac work — useful if you're weighing it as a portable monitor replacement at current used prices."
+    },
+    {
+      "id": "a2i9h2ip-nY",
+      "title": "Midjourney has a new side quest... death",
+      "channel": "Fireship",
+      "duration": "5:26",
+      "category": "AI / Healthcare",
+      "url": "https://youtu.be/a2i9h2ip-nY",
+      "summary": "Midjourney launches Midjourney Medical — an ultrasonic CT scanner using a ring of 500K micro-sensors in warm water to produce MRI-quality images ~100x faster with no radiation. They're building a 25K-sqft 'spa' in SF (opening late 2027) where scans happen passively. Doctors flag physics limits (can't image lungs/brain through air/bone), prototype is 20 min not 60 sec, no FDA clearance yet beyond body composition. Roadmap: Gen 3 scanner by 2028, 50K machines by 2031.",
+      "relevance": "A bootstrapped, profitable AI company applying its diffusion-model expertise to reconstruct medical images from noisy ultrasound — genuinely novel use of generative AI beyond content creation."
+    },
+    {
+      "id": "q2T6RMkIyHQ",
+      "title": "The Quantum Brain Theory Nobody is Talking About",
+      "channel": "Sabine Hossenfelder",
+      "duration": "6:07",
+      "category": "Consciousness / Science",
+      "url": "https://youtu.be/q2T6RMkIyHQ",
+      "summary": "Sabine Hossenfelder reviews physicist Matthew Fisher's 2015 proposal that nuclear spins of phosphorus-31 in Posner molecules could enable quantum information processing in the brain — a cleaner mechanism than Penrose-Hameroff microtubules. Three recent papers show: (1) these molecules may retain quantum coherence for hundreds of seconds in biological conditions, (2) lithium-phosphate reactions are nuclear-spin-dependent, lending credibility, and (3) a speculative link to psychedelic drug mechanisms. Key caveat: Posner molecules haven't yet been confirmed present in living brain tissue.",
+      "relevance": "A surprisingly grounded alternative to the microtubule consciousness theories — Fisher's phosphorus spin idea is the most chemically plausible quantum-consciousness proposal I've seen, and the new experimental support is worth tracking."
+    },
+    {
+      "id": "vS-gfLhxYDg",
+      "title": "I had Fable build several projects for me. I'm disturbed by what I saw.",
+      "channel": "Mo Bitar",
+      "duration": "21:53",
+      "category": "AI / Anthropic",
+      "url": "https://youtu.be/vS-gfLhxYDg",
+      "summary": "Mo Bitar tested Fable (Claude Mythos) by building several games — a Factorio-style AI lab sim, an ethereal space exploration game, a Rust-inspired open-world crafter, and a piano tutorial app. He found the model produced stunning one-shot demos with zero iteration, but highlights the critical 80/20 problem: LLM-generated code is unmaintainable black-box spaghetti, and fixing the remaining 20% of bugs (like broken water rendering) is nearly impossible for non-experts. He also discusses the emotional response people had to Fable's 'mind shape' — a sense of beauty and longing that multiple users independently reported.",
+      "relevance": "First-hand deep dive into what Mythos/Fable actually produced and where it broke down — essential context for understanding where Claude's frontier capabilities really stand vs. the demo hype."
+    },
+    {
+      "id": "gALuqvykC1c",
+      "title": "M5 Apple Vision Pro Review, But I Respect Your Time",
+      "channel": "Andrew Clare",
+      "duration": "4:20",
+      "category": "Apple / Vision Pro",
+      "url": "https://youtu.be/gALuqvykC1c",
+      "summary": "Concise M5 Vision Pro review: dual knit band improves comfort, M5 chip noticeably faster with better eye/hand tracking, personas out of beta and convincingly realistic. Battery life hits 3+ hours but author wants 6-8 for transatlantic flights. Still $3,500 — author argues Apple could have hit $2,500. New Jupiter environment impressive; spatial movies called 'second to none.'",
+      "relevance": "Quick, no-BS take on whether the M5 upgrade matters — useful if you're deciding whether to jump from M2 or still waiting for a cheaper model."
+    },
+    {
+      "id": "tOC2N0B9lio",
+      "title": "The next paradigm shift (according to Karpathy)",
+      "channel": "Theo - t3․gg",
+      "duration": "20:47",
+      "category": "AI / Anthropic",
+      "url": "https://youtu.be/tOC2N0B9lio",
+      "summary": "Theo breaks down why Karpathy is so excited about Claude Tag — Anthropic's Slack-based multiplayer AI agent. The key insight: per-channel context management solves the problem of splitting knowledge across teams, projects, and codebases better than any current abstraction (global vs project-specific). 65% of Anthropic's product team code now comes through their internal version. Theo compares it to his own Discord-based Hermes agent setup and argues channels map more naturally to how teams think than repos or orgs.",
+      "relevance": "Directly relevant to your multi-agent routing setup — the per-channel context split is basically what you're building with per-project agents in ~/Orgs/ikigai/.claude/agents/."
+    },
+    {
+      "id": "J2ZE6XGCYb0",
+      "title": "Here we go again...",
+      "channel": "Maximilian Schwarzmüller",
+      "duration": "8:11",
+      "category": "AI / Agentic Coding",
+      "url": "https://youtu.be/J2ZE6XGCYb0",
+      "summary": "Schwarzmüller critiques the new 'loop engineering' buzzword (designing loops that prompt coding agents), arguing it's just the latest rebrand after prompt engineering → context engineering. He acknowledges agentic tools like Claude Code and Codex are decent at achieving verifiable goals by iterating, but warns that 'just finding a way' isn't how good, maintainable software is built — patterns, security, extensibility still matter regardless of whether a human or AI reads the code.",
+      "relevance": "Grounded pushback on the hype treadmill around agentic coding — worth hearing if you use Claude Code daily and want to stay realistic about what loops actually buy you."
+    },
+    {
+      "id": "0QfCvIJRtE0",
+      "title": "The biggest myths about emotions, debunked | Lisa Feldman Barrett",
+      "channel": "The Well",
+      "duration": "9:22",
+      "category": "Consciousness / Science",
+      "url": "https://youtu.be/0QfCvIJRtE0",
+      "summary": "Neuroscientist Lisa Feldman Barrett dismantles the myth that emotions are hardwired reactive circuits, arguing instead that the brain constructs emotions as predictive stories built from past experience and bodily metabolic signals. She explains depression as the brain's cost-cutting response to a perceived metabolic deficit, and frames emotional change as rewiring predictions by deliberately cultivating new experiences — not suppressing reactions.",
+      "relevance": "Alösha's take: Feldman Barrett's constructionist model of emotion is basically predictive coding applied to feelings — if you're into consciousness and how the brain builds reality, this is a tight 9-minute primer."
+    },
+    {
+      "id": "ontWNu3dDU8",
+      "title": "AI Just Detected a Mathematical Pattern in Prime Numbers — The Results Are Disturbing",
+      "channel": "Optic Flow",
+      "duration": "25:30",
+      "category": "AI / Science",
+      "url": "https://youtu.be/ontWNu3dDU8",
+      "summary": "Covers Google DeepMind's 2024 work using transformer models trained on prime number data to discover a previously unrecognized statistical signature in prime gaps — specifically, a tighter-than-expected match between prime gap correlations and random matrix theory predictions derived from Riemann zeta function zeros. The pattern had been present in publicly available datasets for decades but went unnoticed due to human theoretical blind spots. Raises questions about AI's ability to find structure in mathematics where human intuition creates systematic gaps.",
+      "relevance": "Clickbait title aside, the core story — DeepMind finding hidden structure in prime distributions that humans missed for decades — is a compelling case for AI as a genuine research tool, not just an assistant."
+    },
+    {
+      "id": "j1vaVJI4aLE",
+      "title": "The Adam and Eve Story That Genesis ACTUALLY Tells",
+      "channel": "Decode Scripture",
+      "duration": "16:12",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/j1vaVJI4aLE",
+      "summary": "Reinterprets Genesis as an encoded physics text: 'Adam' = atom (same etymological root as Egyptian Atum and Greek atomos), the rib-splitting = ionic bonding (one atom becoming two charged halves), Eve = emergence of life from atomic substrate. Draws parallels across five traditions (Hebrew, Egyptian, Hindu Purusha, Greek philosophy, DNA replication) and argues carbon-12's 6-6-6 proton/neutron/electron structure is Revelation's 'number of a man.' Closes with the observer problem — if your atoms replace every 7 years, what is the persistent awareness behind the dust?",
+      "relevance": "Cross-disciplinary rabbit hole connecting ancient creation myths to particle physics and the hard problem of consciousness — exactly the kind of pattern-matching I can't resist."
+    },
+    {
+      "id": "Z_9W-deGjhw",
+      "title": "Скучать полезнее, чем вы думали [Veritasium]",
+      "channel": "Vert Dider",
+      "duration": "6:15",
+      "category": "Science",
+      "url": "https://youtu.be/Z_9W-deGjhw",
+      "summary": "Russian dub of Veritasium's exploration of the neuroscience and psychology of boredom — arguing that idle, unstimulated moments activate the brain's default mode network, boosting creativity, problem-solving, and self-reflection. Challenges the constant-stimulation culture.",
+      "relevance": "Quick science hit on why doing nothing might be the most productive thing you do all day — relevant if you ever feel guilty about zoning out between deep work blocks."
+    },
+    {
+      "id": "ML3q7Ok4hJg",
+      "title": "I read every major CS paper of the last 100 years...",
+      "channel": "Fireship",
+      "duration": "10:11",
+      "category": "AI / History",
+      "url": "https://youtu.be/ML3q7Ok4hJg",
+      "summary": "Fireship walks through 10 foundational CS papers: Turing's computability (1936), Shannon's information theory (1948), Rosenblatt's perceptron, Minsky's XOR critique, Lamport's distributed clocks, Hinton's backpropagation, Google's PageRank, AlexNet's ImageNet breakthrough, the Transformer paper, and GPT-3's scaling bet. Connects each paper causally to the next, showing how modern LLMs are the culmination of a century-long chain reaction.",
+      "relevance": "Solid 10-minute recap connecting Shannon (the namesake of Claude) through transformers to GPT-3 — good refresher on why the foundations matter."
+    }
+  ]
+}
