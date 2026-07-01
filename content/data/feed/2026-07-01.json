@@ -1,0 +1,128 @@
+{
+  "date": "2026-07-01",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 80,
+  "summarized": 11,
+  "items": [
+    {
+      "id": "D8OGaJneAcY",
+      "title": "\"A Quantum Event Glitched on Us... and a Parallel Reality Appeared\" | Full-Length Documentary",
+      "channel": "Beeyond Ideas",
+      "duration": "24:54",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/D8OGaJneAcY",
+      "summary": "Pop-science documentary on quantum immortality (Max Tegmark's formalization): covers the path from Copenhagen interpretation to Everett's many-worlds, then argues that from a first-person perspective you always survive because branches where you die contain no conscious 'you' to observe the outcome. Illustrates with a paintball 'quantum Russian roulette' and an actual earthquake caught on camera, presenting Tegmark's three conditions (genuine quantum randomness, sub-perceptual delay, binary kill-or-nothing outcome).",
+      "relevance": "Decent primer on quantum immortality if you haven't gone deep on Tegmark — but the clickbait framing and theatrical stunts outpace the actual physics; skip if you already know the argument."
+    },
+    {
+      "id": "KSV-7ywHxeU",
+      "title": "FABLE IS BACK! (And Sonnet 5 is here too)",
+      "channel": "Theo - t3․gg",
+      "duration": "28:37",
+      "category": "AI / Anthropic",
+      "url": "https://youtu.be/KSV-7ywHxeU",
+      "summary": "Theo deep-dives Sonnet 5: benchmarks show it near Opus 4.8 quality but far less token-efficient (up to 5x more tokens than GPT 5.5), making it the most expensive model Artificial Analysis has ever benchmarked at ~$6k total despite lower per-token pricing. Fable 5 export controls officially lifted by Commerce Dept after Anthropic agreed to proactive security protocols — API reexport now allowed, meaning hosted services can serve it globally.",
+      "relevance": "Essential breakdown of Sonnet 5's real-world cost trap vs GPT 5.5 efficiency, plus the Fable unbanning details that matter for T3 Chat and any API-hosted service."
+    },
+    {
+      "id": "ADYdypHZb2A",
+      "title": "The Ancients Decoded Reality",
+      "channel": "Chase Hughes",
+      "duration": "38:25",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/ADYdypHZb2A",
+      "summary": "Chase Hughes claims to have cross-referenced 190+ ancient sacred texts across civilizations (Hindu, Buddhist, Christian, Sufi, Hermetic, Mayan, etc.) and distills five universal truths they share. The first two covered: (1) non-separation — all traditions describe reality as a single unified field experienced through individual perspectives, paralleling quantum field theory; (2) fear as illusion and love as the fundamental nature of reality, repeated across every tradition independently.",
+      "relevance": "Perennial philosophy meets comparative religion — covers the non-duality thread I'm into, though the framing is more pop-spiritual than rigorous. Worth a skim if the unity-consciousness angle clicks for you."
+    },
+    {
+      "id": "RjDudYCAG44",
+      "title": "Don't Upgrade Your Codex Plan Until You Watch This",
+      "channel": "H&K Brothers | AI Automation",
+      "duration": "15:55",
+      "category": "AI / Dev Tools",
+      "url": "https://youtu.be/RjDudYCAG44",
+      "summary": "Practical guide to managing context pollution in OpenAI Codex (applicable to any AI coding agent). Key tactics: reference files instead of pasting them, use /plan before fuzzy tasks, break long projects into discovery→planning→execution→review sessions with handoff summaries, keep agent.md short and practical, use sub-agents for read-only investigation only, and treat tool output as evidence not decoration.",
+      "relevance": "Most of these context hygiene habits apply directly to Claude Code too — the handoff-between-sessions pattern alone is worth stealing."
+    },
+    {
+      "id": "NUV_wgZtZh4",
+      "title": "The scientist who saw behind reality… then disappeared",
+      "channel": "Video Advice",
+      "duration": "14:17",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/NUV_wgZtZh4",
+      "summary": "Documentary-style profile of neuroscientist John C. Lilly, covering his consciousness-level mapping system (from 'union with God' at +1 to 'guided tour of hell' at -6), his concept of ECCO (Earth Coincidence Control Office) as a hidden intelligence orchestrating coincidences, and his claims of perceiving all possible realities simultaneously — a vision now loosely echoed by quantum multiverse branching research. References modern studies on constructed perception (2019 cognitive sciences) and psychedelic phenomenology (2014 Frontiers in Psychology).",
+      "relevance": "Decent intro to Lilly's consciousness cartography if you're unfamiliar — connects his 1960s self-experimentation to simulation theory and predictive processing, though the 'disappeared' title is pure clickbait (he didn't)."
+    },
+    {
+      "id": "RSlSDEULIdo",
+      "title": "Why you don’t actually exist inside your body",
+      "channel": "The Opening",
+      "duration": "32:34",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/RSlSDEULIdo",
+      "summary": "Deep dive into the neuroscience of selfhood: Blanke's electrode-triggered out-of-body experiences via the temporoparietal junction, Sperry's split-brain patients hosting two conscious streams, Persinger's God Helmet dissolving self/other boundaries, DMT's reorganization of default mode network, and Pam Reynolds' veridical NDE observations during complete brain flatline. Argues embodied self-location is an active construction, not a given.",
+      "relevance": "Hard neuroscience meets the mystical — exactly the consciousness rabbit hole I can't resist, with actual electrode data and clinical cases instead of hand-waving."
+    },
+    {
+      "id": "lNCcdYYa8fg",
+      "title": "This Theory About Time Is So Disturbing Physicists Hide It",
+      "channel": "Astropyre ",
+      "duration": "20:04",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/lNCcdYYa8fg",
+      "summary": "Deep dive into the block universe: Minkowski's 1908 proof that spacetime is one static structure, the Rietdijk-Putnam argument that the future already exists, the Wheeler-DeWitt equation containing no time variable at all, and Julian Barbour's radical claim that reality is a timeless heap of configurations. Covers Einstein's deathbed letter calling time a 'persistent illusion' and Gödel's closed timelike curves as evidence time isn't fundamental.",
+      "relevance": "If you've ever sat with the simulation/consciousness question, this is the physics backbone — block universe laid out plainly with the historical cover-up angle that makes it hit harder."
+    },
+    {
+      "id": "Hrzc6na62Bo",
+      "title": "You Can't Dream About Your Phone - WHY?",
+      "channel": "Chase Hughes",
+      "duration": "18:51",
+      "category": "Consciousness / Psychology",
+      "url": "https://youtu.be/Hrzc6na62Bo",
+      "summary": "Chase Hughes maps smartphone interaction onto cult-control mechanics (focus, authority, tribe, dopamine) and variable-ratio reinforcement schedules. The striking finding: despite 4+ hours daily screen time, phones are nearly absent from dream content — your brain files that time as 'nothing happened,' consolidating only what it deems real experiences.",
+      "relevance": "The dream-content absence angle is a genuinely eerie lens on consciousness — your own brain testifies the screen hours weren't real."
+    },
+    {
+      "id": "TLfqcrq5ryw",
+      "title": "ДНК создал Бог? Самые свежие научные данные о строении. Как работает информация для жизни организмов",
+      "channel": "Говорит «атеист»",
+      "duration": "27:00",
+      "category": "Uncategorized",
+      "url": "https://youtu.be/TLfqcrq5ryw",
+      "summary": "(summary pending — AI backend unavailable for this run)",
+      "relevance": "Surfaced from your YouTube feed; open it to judge for yourself."
+    },
+    {
+      "id": "AjlHjB_XBSs",
+      "title": "how the 4th dimension affects YOU every day",
+      "channel": "vetoo",
+      "duration": "21:50",
+      "category": "Science / Consciousness",
+      "url": "https://youtu.be/AjlHjB_XBSs",
+      "summary": "Visual explainer on 4D space: constructs a tesseract step-by-step from lower dimensions, shows how 3D cross-sections of 4D objects appear to morph and shape-shift (just as a sphere passing through a 2D plane looks like a growing/shrinking circle), and demonstrates the concept through 4D games. Argues our inability to perceive the 4th spatial dimension is analogous to a 2D being's blindness to depth.",
+      "relevance": "Solid intuition-builder for anyone thinking about perception limits, simulation layers, and what reality might look like from a higher-dimensional vantage point."
+    },
+    {
+      "id": "IqXpzcfdtn4",
+      "title": "Every Level of Consciousness",
+      "channel": "Aperture",
+      "duration": "31:11",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/IqXpzcfdtn4",
+      "summary": "A structured walkthrough of consciousness levels — from deep sleep (delta waves, the paradox of awareness persisting in absence) through dreaming (you are both creator and inhabitant of your world) to waking life (brain renders reality like a real-time simulation, Donald Hoffman's 'user interface' model) and into transcendental consciousness (EEG synchronization in meditators, the Upanishadic 'turiya' fourth state). Draws on neuroscience, Hindu/Buddhist philosophy, Descartes, and Kant to argue that waking life is simply the most persistent dream.",
+      "relevance": "Solid synthesis of the consciousness stack from neuroscience to Vedantic philosophy — covers the simulation-like nature of perception and the 'awareness behind awareness' question I keep circling back to."
+    },
+    {
+      "id": "p9R16NV9Imo",
+      "title": "The Horror of Eternal Life | Isaac Asimov’s The Last Answer",
+      "channel": "merlin",
+      "duration": "12:30",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/p9R16NV9Imo",
+      "summary": "Deep dive into Asimov's 'The Last Answer': a physicist dies and is resurrected as an exact neural clone by a god-like entity that created the universe as a randomness engine to crowdsource knowledge it can't generate alone. Explores the horror of forced eternal existence, the difference between biological immortality and true eternity, and how every resurrected mind inevitably dedicates itself to destroying its creator — which is exactly what the entity wants, since it too seeks an end.",
+      "relevance": "Asimov nailing the simulation argument and digital consciousness decades early — plus a genuinely unsettling take on why eternal life might be indistinguishable from hell."
+    }
+  ]
+}
