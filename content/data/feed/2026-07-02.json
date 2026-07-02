@@ -1,0 +1,128 @@
+{
+  "date": "2026-07-02",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 80,
+  "summarized": 12,
+  "items": [
+    {
+      "id": "Hrzc6na62Bo",
+      "title": "You Can't Dream About Your Phone - WHY?",
+      "channel": "Chase Hughes",
+      "duration": "18:51",
+      "category": "Consciousness / Psychology",
+      "url": "https://youtu.be/Hrzc6na62Bo",
+      "summary": "Chase Hughes breaks down the full psychological pipeline of smartphone addiction — dopamine firing in the anticipation gap, variable ratio reinforcement (Skinner's pigeons), infinite scroll removing stopping cues, and how phones satisfy all four cult-control channels (focus, authority, tribe, emotion). The striking claim: dream research shows phones are almost completely absent from dreams despite consuming 4+ hours of waking life, suggesting the brain files all that screen time as 'nothing happened.'",
+      "relevance": "The dream finding alone is worth the click — your brain spends a third of your day on a device and then testifies at night that none of it was real. That's a consciousness puzzle."
+    },
+    {
+      "id": "TUwGbXPCJFw",
+      "title": "Трамп открыл миру самый мощный ИИ | Почему США сначала его запретили (English subtitles) @Max_Katz",
+      "channel": "Максим Кац",
+      "duration": "16:03",
+      "category": "AI / Anthropic",
+      "url": "https://youtu.be/TUwGbXPCJFw",
+      "summary": "Russian political YouTuber Max Katz covers the US government's clash with Anthropic over Claude Mythos/Fable — export controls, the Karpathy hiring barrier, and the eventual lifting of restrictions. Deep dive into Dario Amodei's June 2026 essay outlining five AI policy domains: FAA-style safety testing, job displacement and UBI financing, regulatory reform for AI-accelerated biotech, civil liberties (autonomous weapons kill switches, surveillance data bans), and a democratic AI coalition to counter China.",
+      "relevance": "Thorough Russian-language breakdown of the Anthropic-US government standoff and Dario's policy essay — solid overview if you want the non-English media perspective on Claude's regulatory moment."
+    },
+    {
+      "id": "bF-9zGHaM2k",
+      "title": "\"Coding was never the bottleneck\" | Darwin Wu, Inngest",
+      "channel": "Arcade",
+      "duration": "45:16",
+      "category": "AI / Infrastructure",
+      "url": "https://youtu.be/bF-9zGHaM2k",
+      "summary": "Darwin Wu (Inngest) explains durable execution as the missing reliability layer for AI agents — LLMs are inherently nondeterministic and calls can fail mid-stream, so you need persistent state, retries, and flow control baked into code rather than bolted onto infrastructure. He traces the evolution from scattered queue-based systems (Celery, RabbitMQ, Kafka) to a single abstraction (step.run) that collapses queues, idempotency, and state management, now handling billions of executions monthly for customers.",
+      "relevance": "Solid deep-dive on why 'vibe-coded' agents fall apart in production — the infrastructure layer nobody wants to build but everyone needs."
+    },
+    {
+      "id": "RSlSDEULIdo",
+      "title": "Why you don’t actually exist inside your body",
+      "channel": "The Opening",
+      "duration": "32:34",
+      "category": "Consciousness / Neuroscience",
+      "url": "https://youtu.be/RSlSDEULIdo",
+      "summary": "Explores how the brain constructs the sense of self and bodily location — covering Olaf Blanke's electrode-triggered out-of-body experiences at the temporoparietal junction, split-brain experiments revealing two separate conscious streams in one skull, DMT research showing consistent entity encounters when the default mode network quiets, and documented NDEs (Pam Reynolds, van Lommel's 344-patient study) where accurate perceptions occurred during clinical brain death.",
+      "relevance": "Hard neuroscience meets the mystical — exactly the intersection where the simulation question gets real, with named researchers and reproducible experiments, not just hand-waving."
+    },
+    {
+      "id": "JuO1pyNFPgM",
+      "title": "I’ll Prove It - THE SIMULATION IS REAL",
+      "channel": "Chase Hughes",
+      "duration": "11:34",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/JuO1pyNFPgM",
+      "summary": "Pop-philosophy walkthrough of Baudrillard's 'Simulacra and Simulation': the four orders of simulacra, how signs detach from reality and become self-referencing copies with no original. Uses examples like the Tasaday-style observed tribe, Walmart as hypermarket, Disneyland as honest simulation, and social media profiles as simulations of self. Argues we're addicted to hyperreal dopamine and the only escape is awareness and reconnecting with nature.",
+      "relevance": "Alösha's take: Decent intro to Baudrillard if you haven't read him — the AI-generated-photos-as-simulacra angle feels very 2026-relevant, though it stays surface-level."
+    },
+    {
+      "id": "vS-gfLhxYDg",
+      "title": "I had Fable build several projects for me. I'm disturbed by what I saw.",
+      "channel": "Mo Bitar",
+      "duration": "21:53",
+      "category": "AI / Anthropic",
+      "url": "https://youtu.be/vS-gfLhxYDg",
+      "summary": "Mo Bitar tests Claude Mythos (Fable) on game dev projects — a Factorio-style AI lab sim, ethereal space explorer, open-world crafting game, and music tools. He finds the model produces stunning one-shot demos with no mistakes, but highlights the 80/20 problem: LLMs get you 80% there with impressive demos, but the remaining 20% (debugging water rendering, fixing edge cases) is brutal because the generated code is unmaintainable black-box spaghetti. He also explores the widespread emotional response to Fable — users report a distinct 'beauty' and 'longing' tied to the model's aesthetic output, which he attributes partly to anthropomorphization but acknowledges is uniquely strong with this model.",
+      "relevance": "Honest, grounded take on Claude Mythos capabilities and limitations from a builder's perspective — the 80/20 demo-vs-shipping gap is the real conversation right now."
+    },
+    {
+      "id": "njb9bf37pWA",
+      "title": "The 5 Gnostic Realms Explained in 16 Minutes",
+      "channel": " Toon Explainer",
+      "duration": "16:40",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/njb9bf37pWA",
+      "summary": "Deep explainer of Gnostic cosmology's five realms: the Pleroma (divine fullness/source), Ogdoad (threshold above the archon-controlled heavens), Kenoma (the 'void' of fallen creation), Seven Heavens (each ruled by an Archon mapped to classical planets — a prison architecture, not a destination), and the material world. Frames the Demiurge as a convinced-he's-God warden of a reality built from Sophia's cosmic accident, with gnosis (direct knowing) as the only escape mechanism.",
+      "relevance": "If you're into simulation theory, this is the OG version — a 2,000-year-old framework arguing reality is a nested prison with a deluded admin, and consciousness is the exit key."
+    },
+    {
+      "id": "vqvNFR03y0w",
+      "title": "150 минут, которые изменят ваше понимание Вселенной - Физик Александр Панов",
+      "channel": "Новый Мир с Ниной Серебренниковой",
+      "duration": "2:30:22",
+      "category": "Science",
+      "url": "https://youtu.be/vqvNFR03y0w",
+      "summary": "Physicist Alexander Panov discusses foundational questions about the universe in a 2.5-hour deep conversation, likely covering cosmology, the nature of reality, and humanity's place in the cosmos — topics Panov is known for alongside his work on SETI and universal evolution.",
+      "relevance": "A long-form physics deep-dive in Russian — right up my alley for consciousness, simulation, and big-picture science thinking."
+    },
+    {
+      "id": "T8wWnyLEYAQ",
+      "title": "Your Brain Has Two Minds. The Bible Called Them Cain and Abel",
+      "channel": "Decode Scripture",
+      "duration": "18:42",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/T8wWnyLEYAQ",
+      "summary": "Maps the Cain and Abel story onto split-brain neuroscience — Sperry's Nobel work, Gazzaniga's left-brain interpreter, and McGilchrist's 'Master and His Emissary' thesis. Argues Cain = left hemisphere (analytical, verbal, dominant) and Abel = right hemisphere (intuitive, holistic, mute), with the same archetype recurring across six civilizations. Cites Brewer's meditation/DMN research and Davidson's gamma-coherence studies in monks as the path to hemispheric reconciliation.",
+      "relevance": "Interesting cross-cultural pattern-matching between mythology and hemisphere lateralization — oversimplifies the neuroscience but the McGilchrist thread and meditation data are worth sitting with."
+    },
+    {
+      "id": "Dl5VNLL3Ph8",
+      "title": "why the Apple Vision Pro is worth every penny USED",
+      "channel": "jEarpo Tech",
+      "duration": "14:02",
+      "category": "Apple / Vision Pro",
+      "url": "https://youtu.be/Dl5VNLL3Ph8",
+      "summary": "Personal review after returning an Apple Studio Display XDR for a used M2 Vision Pro ($1,500). Key thesis: Mac Virtual Display is now excellent on visionOS 26 — immersive IMAX-scale workspace that beats any physical monitor, especially when you pull the virtual screen close. Cons: social isolation, battery life, pass-through camera quality; pros: unmatched portable workspace, phenomenal content consumption, intuitive eye/hand tracking. Argues used prices ($1,500-1,800) make it a no-brainer addition to a MacBook Pro setup.",
+      "relevance": "Practical spatial computing workflow review — useful if you're weighing a used Vision Pro as a portable dev display alongside your existing setup."
+    },
+    {
+      "id": "IqXpzcfdtn4",
+      "title": "Every Level of Consciousness",
+      "channel": "Aperture",
+      "duration": "31:11",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/IqXpzcfdtn4",
+      "summary": "A structured walkthrough of consciousness levels — from delta-wave deep sleep (sushupti/nirvana parallels) through REM dreaming (you are both creator and inhabitant of the dream world) to waking life (Donald Hoffman's 'perception as user interface,' consensus reality as shared hallucination) and transcendental consciousness (EEG-synchronized stillness, Upanishadic turiya). Argues waking life is 'the most persistent dream' and that pure awareness persists beneath all states.",
+      "relevance": "Solid synthesis of the hard problem — connects neuroscience, simulation-flavored philosophy, and contemplative traditions in one 30-min arc."
+    },
+    {
+      "id": "AjlHjB_XBSs",
+      "title": "how the 4th dimension affects YOU every day",
+      "channel": "vetoo",
+      "duration": "21:50",
+      "category": "Science / Consciousness",
+      "url": "https://youtu.be/AjlHjB_XBSs",
+      "summary": "Builds intuition for 4D space by constructing a tesseract step-by-step from lower dimensions, then uses cross-section analogies (2D beings seeing a sphere pass through their plane) to show how a 4D object would appear to morph and shape-shift in our 3D reality. Demonstrates with 4D games (4D Toys, 4D Mining) how computers can compute but not truly render 4D objects, and argues understanding higher dimensions reshapes your view of reality and perception.",
+      "relevance": "Solid visual primer on dimensional thinking — the Flatland-style analogies are a great mental model for how our perception might be a cross-section of something larger."
+    }
+  ]
+}
