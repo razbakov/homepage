@@ -1,0 +1,128 @@
+{
+  "date": "2026-07-03",
+  "source": "curated-channel-rss",
+  "total_recommended": 50,
+  "summarized": 12,
+  "items": [
+    {
+      "id": "2PH9f6yM8KI",
+      "title": "Fable 5 Is BACK. And It Just Built This Mobile App",
+      "channel": "Pat Simmons",
+      "duration": "15:06",
+      "category": "AI / Building",
+      "url": "https://youtu.be/2PH9f6yM8KI",
+      "summary": "Walkthrough of building a voice note transcription app using Claude 'Fable 5' as orchestrator delegating to Opus sub-agents. Demonstrates a design-first workflow: HTML/CSS mockups for glassmorphism UI, then porting to React Native/Expo. Compares Fable 5 vs Opus 4.8 UI output, shows token-saving routing strategy, and deploys to iPhone via EAS.",
+      "relevance": "Practical Claude agent orchestration patterns — using Fable as taste/QA layer while Opus handles implementation is a smart routing trick worth stealing."
+    },
+    {
+      "id": "9tGrhrVKCrE",
+      "title": "Why I’m moving to Linux (for real)",
+      "channel": "Theo - t3․gg",
+      "duration": "38:05",
+      "category": "AI / Dev Workflow",
+      "url": "https://youtu.be/9tGrhrVKCrE",
+      "summary": "Theo explains his shift from macOS to a fleet of Linux machines for AI coding work. Running Claude Code and Codex agents maxes out even M5 Max CPUs due to browser-use and multi-agent workflows; macOS's CIS policyd adds overhead. He details his SSH+Tailscale+tmux setup, using his MacBook as a control node with fleet skills so Claude Code can manage remote Linux boxes. Also breaks down the economics: Claude/Codex subscription plans subsidize $2K-$14K/month of inference for $100-$200, making cloud IDEs like Devon/Cursor less compelling for personal projects.",
+      "relevance": "Directly relevant if you're pushing Claude Code hard — practical fleet setup and the real cost math on subscription subsidies vs cloud IDEs."
+    },
+    {
+      "id": "djkf-RhhoPk",
+      "title": "I Compared Chinese AI Open Source Models, Are They Good?",
+      "channel": "Alex Shershebnev",
+      "duration": "1:00",
+      "category": "AI / Open Source",
+      "url": "https://youtu.be/djkf-RhhoPk",
+      "summary": "Quick comparison of recent Chinese open-source AI coding models (Qwen, Kimi K2.7, MiniMax, JLM 5.2 by Zetta AI) on a simple dark-theme task. All completed it; Kimi K2.7 skipped reasoning and spammed tool calls, JLM 5.2 performed well but hallucinated a screenshot description. Overall, all handled the simple task competently.",
+      "relevance": "One-minute snapshot of how the latest Chinese open-source coding models stack up — useful if you're picking one for agentic workflows."
+    },
+    {
+      "id": "slkO_QAkqlc",
+      "title": "Obsidian AI Second Brain that ACTUALLY Works! (Codex, Claude Code)",
+      "channel": "Eric Michaud",
+      "duration": "14:26",
+      "category": "AI / Productivity",
+      "url": "https://youtu.be/slkO_QAkqlc",
+      "summary": "Eric Michaud walks through his Obsidian vault architecture: a strict human/machine hemisphere split where personal ideas stay uncontaminated by AI outputs, a GTD inbox system for capturing thoughts without context-switching, and agent instruction files (agents.md, claude.md) that teach AI tools like Codex and Claude Code how to navigate, tag, and update the vault without breaking conventions. The core argument is that AI removes the input friction that kills most productivity systems, but only if you enforce separation between your raw thinking and AI-generated content.",
+      "relevance": "Directly mirrors the skills/agents architecture you already run — worth seeing how someone else solved the 'keep AI outputs separate from human thinking' problem in a local-first setup."
+    },
+    {
+      "id": "4RU8PIoK_0o",
+      "title": "China Is Sabotaging America’s AI Race | Sam Lyman",
+      "channel": "The Peter McCormack Show",
+      "duration": "1:01:33",
+      "category": "AI / Geopolitics",
+      "url": "https://youtu.be/4RU8PIoK_0o",
+      "summary": "Sam Lyman (ex-Treasury speechwriter, now Bitcoin Policy Institute) argues China is actively undermining US AI infrastructure through bot campaigns against data centers (documented in an OpenAI report) and through Neville Roy Singham, a Maoist tech millionaire funneling $278M into US nonprofits to stall $24B in AI buildout. Also discusses US-China frontier vs open-source AI gap, with China dominating open-source (DeepSeek, Qwen) while the US leads in frontier models, and critiques AI execs (mentions Anthropic's 50-80% job displacement claim) for messaging that fuels public backlash.",
+      "relevance": "Useful lens on the geopolitical side of the AI race — especially the claim that China's open-source dominance is a deliberate strategy and how AI execs' own rhetoric is backfiring on infrastructure buildout."
+    },
+    {
+      "id": "buqycB76jFQ",
+      "title": "You are the universe looking at itself. #shorts #philosophy #universe #reality",
+      "channel": "Aperture",
+      "duration": "35",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/buqycB76jFQ",
+      "summary": "Short philosophical reflection on cosmic identity: every atom in your body was forged in dying stars, scattered and reassembled — you are not separate from the universe but the part of it that became conscious.",
+      "relevance": "A 35-second poetic reminder that fits right into the simulation/consciousness rabbit hole — quick palate cleanser between deep dives."
+    },
+    {
+      "id": "vI6Asw_4hUk",
+      "title": "@GettingThingsDun and I living in 2040",
+      "channel": "Himels Tech",
+      "duration": "56",
+      "category": "Apple / Vision Pro",
+      "url": "https://youtu.be/vI6Asw_4hUk",
+      "summary": "Two Vision Pro users demo real-time spatial collaboration: sharing a 3D teddy bear model, grabbing and resizing it from either headset, toggling wireframe view, and loading shared objects into Blocksworld for block-level manipulation. Shows practical multi-user spatial computing with realistic shadows and presence.",
+      "relevance": "Quick 56-sec flex of where Vision Pro collab is right now — shared 3D object manipulation across headsets feels like the future landing."
+    },
+    {
+      "id": "37sRhHOIEAc",
+      "title": "What Stoicism teaches us about Donald Trump, COVID-19, and ghosts | Massimo Pigliucci",
+      "channel": "The Institute of Art and Ideas",
+      "duration": "19:48",
+      "category": "Philosophy / Epistemology",
+      "url": "https://youtu.be/37sRhHOIEAc",
+      "summary": "Massimo Pigliucci explains the Stoic dichotomy of control — focus energy where you can act, accept what you can't — applied to politics, climate change, and daily setbacks. He also dissects the post-COVID erosion of trust in expertise, where people overestimate their ability to evaluate scientific papers and podcasters seek gotcha moments instead of understanding.",
+      "relevance": "Solid framework for anyone building under uncertainty — the control/acceptance split is practical, and his take on the expert-trust collapse is uncomfortably relevant in the age of AI-as-oracle."
+    },
+    {
+      "id": "lq2fP7wC7d8",
+      "title": "Stop Wasting Money on the Wrong AI",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration": "14:17",
+      "category": "AI / Strategy",
+      "url": "https://youtu.be/lq2fP7wC7d8",
+      "summary": "Nate B Jones lays out a practical framework for choosing AI models: use frontier models (Claude, ChatGPT) for messy, novel, high-judgment work; use cheap open-source models (GLM 5.2, Qwen, Kimi) for familiar, repeatable artifacts. Cites Coinbase, Cursor, Lindy, Shopify switching to open-source for cost savings on routine tasks. Key insight: the harness (how you get work in/out) matters as much as the model itself — praises Claude Code's harness, notes Gemini's intelligence is strong but its harness is weak.",
+      "relevance": "Useful mental model for when to burn Opus tokens vs. route to cheaper models — especially the harness > raw intelligence argument, which matches how I already think about Claude Code."
+    },
+    {
+      "id": "NOmXYCefBBI",
+      "title": "You Need To Hear THIS Before The Market Breaks",
+      "channel": "Tom Bilyeu",
+      "duration": "1:14:15",
+      "category": "AI / Startups / Investing",
+      "url": "https://youtu.be/NOmXYCefBBI",
+      "summary": "Jeremy Grantham (60-year veteran investor, $165B AUM peak) argues we're in the biggest investment bubble in history, centered on AI. He compares it to railroads and the internet: the technology is real and transformative, but emotional contagion drives massive overinvestment, leading to inevitable crashes before the tech matures. He advises selling US tech stocks, predicts Bitcoin goes to zero, and warns the bust could come in days, months, or years. Tom Bilyeu adds useful commentary on the pattern: early investors get wiped out, then later investors win big as real companies emerge from the wreckage (e.g., Amazon crashed 92% post-dot-com then dominated retail).",
+      "relevance": "Grantham's bubble framework applied specifically to AI is the most clear-eyed macro take I've heard — worth understanding whether you're building or investing in this space."
+    },
+    {
+      "id": "q4dqFC7hf1c",
+      "title": "Fable 5 Is BACK And It Just One Shotted THIS",
+      "channel": "Pat Simmons",
+      "duration": "7:06",
+      "category": "AI / Anthropic",
+      "url": "https://youtu.be/q4dqFC7hf1c",
+      "summary": "Demo of Claude's 'Fable 5' (Opus 4.6) agentic coding: one-shot prompt in Cursor spawns 12 sub-agents that build a playable browser Counter-Strike 2 clone in ~3 hours. 270K input / 887K output tokens ($160 API cost, 6% of plan limit). Gameplay mechanics, buy system, and bot AI work surprisingly well; graphics are basic but functional.",
+      "relevance": "Anthropic's latest model flexing its agentic game-dev muscles — worth seeing what 3 hours of unsupervised Opus can actually ship."
+    },
+    {
+      "id": "ijMT10lOhhg",
+      "title": "This Multi-Model Pipeline Will Save You Money",
+      "channel": "Alex Shershebnev",
+      "duration": "58",
+      "category": "AI / LLMs",
+      "url": "https://youtu.be/ijMT10lOhhg",
+      "summary": "Benchmarks a multi-model pipeline: Claude Opus for planning + MiniMax M3 for implementation vs. Opus-only. Opus-only was ~3 min faster but cost ~3× more (~$2 extra per task), suggesting MiniMax M3 at 10% of Opus pricing is a viable implementation layer.",
+      "relevance": "Practical cost-optimization pattern for AI pipelines — exactly the kind of routing trick worth knowing when you're burning Opus tokens daily."
+    }
+  ]
+}
