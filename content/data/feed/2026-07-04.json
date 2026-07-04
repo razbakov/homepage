@@ -1,0 +1,128 @@
+{
+  "date": "2026-07-04",
+  "source": "curated-channel-rss",
+  "total_recommended": 45,
+  "summarized": 12,
+  "items": [
+    {
+      "id": "OQMPhkmeru0",
+      "title": "The World's Evilest Company",
+      "channel": "The PrimeTime",
+      "duration": "14:34",
+      "category": "AI / Anthropic",
+      "url": "https://youtu.be/OQMPhkmeru0",
+      "summary": "ThePrimeagen reacts to Palantir CEO Alex Karp's CNBC rant criticizing AI companies for 'token maxing' — incentivizing enterprises to dump IP into models for little ROI. Covers Karp's argument that if AI truly tripled revenue, providers would take a revenue cut rather than sell tokens. Highlights allegations that Anthropic blindsided Figma with Claude Design while its CPO sat on Figma's board, and that Anthropic told Cursor Claude Code was 'just a research effort' before competing directly.",
+      "relevance": "Direct Anthropic/Claude controversy — the Figma board story and Cursor relationship raise real trust questions worth tracking as someone building on this ecosystem."
+    },
+    {
+      "id": "dt05patIMm4",
+      "title": "One Simple Model Change Can Save You Thousands In AI Costs",
+      "channel": "Alex Shershebnev",
+      "duration": "1:29",
+      "category": "AI / Anthropic",
+      "url": "https://youtu.be/dt05patIMm4",
+      "summary": "Compares Minimax M3, Opus 4.8, and GPT 5.5 on a dark-theme implementation task. Shows that using Opus for planning + Minimax for implementation yields comparable quality at ~3x lower cost than Opus alone. Argues the real question is how to combine models, not which single model is best.",
+      "relevance": "Quick validation of the multi-model pipeline approach I already use — nice to see concrete cost numbers on Opus vs hybrid routing."
+    },
+    {
+      "id": "AE68Y3kBKCY",
+      "title": "5 things you can do to avoid Alzheimer's | Lisa Genova",
+      "channel": "Big Think",
+      "duration": "56",
+      "category": "Science",
+      "url": "https://youtu.be/AE68Y3kBKCY",
+      "summary": "Neuroscientist Lisa Genova explains that for 98% of people, Alzheimer's is not genetically predetermined — risk is shaped by five modifiable lifestyle factors: sleep, diet, exercise, stress management, and learning new things. She argues these interventions are as effective as any pharmaceutical approach being developed.",
+      "relevance": "Practical, evidence-based brain health advice — worth the 5 minutes if you care about long-term cognitive performance."
+    },
+    {
+      "id": "O4qDLJ7A8vc",
+      "title": "Are we in an AI Bubble?",
+      "channel": "Theo - t3․gg",
+      "duration": "28",
+      "category": "AI / Startups",
+      "url": "https://youtu.be/O4qDLJ7A8vc",
+      "summary": "Theo argues we are definitively in an AI bubble, but the key unknown is the size of the underlying value. He places AI on a spectrum between NFTs (pure bubble) and the internet (real value that still had a bubble burst around domain speculation), saying he doesn't yet know where AI falls.",
+      "relevance": "Quick 30-sec sanity check — the dot-com analogy framing is the right mental model for how I think about current AI valuations too."
+    },
+    {
+      "id": "rvUAFYqm9Tk",
+      "title": "Shared Spaces in Vision Pro",
+      "channel": "Himels Tech",
+      "duration": "19:25",
+      "category": "Apple / Vision Pro",
+      "url": "https://youtu.be/rvUAFYqm9Tk",
+      "summary": "Two Vision Pro users demonstrate visionOS 27 shared spatial features: spatial FaceTime with movable 3D personas, SharePlay for Apple TV cinema environments and YouTube, collaborative 3D model viewing and manipulation, shared drawing in Crayon, co-exploring the solar system in Space Vision, Freeform whiteboarding with Muse pen, and multiplayer gaming — all in real-time across 1000 miles.",
+      "relevance": "Concrete demo of where spatial collaboration actually stands today — useful for gauging how close Vision Pro is to replacing video calls with true co-presence."
+    },
+    {
+      "id": "U4TmrlWEY4M",
+      "title": "Every AI Agent Demo Stops at Email. I Pointed Mine at the Bills That Cost You Money.",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration": "15:44",
+      "category": "AI / Agents",
+      "url": "https://youtu.be/U4TmrlWEY4M",
+      "summary": "Demonstrates a reusable agent skeleton (context pack → ingest → chunk → normalize → store → retrieve → cite → export → gate) that scales from low-stakes email triage to high-stakes insurance appeals and tax prep. Key insight: agents should organize unstructured bureaucracy into citable, inspectable case files — never submit/sign/pay. Shows the flywheel effect where each build reuses the same primitives on harder domains.",
+      "relevance": "Practical agent architecture patterns beyond toy demos — the 'prepare but never execute' gating principle is how I think about trust in agentic systems too."
+    },
+    {
+      "id": "Ye3pOSDIYFg",
+      "title": "Does Observation Create the Universe?",
+      "channel": "Curt Jaimungal",
+      "duration": "46",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/Ye3pOSDIYFg",
+      "summary": "Explores John Wheeler's participatory universe hypothesis through the cosmic delayed-choice experiment: light from a distant quasar lensed by a galaxy can be measured as particle or wave billions of years after emission, suggesting observation retroactively shapes reality. Unpacks the observer-information-universe feedback loop Wheeler proposed.",
+      "relevance": "Wheeler's delayed-choice thought experiment is one of the most mind-bending bridges between physics and consciousness — right in your wheelhouse."
+    },
+    {
+      "id": "yNL8NeMNRcI",
+      "title": "Is God misunderstood? | Alex O'Connor on mystical experiences",
+      "channel": "The Institute of Art and Ideas",
+      "duration": "2:05",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/yNL8NeMNRcI",
+      "summary": "Alex O'Connor argues that mystical and psychedelic experiences consistently point not to the biblical God but to something more abstract — a unity with 'experience itself turned up to 11.' He suggests this minimal sense of consciousness may be what God was all along, citing Sufi ecstatic claims like 'I am the truth' as evidence for a pantheistic/consciousness-first theology rather than a personal deity.",
+      "relevance": "Quick 2-min crystallization of the idea that mystical experience is evidence for consciousness-as-ground-of-reality, not traditional theism — right in the simulation/philosophy sweet spot."
+    },
+    {
+      "id": "Kk0VyaXjWXQ",
+      "title": "The 250-million year rise and fall of the dinosaurs | Steve Brusatte",
+      "channel": "Big Think",
+      "duration": "1:44:12",
+      "category": "Science",
+      "url": "https://youtu.be/Kk0VyaXjWXQ",
+      "summary": "Paleontologist Steve Brusatte traces dinosaurs from their origins as cat-sized reptiles surviving the Permian mass extinction (250 Mya), through their Jurassic explosion after outcompeting crocodile relatives, to the geography-driven diversification of the Cretaceous — explaining how volcanic climate catastrophes, continental drift, and evolutionary opportunity shaped 180 million years of dominance. He details how T-Rex ruled only North America while completely different apex predators dominated southern continents.",
+      "relevance": "A proper deep-dive into deep time and extinction dynamics — the kind of systems-thinking about planetary-scale cause and effect that hits different when you're building things yourself."
+    },
+    {
+      "id": "5pJRlDrDoGg",
+      "title": "Apple FINALLY Fixed Mail in iOS 27! Here Is Everything New!",
+      "channel": "9to5Mac",
+      "duration": "10:59",
+      "category": "Apple / iOS",
+      "url": "https://youtu.be/5pJRlDrDoGg",
+      "summary": "iOS 27 Mail gets a complete overhaul: ranked intelligent search (no longer chronological), deep Siri AI integration that can query across years of emails and messages (e.g. 'how much did I spend on X'), smart replies that learn your writing style, actionable flight/order cards with third-party app intents, and customizable badge counts (primary-only). Push notification Gmail limitation remains.",
+      "relevance": "Practical reason to finally ditch Gmail app — the Siri + Mail indexing combo is basically a personal email RAG system now."
+    },
+    {
+      "id": "daYPjEGZBXo",
+      "title": "The Price of Not Thinking | Why Civilizations Fail",
+      "channel": "Aperture",
+      "duration": "1:37:02",
+      "category": "AI / Society / Philosophy",
+      "url": "https://youtu.be/daYPjEGZBXo",
+      "summary": "Long-form essay arguing critical thinking is eroding faster than ever due to three converging forces: AI cognitive offloading (MIT study shows LLM-using students underperform in reasoning and retention), workplace 'work slop' culture where AI output goes unreviewed and management enforces conformity via groupthink, and social media's destruction of sustained attention. Cites 95% of orgs seeing no measurable ROI from AI while still laying off workers, and raises existential questions about where the AI replacement endgame leads.",
+      "relevance": "A sharp counter-narrative to the 'just vibe-code everything' hype — worth watching as someone building with AI daily to stay honest about what we're actually trading away."
+    },
+    {
+      "id": "jV4_OQ-WOlE",
+      "title": "Andrej Karpathy Joins Anthropic!!",
+      "channel": "PlivoAI",
+      "duration": "1:29",
+      "category": "AI / Anthropic",
+      "url": "https://youtu.be/jV4_OQ-WOlE",
+      "summary": "Andrej Karpathy, OpenAI co-founder and former Tesla Autopilot lead, announced he joined Anthropic's pre-training team under Nick Joseph. This follows xAI founding member Ross Nordeen also joining Anthropic the same month. Anthropic is now valued at $380B and pulling top talent from OpenAI, Tesla, and xAI simultaneously.",
+      "relevance": "Karpathy on the Anthropic pre-training team is huge — the models I use daily are about to get even better."
+    }
+  ]
+}
