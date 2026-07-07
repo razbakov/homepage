@@ -1,0 +1,88 @@
+{
+  "date": "2026-07-07",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 28,
+  "summarized": 8,
+  "items": [
+    {
+      "id": "Tp9CiBeviKk",
+      "title": "You Only Have 1 Day Left For These Fable 5 Use Cases (Or Pay Thousands)",
+      "channel": "Chase AI",
+      "duration": "8:32",
+      "category": "AI / Anthropic / Fable",
+      "url": "https://youtu.be/Tp9CiBeviKk",
+      "summary": "Chase argues that with Fable 5 access about to become expensive, the highest-leverage moves are to have Fable write execution plans for a cheaper model to run, build an Obsidian 'second brain' Claude can navigate, and run a self-audit over your last 30 days of sessions to surface repeated patterns and turn them into reusable skills. He notes that on the DeepSuite benchmark Fable 5 at medium or even low effort still beats Opus 4.8 while costing roughly half, so you don't need to max out effort levels. He caps it with pointing Fable at a hard problem in 'ultra code' mode with fan-out sub-agents and adversarial review.",
+      "relevance": "A concrete, prompt-level checklist for squeezing planning, knowledge-mapping and self-audit work out of a top model — the kind of leverage that outlasts any single model's pricing window."
+    },
+    {
+      "id": "Zp8lr6IzUnQ",
+      "title": "GLM 5.2 Is Free And Beats Claude On Most Work. So Why Can't Companies Switch?",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration": "17:35",
+      "category": "AI / Research",
+      "url": "https://youtu.be/Zp8lr6IzUnQ",
+      "summary": "Nate B Jones argues GLM 5.2 is genuinely excellent — often better than Claude — on 'center-of-distribution' work (brochure sites, standard decks, familiar coding shapes), and roughly 98% cheaper, yet most companies still can't switch. His claim: you're not swapping a model call, you're rewriting a whole harness — memory, tool calls, system prompts — and the talent to do that is scarce and expensive. He points to sticky team-level products like 'Claude tag' in Slack as the mechanism by which frontier labs keep pricing power: companies end up effectively renting their own context back from the model provider.",
+      "relevance": "The clearest framing I've seen of why cheap open models haven't tipped the market — the fight is over the 'last mile' harness and who owns your accumulated context, not raw intelligence."
+    },
+    {
+      "id": "0u9NY__BGmQ",
+      "title": "Jack Dorsey Is Quietly Winning the Open Source Agents War",
+      "channel": "DevOps Toolbox",
+      "duration": "11:27",
+      "category": "Building / Dev",
+      "url": "https://youtu.be/0u9NY__BGmQ",
+      "summary": "A hands-on tour of Goose, the open-source agent from Block (Jack Dorsey's company): written in Rust, model-agnostic, runs locally, and ships as CLI, desktop and web interfaces. The video shows its extensibility — developer tools, memory, MCP extensions — and its stand-out feature: recipes and sub-recipes that let you compose parameterized sub-agents that can run sequentially or in parallel. The reviewer (disclosing the video is sponsored, but the tool is free and open) frames it as owning your own local, model-independent agent tooling rather than being locked to one provider.",
+      "relevance": "If Nate's video is the diagnosis — you're renting intelligence and context — this is one answer: a free, local, model-agnostic agent stack you actually own and can extend."
+    },
+    {
+      "id": "kISw4rBzAoo",
+      "title": "The secret code behind the universe",
+      "channel": "The Well",
+      "duration": "9:45",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/kISw4rBzAoo",
+      "summary": "Stephen Wolfram lays out his approach to fundamental physics: rather than reverse-engineering the universe from mathematics, he runs simple computational rules (cellular automata like Rule 30) and finds that very simple rules routinely produce enormous complexity — his candidate for how nature makes complexity cheaply. He introduces 'computational irreducibility': for many systems there's no shortcut to the answer, you must actually run every step. He reframes this as a good thing — it's why the future can't be fully predicted, and therefore why living through time actually 'adds up to something.'",
+      "relevance": "Wolfram argues the fact that you can't shortcut reality — that you have to actually run it — is exactly what gives life its stakes. A quietly consoling idea about why prediction has limits."
+    },
+    {
+      "id": "lyu7v7nWzfo",
+      "title": "Your Brain Hallucinates Your Conscious Reality",
+      "channel": "TED",
+      "duration": "17:01",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/lyu7v7nWzfo",
+      "summary": "Neuroscientist Anil Seth argues perception isn't a readout of the world but the brain's 'best guess' — a controlled hallucination reined in by sensory data. He demonstrates with visual and audio illusions, and the rubber-hand experiment, that even the sense of having a body is a construction. His stronger claim: consciousness is grounded in being a living organism regulating itself to stay alive, not in raw intelligence — which is why he thinks conscious AI is 'pretty remote' and that making computers smarter won't make them sentient.",
+      "relevance": "Seth's line 'when we agree about our hallucinations, we call that reality' reframes perception itself — and his split between intelligence and consciousness is a useful check on how we talk about AI."
+    },
+    {
+      "id": "SFaM3w4SiL8",
+      "title": "Why Quantum Particles Can Cross Barriers That Should Stop Them",
+      "channel": "Sleep On Physics",
+      "duration": "1:46:22",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/SFaM3w4SiL8",
+      "summary": "A long, calmly narrated deep-dive into quantum tunneling: particles routinely appear on the far side of energy barriers they lack the energy to climb — not by smashing through or borrowing energy, but because the wall and the missing energy are both genuinely real, and the particle is simply there. The video builds the intuition carefully from the everyday 'ball rolling up a hill' rule, then shows how that rock-solid rule is quietly broken inside every atom, and ties it to how tunneling lights up stars and powers modern devices.",
+      "relevance": "A patient, hand-waving-free walk through one of physics' most counterintuitive facts — the most obvious rule you've known since childhood, broken constantly at the smallest scale."
+    },
+    {
+      "id": "0nz0iaNvVpE",
+      "title": "The ONE RULE for LIFE — Immanuel Kant's Moral Philosophy",
+      "channel": "After Skool",
+      "duration": "21:49",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/0nz0iaNvVpE",
+      "summary": "Narrated by Mark Manson (excerpted from his book), this walks through Kant's categorical imperative: a moral rule must be universal, and the core formulation is to always treat humanity — in yourself or others — as an end, never merely as a means. Manson argues Kant held rational consciousness as the one sacred thing, and extends the rule to laziness, addiction, people-pleasing and manipulation as ways of treating even yourself as a means. He closes on Kant's view that improving the world starts with self-improvement, because the only thing you can experience with certainty is yourself.",
+      "relevance": "Kant's single rule — treat consciousness as an end, never a means — is a surprisingly sharp lens for judging your own habits, not just how you treat other people."
+    },
+    {
+      "id": "bn2E8bnPe1A",
+      "title": "Jesus Taught Consciousness, Not Religion!",
+      "channel": "Lucid Wisdom",
+      "duration": "26:53",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/bn2E8bnPe1A",
+      "summary": "This video presents a Gnostic reading of the Jesus story: it argues that early Gnostic Christians saw Jesus not as a sacrifice for sin but as a teacher pointing inward — 'the kingdom of God is within you,' and 'Christ' as a state of consciousness anyone can realize rather than a title unique to one man. It reinterprets miracles, Gethsemane, Judas, the Eucharist and the resurrection symbolically, and frames Jesus' clashes with religious institutions as opposition to systems that use fear and obedience to control. This is one interpretive tradition's argument, presented as such, not established history.",
+      "relevance": "Whatever your view, it's a provocative argument that authority and truth are meant to be found internally rather than granted by an institution — the same 'ownership' question the AI videos raise, aimed at the spirit."
+    }
+  ]
+}
