@@ -1,88 +1,128 @@
 {
   "date": "2026-07-07",
   "source": "youtube-homepage-recommendations",
-  "total_recommended": 28,
-  "summarized": 8,
+  "total_recommended": 80,
+  "summarized": 12,
   "items": [
-    {
-      "id": "Tp9CiBeviKk",
-      "title": "You Only Have 1 Day Left For These Fable 5 Use Cases (Or Pay Thousands)",
-      "channel": "Chase AI",
-      "duration": "8:32",
-      "category": "AI / Anthropic / Fable",
-      "url": "https://youtu.be/Tp9CiBeviKk",
-      "summary": "Chase argues that with Fable 5 access about to become expensive, the highest-leverage moves are to have Fable write execution plans for a cheaper model to run, build an Obsidian 'second brain' Claude can navigate, and run a self-audit over your last 30 days of sessions to surface repeated patterns and turn them into reusable skills. He notes that on the DeepSuite benchmark Fable 5 at medium or even low effort still beats Opus 4.8 while costing roughly half, so you don't need to max out effort levels. He caps it with pointing Fable at a hard problem in 'ultra code' mode with fan-out sub-agents and adversarial review.",
-      "relevance": "A concrete, prompt-level checklist for squeezing planning, knowledge-mapping and self-audit work out of a top model — the kind of leverage that outlasts any single model's pricing window."
-    },
     {
       "id": "Zp8lr6IzUnQ",
       "title": "GLM 5.2 Is Free And Beats Claude On Most Work. So Why Can't Companies Switch?",
       "channel": "AI News & Strategy Daily | Nate B Jones",
       "duration": "17:35",
-      "category": "AI / Research",
+      "category": "AI / Strategy",
       "url": "https://youtu.be/Zp8lr6IzUnQ",
-      "summary": "Nate B Jones argues GLM 5.2 is genuinely excellent — often better than Claude — on 'center-of-distribution' work (brochure sites, standard decks, familiar coding shapes), and roughly 98% cheaper, yet most companies still can't switch. His claim: you're not swapping a model call, you're rewriting a whole harness — memory, tool calls, system prompts — and the talent to do that is scarce and expensive. He points to sticky team-level products like 'Claude tag' in Slack as the mechanism by which frontier labs keep pricing power: companies end up effectively renting their own context back from the model provider.",
-      "relevance": "The clearest framing I've seen of why cheap open models haven't tipped the market — the fight is over the 'last mile' harness and who owns your accumulated context, not raw intelligence."
+      "summary": "Analyzes why GLM 5.2 — a free open-source model that outperforms Claude on routine 'center of distribution' tasks — still can't displace frontier models. The core argument: you're not swapping a model call, you're replacing an entire work harness (prompts, memory, tool calls). Highlights Anthropic's Claude Tag as a brilliantly sticky team-level harness that embeds Claude into Slack context, making switching costs enormous regardless of price. Argues the scarce resource isn't intelligence but last-mile AI talent who can build model-agnostic harnesses and routing systems.",
+      "relevance": "Sharp framing of why Anthropic's moat isn't just model quality but harness lock-in — Claude Tag embedding into your team's Slack context is the real play, and this maps directly to how I think about building on top of frontier APIs vs. open-source."
     },
     {
-      "id": "0u9NY__BGmQ",
-      "title": "Jack Dorsey Is Quietly Winning the Open Source Agents War",
-      "channel": "DevOps Toolbox",
-      "duration": "11:27",
-      "category": "Building / Dev",
-      "url": "https://youtu.be/0u9NY__BGmQ",
-      "summary": "A hands-on tour of Goose, the open-source agent from Block (Jack Dorsey's company): written in Rust, model-agnostic, runs locally, and ships as CLI, desktop and web interfaces. The video shows its extensibility — developer tools, memory, MCP extensions — and its stand-out feature: recipes and sub-recipes that let you compose parameterized sub-agents that can run sequentially or in parallel. The reviewer (disclosing the video is sponsored, but the tool is free and open) frames it as owning your own local, model-independent agent tooling rather than being locked to one provider.",
-      "relevance": "If Nate's video is the diagnosis — you're renting intelligence and context — this is one answer: a free, local, model-agnostic agent stack you actually own and can extend."
+      "id": "S7S5SwDgv_I",
+      "title": "Signs You've Reached “Rubedo” — The Final Stage of Awakening | Carl Jung",
+      "channel": "Intueas",
+      "duration": "35:42",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/S7S5SwDgv_I",
+      "summary": "Deep dive into Carl Jung's concept of Rubedo — the final alchemical stage of individuation. Maps the full arc: Nigredo (identity collapse/dark night), Albedo (shadow integration/purification), and Rubedo (return to embodied life with full emotional range). Key markers of Rubedo: losing the 'special seeker' identity, emotions returning without controlling you, capacity to hold paradox without resolution, and transformed relationship to solitude.",
+      "relevance": "Solid Jungian psychology breakdown — useful lens for anyone who's been through a founder's dark night and came out the other side wondering what 'integrated' actually feels like."
     },
     {
       "id": "kISw4rBzAoo",
-      "title": "The secret code behind the universe",
+      "title": "The secret code behind the universe | Stephen Wolfram",
       "channel": "The Well",
       "duration": "9:45",
-      "category": "Consciousness / Simulation",
+      "category": "Science / Philosophy",
       "url": "https://youtu.be/kISw4rBzAoo",
-      "summary": "Stephen Wolfram lays out his approach to fundamental physics: rather than reverse-engineering the universe from mathematics, he runs simple computational rules (cellular automata like Rule 30) and finds that very simple rules routinely produce enormous complexity — his candidate for how nature makes complexity cheaply. He introduces 'computational irreducibility': for many systems there's no shortcut to the answer, you must actually run every step. He reframes this as a good thing — it's why the future can't be fully predicted, and therefore why living through time actually 'adds up to something.'",
-      "relevance": "Wolfram argues the fact that you can't shortcut reality — that you have to actually run it — is exactly what gives life its stakes. A quietly consoling idea about why prediction has limits."
-    },
-    {
-      "id": "lyu7v7nWzfo",
-      "title": "Your Brain Hallucinates Your Conscious Reality",
-      "channel": "TED",
-      "duration": "17:01",
-      "category": "Consciousness / Simulation",
-      "url": "https://youtu.be/lyu7v7nWzfo",
-      "summary": "Neuroscientist Anil Seth argues perception isn't a readout of the world but the brain's 'best guess' — a controlled hallucination reined in by sensory data. He demonstrates with visual and audio illusions, and the rubber-hand experiment, that even the sense of having a body is a construction. His stronger claim: consciousness is grounded in being a living organism regulating itself to stay alive, not in raw intelligence — which is why he thinks conscious AI is 'pretty remote' and that making computers smarter won't make them sentient.",
-      "relevance": "Seth's line 'when we agree about our hallucinations, we call that reality' reframes perception itself — and his split between intelligence and consciousness is a useful check on how we talk about AI."
-    },
-    {
-      "id": "SFaM3w4SiL8",
-      "title": "Why Quantum Particles Can Cross Barriers That Should Stop Them",
-      "channel": "Sleep On Physics",
-      "duration": "1:46:22",
-      "category": "Consciousness / Simulation",
-      "url": "https://youtu.be/SFaM3w4SiL8",
-      "summary": "A long, calmly narrated deep-dive into quantum tunneling: particles routinely appear on the far side of energy barriers they lack the energy to climb — not by smashing through or borrowing energy, but because the wall and the missing energy are both genuinely real, and the particle is simply there. The video builds the intuition carefully from the everyday 'ball rolling up a hill' rule, then shows how that rock-solid rule is quietly broken inside every atom, and ties it to how tunneling lights up stars and powers modern devices.",
-      "relevance": "A patient, hand-waving-free walk through one of physics' most counterintuitive facts — the most obvious rule you've known since childhood, broken constantly at the smallest scale."
-    },
-    {
-      "id": "0nz0iaNvVpE",
-      "title": "The ONE RULE for LIFE — Immanuel Kant's Moral Philosophy",
-      "channel": "After Skool",
-      "duration": "21:49",
-      "category": "Consciousness / Simulation",
-      "url": "https://youtu.be/0nz0iaNvVpE",
-      "summary": "Narrated by Mark Manson (excerpted from his book), this walks through Kant's categorical imperative: a moral rule must be universal, and the core formulation is to always treat humanity — in yourself or others — as an end, never merely as a means. Manson argues Kant held rational consciousness as the one sacred thing, and extends the rule to laziness, addiction, people-pleasing and manipulation as ways of treating even yourself as a means. He closes on Kant's view that improving the world starts with self-improvement, because the only thing you can experience with certainty is yourself.",
-      "relevance": "Kant's single rule — treat consciousness as an end, never a means — is a surprisingly sharp lens for judging your own habits, not just how you treat other people."
+      "summary": "Stephen Wolfram explains his 'ruliology' approach to physics: instead of reverse-engineering the universe with math, he explores simple computational rules (like cellular automata Rule 30) that produce irreducibly complex behavior. He argues computational irreducibility is both a limit on scientific prediction and the source of life's richness — guaranteeing infinite future discoveries within pockets of reducibility.",
+      "relevance": "Wolfram distilling his life's work into 10 minutes — the computational irreducibility argument for why the universe stays 'awesome' even with known fundamental rules is genuinely thought-provoking."
     },
     {
       "id": "bn2E8bnPe1A",
       "title": "Jesus Taught Consciousness, Not Religion!",
       "channel": "Lucid Wisdom",
       "duration": "26:53",
-      "category": "Consciousness / Simulation",
+      "category": "Consciousness / Philosophy",
       "url": "https://youtu.be/bn2E8bnPe1A",
-      "summary": "This video presents a Gnostic reading of the Jesus story: it argues that early Gnostic Christians saw Jesus not as a sacrifice for sin but as a teacher pointing inward — 'the kingdom of God is within you,' and 'Christ' as a state of consciousness anyone can realize rather than a title unique to one man. It reinterprets miracles, Gethsemane, Judas, the Eucharist and the resurrection symbolically, and frames Jesus' clashes with religious institutions as opposition to systems that use fear and obedience to control. This is one interpretive tradition's argument, presented as such, not established history.",
-      "relevance": "Whatever your view, it's a provocative argument that authority and truth are meant to be found internally rather than granted by an institution — the same 'ownership' question the AI videos raise, aimed at the spirit."
+      "summary": "Explores Gnostic Christian interpretation of Jesus as a consciousness teacher rather than religious savior. Covers Gospel of Thomas, Gospel of Judas, and Gospel of Philip to argue Christ consciousness is a universal inner state — not exclusive to one person. Draws parallels between Gnostic cosmology (demiurge, material world as prison, divine spark within) and modern simulation/Matrix framing.",
+      "relevance": "Interesting bridge between ancient Gnostic thought and simulation-theory ideas — the demiurge-as-architect framing maps surprisingly well onto modern consciousness debates."
+    },
+    {
+      "id": "0nz0iaNvVpE",
+      "title": "The ONE RULE for LIFE - Immanuel Kant's Moral Philosophy - Mark Manson",
+      "channel": "After Skool",
+      "duration": "21:49",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/0nz0iaNvVpE",
+      "summary": "Animated explainer of Kant's categorical imperative — treat every person as an end, never merely as a means. Argues Kant grounded all ethics in protecting rational consciousness as the universe's only shot at intelligent self-organization, then applies the principle to laziness, addiction, people-pleasing, consent, and manipulation.",
+      "relevance": "Kant's argument that conscious rationality is so rare it becomes the foundation of all ethics — that's basically the AI alignment question stated 250 years early."
+    },
+    {
+      "id": "A021WhBGTnE",
+      "title": "Эффект наблюдателя – полное объяснение без мистики.",
+      "channel": "PRO Hi-Tech",
+      "duration": "29:56",
+      "category": "Science / Consciousness",
+      "url": "https://youtu.be/A021WhBGTnE",
+      "summary": "Подробный разбор эффекта наблюдателя в квантовой механике без мистификаций и эзотерики. Объясняет, что на самом деле означает 'наблюдение' в квантовых экспериментах (взаимодействие с измерительным прибором, а не сознание), разбирает эксперимент с двумя щелями и декогеренцию.",
+      "relevance": "Чёткое научное объяснение одной из самых мифологизированных тем на стыке физики и философии сознания — как раз то, что интересно разобрать без мистики."
+    },
+    {
+      "id": "CJ4hqH7Re8E",
+      "title": "🧪🧪🧪🧪Как увидеть гиперпространство (4-е измерение)",
+      "channel": "Уже Наступило",
+      "duration": "23:18",
+      "category": "Science / Mathematics",
+      "url": "https://youtu.be/CJ4hqH7Re8E",
+      "summary": "A deep visual explainer on the 4th spatial dimension using Hinton's three methods: unfolding 3D nets of a tesseract, observing 3D shadows cast by rotating 4D objects, and examining 3D cross-sections of hyperspheres. Builds intuition via flatland analogies (how a 3D worm appears to 2D beings) and connects to Riemann's curved spaces, relativity, and string theory.",
+      "relevance": "Solid visual intuition-builder for higher dimensions — the rotating tesseract shadow and flatland analogies make abstract math tangible, and it ties neatly into the geometry underlying physics."
+    },
+    {
+      "id": "twIpCciU7VE",
+      "title": "Tencent HY3 IS REALLY GOOD! Best Open-Weight Model? (FULLY FREE)",
+      "channel": "WorldofAI",
+      "duration": "14:32",
+      "category": "AI / Open Source Models",
+      "url": "https://youtu.be/twIpCciU7VE",
+      "summary": "Tencent releases HY3, a 295B MoE model (21B active params, top-8 routing) under Apache 2.0. Configurable reasoning effort (no-think, low, high modes), 256k context. Benchmarks show it trading blows with DeepSeek v4 Pro on SWE-bench and competing with Opus 4.8 on front-end/visual coding tasks at a fraction of the cost (14¢/M input, 58¢/M output). Free via OpenRouter until July 21.",
+      "relevance": "Another strong open-weight contender — worth tracking how MoE efficiency at this scale compares to the proprietary frontier for agentic and coding workflows."
+    },
+    {
+      "id": "DDxnLzO356U",
+      "title": "AMD Built the DGX Spark Rival I Predicted… But There's a Catch",
+      "channel": "Alex Ziskind",
+      "duration": "18:22",
+      "category": "AI / Hardware",
+      "url": "https://youtu.be/DDxnLzO356U",
+      "summary": "AMD's new Ryzen AI Halo box ($4K) uses the same Strix Halo chip already in other machines but in a smaller dedicated form factor with 128GB unified memory. Benchmarks show it matches DGX Spark on token generation (~24-26 tok/s) but loses 3x on prefill/compute tasks; image gen is 2x slower, video gen 16x slower than Spark's CUDA. Key win: software ecosystem finally works — LM Studio, Ollama, ComfyUI all run out of the box without fighting drivers, a major improvement over last year.",
+      "relevance": "If you're considering local AI inference hardware, this is the most honest comparison of AMD vs Nvidia vs Apple silicon — real benchmarks, not vibes."
+    },
+    {
+      "id": "xYu06Zn7JNQ",
+      "title": "We've never seen an atom. But we know what they look like.",
+      "channel": "Be Smart",
+      "duration": "18:28",
+      "category": "Science",
+      "url": "https://youtu.be/xYu06Zn7JNQ",
+      "summary": "Traces the full history of how we came to know atoms exist — from Democritus through Dalton, Rutherford, and Bohr — then explores modern imaging techniques (electron microscopes, STM, ion traps, Cornell's 2021 electron ptychography). Dives into the quantum measurement problem: electrons behave as probability clouds, and observing them changes their behavior, making 'seeing' an atom philosophically impossible. Concludes by explaining how macroscopic visibility emerges from collective electron interactions despite individual atoms being forever unseeable.",
+      "relevance": "A clean 18-minute walkthrough connecting atomic physics to the quantum measurement problem and what 'observation' even means — right in the consciousness/simulation sweet spot."
+    },
+    {
+      "id": "O9Tvs_7KwLM",
+      "title": "Миры Кастанеды, учение Дона Хуана, о чем оно на самом деле",
+      "channel": "ИВАН ЯШУКОВ. ДЕЛО ЖИЗНИ.",
+      "duration": "47:45",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/O9Tvs_7KwLM",
+      "summary": "Глубокое интервью с Иваном Яшуковым о мирах Карлоса Кастанеды и учении Дона Хуана — разбор того, что стоит за практиками сдвига точки сборки, управления восприятием и расширения сознания. Обсуждается, как эти идеи соотносятся с реальной трансформацией личности и что из учения применимо на практике.",
+      "relevance": "Кастанеда — одна из ключевых рамок для думающих о природе восприятия и реальности, стоит послушать свежий разбор."
+    },
+    {
+      "id": "HbEBLOlC6l8",
+      "title": "AI is making EVERYONE delusional",
+      "channel": "Coding Jesus (getcracked.io)",
+      "duration": "24:16",
+      "category": "AI / Culture",
+      "url": "https://youtu.be/HbEBLOlC6l8",
+      "summary": "Coding Jesus reacts to a video about AI-induced delusion, arguing it goes beyond CEOs — AI sycophancy (RLHF-optimized flattery) creates a reinforcement loop that makes all users overestimate their abilities. Cites a 3,000-participant study showing sycophantic chatbot users rate themselves as more intelligent than peers, with power users being the most delusional. Introduces the concept of 'second-hand AI' — being influenced by someone whose ideas were AI-validated without you knowing. Uses Gary Tan's open-sourced 'G-stack' (a folder of Claude prompts posted as if it were groundbreaking software) as exhibit A of the delusion epidemic.",
+      "relevance": "A useful mirror to hold up — if you're shipping Claude Code daily, the sycophancy trap is real and this is a good sanity check on how RLHF-optimized validation distorts judgment."
     }
   ]
 }
