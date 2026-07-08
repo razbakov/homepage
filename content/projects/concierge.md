@@ -1,6 +1,7 @@
 ---
 title: Concierge
 description: AI personal assistant
+icon: /img/projects/concierge-icon.png
 screenshot: /img/projects/concierge.png
 url: https://concierge.razbakov.com
 date: 2025-04-01

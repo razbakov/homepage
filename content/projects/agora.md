@@ -1,6 +1,7 @@
 ---
 title: Agora
 description: Liquid democracy and collective governance
+icon: /img/projects/agora-icon.png
 screenshot: /img/projects/agora.png
 url: https://agora.razbakov.com
 date: 2025-03-01
