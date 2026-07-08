@@ -13,8 +13,8 @@ stack:
 ---
 
 
-Agua Pichi is a Cuban music and dance festival planned for Munich in July 2027 — a celebration of live Cuban music, social dancing, and culture in one place.
+Agua Pichi is Munich's Cuban festival — "roots & revolution, every July." The first edition runs 1–4 July 2027: established Cuban orchestras headline, while emerging Cuban teachers run the workshops the rest of the weekend. It's the festival that aims to find the next generation of Cuban dance before the European circuit does.
 
-**Problem:** Munich has a lively Latin-dance scene, but no dedicated festival that brings authentic Cuban music, dance, and community together as a single flagship event.
+**Problem:** Munich has a lively Latin-dance scene, but no dedicated festival that brings authentic Cuban music, dance, and community together as a single flagship event — and the newest Cuban teachers stay invisible to European audiences.
 
-**Solution:** A festival built around Cuban culture — live music, workshops, and social dancing — with the website serving as the early home for the concept, dates, and audience-building ahead of the 2027 edition.
+**Solution:** An annual festival built around Cuban culture — orchestra headliners, experimental workshops, and social dancing — that pairs the artists who built the tradition with the ones defining its future. The website is the early home for the concept, the dates, and audience-building ahead of the 2027 edition.

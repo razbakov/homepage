@@ -1,6 +1,6 @@
 ---
 title: Learn By Doing Academy
-description: Hands-on, project-based online learning
+description: Build real products with AI, and get hired
 icon: https://learn-by-doing-academy.com/logo.png
 screenshot: /img/projects/learn-by-doing.png
 url: https://learn-by-doing-academy.com
@@ -10,14 +10,15 @@ roles:
   - Concept
   - Code
 stack:
-  - Nuxt
+  - React
+  - Vite
   - TailwindCSS
   - Vercel
 ---
 
 
-Learn By Doing Academy is an online learning platform built around a simple idea: you learn a skill by building real things, not by watching lectures. Courses are structured as projects that learners complete step by step.
+Learn By Doing Academy teaches people to build real products with AI and get hired. Instead of passive video courses, learners join weekly live sessions and ship real projects — the "build with AI, get hired" promise, backed by graduates now working at companies like Frontline Group, Whitespace Software, and ToroNet.
 
-**Problem:** Most online courses are passive. Learners watch hours of video, feel productive, and finish with nothing they've actually built — and little that sticks.
+**Problem:** Most online courses are passive. Learners watch hours of video, feel productive, and finish with nothing they've actually built — no portfolio, no proof, and little that sticks in a job market that now expects people to work with AI.
 
-**Solution:** A project-based academy where every course produces a tangible outcome. Learners follow a guided build, ship something real, and walk away with both the skill and the portfolio piece to prove it.
+**Solution:** A project-based academy where every learner builds something real with AI in weekly live sessions and walks away with both the skill and a portfolio piece to prove it — aimed squarely at the outcome that matters: getting hired.
