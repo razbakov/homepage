@@ -1,6 +1,6 @@
 ---
 title: Butler
-description: AI automation that dispatches tasks to agents
+description: Gives AI agents a voice to call you for decisions
 icon: https://butler.razbakov.com/butler-icon.png?v=2
 screenshot: /img/projects/butler.png
 url: https://butler.razbakov.com
@@ -17,8 +17,8 @@ stack:
 ---
 
 
-Butler is an AI automation assistant that takes a request and dispatches the work to the right specialized agent. It's the interface layer that turns spoken or typed intent into action across a portfolio of projects.
+Butler gives your AI agents a voice. When an agent hits a decision it can't make alone, it schedules a call — you click a link, talk it through, and the agent captures your answer. It keeps the human in the loop without keeping the human at a desk.
 
-**Problem:** Running many projects means constantly context-switching to delegate, track, and follow up on small tasks. That coordination overhead is exactly the work that keeps a solo operator from focusing.
+**Problem:** AI agents get stuck the moment they need a human decision. Messages sit unread in a chat, work stalls, and the only way to unblock it is to be at a keyboard watching for pings.
 
-**Solution:** A voice-and-text assistant that routes tasks to the agent best suited to handle them, so work can be dispatched hands-free while you're away from the desk. Butler is the connective tissue between a human's intent and a team of AI agents doing the work.
+**Solution:** A voice platform where every workflow that needs a human decision routes through a structured, recorded call. The agent schedules it, you join from a browser link — no app to install — talk it through, and Butler captures a structured answer the agent can act on. Human judgment, hands-free.

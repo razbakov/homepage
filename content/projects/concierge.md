@@ -1,6 +1,6 @@
 ---
 title: Concierge
-description: AI personal assistant
+description: A voice AI concierge that guides website visitors
 icon: /img/projects/concierge-icon.png
 screenshot: /img/projects/concierge.png
 url: https://concierge.razbakov.com
@@ -17,8 +17,8 @@ stack:
 ---
 
 
-Concierge is an AI personal-assistant tool that helps handle everyday requests and tasks through a simple conversational interface.
+Concierge replaces the "call me" button with a voice AI guide that walks website visitors through a site in real time. A visitor scans a QR code, a voice call starts in the browser, and an AI agent navigates the site for them — like having a 24/7 concierge at the door.
 
-**Problem:** Personal productivity is spread across too many apps — notes, reminders, calendars, and inboxes. Switching between them to get one thing done creates friction and dropped intentions.
+**Problem:** Website visitors land, get lost, and leave. Contact forms and "call me" buttons put the work back on the visitor, and there's rarely a human available the moment someone actually has a question.
 
-**Solution:** A single AI concierge you talk to in natural language, which understands the request and takes it from there. It's an exploration of how a personal assistant can quietly absorb the small coordination work that fills a day.
+**Solution:** A drop-in JavaScript snippet turns any site into a guided experience. Visitors scan a QR code or click through to a voice call — no app to install — and an AI agent with awareness of the site navigates it on their behalf, answering questions and taking them where they need to go.

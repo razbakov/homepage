@@ -1,6 +1,6 @@
 ---
 title: Loci
-description: A spatial second brain for iPhone & Vision Pro
+description: A dual-register second brain for iPhone & Vision Pro
 icon: /img/projects/loci-icon.png
 screenshot: /img/projects/loci.png
 date: 2026-03-01
@@ -16,8 +16,8 @@ stack:
 ---
 
 
-Loci is a spatial "second brain" for iPhone and Apple Vision Pro. It lets you place notes, ideas, and references in real space and recall them where you left them — using the ancient method of loci, made native to spatial computing.
+Loci is a private, on-device "second brain" for iPhone and Apple Vision Pro that holds your life in two registers at once: the **empirical** — what your own data actually says — and the **imaginal** — the recurring image, the archetype, the memory bound to a place. Built natively on Apple's 2026 stack: the Foundation Models framework, App Intents, and visionOS spatial anchors.
 
-**Problem:** Notes and ideas live in flat, searchable lists that don't match how human memory works. We remember things by place and context, but our tools throw that spatial dimension away.
+**Problem:** Note apps flatten everything into searchable lists that only capture the literal. But a life isn't only facts — it's also the images, patterns, and meanings that recur, and the memories tied to the places you move through. Tools that see only one register miss half of what matters.
 
-**Solution:** An app that anchors your thoughts to physical locations using visionOS spatial anchors, with on-device intelligence via Apple's Foundation Models framework to organize and surface them. Loci turns the rooms you move through into a memory palace you actually use.
+**Solution:** An app that runs both registers side by side — the empirical read of your own data and the imaginal read of your symbols and places — with intelligence on-device via Apple's Foundation Models framework and thoughts anchored to real space through visionOS. Everything stays private on the device.
