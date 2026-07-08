@@ -2,6 +2,7 @@
 title: Ikigai Team
 description: A 6-agent AI system that runs my portfolio on autopilot
 screenshot: /img/projects/ikigai-team.png
+icon: /img/projects/ikigai-team-icon.png
 url: https://ikigai.razbakov.com
 date: 2026-06-05
 status: in progress

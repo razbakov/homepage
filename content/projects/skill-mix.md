@@ -2,6 +2,7 @@
 title: Skill Mix
 description: Discover, install, and manage AI agent skills
 screenshot: /img/projects/skill-mix.png
+icon: /img/projects/skill-mix-icon.png
 url: https://github.com/razbakov/skill-mix
 date: 2025-02-21
 status: in progress

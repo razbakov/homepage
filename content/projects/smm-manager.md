@@ -2,6 +2,7 @@
 title: SMM Manager
 description: AI-powered poster generator for events
 screenshot: /img/projects/smm-manager.png
+icon: /img/projects/smm-manager-icon.png
 date: 2024-06-01
 status: in progress
 roles:
