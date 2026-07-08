@@ -18,8 +18,8 @@ stack:
 ---
 
 
-GutenAbend was born during the COVID-19 lockdown as a virtual social club to help people stay connected. The platform hosts online activities like Mafia Game, Geo Guess, CashFlow, Salsa Warm Up, and group conversations.
+GutenAbend was born during the COVID-19 lockdown as an "online Kantine" — a virtual social club to help people stay connected. Members schedule online meetups, propose ideas for what to do together, and RSVP to join.
 
-**Problem:** During the 2020 quarantine, people were isolated and craving social interaction. Existing video call tools lacked structure for fun group activities.
+**Problem:** During the 2020 quarantine, people were isolated and craving social interaction. Video call tools existed, but there was no simple place to organise recurring group evenings and let people suggest and sign up for them.
 
-**Solution:** A Firebase-powered web app with scheduled events, sign-in functionality, and a curated list of online social activities. Users can browse the schedule, join events, and suggest new ideas — turning isolation into community.
+**Solution:** A Firebase-powered web app where anyone can sign in (Google or magic link), create and manage meetups, add ideas for activities, and RSVP. Users browse the schedule, join events, and suggest new ones — turning isolation into community.
