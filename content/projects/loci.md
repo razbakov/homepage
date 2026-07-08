@@ -1,6 +1,7 @@
 ---
 title: Loci
 description: A spatial second brain for iPhone & Vision Pro
+icon: /img/projects/loci-icon.png
 screenshot: /img/projects/loci.png
 date: 2026-03-01
 status: concept

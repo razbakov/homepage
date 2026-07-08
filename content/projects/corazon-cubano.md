@@ -1,6 +1,7 @@
 ---
 title: Corazón Cubano
 description: Umbrella initiative for Cuban culture in Munich
+icon: /img/projects/corazon-cubano-icon.png
 screenshot: /img/projects/corazon-cubano.png
 url: https://corazoncubano.de
 date: 2025-05-20

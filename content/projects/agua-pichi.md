@@ -1,6 +1,7 @@
 ---
 title: Agua Pichi
 description: Cuban music & dance festival in Munich
+icon: /img/projects/agua-pichi-icon.png
 screenshot: /img/projects/agua-pichi.png
 url: https://aguapichi.com
 date: 2025-05-15
