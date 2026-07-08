@@ -21,4 +21,4 @@ Milaila Capote is the portfolio and booking website for a professional Cuban dan
 
 **Problem:** A touring dance instructor needs a single professional home online — somewhere that establishes credibility, explains what she teaches, and lets organizers reach out to book, instead of relying on scattered social media profiles.
 
-**Solution:** A bilingual one-page site with a bold hero, an about section, per-style descriptions, testimonials, and a contact form for booking inquiries. Clean, mobile-first, and fast — built to turn a festival organizer's visit into a workshop booking.
+**Solution:** A multilingual one-page site with a bold hero, an about section, per-style descriptions, testimonials, and a contact form for booking inquiries. Clean, mobile-first, and fast — built to turn a festival organizer's visit into a workshop booking.

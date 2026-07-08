@@ -1,6 +1,6 @@
 ---
 title: SDTV
-description: Video delivery for social dance festivals
+description: Media platform for social dance festivals
 icon: https://socialdancetv.com/favicon.svg
 screenshot: /img/projects/sdtv.png
 url: https://socialdancetv.com
@@ -18,8 +18,8 @@ stack:
 ---
 
 
-Social Dance TV is a video delivery platform for social dance festivals. Festival organizers upload recordings of workshops and performances, then distribute them to attendees in one place.
+Social Dance TV films social dance festivals and gets them "filmed, found and featured" — before, during, and after the weekend. Festivals get covered, dancers find and buy their own videos and photos, and artists get featured to grow their audience, across salsa, bachata, kizomba, zouk, and swing.
 
-**Problem:** Festival videos end up scattered across personal phones, private Dropbox links, and half-forgotten YouTube uploads. Attendees who paid for a workshop rarely get clean access to the footage afterwards.
+**Problem:** Festival footage ends up scattered across personal phones, private Dropbox links, and half-forgotten YouTube uploads. Dancers who want their videos rarely get a clean way to find and keep them afterwards.
 
-**Solution:** A dedicated platform where organizers upload and organize festival videos and share them with attendees. It turns raw festival recordings into a browsable, festival-branded video library — closing the loop between the event and the people who want to relive it.
+**Solution:** A media platform that turns raw festival recordings into a browsable, festival-branded library. A videographer uploads each festival's footage, the site generates previews, and dancers browse and purchase the clips they want with a direct download — closing the loop between the event and the people who want to relive it.
