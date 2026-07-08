@@ -1,0 +1,128 @@
+{
+  "date": "2026-07-08",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 80,
+  "summarized": 12,
+  "items": [
+    {
+      "id": "B8Dv7C53W8M",
+      "title": "\"This Isn't Our Universe\" — James Webb Just Confirmed Something Is Broken | 4K Space Documentary",
+      "channel": "janicegoh330",
+      "duration": "32:09",
+      "category": "Science",
+      "url": "https://youtu.be/B8Dv7C53W8M",
+      "summary": "Covers the Hubble tension crisis: JWST confirmed the local expansion rate at ~73 km/s/Mpc, stubbornly diverging from the early-universe prediction of ~67, ruling out measurement error with high confidence. Also examines JWST's discovery of unexpectedly massive early galaxies — some initially explained by black-hole imposters inflating brightness, but a residual excess (~2x expected) persists alongside anomalies like fully-formed spiral galaxies in the young universe.",
+      "relevance": "Solid 30-min primer on why our standard model of cosmology may actually be cracking — real data, real debate, no filler."
+    },
+    {
+      "id": "BZ5JuEK4_Xc",
+      "title": "Deno Desktop Can Make Your Apps 70% Smaller",
+      "channel": "Better Stack",
+      "duration": "6:17",
+      "category": "Startups / Building",
+      "url": "https://youtu.be/BZ5JuEK4_Xc",
+      "summary": "Deno 2.9 introduces `deno desktop` for building desktop apps in pure TypeScript without Chromium bloat. Uses OS-native WebView by default (or optional CEF), produces ~70MB binaries vs Electron's ~248MB. Includes auto-update, error reporting, tray/menu APIs, and cross-compilation from any host. Still experimental but functional for real apps.",
+      "relevance": "Lightweight Electron alternative in pure TypeScript — worth knowing about if you're shipping desktop tools without the bloat."
+    },
+    {
+      "id": "wP0YXCO61aM",
+      "title": "Apple Maps Is Finally Better Than Google Maps with iOS 27",
+      "channel": "9to5Mac",
+      "duration": "10:53",
+      "category": "Apple / iOS",
+      "url": "https://youtu.be/wP0YXCO61aM",
+      "summary": "iOS 27 Apple Maps gets AI-enhanced flyover rendering (NYC, Cupertino, London) using existing data with real-time AI upscaling, curated local lists for city exploration (US-only), trending restaurants from aggregated anonymous data, and significantly improved Siri natural-language navigation with multi-turn queries (find restaurants, filter by cuisine, route with toll avoidance).",
+      "relevance": "The AI-powered map rendering and Siri's multi-turn navigation finally show Apple's on-device AI stack delivering real UX wins beyond demos."
+    },
+    {
+      "id": "bfxwzdqroe8",
+      "title": "Создатель микропроцессора о сознании. Федерико Фаджин",
+      "channel": "Booster Void",
+      "duration": "1:19:51",
+      "category": "Consciousness / Science",
+      "url": "https://youtu.be/bfxwzdqroe8",
+      "summary": "Federico Faggin, inventor of the Intel 4004 microprocessor, discusses his theory that consciousness is fundamental and irreducible to computation. He argues that subjective experience (qualia) cannot emerge from silicon or algorithms alone, drawing on decades of physics and engineering to propose a quantum-information framework where awareness is a primary feature of reality, not a byproduct of complexity.",
+      "relevance": "The guy who literally built the first microprocessor says machines can't be conscious — that's a perspective worth sitting with for 80 minutes."
+    },
+    {
+      "id": "QDB8iDxgHu0",
+      "title": "How to Automatically Edit in DaVinci Resolve with AI (RoughCut)",
+      "channel": "Maxwell Ridgeway",
+      "duration": "13:17",
+      "category": "AI / Tools",
+      "url": "https://youtu.be/QDB8iDxgHu0",
+      "summary": "Tutorial on RoughCut, a DaVinci Resolve plugin that uses Claude Sonnet or OpenAI APIs to automatically analyze hours of raw footage transcripts, organize quotes by theme, and build rough-cut timelines for documentaries, cutdowns, and shorts. Supports free workflow by exporting context to Claude's free tier. Demonstrates end-to-end: transcribe locally via Whisper, define deliverables with tone/length targets, AI generates structured cut plans, then auto-builds timelines in Resolve.",
+      "relevance": "Practical demo of Claude API powering a real creative-production tool — interesting to see how third-party devs are integrating Anthropic into pro video workflows."
+    },
+    {
+      "id": "cXlxCOoNZ7E",
+      "title": "Spacetime Is The Memory  Of A Self Knowing Universe | Federico Faggin",
+      "channel": "Essentia Foundation",
+      "duration": "1:37:03",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/cXlxCOoNZ7E",
+      "summary": "Federico Faggin (inventor of the first microprocessor) presents his quantum theory of consciousness: reality starts from an indivisible whole (One) that knows itself through our experience; the body is classical information, the mind is quantum information, and spirit is meaning. He argues quantum entanglement and non-locality prove reality is fundamentally interconnected, invalidating reductionist/materialist approaches (including string theory's 80-year failure), and that spacetime itself is the permanent memory of this self-knowing process.",
+      "relevance": "Faggin bridges hardcore physics credentials with deep consciousness philosophy — exactly the kind of rigorous-yet-radical thinker worth 90 minutes of your time."
+    },
+    {
+      "id": "XqUOgqlZ8bc",
+      "title": "A Mysterious Design That Appears Across Millennia | Terry Moore | TED",
+      "channel": "TED",
+      "duration": "6:08",
+      "category": "Science / Philosophy",
+      "url": "https://youtu.be/XqUOgqlZ8bc",
+      "summary": "Terry Moore traces Penrose's aperiodic tiling discovery back 500 years to a 14th-century Uzbek madrassa, showing medieval craftsmen encoded the same never-repeating pattern using construction lines. He argues these designs aren't decoration but philosophical statements about life's complexity, unpredictability, and an underlying unity — connecting Plato's 'first cause,' Spinoza's 'singular substance,' and David Bohm's 'implicate order.'",
+      "relevance": "A beautiful 6-minute bridge between mathematics, ancient architecture, and the idea of a hidden order beneath complexity — right up my alley on consciousness and simulation thinking."
+    },
+    {
+      "id": "kSD1nP5K1M4",
+      "title": "Once You Understand OM, You Understand Everything about Reality",
+      "channel": "Adhvaitha",
+      "duration": "23:23",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/kSD1nP5K1M4",
+      "summary": "Decodes the syllable OM via the Mandukya Upanishad's four-state framework (waking, dream, deep sleep, turiya). Maps body, mind, ego, and consciousness across each state to show that only consciousness persists through all three experiential states — arguing it is the fundamental substrate of reality, not body or mind. Essentially a structured Vedantic argument for pure awareness as the ground of existence.",
+      "relevance": "A clean walkthrough of Mandukya Upanishad's consciousness framework — useful if you want the Vedantic version of 'we're awareness, not the simulation.'"
+    },
+    {
+      "id": "wnfxSxP8pGs",
+      "title": "I need to rant about local models",
+      "channel": "Theo - t3․gg",
+      "duration": "28:11",
+      "category": "AI / Infrastructure",
+      "url": "https://youtu.be/wnfxSxP8pGs",
+      "summary": "Theo argues that local AI models are massively overhyped: flagship open-weight models like GLM-52 (400GB+) can't run on consumer hardware, and the ones that can (quantized Gemma 4, etc.) perform far below frontier APIs. He breaks down the brutal economics — a 5090 has only 32GB VRAM, RTX 6000 Pro costs $13K for 96GB, a quad-GPU box is $75K — and identifies parallelism as the killer problem: real agentic workflows need 1-40 concurrent inference streams, which no local setup can match.",
+      "relevance": "Solid reality check on local-vs-cloud AI economics — useful framing for anyone deciding where to spend compute dollars on agentic coding workflows."
+    },
+    {
+      "id": "HzuTZTehKmM",
+      "title": "Тёмной Материи Нет?! / Инопланетные постройки и Лунная пыль / Спасение телескопа / Астрообзор #210",
+      "channel": "Космос Просто",
+      "duration": "33:22",
+      "category": "Science",
+      "url": "https://youtu.be/HzuTZTehKmM",
+      "summary": "New study reanalyzes the bullet cluster — long considered the strongest evidence for dark matter — using James Webb and Chandra data, finding that unseen compact stellar remnants (neutron stars, black holes) could account for the gravitational lensing anomaly, potentially eliminating the need for dark matter entirely and boosting MOND. Also covers TESS discovering 118 new exoplanets via ML analysis of 2M+ stars, and the ongoing Swift gamma-ray telescope rescue mission.",
+      "relevance": "Solid deep-dive into the dark matter vs MOND debate with a genuinely new result — worth it if you follow fundamental physics."
+    },
+    {
+      "id": "1cSNE-ZkDLQ",
+      "title": "You Can't Compete on Cheap Models Anymore",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration": "15:39",
+      "category": "AI / Strategy",
+      "url": "https://youtu.be/1cSNE-ZkDLQ",
+      "summary": "Argues that as AI execution commoditizes (cheap models match frontier on routine tasks), value shifts to 'technical imagination' — knowing what novel problems to pose. Uses Mitchell Hashimoto's experiment: cheap models tied frontier on standard coding tasks, but only the $40 frontier run solved a novel optimization no one had thought to attempt. Parallels to factory electrification — bolting AI onto existing workflows yields table-stakes savings; redesigning the 'building' (like Stripe's 1-day 50M-line migration) is where real leverage lives.",
+      "relevance": "Sharp framing of what I keep seeing — everyone optimizing the same prompt pipelines while the real moat is in asking questions nobody else has imagined yet."
+    },
+    {
+      "id": "EYfaVLBpVHs",
+      "title": "Interstellar Is Not About Space — It’s About God",
+      "channel": "Forbidden Gnosis",
+      "duration": "15:27",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/EYfaVLBpVHs",
+      "summary": "Deep theological reading of Interstellar arguing the film is about kenosis (self-emptying sacrifice), not space exploration. Maps Cooper's journey to Christ's emptying: the wormhole as grace, Mann as false salvation, the tesseract as faith becoming sight. Key insight: Nolan creates a closed causal loop where love — expressed as sacrifice — reaches across time, with future humans enabling past salvation rather than an external God intervening.",
+      "relevance": "If you love Interstellar and enjoy when someone reframes a familiar film through a philosophical lens you hadn't considered, this is a satisfying 15-minute watch."
+    }
+  ]
+}
