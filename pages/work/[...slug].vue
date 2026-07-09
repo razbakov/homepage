@@ -40,7 +40,7 @@ useSchemaOrg([
   }),
   defineBreadcrumb({
     itemListElement: computed(() => [
-      { name: "Projects", item: "/projects" },
+      { name: "Work", item: "/work" },
       { name: project.value?.title || "" },
     ]),
   }),
@@ -164,7 +164,7 @@ const { data: relatedPosts } = await useAsyncData(
         <!-- Navigation -->
         <nav class="mt-12 flex justify-between">
           <NuxtLink
-            :to="localePath('/projects')"
+            :to="localePath('/work')"
             class="inline-flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-primary"
           >
             {{ $t('projects.backToProjects') }}

@@ -2,7 +2,7 @@
   "nav": {
     "home": "Inicio",
     "about": "Sobre mí",
-    "projects": "Proyectos",
+    "projects": "Trabajos",
     "blog": "Blog",
     "slides": "Charlas",
     "uses": "Herramientas",
@@ -185,7 +185,7 @@
     "talksDesc": "Charlas y presentaciones de Alösha sobre agentes de IA, sistemas multi-agente, Vue.js y desarrollo web moderno."
   },
   "projects": {
-    "title": "Proyectos",
+    "title": "Trabajos",
     "subtitle": "Cosas que he construido, lanzado o todavía estoy descubriendo.",
     "filters": {
       "all": "Mostrar todo",
@@ -197,7 +197,7 @@
     },
     "visitWebsite": "Visitar sitio web",
     "relatedPosts": "Posts relacionados",
-    "backToProjects": "← Volver a proyectos"
+    "backToProjects": "← Volver a los trabajos"
   },
   "cv": {
     "loading": "Cargando CV...",

@@ -46,7 +46,7 @@ const menuItems = [
   { to: "/", key: "home" },
   { to: "/about", key: "about" },
   { to: "/services", key: "services" },
-  { to: "/projects", key: "projects" },
+  { to: "/work", key: "projects" },
 ];
 
 const isActive = (item) => {

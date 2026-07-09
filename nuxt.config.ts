@@ -137,6 +137,11 @@ export default defineNuxtConfig({
     prefix: "",
     componentDir: "./components/ui",
   },
+  // The /projects → /work rename 301s live in `public/_redirects` (this repo's
+  // canonical Netlify redirect file) rather than routeRules. Route-rule redirects
+  // get prerendered as static meta-refresh stubs (dist/projects/index.html) that
+  // *shadow* the edge 301 on Netlify (a static file wins over a non-forced rule),
+  // downgrading a clean 301 to a 200 meta-refresh. `_redirects` fires at the edge.
   routeRules: {},
   devtools: { enabled: true },
   compatibilityDate: "2025-01-07",
@@ -149,7 +154,7 @@ export default defineNuxtConfig({
     prerender: {
       crawlLinks: true,
       routes: [
-        "/", "/about", "/blog", "/projects", "/cv", "/slides", "/privacy", "/web100",
+        "/", "/about", "/blog", "/work", "/cv", "/slides", "/privacy", "/web100",
         // Public daily YouTube feed (index + one page per day)
         "/feed",
         ...feedRoutes,
