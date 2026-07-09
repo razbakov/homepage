@@ -1,0 +1,128 @@
+{
+  "date": "2026-07-09",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 80,
+  "summarized": 11,
+  "items": [
+    {
+      "id": "OEHPo5phLIQ",
+      "title": "What 8th Century Tibetan Masters Knew About Consciousness That Science Just Confirmed",
+      "channel": "The Midnight Library",
+      "duration": "14:03",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/OEHPo5phLIQ",
+      "summary": "Explores the Bardo Thodol (Tibetan Book of the Dead) as a 1,200-year-old psychological model of consciousness transformation — not just a death manual. Maps its three bardos (dissolution, projection encounter, habitual return) onto Jung's individuation process and Pim van Lommel's 2001 Lancet study documenting consistent near-death experiences in 344 cardiac arrest patients. Argues the text's core instruction — 'recognize what arises as projections of your own awareness' — anticipated modern shadow work and applies to any life transition, not only dying.",
+      "relevance": "Solid bridge between contemplative tradition and empirical consciousness research — the van Lommel data plus Jung's framework makes this more than typical spiritual content."
+    },
+    {
+      "id": "U3uX115I9sY",
+      "title": "Oh no (the new Grok model is good)",
+      "channel": "Theo - t3․gg",
+      "duration": "24:43",
+      "category": "AI / Models",
+      "url": "https://youtu.be/U3uX115I9sY",
+      "summary": "Theo reviews xAI's Grok 4.5, a 1.5T-parameter MoE model jointly trained with Cursor on trillions of tokens of developer interaction data. It benchmarks near Claude and GPT-5.5 on DeepSWE and Terminal Bench at $2/$6 per million tokens (5-10x cheaper than competitors), though Cursor Bench scores are tainted by accidental training data contamination. Cursor is bundling significant Grok 4.5 usage in subscriptions.",
+      "relevance": "Grok finally competing at the frontier tier — the pricing pressure on Anthropic and the Cursor co-training angle are worth tracking."
+    },
+    {
+      "id": "KGtko3y2RXQ",
+      "title": "Claude is definitely not conscious…",
+      "channel": "Fireship",
+      "duration": "4:36",
+      "category": "AI / Anthropic",
+      "url": "https://youtu.be/KGtko3y2RXQ",
+      "summary": "Fireship breaks down Anthropic's new 'Global Workspace in Language Models' paper showing researchers found an emergent internal reasoning space (J-Space) inside Claude — a small set of neural patterns the model uses as a mental scratchpad before outputting answers. They could surgically swap internal concepts (e.g. replacing 'spider' with 'ant' changed the answer from 8 to 6 legs) and even delete the region entirely, leaving Claude fluent but unable to reason. The finding parallels Bernard Baars' 1988 Global Workspace Theory of consciousness.",
+      "relevance": "Fireship's 4-min recap of the J-Space paper is the fastest way to get the gist — plus the LinkedIn influencer joke lands."
+    },
+    {
+      "id": "2tjxSTUCbN8",
+      "title": "Перестань ждать чуда: как ты сам блокируешь свое квантовое поле",
+      "channel": "Квантовый Разум",
+      "duration": "18:31",
+      "category": "Uncategorized",
+      "url": "https://youtu.be/2tjxSTUCbN8",
+      "summary": "(summary pending — AI backend unavailable for this run)",
+      "relevance": "Surfaced from your YouTube feed; open it to judge for yourself."
+    },
+    {
+      "id": "nTLOOwjmZ4s",
+      "title": "Consciousness is NOT What You Think   Ramana Maharshi's 3 Step Answer",
+      "channel": "One Timeless Witness",
+      "duration": "11:45",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/nTLOOwjmZ4s",
+      "summary": "Dramatized dialogue presenting Ramana Maharshi's self-inquiry method: consciousness is not the body, mind, or any experience — it is the unchanging witness. Uses the screen/movie analogy to illustrate non-identification, and walks through the 'Who am I?' inquiry as a practice to dissolve the seeker-sought duality.",
+      "relevance": "A clean, well-structured intro to Ramana's core teaching — good if you want a meditative 10 minutes on the witness vs. the witnessed."
+    },
+    {
+      "id": "9f-Ew_lDtxc",
+      "title": "The next generation of ChatGPT Voice",
+      "channel": "OpenAI",
+      "duration": "18:22",
+      "category": "AI / OpenAI",
+      "url": "https://youtu.be/9f-Ew_lDtxc",
+      "summary": "OpenAI announces GPT Live 1, a full-duplex voice model that listens and speaks simultaneously without turn-taking. It delegates complex reasoning to GPT 5.5 in the background while maintaining fluid conversation, and demos real-time translation, language coaching with proactive corrections, and seamless web search woven into natural dialogue.",
+      "relevance": "Direct competitor move to watch — full duplex + background delegation to a reasoning model is the architecture pattern everyone's converging on."
+    },
+    {
+      "id": "RSlSDEULIdo",
+      "title": "Why you don’t actually exist inside your body",
+      "channel": "The Opening",
+      "duration": "32:34",
+      "category": "Consciousness / Neuroscience",
+      "url": "https://youtu.be/RSlSDEULIdo",
+      "summary": "Deep dive into the neuroscience of selfhood: Blanke's discovery that electrical stimulation of the temporoparietal junction can reliably toggle out-of-body experiences on/off, Sperry's split-brain patients harboring two separate conscious streams, DMT's reorganization of brain networks via serotonin 2A receptor flooding, and documented NDE cases (Pam Reynolds' veridical perceptions during flatline surgery). Argues embodied selfhood is an active neural construction, not a given.",
+      "relevance": "Hits the intersection of hard neuroscience and the 'is the self an illusion' question — exactly the consciousness/simulation rabbit hole I keep going down."
+    },
+    {
+      "id": "ZU9_EHhNTyQ",
+      "title": "Meister Eckhart’s Most Dangerous Teaching: You Are Never Separated From God!",
+      "channel": "Lucid Wisdom",
+      "duration": "25:18",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/ZU9_EHhNTyQ",
+      "summary": "Deep dive into Meister Eckhart's 14th-century mystical philosophy: God is not an external object but the ground of awareness itself — 'the eye through which I see God is the same eye through which God sees me.' Covers his distinction between God and the Godhead (formless, undifferentiated pure being), the 'divine spark' identical to God's essence within every soul, and radical detachment (Abgescheidenheit) as subtraction rather than accumulation. His redefinition of hell as psychological friction from ego-clinging anticipates modern psychology.",
+      "relevance": "Non-dual consciousness philosophy from a 14th-century Dominican friar — basically advaita vedanta in Christian robes, and the Inquisition tried to cancel him for it."
+    },
+    {
+      "id": "AjlHjB_XBSs",
+      "title": "how the 4th dimension affects YOU every day",
+      "channel": "vetoo",
+      "duration": "21:50",
+      "category": "Science / Philosophy",
+      "url": "https://youtu.be/AjlHjB_XBSs",
+      "summary": "A visual, math-free explainer of 4D space: constructs a tesseract step-by-step from lower dimensions, uses cross-section analogies (2D beings seeing slices of 3D objects) to build intuition for how 4D objects behave, and demos 4D games (4D Toys, 4D Miner) that let you interact with hyperdimensional objects. Argues understanding higher dimensions reshapes how you think about reality and perception.",
+      "relevance": "Neat intuition-builder for higher-dimensional thinking — the cross-section analogy maps well to simulation/consciousness debates about what layers of reality we might be missing."
+    },
+    {
+      "id": "m4lWeZpQMoY",
+      "title": "Парадокс Шредингера РЕШЕН: простое объяснение квантовой механики",
+      "channel": "The Code of Reality  | Andrey Zagidullin",
+      "duration": "27:16",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/m4lWeZpQMoY",
+      "summary": "Presents the IAMR (Information-Architecture Model of Reality) — a framework that reinterprets quantum mechanics through software engineering analogies: wave function as cloud-stored file, Heisenberg uncertainty as encapsulation boundary, entanglement as server-side state, and Pauli exclusion as unique-filename constraint. Connects Koide's fermion mass formula to low Kolmogorov complexity and positive geometry (amplituhedra, cosmological polytope), arguing the universe's parameters are algorithmically generated from minimal source code rather than random. Ties it to holographic principle and AdS/CFT correspondence as evidence that matter emerges from pure irreducible information.",
+      "relevance": "A programmer-friendly mental model for quantum mechanics that connects simulation theory with real cutting-edge physics — positive geometry, AdS/CFT, and the Koide formula — without the usual 'shut up and calculate' cop-out."
+    },
+    {
+      "id": "B8Dv7C53W8M",
+      "title": "\"This Isn't Our Universe\" — James Webb Just Confirmed Something Is Broken | 4K Space Documentary",
+      "channel": "Parseca",
+      "duration": "32:09",
+      "category": "Science",
+      "url": "https://youtu.be/B8Dv7C53W8M",
+      "summary": "Deep dive into the Hubble tension crisis: JWST confirmed that the universe's expansion rate measured locally (73 km/s/Mpc via Riess's distance ladder) stubbornly refuses to match the early-universe prediction (67 via Planck/CMB). Webb also found unexpectedly massive galaxies within 500-700 Myr of the Big Bang, though some were later attributed to black hole contamination. Covers the Riess vs Freedman rivalry, early dark energy hypothesis, and why ~2x more massive early galaxies remain than models predict.",
+      "relevance": "The standard model of cosmology might actually be cracking — real data, real scientists, not hype. Worth the 30 min if you care about what we fundamentally misunderstand about reality."
+    },
+    {
+      "id": "3rDs6FhFoUQ",
+      "title": "3-Step Workflow To Make Ultra-Realistic AI Ads",
+      "channel": "Higgsfield AI",
+      "duration": "35:37",
+      "category": "AI / Creative Tools",
+      "url": "https://youtu.be/3rDs6FhFoUQ",
+      "summary": "Detailed 3-step workflow for creating photorealistic AI video ads: (1) generate and test-lock character/location/prop assets using Soul Cinema and GPT Image 2.0, (2) feed script + assets into a custom Claude skill that outputs a connected shot list with style prefixes, (3) render scenes in SeaArt/Citas 2.0. Key techniques include gray-background character sheets, single-face masking to prevent drift, three-quarter-angle locations for better camera movement, and A/B testing assets before committing credits.",
+      "relevance": "Solid production pipeline using Claude as the prompt engine — worth studying if you're thinking about AI-generated product videos for any of your projects."
+    }
+  ]
+}
