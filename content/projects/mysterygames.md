@@ -1,7 +1,7 @@
 ---
 title: MysteryGames
 description: Social deduction game nights in Munich
-icon: https://mysterygames.club/logo.svg
+icon: /img/projects/mysterygames-icon.png
 screenshot: /img/projects/mysterygames.png
 url: https://mysterygames.club
 date: 2025-02-01

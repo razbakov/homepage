@@ -1,7 +1,7 @@
 ---
 title: Montuno Club
 description: Free Salsa Cubana classes in Munich
-icon: https://montuno.club/logo.png
+icon: /img/projects/montuno-icon.png
 screenshot: /img/projects/montuno.png
 url: https://montuno.club
 date: 2025-01-01
