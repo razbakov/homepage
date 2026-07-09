@@ -31,3 +31,7 @@ logs
 content/data/video-scripts/*.mp4
 content/data/video-scripts/*.mp3
 content/data/video-scripts/*.wav
+
+# worktree scratch + local private tmp (added by sync)
+.claude/worktrees/
+private/
