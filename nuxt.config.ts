@@ -169,12 +169,12 @@ export default defineNuxtConfig({
       failOnError: false,
     },
   },
-  // Keep the /drafts admin page out of search engines and the sitemap.
+  // Keep the /drafts admin page and the /print shortcut out of search engines and the sitemap.
   robots: {
-    disallow: ["/drafts"],
+    disallow: ["/drafts", "/print"],
   },
   sitemap: {
-    exclude: ["/drafts", "/*/drafts"],
+    exclude: ["/drafts", "/*/drafts", "/print"],
   },
   runtimeConfig: {
     // Server-only (private). Populated at runtime from NUXT_RESEND_API_KEY,

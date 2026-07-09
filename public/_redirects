@@ -6,6 +6,10 @@
 /mafia https://gutenabend.netlify.com/mafia/
 /gear /uses
 
+# Unlisted shortcut: print-ready assets folder (Google Drive, share = anyone-with-link).
+# noindex via robots.disallow; not in nav/sitemap. 302 so the target can change later.
+/print https://drive.google.com/drive/folders/1zaFQsyewojImC6CTZ_rZ4CRr53nbBr5I 302
+
 # Proxied apps
 /mindmap/* https://razbakov.github.io/mindmap/:splat 200
 /mindmap https://razbakov.github.io/mindmap/ 200
