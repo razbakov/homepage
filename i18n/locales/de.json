@@ -2,7 +2,7 @@
   "nav": {
     "home": "Startseite",
     "about": "Über mich",
-    "projects": "Projekte",
+    "projects": "Arbeiten",
     "blog": "Blog",
     "slides": "Vorträge",
     "uses": "Tools",
@@ -185,7 +185,7 @@
     "talksDesc": "Konferenzvorträge und Präsentationen von Alösha über KI-Agenten, Multi-Agent-Systeme, Vue.js und moderne Webentwicklung."
   },
   "projects": {
-    "title": "Projekte",
+    "title": "Arbeiten",
     "subtitle": "Dinge, die ich gebaut, veröffentlicht oder noch in Arbeit habe.",
     "filters": {
       "all": "Alle anzeigen",
@@ -197,7 +197,7 @@
     },
     "visitWebsite": "Website besuchen",
     "relatedPosts": "Verwandte Beiträge",
-    "backToProjects": "← Zurück zu den Projekten"
+    "backToProjects": "← Zurück zu den Arbeiten"
   },
   "cv": {
     "loading": "Lebenslauf wird geladen...",

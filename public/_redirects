@@ -29,7 +29,20 @@
 /kakeibo /blog/2020-01-06-kekeibo
 /vue-google-firebase-analytics /blog/2020-01-12-vue-google-firebase-analytics
 /how-to-become-a-graphic-designer /blog/2018-08-20-how-to-become-a-graphic-designer
-/moneydo /projects/moneydo
+/moneydo /work/moneydo
 /google-ads-php /blog/2020-07-30-google-ads-php
-/projects/\_15x4 /projects/15x4
+/projects/_15x4 /work/15x4 301
 /personal-life-management-system /blog/2025-01-07-personal-life-management-system
+
+# Projects section renamed to Work (301, preserves old URLs + SEO).
+# Note: the specific /projects/_15x4 rule above must stay ABOVE this wildcard.
+/projects /work 301
+/projects/* /work/:splat 301
+/de/projects /de/work 301
+/de/projects/* /de/work/:splat 301
+/es/projects /es/work 301
+/es/projects/* /es/work/:splat 301
+/ru/projects /ru/work 301
+/ru/projects/* /ru/work/:splat 301
+/uk/projects /uk/work 301
+/uk/projects/* /uk/work/:splat 301

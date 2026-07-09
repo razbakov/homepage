@@ -1,21 +1,21 @@
 <script setup>
 const { t } = useI18n();
-useHead({ title: "Projects — Web Apps, AI Tools & Community Platforms" });
+useHead({ title: "Work — Web Apps, AI Tools & Community Platforms" });
 useSeoMeta({
   description: () => t('seo.projectsDesc'),
-  ogTitle: "Projects · Alösha",
+  ogTitle: "Work · Alösha",
   ogDescription: () => t('seo.projectsDesc'),
   twitterCard: "summary",
 });
 useSchemaOrg([
-  defineWebPage({ name: "Projects" }),
+  defineWebPage({ name: "Work" }),
   defineBreadcrumb({
-    itemListElement: [{ name: "Projects" }],
+    itemListElement: [{ name: "Work" }],
   }),
 ]);
 
-const { data: projects } = await useAsyncData("projects-list", () =>
-  queryContent("projects").sort({ date: -1 }).find()
+const { data: projects } = await useAsyncData("work-list", () =>
+  queryContent("work").sort({ date: -1 }).find()
 );
 
 const activeFilter = ref("all");

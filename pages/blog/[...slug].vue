@@ -119,7 +119,7 @@ const { data: relatedProjects } = await useAsyncData(
     const slug = contentPath.value.split("/").pop();
     const postTags = post.value.tags?.map((t) => t.toLowerCase()) || [];
     const postTitle = post.value.title?.toLowerCase() || "";
-    const projects = await queryContent("projects").find();
+    const projects = await queryContent("work").find();
     return projects.filter((project) => {
       const title = project.title?.toLowerCase() || "";
       const projectSlug = project._path?.split("/").pop() || "";

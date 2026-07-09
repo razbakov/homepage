@@ -2,7 +2,7 @@
   "nav": {
     "home": "Home",
     "about": "About",
-    "projects": "Projects",
+    "projects": "Work",
     "blog": "Blog",
     "slides": "Slides",
     "uses": "Uses",
@@ -185,7 +185,7 @@
     "talksDesc": "Conference talks and presentations by Alösha on AI agents, multi-agent systems, Vue.js, and modern web development."
   },
   "projects": {
-    "title": "Projects",
+    "title": "Work",
     "subtitle": "Things I've built, shipped, or am still figuring out.",
     "filters": {
       "all": "Show all",
@@ -197,7 +197,7 @@
     },
     "visitWebsite": "Visit Website",
     "relatedPosts": "Related Posts",
-    "backToProjects": "← Back to Projects"
+    "backToProjects": "← Back to Work"
   },
   "cv": {
     "loading": "Loading CV...",
