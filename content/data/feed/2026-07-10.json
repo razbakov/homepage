@@ -1,0 +1,128 @@
+{
+  "date": "2026-07-10",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 80,
+  "summarized": 12,
+  "items": [
+    {
+      "id": "AjlHjB_XBSs",
+      "title": "how the 4th dimension affects YOU every day",
+      "channel": "vetoo",
+      "duration": "21:50",
+      "category": "Science / Consciousness",
+      "url": "https://youtu.be/AjlHjB_XBSs",
+      "summary": "Visual explainer on 4D space using dimensional analogy: builds from 1D→2D→3D→4D to show how tesseracts are constructed, how cross-sections of higher-dimensional objects appear to lower-dimensional beings (spheres morphing through flatland), and demonstrates 4D games/simulations. Argues understanding higher dimensions reshapes how you think about reality and perception.",
+      "relevance": "Neat intuition-builder for anyone curious about simulation theory and the limits of human perception — if our universe is a 3D cross-section of something higher, what are we missing?"
+    },
+    {
+      "id": "_KQLrWE2sII",
+      "title": "consciousness creates reality (the power of observation)",
+      "channel": "The Mountain",
+      "duration": "12:24",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/_KQLrWE2sII",
+      "summary": "Argues consciousness is not a byproduct of brains but the fabric of reality itself, drawing on Saint-Exupéry's desert vision, Giordano Bruno's 'mind field' cosmology, Nagel's qualia argument, Pribram's holographic brain theory, and Vedic/Kabbalistic traditions (Atman=Brahman, 'the world was created for you'). Positions physical reality as a 'corridor' — a preparatory stage for deeper perception rather than an end in itself.",
+      "relevance": "A well-sourced tour through panpsychism and idealism that connects Western philosophy, neuroscience, and mystical traditions — good synthesis if you're thinking about consciousness-first ontologies."
+    },
+    {
+      "id": "S7S5SwDgv_I",
+      "title": "Signs You've Reached “Rubedo” — The Final Stage of Awakening | Carl Jung",
+      "channel": "Intueas",
+      "duration": "35:42",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/S7S5SwDgv_I",
+      "summary": "Deep dive into Carl Jung's 'Rubedo' — the final alchemical stage of psychological individuation. Walks through nigredo (identity collapse), albedo (shadow integration and projection work), and rubedo (return of embodied passion without ego inflation). Key markers of rubedo: loss of spiritual specialness, full emotional spectrum without reactivity, capacity to hold paradox, and transformed relationship to solitude.",
+      "relevance": "Solid Jungian framework for the individuation process — useful if you're thinking about consciousness development beyond the shallow 'awakening' narrative."
+    },
+    {
+      "id": "ut5QUHivHZs",
+      "title": "🌌 КВАНТОВАЯ ТЕОРИЯ ⚛️ СНОВИДЕНИЙ 😴 И СОЗНАНИЯ 🧠 | Ричард Фейнман",
+      "channel": "ФейнманВселенная",
+      "duration": "20:04",
+      "category": "Consciousness / Science",
+      "url": "https://youtu.be/ut5QUHivHZs",
+      "summary": "Russian-language exploration of quantum mechanics applied to dreams and consciousness, framed around Richard Feynman's ideas. Likely covers quantum coherence hypotheses in neural processes and how quantum indeterminacy might relate to the phenomenology of dreaming.",
+      "relevance": "Quantum consciousness is one of those frontier topics where physics meets philosophy — worth 20 min in Russian if the Feynman framing holds up."
+    },
+    {
+      "id": "gm8Bj2kCkfs",
+      "title": "The Quantum Theory of Consciousness That’s Terrifying Scientists",
+      "channel": "Pursuit of Wonder",
+      "duration": "19:48",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/gm8Bj2kCkfs",
+      "summary": "Deep dive into quantum immortality — the idea that if the many-worlds interpretation is correct, every physically possible branch where you survive exists, meaning subjective experience never encounters its own death. Walks through the measurement problem, Everett's 1957 many-worlds interpretation, and the teleportation thought experiment to illustrate identity paradoxes. Explores the destabilizing existential implications: not comforting immortality, but an inescapable probabilistic continuance of awareness across branching realities.",
+      "relevance": "If you've ever rabbit-holed on simulation theory or observer-dependent reality, this is a well-structured 20-min treatment of quantum immortality that connects the actual physics to the philosophical horror."
+    },
+    {
+      "id": "EYfaVLBpVHs",
+      "title": "Interstellar Is Not About Space — It’s About God",
+      "channel": "Forbidden Gnosis",
+      "duration": "15:27",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/EYfaVLBpVHs",
+      "summary": "Deep theological reading of Interstellar arguing it's fundamentally about kenosis (self-emptying love), not space exploration. Traces how Cooper's sacrifice, the wormhole as grace, Mann as false savior, and the tesseract as a closed causal loop of love all map onto a framework where meaning comes from surrender rather than success — and where future beings reach back through time to ensure the love that saved them keeps operating.",
+      "relevance": "A genuinely thoughtful reframe — if you've ever sat with the question of whether sacrifice has weight in an indifferent universe, this connects it to Nolan's storytelling in a way that sticks."
+    },
+    {
+      "id": "XqUOgqlZ8bc",
+      "title": "A Mysterious Design That Appears Across Millennia | Terry Moore | TED",
+      "channel": "TED",
+      "duration": "6:08",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/XqUOgqlZ8bc",
+      "summary": "Terry Moore traces Penrose tiling — an aperiodic pattern built from just two shapes that never repeats — from Roger Penrose's 1970s discovery back to 14th-century Islamic architecture in Uzbekistan, 500 years earlier. He argues these designs encode a worldview: life is complex and aperiodic, yet underlain by a hidden unity — what Plato called 'first cause,' Spinoza 'singular substance,' and physicist David Bohm the 'implicate order.'",
+      "relevance": "Short, elegant bridge from math and physics to the philosophy of hidden order — right up my alley on the 'is there an underlying structure to reality' question."
+    },
+    {
+      "id": "U3uX115I9sY",
+      "title": "Oh no (the new Grok model is good)",
+      "channel": "Theo - t3․gg",
+      "duration": "24:43",
+      "category": "AI / Models",
+      "url": "https://youtu.be/U3uX115I9sY",
+      "summary": "Theo reviews xAI's Grok 4.5, a 1.5T MoE model trained jointly with Cursor on coding/STEM data. It benchmarks near Claude Sonnet 5 and GPT-5.5 on DeepSWE and Terminal Bench at a fraction of the cost ($2/$6 per M tokens vs Sonnet 5's $10/$50). Training data accidentally included Cursor's codebase, tainting Cursor Bench scores — xAI was transparent about it. The model is notably efficient in token usage and runs ~80 tok/s.",
+      "relevance": "Worth watching to see how xAI is closing the gap with Anthropic and OpenAI on coding benchmarks — and undercutting both on price."
+    },
+    {
+      "id": "VMyHC7qUrhI",
+      "title": "I built a $10M run rate AI Startup in 150 days",
+      "channel": "Ben Cera",
+      "duration": "16:15",
+      "category": "Startups / Building",
+      "url": "https://youtu.be/VMyHC7qUrhI",
+      "summary": "Ben Cera shares how he scaled an AI startup to $10M annual run rate in just 150 days, covering rapid go-to-market execution, product-market fit signals, and the operational decisions behind hypergrowth in the current AI wave.",
+      "relevance": "A concrete founder playbook for insane AI-era growth speed — exactly the kind of building story worth studying."
+    },
+    {
+      "id": "ZU9_EHhNTyQ",
+      "title": "Meister Eckhart’s Most Dangerous Teaching: You Are Never Separated From God!",
+      "channel": "Lucid Wisdom",
+      "duration": "25:18",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/ZU9_EHhNTyQ",
+      "summary": "Deep dive into Meister Eckhart's 14th-century mystical philosophy: God is not an external object but the ground of awareness itself, the soul contains an 'uncreated spark' identical to the divine essence, and radical detachment (Abgescheidenheit) means stripping away ego — including spiritual ego — to reveal consciousness already unified with its source. Covers his distinction between God and Godhead, his redefinition of hell as psychological clinging, and why the Inquisition tried him for erasing the need for spiritual intermediaries.",
+      "relevance": "Medieval mystic arrives at non-dual consciousness philosophy that reads like a 14th-century preview of simulation theory and awareness-as-ground-of-reality — right up my alley."
+    },
+    {
+      "id": "m4lWeZpQMoY",
+      "title": "Парадокс Шредингера РЕШЕН: простое объяснение квантовой механики",
+      "channel": "The Code of Reality  | Andrey Zagidullin",
+      "duration": "27:16",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/m4lWeZpQMoY",
+      "summary": "Presents the Information-Architecture Model of Reality (IAMR), framing quantum mechanics through a computational lens: superposition as cloud-stored files awaiting localization, Heisenberg uncertainty as encapsulation boundaries blocking source-code access, entanglement as server-side spin assignment rather than faster-than-light communication. Connects Koide's fermion mass formula, positive geometry/amplituhedra, and the holographic principle (AdS/CFT) as evidence that reality runs on irreducible information — pure code — from which matter emerges via decoherence.",
+      "relevance": "A software engineer's intuition applied to quantum foundations — if you've ever suspected the universe runs on DRY principles and encapsulation, this is your rabbit hole."
+    },
+    {
+      "id": "CFtsHf1lVI4",
+      "title": "Psychosis or Spiritual Awakening: Phil Borges at TEDxUMKC",
+      "channel": "TEDx Talks",
+      "duration": "25:02",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/CFtsHf1lVI4",
+      "summary": "Photographer Phil Borges documents shamans across Tibet, Kenya, Mongolia, Pakistan, and the Amazon, finding a universal pattern: psychological crisis ('the Call'), mentorship by an elder, ego death/rebirth, then a life of service. He draws a direct parallel to Western psychiatric diagnoses of psychosis, arguing that what indigenous cultures nurture as spiritual awakening, modern medicine suppresses with medication — illustrated by a young American's 4-year pharmaceutical ordeal vs. eventual recovery through Vipassana meditation.",
+      "relevance": "Cross-cultural lens on consciousness, altered states, and whether the West pathologizes experiences that older traditions treat as initiation — right up my alley."
+    }
+  ]
+}
