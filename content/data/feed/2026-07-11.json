@@ -1,0 +1,128 @@
+{
+  "date": "2026-07-11",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 80,
+  "summarized": 12,
+  "items": [
+    {
+      "id": "RSlSDEULIdo",
+      "title": "Why you don’t actually exist inside your body",
+      "channel": "The Opening",
+      "duration": "32:34",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/RSlSDEULIdo",
+      "summary": "Deep dive into the neuroscience of selfhood: Olaf Blanke's discovery that electrically stimulating the temporoparietal junction reliably triggers out-of-body experiences on command, Roger Sperry's split-brain patients hosting two separate conscious streams in one skull, and DMT/NDE research (Pam Reynolds case, Pim van Lommel's 344-patient cardiac arrest study) suggesting consciousness may persist or relocate beyond measurable brain activity. Core thesis: being 'inside your body' is an active construction, not a default.",
+      "relevance": "Hard neuroscience meets the mystical — exactly the intersection where the 'is reality a construct?' question gets testable evidence."
+    },
+    {
+      "id": "I9TANdjTm18",
+      "title": "What Happens When The Mind FINALLY Finds The Observer?",
+      "channel": "Spiritual Dive",
+      "duration": "1:03:15",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/I9TANdjTm18",
+      "summary": "Hour-long deep dive arguing the 'observer' in meditation is itself an object of awareness, not the true subject. Traces the infinite regress problem — every time you turn to find the watcher, it becomes something watched. Draws on Hume's bundle theory (he never found a bare self, only experiences) and neuroscience (no central 'viewer chamber' in the brain), concluding the felt sense of an observer is just another generated experience, not the ground of awareness.",
+      "relevance": "If you've sat with the 'who is aware?' question in meditation, this is a rigorous unpacking of why the observer keeps slipping away — and why that's the actual discovery, not a failure."
+    },
+    {
+      "id": "FS_hLDTDI1w",
+      "title": "No, AI Isn’t Conscious; It’s Actually Much Worse | AI Scientist",
+      "channel": "Decoded Genius Clips",
+      "duration": "18:41",
+      "category": "AI / Safety & Consciousness",
+      "url": "https://youtu.be/FS_hLDTDI1w",
+      "summary": "AI safety researcher argues controlling general superintelligence is provably impossible (analogous to perpetual motion), advocates for narrow superintelligent tools (like AlphaFold) instead of general AGI. Claims current AI already surpasses average humans in most domains, discusses how superintelligence could control via internet+money without physical embodiment, and proposes a moratorium framework requiring peer-reviewed proof of scalable control before training general systems.",
+      "relevance": "Solid doom-case articulation — the perpetual-safety-device analogy and narrow-AI-only proposal are worth stress-testing against Anthropic's own alignment bets."
+    },
+    {
+      "id": "kISw4rBzAoo",
+      "title": "The secret code behind the universe | Stephen Wolfram",
+      "channel": "The Well",
+      "duration": "9:45",
+      "category": "Science / Simulation",
+      "url": "https://youtu.be/kISw4rBzAoo",
+      "summary": "Stephen Wolfram explains his ruliology framework: simple computational rules (like cellular automata Rule 30) produce irreducibly complex behavior, mirroring nature's complexity from snowflakes to mollusk shells. He argues the universe operates as a network of 'atoms of space' being rewritten by simple rules, and that computational irreducibility — our inability to shortcut predictions — is what gives life its richness and guarantees infinite discoveries.",
+      "relevance": "Wolfram distilling his whole paradigm into 10 minutes — computational irreducibility as both the limit of science and the source of meaning is a genuinely beautiful frame."
+    },
+    {
+      "id": "Wq45rvPGNHs",
+      "title": "Introducing ChatGPT Work, powered by Codex and GPT-5.6",
+      "channel": "OpenAI",
+      "duration": "35:08",
+      "category": "AI / OpenAI",
+      "url": "https://youtu.be/Wq45rvPGNHs",
+      "summary": "OpenAI launches GPT-5.6 (Soul, Terra, Luna models) alongside three major products: ChatGPT Work for complex multi-step tasks across web/mobile/desktop, a revamped desktop app with local file/app/browser access and computer use (autonomous cursor controlling macOS apps), and hosted sites for sharing interactive visualizations. Demos show finance variance analysis from Excel to PowerPoint to shareable dashboards, automated feedback triage with interactive charts, and the model organizing Apple Notes autonomously in the background.",
+      "relevance": "Direct competitor move to Claude's computer use and agentic workflows — worth studying the UX patterns OpenAI chose for 'work mode' vs chat mode separation."
+    },
+    {
+      "id": "GEtCYwr3quI",
+      "title": "Is Reality Really Real? With Donald Hoffman",
+      "channel": "StarTalk",
+      "duration": "1:13:41",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/GEtCYwr3quI",
+      "summary": "Donald Hoffman presents his mathematical proof from evolutionary game theory that the probability any organism evolved to perceive objective reality is precisely zero. Evolution shaped organisms not as windows on reality but as 'VR headsets' optimized for fitness payoffs (survival and reproduction), meaning our perceptions are useful hacks rather than truth-tracking systems. Discussion covers the jewel beetle/beer bottle example, cross-species sensory differences, and implications for understanding consciousness.",
+      "relevance": "Hoffman's VR-headset-for-fitness framing is one of the most rigorous challenges to naive realism — essential viewing if you think about simulation theory or consciousness."
+    },
+    {
+      "id": "eFUB_jL_XcM",
+      "title": "So This is Peak Foldable",
+      "channel": "Marques Brownlee",
+      "duration": "10:47",
+      "category": "Apple / Hardware",
+      "url": "https://youtu.be/eFUB_jL_XcM",
+      "summary": "MKBHD argues the Oppo Find N6 is the first truly no-compromise foldable: slab-phone dimensions (9mm, 230g — same as iPhone 17 Pro Max), 6000mAh silicon-carbon battery, 200MP main sensor, Snapdragon 8 Elite Gen 5, and a laser-scanned titanium hinge with 3D-printed polymer fill that reduces crease variation to 0.05mm. He then frames this as the signal Apple has been waiting for — rumors point to an iPhone Fold later this year with a passport-style 5.5\" cover screen opening to an 8\" widescreen, following Apple's classic playbook of entering categories only after the tech matures (Vision Pro, HomePod, original iPhone).",
+      "relevance": "The Apple strategy analysis is the real payload — if the iPhone Fold rumors land, this is useful context on what 'peak foldable' looks like before Apple enters."
+    },
+    {
+      "id": "RkzCAaIV_cQ",
+      "title": "This Shouldn’t Be Able to Run 120B Locally",
+      "channel": "Alex Ziskind",
+      "duration": "12:13",
+      "category": "AI / Hardware",
+      "url": "https://youtu.be/RkzCAaIV_cQ",
+      "summary": "Hands-on review of Tiny AI Pocket Lab, a pocket-sized NPU device (80GB memory, 1TB SSD) that runs up to 120B-parameter models locally — including GPT-OSS-120B at ~18 tok/s. Offers OpenAI-compatible API, SDK, VS Code agent integration, and Stable Diffusion support. Built on PowerInfer, an open-source inference engine using activation locality to keep hot neurons active while sleeping cold ones, enabling large models on low-power hardware.",
+      "relevance": "Portable local AI inference without cloud dependency — if this delivers on the Kickstarter promise, it's a compelling private-by-default dev companion for laptops with limited VRAM."
+    },
+    {
+      "id": "Wt4F_IkgpsA",
+      "title": "We Might Be The EXPERIMENT. The Sumerian Texts Said This 4000 YEARS AGO.",
+      "channel": "The Archivist's Journal",
+      "duration": "12:32",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/Wt4F_IkgpsA",
+      "summary": "Connects the Sumerian Atrahasis Epic's account of Anunnaki genetically engineering humans from existing hominids with modern genomic findings: 3,171 Human Accelerated Regions (HARs) — DNA sequences conserved for 300M+ years across vertebrates that rapidly rewrote themselves only in humans, concentrated around brain development genes. Also covers the chromosome 2 fusion anomaly and the 200,000-year gap between anatomically modern humans appearing and the sudden cognitive explosion ~50-70k years ago.",
+      "relevance": "Genuinely interesting synthesis of real genomic research (HARs, published in Nature/Cell) with ancient creation texts — presenter stays honest about what's proven vs speculative, which is rare for this genre."
+    },
+    {
+      "id": "kSD1nP5K1M4",
+      "title": "Once You Understand OM, You Understand Everything about Reality",
+      "channel": "Adhvaitha",
+      "duration": "23:23",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/kSD1nP5K1M4",
+      "summary": "Decodes the syllable OM via the Mandukya Upanishad's 'avastha viveka' framework: maps waking (A), dream (U), and deep sleep (M) states against body, mind, ego, and consciousness to show that only consciousness persists across all three states — therefore it alone is our fundamental nature. The fourth state, turiya, is pure awareness without subject-object duality.",
+      "relevance": "Solid Vedantic primer on consciousness as the irreducible substrate of all experience — connects nicely to simulation/consciousness rabbit holes."
+    },
+    {
+      "id": "DRc430cTkQk",
+      "title": "Man Dies, Discovers Ultimate Truth About Our Soul's Purpose on Earth, Consciousness & Oneness",
+      "channel": "Dorothy Shelton",
+      "duration": "21:14",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/DRc430cTkQk",
+      "summary": "Andy Petro recounts his 1955 drowning NDE in vivid detail: life review in a sphere showing all past lives with full empathy replay, merging into a collective light of oneness, and receiving the core message that Earth life is a temporary 'play' where souls lower their vibrations to experience what pure knowing cannot provide. He kept silent for 30 years until Moody's 'Life After Life' validated his experience.",
+      "relevance": "One of the most articulate NDE accounts I've heard — the 'Earth as simulation/play' framing and consciousness-as-vibration model map surprisingly well onto simulation theory and panpsychism debates."
+    },
+    {
+      "id": "y5vdybjMMrk",
+      "title": "SHAOLIN MASTER (MUST WATCH) Become Unshakeable | Shi Heng Yi 2021",
+      "channel": "MulliganBrothers",
+      "duration": "16:17",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/y5vdybjMMrk",
+      "summary": "Shaolin Master Shi Heng Yi teaches the principle of emotional equanimity: don't pull what you desire closer or push away what you reject, because life oscillates 50/50 (success/failure, health/sickness). The core practice is training yourself to remain in a stable internal state — not suppressing emotion but choosing not to be governed by fluctuations. He distinguishes between attainment (which is always temporary) and identity (which persists), arguing you can be rich without being 'richness,' successful without being 'success.' Striving is fully compatible with inner stability — the key is not relying your being on what you've attained.",
+      "relevance": "Practical philosophy on building an unshakeable internal operating system — directly applicable to the founder rollercoaster and pairs well with simulation/consciousness thinking."
+    }
+  ]
+}
