@@ -1,0 +1,108 @@
+{
+  "date": "2026-07-13",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 28,
+  "summarized": 10,
+  "items": [
+    {
+      "id": "oi91kE_wocs",
+      "title": "The Most Controversial Idea In Physics",
+      "channel": "SciencePetr",
+      "duration": "26:42",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/oi91kE_wocs",
+      "summary": "The video walks through cosmological fine-tuning: roughly 30 dimensionless constants — the strength of the strong force, the neutron-proton mass gap, gravity, the cosmological constant — appear dialed to values where a small shift gives no carbon, no stars, or no galaxies. It notes the vacuum-energy prediction is off from measurement by a factor of 10^120 ('the worst prediction in the history of physics'), and lays out three responses the book it's based on entertains: a deeper theory that just relocates the fine-tuning, a designer, or a multiverse where we're one of the lucky universes. It deliberately offers no resolution, invoking Douglas Adams's puddle that thinks its hole was made to fit it.",
+      "relevance": "The best kind of science video — it refuses a tidy bow and sits in a genuinely open question. If you like being reminded how strange it is that a universe capable of noticing itself exists at all, this is 27 minutes well spent."
+    },
+    {
+      "id": "7EgAa41vCx4",
+      "title": "You Live in a Cosmic Hole... And Nobody Told You",
+      "channel": "Ridddle",
+      "duration": "16:01",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/7EgAa41vCx4",
+      "summary": "The video lays out the 'Hubble tension' — two reliable methods for measuring cosmic expansion disagree (about 67 vs 73 km/s/Mpc), a gap too large to be chance. It presents the KBC void hypothesis: the Milky Way may sit inside a vast local under-density, and being pulled toward its denser edges could distort our local measurements. It's careful to flag this as a contested hypothesis, not settled fact — and ends on the unsettling point that far-future observers, after expansion carries other galaxies beyond view, could take flawless measurements and conclude their lone galaxy is the whole universe, and be completely wrong.",
+      "relevance": "A vivid reminder that where you stand shapes what you can measure. The closing thought — that a civilization could be rigorously, confidently wrong because reality erased the evidence — is the part that stays with you."
+    },
+    {
+      "id": "AjlHjB_XBSs",
+      "title": "how the 4th dimension affects YOU every day",
+      "channel": "vetoo",
+      "duration": "21:50",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/AjlHjB_XBSs",
+      "summary": "Starting from a tesseract, the video builds intuition for higher dimensions by analogy — how a 2D being sees only a slice of a 3D sphere passing through its plane, and how we, likewise, may see only a 3D cross-section of 4D objects. It argues time is best treated as a fourth dimension and presents the 'block universe' reading of relativity: all moments exist as one continuous 4D object, and the present is the cross-section we happen to be experiencing. The closing stretch shifts into the presenter's own reflection that this could mean your whole life 'exists at once' — offered explicitly as a personal take, 'take it with a grain of salt.'",
+      "relevance": "A clean, math-free on-ramp to why physicists talk about spacetime as one object rather than a sequence of nows. The block-universe framing is the kind of idea that quietly reorganizes how you think about time."
+    },
+    {
+      "id": "QyAqZQeR8V8",
+      "title": "The World is a Word",
+      "channel": "Vosa",
+      "duration": "25:38",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/QyAqZQeR8V8",
+      "summary": "A philosophy-of-language essay drawing on Merleau-Ponty and Helen Keller's account of learning the word 'water,' arguing that speech doesn't just translate ready-made thoughts — it's where meaning forms. It observes we have thousands of precise words for the parts of a car but only a handful we actually use for emotions, then traces 'truth' through its roots: the Germanic line (from a word for tree/firmness → trustworthiness) welded to the Greek 'aletheia' (un-concealment, a revealing). Its thesis: our vocabulary quietly bounds what we can perceive, and we need new words to see 'reality' freshly.",
+      "relevance": "If you build with language models, this is a bracing companion piece — a reminder that mapping a word statistically is not the same as understanding what it does to a mind. Beautifully written and worth sitting with."
+    },
+    {
+      "id": "kISw4rBzAoo",
+      "title": "The secret code behind the universe | Stephen Wolfram",
+      "channel": "The Well",
+      "duration": "9:45",
+      "category": "AI / Research",
+      "url": "https://youtu.be/kISw4rBzAoo",
+      "summary": "Wolfram describes his approach of running simple computational systems (cellular automata) rather than reverse-engineering physics from equations, and his current picture of the universe as a network of 'atoms of space' progressively rewritten by simple rules. He uses Rule 30 to show how a trivial rule produces patterns that are, for all practical purposes, random — his concept of 'computational irreducibility': to know what such a system does, you often have to run every step; you can't shortcut it. He frames irreducibility not as a limit but as what makes the passage of time — and life — actually add up to something.",
+      "relevance": "Nine minutes with one of the few people building physics bottom-up from computation. The idea that you can't skip ahead of a computation — you have to live it — lands well beyond physics."
+    },
+    {
+      "id": "GphgJjaKKhw",
+      "title": "Get started with ChatGPT Work",
+      "channel": "OpenAI",
+      "duration": "5:53",
+      "category": "AI / Research",
+      "url": "https://youtu.be/GphgJjaKKhw",
+      "summary": "OpenAI's demo of a new ChatGPT that connects to your tools (calendar, Slack, Drive) and hands off real work rather than just answering. It shows setting up a standing 'chief of staff' morning briefing, generating a branded ad campaign and deck, building and publishing a live metrics dashboard, and — via Codex inside ChatGPT — diagnosing a phone-validation bug (using background 'Computer Use' to drive the actual app) and preparing a PR to fix it. The framing throughout is delegation: give it context, hand off the work, come back when it needs you.",
+      "relevance": "Whatever you think of the polish-vs-reality gap in launch demos, this is the direction of travel worth watching — agents that use your computer and ship changes. Six minutes to see how the big labs are pitching 'AI that does the work.'"
+    },
+    {
+      "id": "5mfwXuS06Ok",
+      "title": "This Skill Makes You Dangerous In The AI Era",
+      "channel": "Sandeep Swadia",
+      "duration": "17:03",
+      "category": "AI / Research",
+      "url": "https://youtu.be/5mfwXuS06Ok",
+      "summary": "The argument: when anything can be faked and a lie looks exactly like the truth, judgment is the only durable edge. It opens with the 2024 Arup case where employees wired $25M after a video call in which every participant was a deepfake, then walks through five distortions — authority (Theranos), slippery marketing language ('up to,' 'starting at'), groupthink (the Asch line experiment), over-reliance on AI (citing an MIT study where ChatGPT users showed low brain engagement and couldn't quote their own essays), and self-deception. Its practical tools: ask 'what needs to be true for this to be real?', add a question mark to shiny claims, seek the one dissenter, and 'be precise / please verify' — cross-checking one AI's output with another.",
+      "relevance": "A clear, example-driven case for critical thinking as the skill that appreciates as everything else gets automated. The deepfake-CFO story alone is worth the click; the five-distortion checklist is genuinely useful."
+    },
+    {
+      "id": "WSIg6CUoCmo",
+      "title": "The Midlife Alchemy— How the Second Half of Life Demands a New Self",
+      "channel": "The Hermetic School",
+      "duration": "37:56",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/WSIg6CUoCmo",
+      "summary": "A dense reading of Jung's individuation through the lens of alchemy's three stages — nigredo (the persona burning to ash), albedo (integrating the shadow and the anima/animus), rubedo (the individuated self). Its central claim: the strategies that built your first-half success stop working around 40, and the resulting existential exhaustion isn't pathology but a 'summons' to dismantle the ego-built persona and recover the parts of yourself you sacrificed to fit in. It reframes midlife projection — chasing a younger partner, worshipping an authority figure — as unlived inner material demanding to be claimed, and vocation (a call from the self) as distinct from career (a climb for the ego).",
+      "relevance": "Not light listening, but a serious map of why 'I checked all the boxes and still feel hollow' is so common — and why Jung read it as the beginning of the real work, not a breakdown. Worth it if the second-half-of-life question is live for you."
+    },
+    {
+      "id": "ZpF6IE0rdxA",
+      "title": "Antigravity A1: A New Take on Drones!",
+      "channel": "Marques Brownlee",
+      "duration": "10:09",
+      "category": "Building / Dev",
+      "url": "https://youtu.be/ZpF6IE0rdxA",
+      "summary": "A sponsored hands-on (MKBHD is upfront about that) with the Antigravity A1, a 249g drone built around a 360 camera (the same Insta360 X5 sensors) instead of a gimbal — so it records everything at once and you frame the shot afterward, with the drone stitched invisibly out of the footage. Paired with FPV goggles that let you turn your head to look around freely mid-flight and an outward-facing screen so bystanders can see what you see. He flags honest limitations: a faint stitch line on the horizon, no top strap on the goggles, and the not-a-review framing.",
+      "relevance": "The interesting part isn't the drone, it's the shift — capture-everything-then-frame-later, plus head-tracked immersive flight. If you care about where spatial and immersive capture is heading, this hardware is a signpost."
+    },
+    {
+      "id": "YxJIHbHXVrs",
+      "title": "This Robot Changed How I Vlog",
+      "channel": "CaseyNeistat",
+      "duration": "8:33",
+      "category": "Building / Dev",
+      "url": "https://youtu.be/YxJIHbHXVrs",
+      "summary": "Wrapped inside a NYC mini-adventure (riding the 6 train through the abandoned City Hall loop station), Casey lays out his actual philosophy: his favorite thing is making little videos by himself, and his favorite ingredient is spontaneity — hence a whole 'gear room' he never uses in favor of a half-backpack kit. The new addition is an auto-tracking robot camera (the Luna Ultra) that solves the one problem he could never crack solo — getting a stabilized zoom/tracking shot of yourself without a second operator.",
+      "relevance": "A short, warm masterclass in minimal-setup, maximum-spontaneity creation from someone who's done it longer than almost anyone. The takeaway for any solo maker: buy less gear, keep the camera on your hip, capture the moment."
+    }
+  ]
+}
