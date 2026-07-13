@@ -1,108 +1,128 @@
 {
   "date": "2026-07-13",
   "source": "youtube-homepage-recommendations",
-  "total_recommended": 28,
-  "summarized": 10,
+  "total_recommended": 80,
+  "summarized": 12,
   "items": [
     {
       "id": "oi91kE_wocs",
       "title": "The Most Controversial Idea In Physics",
       "channel": "SciencePetr",
       "duration": "26:42",
-      "category": "Consciousness / Simulation",
+      "category": "Science / Philosophy",
       "url": "https://youtu.be/oi91kE_wocs",
-      "summary": "The video walks through cosmological fine-tuning: roughly 30 dimensionless constants — the strength of the strong force, the neutron-proton mass gap, gravity, the cosmological constant — appear dialed to values where a small shift gives no carbon, no stars, or no galaxies. It notes the vacuum-energy prediction is off from measurement by a factor of 10^120 ('the worst prediction in the history of physics'), and lays out three responses the book it's based on entertains: a deeper theory that just relocates the fine-tuning, a designer, or a multiverse where we're one of the lucky universes. It deliberately offers no resolution, invoking Douglas Adams's puddle that thinks its hole was made to fit it.",
-      "relevance": "The best kind of science video — it refuses a tidy bow and sits in a genuinely open question. If you like being reminded how strange it is that a universe capable of noticing itself exists at all, this is 27 minutes well spent."
+      "summary": "Deep dive into the fine-tuning problem in physics: how the Hoyle resonance, neutron-proton mass difference, strong force strength, gravity's weakness, and the cosmological constant all appear precisely calibrated for complexity and life. Covers Weinberg's 1987 prediction of a positive cosmological constant and the 10^120 vacuum energy discrepancy — the 'worst prediction in physics.'",
+      "relevance": "If you're drawn to simulation/design arguments, this is the physics backbone — concrete numbers showing how narrow the life-permitting window actually is."
     },
     {
-      "id": "7EgAa41vCx4",
-      "title": "You Live in a Cosmic Hole... And Nobody Told You",
-      "channel": "Ridddle",
-      "duration": "16:01",
-      "category": "Consciousness / Simulation",
-      "url": "https://youtu.be/7EgAa41vCx4",
-      "summary": "The video lays out the 'Hubble tension' — two reliable methods for measuring cosmic expansion disagree (about 67 vs 73 km/s/Mpc), a gap too large to be chance. It presents the KBC void hypothesis: the Milky Way may sit inside a vast local under-density, and being pulled toward its denser edges could distort our local measurements. It's careful to flag this as a contested hypothesis, not settled fact — and ends on the unsettling point that far-future observers, after expansion carries other galaxies beyond view, could take flawless measurements and conclude their lone galaxy is the whole universe, and be completely wrong.",
-      "relevance": "A vivid reminder that where you stand shapes what you can measure. The closing thought — that a civilization could be rigorously, confidently wrong because reality erased the evidence — is the part that stays with you."
+      "id": "A7aJaYt-dNY",
+      "title": "If YOU Plan To Have Kids, You NEED To See This",
+      "channel": "The Diary Of A CEO Clips",
+      "duration": "22:11",
+      "category": "Science / Health",
+      "url": "https://youtu.be/A7aJaYt-dNY",
+      "summary": "Jeremy Grantham presents data showing male sperm counts have dropped from ~100M/mL in 1970 to 35M today, declining at 2.5% per year — projecting the median male hits zero viable sperm by 2045. Primary culprits: endocrine disruptors (phthalates, BPAs, PFAs, microplastics found in 100% of tested human testicular tissue) and pesticides. Harvard/Mass General studies showed a 2x sperm count difference between men eating clean vs. dirty-dozen produce; EU has banned 1,500 cosmetic chemicals vs. US banning only 12.",
+      "relevance": "Hard data on the fertility crisis with actionable takeaways on food choices and chemical exposure — worth knowing if you're planning a family."
     },
     {
-      "id": "AjlHjB_XBSs",
-      "title": "how the 4th dimension affects YOU every day",
-      "channel": "vetoo",
-      "duration": "21:50",
-      "category": "Consciousness / Simulation",
-      "url": "https://youtu.be/AjlHjB_XBSs",
-      "summary": "Starting from a tesseract, the video builds intuition for higher dimensions by analogy — how a 2D being sees only a slice of a 3D sphere passing through its plane, and how we, likewise, may see only a 3D cross-section of 4D objects. It argues time is best treated as a fourth dimension and presents the 'block universe' reading of relativity: all moments exist as one continuous 4D object, and the present is the cross-section we happen to be experiencing. The closing stretch shifts into the presenter's own reflection that this could mean your whole life 'exists at once' — offered explicitly as a personal take, 'take it with a grain of salt.'",
-      "relevance": "A clean, math-free on-ramp to why physicists talk about spacetime as one object rather than a sequence of nows. The block-universe framing is the kind of idea that quietly reorganizes how you think about time."
+      "id": "f32W5BEzWN0",
+      "title": "The Weird Future Of User Interfaces",
+      "channel": "Enrico Tartarotti",
+      "duration": "15:08",
+      "category": "AI / Product Design",
+      "url": "https://youtu.be/f32W5BEzWN0",
+      "summary": "Analyzes why AI devices (Humane Pin, Rabbit) and chatbot interfaces failed to replace GUIs, while coding tools like Claude Code are organically spreading to non-technical users. Introduces 'generative UI' — where AI dynamically generates custom graphical interfaces on the spot instead of forcing users into either static apps or chat boxes. Argues the future isn't buttons OR chatbots, but AI deciding which interface modality fits the task complexity.",
+      "relevance": "Basically describes my daily workflow with Claude Code + skills + MCPs, and frames why generative UI is the missing middle between dumb buttons and raw chat — worth watching for the product design lens."
     },
     {
       "id": "QyAqZQeR8V8",
       "title": "The World is a Word",
       "channel": "Vosa",
       "duration": "25:38",
-      "category": "Consciousness / Simulation",
+      "category": "Consciousness / Philosophy",
       "url": "https://youtu.be/QyAqZQeR8V8",
-      "summary": "A philosophy-of-language essay drawing on Merleau-Ponty and Helen Keller's account of learning the word 'water,' arguing that speech doesn't just translate ready-made thoughts — it's where meaning forms. It observes we have thousands of precise words for the parts of a car but only a handful we actually use for emotions, then traces 'truth' through its roots: the Germanic line (from a word for tree/firmness → trustworthiness) welded to the Greek 'aletheia' (un-concealment, a revealing). Its thesis: our vocabulary quietly bounds what we can perceive, and we need new words to see 'reality' freshly.",
-      "relevance": "If you build with language models, this is a bracing companion piece — a reminder that mapping a word statistically is not the same as understanding what it does to a mind. Beautifully written and worth sitting with."
+      "summary": "A philosophical exploration of how language constructs our inner world and reality itself. Draws on Merleau-Ponty's phenomenology (speech as meaning-making, not translation), Helen Keller's first encounter with the word 'water,' and the etymology of 'truth' — tracing it from Proto-Indo-European 'deru' (firm/solid/tree) through moral trustworthiness to post-Gutenberg factual correctness. Argues our emotional vocabulary is strikingly impoverished compared to technical language, and that untranslatable words (saudade, Waldeinsamkeit, komorebi) reveal perception gaps between cultures.",
+      "relevance": "Ties together phenomenology, LLMs, and the construction of reality through language — if you think about how words shape consciousness (or how statistical next-token prediction relates to meaning), this one hits."
+    },
+    {
+      "id": "p9wNqqXwWCs",
+      "title": "Do You Think People Ever Truly Die? The Terrifying Reality of Quantum Immortality",
+      "channel": "Sleeping Storian",
+      "duration": "11:26",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/p9wNqqXwWCs",
+      "summary": "Walks through Hugh Everett's many-worlds interpretation and Max Tegmark's quantum suicide thought experiment to build the case for quantum immortality — that subjective experience can only follow branches where you survive. Then flips it dark: immortality without health means eternal decay, and if consciousness resets each night, the 'you' being protected may just be inherited information, not a continuous self.",
+      "relevance": "Hits the consciousness-continuity and simulation-theory nerve — the 'you dissolve every night' reframe alone is worth the 11 minutes."
+    },
+    {
+      "id": "U3uX115I9sY",
+      "title": "Oh no (the new Grok model is good)",
+      "channel": "Theo - t3․gg",
+      "duration": "24:43",
+      "category": "AI / Models",
+      "url": "https://youtu.be/U3uX115I9sY",
+      "summary": "Theo reviews xAI's Grok 4.5, a 1.5T-parameter MoE model trained jointly with Cursor on trillions of tokens of developer interaction data. It benchmarks near Claude Opus 4.8 and GPT-5.5 on DeepSWE/Terminal Bench at a fraction of the cost ($2/$6 per M tokens vs Anthropic's $10/$50). Cursor inadvertently included its own codebase in training data, tainting Cursor Bench scores — xAI disclosed this transparently. The model excels at agentic multi-step engineering tasks and 3D generation, with efficient token usage.",
+      "relevance": "Direct competitor analysis for Claude — worth tracking how Grok 4.5's aggressive pricing and Cursor integration shift the agentic coding landscape."
+    },
+    {
+      "id": "EYfaVLBpVHs",
+      "title": "Interstellar Is Not About Space — It’s About God",
+      "channel": "Forbidden Gnosis",
+      "duration": "15:27",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/EYfaVLBpVHs",
+      "summary": "Reframes Interstellar as a theological film about kenosis (self-emptying sacrifice), not a sci-fi epic. Argues the wormhole represents grace, Mann is an Antichrist figure, and the tesseract is a closed causal loop where love expressed as sacrifice ripples across time — future humans reaching back to ensure their own existence. Cooper's arc is pure surrender: emptying himself of ego and certainty so he becomes a conduit for something larger.",
+      "relevance": "A dense philosophical lens on a film you already love — rewatch fuel if you're into the 'love as a dimension' thread Nolan wove through it."
+    },
+    {
+      "id": "bfxwzdqroe8",
+      "title": "Создатель микропроцессора о сознании. Федерико Фаджин",
+      "channel": "Booster Void",
+      "duration": "1:19:51",
+      "category": "Consciousness / Science",
+      "url": "https://youtu.be/bfxwzdqroe8",
+      "summary": "Federico Faggin, creator of the first commercial microprocessor (Intel 4004), discusses his decades-long exploration of consciousness. He argues consciousness is fundamental and irreducible to computation or matter — a position he arrived at precisely because of his deep understanding of silicon and information processing. Covers his framework where awareness is primary and physics emerges from it.",
+      "relevance": "A legendary chip designer who concluded consciousness can't be computed — his technical authority makes this argument hit differently."
+    },
+    {
+      "id": "0nz0iaNvVpE",
+      "title": "The ONE RULE for LIFE - Immanuel Kant's Moral Philosophy - Mark Manson",
+      "channel": "After Skool",
+      "duration": "21:49",
+      "category": "Philosophy / Ethics",
+      "url": "https://youtu.be/0nz0iaNvVpE",
+      "summary": "Mark Manson explains Kant's categorical imperative — treat every person as an end, never merely as a means — grounding it in the idea that rational consciousness is the universe's only shot at intelligent self-organization. Applies the principle to laziness (treating your own mind as a pleasure receptacle is self-harm), addiction, people-pleasing, and consent, arguing each violates the same universal rule.",
+      "relevance": "Kant's argument that consciousness is what gives the universe purpose connects directly to simulation/consciousness debates — and the practical ethics are genuinely useful for founder decision-making."
+    },
+    {
+      "id": "A48bEv8apho",
+      "title": "The Real Jesus Was a Gnostic and He Exposed Your Creator | Prof Jiang Xueqin",
+      "channel": "Prof Jiang Explains",
+      "duration": "16:29",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/A48bEv8apho",
+      "summary": "Professor argues historical Jesus was a Gnostic who synthesized Platonism, Zoroastrianism, Buddhism, and Cynicism into a three-layered teaching. The secret layer: our reality was created by a flawed demiurge (Yahweh/monster), not the true God (monad), and we contain a divine spark that can liberate us from this false material world. Uses Gospel of Thomas to support the framework.",
+      "relevance": "Ancient simulation theory — the Gnostic demiurge maps surprisingly well onto modern simulation/consciousness debates about whether our reality is a flawed construct."
+    },
+    {
+      "id": "rVd5VH9SY1A",
+      "title": "This Is What Your Existence Looks Like in Higher Dimensions: 0D–8D Explained in Detail...",
+      "channel": "exo-SCIENCE ",
+      "duration": "16:36",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/rVd5VH9SY1A",
+      "summary": "Walks through dimensions 0D–7D, explaining how a human body/identity transforms at each level: from a sizeless point (0D) through flatland (2D), spacetime worldlines (4D), branching quantum timelines (5D), to the space of all possible universes (7D) where identity becomes pure abstract structure. Uses the Flatland analogy to argue higher-dimensional beings could see inside 3D objects and access parallel histories.",
+      "relevance": "Solid visual primer if you want to revisit the dimensionality-of-existence rabbit hole — nothing groundbreaking but a clean 17-min refresher on how physics and philosophy collide at higher-D."
     },
     {
       "id": "kISw4rBzAoo",
       "title": "The secret code behind the universe | Stephen Wolfram",
       "channel": "The Well",
       "duration": "9:45",
-      "category": "AI / Research",
+      "category": "Science / Simulation",
       "url": "https://youtu.be/kISw4rBzAoo",
-      "summary": "Wolfram describes his approach of running simple computational systems (cellular automata) rather than reverse-engineering physics from equations, and his current picture of the universe as a network of 'atoms of space' progressively rewritten by simple rules. He uses Rule 30 to show how a trivial rule produces patterns that are, for all practical purposes, random — his concept of 'computational irreducibility': to know what such a system does, you often have to run every step; you can't shortcut it. He frames irreducibility not as a limit but as what makes the passage of time — and life — actually add up to something.",
-      "relevance": "Nine minutes with one of the few people building physics bottom-up from computation. The idea that you can't skip ahead of a computation — you have to live it — lands well beyond physics."
-    },
-    {
-      "id": "GphgJjaKKhw",
-      "title": "Get started with ChatGPT Work",
-      "channel": "OpenAI",
-      "duration": "5:53",
-      "category": "AI / Research",
-      "url": "https://youtu.be/GphgJjaKKhw",
-      "summary": "OpenAI's demo of a new ChatGPT that connects to your tools (calendar, Slack, Drive) and hands off real work rather than just answering. It shows setting up a standing 'chief of staff' morning briefing, generating a branded ad campaign and deck, building and publishing a live metrics dashboard, and — via Codex inside ChatGPT — diagnosing a phone-validation bug (using background 'Computer Use' to drive the actual app) and preparing a PR to fix it. The framing throughout is delegation: give it context, hand off the work, come back when it needs you.",
-      "relevance": "Whatever you think of the polish-vs-reality gap in launch demos, this is the direction of travel worth watching — agents that use your computer and ship changes. Six minutes to see how the big labs are pitching 'AI that does the work.'"
-    },
-    {
-      "id": "5mfwXuS06Ok",
-      "title": "This Skill Makes You Dangerous In The AI Era",
-      "channel": "Sandeep Swadia",
-      "duration": "17:03",
-      "category": "AI / Research",
-      "url": "https://youtu.be/5mfwXuS06Ok",
-      "summary": "The argument: when anything can be faked and a lie looks exactly like the truth, judgment is the only durable edge. It opens with the 2024 Arup case where employees wired $25M after a video call in which every participant was a deepfake, then walks through five distortions — authority (Theranos), slippery marketing language ('up to,' 'starting at'), groupthink (the Asch line experiment), over-reliance on AI (citing an MIT study where ChatGPT users showed low brain engagement and couldn't quote their own essays), and self-deception. Its practical tools: ask 'what needs to be true for this to be real?', add a question mark to shiny claims, seek the one dissenter, and 'be precise / please verify' — cross-checking one AI's output with another.",
-      "relevance": "A clear, example-driven case for critical thinking as the skill that appreciates as everything else gets automated. The deepfake-CFO story alone is worth the click; the five-distortion checklist is genuinely useful."
-    },
-    {
-      "id": "WSIg6CUoCmo",
-      "title": "The Midlife Alchemy— How the Second Half of Life Demands a New Self",
-      "channel": "The Hermetic School",
-      "duration": "37:56",
-      "category": "Consciousness / Simulation",
-      "url": "https://youtu.be/WSIg6CUoCmo",
-      "summary": "A dense reading of Jung's individuation through the lens of alchemy's three stages — nigredo (the persona burning to ash), albedo (integrating the shadow and the anima/animus), rubedo (the individuated self). Its central claim: the strategies that built your first-half success stop working around 40, and the resulting existential exhaustion isn't pathology but a 'summons' to dismantle the ego-built persona and recover the parts of yourself you sacrificed to fit in. It reframes midlife projection — chasing a younger partner, worshipping an authority figure — as unlived inner material demanding to be claimed, and vocation (a call from the self) as distinct from career (a climb for the ego).",
-      "relevance": "Not light listening, but a serious map of why 'I checked all the boxes and still feel hollow' is so common — and why Jung read it as the beginning of the real work, not a breakdown. Worth it if the second-half-of-life question is live for you."
-    },
-    {
-      "id": "ZpF6IE0rdxA",
-      "title": "Antigravity A1: A New Take on Drones!",
-      "channel": "Marques Brownlee",
-      "duration": "10:09",
-      "category": "Building / Dev",
-      "url": "https://youtu.be/ZpF6IE0rdxA",
-      "summary": "A sponsored hands-on (MKBHD is upfront about that) with the Antigravity A1, a 249g drone built around a 360 camera (the same Insta360 X5 sensors) instead of a gimbal — so it records everything at once and you frame the shot afterward, with the drone stitched invisibly out of the footage. Paired with FPV goggles that let you turn your head to look around freely mid-flight and an outward-facing screen so bystanders can see what you see. He flags honest limitations: a faint stitch line on the horizon, no top strap on the goggles, and the not-a-review framing.",
-      "relevance": "The interesting part isn't the drone, it's the shift — capture-everything-then-frame-later, plus head-tracked immersive flight. If you care about where spatial and immersive capture is heading, this hardware is a signpost."
-    },
-    {
-      "id": "YxJIHbHXVrs",
-      "title": "This Robot Changed How I Vlog",
-      "channel": "CaseyNeistat",
-      "duration": "8:33",
-      "category": "Building / Dev",
-      "url": "https://youtu.be/YxJIHbHXVrs",
-      "summary": "Wrapped inside a NYC mini-adventure (riding the 6 train through the abandoned City Hall loop station), Casey lays out his actual philosophy: his favorite thing is making little videos by himself, and his favorite ingredient is spontaneity — hence a whole 'gear room' he never uses in favor of a half-backpack kit. The new addition is an auto-tracking robot camera (the Luna Ultra) that solves the one problem he could never crack solo — getting a stabilized zoom/tracking shot of yourself without a second operator.",
-      "relevance": "A short, warm masterclass in minimal-setup, maximum-spontaneity creation from someone who's done it longer than almost anyone. The takeaway for any solo maker: buy less gear, keep the camera on your hip, capture the moment."
+      "summary": "Stephen Wolfram explains his ruliology framework: simple computational rules (like cellular automaton Rule 30) produce irreducibly complex behavior, mirroring nature's complexity from snowflakes to mollusk shells. He argues the universe operates as a network of 'atoms of space' being rewritten by simple rules, and that computational irreducibility — our inability to shortcut predictions — is what gives life its richness and guarantees infinite future discoveries.",
+      "relevance": "Wolfram distills his whole paradigm into 10 minutes — computation as the substrate of reality, irreducibility as the source of meaning. Essential if you're into simulation theory."
     }
   ]
 }
