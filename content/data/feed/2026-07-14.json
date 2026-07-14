@@ -1,0 +1,108 @@
+{
+  "date": "2026-07-14",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 28,
+  "summarized": 10,
+  "items": [
+    {
+      "id": "_g4l7YkDQwA",
+      "title": "He Risked Everything To Warn You: No One Is Ready For What's Coming, And The AI Companies Know It!",
+      "channel": "The Diary Of A CEO",
+      "duration": "2:00:50",
+      "category": "AI / Research",
+      "url": "https://youtu.be/_g4l7YkDQwA",
+      "summary": "Daniel Kokotajlo — the ex-OpenAI researcher behind the AI 2027 forecast, who says he forfeited roughly $2M in equity by refusing to sign a non-disparagement clause — argues superintelligence (AI better than the best humans at everything, faster and cheaper) is plausibly arriving by the end of the decade, with his median estimate around 2029. He puts a large probability on things going badly, framing an 'open secret' that the industry may be building a new species, and describes race dynamics where lab CEOs push their own timelines shorter out of fear a rival gets there first. He points to Anthropic's revenue reportedly jumping from ~$1B to ~$60B in a year as evidence of the pace, while insisting the outcome could be 'amazing for everyone' if the alignment problems are solved.",
+      "relevance": "The clearest window I've seen into how a forecaster who left the frontier actually reasons about timelines and stakes — worth two hours if you want the argument, not the headline."
+    },
+    {
+      "id": "zl_Z5TNJB3U",
+      "title": "The unexpected death of Codex",
+      "channel": "Theo - t3.gg",
+      "duration": "26:50",
+      "category": "Building / Dev",
+      "url": "https://youtu.be/zl_Z5TNJB3U",
+      "summary": "Theo dissects OpenAI folding its beloved Codex coding app into the ChatGPT desktop app — so the Codex icon now opens 'ChatGPT', with chat demoted to a popup and code tucked into a toggle. He credits real wins (unified plugins, much better computer-use, faster mobile, the sunsetting of the Atlas browser) but argues OpenAI fumbled the brand: developers used Codex precisely because it wasn't ChatGPT and wasn't Claude Code, and that allegiance is what the merge erodes. He contrasts it with 'Claude Code' cleanly meaning the CLI, and explains why he built his own open-source clone (T3 Code) as a hedge against exactly this kind of change.",
+      "relevance": "A sharp case study in how naming and product surfaces shape developer loyalty — and why an open-source fallback for your daily tools is worth having."
+    },
+    {
+      "id": "EHHd7kv7y3I",
+      "title": "I gave an AI blocks. It built me a castle. (MCP, Skills, Agents)",
+      "channel": "TechLead",
+      "duration": "11:15",
+      "category": "Building / Dev",
+      "url": "https://youtu.be/EHHd7kv7y3I",
+      "summary": "The video demonstrates a tiny voxel renderer (a single HTML file with Three.js exposing 'place block/sphere/cylinder' primitives) wired to an AI agent over MCP, then asks the agent to build castles, the US Capitol, the Golden Gate Bridge, and Godzilla — none of which the code knows how to construct. The argument is a paradigm shift: instead of writing the algorithms yourself, you hand the AI the raw Lego-block primitives and let its own intelligence supply the coordinates and structure. Layered 'skills' (plain-English markdown files) then steer taste and efficiency, e.g. telling it to build one wing and mirror it to cut tool calls.",
+      "relevance": "The most concrete demo I've seen of 'give the model primitives, not logic' — a mental model for building with MCP and skills that clicks in ten minutes."
+    },
+    {
+      "id": "F7lENUAZD_M",
+      "title": "I Wore Apple Vision Pro (M5) For A Week... Here's What Happened!",
+      "channel": "Steven Sullivan",
+      "duration": "22:58",
+      "category": "Apple / Vision Pro",
+      "url": "https://youtu.be/F7lENUAZD_M",
+      "summary": "A week-long hands-on with the M5 Vision Pro covering spatial photos (which the reviewer calls an almost out-of-body way to relive memories), Mac Virtual Display scaled up to a claimed ~18-foot ultrawide, running 25+ windows without much lag, cloud and PCVR gaming, and a mindfulness app he found genuinely calming. The honest cons: eye tracking around 90% accuracy in dim light or lying down, ~2.5 hours of battery, weight, and the attention it draws in public. His verdict: incredible experience but not worth ~$4,000 — he recommends a used M2 unit at roughly half the price as the same experience, since the M5 chip doesn't justify the premium for him.",
+      "relevance": "A grounded, lived-in review that lands on a clear buying take — the M2 secondhand, not the new M5 — if you're weighing the headset."
+    },
+    {
+      "id": "_oRgdlJUD18",
+      "title": "iOS 27 Hands-On: Top 5 New Features!",
+      "channel": "Marques Brownlee",
+      "duration": "15:18",
+      "category": "Apple / Vision Pro",
+      "url": "https://youtu.be/_oRgdlJUD18",
+      "summary": "MKBHD frames iOS 27 as an update of refinement rather than sweeping change: generative photo tools (Extend and a Spatial Reframe that morphs the camera's apparent position), long-overdue fixes like separate alarm volume and AirPods custom EQ, liquid-glass aesthetic tuning, and a rebuilt Siri (built 'with the help of Google') that indexes your on-device data — messages, mail, calendar, photos — to answer personal-history questions, with third-party app access still pending. His number one feature is raw speed: claimed 30% faster app loads and 80% faster AirDrop, most noticeable on older phones back to the iPhone 11.",
+      "relevance": "The fastest read on what actually changes when iOS 27 lands — and the new Siri's on-device indexing is the feature worth watching."
+    },
+    {
+      "id": "-a0ecQMq-rM",
+      "title": "Starship - Critical Path",
+      "channel": "SpaceX",
+      "duration": "34:16",
+      "category": "Building / Dev",
+      "url": "https://youtu.be/-a0ecQMq-rM",
+      "summary": "SpaceX walks through the 'critical path' — the longest chain of gated events that must complete for a launch — behind Starship Flight 12 and the V3 vehicle, showing repeated static-fire aborts, a flame-diverter engineered to flash-boil ~650,000 gallons/minute of water so structures stay 'sub-Sharpie', and a broken 380-lb chain link on the catch tower swapped in ~30 hours by flying a spare from the Cape. Engineers repeatedly invoke paranoia and testing fast over analysis paralysis; a QD-arm abort is traced to unpinning dynamics and fixed with a welded hard-stop before a successful launch and ship landing. The mantra threaded throughout: 'the critical path to Mars is not blowing up rockets,' but 'the most learnings are to go fly.'",
+      "relevance": "An unusually candid look at how a hardware team absorbs failure and moves anyway — the engineering-culture footage is the real payload here."
+    },
+    {
+      "id": "9SQdY5Ra9JI",
+      "title": "Something Strange Happens When You Look For Consciousness!",
+      "channel": "Just One More",
+      "duration": "23:37",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/9SQdY5Ra9JI",
+      "summary": "The video argues the assumption that the brain produces consciousness has never actually been proven, only correlated — invoking Chalmers' 'hard problem,' the fact that most of the brain's energy goes to intrinsic self-directed activity, and cases that strain the production model (a man functioning with ~90% of his brain replaced by fluid, terminal lucidity in late Alzheimer's, gamma surges in dying brains). It recounts Christof Koch conceding his 25-year bet to Chalmers after the adversarial Cogitate collaboration couldn't cleanly separate the two leading theories, then presents William James' filter/receiver model and Tononi's integrated information theory as alternatives that treat consciousness as more fundamental than the brain.",
+      "relevance": "A careful, citation-heavy tour of why consciousness is still genuinely open science — it argues the case rather than asserting the mystery."
+    },
+    {
+      "id": "IqXpzcfdtn4",
+      "title": "Every Level of Consciousness",
+      "channel": "Aperture",
+      "duration": "31:11",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/IqXpzcfdtn4",
+      "summary": "The video maps consciousness as seven layers — deep sleep, dreaming, waking, transcendental, cosmic, God, and unity consciousness — braiding neuroscience (delta waves, the default mode network, hemispheric synchronization in meditators) with philosophy and contemplative traditions (the Mandukya Upanishad, Advaita, Buddhism). A recurring thread is that waking life is itself 'the most persistent dream,' citing Kant, Descartes, and Donald Hoffman's interface theory to argue we perceive a useful rendering, not raw reality. It closes on the non-dual claim that the ladder was always a circle — that awareness may be what we are rather than something the brain produces.",
+      "relevance": "A well-produced synthesis that treats altered states as a structured map rather than vague mysticism — good scaffolding for thinking about mind and reality."
+    },
+    {
+      "id": "c9LBMKdg_tU",
+      "title": "The Matrix isn't about a simulation, it's about Jesus Christ",
+      "channel": "Forbidden Gnosis",
+      "duration": "13:03",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/c9LBMKdg_tU",
+      "summary": "The video reads The Matrix as a deliberate retelling of the gospel encoded in names, numbers, and geography: Thomas Anderson as doubting Thomas plus 'son of man,' Neo as an anagram of 'one,' the pod-emergence as baptism, Zion and the ship Nebuchadnezzar as biblical geography, Cypher as Judas sealing his betrayal over meat ('the flesh'), and Neo's death in room 303 followed by Trinity's love resurrecting him. It cites Laurence Fishburne stating in an interview with Neil deGrasse Tyson that Morpheus represents John the Baptist — the forerunner who points toward the one to come and then steps back.",
+      "relevance": "Even if you don't buy every parallel, it's a sharp lesson in how deeply a story's structure can carry inherited meaning — myth reading done with actual textual evidence."
+    },
+    {
+      "id": "FH9zbX1uzsM",
+      "title": "Why Jesus Focused on Consciousness, Not Religion",
+      "channel": "The Secret Narrative",
+      "duration": "26:01",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/FH9zbX1uzsM",
+      "summary": "The video argues Jesus was pointing at an inner transformation of awareness rather than founding an external system, reading 'the kingdom of God is within you' and 'deny himself' as invitations to see through a constructed identity to the witnessing awareness beneath. It leans on Elaine Pagels and the Gnostic Gospels' emphasis on gnosis (direct knowing), Jung's persona, and Meister Eckhart's 'divine spark,' then parallels the teaching with Buddhism, Advaita, Taoist wu wei, and Eckhart Tolle's presence. The throughline: awakening is remembering what's already there, not acquiring a new belief.",
+      "relevance": "A contemplative-tradition reading that treats scripture as a map of consciousness — it pairs the mystics with the psychologists rather than preaching."
+    }
+  ]
+}
