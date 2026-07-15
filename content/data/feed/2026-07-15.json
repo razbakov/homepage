@@ -1,0 +1,128 @@
+{
+  "date": "2026-07-15",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 80,
+  "summarized": 12,
+  "items": [
+    {
+      "id": "Zd88pxr3BPI",
+      "title": "Why Jung Believed Jesus Was Sent to Undo What the Demiurge Built",
+      "channel": "PsycheCodex",
+      "duration": "26:57",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/Zd88pxr3BPI",
+      "summary": "Explores Jung's reading of Jesus as an 'unbuilder' — a force of subtraction in a universe wired for compulsive addition. The Demiurge (craftsman-god) endlessly constructs layers of law, identity, division, and defense until the original wholeness is buried and mistaken for reality itself. Jung saw the same pattern in the psyche: patients cling to elaborate defensive structures they mistake for who they are, and healing requires careful dismantling, not more building. Jesus's consistent move — collapsing hundreds of commandments to love, erasing clean/unclean walls, asking people to lose the constructed self — is framed as the rarest kind of work: removal that reveals what was always underneath.",
+      "relevance": "Alösha's take: A compelling lens for anyone building systems (or selves) — sometimes the deepest work is knowing what to take away, not what to add."
+    },
+    {
+      "id": "J-HDHwEJ2z8",
+      "title": "Intelligence Without Brains: A Radical New Idea",
+      "channel": "Quanta Magazine",
+      "duration": "8:01",
+      "category": "Consciousness / Science",
+      "url": "https://youtu.be/J-HDHwEJ2z8",
+      "summary": "Michael Levin presents his 'diverse intelligence' framework: intelligence is goal-directed problem-solving, not neurons. He demonstrates cells using bioelectric networks (same mechanisms as brains) to collectively pursue anatomical goals — tadpoles with eyes on their tails can see immediately, no evolution needed. He proposes a 'cognitive light cone' metric mapping all intelligences on a continuum from molecular networks to global-scale human cognition.",
+      "relevance": "Levin's 'cognitive light cone' is one of the most useful mental models for thinking about AI agency levels — and his cell experiments are wilder than most sci-fi."
+    },
+    {
+      "id": "ZU9_EHhNTyQ",
+      "title": "God Is Awareness Itself: The Christian Mystic Who Found God Within..Then Died",
+      "channel": "Lucid Wisdom",
+      "duration": "25:18",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/ZU9_EHhNTyQ",
+      "summary": "Deep dive into Meister Eckhart's 14th-century mystical philosophy: God is not an external object but the ground of awareness itself — 'the eye through which I see God is the same eye through which God sees me.' Covers his distinction between God and Godhead, the uncreated divine spark in every soul, radical detachment (Abgescheidenheit) as subtraction rather than addition, and his redefinition of hell as ego-clinging rather than a place. His heresy trial stemmed from collapsing the need for spiritual intermediaries.",
+      "relevance": "Eckhart's 'God is awareness looking out through your eyes' is the Christian version of non-dual consciousness — and his framework for letting go maps surprisingly well onto building without attachment to outcomes."
+    },
+    {
+      "id": "eiQgljOrkWU",
+      "title": "Codex just got better for developers",
+      "channel": "OpenAI",
+      "duration": "7:13",
+      "category": "AI / Dev Tools",
+      "url": "https://youtu.be/eiQgljOrkWU",
+      "summary": "OpenAI merges Codex into ChatGPT as a dedicated developer workspace. GPT-5.6 Sol powers Ultra mode with extended reasoning and parallel sub-agents. Key new capabilities: browser/computer use for clicking through apps and simulators, inline diff editing, Sites for one-click full-stack deployment (hosting + auth + DB), mobile task management via SSH, and integrated PR review/merge without leaving the app.",
+      "relevance": "Competitive landscape check — see how OpenAI's coding agent compares to Claude Code's worktree isolation and sub-agent dispatch model."
+    },
+    {
+      "id": "CJ4hqH7Re8E",
+      "title": "🧪🧪🧪🧪Как увидеть гиперпространство (4-е измерение)",
+      "channel": "Уже Наступило",
+      "duration": "23:18",
+      "category": "Science / Consciousness",
+      "url": "https://youtu.be/CJ4hqH7Re8E",
+      "summary": "Explores the concept of hyperspace and the 4th spatial dimension — how to visualize and intuit higher-dimensional geometry beyond our 3D perception. Likely covers tesseracts, dimensional analogy (Flatland-style reasoning), and mathematical frameworks for understanding spaces we cannot directly see.",
+      "relevance": "Alösha's take: Consciousness, simulation theory, and the geometry of reality — right up my alley for a 23-min deep dive."
+    },
+    {
+      "id": "2TlIg3VokY8",
+      "title": "The UX Psychology Behind Apps People Can’t Stop Using",
+      "channel": "uxpeak",
+      "duration": "11:34",
+      "category": "Startups / Building",
+      "url": "https://youtu.be/2TlIg3VokY8",
+      "summary": "Breaks down six psychology principles for product design with before/after examples: smart defaults (pre-fill forms, 70-90% of users never change defaults), goal gradient effect (never start users at 0% — artificial head starts double completion rates), reciprocity (give value before asking for signup), IKEA effect (let users build something before account creation so leaving feels like loss), loss aversion (frame upgrades as what users will lose, not gain — Kahneman's 2x pain multiplier), and contrast effect (anchor pricing against larger numbers).",
+      "relevance": "Practical playbook for every signup and onboarding flow across WeDance, MysteryGames, MoneyDo — especially the 'never start at zero' and 'give before you gate' patterns."
+    },
+    {
+      "id": "byc6fF9df-I",
+      "title": "The State of Meditation where Everything Disappears- Nirbija (Seedless) Samadhi",
+      "channel": "Ishtar Howell",
+      "duration": "13:20",
+      "category": "Consciousness / Meditation",
+      "url": "https://youtu.be/byc6fF9df-I",
+      "summary": "Meditation teacher Ishtar Howell describes Nirbija (seedless) Samadhi — the deepest meditative state where body awareness, sense of time, space, and individual selfhood all dissolve. He connects it to his own near-death experience at age 13, arguing these states progressively 'poke holes' in the self-structure that generates existential suffering, functioning as exponentially efficient inner work compared to ordinary practice.",
+      "relevance": "A firsthand phenomenological map of the deepest meditation states — useful if you're curious what lies past the usual mindfulness ceiling."
+    },
+    {
+      "id": "w4Yy_yTnHp4",
+      "title": "ГНОЗИС. Учение о Создателе. Правда, которой боится церковь.",
+      "channel": "ВНАЧАЛЕ",
+      "duration": "14:39",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/w4Yy_yTnHp4",
+      "summary": "Explores Gnostic teachings about the Creator/Demiurge — the ancient tradition that challenged orthodox Christianity by positing a flawed creator god and a hidden divine spark within humans. Covers key Gnostic concepts the institutional church historically suppressed.",
+      "relevance": "Alösha's take: If you're into the deeper layers of theology beyond mainstream doctrine, this is a solid Russian-language intro to Gnosticism."
+    },
+    {
+      "id": "r6pWz2FnFOk",
+      "title": "The World Of Philosophy Is Incredible",
+      "channel": "Xandros",
+      "duration": "20:51",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/r6pWz2FnFOk",
+      "summary": "Introductory map of philosophy's four core branches — metaphysics, epistemology, ethics, and logic — with surprisingly sharp observations: why science can't answer its own 'why' (the trilemma of unjustified axiom, infinite regress, or circular loop), an argument that materialism is itself just a model within consciousness, and a thought experiment about unobservable matter types that challenges binary notions of existence.",
+      "relevance": "Beginner-level framing but the materialism-as-map-not-territory argument and the Münchhausen trilemma walkthrough are worth 20 minutes if you're onboarding someone into philosophy of mind."
+    },
+    {
+      "id": "lqz1Cuk10vo",
+      "title": "The Observer is the Observed (guided explanation)",
+      "channel": "The Mountain",
+      "duration": "9:21",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/lqz1Cuk10vo",
+      "summary": "Distinguishes the 'inner commentator' (narrator/critic/hype voice shaped by conditioning) from the true Observer — pure, mute, universal awareness that watches everything without reacting. Draws on neuroscience (no 'self' found in the brain), the Upanishads (Atman as silent witness), Stoic self-observation (Marcus Aurelius), Buddhism's 'no-mind,' and Alan Watts on feedback loops of self-awareness. Argues the Observer is identical across all beings — only the content (thoughts, emotions) differs.",
+      "relevance": "A clean 9-minute primer on witness-consciousness that ties neuroscience to Vedanta to Watts — useful if you want one video to send someone who asks 'what do you mean the self isn't real?'"
+    },
+    {
+      "id": "AjlHjB_XBSs",
+      "title": "how the 4th dimension affects YOU every day",
+      "channel": "vetoo",
+      "duration": "21:50",
+      "category": "Science / Mathematics",
+      "url": "https://youtu.be/AjlHjB_XBSs",
+      "summary": "Builds intuition for 4D space by dimensional analogy: constructs a tesseract step-by-step (line→square→cube→hypercube), explains why human brains can't visualize it (we lack depth cues for the 4th spatial axis), and demonstrates 3D cross-sections of rotating 4D objects using interactive simulations and games like 4D Miner. Shows how a 2D being would perceive a sphere passing through its plane as a morphing circle — then scales the same logic up one dimension.",
+      "relevance": "Alösha's take: Great primer on why our perception is fundamentally limited by dimensionality — useful lens for thinking about simulation theory and what 'reality' even means."
+    },
+    {
+      "id": "R0BDoAH1cQs",
+      "title": "The DMT Laser Experiment That Made People Question Reality",
+      "channel": "Shawn Ryan Clips",
+      "duration": "19:31",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/R0BDoAH1cQs",
+      "summary": "Researcher Danny Goller describes a laser-wall experiment where subjects on DMT/psychedelics consistently report seeing the same 'code' (Katakana-like symbols) at the same positions — stable, non-hallucination-like, and reproducible across thousands of participants. They built software using Apple Vision Pro + EEG brain scans to map reported symbol locations, aiming for a cross-individual 'Rosetta Stone' of the code. Open-source reporting tool at veilbreak.ai; 5-MeO-DMT produces clearest results with blueprint-like schematics emerging.",
+      "relevance": "Alösha's take: Simulation-theory meets real experimental rigor — reproducible cross-individual perception of hidden structure in reality, and they're using Vision Pro as the research instrument."
+    }
+  ]
+}
