@@ -2,7 +2,7 @@
   "date": "2026-07-17",
   "source": "youtube-homepage-recommendations",
   "total_recommended": 28,
-  "summarized": 12,
+  "summarized": 11,
   "items": [
     {
       "id": "eiQgljOrkWU",
@@ -33,16 +33,6 @@
       "url": "https://youtu.be/YIK5Hb8cB2Q",
       "summary": "Anton Petrov covers what researchers describe as possibly the most complete artificial cell yet — a bottom-up build from a chemically defined kit rather than by stripping an existing cell — reportedly able to eat, grow, replicate and undergo a form of evolution. The video's takeaway is that the core functions of life require no magical spark, only the right balance of chemical components.",
       "relevance": "A quietly radical claim — that 'life' is assembled chemistry, not an essence — and a clean data point for anyone thinking about where the line between matter and mind actually sits."
-    },
-    {
-      "id": "xYu06Zn7JNQ",
-      "title": "We've never seen an atom. But we know what they look like.",
-      "channel": "Be Smart",
-      "duration": "18:28",
-      "category": "AI / Research",
-      "url": "https://youtu.be/xYu06Zn7JNQ",
-      "summary": "The video walks through a paradox: everything is made of atoms, yet atoms are too small for visible light to resolve — light just wraps around them — so we have literally never seen one directly. It traces how we know they exist anyway, from Democritus and Dalton's whole-number ratios to Brownian motion, arguing our confident picture of the atom is inference, not sight.",
-      "relevance": "A good reminder of how much of what we 'know' is modelled rather than seen — the limits of direct observation, told simply."
     },
     {
       "id": "3x6hiS0E_7w",
