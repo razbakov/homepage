@@ -1,0 +1,128 @@
+{
+  "date": "2026-07-17",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 28,
+  "summarized": 12,
+  "items": [
+    {
+      "id": "eiQgljOrkWU",
+      "title": "Codex just got better for developers",
+      "channel": "OpenAI",
+      "duration": "7:13",
+      "category": "Building / Dev",
+      "url": "https://youtu.be/eiQgljOrkWU",
+      "summary": "OpenAI demos a major Codex update: a new frontier model (GPT-5.6 'Sol') with a high-reasoning 'Ultra' mode, and Codex now folded into the ChatGPT app. The demo shows Codex automatically splitting one goal across subagents working in parallel, driving an iPhone simulator via 'appshots' (a screenshot that also carries app context), point-and-click annotation of a running app, inline diff edits, and a one-click 'Sites' deploy.",
+      "relevance": "If you build with coding agents, this is where the frontier is going — one prompt fanning out into a team of subagents that drive your simulator and browser for you."
+    },
+    {
+      "id": "QfCpRTLSOB4",
+      "title": "Kimi K3 Is Fable Level... (they should be worried)",
+      "channel": "Better Stack",
+      "duration": "10:50",
+      "category": "AI / Anthropic / Fable",
+      "url": "https://youtu.be/QfCpRTLSOB4",
+      "summary": "This review argues the open-weights Kimi K3 — a 2.8-trillion-parameter model with a 1M-token context window — has closed most of the gap with frontier closed models, trailing only Fable 5 and GPT-5.6 Sol on third-party coding, agentic and intelligence benchmarks. The catch it names: at roughly $3/$15 per million input/output tokens and heavy hardware needs, it isn't the cheap local model open-source fans hoped for.",
+      "relevance": "The open models are closer to the frontier than most of us assumed — worth knowing if you care whether your stack stays dependent on a handful of closed labs."
+    },
+    {
+      "id": "YIK5Hb8cB2Q",
+      "title": "Scientists Just Built an Artificial Cell That Actually Eats, Grows, and Evolves",
+      "channel": "Anton Petrov",
+      "duration": "15:39",
+      "category": "AI / Research",
+      "url": "https://youtu.be/YIK5Hb8cB2Q",
+      "summary": "Anton Petrov covers what researchers describe as possibly the most complete artificial cell yet — a bottom-up build from a chemically defined kit rather than by stripping an existing cell — reportedly able to eat, grow, replicate and undergo a form of evolution. The video's takeaway is that the core functions of life require no magical spark, only the right balance of chemical components.",
+      "relevance": "A quietly radical claim — that 'life' is assembled chemistry, not an essence — and a clean data point for anyone thinking about where the line between matter and mind actually sits."
+    },
+    {
+      "id": "xYu06Zn7JNQ",
+      "title": "We've never seen an atom. But we know what they look like.",
+      "channel": "Be Smart",
+      "duration": "18:28",
+      "category": "AI / Research",
+      "url": "https://youtu.be/xYu06Zn7JNQ",
+      "summary": "The video walks through a paradox: everything is made of atoms, yet atoms are too small for visible light to resolve — light just wraps around them — so we have literally never seen one directly. It traces how we know they exist anyway, from Democritus and Dalton's whole-number ratios to Brownian motion, arguing our confident picture of the atom is inference, not sight.",
+      "relevance": "A good reminder of how much of what we 'know' is modelled rather than seen — the limits of direct observation, told simply."
+    },
+    {
+      "id": "3x6hiS0E_7w",
+      "title": "The Terrifying Paradox of Self-Awareness",
+      "channel": "Aperture",
+      "duration": "31:38",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/3x6hiS0E_7w",
+      "summary": "Aperture argues that high self-awareness splits you into two — an actor and a critic — the way observing a quantum particle collapses its superposition; the instant you watch yourself, spontaneous experience turns into performance. Using Zhuangzi's butterfly dream and the 'unsent text' that gets rewritten for an hour, it claims the more you examine who you are, the less stable the self you find becomes.",
+      "relevance": "A sharp frame for anyone who overthinks: the act of looking for your 'true self' may be exactly what dissolves it."
+    },
+    {
+      "id": "FoN2duPT1gk",
+      "title": "What If You Are God Pretending to Be Human? — Alan Watts",
+      "channel": "Simply Art - Inspire",
+      "duration": "29:00",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/FoN2duPT1gk",
+      "summary": "In this talk Alan Watts contrasts the Western God-as-maker (world as artifact, a machine built by an engineer) with the Indian image of God-as-actor (world as drama, playing every part at once), noting 'person' comes from persona, the actor's mask. He argues the imageless emptiness behind your own eyes — the 'you' you can't see or control — is continuous with the whole energy expressing itself as the universe.",
+      "relevance": "Watts at his most provocative on identity as performance — a myth worth sitting with even if you don't buy the metaphysics."
+    },
+    {
+      "id": "R0BDoAH1cQs",
+      "title": "The DMT Laser Experiment That Made People Question Reality",
+      "channel": "Shawn Ryan Clips",
+      "duration": "19:31",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/R0BDoAH1cQs",
+      "summary": "A guest (a self-described behavioral expert) recounts a viral experiment: diffuse a laser line on a wall, and people on DMT reportedly see static, unchanging 'code' — like alien script or kanji — that stays fixed as they move their head, and claim they can 'see through' the wall right where the laser lands. He notes the image can be captured and viewed inside an Apple Vision Pro, says multiple people independently report the same patterns, and stresses he has no explanation. This is his firsthand account, not established fact.",
+      "relevance": "Strange, unverified, and honestly told — a good test case for holding a wild claim without either dismissing or believing it."
+    },
+    {
+      "id": "tWDcqt-Xj2w",
+      "title": "The uncomfortable question you should ask on every first date | Alain de Botton",
+      "channel": "Big Think Clips",
+      "duration": "23:34",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/tWDcqt-Xj2w",
+      "summary": "De Botton argues love is a skill, not an emotion, and that 'optimism is the enemy of love' — there is no perfect person, and compatibility is the fruit of a relationship rather than its precondition. His prescription: stop searching for the right person and instead do the psychological work to understand your childhood script, so you stop replaying it onto each new partner.",
+      "relevance": "A bracing reframe of dating — the work isn't finding the right person, it's becoming one."
+    },
+    {
+      "id": "UuegciBylRU",
+      "title": "The Desire Not to Exist & The Void After Spiritual Awakening | Jungian Depth Psychology",
+      "channel": "Fractal Wisdom",
+      "duration": "18:25",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/UuegciBylRU",
+      "summary": "Drawing on Jung, this video names a rarely-discussed phase after awakening: not despair but a heavy stillness in which old roles, ambitions and identities lose their charge and the self feels 'post-survival.' It frames the desire 'not to exist' as ego death outpacing the psyche's ability to rebuild meaning — a threshold vacuum between who you were and who you're becoming, not a pathology.",
+      "relevance": "Names something many feel but can't articulate — the flat, meaning-less interval between an old self and a new one."
+    },
+    {
+      "id": "nNygHnXO3a4",
+      "title": "In 5 minutes, you'll understand meditation better than 99% of people on earth",
+      "channel": "Ben Smith",
+      "duration": "5:24",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/nNygHnXO3a4",
+      "summary": "Ben Smith frames meditation not as relaxation but as unwinding layers of conditioning — using the image of being so absorbed in a video game that the room disappears, then imagining that absorption stretched across many lifetimes as 'being human.' The practice, he says, is simply returning attention (e.g. to the breath) each time the mind grabs the wheel, until you recognize what you were beneath the conditioning.",
+      "relevance": "The clearest five-minute reframe of meditation I've come across — less 'calm down,' more 'loosen the identity.'"
+    },
+    {
+      "id": "a9W5atyoYT0",
+      "title": "Astrophysicist WARNS: \"You're Not Prepared For This\"",
+      "channel": "The Diary Of A CEO Clips",
+      "duration": "21:23",
+      "category": "AI / Research",
+      "url": "https://youtu.be/a9W5atyoYT0",
+      "summary": "Neil deGrasse Tyson explains why galaxies are densest at the center (that's where the mass starts) and derives black holes from first principles: keep raising a body's escape velocity until it exceeds the speed of light, and light itself can no longer get out — hence 'black.' He notes Einstein's own equations pointed at black holes, but he found them too strange to accept.",
+      "relevance": "Tyson doing what he does best — turning 'what goes up must come down' into a black hole in a few plain steps."
+    },
+    {
+      "id": "DvUoBswzsTo",
+      "title": "Give Me 15 Minutes... I'll Save You 25+ Years Of Feeling Lonely, Depressed & Lost | Dr. Gabor Maté",
+      "channel": "Doug Bopst",
+      "duration": "15:53",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/DvUoBswzsTo",
+      "summary": "Gabor Maté reframes 'the world is against me' as a belief, not a feeling — an echo of a childhood experience of being helpless and alone, surfacing in a present where healing is actually possible. He argues that anyone voicing this despair is already, knowingly or not, asking for help; that humans are wired to heal in connection rather than isolation; and that most physicians get no real training in trauma.",
+      "relevance": "Maté's core move in one clip — separating a present fact from an old belief you've mistaken for one."
+    }
+  ]
+}
