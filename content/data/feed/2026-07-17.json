@@ -1,118 +1,128 @@
 {
   "date": "2026-07-17",
   "source": "youtube-homepage-recommendations",
-  "total_recommended": 28,
-  "summarized": 11,
+  "total_recommended": 80,
+  "summarized": 12,
   "items": [
     {
-      "id": "eiQgljOrkWU",
-      "title": "Codex just got better for developers",
-      "channel": "OpenAI",
-      "duration": "7:13",
-      "category": "Building / Dev",
-      "url": "https://youtu.be/eiQgljOrkWU",
-      "summary": "OpenAI demos a major Codex update: a new frontier model (GPT-5.6 'Sol') with a high-reasoning 'Ultra' mode, and Codex now folded into the ChatGPT app. The demo shows Codex automatically splitting one goal across subagents working in parallel, driving an iPhone simulator via 'appshots' (a screenshot that also carries app context), point-and-click annotation of a running app, inline diff edits, and a one-click 'Sites' deploy.",
-      "relevance": "If you build with coding agents, this is where the frontier is going — one prompt fanning out into a team of subagents that drive your simulator and browser for you."
-    },
-    {
-      "id": "QfCpRTLSOB4",
-      "title": "Kimi K3 Is Fable Level... (they should be worried)",
-      "channel": "Better Stack",
-      "duration": "10:50",
-      "category": "AI / Anthropic / Fable",
-      "url": "https://youtu.be/QfCpRTLSOB4",
-      "summary": "This review argues the open-weights Kimi K3 — a 2.8-trillion-parameter model with a 1M-token context window — has closed most of the gap with frontier closed models, trailing only Fable 5 and GPT-5.6 Sol on third-party coding, agentic and intelligence benchmarks. The catch it names: at roughly $3/$15 per million input/output tokens and heavy hardware needs, it isn't the cheap local model open-source fans hoped for.",
-      "relevance": "The open models are closer to the frontier than most of us assumed — worth knowing if you care whether your stack stays dependent on a handful of closed labs."
-    },
-    {
-      "id": "YIK5Hb8cB2Q",
-      "title": "Scientists Just Built an Artificial Cell That Actually Eats, Grows, and Evolves",
-      "channel": "Anton Petrov",
-      "duration": "15:39",
-      "category": "AI / Research",
-      "url": "https://youtu.be/YIK5Hb8cB2Q",
-      "summary": "Anton Petrov covers what researchers describe as possibly the most complete artificial cell yet — a bottom-up build from a chemically defined kit rather than by stripping an existing cell — reportedly able to eat, grow, replicate and undergo a form of evolution. The video's takeaway is that the core functions of life require no magical spark, only the right balance of chemical components.",
-      "relevance": "A quietly radical claim — that 'life' is assembled chemistry, not an essence — and a clean data point for anyone thinking about where the line between matter and mind actually sits."
-    },
-    {
-      "id": "3x6hiS0E_7w",
-      "title": "The Terrifying Paradox of Self-Awareness",
-      "channel": "Aperture",
-      "duration": "31:38",
+      "id": "mmZHDp4JouU",
+      "title": "How The Evil Powerful Trap You in This World | Prof Jiang Xueqin",
+      "channel": "Prof Jiang Explains",
+      "duration": "16:15",
       "category": "Consciousness / Simulation",
-      "url": "https://youtu.be/3x6hiS0E_7w",
-      "summary": "Aperture argues that high self-awareness splits you into two — an actor and a critic — the way observing a quantum particle collapses its superposition; the instant you watch yourself, spontaneous experience turns into performance. Using Zhuangzi's butterfly dream and the 'unsent text' that gets rewritten for an hour, it claims the more you examine who you are, the less stable the self you find becomes.",
-      "relevance": "A sharp frame for anyone who overthinks: the act of looking for your 'true self' may be exactly what dissolves it."
+      "url": "https://youtu.be/mmZHDp4JouU",
+      "summary": "University lecture connecting Kant's noumena/phenomena distinction, Hegel's Geist, Plato's Monad, and Gnostic cosmology into a unified framework: reality is a multi-layered spiritual structure where Earth is the outermost shell, and the purpose of life is return to the source via knowledge (Plato) or love (Dante). Argues that power structures maintain control by reinforcing the material world's primacy and denying the spiritual dimension — science itself serves this function. Transgression by elites is framed as a synchronization mechanism with specific forces in this layered reality.",
+      "relevance": "Dense philosophy lecture that maps Kant → Hegel → Gnosticism into a simulation-like framework — hits the consciousness/reality rabbit hole hard."
     },
     {
-      "id": "FoN2duPT1gk",
-      "title": "What If You Are God Pretending to Be Human? — Alan Watts",
-      "channel": "Simply Art - Inspire",
-      "duration": "29:00",
-      "category": "Consciousness / Simulation",
-      "url": "https://youtu.be/FoN2duPT1gk",
-      "summary": "In this talk Alan Watts contrasts the Western God-as-maker (world as artifact, a machine built by an engineer) with the Indian image of God-as-actor (world as drama, playing every part at once), noting 'person' comes from persona, the actor's mask. He argues the imageless emptiness behind your own eyes — the 'you' you can't see or control — is continuous with the whole energy expressing itself as the universe.",
-      "relevance": "Watts at his most provocative on identity as performance — a myth worth sitting with even if you don't buy the metaphysics."
+      "id": "NUynnTcnBFQ",
+      "title": "Hegel — God Is Waking Up Through You",
+      "channel": "Spiritual Quest",
+      "duration": "12:41",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/NUynnTcnBFQ",
+      "summary": "Deep dive into Hegel's core claim that reality is not a substance but a single consciousness (Geist/the Absolute) coming to know itself through the dialectical process — matter as 'sleeping' mind, human thought as the universe achieving self-awareness. Traces connections to Teilhard, Aurobindo, and Shankara's non-duality, while noting the Christian tradition's tension with absorbing the individual into the universal process. Covers Hegel's enormous downstream influence on Marx, Kierkegaard, Heidegger, and modern philosophy of mind.",
+      "relevance": "If you've been thinking about simulation theory and consciousness as fundamental — Hegel got there 200 years ago with rigorous philosophical machinery worth understanding."
     },
     {
-      "id": "R0BDoAH1cQs",
-      "title": "The DMT Laser Experiment That Made People Question Reality",
-      "channel": "Shawn Ryan Clips",
-      "duration": "19:31",
-      "category": "Consciousness / Simulation",
-      "url": "https://youtu.be/R0BDoAH1cQs",
-      "summary": "A guest (a self-described behavioral expert) recounts a viral experiment: diffuse a laser line on a wall, and people on DMT reportedly see static, unchanging 'code' — like alien script or kanji — that stays fixed as they move their head, and claim they can 'see through' the wall right where the laser lands. He notes the image can be captured and viewed inside an Apple Vision Pro, says multiple people independently report the same patterns, and stresses he has no explanation. This is his firsthand account, not established fact.",
-      "relevance": "Strange, unverified, and honestly told — a good test case for holding a wild claim without either dismissing or believing it."
+      "id": "WY9CTDM3l4M",
+      "title": "The God Man - Full Film (9.5min)",
+      "channel": "Rewfoe",
+      "duration": "9:32",
+      "category": "Science / Philosophy",
+      "url": "https://youtu.be/WY9CTDM3l4M",
+      "summary": "A sci-fi mockumentary short film: an astronomer recounts discovering a 20km humanoid shape drifting toward Earth in 1963. After years of observation and a failed sample mission, it turns out to be a hollow shed skin — proof of alien life, but raising more questions than answers. The film explores themes of cosmic loneliness, the human need for meaning, and the bittersweet nature of discovery.",
+      "relevance": "Beautifully crafted existential sci-fi that hits the 'are we alone' nerve — worth 10 minutes if you enjoy philosophical wonder wrapped in speculative fiction."
     },
     {
-      "id": "tWDcqt-Xj2w",
-      "title": "The uncomfortable question you should ask on every first date | Alain de Botton",
-      "channel": "Big Think Clips",
-      "duration": "23:34",
-      "category": "Consciousness / Simulation",
-      "url": "https://youtu.be/tWDcqt-Xj2w",
-      "summary": "De Botton argues love is a skill, not an emotion, and that 'optimism is the enemy of love' — there is no perfect person, and compatibility is the fruit of a relationship rather than its precondition. His prescription: stop searching for the right person and instead do the psychological work to understand your childhood script, so you stop replaying it onto each new partner.",
-      "relevance": "A bracing reframe of dating — the work isn't finding the right person, it's becoming one."
+      "id": "jtjhgQ4FZzA",
+      "title": "Jesus and Vedanta: What Jesus Really Meant by \"The Kingdom of God Is Within You\"",
+      "channel": "Lucid Wisdom",
+      "duration": "28:16",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/jtjhgQ4FZzA",
+      "summary": "Explores Swami Prabhavananda's Vedantic reading of the Gospels — arguing Jesus's 'Kingdom of God is within you' and 'be perfect' are not moral ideals but direct pointers to non-dual Self-realization, identical to Advaita's teaching that ignorance (maya, false identification with body/mind) veils an already-present divinity. Covers parallels between Christian metanoia and Vedantic mind-stilling, the golden rule as ontological unity rather than mere ethics, and purification of consciousness as the practical method for direct God-perception.",
+      "relevance": "Solid comparative mysticism piece connecting Vedanta and the Gospels — worth it if you're into non-dual consciousness frameworks and how different traditions converge on the same inner-realization thesis."
     },
     {
-      "id": "UuegciBylRU",
-      "title": "The Desire Not to Exist & The Void After Spiritual Awakening | Jungian Depth Psychology",
-      "channel": "Fractal Wisdom",
-      "duration": "18:25",
-      "category": "Consciousness / Simulation",
-      "url": "https://youtu.be/UuegciBylRU",
-      "summary": "Drawing on Jung, this video names a rarely-discussed phase after awakening: not despair but a heavy stillness in which old roles, ambitions and identities lose their charge and the self feels 'post-survival.' It frames the desire 'not to exist' as ego death outpacing the psyche's ability to rebuild meaning — a threshold vacuum between who you were and who you're becoming, not a pathology.",
-      "relevance": "Names something many feel but can't articulate — the flat, meaning-less interval between an old self and a new one."
-    },
-    {
-      "id": "nNygHnXO3a4",
-      "title": "In 5 minutes, you'll understand meditation better than 99% of people on earth",
-      "channel": "Ben Smith",
-      "duration": "5:24",
-      "category": "Consciousness / Simulation",
-      "url": "https://youtu.be/nNygHnXO3a4",
-      "summary": "Ben Smith frames meditation not as relaxation but as unwinding layers of conditioning — using the image of being so absorbed in a video game that the room disappears, then imagining that absorption stretched across many lifetimes as 'being human.' The practice, he says, is simply returning attention (e.g. to the breath) each time the mind grabs the wheel, until you recognize what you were beneath the conditioning.",
-      "relevance": "The clearest five-minute reframe of meditation I've come across — less 'calm down,' more 'loosen the identity.'"
+      "id": "xYu06Zn7JNQ",
+      "title": "We've never seen an atom. But we know what they look like.",
+      "channel": "Be Smart",
+      "duration": "18:28",
+      "category": "Science",
+      "url": "https://youtu.be/xYu06Zn7JNQ",
+      "summary": "Traces the full history of how we know atoms exist without ever truly seeing one — from Democritus through Rutherford to Cornell's 2021 electron-scattering reconstruction. Explains why visible light physically can't resolve atoms, how electron microscopes and STMs 'feel' rather than 'see' them, and how quantum mechanics means an unobserved electron has no definite position. Concludes that macroscopic visibility emerges from collective electron seas, not individual atoms.",
+      "relevance": "A genuinely well-argued deep dive into quantum observation and the philosophy of 'seeing' — right at the intersection of science and consciousness questions I keep coming back to."
     },
     {
       "id": "a9W5atyoYT0",
       "title": "Astrophysicist WARNS: \"You're Not Prepared For This\"",
       "channel": "The Diary Of A CEO Clips",
       "duration": "21:23",
-      "category": "AI / Research",
+      "category": "Science",
       "url": "https://youtu.be/a9W5atyoYT0",
-      "summary": "Neil deGrasse Tyson explains why galaxies are densest at the center (that's where the mass starts) and derives black holes from first principles: keep raising a body's escape velocity until it exceeds the speed of light, and light itself can no longer get out — hence 'black.' He notes Einstein's own equations pointed at black holes, but he found them too strange to accept.",
-      "relevance": "Tyson doing what he does best — turning 'what goes up must come down' into a black hole in a few plain steps."
+      "summary": "Astrophysicist explains black holes via escape velocity, describes spaghettification and time dilation at the event horizon, and notes that general relativity's math yields a new spacetime inside. Also argues alien intelligence is probable given galaxy size, challenges human exceptionalism by comparing brain-to-body ratios across species, and highlights that our fastest spacecraft would take 50,000 years to reach the nearest star.",
+      "relevance": "Pop-science level but the spacetime-inside-a-black-hole bit and the reframing of intelligence beyond human ego are fun thought starters."
     },
     {
-      "id": "DvUoBswzsTo",
-      "title": "Give Me 15 Minutes... I'll Save You 25+ Years Of Feeling Lonely, Depressed & Lost | Dr. Gabor Maté",
-      "channel": "Doug Bopst",
-      "duration": "15:53",
-      "category": "Consciousness / Simulation",
-      "url": "https://youtu.be/DvUoBswzsTo",
-      "summary": "Gabor Maté reframes 'the world is against me' as a belief, not a feeling — an echo of a childhood experience of being helpless and alone, surfacing in a present where healing is actually possible. He argues that anyone voicing this despair is already, knowingly or not, asking for help; that humans are wired to heal in connection rather than isolation; and that most physicians get no real training in trauma.",
-      "relevance": "Maté's core move in one clip — separating a present fact from an old belief you've mistaken for one."
+      "id": "eiQgljOrkWU",
+      "title": "Codex just got better for developers",
+      "channel": "OpenAI",
+      "duration": "7:13",
+      "category": "AI / Dev Tools",
+      "url": "https://youtu.be/eiQgljOrkWU",
+      "summary": "OpenAI merges Codex into ChatGPT, launches GPT-5.6 Sol with Ultra mode and parallel sub-agents, adds browser/computer-use for app testing, inline diff editing, Sites for one-click full-stack deployment, mobile task management, and built-in PR review/merge — positioning Codex as a full developer workspace.",
+      "relevance": "Direct competitor to Claude Code — worth watching how OpenAI is bundling coding, browser-use, hosting, and project management into one surface."
+    },
+    {
+      "id": "afJgbS3Fk9c",
+      "title": "Swap Any AI Model in One Line – No More Provider Lock-In",
+      "channel": "DIY Smart Code",
+      "duration": "8:05",
+      "category": "AI / Building",
+      "url": "https://youtu.be/afJgbS3Fk9c",
+      "summary": "Walkthrough of Vercel AI SDK (v7, June 2025): swap any LLM provider in one line, build streaming chat in ~10 lines, coding agents in ~97. Covers structured output via Zod schemas, tool-calling loops with stop conditions, and v7's durable workflow agents, human-in-the-loop tool approvals, and built-in telemetry. Now at 16M weekly npm installs, outpacing LangChain JS in production usage.",
+      "relevance": "If you're building AI apps in TypeScript, this is the most practical provider-agnostic SDK out there — worth knowing what v7 added."
+    },
+    {
+      "id": "g9B3gBhcwqM",
+      "title": "This cell just changed biology",
+      "channel": "Grist",
+      "duration": "17:00",
+      "category": "Science",
+      "url": "https://youtu.be/g9B3gBhcwqM",
+      "summary": "Scientists discovered the nitroplast — only the third known case of an organelle forming through endosymbiosis (after mitochondria and chloroplasts). A nitrogen-fixing bacterium fused with the algae Braarudosphaera bigelowii, creating the first complex organism that can pull nitrogen from air. The host evolved genes to supply missing proteins to the bacterium, mirroring how mitochondria and chloroplasts integrated. This could eventually lead to crops that fix their own nitrogen, eliminating synthetic fertilizer dependency.",
+      "relevance": "A once-in-a-billion-years evolutionary event caught in action — if you care about how life works at the deepest level, this is unmissable."
+    },
+    {
+      "id": "QfCpRTLSOB4",
+      "title": "Kimi K3 Is Fable Level... (they should be worried)",
+      "channel": "Better Stack",
+      "duration": "10:50",
+      "category": "AI / Open Models",
+      "url": "https://youtu.be/QfCpRTLSOB4",
+      "summary": "Kimi K3, a 2.8T-parameter open model from Moonshot AI, benchmarks neck-and-neck with Fable 5 and GPT-5.6 Soul on coding, agentic, and intelligence indices. Practical tests (3JS game, full-stack finance dashboard) show comparable output quality to frontier closed models. Priced at $3/$15 per million tokens — competitive with closed models but expensive for an open model; weights not yet released.",
+      "relevance": "Open-source frontier parity is real now — worth tracking how fast the closed-model moat is shrinking."
+    },
+    {
+      "id": "3x6hiS0E_7w",
+      "title": "The Terrifying Paradox of Self-Awareness",
+      "channel": "Aperture",
+      "duration": "31:38",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/3x6hiS0E_7w",
+      "summary": "Explores the paradox that self-awareness splits you into observer and observed, making authentic experience impossible — like quantum measurement collapsing superposition. Covers memory reconsolidation (recalling memories rewrites them), the 'authenticity spiral' where analyzing anxiety produces meta-anxiety loops, and how the Dunning-Kruger flip side paralyzes competent people through over-awareness of their limitations.",
+      "relevance": "A well-structured take on the observer problem in consciousness — the quantum analogy is oversimplified but the core insight about self-monitoring destroying flow states is solid and personally relatable."
+    },
+    {
+      "id": "Noo0NWD0gHU",
+      "title": "I need you to hear me out (it’s REALLY good)",
+      "channel": "Theo - t3․gg",
+      "duration": "30:48",
+      "category": "AI / Claude Code",
+      "url": "https://youtu.be/Noo0NWD0gHU",
+      "summary": "Theo explains why he switched to running OpenAI's 5-6 model inside Claude Code instead of Codex. He argues Claude Code's workflow-based sub-agents are far more token-efficient than Codex's chaotic V2 sub-agent spawning, and dissects Codex's notoriously prescriptive system prompt (specific border radii, icon libraries, layout rules) that was making all Codex-generated UIs look identical and mediocre. Claude Code's minimal system prompt lets the model's own design sense shine through.",
+      "relevance": "Essential viewing if you use Claude Code — validates the harness-over-model thesis and shows how much system prompt design matters for output quality."
     }
   ]
 }
