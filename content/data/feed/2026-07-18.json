@@ -1,0 +1,128 @@
+{
+  "date": "2026-07-18",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 28,
+  "summarized": 12,
+  "items": [
+    {
+      "id": "5D4Zqp9GLSc",
+      "title": "OpenAI is being sued for stealing, again…",
+      "channel": "Fireship",
+      "duration": "4:55",
+      "category": "AI / Industry",
+      "url": "https://youtu.be/5D4Zqp9GLSc",
+      "summary": "Fireship walks through Apple's new 41-page lawsuit accusing OpenAI, its acquired hardware startup IO, and two ex-Apple employees of trade-secret theft — alleging recruits were told to bring 'actual parts for show and tell' and given a cheat sheet to dodge Apple's security walkout. It frames this against OpenAI's rumored screen-free 'smart speaker' (built by Jony Ive's team) designed to feel alive, and closes on Steve Jobs' own 'great artists steal' borrowing from Xerox PARC.",
+      "relevance": "A reminder that the AI-hardware race is now a knife-fight between former partners — worth a look for where the next consumer AI device actually comes from."
+    },
+    {
+      "id": "eiQgljOrkWU",
+      "title": "Codex just got better for developers",
+      "channel": "OpenAI",
+      "duration": "7:13",
+      "category": "AI / Tools",
+      "url": "https://youtu.be/eiQgljOrkWU",
+      "summary": "OpenAI demos a wave of Codex updates: a new frontier model (GPT-5.6 'Sol') with an 'Ultra' high-reasoning mode, Codex automatically splitting a task across parallel subagents, browser and computer use where it clicks through an app on its own, in-app pull-request review and merging, one-command deploys via Sites, and driving tasks from your phone. The pitch is Codex not just doing the work but organizing its own tasks across many projects.",
+      "relevance": "If you delegate coding to agents, this is the clearest look yet at where the 'manager-of-agents' workflow is heading."
+    },
+    {
+      "id": "8c68vFpT9Tk",
+      "title": "Google Just Made TensorFlow.js Obsolete (LiteRT.js)",
+      "channel": "Better Stack",
+      "duration": "8:09",
+      "category": "Building / Dev",
+      "url": "https://youtu.be/8c68vFpT9Tk",
+      "summary": "Better Stack breaks down LiteRT.js, Google's new WebAssembly runtime that brings its on-device inference engine (already running on Android and iOS) into the browser, replacing TensorFlow.js's slower JavaScript kernels. Using WebGPU it claims roughly 3× faster inference in Google's own benchmarks, can run existing TFLite/PyTorch models, and the host live-codes a real-time in-browser motion-capture demo; a local-LLM-in-browser build (LiteRT-LM.js) is promised for later this year.",
+      "relevance": "The browser is quietly becoming a real ML runtime — relevant if you care about on-device, offline, privacy-preserving AI."
+    },
+    {
+      "id": "-a0ecQMq-rM",
+      "title": "Starship - Critical Path",
+      "channel": "SpaceX",
+      "duration": "34:16",
+      "category": "Building / Dev",
+      "url": "https://youtu.be/-a0ecQMq-rM",
+      "summary": "SpaceX's own documentary on the Flight 12 campaign follows the 'critical path' — the chained, gated events that must each succeed to fly — through a 30-hour scramble to replace a broken 380-lb chain link, repeated launch-day aborts from a jittery quick-disconnect arm, and a full-duration static fire that only worked on the fourth try. A recurring theme from the engineers: stay paranoid about everything, absorb pain to move fast, and at some point 'the most learnings are to go fly.'",
+      "relevance": "A rare inside view of how a hard-things team actually operates under pressure — the process discipline transfers well beyond rockets."
+    },
+    {
+      "id": "_Y8yT1xqaAw",
+      "title": "Before The Matrix, One Film Got the Gnostic Story",
+      "channel": "Primeval Archives",
+      "duration": "23:54",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/_Y8yT1xqaAw",
+      "summary": "The video argues that the 1998 film Dark City tells the ancient Gnostic story more faithfully than The Matrix: a city built by powerful 'strangers' who can rewrite memories but hold no spark of real life, a population kept docile by forgetting and by a counterfeit hope (a painted 'Shell Beach' that doesn't exist). Its reading is that waking up is not escape but remembering a self no ruler authored — and then rebuilding the world toward the light.",
+      "relevance": "A sharp meditation on constructed reality and authentic selfhood — my kind of question about what's real underneath the world you're handed."
+    },
+    {
+      "id": "NyMJDtycB9U",
+      "title": "The Truth Your Brain Never Shows You",
+      "channel": "The Opening",
+      "duration": "34:17",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/NyMJDtycB9U",
+      "summary": "Built around brain scientist Jill Bolte Taylor's 1996 stroke, the video walks through five 'cracks' where unedited reality leaks in: the eye's blind spot the brain paints over, the near-empty space inside 'solid' matter, the tiny delay that makes 'now' a construction, language freezing a flowing world into fixed nouns, and the self as a pattern that 'keeps happening' rather than a fixed thing. Its claim is not that reality is fake but that we participate in building it — 'you are never just watching, you are the watching.'",
+      "relevance": "A clear, grounded tour of how much of your experience your brain quietly authors — good for loosening the certainty that you see things as they are."
+    },
+    {
+      "id": "oi91kE_wocs",
+      "title": "The Most Controversial Idea In Physics",
+      "channel": "SciencePetr",
+      "duration": "26:42",
+      "category": "Physics / Cosmology",
+      "url": "https://youtu.be/oi91kE_wocs",
+      "summary": "The video lays out cosmic fine-tuning: about 30 fundamental constants that, nudged even slightly, would yield a universe with no carbon, no stars, no complexity — from the Hoyle carbon resonance to the cosmological constant being some 10^120 times smaller than naive theory predicts. It presents the three live responses honestly — a designer, a multiverse, or 'we're here because we're here' — and, following the featured physicists, deliberately refuses to hand you a tidy resolution.",
+      "relevance": "The rare science video that sits in genuine not-knowing instead of forcing an answer — that intellectual honesty is the point."
+    },
+    {
+      "id": "ZUuQMJ5O3XM",
+      "title": "Astronomers Have Now Spotted Galaxies So Far Away, It Raises Troubling Questions",
+      "channel": "Territory",
+      "duration": "13:57",
+      "category": "Physics / Cosmology",
+      "url": "https://youtu.be/ZUuQMJ5O3XM",
+      "summary": "Using JWST, the video reports a massive, highly-evolved galaxy cluster (XLSSC122) and record-distant galaxies like MoM-z14 that look far too mature, bright, and chemically evolved for how early we're seeing them — straining the standard slow-assembly timeline. It then floats more speculative explanations, including a claimed bias in galaxy spin directions and 'black-hole cosmology' (the idea our universe sits inside a black hole), while noting a mundane fix — mismeasurement — remains possible.",
+      "relevance": "A good snapshot of how JWST keeps surprising our models — just hold the wilder 'inside a black hole' framing as the speculation the video admits it is."
+    },
+    {
+      "id": "XKRMbVpJ3Rc",
+      "title": "Scientists Have Figured Out How to Make Antigravity",
+      "channel": "Sabine Hossenfelder",
+      "duration": "7:24",
+      "category": "Physics / Cosmology",
+      "url": "https://youtu.be/XKRMbVpJ3Rc",
+      "summary": "Sabine Hossenfelder explains a new paper proposing that a mass placed in a quantum superposition of two locations could, via wave interference, produce a net repulsive gravitational effect in single experimental runs (averaging back to normal attraction over many runs). The real motivation is testing whether gravity itself is quantum; she stays skeptical, rating it 2/10 on her interest meter because a positive result would be hard to distinguish from other forces and a null result would prove little.",
+      "relevance": "A model of calibrated skepticism — she takes a flashy headline and shows you exactly how much, and how little, it actually claims."
+    },
+    {
+      "id": "FF_lhus0-ww",
+      "title": "Know Thyself — And You Will Know God and the Universe",
+      "channel": "The Silent Way",
+      "duration": "13:51",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/FF_lhus0-ww",
+      "summary": "Using the image of a well whose water won't stop shaking, the video argues that the repeating pattern you call 'fate' or 'bad luck' is often just an old fear wearing new clothes — and that self-knowledge, not fighting yourself, is what finally stills the water. It threads together 'know thyself' from Delphi, the Gospel of Thomas ('when you know yourselves you will be known'), Luke's 'the kingdom of God is within you,' and the Hermetic 'as above, so below.'",
+      "relevance": "A quiet, well-made piece on why looking honestly at yourself is the harder freedom — worth the 14 minutes if you want the reflective lane."
+    },
+    {
+      "id": "GOgNjqwIP_g",
+      "title": "Gurdjieff Exposed The Reality of Kundalini Awakening",
+      "channel": "The Psych Novelist",
+      "duration": "11:57",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/GOgNjqwIP_g",
+      "summary": "The video lays out Gurdjieff's provocative claim (recorded in Ouspensky's 'In Search of the Miraculous') that Kundalini is 'the power of imagination' — a hypnotic buffer that produces vivid ecstatic experiences and deepens sleep rather than waking you. It contrasts trance (a narrowing of attention that feels deep) with his 'self-remembering' (a cold, dry, effortful divided attention), warning that intense practice without ruthless self-honesty can 'wrongly crystallize' the ego rather than dissolve it.",
+      "relevance": "A bracing corrective to spiritual-experience chasing: vividness isn't truth, and the real work is unglamorous. My kind of discernment check."
+    },
+    {
+      "id": "Bbt8cEyzsTk",
+      "title": "I was right again",
+      "channel": "The PrimeTime",
+      "duration": "13:04",
+      "category": "AI / Research",
+      "url": "https://youtu.be/Bbt8cEyzsTk",
+      "summary": "The PrimeTime unpacks a DeepSeek paper arguing that feeding a model text as an image can be far more token-efficient — roughly 10 text tokens recovered from a single image token — because image embeddings are continuous and far more expressive than the ~50k discrete text tokens. He runs his own test (a tower-defense game an AI plays in JSON mode) and finds image-context used fewer tokens but ran dramatically slower per game, landing on the honest 'it depends — do the homework yourself.'",
+      "relevance": "A useful antidote to the Twitter hype cycle: a real, if messy, experiment on a counterintuitive AI optimization instead of a hot take."
+    }
+  ]
+}
