@@ -1,128 +1,118 @@
 {
   "date": "2026-07-19",
   "source": "youtube-homepage-recommendations",
-  "total_recommended": 80,
-  "summarized": 0,
+  "total_recommended": 28,
+  "summarized": 11,
   "items": [
     {
-      "id": "pGoGBeb5AcM",
-      "title": "“Stop Trying So Hard. ( The Secret of John 15 Explained Simply)” ",
-      "channel": "",
-      "duration": "",
-      "category": "Uncategorized",
-      "url": "https://youtu.be/pGoGBeb5AcM",
-      "summary": "(summary pending — AI backend unavailable for this run)",
-      "relevance": "Surfaced from your YouTube feed; open it to judge for yourself."
+      "id": "eiQgljOrkWU",
+      "title": "Codex just got better for developers",
+      "channel": "OpenAI",
+      "duration": "7:13",
+      "category": "Building / Dev",
+      "url": "https://youtu.be/eiQgljOrkWU",
+      "summary": "OpenAI's product walkthrough shows Codex merging into ChatGPT, a new GPT-5.6 'Sol' frontier model with an 'Ultra' high-reasoning mode, and Codex automatically splitting one goal across parallel subagents you can supervise. It demos agentic browser/computer use (Codex clicking through an iPhone simulator to capture App Store screenshots), point-and-click edits in an in-app browser, one-command deploys via 'Sites,' and Codex managing its own task queue from Linear bugs. The pitch: delegate whole projects and steer them from desktop or phone.",
+      "relevance": "The clearest look yet at where the 'agent runs a team of subagents while you supervise' workflow is heading — useful if you delegate real coding work to agents."
     },
     {
-      "id": "BkA0bkb6ZO0",
-      "title": "China quietly saved the world last month",
-      "channel": "",
-      "duration": "",
-      "category": "Uncategorized",
-      "url": "https://youtu.be/BkA0bkb6ZO0",
-      "summary": "(summary pending — AI backend unavailable for this run)",
-      "relevance": "Surfaced from your YouTube feed; open it to judge for yourself."
+      "id": "wnfxSxP8pGs",
+      "title": "I need to rant about local models",
+      "channel": "Theo - t3·gg",
+      "duration": "28:11",
+      "category": "AI / Research",
+      "url": "https://youtu.be/wnfxSxP8pGs",
+      "summary": "Theo argues that 'open weight' does not mean 'runs on your laptop' — models like GLM-5.2 are genuinely excellent but weigh 200GB to 1.5TB and need data-center VRAM, while consumer-runnable models can't match frontier quality, parallelism, or vision. His point isn't anti-open-weight: he says the real value of open models is competition in cloud hosting (cheaper, faster inference on markets like OpenRouter), not running them at home. He also notes open models burn far more tokens, which shrinks the apparent price gap versus frontier models.",
+      "relevance": "A grounded reality check if you've been tempted by the 'ditch the big labs and run it all locally' pitch — he walks through why the economics usually don't work."
     },
     {
-      "id": "Rek5SulieW0",
-      "title": "The Mindset and Worldview of a 33rd Degree Freemason",
-      "channel": "",
-      "duration": "",
-      "category": "Uncategorized",
-      "url": "https://youtu.be/Rek5SulieW0",
-      "summary": "(summary pending — AI backend unavailable for this run)",
-      "relevance": "Surfaced from your YouTube feed; open it to judge for yourself."
-    },
-    {
-      "id": "lz3UnsGm8Pk",
-      "title": "Philip Goff's Panpsychism - What If Consciousness Goes All the Way Down to God",
-      "channel": "",
-      "duration": "",
-      "category": "Uncategorized",
-      "url": "https://youtu.be/lz3UnsGm8Pk",
-      "summary": "(summary pending — AI backend unavailable for this run)",
-      "relevance": "Surfaced from your YouTube feed; open it to judge for yourself."
-    },
-    {
-      "id": "DiwQwH3PEvg",
-      "title": "10 Terrifying Reasons Scientists Now Think Consciousness Breaks Physics",
-      "channel": "",
-      "duration": "",
-      "category": "Uncategorized",
-      "url": "https://youtu.be/DiwQwH3PEvg",
-      "summary": "(summary pending — AI backend unavailable for this run)",
-      "relevance": "Surfaced from your YouTube feed; open it to judge for yourself."
-    },
-    {
-      "id": "fFMX57RReS0",
-      "title": "Time Traveler? This 1979 Film Knew About AI",
-      "channel": "",
-      "duration": "",
-      "category": "Uncategorized",
-      "url": "https://youtu.be/fFMX57RReS0",
-      "summary": "(summary pending — AI backend unavailable for this run)",
-      "relevance": "Surfaced from your YouTube feed; open it to judge for yourself."
-    },
-    {
-      "id": "eCojoC8igw0",
-      "title": "They Lied To You About Jesus Christ",
-      "channel": "",
-      "duration": "",
-      "category": "Uncategorized",
-      "url": "https://youtu.be/eCojoC8igw0",
-      "summary": "(summary pending — AI backend unavailable for this run)",
-      "relevance": "Surfaced from your YouTube feed; open it to judge for yourself."
+      "id": "XnRowJiG_d0",
+      "title": "real Julia shares how her clone makes $3M/year",
+      "channel": "Julia McCoy",
+      "duration": "20:35",
+      "category": "AI / Anthropic / Fable",
+      "url": "https://youtu.be/XnRowJiG_d0",
+      "summary": "McCoy describes running a $3M business on roughly three hours a week after a health crash forced her to replace herself with an AI avatar (HeyGen video plus an ElevenLabs voice clone) backed by Claude 'projects,' about 13 skills, and an always-on AI notetaker wired to her calendar and Gmail. She shows a channel where her clone fronts videos she never films — one sponsored clip made $5,300 in a day — while insisting relationships and human judgment stay off-limits to automation. She names Claude and Fable as the tools behind her scripts.",
+      "relevance": "Whatever you make of the 'clone runs my company' framing, it's a concrete picture of how far a solo operator can push AI avatars plus an agent stack right now."
     },
     {
       "id": "_oRgdlJUD18",
       "title": "iOS 27 Hands-On: Top 5 New Features!",
-      "channel": "",
-      "duration": "",
-      "category": "Uncategorized",
+      "channel": "Marques Brownlee",
+      "duration": "15:18",
+      "category": "Apple / Vision Pro",
       "url": "https://youtu.be/_oRgdlJUD18",
-      "summary": "(summary pending — AI backend unavailable for this run)",
-      "relevance": "Surfaced from your YouTube feed; open it to judge for yourself."
+      "summary": "MKBHD calls iOS 27 an 'update of refinement': generative Photos tools (Extend, and a Spatial Reframe that re-angles the virtual camera), long-overdue fixes (separate alarm volume, AirPods EQ, CarPlay scrubbing), and a rebuilt Siri that indexes your messages, mail, calendar and photos to answer personal-context questions, with third-party app access on the way. His No. 1 feature is raw speed — an optimized CPU scheduler that helps older iPhones back to the 11 the most.",
+      "relevance": "The on-device-plus-cloud personal-context Siri is the piece worth watching — Apple finally shipping the 'assistant that knows your life,' privacy trade-offs and all."
     },
     {
-      "id": "iKT4fOVWmeM",
-      "title": "A New Quantum Mind Theory May Finally Explain Consciousness..And It's Not Orch-OR",
-      "channel": "",
-      "duration": "",
-      "category": "Uncategorized",
-      "url": "https://youtu.be/iKT4fOVWmeM",
-      "summary": "(summary pending — AI backend unavailable for this run)",
-      "relevance": "Surfaced from your YouTube feed; open it to judge for yourself."
-    },
-    {
-      "id": "6LP3n9V7H_8",
-      "title": "We Actually Have a Third Eye (And It’s Not Metaphysical)",
-      "channel": "",
-      "duration": "",
-      "category": "Uncategorized",
-      "url": "https://youtu.be/6LP3n9V7H_8",
-      "summary": "(summary pending — AI backend unavailable for this run)",
-      "relevance": "Surfaced from your YouTube feed; open it to judge for yourself."
+      "id": "eziE7O-27cA",
+      "title": "The God Before God",
+      "channel": "Pantheon Mythology",
+      "duration": "20:13",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/eziE7O-27cA",
+      "summary": "The video argues that the Bible's single, first God was assembled from an older Canaanite pantheon: excavations at Ugarit (unearthed in 1928) revealed El, Baal, Asherah and a divine family whose names and titles were later absorbed into Yahweh — noting that 'Elohim' is the plural of El. It reads the prophets' repeated rage against Baal and Asherah, and 8th-century-BC inscriptions pairing 'Yahweh and his Asherah,' as evidence that monotheism was a centuries-long process of absorption and erasure rather than an original given.",
+      "relevance": "A well-sourced tour through the archaeology behind a familiar idea — history handled as evidence, not polemic, whatever you conclude about where it points."
     },
     {
       "id": "wpVsXw4aqEY",
       "title": "Is This the New Theory for God?",
-      "channel": "",
-      "duration": "",
-      "category": "Uncategorized",
+      "channel": "More Alex O'Connor",
+      "duration": "8:37",
+      "category": "Consciousness / Simulation",
       "url": "https://youtu.be/wpVsXw4aqEY",
-      "summary": "(summary pending — AI backend unavailable for this run)",
-      "relevance": "Surfaced from your YouTube feed; open it to judge for yourself."
+      "summary": "In this excerpt, Bernardo Kastrup lays out 'analytic idealism' — the view that all of nature is one field of subjectivity, mind rather than matter — while carefully refusing to anthropomorphize it. Pressed on whether that amounts to God, he concedes it verges on the religious (omniscient, omnipresent, omnipotent by his definitions) but insists it isn't deliberate, planning, or morally judging: 'the universe is God dancing,' a spontaneous unfolding of mental archetypes, not a deity on a throne.",
+      "relevance": "A precise, non-mystical version of the 'consciousness is fundamental' argument — worth hearing straight from its sharpest proponent rather than secondhand."
     },
     {
-      "id": "-XupW2Hbobo",
-      "title": "ГИПЕРкомпьютер Google. ИИ-монстр | ЧТО ЭТО?",
-      "channel": "",
-      "duration": "",
-      "category": "Uncategorized",
-      "url": "https://youtu.be/-XupW2Hbobo",
-      "summary": "(summary pending — AI backend unavailable for this run)",
-      "relevance": "Surfaced from your YouTube feed; open it to judge for yourself."
+      "id": "Bm1uZn_hVAE",
+      "title": "The Final Level Of CONSCIOUSNESS",
+      "channel": "Wisdom Nuggets",
+      "duration": "13:36",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/Bm1uZn_hVAE",
+      "summary": "Drawing on the Mandukya Upanishad's four states, the video maps consciousness from full identification with your thoughts, to self-awareness (you can watch a thought, so you are not it), to stable witness-consciousness, and finally to 'turiya' — a fourth state that isn't a state, where the seeker dissolves. Its central paradox: you cannot reach it by effort because you never left it, and chasing it only strengthens the ego doing the chasing.",
+      "relevance": "A clear, tradition-grounded map of the nondual claim — and an honest account of why 'trying harder' is exactly the wrong move."
+    },
+    {
+      "id": "UmEXe9neIK0",
+      "title": "7 Mind-Bending Proofs the 4th Dimension is Real",
+      "channel": "The Unknown",
+      "duration": "18:03",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/UmEXe9neIK0",
+      "summary": "A countdown through seven ways a fourth dimension shows up, each flagged as proven, speculative, or untestable: tesseracts and Einstein's spacetime (proven, with GPS corrections and LIGO as evidence), higher-dimensional beings and dark-matter-on-a-parallel-sheet (serious maybes), the holographic principle and wormholes (solid math, unproven as reality). It ends on the 'block universe' — the reading of relativity in which past and future already exist as fixed coordinates, and the felt flow of time is just you moving through a finished shape.",
+      "relevance": "Good precisely because it labels its own certainty — where the physics is nailed down versus where it's 'mathematics with the lights off.'"
+    },
+    {
+      "id": "03hwgsfM5hE",
+      "title": "This Psychedelic Is Changing Everything Doctors Know About the Brain",
+      "channel": "TNE with Louisa Nicola",
+      "duration": "33:04",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/03hwgsfM5hE",
+      "summary": "A neuroscience walkthrough of how psilocybin appears to work on depression: it disrupts the rigid, hyperactive default mode network, then drives measurable regrowth of dendritic spines (about a 10% jump within 24 hours in mice, via BDNF/TrkB signaling) — a structural change the video says antidepressants don't make. It cites trials reporting higher remission rates than escitalopram and roughly 80% smoking-cessation at six months, while stressing hard contraindications (psychosis risk, cardiac screening) and that the therapeutic setting, not just the molecule, drives outcomes.",
+      "relevance": "Dense but well-cited — it grounds the psychedelic-therapy story in specific studies and mechanisms rather than headlines (note the several sponsor breaks)."
+    },
+    {
+      "id": "0nz0iaNvVpE",
+      "title": "The ONE RULE for LIFE — Immanuel Kant's Moral Philosophy — Mark Manson",
+      "channel": "After Skool",
+      "duration": "21:49",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/0nz0iaNvVpE",
+      "summary": "Mark Manson unpacks Kant's categorical imperative — that a moral rule must hold universally, and that you should never treat a person (including yourself) merely as a means to an end. He extends it past honesty and consent to laziness, addiction, people-pleasing and self-respect, arguing Kant grounded all morality in protecting rational consciousness, and that self-improvement is a duty because lying to or wasting yourself is as unethical as doing it to others.",
+      "relevance": "A rare essay that turns a 240-year-old ethics into a usable daily test: am I treating this person — or myself — as an end, or just a means?"
+    },
+    {
+      "id": "nNygHnXO3a4",
+      "title": "In 5 minutes, you'll understand meditation better than 99% of People on earth",
+      "channel": "Ben Smith",
+      "duration": "5:24",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/nNygHnXO3a4",
+      "summary": "Smith frames meditation not as relaxation but as a tool to unwind deep conditioning — using the breath to shift from the mind being 'in the driver's seat' to you being there. He likens ordinary human identity to being so absorbed in a videogame character that the room disappears, and describes meditation as a long, sometimes confusing process of loosening that identification until consciousness expands beyond the body.",
+      "relevance": "A short, plain-spoken take that reframes meditation as identity work rather than stress relief — a clean companion to the heavier nondual pieces in today's feed."
     }
   ]
 }
