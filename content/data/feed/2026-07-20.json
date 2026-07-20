@@ -1,0 +1,98 @@
+{
+  "date": "2026-07-20",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 28,
+  "summarized": 9,
+  "items": [
+    {
+      "id": "XwYPRLMLcNs",
+      "title": "Google TabFM: The AI Breakthrough That's About to Replace Traditional ML",
+      "channel": "AI with Surya",
+      "duration": "7:16",
+      "category": "AI / Research",
+      "url": "https://youtu.be/XwYPRLMLcNs",
+      "summary": "The creator, a 22-year ML veteran, argues Google's new TabFM foundation model handles classification and regression on tabular data — churn, fraud, credit risk — in a single forward pass with frozen weights: no training, no GPU spin-up, no tuning, and he claims it beats a heavily-tuned gradient-boosted tree zero-shot. He walks through the mechanism (column attention, row compression, in-context learning — an LLM reading your spreadsheet as the prompt), then closes with the caveat that TabFM only raises the baseline 'floor' while the hard parts remain yours: is your data good, what a wrong prediction costs, when the model is confidently wrong.",
+      "relevance": "If you've ever spent weeks tuning a model just to reach a baseline, this argues that specific job may be about to vanish — without pretending the judgment work goes with it."
+    },
+    {
+      "id": "9SQdY5Ra9JI",
+      "title": "Something Strange Happens When You Look For Consciousness!",
+      "channel": "Just One More",
+      "duration": "23:37",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/9SQdY5Ra9JI",
+      "summary": "The video argues that 'the brain produces consciousness,' though treated as fact, has never actually been demonstrated — 60–80% of the brain's energy goes to intrinsic self-talk we can't explain, and Chalmers' 'hard problem' (why processing feels like anything) hasn't budged in three decades. It walks through cases the production model struggles with — a man living a normal life with roughly 90% of his brain compressed to fluid, terminal lucidity in late-stage Alzheimer's, organized gamma surges in dying brains — and the 2023 Cogitate collaboration that couldn't crown a winning theory, then offers William James' older 'filter' model (the brain as a prism that receives rather than generates mind) as a frame that fits the anomalies.",
+      "relevance": "A careful tour of the one question science has made near-zero progress on in 30 years — worth it for how honestly it sits in the uncertainty instead of selling an answer."
+    },
+    {
+      "id": "m5faQ13A90M",
+      "title": "I hope you already own a Macbook...",
+      "channel": "Theo - t3·gg",
+      "duration": "22:43",
+      "category": "Apple / Vision Pro",
+      "url": "https://youtu.be/m5faQ13A90M",
+      "summary": "Theo breaks down why Apple just hiked Mac prices hard and fast: a global RAM/NAND crisis where memory makers are diverting allocation to Nvidia's AI GPUs, forcing Apple to renegotiate legacy supply deals (he relays a rumor that it accepted a 100% RAM price hike from Samsung rather than lose allocation). He argues Macs still hold value for local AI because unified memory lets a high-RAM MacBook run 60GB+ models like GPT-OSS-120B that won't fit on a 32GB RTX 5090, and covers alternatives (Framework Desktop, Nvidia DGX Spark) plus refurb tactics to get near the old pricing.",
+      "relevance": "The AI compute war has now reached consumer laptop prices — the current state of the market if you're buying a Mac to run models locally."
+    },
+    {
+      "id": "eFUB_jL_XcM",
+      "title": "So This is Peak Foldable",
+      "channel": "Marques Brownlee",
+      "duration": "10:47",
+      "category": "Apple / Vision Pro",
+      "url": "https://youtu.be/eFUB_jL_XcM",
+      "summary": "MKBHD argues the Oppo Find N6 is the first no-compromise foldable — under 9mm and ~230g (matching an iPhone 17 Pro Max), with a flagship chip, high-end cameras, a 6,000mAh battery, IP59 rating, and a 'no-feel crease' produced by laser-scanning each titanium hinge and 3D-printing polymer to fill the micro-gaps. He frames it as the tech maturing right before Apple's rumored late-2026 folding iPhone, and notes this is Apple's classic pattern: sit out the messy early cycles (as it did with VR headsets before Vision Pro, and smart speakers before HomePod), then enter with a refined version.",
+      "relevance": "Foldables just crossed into 'solved' — and the interesting question is what Apple does with a category it deliberately waited out."
+    },
+    {
+      "id": "xYu06Zn7JNQ",
+      "title": "We've never seen an atom. But we know what they look like.",
+      "channel": "Be Smart",
+      "duration": "18:28",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/xYu06Zn7JNQ",
+      "summary": "Joe Hanson lays out a paradox: everything is made of atoms, but atoms are thousands of times smaller than visible light, so no light we can see is able to bounce off one — they're literally unseeable, yet we know them with extraordinary precision. He traces the evidence from Democritus through Brownian motion to electron microscopes and a 2018 long-exposure photo of a single trapped strontium atom, then turns quantum: before measurement an electron has no definite position, so 'what an atom looks like when unwatched' may be an unanswerable question — the visible world being a blurry average emerging from one we can never observe directly.",
+      "relevance": "A vivid case that the solid world you see is a statistical average over something fundamentally hidden — epistemology smuggled in as a physics lesson."
+    },
+    {
+      "id": "u-bk11gSAIo",
+      "title": "World's first quantum video",
+      "channel": "Leios",
+      "duration": "3:28",
+      "category": "Building / Dev",
+      "url": "https://youtu.be/u-bk11gSAIo",
+      "summary": "Leios and his physicist wife rendered what they call the first video made on a quantum computer (IBM Kingston), using just four qubits to draw a bouncing ball — because the machine has so little memory that assigning three integers already exceeds its 156 qubits. He argues the real point isn't the crude output but 'quantum compatibility': a function-based graphics algorithm that runs on ordinary computers today and could migrate to quantum hardware unchanged once it matures.",
+      "relevance": "A grounded, honest look at how primitive quantum computing still is — and why building 'portable' algorithms now is the actual play."
+    },
+    {
+      "id": "AjlHjB_XBSs",
+      "title": "how the 4th dimension affects YOU every day",
+      "channel": "vetoo",
+      "duration": "21:50",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/AjlHjB_XBSs",
+      "summary": "The video builds intuition for 4D space by analogy — stacking a line into a square into a cube into a tesseract, and showing how a 3D being can only ever see shifting cross-sections of a 4D object (just as a 2D character can't see a whole sphere). It then reframes time as the fourth dimension and walks through the block-universe reading of relativity: since a photon experiences no time, all moments may exist at once as a single 4D object, with the present as a 3D cross-section — before drifting into a personal, spiritual coda the creator explicitly flags as speculation and asks viewers to take with a grain of salt.",
+      "relevance": "The clearest intuition-pump I've found for the tesseract and the block universe — just note where the physics ends and the creator's own philosophizing begins."
+    },
+    {
+      "id": "wpVsXw4aqEY",
+      "title": "Is This the New Theory for God?",
+      "channel": "More Alex O'Connor",
+      "duration": "8:37",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/wpVsXw4aqEY",
+      "summary": "In this clip the guest defends 'analytic idealism' — the view that all of reality is one great field of subjectivity, mental in nature — while guarding hard against anthropomorphizing it: the mind of nature doesn't self-reflect or plan the way we do, since our complexity is 4 billion years of evolution on one rock, not a template for the rest of the cosmos. Pressed by Alex O'Connor, he concedes the position verges on the religious — a naturalistic, non-deliberate 'God' that is omniscient and omnipresent by definition yet 'doing what it is doing spontaneously,' which he sums up as 'the universe is God dancing' — while stressing this speculation isn't what the philosophy actually rests on.",
+      "relevance": "A rigorous, non-woo attempt to talk about mind-as-fundamental — watch how carefully he separates the argument from the mysticism it keeps brushing against."
+    },
+    {
+      "id": "1Kxrq832kfM",
+      "title": "What's New in Notebook Navigator 2.1 for Obsidian",
+      "channel": "Johan Sanneblad",
+      "duration": "12:37",
+      "category": "Building / Dev",
+      "url": "https://youtu.be/1Kxrq832kfM",
+      "summary": "The author walks through Notebook Navigator 2.1, a large release for his Obsidian plugin: a muted, more-readable UI, a new calendar widget tied to Daily Notes with per-day feature images, and word-count and custom-property columns (with per-folder overrides and colored properties) built on a rewritten, modular metadata pipeline. He emphasizes a 'file-over-app' philosophy — everything stored locally in your own files — and a deliberately lean design that adds capability without bloating the tool.",
+      "relevance": "If you run a second brain in Obsidian, this release turns the file list into a proper metadata dashboard — practical, not hype."
+    }
+  ]
+}
