@@ -1,98 +1,128 @@
 {
   "date": "2026-07-20",
   "source": "youtube-homepage-recommendations",
-  "total_recommended": 28,
-  "summarized": 9,
+  "total_recommended": 80,
+  "summarized": 12,
   "items": [
-    {
-      "id": "XwYPRLMLcNs",
-      "title": "Google TabFM: The AI Breakthrough That's About to Replace Traditional ML",
-      "channel": "AI with Surya",
-      "duration": "7:16",
-      "category": "AI / Research",
-      "url": "https://youtu.be/XwYPRLMLcNs",
-      "summary": "The creator, a 22-year ML veteran, argues Google's new TabFM foundation model handles classification and regression on tabular data — churn, fraud, credit risk — in a single forward pass with frozen weights: no training, no GPU spin-up, no tuning, and he claims it beats a heavily-tuned gradient-boosted tree zero-shot. He walks through the mechanism (column attention, row compression, in-context learning — an LLM reading your spreadsheet as the prompt), then closes with the caveat that TabFM only raises the baseline 'floor' while the hard parts remain yours: is your data good, what a wrong prediction costs, when the model is confidently wrong.",
-      "relevance": "If you've ever spent weeks tuning a model just to reach a baseline, this argues that specific job may be about to vanish — without pretending the judgment work goes with it."
-    },
-    {
-      "id": "9SQdY5Ra9JI",
-      "title": "Something Strange Happens When You Look For Consciousness!",
-      "channel": "Just One More",
-      "duration": "23:37",
-      "category": "Consciousness / Simulation",
-      "url": "https://youtu.be/9SQdY5Ra9JI",
-      "summary": "The video argues that 'the brain produces consciousness,' though treated as fact, has never actually been demonstrated — 60–80% of the brain's energy goes to intrinsic self-talk we can't explain, and Chalmers' 'hard problem' (why processing feels like anything) hasn't budged in three decades. It walks through cases the production model struggles with — a man living a normal life with roughly 90% of his brain compressed to fluid, terminal lucidity in late-stage Alzheimer's, organized gamma surges in dying brains — and the 2023 Cogitate collaboration that couldn't crown a winning theory, then offers William James' older 'filter' model (the brain as a prism that receives rather than generates mind) as a frame that fits the anomalies.",
-      "relevance": "A careful tour of the one question science has made near-zero progress on in 30 years — worth it for how honestly it sits in the uncertainty instead of selling an answer."
-    },
-    {
-      "id": "m5faQ13A90M",
-      "title": "I hope you already own a Macbook...",
-      "channel": "Theo - t3·gg",
-      "duration": "22:43",
-      "category": "Apple / Vision Pro",
-      "url": "https://youtu.be/m5faQ13A90M",
-      "summary": "Theo breaks down why Apple just hiked Mac prices hard and fast: a global RAM/NAND crisis where memory makers are diverting allocation to Nvidia's AI GPUs, forcing Apple to renegotiate legacy supply deals (he relays a rumor that it accepted a 100% RAM price hike from Samsung rather than lose allocation). He argues Macs still hold value for local AI because unified memory lets a high-RAM MacBook run 60GB+ models like GPT-OSS-120B that won't fit on a 32GB RTX 5090, and covers alternatives (Framework Desktop, Nvidia DGX Spark) plus refurb tactics to get near the old pricing.",
-      "relevance": "The AI compute war has now reached consumer laptop prices — the current state of the market if you're buying a Mac to run models locally."
-    },
-    {
-      "id": "eFUB_jL_XcM",
-      "title": "So This is Peak Foldable",
-      "channel": "Marques Brownlee",
-      "duration": "10:47",
-      "category": "Apple / Vision Pro",
-      "url": "https://youtu.be/eFUB_jL_XcM",
-      "summary": "MKBHD argues the Oppo Find N6 is the first no-compromise foldable — under 9mm and ~230g (matching an iPhone 17 Pro Max), with a flagship chip, high-end cameras, a 6,000mAh battery, IP59 rating, and a 'no-feel crease' produced by laser-scanning each titanium hinge and 3D-printing polymer to fill the micro-gaps. He frames it as the tech maturing right before Apple's rumored late-2026 folding iPhone, and notes this is Apple's classic pattern: sit out the messy early cycles (as it did with VR headsets before Vision Pro, and smart speakers before HomePod), then enter with a refined version.",
-      "relevance": "Foldables just crossed into 'solved' — and the interesting question is what Apple does with a category it deliberately waited out."
-    },
     {
       "id": "xYu06Zn7JNQ",
       "title": "We've never seen an atom. But we know what they look like.",
       "channel": "Be Smart",
       "duration": "18:28",
-      "category": "Consciousness / Simulation",
+      "category": "Science",
       "url": "https://youtu.be/xYu06Zn7JNQ",
-      "summary": "Joe Hanson lays out a paradox: everything is made of atoms, but atoms are thousands of times smaller than visible light, so no light we can see is able to bounce off one — they're literally unseeable, yet we know them with extraordinary precision. He traces the evidence from Democritus through Brownian motion to electron microscopes and a 2018 long-exposure photo of a single trapped strontium atom, then turns quantum: before measurement an electron has no definite position, so 'what an atom looks like when unwatched' may be an unanswerable question — the visible world being a blurry average emerging from one we can never observe directly.",
-      "relevance": "A vivid case that the solid world you see is a statistical average over something fundamentally hidden — epistemology smuggled in as a physics lesson."
+      "summary": "Traces the full history of atomic theory from Democritus to quantum mechanics, explaining why visible light physically cannot resolve individual atoms and walking through every imaging technique we've tried (X-rays, electron microscopes, STM, ion traps, Cornell's 2021 electron ptychography). Culminates in the quantum measurement problem: electrons exist as probability clouds, and observing an atom changes its behavior, so what it 'looks like' unobserved may be unanswerable. Explains how macroscopic visibility emerges from collective electron seas despite individual atoms being invisible.",
+      "relevance": "Solid PBS deep-dive connecting quantum weirdness to the philosophy of observation — right at the intersection of science and 'what is reality' questions."
     },
     {
-      "id": "u-bk11gSAIo",
-      "title": "World's first quantum video",
-      "channel": "Leios",
-      "duration": "3:28",
-      "category": "Building / Dev",
-      "url": "https://youtu.be/u-bk11gSAIo",
-      "summary": "Leios and his physicist wife rendered what they call the first video made on a quantum computer (IBM Kingston), using just four qubits to draw a bouncing ball — because the machine has so little memory that assigning three integers already exceeds its 156 qubits. He argues the real point isn't the crude output but 'quantum compatibility': a function-based graphics algorithm that runs on ordinary computers today and could migrate to quantum hardware unchanged once it matures.",
-      "relevance": "A grounded, honest look at how primitive quantum computing still is — and why building 'portable' algorithms now is the actual play."
-    },
-    {
-      "id": "AjlHjB_XBSs",
-      "title": "how the 4th dimension affects YOU every day",
-      "channel": "vetoo",
-      "duration": "21:50",
-      "category": "Consciousness / Simulation",
-      "url": "https://youtu.be/AjlHjB_XBSs",
-      "summary": "The video builds intuition for 4D space by analogy — stacking a line into a square into a cube into a tesseract, and showing how a 3D being can only ever see shifting cross-sections of a 4D object (just as a 2D character can't see a whole sphere). It then reframes time as the fourth dimension and walks through the block-universe reading of relativity: since a photon experiences no time, all moments may exist at once as a single 4D object, with the present as a 3D cross-section — before drifting into a personal, spiritual coda the creator explicitly flags as speculation and asks viewers to take with a grain of salt.",
-      "relevance": "The clearest intuition-pump I've found for the tesseract and the block universe — just note where the physics ends and the creator's own philosophizing begins."
+      "id": "m5faQ13A90M",
+      "title": "I hope you already own a Macbook...",
+      "channel": "Theo - t3․gg",
+      "duration": "22:43",
+      "category": "Apple / AI Hardware",
+      "url": "https://youtu.be/m5faQ13A90M",
+      "summary": "Theo breaks down Apple's steep RAM-driven price hikes (a maxed M5 MacBook went from ~$7K to ~$10K) and explains why Macs remain uniquely valuable for local AI inference: unified memory lets the GPU access all system RAM, enabling 60GB+ models like GPT-OSS-120B at ~100 tok/s. Compares alternatives (Framework Desktop with AMD Strix, Nvidia DGX Spark) and explains the NAND flash supply crisis caused by Nvidia/GPU demand squeezing consumer RAM and SSD prices.",
+      "relevance": "Practical breakdown of whether Macs still make sense for local model inference after the price hikes — directly relevant if you're running models on your MacBook."
     },
     {
       "id": "wpVsXw4aqEY",
       "title": "Is This the New Theory for God?",
       "channel": "More Alex O'Connor",
       "duration": "8:37",
-      "category": "Consciousness / Simulation",
+      "category": "Consciousness / Philosophy",
       "url": "https://youtu.be/wpVsXw4aqEY",
-      "summary": "In this clip the guest defends 'analytic idealism' — the view that all of reality is one great field of subjectivity, mental in nature — while guarding hard against anthropomorphizing it: the mind of nature doesn't self-reflect or plan the way we do, since our complexity is 4 billion years of evolution on one rock, not a template for the rest of the cosmos. Pressed by Alex O'Connor, he concedes the position verges on the religious — a naturalistic, non-deliberate 'God' that is omniscient and omnipresent by definition yet 'doing what it is doing spontaneously,' which he sums up as 'the universe is God dancing' — while stressing this speculation isn't what the philosophy actually rests on.",
-      "relevance": "A rigorous, non-woo attempt to talk about mind-as-fundamental — watch how carefully he separates the argument from the mysticism it keeps brushing against."
+      "summary": "Bernardo Kastrup explains how analytic idealism — the view that reality is one universal field of subjectivity — naturally leads to something resembling God: omniscient, omnipresent, omnipotent, but non-deliberate and non-judging. He speculates the primordial impetus could be an instinctive drive toward self-knowledge or the unbearability of sheer solitude, while cautioning against anthropomorphizing this 'mind of nature.'",
+      "relevance": "Kastrup finally says the quiet part out loud — idealism converges on pantheism — and the careful disclaimers make this more honest than most God-talk."
     },
     {
-      "id": "1Kxrq832kfM",
-      "title": "What's New in Notebook Navigator 2.1 for Obsidian",
-      "channel": "Johan Sanneblad",
-      "duration": "12:37",
-      "category": "Building / Dev",
-      "url": "https://youtu.be/1Kxrq832kfM",
-      "summary": "The author walks through Notebook Navigator 2.1, a large release for his Obsidian plugin: a muted, more-readable UI, a new calendar widget tied to Daily Notes with per-day feature images, and word-count and custom-property columns (with per-folder overrides and colored properties) built on a rewritten, modular metadata pipeline. He emphasizes a 'file-over-app' philosophy — everything stored locally in your own files — and a deliberately lean design that adds capability without bloating the tool.",
-      "relevance": "If you run a second brain in Obsidian, this release turns the file list into a proper metadata dashboard — practical, not hype."
+      "id": "2AJ6SJWq_uk",
+      "title": "Why Escaping Pain Keeps You Asleep | Ramana Maharshi",
+      "channel": "Eternal Life | Non-Duality",
+      "duration": "4:32",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/2AJ6SJWq_uk",
+      "summary": "Narrated summary of Ramana Maharshi's teaching on pain and self-inquiry: suffering is not a flaw to eliminate but the ego's friction against reality. Instead of numbing or outthinking pain, turn attention inward with 'To whom does this pain arise?' — resistance feeds the ego, while observation without narrative dissolves the false sufferer and reveals unconditioned awareness.",
+      "relevance": "Clean 4-min distillation of Maharshi's self-inquiry method — good refresher if you're into non-duality, though nothing new if you've read 'Be As You Are'."
+    },
+    {
+      "id": "DiwQwH3PEvg",
+      "title": "10 Terrifying Reasons Scientists Now Think Consciousness Breaks Physics",
+      "channel": "Space Buddy",
+      "duration": "18:09",
+      "category": "Consciousness / Physics",
+      "url": "https://youtu.be/DiwQwH3PEvg",
+      "summary": "Pop-science compilation covering 10 open problems where consciousness intersects physics: the measurement problem and observer dependence, Wigner's friend 2019 confirmation (two mutually exclusive valid observations), Libet's readiness-potential gap before conscious decision, anesthesia's unknown mechanism, the binding problem, split-brain dual agency, NDE recall during flatline EEG (van Lommel's Lancet study), IIT's panpsychism implication via phi, and Chalmers' hard problem. Each cites actual papers and researchers.",
+      "relevance": "Solid 18-minute refresher on the biggest unsolved consciousness puzzles — clickbait title aside, the actual citations (Proietti 2019, Tononi's phi, van Lommel in The Lancet) make it a decent primer if you haven't revisited these in a while."
+    },
+    {
+      "id": "CXSvKcLovAk",
+      "title": "The most controversial rewrite in history just shipped...",
+      "channel": "Fireship",
+      "duration": "5:52",
+      "category": "AI / Anthropic",
+      "url": "https://youtu.be/CXSvKcLovAk",
+      "summary": "Bun (acquired by Anthropic) used 64 parallel Claude agents to port 535K lines of Zig to Rust in 11 days for ~$165K equivalent spend, fixing 128 bugs and shrinking binaries 20%. Zig creator Andrew Kelly fired back claiming benchmarks are misleading and Bun's Zig code was always bad. Video breaks down the technical motivations (memory safety, AI-writability) and the adversarial reviewer pattern used to keep agents honest.",
+      "relevance": "Claude agents mass-rewriting a production codebase in 11 days — this is the clearest signal yet of where Anthropic is taking code agents at scale."
+    },
+    {
+      "id": "mWevqXxJxOM",
+      "title": "Первый сигнал от горизонта чёрной дыры | Пушка Космос",
+      "channel": "SciOne",
+      "duration": "25:47",
+      "category": "Science",
+      "url": "https://youtu.be/mWevqXxJxOM",
+      "summary": "Russian science channel SciOne covers what appears to be a breakthrough detection or observation related to black hole event horizons — likely discussing new data from instruments like the Event Horizon Telescope or gravitational wave detectors that provide direct information from near the horizon boundary.",
+      "relevance": "Solid deep-dive on black hole physics from a reliable Russian sci channel — worth it if you're in the mood for astrophysics in Russian."
+    },
+    {
+      "id": "XwYPRLMLcNs",
+      "title": "Google TabFM: The AI Breakthrough That's About to Replace Traditional ML",
+      "channel": "AI with Surya",
+      "duration": "7:16",
+      "category": "AI / Machine Learning",
+      "url": "https://youtu.be/XwYPRLMLcNs",
+      "summary": "Google's TabFM is a foundation model for tabular data that performs zero-shot classification/regression without training, beating tuned XGBoost models. It uses a novel two-way attention mechanism (column attention → row compression → ICL transformer) treating labeled rows as context and unlabeled as queries — essentially in-context learning for spreadsheets. The presenter argues it eliminates the baseline-building phase (feature engineering, model selection, tuning) but not the harder problems of data quality and error-cost analysis.",
+      "relevance": "Interesting architectural twist — transformers reading tables in both dimensions. The 'floor came up, ceiling didn't move' framing is the right nuance for anyone building ML pipelines."
+    },
+    {
+      "id": "6LP3n9V7H_8",
+      "title": "We Actually Have a Third Eye (And It’s Not Metaphysical)",
+      "channel": "Anton Petrov",
+      "duration": "17:18",
+      "category": "Science",
+      "url": "https://youtu.be/6LP3n9V7H_8",
+      "summary": "Anton Petrov breaks down a recent study tracing vertebrate eye evolution back 600 million years to a worm-like ancestor that had both lateral eyes and a central midline eye. After a sedentary filter-feeding phase caused lateral eyes to atrophy, the midline eye later re-split into paired eyes — explaining why vertebrate retinas are 'inverted' compared to octopus eyes. The pineal gland is the remnant of that original third eye, still containing photoreceptive pinealocytes identical to retinal cells.",
+      "relevance": "Genuinely mind-bending evolutionary story — the pineal gland as a literal vestigial eye, not mystical woo, backed by comparative anatomy across 36 animal groups."
+    },
+    {
+      "id": "Wt4F_IkgpsA",
+      "title": "We Might Be The EXPERIMENT. The Sumerian Texts Said This 4000 YEARS AGO.",
+      "channel": "The Archivist's Journal",
+      "duration": "12:32",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/Wt4F_IkgpsA",
+      "summary": "Examines Human Accelerated Regions (HARs) — 3,171 DNA sequences conserved for 300M+ years across vertebrates that rapidly mutated only in humans, primarily in brain-development genes. Draws parallels to the Sumerian Atrahasis Epic's description of Anunnaki engineering humans through trial-and-error hybridization. Also covers chromosome 2 fusion and the unexplained 200,000-year gap between anatomically modern humans and the sudden cognitive revolution ~50-70k years ago.",
+      "relevance": "The HARs research is legit and fascinating — ancient astronaut framing aside, the question of why conserved sequences suddenly rewrote themselves only in our lineage is genuinely hard to dismiss."
+    },
+    {
+      "id": "Cmsx01H-0xY",
+      "title": "Dev Workloads and LLMs… under $1000",
+      "channel": "Alex Ziskind",
+      "duration": "21:08",
+      "category": "AI / Local LLMs",
+      "url": "https://youtu.be/Cmsx01H-0xY",
+      "summary": "Review of GeekCom A9 Max mini PC (AMD Ryzen AI 9 HX370, upgradeable to 128GB RAM) under $1000. Benchmarks developer workloads (NX monorepo builds, .NET compilation, web tooling) against Mac Mini M4/M4 Pro, then tests local LLMs via LM Studio — GPT OSS 20B gets ~13 tok/s with limited GPU offload due to only 4.5GB dedicated VRAM on the integrated Radeon 890M.",
+      "relevance": "Useful if you're considering a budget local-LLM box — the upgradeable RAM is tempting but the GPU bottleneck is real compared to Apple Silicon's unified memory."
+    },
+    {
+      "id": "_C-iaFjYT-c",
+      "title": "Why You Have NO MOTIVATION Left After Spiritual Awakening – Carl Jung Explains",
+      "channel": "Psyrena",
+      "duration": "21:01",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/_C-iaFjYT-c",
+      "summary": "Explores Carl Jung's framework for the post-awakening 'void' — the nigredo phase where ego-driven motivation dissolves before the Self emerges. Covers individuation, enantiodromia (extreme-to-opposite reversal), shadow integration, and why culture pathologizes the liminal stillness between ego collapse and authentic selfhood. Argues demotivation after awakening is chrysalis, not regression.",
+      "relevance": "Solid Jungian deep-dive on the psychology of ego death and individuation — worth it if you're into consciousness and inner transformation, despite the self-help packaging."
     }
   ]
 }
