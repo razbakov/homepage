@@ -1,0 +1,128 @@
+{
+  "date": "2026-07-21",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 80,
+  "summarized": 12,
+  "items": [
+    {
+      "id": "Zd88pxr3BPI",
+      "title": "Why Jung Believed Jesus Was Sent to Undo What the Demiurge Built",
+      "channel": "PsycheCodex",
+      "duration": "26:57",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/Zd88pxr3BPI",
+      "summary": "Explores Jung's reading of Jesus as an 'un-builder' — a force of subtraction in a universe compulsively addicted to construction. Maps the Gnostic Demiurge (a maker who cannot stop making) onto Jung's clinical observation that the psyche buries its original wholeness under layers of defense, identity, and division. Argues Jesus's consistent pattern — collapsing hundreds of laws to love, erasing clean/unclean boundaries, asking people to lose their constructed self — is the rare work of dismantling structures mistaken for reality itself.",
+      "relevance": "Gnostic metaphysics meets Jungian depth psychology — if you're into simulation theory and constructed realities, this reframes the 'who built the sim' question through a surprisingly rigorous therapeutic lens."
+    },
+    {
+      "id": "hy90LdpEUvQ",
+      "title": "South Korea’s AI Bubble Just Popped",
+      "channel": "Andrei Jikh",
+      "duration": "25:10",
+      "category": "AI / Markets",
+      "url": "https://youtu.be/hy90LdpEUvQ",
+      "summary": "South Korea's KOSPI crashed 25% in 3 weeks after Samsung and SK Hynix (AI memory chip makers) collapsed, wiping out 1.2M leveraged retail accounts. The bubble was inflated by $376B (2025) and projected $725B (2026) in US AI infrastructure spending flowing into Korean chip stocks. US margin debt just hit 4.5% of GDP — the highest ever recorded — suggesting similar leverage-driven crash risk domestically.",
+      "relevance": "If you're building on AI, the infrastructure spending numbers ($725B in 2026) and the leverage unwinding around AI chips is a useful reality check on how fragile the current AI boom's financial layer actually is."
+    },
+    {
+      "id": "wVU_XbcDc4s",
+      "title": "What Scientists Found About Audiobooks",
+      "channel": "The Upgrade with Makai Elías Calles",
+      "duration": "15:40",
+      "category": "Science",
+      "url": "https://youtu.be/wVU_XbcDc4s",
+      "summary": "UC Berkeley fMRI study shows reading and listening activate nearly identical brain regions for semantic processing. However, a textbook study found listeners scored 28% lower on quizzes vs readers, while a narrative study (Unbroken) found zero difference — the gap depends on content type: hierarchical/technical material benefits from print's self-pacing and spatial cues, while narrative comprehension is format-agnostic. Meta-analysis of 30 studies shows dual modality (reading + listening simultaneously) offers negligible benefit.",
+      "relevance": "Useful framework for optimizing how you consume dense technical content vs. narrative — attention matters more than medium."
+    },
+    {
+      "id": "wpVsXw4aqEY",
+      "title": "Is This the New Theory for God?",
+      "channel": "More Alex O'Connor",
+      "duration": "8:37",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/wpVsXw4aqEY",
+      "summary": "Bernardo Kastrup discusses with Alex O'Connor how analytic idealism — the view that all reality is mental — naturally leads to something resembling God or pantheism. He speculates the 'impetus' behind reality could be an instinctive drive toward self-knowledge or escape from solitude, while carefully distinguishing this from a deliberate, judging deity: 'the universe is God dancing' — a spontaneous unfolding of mental archetypes, omniscient and omnipresent by definition, but not self-reflective or planning.",
+      "relevance": "Kastrup makes the pantheism-from-idealism link explicit and doesn't flinch — rare intellectual honesty on the God question from a committed naturalist."
+    },
+    {
+      "id": "CYGQujZ2ex0",
+      "title": "The Church Actually Worship Satan, Not Jesus | Prof Jiang Xueqin",
+      "channel": "Prof Jiang Explains",
+      "duration": "12:28",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/CYGQujZ2ex0",
+      "summary": "A lecture unpacking Dostoevsky's Grand Inquisitor parable from The Brothers Karamazov: the church as a Satanic institution that trades authentic Jesusian freedom for imposed order, because most people can't bear the anxiety of thinking for themselves. Argues the soul is eternal and God is patient — people will eventually choose freedom over slavery, but it may take millions of years.",
+      "relevance": "Dostoevsky's Grand Inquisitor is one of the sharpest takes on free will vs. imposed order ever written — this lecture nails why it still hits."
+    },
+    {
+      "id": "xYu06Zn7JNQ",
+      "title": "We've never seen an atom. But we know what they look like.",
+      "channel": "Be Smart",
+      "duration": "18:28",
+      "category": "Science",
+      "url": "https://youtu.be/xYu06Zn7JNQ",
+      "summary": "Traces the full history of how we know atoms exist without ever truly 'seeing' one — from Democritus through Dalton, Rutherford, and electron microscopes to Cornell's 2021 highest-res atom image. Dives into quantum mechanics (double-slit experiment, probability clouds) to argue that atoms don't have a definite position until measured, making 'seeing' one fundamentally impossible. Explains how macroscopic visibility emerges from collective electron interactions across billions of atoms.",
+      "relevance": "A beautifully constructed journey from classical physics to quantum weirdness — hits the sweet spot between philosophy of observation and hard science."
+    },
+    {
+      "id": "mWevqXxJxOM",
+      "title": "Первый сигнал от горизонта чёрной дыры | Пушка Космос",
+      "channel": "SciOne",
+      "duration": "25:47",
+      "category": "Science",
+      "url": "https://youtu.be/mWevqXxJxOM",
+      "summary": "SciOne (русскоязычный научпоп) разбирает первый зафиксированный сигнал от горизонта событий чёрной дыры — что именно удалось обнаружить, какие инструменты и методы использовались, и что это меняет в нашем понимании физики экстремальных объектов.",
+      "relevance": "Если следишь за астрофизикой — это не кликбейт, а SciOne с 25-минутным разбором реального открытия на горизонте чёрной дыры."
+    },
+    {
+      "id": "wnfxSxP8pGs",
+      "title": "I need to rant about local models",
+      "channel": "Theo - t3․gg",
+      "duration": "28:11",
+      "category": "AI / Local Models",
+      "url": "https://youtu.be/wnfxSxP8pGs",
+      "summary": "Theo argues local model hype is fundamentally misleading: flagship open-weight models like GLM-52 (400GB+) can't run on consumer hardware, and what you CAN run locally (quantized Gemma 4, etc.) is far inferior to frontier models like Opus and GPT-5.5. He breaks down the brutal economics — RTX 6000 Pro at $13K for 96GB VRAM, $75K tiny boxes — and highlights the parallelism problem: real agentic workflows fluctuate between 1-40 concurrent inference threads, which local setups simply cannot handle.",
+      "relevance": "A sharp reality check on local vs. cloud inference — essential context if you're ever tempted to self-host instead of just using Claude Code."
+    },
+    {
+      "id": "Wt4F_IkgpsA",
+      "title": "We Might Be The EXPERIMENT. The Sumerian Texts Said This 4000 YEARS AGO.",
+      "channel": "The Archivist's Journal",
+      "duration": "12:32",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/Wt4F_IkgpsA",
+      "summary": "Examines parallels between Sumerian Atrahasis Epic (describing Anunnaki genetically engineering humans through trial-and-error hybridization) and modern genomic discoveries: 3,171 Human Accelerated Regions (HARs) — conserved DNA sequences unchanged for 300M years that rapidly mutated only in humans, concentrated around brain development genes. Also covers chromosome 2 fusion anomaly and the unexplained 200K-year gap between anatomically modern humans and the sudden cognitive revolution ~50-70K years ago.",
+      "relevance": "Real genetics (HARs, chromosome 2 fusion) meeting ancient creation texts — the kind of cross-domain pattern-matching that makes you stare at the ceiling for a while."
+    },
+    {
+      "id": "eziE7O-27cA",
+      "title": "The God Before God",
+      "channel": "Pantheon Mythology",
+      "duration": "20:13",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/eziE7O-27cA",
+      "summary": "Traces the archaeological and textual evidence that the biblical God emerged from a merger of multiple Canaanite deities — El, Yahweh, Baal, and Asherah — using the 1928 Ugarit tablet discovery, desert inscriptions pairing 'Yahweh and his Asherah,' and the plural 'Elohim' in Genesis. Argues monotheism didn't replace polytheism cleanly but absorbed it, and that the problem of evil is a uniquely monotheistic burden.",
+      "relevance": "Fascinating deep dive into how one of humanity's most foundational ideas — a single God — was actually assembled from older parts, with the archaeological receipts to prove it."
+    },
+    {
+      "id": "C4KWsmezXm4",
+      "title": "I Plugged an RTX 5090 Into a Mac... and Didn’t Expect This",
+      "channel": "Alex Ziskind",
+      "duration": "13:31",
+      "category": "Apple / AI Hardware",
+      "url": "https://youtu.be/C4KWsmezXm4",
+      "summary": "TinyCorp wrote an open-source Nvidia GPU driver (TinyGPU) for macOS, enabling Blackwell GPUs (5060 Ti, 5070 Ti, 5090) on Mac over Thunderbolt for the first time since 2019. Benchmarks show Nvidia beats Metal on time-to-first-token (3-4x faster) and token generation (72% faster for 5090 vs Metal), but TinyGrad's inference engine is still ~10x slower than llama.cpp's hand-tuned Metal kernels — the bottleneck is software optimization, not Thunderbolt bandwidth. The real breakthrough is the driver/compiler pipeline itself; kernel performance will follow.",
+      "relevance": "Finally Nvidia compute back on Mac — the driver is the hard part and it's done, now we wait for kernel optimization to catch up to llama.cpp."
+    },
+    {
+      "id": "M51asSwRLxA",
+      "title": "This $12 billion startup finally shipped something...",
+      "channel": "Fireship",
+      "duration": "5:18",
+      "category": "AI / Startups",
+      "url": "https://youtu.be/M51asSwRLxA",
+      "summary": "Mira Murati's $12B startup Thinking Machines shipped Inkling, a 970B-parameter MoE model (41B active) with Apache license, trained on 45T tokens. Key differentiators: adjustable thinking effort for cost control, epistemics training that rewards admitting uncertainty (beats GPT-5.5 and Opus 4.8 on forecasting), and native raw-pixel/audio processing without encoders. Business model: give away a mid-tier open model, monetize fine-tuning via their Tinker platform.",
+      "relevance": "A credible new open-weights player with a smart business angle — the self-fine-tuning demo alone is worth five minutes."
+    }
+  ]
+}
