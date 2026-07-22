@@ -1,0 +1,128 @@
+{
+  "date": "2026-07-22",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 80,
+  "summarized": 12,
+  "items": [
+    {
+      "id": "xmGY276gEFY",
+      "title": "Claude Code's creator has some really good advice",
+      "channel": "Theo - t3․gg",
+      "duration": "19:12",
+      "category": "AI / Anthropic",
+      "url": "https://youtu.be/xmGY276gEFY",
+      "summary": "Theo breaks down a post by Boris (co-creator of Claude Code) arguing that traditional engineering skills — automation, CI/CD, lint rules, environment setup — are now *more* valuable, not less. The thesis: engineers should encode domain knowledge as infrastructure (CLAUDE.md rules, skills, custom lint rules, preview environments) so both human and AI agents benefit. Includes practical examples like building a Cloudflare microservice for agent file uploads and using Playwright for clever end-to-end tests.",
+      "relevance": "Alösha's take: This is the clearest articulation yet of what I'm already living — the CLAUDE.md-as-infrastructure pattern, skills, agent dispatch loops. Boris validates the whole approach."
+    },
+    {
+      "id": "wpVsXw4aqEY",
+      "title": "Is This the New Theory for God?",
+      "channel": "More Alex O'Connor",
+      "duration": "8:37",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/wpVsXw4aqEY",
+      "summary": "Bernardo Kastrup (analytic idealism) discusses with Alex O'Connor why one unified cosmic mind would fragment into individual experiences. He speculates the impetus could be an instinctive drive toward self-knowledge or unbearable solitude — while cautioning this is poetic imagination, not core theory. He then concedes analytic idealism converges with religious/pantheistic frameworks: the universal mind is omniscient, omnipresent, and omnipotent by definition, but non-deliberate, non-judgmental, spontaneously unfolding — 'the universe is God dancing.'",
+      "relevance": "Kastrup at his most honest — conceding the God question instead of dodging it, while drawing a sharp line between spontaneous mental unfolding and throne-sitting deity. Worth the 8 minutes."
+    },
+    {
+      "id": "vz24s_Zt0GI",
+      "title": "The boring exercise that fixes everything",
+      "channel": "Yellow Dude",
+      "duration": "8:08",
+      "category": "Science",
+      "url": "https://youtu.be/vz24s_Zt0GI",
+      "summary": "A 140,000-person Lancet study found grip strength predicts all-cause mortality better than blood pressure — every 5kg drop = 16% higher death risk. Orthopedic surgeon John Kirsch had 90 of 92 surgery-bound shoulder patients recover with dead hangs alone. The video breaks down passive → active → L-sit hang progressions and the spinal decompression / subacromial space mechanics behind why hanging works.",
+      "relevance": "Actionable longevity hack backed by real data — 30 seconds, 3x/week, no equipment excuses."
+    },
+    {
+      "id": "M51asSwRLxA",
+      "title": "This $12 billion startup finally shipped something...",
+      "channel": "Fireship",
+      "duration": "5:18",
+      "category": "AI / Startups",
+      "url": "https://youtu.be/M51asSwRLxA",
+      "summary": "Mira Murati's Thinking Machines (valued at $12B, backed by A16Z) finally shipped Inkling — a 970B-parameter MoE model (41B active) with Apache license, trained on 45T tokens. Not frontier-competitive, but optimized for efficient fine-tuning via their Tinker platform. Notable features: adjustable thinking effort, epistemics training (knows when it doesn't know), raw pixel/audio processing without encoders, and a demo where the model fine-tuned itself.",
+      "relevance": "The 'mid model + fine-tuning platform' play is a legit business model — and the self-modification demo is wild enough to watch for."
+    },
+    {
+      "id": "R0BDoAH1cQs",
+      "title": "The DMT Laser Experiment That Made People Question Reality",
+      "channel": "Shawn Ryan Clips",
+      "duration": "19:31",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/R0BDoAH1cQs",
+      "summary": "Researcher Danny Goller describes the 'DMT laser experiment': shining a low-power laser on a wall while on DMT reveals persistent, location-fixed characters (resembling Katakana/alien script) that multiple observers independently report seeing identically. They're now using Apple Vision Pro plus EEG brain scans to build a 'Rosetta Stone' — logging each symbol's location, the viewer's brain state, and their report — aiming to prove cross-individual consistency and establish that real information exists in the phenomenon. Different substances produce different results (5-MeO shows blueprint-like schematics; ketamine shows nothing).",
+      "relevance": "A serious attempt to apply scientific method and spatial computing to one of the wildest consciousness anomalies out there — the AVP+EEG mapping approach is genuinely clever."
+    },
+    {
+      "id": "CvO0_ECRa-o",
+      "title": "Cada libro PROHIBIDO en la BIBLIA, explicado",
+      "channel": "Lo de Davi",
+      "duration": "15:00",
+      "category": "Faith / Biblical History",
+      "url": "https://youtu.be/CvO0_ECRa-o",
+      "summary": "Walks through the major apocryphal books excluded from the biblical canon — Gospel of Thomas (child Jesus with destructive temper), Book of Jubilees (364-day solar calendar), Gospel of Mary Magdalene (secret teachings, Peter's jealousy), Psalms of Solomon (first 'Son of David' messianic phrase, suppressed by Rome), and Book of Enoch (Watchers, Nephilim, forbidden knowledge). Explains the three criteria councils used for canonization (apostolic authority, doctrinal consistency, widespread use) and why Ethiopia's 81-book Bible preserved what the West discarded.",
+      "relevance": "Alösha's take: Solid survey of the texts the Church left on the cutting-room floor — useful context if you've ever wondered why Enoch is quoted in Jude but isn't in your Bible."
+    },
+    {
+      "id": "BB5edbbrwTM",
+      "title": "AI Just Decoded The Voynich Manuscript — The First Message Shocked Scientists",
+      "channel": "Project Waymark",
+      "duration": "18:14",
+      "category": "AI / Science",
+      "url": "https://youtu.be/BB5edbbrwTM",
+      "summary": "Covers the 2018 University of Alberta NLP study that statistically identified Hebrew as the Voynich Manuscript's likely source language using 400-language pattern matching, produced one translatable sentence via alphagram decoding + Google Translate, then was criticized for relying on modern translation tools for 600-year-old scrambled text. Also examines the failed Bristol 'proto-romance' claim (retracted within days), the Cardan grill hoax theory (undermined by radiocarbon dating to 1404-1438), and information entropy analysis showing the script behaves statistically like a real language.",
+      "relevance": "Solid case study of AI/NLP applied to a genuinely unsolved historical puzzle — the methodological tension between statistical language identification (which held up) and the translation step (which didn't) is a useful lesson in AI capability boundaries."
+    },
+    {
+      "id": "AjlHjB_XBSs",
+      "title": "how the 4th dimension affects YOU every day",
+      "channel": "vetoo",
+      "duration": "21:50",
+      "category": "Science / Consciousness",
+      "url": "https://youtu.be/AjlHjB_XBSs",
+      "summary": "Visual explainer on 4D space using dimensional analogy: builds from 1D→2D→3D→4D, constructs a tesseract step by step, then demonstrates how 3D cross-sections of 4D objects appear to morph and shapeshift (hypersphere passing through 3D space, rotating tesseract cross-sections). Uses 4D games (4D Toys, 4D Mining) to make the concept interactive.",
+      "relevance": "Solid spatial-intuition primer — useful mental model if you're thinking about higher-dimensional representations in Vision Pro or simulation theory."
+    },
+    {
+      "id": "2ZpZhsjoUK4",
+      "title": "China's K3 Model Reveals the Problem With Open Weights",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration": "18:46",
+      "category": "AI / Strategy",
+      "url": "https://youtu.be/2ZpZhsjoUK4",
+      "summary": "Analysis of Moonshot's Kimi K3 open-weights model: requires 64 accelerator cores and costs ~$15/M output tokens, challenging the narrative that Chinese open-source models are cheap and efficient. Argues Anthropic and OpenAI maintain a 6-7 month lead over Chinese labs, with internal frontier models far ahead of what's publicly released. Warns that open-source models crossing frontier capability thresholds creates real cybersecurity threats — recommends multi-layer identity defense and adversarial audits.",
+      "relevance": "Alösha's take: Clear-eyed breakdown of why 'open source will catch up' is wishful thinking — and why Anthropic's moat is wider than benchmarks suggest."
+    },
+    {
+      "id": "BjMpvNXtR3s",
+      "title": "\"Do not be afraid to ask God what He is calling you to...\" Pope Leo XIV's Message to SEEK26",
+      "channel": "EWTN",
+      "duration": "5:18",
+      "category": "Faith / Catholic",
+      "url": "https://youtu.be/BjMpvNXtR3s",
+      "summary": "Pope Leo XIV's address to SEEK26 conferences (Columbus, Denver, Fort Worth). Reflects on John 1 — Jesus's first question 'What do you seek?' — as a framework for discernment: encounter Christ personally, let that encounter drive missionary zeal, and don't fear asking God about vocation (priesthood, religious life, marriage). Closes with Marian entrustment.",
+      "relevance": "First Pope from the Americas speaking on vocation and restlessness — resonates with the faith spoke on the wheel."
+    },
+    {
+      "id": "xYu06Zn7JNQ",
+      "title": "We've never seen an atom. But we know what they look like.",
+      "channel": "Be Smart",
+      "duration": "18:28",
+      "category": "Science",
+      "url": "https://youtu.be/xYu06Zn7JNQ",
+      "summary": "Traces the full history of how we've come to understand atoms — from Democritus through Dalton, Rutherford, and Bohr to quantum mechanics — despite never directly seeing one. Explains why visible light physically cannot resolve atoms, walks through electron microscopes and STM 'feeling' techniques, and lands on the quantum paradox: observing an atom changes its behavior, so its unobserved state may be fundamentally unknowable. Closes with how bulk matter creates a collective electron sea that reflects light, making macro-objects visible from invisible parts.",
+      "relevance": "A beautifully paced deep-dive into why reality's building blocks are permanently hidden from direct observation — the quantum measurement problem told through the history of trying to photograph the unseeable."
+    },
+    {
+      "id": "DpnAZvOPZaI",
+      "title": "MATTHEW 7:23 — WHAT \"I NEVER KNEW YOU\" REALLY MEANS IN GREEK",
+      "channel": "Holy Word Explained",
+      "duration": "17:47",
+      "category": "Faith / Theology",
+      "url": "https://youtu.be/DpnAZvOPZaI",
+      "summary": "Deep linguistic analysis of Matthew 7:23 — argues the Greek 'ginosko' (experiential/covenant knowing) vs 'oida' (factual knowing) reveals Jesus isn't saying 'I lacked information about you' but 'we never had intimate relationship.' Traces ginosko back to Hebrew 'yada' (covenant intimacy, as in Genesis 4, Amos 3:2). The paradox: supernaturally effective ministry ('anomia' = lawlessness) can coexist with zero relational foundation.",
+      "relevance": "God is priority #1 on the wheel — this Greek deep-dive reframes the scariest verse in the Sermon on the Mount around relationship vs performance, which hits close to home for anyone running hard."
+    }
+  ]
+}
