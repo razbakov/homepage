@@ -1,0 +1,108 @@
+{
+  "date": "2026-07-23",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 28,
+  "summarized": 10,
+  "items": [
+    {
+      "id": "xmGY276gEFY",
+      "title": "Claude Code's creator has some really good advice",
+      "channel": "Theo - t3.gg",
+      "duration": "19:12",
+      "category": "AI / Anthropic / Fable",
+      "url": "https://youtu.be/xmGY276gEFY",
+      "summary": "Theo reacts to a post by Boris, one of Claude Code's original creators, arguing that the old engineer craft — writing lint rules, tests, and automations — matters more, not less, in the agent era. The core claim: domain knowledge that used to live in people's heads should now be encoded as infrastructure (CLAUDE.md files, skills, custom lint rules, docs) so agents and new teammates can contribute from day one. Boris's line is that a rejected PR from a designer or a wrong-framework mistake is 'a failure of automation' — the job shifts from writing the code to building the systems that steer whoever writes it next.",
+      "relevance": "The most useful reframe I've heard on where an engineer's leverage now sits: stop hoarding context in your head, encode it so the machine (and the next human) inherits it."
+    },
+    {
+      "id": "XVwMi_UOfsQ",
+      "title": "Apple Just Killed AI Subscriptions Forever (Mac Mini M5)",
+      "channel": "AI Master",
+      "duration": "17:35",
+      "category": "Apple / Vision Pro",
+      "url": "https://youtu.be/XVwMi_UOfsQ",
+      "summary": "A hardware breakdown of running local LLMs on a Mac Mini M4 Pro instead of paying monthly for cloud AI — the pitch being that inference never leaves your machine and draws ~30–65W. The video is unusually honest about the limits: the M4 Pro delivers 273 GB/s bandwidth (half the 550 often quoted), 70B models crawl at 3–5 tokens/sec, and Apple loses badly on dollars-per-gigabyte to AMD boxes. It also flags a fragility Apple's marketing won't: MLX co-creator Awni Hannun and Apple's head of foundation models left for Anthropic, and Apple reportedly pays Google ~$1B/year for a Gemini-powered Siri after passing on Claude.",
+      "relevance": "If you're weighing whether to own your inference, this is the rare review that gives you the real bandwidth numbers and model-fit walls instead of the spec-sheet fantasy."
+    },
+    {
+      "id": "PgyggSRHY1o",
+      "title": "HTMX Explained: The \"Dumb\" HTML Secret Replacing React",
+      "channel": "Cloud Codes",
+      "duration": "7:46",
+      "category": "Building / Dev",
+      "url": "https://youtu.be/PgyggSRHY1o",
+      "summary": "HTMX is ~16KB of dependency-free JavaScript that lets plain HTML talk to the server and swap in whatever HTML comes back — request, response, swap. The argument is that for most of the web (forms, dashboards, CRUD), you can delete a whole category of bugs by keeping a single copy of state on the server instead of syncing it between server and browser. The video is upfront about the exception: deeply interactive client apps (spreadsheets, live maps) are still React's turf, not close.",
+      "relevance": "A clean, honest case for radically less front-end complexity — and a reminder that 'the website was the framework all along' for most of what we build."
+    },
+    {
+      "id": "3mKqy2hdWlY",
+      "title": "Codex Micro Unboxing, First Impressions, Codex/GPT Demo",
+      "channel": "fal",
+      "duration": "10:52",
+      "category": "Building / Dev",
+      "url": "https://youtu.be/3mKqy2hdWlY",
+      "summary": "A hardware enthusiast unboxes the Codex Micro, a physical control peripheral (clicky keys, a knob, a joystick, a push-to-talk button) that OpenAI built with Work Louder for driving coding agents. His verdict after day one is honest: the packaging is Apple-tier and it's fun, but the only feature he sees real value in so far is the talk button for dictating prompts, and the agent-status colors when juggling multiple chats. He's a self-described Claude Code loyalist who bought it mainly to force himself to try Codex.",
+      "relevance": "A grounded first look at whether a dedicated 'agent console' is a real workflow or just a nice desk object — useful if you're curious where physical interfaces for AI coding are heading."
+    },
+    {
+      "id": "T-6lSH0sHdY",
+      "title": "CERN Scientist Goes Viral After Exposing the Illusion We Live In",
+      "channel": "Video Advice",
+      "duration": "17:59",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/T-6lSH0sHdY",
+      "summary": "Philosopher and former CERN engineer Bernardo Kastrup lays out 'analytic idealism' — the claim that mind is fundamental and matter is what mental states look like from the outside, not the other way around. His central image: matter is a 'dashboard representation,' like a pilot's gauges standing in for a sky that exists whether or not a plane is flying. He extends this to a single 'mind at large' that dissociates into individual perspectives, and argues time, free will, and even telepathy read differently once you stop treating matter as the base layer.",
+      "relevance": "Whether or not you buy idealism, the dashboard-vs-sky distinction is a sharp tool for noticing when you've mistaken your interface to reality for reality itself."
+    },
+    {
+      "id": "Jhtya7E45BE",
+      "title": "The Revolution of Systems Thinking: Why It Changes Everything We Know About Reality",
+      "channel": "Pantha Rhey",
+      "duration": "20:34",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/Jhtya7E45BE",
+      "summary": "An overview of systems theory as a quiet counter-revolution to the reductionism that has ruled science since Descartes and Newton — the view that you understand a whole by breaking it into parts. The video argues that emergence (a hurricane's stable structure, or consciousness from neurons) is the riddle reductionism can't solve, because the order lives in the relationships between parts, not the parts themselves. It closes with an ethical and political warning: the same systems lens has a 'technocratic' reading (humans as machine-parts to be steered) it names Peter Thiel and Palantir as examples of, which chaos theory itself suggests is doomed to fail.",
+      "relevance": "A useful map of why 'see the whole, not just the parts' is resurfacing across medicine, psychology, and AI — and why that lens cuts both toward liberation and toward control."
+    },
+    {
+      "id": "kSD1nP5K1M4",
+      "title": "Once You Understand OM, You Understand Everything about Reality",
+      "channel": "Adhvaitha",
+      "duration": "23:23",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/kSD1nP5K1M4",
+      "summary": "A walk through the Mandukya Upanishad's decoding of OM into its parts — A, U, M — mapped onto the waking, dream, and deep-sleep states, with the silence after the chant standing for turya, pure consciousness. The argument is empirical in its own way: across all three states the body, mind, and ego each drop away in at least one, but awareness persists through all of them — so the video reasons that consciousness, not body or mind, is what you fundamentally are. The practical takeaway offered is to chant OM while holding each part's meaning rather than mechanically.",
+      "relevance": "A clear, structured version of the 'you are the constant, not the contents' argument — worth an hour of thought even if you never chant a syllable."
+    },
+    {
+      "id": "Df6Wd_Ok3Yo",
+      "title": "The Most Dangerous Book Ever Written On Reality",
+      "channel": "Life Lessons",
+      "duration": "12:22",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/Df6Wd_Ok3Yo",
+      "summary": "Using Aleister Crowley's 'Magick' as a cautionary frame, the video argues that what people call manifestation is just a neutral principle — 'causing change to occur in conformity with will' — that responds to your persistent inner state regardless of whether that state is chosen or absorbed. The sharper, more defensible point is about attention economics: you can visualize what you want for ten minutes and then hand fifteen waking hours to worry, grievance, and doomscrolling, and the math never favors you. Its practical challenge is simply to watch, without judgment, what your mind rests on in unguarded hours.",
+      "relevance": "Strip away the occult framing and it's a pointed question about where your attention actually goes all day versus where you claim you want it to go."
+    },
+    {
+      "id": "x4TdColoIu8",
+      "title": "We Thought Black Holes Created Event Horizons. It Might Be the Opposite",
+      "channel": "PBS Space Time",
+      "duration": "19:43",
+      "category": "Science / Physics",
+      "url": "https://youtu.be/x4TdColoIu8",
+      "summary": "PBS Space Time unpacks the formal definition of an event horizon — 'the boundary of the causal past of future null infinity' — and shows it's not a local thing you can point at. Because the true horizon is defined by the entire future of spacetime, it can grow outward to envelop you before the black hole has even finished forming, meaning you could already be trapped and have no way to know. The video separates this 'true' teleological horizon from the 'apparent horizon' physicists actually simulate, which is local and observer-dependent.",
+      "relevance": "A genuinely mind-bending reminder that the boundary that actually traps you is defined by the whole future, not the visible 'now' — the snapshot you can see is not the real edge."
+    },
+    {
+      "id": "TLfqcrq5ryw",
+      "title": "ДНК создал Бог? Самые свежие научные данные о строении",
+      "channel": "Говорит «атеист»",
+      "duration": "27:00",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/TLfqcrq5ryw",
+      "summary": "A Russian-language tour of DNA's machinery — histone packaging, kinetochores as tension sensors, kinesin 'nanorobots' walking cargo along microtubules — dramatizing how 2 meters of quaternary code fold into a 6,000nm nucleus more densely than any transistor array. The narrator (Sergey Micheev) frames it as an open logical fork: either this information system arose from random chemistry, or from some intelligence, and argues neither is provable. He explicitly separates observed microevolution from macroevolution and origin-of-life, calling the latter unproven assumptions rather than settled fact.",
+      "relevance": "Set aside the design conclusion it leans toward — the tour of the cell's error-correcting molecular machinery is worth it for the sheer 'we can read the letters but not the language' vertigo."
+    }
+  ]
+}
