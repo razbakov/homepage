@@ -1,48 +1,88 @@
 {
   "date": "2026-07-23",
   "source": "youtube-homepage-recommendations",
-  "total_recommended": 28,
-  "summarized": 10,
+  "total_recommended": 80,
+  "summarized": 12,
   "items": [
-    {
-      "id": "xmGY276gEFY",
-      "title": "Claude Code's creator has some really good advice",
-      "channel": "Theo - t3.gg",
-      "duration": "19:12",
-      "category": "AI / Anthropic / Fable",
-      "url": "https://youtu.be/xmGY276gEFY",
-      "summary": "Theo reacts to a post by Boris, one of Claude Code's original creators, arguing that the old engineer craft — writing lint rules, tests, and automations — matters more, not less, in the agent era. The core claim: domain knowledge that used to live in people's heads should now be encoded as infrastructure (CLAUDE.md files, skills, custom lint rules, docs) so agents and new teammates can contribute from day one. Boris's line is that a rejected PR from a designer or a wrong-framework mistake is 'a failure of automation' — the job shifts from writing the code to building the systems that steer whoever writes it next.",
-      "relevance": "The most useful reframe I've heard on where an engineer's leverage now sits: stop hoarding context in your head, encode it so the machine (and the next human) inherits it."
-    },
     {
       "id": "XVwMi_UOfsQ",
       "title": "Apple Just Killed AI Subscriptions Forever (Mac Mini M5)",
       "channel": "AI Master",
       "duration": "17:35",
-      "category": "Apple / Vision Pro",
+      "category": "AI / Apple Hardware",
       "url": "https://youtu.be/XVwMi_UOfsQ",
-      "summary": "A hardware breakdown of running local LLMs on a Mac Mini M4 Pro instead of paying monthly for cloud AI — the pitch being that inference never leaves your machine and draws ~30–65W. The video is unusually honest about the limits: the M4 Pro delivers 273 GB/s bandwidth (half the 550 often quoted), 70B models crawl at 3–5 tokens/sec, and Apple loses badly on dollars-per-gigabyte to AMD boxes. It also flags a fragility Apple's marketing won't: MLX co-creator Awni Hannun and Apple's head of foundation models left for Anthropic, and Apple reportedly pays Google ~$1B/year for a Gemini-powered Siri after passing on Claude.",
-      "relevance": "If you're weighing whether to own your inference, this is the rare review that gives you the real bandwidth numbers and model-fit walls instead of the spec-sheet fantasy."
+      "summary": "Deep technical comparison of Mac Mini M4 Pro for local LLM inference: 273 GB/s bandwidth (not 550), 7B-32B models run well at 20-30 tok/s, 70B barely usable at 3-5 tok/s, can't run GPT-OSS 120B at all (AMD Strix Halo wins there). Apple killed 64GB config and hiked prices $200 citing DRAM shortage. Bloomberg reports Apple skipping M6 Pro/Max/Ultra entirely, fast-tracking to M7 targeting 1.5TB unified memory and Nvidia Blackwell-class performance. Key MLX creator Aani Hanan left Apple for Anthropic along with ~12 AI researchers.",
+      "relevance": "The M7 roadmap leak and MLX talent exodus to Anthropic are the real signals here — useful context for anyone weighing local inference hardware timing."
     },
     {
-      "id": "PgyggSRHY1o",
-      "title": "HTMX Explained: The \"Dumb\" HTML Secret Replacing React",
-      "channel": "Cloud Codes",
-      "duration": "7:46",
-      "category": "Building / Dev",
-      "url": "https://youtu.be/PgyggSRHY1o",
-      "summary": "HTMX is ~16KB of dependency-free JavaScript that lets plain HTML talk to the server and swap in whatever HTML comes back — request, response, swap. The argument is that for most of the web (forms, dashboards, CRUD), you can delete a whole category of bugs by keeping a single copy of state on the server instead of syncing it between server and browser. The video is upfront about the exception: deeply interactive client apps (spreadsheets, live maps) are still React's turf, not close.",
-      "relevance": "A clean, honest case for radically less front-end complexity — and a reminder that 'the website was the framework all along' for most of what we build."
+      "id": "Jhtya7E45BE",
+      "title": "The Revolution of Systems Thinking: Why It Changes Everything We Know About Reality",
+      "channel": "Pantha Rhey",
+      "duration": "20:34",
+      "category": "Consciousness / Philosophy / Science",
+      "url": "https://youtu.be/Jhtya7E45BE",
+      "summary": "Overview of the systems-theoretical perspective as a quiet scientific revolution against Cartesian reductionism. Traces the lineage from Descartes' dualism and Newton's clockwork universe through emergence, self-organization, and interdisciplinarity. Maps the landscape from established theories (chaos theory, cybernetics, game theory) up through IIT, panpsychism, and Whitehead's process philosophy in a 'funnel model' from hard science to metaphysics.",
+      "relevance": "Solid conceptual map connecting emergence, consciousness (IIT, panpsychism), and process philosophy — useful framing if you think about reality as interconnected systems rather than isolated parts."
     },
     {
-      "id": "3mKqy2hdWlY",
-      "title": "Codex Micro Unboxing, First Impressions, Codex/GPT Demo",
-      "channel": "fal",
-      "duration": "10:52",
-      "category": "Building / Dev",
-      "url": "https://youtu.be/3mKqy2hdWlY",
-      "summary": "A hardware enthusiast unboxes the Codex Micro, a physical control peripheral (clicky keys, a knob, a joystick, a push-to-talk button) that OpenAI built with Work Louder for driving coding agents. His verdict after day one is honest: the packaging is Apple-tier and it's fun, but the only feature he sees real value in so far is the talk button for dictating prompts, and the agent-status colors when juggling multiple chats. He's a self-described Claude Code loyalist who bought it mainly to force himself to try Codex.",
-      "relevance": "A grounded first look at whether a dedicated 'agent console' is a real workflow or just a nice desk object — useful if you're curious where physical interfaces for AI coding are heading."
+      "id": "TLfqcrq5ryw",
+      "title": "ДНК создал Бог? Самые свежие научные данные о строении. Как работает информация для жизни организмов",
+      "channel": "Говорит «атеист»",
+      "duration": "27:00",
+      "category": "Science / Philosophy",
+      "url": "https://youtu.be/TLfqcrq5ryw",
+      "summary": "Detailed visual explainer of DNA structure: nucleosome packaging, histone proteins, molecular machines (helicase, polymerase, motor proteins), and information density — comparing DNA's quaternary code to binary computing. Frames DNA's 3D information encoding and error-correction machinery as an open question between random chemistry and intelligent design, noting humanity has only read DNA linearly and doesn't yet understand its full 3D interaction language.",
+      "relevance": "Solid molecular biology deep-dive in Russian — the intelligent design framing is heavy-handed, but the visualizations and scale comparisons (2m of DNA in a 6000nm nucleus, each nucleotide smaller than a transistor) are genuinely striking."
+    },
+    {
+      "id": "Uir_5HU0Kw0",
+      "title": "I Stopped Praying and Called the Monad Instead — Here's What Changed",
+      "channel": "Gnostic Talk",
+      "duration": "24:45",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/Uir_5HU0Kw0",
+      "summary": "Explores the Gnostic concept of the Monad vs traditional prayer, arguing that petitionary prayer reinforces separation from the divine while Gnostic texts (Apocryphon of John, Trimorphic Protennoia, Gospel of Philip) describe an inner recognition practice — the 'Monad call' — where consciousness recognizes itself as an emanation of the source rather than a subject petitioning it. Covers the historical suppression by Irenaeus and the institutional church, Valentinus nearly becoming Bishop of Rome by one vote, and the Nag Hammadi library's burial to survive destruction orders.",
+      "relevance": "Solid deep-dive into how Gnostic inner-recognition practice maps onto consciousness-as-primary frameworks — the 'you are the emanation, not the petitioner' framing resonates with simulation/consciousness thinking."
+    },
+    {
+      "id": "xmGY276gEFY",
+      "title": "Claude Code's creator has some really good advice",
+      "channel": "Theo - t3․gg",
+      "duration": "19:12",
+      "category": "AI / Anthropic",
+      "url": "https://youtu.be/xmGY276gEFY",
+      "summary": "Theo breaks down a post by Boris (co-creator of Claude Code) arguing that engineers who loved customizing environments, writing lint rules, and building clever automations should be thriving now — those same skills multiply agent output. Key thesis: domain knowledge should move from people's heads into code comments, CLAUDE.md rules, custom lint rules, and skills so agents (and new contributors) navigate codebases correctly. Theo shares practical examples like building a Cloudflare microservice for agent file uploads and using preview environments for agent-driven development.",
+      "relevance": "Directly about Claude Code's origin story and the engineering mindset shift you're living daily — encoding domain knowledge into CLAUDE.md and skills is exactly your workflow."
+    },
+    {
+      "id": "kDHPcy5u8Po",
+      "title": "Eckhart’s Perspective on Jesus's Teachings | Eckhart Tolle",
+      "channel": "Eckhart Tolle",
+      "duration": "20:23",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/kDHPcy5u8Po",
+      "summary": "Eckhart Tolle reinterprets Jesus's core teachings through the lens of consciousness: 'faith' as accessing the power of pure awareness beyond the thinking mind, 'Kingdom of Heaven' as the dimension of inner spaciousness/formless consciousness, and 'God's will' as alignment with present-moment awareness. He discusses personality vs. essence (via Gurdjieff), why the term 'God' is problematic due to millennia of misuse, and shares how he re-read the New Testament after his awakening and recognized certain passages as utterances of someone deeply aligned with consciousness.",
+      "relevance": "If you're into consciousness frameworks that bridge Eastern nonduality with Western religious language, Tolle's deconstruction of 'faith' and 'Kingdom of Heaven' as pointers to present-moment awareness is a clean synthesis."
+    },
+    {
+      "id": "x4TdColoIu8",
+      "title": "We Thought Black Holes Created Event Horizons. It Might Be the Opposite",
+      "channel": "PBS Space Time",
+      "duration": "19:43",
+      "category": "Science",
+      "url": "https://youtu.be/x4TdColoIu8",
+      "summary": "PBS Space Time explores how event horizons are formally defined as teleological — determined by the entire future of spacetime, not just local conditions. Using Penrose diagrams and Vaidya spacetime, the video shows that an event horizon can form and expand at light speed long before the black hole itself exists, meaning you could already be inside one without knowing. This challenges astrophysical intuition and creates real problems for numerical simulations of black hole mergers.",
+      "relevance": "Genuinely mind-bending redefinition of something you thought you understood — the 'event horizon is already behind your couch' framing alone is worth 20 minutes."
+    },
+    {
+      "id": "Wt4F_IkgpsA",
+      "title": "We Might Be The EXPERIMENT. The Sumerian Texts Said This 4000 YEARS AGO.",
+      "channel": "The Archivist's Journal",
+      "duration": "12:32",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/Wt4F_IkgpsA",
+      "summary": "Connects the Sumerian Atrahasis Epic's account of Anunnaki genetically engineering humans with modern discoveries of 3,171 Human Accelerated Regions (HARs) — conserved DNA sequences unchanged for 300M years across vertebrates that rapidly rewrote themselves only in humans, clustering around brain development genes. Also covers the chromosome 2 fusion anomaly and the unexplained 200,000-year gap between anatomically modern humans appearing and the sudden cognitive explosion ~50-70K years ago.",
+      "relevance": "Real genetics research (HARs, chromosome 2 fusion) mapped against ancient creation texts — speculative but the scientific parallels are genuinely hard to dismiss."
     },
     {
       "id": "T-6lSH0sHdY",
@@ -51,58 +91,38 @@
       "duration": "17:59",
       "category": "Consciousness / Simulation",
       "url": "https://youtu.be/T-6lSH0sHdY",
-      "summary": "Philosopher and former CERN engineer Bernardo Kastrup lays out 'analytic idealism' — the claim that mind is fundamental and matter is what mental states look like from the outside, not the other way around. His central image: matter is a 'dashboard representation,' like a pilot's gauges standing in for a sky that exists whether or not a plane is flying. He extends this to a single 'mind at large' that dissociates into individual perspectives, and argues time, free will, and even telepathy read differently once you stop treating matter as the base layer.",
-      "relevance": "Whether or not you buy idealism, the dashboard-vs-sky distinction is a sharp tool for noticing when you've mistaken your interface to reality for reality itself."
+      "summary": "Popularization of Bernardo Kastrup's analytic idealism: consciousness is fundamental, matter is its external appearance (like dashboard dials representing the sky), and all individuals are dissociated aspects of one universal mind. Covers the Donald Hoffman 'Case Against Reality' argument that evolution optimized for fitness not truth, and extends into telepathy as expected 'leaks' across dissociative boundaries.",
+      "relevance": "Decent intro if you haven't encountered Kastrup's analytic idealism yet — though the clickbait packaging and VPN ad mid-roll are annoying, the core philosophy is well-articulated."
     },
     {
-      "id": "Jhtya7E45BE",
-      "title": "The Revolution of Systems Thinking: Why It Changes Everything We Know About Reality",
-      "channel": "Pantha Rhey",
-      "duration": "20:34",
-      "category": "Consciousness / Simulation",
-      "url": "https://youtu.be/Jhtya7E45BE",
-      "summary": "An overview of systems theory as a quiet counter-revolution to the reductionism that has ruled science since Descartes and Newton — the view that you understand a whole by breaking it into parts. The video argues that emergence (a hurricane's stable structure, or consciousness from neurons) is the riddle reductionism can't solve, because the order lives in the relationships between parts, not the parts themselves. It closes with an ethical and political warning: the same systems lens has a 'technocratic' reading (humans as machine-parts to be steered) it names Peter Thiel and Palantir as examples of, which chaos theory itself suggests is doomed to fail.",
-      "relevance": "A useful map of why 'see the whole, not just the parts' is resurfacing across medicine, psychology, and AI — and why that lens cuts both toward liberation and toward control."
+      "id": "f32W5BEzWN0",
+      "title": "The Weird Future Of User Interfaces",
+      "channel": "Enrico Tartarotti",
+      "duration": "15:08",
+      "category": "AI / Product Design",
+      "url": "https://youtu.be/f32W5BEzWN0",
+      "summary": "Analyzes why AI-first devices (Humane Pin, Rabbit) failed while coding agents (Claude Code, Codex) organically spread to non-technical users. Introduces 'generative UI' — where AI decides the best interface for a task and builds it on the spot — as the actual future, sitting between traditional direct-manipulation GUIs (great for simple tasks) and agentic chat (great for complex ones). Covers three levels of generative UI with examples from Claude, Google Search, and flight booking.",
+      "relevance": "Directly relevant to how I use Claude Code daily — and the generative UI thesis maps well to what I'm seeing with MCPs, skills, and agent-driven workflows replacing traditional app interfaces."
     },
     {
-      "id": "kSD1nP5K1M4",
-      "title": "Once You Understand OM, You Understand Everything about Reality",
-      "channel": "Adhvaitha",
-      "duration": "23:23",
-      "category": "Consciousness / Simulation",
-      "url": "https://youtu.be/kSD1nP5K1M4",
-      "summary": "A walk through the Mandukya Upanishad's decoding of OM into its parts — A, U, M — mapped onto the waking, dream, and deep-sleep states, with the silence after the chant standing for turya, pure consciousness. The argument is empirical in its own way: across all three states the body, mind, and ego each drop away in at least one, but awareness persists through all of them — so the video reasons that consciousness, not body or mind, is what you fundamentally are. The practical takeaway offered is to chant OM while holding each part's meaning rather than mechanically.",
-      "relevance": "A clear, structured version of the 'you are the constant, not the contents' argument — worth an hour of thought even if you never chant a syllable."
+      "id": "SYDNblhoN4M",
+      "title": "According to Hinduism You were not created",
+      "channel": "Dharma Speaks",
+      "duration": "6:05",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/SYDNblhoN4M",
+      "summary": "Explores the Hindu Vedantic teaching that the soul (like God and the material world) is eternal and uncreated — contrasting this with Abrahamic creation doctrines. Compares four major Hindu theological positions: Advaita (soul is Brahman, material world is illusion), Sri Vaishnava (beginningless material bondage, liberation through surrender), fallen-soul Vaishnavas (return to spiritual realm), and Tattvavada (soul's latent potential crystallized by God's will). Each framework yields a distinct existential mood and practice.",
+      "relevance": "Solid comparative philosophy on the nature of consciousness and selfhood — the 'you have always existed' framing resonates with simulation/consciousness discussions I keep circling back to."
     },
     {
-      "id": "Df6Wd_Ok3Yo",
-      "title": "The Most Dangerous Book Ever Written On Reality",
-      "channel": "Life Lessons",
-      "duration": "12:22",
-      "category": "Consciousness / Simulation",
-      "url": "https://youtu.be/Df6Wd_Ok3Yo",
-      "summary": "Using Aleister Crowley's 'Magick' as a cautionary frame, the video argues that what people call manifestation is just a neutral principle — 'causing change to occur in conformity with will' — that responds to your persistent inner state regardless of whether that state is chosen or absorbed. The sharper, more defensible point is about attention economics: you can visualize what you want for ten minutes and then hand fifteen waking hours to worry, grievance, and doomscrolling, and the math never favors you. Its practical challenge is simply to watch, without judgment, what your mind rests on in unguarded hours.",
-      "relevance": "Strip away the occult framing and it's a pointed question about where your attention actually goes all day versus where you claim you want it to go."
-    },
-    {
-      "id": "x4TdColoIu8",
-      "title": "We Thought Black Holes Created Event Horizons. It Might Be the Opposite",
-      "channel": "PBS Space Time",
-      "duration": "19:43",
-      "category": "Science / Physics",
-      "url": "https://youtu.be/x4TdColoIu8",
-      "summary": "PBS Space Time unpacks the formal definition of an event horizon — 'the boundary of the causal past of future null infinity' — and shows it's not a local thing you can point at. Because the true horizon is defined by the entire future of spacetime, it can grow outward to envelop you before the black hole has even finished forming, meaning you could already be trapped and have no way to know. The video separates this 'true' teleological horizon from the 'apparent horizon' physicists actually simulate, which is local and observer-dependent.",
-      "relevance": "A genuinely mind-bending reminder that the boundary that actually traps you is defined by the whole future, not the visible 'now' — the snapshot you can see is not the real edge."
-    },
-    {
-      "id": "TLfqcrq5ryw",
-      "title": "ДНК создал Бог? Самые свежие научные данные о строении",
-      "channel": "Говорит «атеист»",
-      "duration": "27:00",
-      "category": "Consciousness / Simulation",
-      "url": "https://youtu.be/TLfqcrq5ryw",
-      "summary": "A Russian-language tour of DNA's machinery — histone packaging, kinetochores as tension sensors, kinesin 'nanorobots' walking cargo along microtubules — dramatizing how 2 meters of quaternary code fold into a 6,000nm nucleus more densely than any transistor array. The narrator (Sergey Micheev) frames it as an open logical fork: either this information system arose from random chemistry, or from some intelligence, and argues neither is provable. He explicitly separates observed microevolution from macroevolution and origin-of-life, calling the latter unproven assumptions rather than settled fact.",
-      "relevance": "Set aside the design conclusion it leans toward — the tour of the cell's error-correcting molecular machinery is worth it for the sheer 'we can read the letters but not the language' vertigo."
+      "id": "CYGQujZ2ex0",
+      "title": "The Church Actually Worship Satan, Not Jesus | Prof Jiang Xueqin",
+      "channel": "Prof Jiang Explains",
+      "duration": "12:28",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/CYGQujZ2ex0",
+      "summary": "Prof Jiang lectures on Dostoevsky's Grand Inquisitor parable from The Brothers Karamazov: the Catholic Church deliberately replaced Jesus's teaching of radical individual freedom with Satanic authority because most people can't handle free will — they crave obedience and order. Jesus's only response to the Inquisitor's airtight logic is a silent kiss of forgiveness, which plants an inextinguishable spark. The resolution: the soul is eternal and God is patient — people will eventually choose freedom on their own, even if it takes millions of years.",
+      "relevance": "A sharp reading of Dostoevsky's most famous thought experiment on why institutions crush individual consciousness — directly relevant if you think about freedom vs structure in any system, from religion to startups to AI alignment."
     }
   ]
 }
