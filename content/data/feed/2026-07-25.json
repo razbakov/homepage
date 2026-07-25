@@ -1,0 +1,128 @@
+{
+  "date": "2026-07-25",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 80,
+  "summarized": 12,
+  "items": [
+    {
+      "id": "ES-BH5cCJsM",
+      "title": "Why Did God Banish Adam & Eve? The Bible's Most Misunderstood Story. Prof Jiang #motivation #fyp",
+      "channel": "Prof. Jiang Flux History ",
+      "duration": "19:20",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/ES-BH5cCJsM",
+      "summary": "Prof. Jiang lectures on Gnostic philosophy (monad vs. demiurge, material world as prison) and Milton's Paradise Lost as esoteric text. Argues Satan's speech to Eve aligns with what Genesis actually says — God banished humanity not for disobedience but to prevent them from becoming godlike. Connects secret society initiation rites, the soul's ascent from the material prison, and the Gnostic idea that evil is necessary for growth and expanded consciousness.",
+      "relevance": "Solid lecture connecting Gnostic simulation-prison cosmology with Paradise Lost — if you're into consciousness-as-trapped-in-matter frameworks, this is a well-argued deep dive."
+    },
+    {
+      "id": "8sha592r3KE",
+      "title": "Правши устроены не так, как нас учили",
+      "channel": "SciOne",
+      "duration": "25:16",
+      "category": "Science",
+      "url": "https://youtu.be/8sha592r3KE",
+      "summary": "SciOne explores how right-handedness and brain lateralization actually work, challenging common misconceptions about left-brain/right-brain dominance. The 25-minute deep dive likely covers recent neuroscience on motor asymmetry, hemispheric specialization, and why the traditional model of handedness is oversimplified.",
+      "relevance": "Solid Russian-language neuroscience explainer from SciOne — the kind of 'everything you thought you knew is wrong' science content worth 25 minutes."
+    },
+    {
+      "id": "kOD9rMhn4f4",
+      "title": "How far are we from \"Her\"?",
+      "channel": "Julia Turc",
+      "duration": "21:29",
+      "category": "AI / Voice Models",
+      "url": "https://youtu.be/kOD9rMhn4f4",
+      "summary": "Technical deep-dive into the evolution of voice AI: from cascade systems (ASR→LLM→TTS) to end-to-end models (GPT-4o) to full-duplex architectures (Moshi, GPT Live, Thinking Machines). Explains how Qutai's open-source Moshi pioneered full-duplex two years before GPT Live using parallel audio streams, semantic/acoustic token decomposition, and an 'inner monologue' text stream that keeps speech grounded without reintroducing the text bottleneck. Interviews Qutai founder Nao Sagidora on why end-to-end beat cascades — and why his for-profit spin-off Gradio now builds cascade components anyway.",
+      "relevance": "Best technical explainer I've seen on why voice AI suddenly feels human — the full-duplex architecture shift is as fundamental as the transformer was for text."
+    },
+    {
+      "id": "6aZ45RNHa6U",
+      "title": "We Just Discovered Why Light Does This",
+      "channel": "The Action Lab",
+      "duration": "10:21",
+      "category": "Science",
+      "url": "https://youtu.be/6aZ45RNHa6U",
+      "summary": "Explains branched flow — a recently discovered phenomenon where waves (light, electrons, sound, tsunamis) spontaneously organize into bright branching filaments when passing through media with smooth random density variations, despite no channels guiding them. First seen in electron transport in semiconductors (2000s), then demonstrated with light through soap bubbles (Nature, 2020), and now recognized in tsunami propagation, pool caustics, sound waves, and even cosmic large-scale structure. The key insight: standard physics models miss it because they average out the small imperfections that cause it.",
+      "relevance": "Elegant example of emergent order from chaos — a universal phenomenon hiding in plain sight for decades, relevant if you're drawn to how simple rules produce complex structure."
+    },
+    {
+      "id": "kDHPcy5u8Po",
+      "title": "Eckhart’s Perspective on Jesus's Teachings | Eckhart Tolle",
+      "channel": "Eckhart Tolle",
+      "duration": "20:23",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/kDHPcy5u8Po",
+      "summary": "Eckhart Tolle reinterprets Jesus's core teachings through a consciousness lens: faith as accessing the power of consciousness beyond the thinking mind, the 'kingdom of heaven' as inner spaciousness (not a place), and 'God's will' as alignment with present-moment awareness. He contrasts personality vs. essence (via Gurdjieff), argues the term 'God' is too enclosed and misused, and shares how re-reading the New Testament after his awakening revealed a depth he never encountered in church.",
+      "relevance": "If you're into consciousness and how ancient teachings map onto non-dual awareness, Tolle's deconstruction of religious language into direct experience is a clean 20-minute listen."
+    },
+    {
+      "id": "RI8RL2RWvFo",
+      "title": "This Is the VR Headset I’ve Been Waiting For",
+      "channel": "Naysy",
+      "duration": "9:18",
+      "category": "Spatial Computing / VR",
+      "url": "https://youtu.be/RI8RL2RWvFo",
+      "summary": "Deep dive on Valve's Steam Frame VR headset: 440g balanced design solves VR comfort, Snapdragon 8 Gen 3 runs SteamOS standalone with Proton translation layer, dedicated 6GHz wireless adapter with foveated streaming for PC VR, and fully modular with open CAD files and PCI Express expansion port for third-party add-ons. Positioned as first serious standalone challenger to Meta's Quest monopoly.",
+      "relevance": "Open hardware philosophy, modular expansion port, and Valve breaking Meta's VR monopoly — the anti-walled-garden approach to spatial computing that Vision Pro's ecosystem notably lacks."
+    },
+    {
+      "id": "lYP9K18vbgQ",
+      "title": "Прогулка Льюиса и Толкина, или намек на существование Бога от сторителлинга",
+      "channel": "SLOVO",
+      "duration": "7:42",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/lYP9K18vbgQ",
+      "summary": "Explores the famous 1931 conversation between C.S. Lewis and J.R.R. Tolkien where Tolkien argued that humanity's instinct for storytelling and myth-making is itself evidence pointing toward a transcendent reality — the argument that ultimately converted Lewis from atheism. Examines how narrative structure and our need for meaning may reflect something fundamental about the nature of consciousness and existence.",
+      "relevance": "A 7-minute philosophical gem on how storytelling itself might be a signal — right at the intersection of consciousness, meaning-making, and simulation-style thinking."
+    },
+    {
+      "id": "Jhtya7E45BE",
+      "title": "The Revolution of Systems Thinking: Why It Changes Everything We Know About Reality",
+      "channel": "Pantha Rhey",
+      "duration": "20:34",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/Jhtya7E45BE",
+      "summary": "Overview of the systems-theoretical revolution: traces how Cartesian dualism and Newtonian reductionism ('the whole is the sum of its parts') shaped centuries of science, then shows where they break down—emergence (consciousness from neurons, hurricanes from molecules). Maps the landscape from hard systems science (chaos theory, cybernetics, game theory) through IIT and panpsychism up to process philosophy (Whitehead, Hegel), arguing these fragmented disciplines are converging on a shared holistic framework.",
+      "relevance": "Solid primer connecting emergence, IIT, and panpsychism into one coherent map—useful if you want the 30,000-foot view of where consciousness research meets systems science."
+    },
+    {
+      "id": "SYDNblhoN4M",
+      "title": "According to Hinduism You were not created",
+      "channel": "Dharma Speaks",
+      "duration": "6:05",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/SYDNblhoN4M",
+      "summary": "Explores the Hindu doctrine that the soul (atman) is uncreated and eternal — not made by God but co-eternal with God and matter. Contrasts this with Abrahamic creation theology, then walks through how four major Hindu schools (Advaita, Sri Vaishnava, Gaudiya Vaishnava, Tattvavada) each explain the soul's beginningless existence and what that implies for liberation.",
+      "relevance": "Solid primer on how Vedantic metaphysics frames consciousness as fundamental and timeless — useful lens if you think about simulation theory or the hard problem of consciousness."
+    },
+    {
+      "id": "7MuHL_3By-g",
+      "title": "Вас не существует",
+      "channel": "Homo Deus",
+      "duration": "1:22:49",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/7MuHL_3By-g",
+      "summary": "A long-form Russian-language exploration building on Harari's Homo Deus thesis — that the unified 'self' is an illusion constructed by algorithms in the brain, free will may not exist, and humanity is trending toward a data-driven paradigm (Dataism) that could render subjective experience irrelevant. Likely covers the interplay of consciousness, neuroscience, and what it means for human identity as AI and biotechnology advance.",
+      "relevance": "Right in my wheelhouse — Harari's deconstruction of consciousness and free will is one of the most provocative frameworks for thinking about where AI is taking us."
+    },
+    {
+      "id": "hQaN5w3YwtM",
+      "title": "No.1 Brain Scientist: Your Brain Is Lying To You! Here's How I Discovered The Truth!",
+      "channel": "The Diary Of A CEO",
+      "duration": "1:35:55",
+      "category": "Consciousness / Science",
+      "url": "https://youtu.be/hQaN5w3YwtM",
+      "summary": "Harvard neuroscientist Dr. Jill Bolte Taylor explains her 'four characters' brain model — left thinking (analytical ego), left emotional (trauma/reactivity), right emotional (present-moment openness), right thinking (flow/expansiveness) — arguing we're societally skewed toward left-brain dominance. She draws on losing her left hemisphere for 8 years after a stroke to show how consciously shifting between brain regions can regulate emotions and 'manifest mental health.' Includes a hands-on dissection of a real human brain and spinal cord.",
+      "relevance": "Pop-neuroscience but from someone who literally lived without half her brain — the consciousness and perception-of-reality angles make it a decent background listen."
+    },
+    {
+      "id": "FV_9jr-0JtI",
+      "title": "4 Years Later I Finally Understand Everything Everywhere All At Once",
+      "channel": "Jared Bauer",
+      "duration": "22:21",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/FV_9jr-0JtI",
+      "summary": "Deep film analysis of Everything Everywhere All at Once through the lens of metamodernism — the philosophical movement seeking meaning after postmodern relativism. Traces Hanzi Freinacht's 'effective value memes' (animistic → Faustian → post-Faustian → modern → postmodern) through cinema history, arguing the film dramatizes the core metamodern question: how to commit to meaning while knowing it's constructed.",
+      "relevance": "Solid intro to metamodernism and Freinacht's developmental frameworks through the lens of a great film — worth it if you're into how meaning-making evolves culturally."
+    }
+  ]
+}
