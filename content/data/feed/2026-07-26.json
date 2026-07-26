@@ -1,0 +1,128 @@
+{
+  "date": "2026-07-26",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 80,
+  "summarized": 12,
+  "items": [
+    {
+      "id": "8sha592r3KE",
+      "title": "Правши устроены не так, как нас учили",
+      "channel": "SciOne",
+      "duration": "25:16",
+      "category": "Science",
+      "url": "https://youtu.be/8sha592r3KE",
+      "summary": "SciOne explores how right-handedness and brain lateralization actually work, challenging common myths about left-brain/right-brain dominance. The video dives into neuroscience research on motor asymmetry, hemisphere specialization, and what handedness really tells us about brain organization.",
+      "relevance": "Russian-language science deep-dive on how our brains are actually wired — SciOne consistently delivers well-researched neuroscience content."
+    },
+    {
+      "id": "lYP9K18vbgQ",
+      "title": "Прогулка Льюиса и Толкина, или намек на существование Бога от сторителлинга",
+      "channel": "SLOVO",
+      "duration": "7:42",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/lYP9K18vbgQ",
+      "summary": "Explores the famous 1931 walk where Tolkien convinced C.S. Lewis that myths and storytelling are not lies but echoes of a deeper truth — arguing that humanity's compulsion to create narratives hints at a transcendent reality. Frames storytelling itself as evidence for God's existence through the lens of their literary-philosophical debate.",
+      "relevance": "Tolkien's argument that story structure points beyond itself — basically narrative as a signal from the simulation layer. Short and thought-provoking."
+    },
+    {
+      "id": "Jhtya7E45BE",
+      "title": "The Revolution of Systems Thinking: Why It Changes Everything We Know About Reality",
+      "channel": "Pantha Rhey",
+      "duration": "20:34",
+      "category": "Consciousness / Philosophy / Science",
+      "url": "https://youtu.be/Jhtya7E45BE",
+      "summary": "A structured overview of systems theory as a quiet scientific revolution: traces how Cartesian dualism and Newtonian reductionism dominated science for centuries, then shows why emergence (hurricanes, consciousness from neurons) breaks that model. Maps the landscape from established theories (chaos theory, game theory, cybernetics) through frontier science (Integrated Information Theory, panpsychism) to process philosophy (Whitehead, Hegel), arguing all share a common systems-theoretical perspective that sees reality as interconnected processes rather than isolated parts.",
+      "relevance": "Solid primer connecting emergence, IIT, and panpsychism under one framework — useful if you want the 30,000-foot view of how consciousness research fits into the broader systems revolution."
+    },
+    {
+      "id": "0F5zG1RQ4Ig",
+      "title": "You won't fall behind",
+      "channel": "The PrimeTime",
+      "duration": "12:31",
+      "category": "AI / Culture",
+      "url": "https://youtu.be/0F5zG1RQ4Ig",
+      "summary": "ThePrimeagen pushes back on AI FOMO culture, citing Pluralsight and arXiv studies showing AI adoption heightens burnout and cognitive load. He shares personal experience with founder burnout (24hr coding marathons, marriage strain) and highlights George Hotz's blog post skewering both 'falling behind' doomerism and AGI flash-of-light hype. Core argument: everything from the GPT-3.5/Opus era is already void — token-maxing enriches shovel-sellers, not you.",
+      "relevance": "Solid sanity check on AI FOMO — especially the point that companies selling tokens have perverse incentives to push 'you must use more AI' narratives."
+    },
+    {
+      "id": "FoN2duPT1gk",
+      "title": "What If You Are God Pretending to Be Human? — Alan Watts",
+      "channel": "Simply Art - Inspire",
+      "duration": "29:00",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/FoN2duPT1gk",
+      "summary": "Alan Watts explores the Hindu concept that each being is God in disguise — the universe playing all parts at once. He builds the argument through the 'dream' thought experiment (if you could dream anything, you'd eventually choose surprise and forgetting), connects it to Hindu cosmology of kalpas and Brahma's dreaming/waking cycles, and contrasts Eastern cyclical time with Western linear eschatology.",
+      "relevance": "Classic Watts on the simulation/dream hypothesis centuries before we called it that — the 'surprise button' metaphor alone is worth the listen."
+    },
+    {
+      "id": "xmGY276gEFY",
+      "title": "Claude Code's creator has some really good advice",
+      "channel": "Theo - t3․gg",
+      "duration": "19:12",
+      "category": "AI / Claude Code",
+      "url": "https://youtu.be/xmGY276gEFY",
+      "summary": "Theo reacts to Boris (Claude Code co-creator) arguing that traditional engineering automation skills — lint rules, CI pipelines, preview environments, custom tooling — are now MORE valuable because they multiply agent output. Key thesis: engineers should shift from writing code to building infrastructure that steers agents correctly (markdown rules, skills, Claude MD), making codebases navigable for both AI and new contributors.",
+      "relevance": "Practical philosophy on what 'engineering craft' means in the agent era — directly applicable to how you set up Claude Code workflows and agent fleets."
+    },
+    {
+      "id": "tL9Lw250spc",
+      "title": "Why does every mammal get 1 billion heartbeats in their life?",
+      "channel": "Veritasium",
+      "duration": "35:32",
+      "category": "Science",
+      "url": "https://youtu.be/tL9Lw250spc",
+      "summary": "Explores why nearly every mammal gets ~1 billion heartbeats regardless of size, tracing from the Tusko elephant LSD disaster through Kleiber's Law (metabolic rate scales as mass^¾) to the West-Brown-Enquist theory that fractal resource-distribution networks explain quarter-power scaling across biology. Covers how knowing just an animal's mass predicts lifespan, heart rate, and growth rate — and extends the same logic to cities.",
+      "relevance": "Veritasium at its best — the kind of deep pattern that makes you see biological design and scaling differently, with crossover into complex-systems thinking relevant to startups and cities."
+    },
+    {
+      "id": "pGh6aHznC8E",
+      "title": "John Ternus Is Changing Apple... Fast",
+      "channel": "GregsGadgets",
+      "duration": "16:57",
+      "category": "Apple / Hardware",
+      "url": "https://youtu.be/pGh6aHznC8E",
+      "summary": "Tim Cook steps down; John Ternus (25-year hardware engineering veteran) becomes Apple CEO Sept 1, with Johny Srouji elevated to new Chief Hardware Officer role — signaling a decisive hardware-first leadership duo. Ternus is expected to launch a foldable iPhone alongside iPhone 18 Pro (skipping the regular iPhone 18), plus pursue new categories: smart glasses with AI camera, touchscreen OLED MacBook Pro, tabletop robot display, AI AirPods, and even a privacy-focused security camera. Analysis positions this as a return to Jobs-era product risk-taking over Cook's supply-chain optimization, though Apple's weak AI software remains the biggest challenge for these hardware bets.",
+      "relevance": "Ternus + Srouji as the new power duo is the most consequential Apple leadership shift in a decade — worth understanding if you care about where spatial computing and Apple's AI hardware bets go next."
+    },
+    {
+      "id": "5WHqUUE5arM",
+      "title": "The 30-Year Dark Matter Anomaly is Finally Solved (And It's Not What We Thought)",
+      "channel": "Anton Petrov",
+      "duration": "14:03",
+      "category": "Science",
+      "url": "https://youtu.be/5WHqUUE5arM",
+      "summary": "Two independent experiments (ANAIS-112 in Spain, COSINE-100 in South Korea) using identical sodium iodide crystals have conclusively failed to replicate the DAMA/LIBRA experiment's 30-year claim of seasonal dark matter particle detection. The joint 2025-2026 analysis shows flat lines where DAMA saw waves, effectively ruling out WIMPs as detected by that setup. The field now pivots toward axions and primordial black holes as dark matter candidates.",
+      "relevance": "Clean example of the scientific method's self-correction mechanism finally closing a 30-year anomaly — and a good refresher on where dark matter research stands now."
+    },
+    {
+      "id": "hQaN5w3YwtM",
+      "title": "No.1 Brain Scientist: Your Brain Is Lying To You! Here's How I Discovered The Truth!",
+      "channel": "The Diary Of A CEO",
+      "duration": "1:35:55",
+      "category": "Consciousness / Science",
+      "url": "https://youtu.be/hQaN5w3YwtM",
+      "summary": "Harvard neuroscientist Dr. Jill Bolte Taylor (who lost her left hemisphere to a stroke for 8 years) explains the brain's four anatomically distinct character centers — left thinking (analytical ego), left emotional (trauma/reactivity), right emotional (present-moment feeling), right thinking (expansive awareness). She argues we're culturally skewed to left-brain dominance and can consciously shift between these modes. Includes a hands-on dissection of a real human brain with spinal cord, walking through meninges, blood vessel fragility, and central nervous system anatomy.",
+      "relevance": "Jill Bolte Taylor's first-person account of losing half her brain is one of the most direct windows into consciousness we have — the four-character framework is a practical model worth knowing."
+    },
+    {
+      "id": "kDHPcy5u8Po",
+      "title": "Eckhart’s Perspective on Jesus's Teachings | Eckhart Tolle",
+      "channel": "Eckhart Tolle",
+      "duration": "20:23",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/kDHPcy5u8Po",
+      "summary": "Eckhart Tolle reinterprets Jesus's core teachings through a consciousness lens: 'faith' means accessing the power of consciousness itself beyond the thinking mind, 'Kingdom of Heaven' points to the dimension of inner spaciousness (pure consciousness), and 'God's will' is alignment with present-moment awareness rather than obedience to an external entity. He draws on Gurdjieff's personality-vs-essence distinction and argues that religious language ('God') inevitably gets misunderstood as a finite male entity, preferring pointers like 'the transcendent dimension' or 'the force.'",
+      "relevance": "Tolle strips religious language down to consciousness mechanics — useful framing if you think about awareness and presence as foundational layers of reality."
+    },
+    {
+      "id": "UXqw4DaKbsE",
+      "title": "Don’t Buy Apple’s Studio Display Until You See This | Meirro Pro 6k",
+      "channel": "9to5Mac",
+      "duration": "10:41",
+      "category": "Apple / Hardware",
+      "url": "https://youtu.be/UXqw4DaKbsE",
+      "summary": "9to5Mac reviews the Meirro Pro 6K, a $1,200 CNC aluminum 32-inch 6K monitor positioned as a Studio Display alternative. It offers higher resolution (6144x3456, 224 PPI), larger screen, adjustable stand included, and Thunderbolt with 96W power delivery — all at $400 less than Apple's 27-inch 5K Studio Display. Trade-offs: no webcam, no speakers, and four of five USB-C ports are only USB 2.0.",
+      "relevance": "Finally a proper 6K 32-inch Mac monitor that isn't $6K — worth knowing about if you're shopping for a single-cable desk setup."
+    }
+  ]
+}
