@@ -1,0 +1,128 @@
+{
+  "date": "2026-07-27",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 80,
+  "summarized": 12,
+  "items": [
+    {
+      "id": "sX__6xv48dE",
+      "title": "Part 2 - Building an App with Claude AI to get Approved by Apple 2026-07-27 08:00",
+      "channel": "Qustrike",
+      "duration": "NA",
+      "category": "AI / Anthropic + Apple",
+      "url": "https://youtu.be/sX__6xv48dE",
+      "summary": "Part 2 of a series documenting the process of using Claude AI to build and ship an iOS app through Apple's App Store review. Covers the practical workflow of AI-assisted app development and navigating Apple's approval process.",
+      "relevance": "Literally my two worlds colliding — Claude as a dev tool meets Apple's walled garden. Curious how far vibe-coding can take you through App Review."
+    },
+    {
+      "id": "GK2pZ_oVU1o",
+      "title": "The Scariest Chart in Electrical Engineering",
+      "channel": "Veritasium",
+      "duration": "39:44",
+      "category": "Science",
+      "url": "https://youtu.be/GK2pZ_oVU1o",
+      "summary": "Veritasium deep-dives into the Smith Chart — the legendary impedance-matching tool feared by EE undergrads. Traces its origin to Philip H. Smith's 1928 work at Bell Labs solving transatlantic radio transmission, explains why reflections and standing waves destroy power transfer when wavelength is shorter than the line, and builds intuition through slinky demos and anechoic-chamber experiments at Imperial College London. Covers the physics of why resistance alone can't solve impedance mismatch (capacitance and inductance shift voltage-current phase), leading to why the chart's conformal mapping of the complex impedance plane into a finite circle is so powerful.",
+      "relevance": "Beautifully produced 40-min explainer that makes transmission-line physics and one of engineering's most elegant visualizations genuinely intuitive — peak Veritasium."
+    },
+    {
+      "id": "xReyIF5pwRo",
+      "title": "MouthPad is now available",
+      "channel": "Augmental",
+      "duration": "4:29",
+      "category": "Startups / Building",
+      "url": "https://youtu.be/xReyIF5pwRo",
+      "summary": "Augmental announces commercial availability of MouthPad, a tongue-controlled touchpad that fits on the roof of your mouth, enabling hands-free device control. The video is a promotional montage showcasing real users navigating phones and computers entirely with tongue gestures — minimal narration, mostly visual demo.",
+      "relevance": "Novel HCI hardware finally shipping — tongue as input device is wild, and the accessibility implications are huge."
+    },
+    {
+      "id": "R8EKbNx2N0c",
+      "title": "\"Эффект наблюдателя\" фильм, помогающий исследовать своё прошлое",
+      "channel": "Studio 818",
+      "duration": "29:00",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/R8EKbNx2N0c",
+      "summary": "Russian-language short film exploring the 'observer effect' as a framework for re-examining personal history — how shifting perspective on past events changes their meaning and emotional weight. Blends quantum-physics metaphor with introspective storytelling.",
+      "relevance": "Consciousness meets personal archaeology — right up my alley if the execution is thoughtful, not just quantum-woo self-help."
+    },
+    {
+      "id": "g79GPZSQHBk",
+      "title": "Neuromancer — Official Teaser | Apple TV",
+      "channel": "Apple TV",
+      "duration": "1:10",
+      "category": "Apple / Sci-Fi",
+      "url": "https://youtu.be/g79GPZSQHBk",
+      "summary": "Apple TV+ drops the first teaser for its Neuromancer adaptation — William Gibson's foundational cyberpunk novel about a hacker (Case) recruited for a heist in cyberspace. The teaser establishes the noir tone and confirms the show is moving forward with Apple's backing.",
+      "relevance": "Gibson's cyberspace literally shaped how we think about AI and virtual worlds — curious to see if Apple nails the adaptation."
+    },
+    {
+      "id": "9SQdY5Ra9JI",
+      "title": "Something Strange Happens When You Look For Consciousness!",
+      "channel": "Just One More",
+      "duration": "23:37",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/9SQdY5Ra9JI",
+      "summary": "Explores why neuroscience still cannot explain how the brain produces subjective experience — the 'hard problem.' Examines cracks in the production model: a man living normally with 90% of his brain missing, terminal lucidity in destroyed Alzheimer's brains, and organized gamma surges in dying brains. Covers the failed Koch-Chalmers bet and the Cogitate adversarial collaboration where neither IIT nor GNWT fully survived testing.",
+      "relevance": "A solid 24-min primer on why consciousness remains science's deepest open question — hits the hard problem, real anomalies, and the latest failed attempts to crack it."
+    },
+    {
+      "id": "eTZygkJLmqs",
+      "title": "Anthropic and OpenAI are terrified of Kimi",
+      "channel": "Theo - t3․gg",
+      "duration": "36:00",
+      "category": "AI / Anthropic",
+      "url": "https://youtu.be/eTZygkJLmqs",
+      "summary": "Theo breaks down the Kimi K3 open-weight model release that has Anthropic and OpenAI scrambling — K3 matches or beats frontier models on key benchmarks. Covers the US government's distillation theft accusations against Moonshot.ai, the irony of Anthropic's own copyright settlement, Cursor's 85% post-training compute on top of Kimi K2.5, and speculates that Anthropic is delaying Opus 5 because competitive open-weight models keep closing the gap. Explains distillation mechanics and why banning Chinese open-weight models may backfire.",
+      "relevance": "Directly relevant to your Anthropic/Claude stack — Theo's Opus 5 delay theory and the open-weight pressure on frontier labs is worth tracking."
+    },
+    {
+      "id": "uJblcC4lKYw",
+      "title": "The cure for AI slop is a 1986 aircraft manual",
+      "channel": "Vusal Ismayilov",
+      "duration": "16:41",
+      "category": "AI / Engineering",
+      "url": "https://youtu.be/uJblcC4lKYw",
+      "summary": "Tests whether ASD Simplified Technical English — a 434-page spec built in 1986 so aircraft mechanics never misread repair manuals — can fix AI slop. Identifies six mechanical slop habits (synonym rotation, hedging, frozen verbs, marketing adjectives, run-ons, phrasal verbs) and shows STE's rules kill each one by design. Ran controlled experiments across Claude and GPT: STE cut slop 50-74%, far outperforming the popular 'ban delve' approach (3-40%) and matching or beating Orwell's rules.",
+      "relevance": "Practical, data-backed framework for making AI output actually readable — directly useful for docs, PRs, and agent output."
+    },
+    {
+      "id": "8sha592r3KE",
+      "title": "Правши устроены не так, как нас учили",
+      "channel": "SciOne",
+      "duration": "25:16",
+      "category": "Science",
+      "url": "https://youtu.be/8sha592r3KE",
+      "summary": "SciOne explores neuroscience of handedness, likely debunking the simplified model that right-handers are purely 'left-brain dominant.' Covers recent research on brain lateralization, motor control asymmetries, and how the traditional textbook view of hemispheric dominance in right-handed people is more nuanced than taught.",
+      "relevance": "Solid Russian-language neuroscience deep-dive from SciOne — always well-researched, and brain lateralization myths are worth updating."
+    },
+    {
+      "id": "jOzWDATtojY",
+      "title": "This Is The Last Video You'll EVER Need About The Archons — no bs",
+      "channel": "Gnostic Talk",
+      "duration": "36:15",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/jOzWDATtojY",
+      "summary": "Deep dive into Gnostic Archon cosmology from the Nag Hammadi texts (Apocryphon of John, Hypostasis of the Archons). Maps the seven Archons onto specific psychological functions — compliance without understanding, perception reduced to judgment, appetite that never satisfies, pleasure as distraction, time pressure foreclosing reflection — arguing the tradition is less mythology and more a diagnostic manual for how consciousness keeps itself captive. Covers three core Archonic mechanisms: imitation (counterfeit spiritual experiences), fate (deterministic emotional/biological cycles), and counterfeit authority (systems demanding worship while suppressing awareness of anything beyond them).",
+      "relevance": "If you're into simulation theory and consciousness architecture, this is a surprisingly rigorous read of Gnostic texts as a psychological framework for why awareness stays trapped — maps well onto modern ideas about attention capture and unconscious pattern-running."
+    },
+    {
+      "id": "0F5zG1RQ4Ig",
+      "title": "You won't fall behind",
+      "channel": "The PrimeTime",
+      "duration": "12:31",
+      "category": "AI / Culture",
+      "url": "https://youtu.be/0F5zG1RQ4Ig",
+      "summary": "ThePrimeagen addresses the toxic FOMO cycle around AI tools, citing Pluralsight and arXiv studies showing AI adoption increases burnout and cognitive load. He shares personal experience with obsessive work habits and quotes George Hotz's blog post criticizing both negative-valence AI hype ('perpetual underclass' fear-mongering) and the perverse incentive of AI companies pushing 'token maxing' when they profit from usage.",
+      "relevance": "Solid antidote to the AI anxiety noise — Prime and Hotz both nail why the 'you're falling behind' narrative is manufactured urgency, not reality."
+    },
+    {
+      "id": "mf5envOypNU",
+      "title": "Biggest Breakthroughs in Biology and Neuroscience: 2025",
+      "channel": "Quanta Magazine",
+      "duration": "15:55",
+      "category": "Science",
+      "url": "https://youtu.be/mf5envOypNU",
+      "summary": "Quanta Magazine's 2025 biology roundup covers three breakthroughs: (1) bird vs mammal intelligence arose via convergent evolution from different neural structures (DVR vs neocortex), settling a decades-long debate using cell-type atlases; (2) fathers' lifestyle transmits traits to offspring via microRNAs in sperm — a Chinese exercise study provides the strongest mechanistic evidence yet for breaching the Weismann Barrier; (3) a new computational model validates punctuated equilibrium across enzymes, cephalopods, and languages, showing evolution proceeds in sudden bursts rather than gradual change.",
+      "relevance": "Convergent evolution producing intelligence twice independently is a wild result — and the sperm RNA inheritance story quietly rewrites what we thought about heredity."
+    }
+  ]
+}
