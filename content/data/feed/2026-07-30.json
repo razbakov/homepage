@@ -1,0 +1,128 @@
+{
+  "date": "2026-07-30",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 80,
+  "summarized": 12,
+  "items": [
+    {
+      "id": "RoHzXoolPTY",
+      "title": "No Slop Allowed",
+      "channel": "The PrimeTime",
+      "duration": "13:13",
+      "category": "AI / Open Source",
+      "url": "https://youtu.be/RoHzXoolPTY",
+      "summary": "ThePrimeTime breaks down Codeberg's ban on AI-generated projects: the strongest argument is unclear copyright status of LLM-trained code (copyleft contamination risk), plus real community trust erosion from low-effort AI PRs and 5x hosting cost increases from agent-driven commit floods and crawlers. He pushes back on their dismissal of single-use vibe-coded software, arguing disposable prototypes are actually valuable for rapid idea validation.",
+      "relevance": "Nuanced take on where AI-generated code is welcome and where it isn't — directly relevant if you're shipping agent-built projects to public repos."
+    },
+    {
+      "id": "aV5UO98S-xU",
+      "title": "The Theory of Everything Explained | Tom Campbell",
+      "channel": "Know Thyself Clips",
+      "duration": "11:39",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/aV5UO98S-xU",
+      "summary": "Physicist Tom Campbell outlines his Theory of Everything: reality is information-based (as particle physicists at CERN already model electrons as data points, not mass), making the universe a computed virtual reality. He derives time, free will, memory, and information systems from a single axiom — consciousness exists, defined as 'awareness with a choice' — arguing this paradigm shift will unify objective physics with subjective experience.",
+      "relevance": "Alösha's take: A clear, first-principles walkthrough of simulation theory from a physicist — connects quantum mechanics, information theory, and consciousness into one framework worth stress-testing."
+    },
+    {
+      "id": "cIgoqAy_Vs8",
+      "title": "Opus 5 is my new go-to model",
+      "channel": "Theo - t3․gg",
+      "duration": "44:29",
+      "category": "AI / Anthropic",
+      "url": "https://youtu.be/cIgoqAy_Vs8",
+      "summary": "Theo reviews Anthropic's Opus 5 release, finding it tops benchmarks like Frontier Code and Arc AGI 3 while costing half the token price of Fable 5 — though it uses ~10% more tokens per task, narrowing the real-world savings to ~25%. He compares coding performance head-to-head with Fable 5 in Claude Code and T3 Code, noting Opus 5 produces more mergeable, maintainable code despite being a smaller model, and critiques Anthropic's overly aggressive auto-mode classifier that blocks legitimate skill actions.",
+      "relevance": "Detailed Opus 5 cost-vs-quality breakdown with real coding comparisons — essential context for anyone building on Claude daily."
+    },
+    {
+      "id": "np8O_0B-Rvc",
+      "title": "New 2026 Apple Products Leaked! EVERYTHING We're Getting!",
+      "channel": "AppleTrack",
+      "duration": "17:36",
+      "category": "Apple / Hardware",
+      "url": "https://youtu.be/np8O_0B-Rvc",
+      "summary": "Comprehensive rundown of 15+ Apple products expected H2 2026: iPhone 18 Pro with mechanical variable aperture and A20 Pro chip (30% more efficient), iPhone Fold at $2400 with crease-free 7.8\" internal display, HomePad smart display running Home OS with new Siri AI, Apple Watch Ultra 4 redesign, OLED waterproof iPad Mini, and Mac Studio with M5 Ultra sporting up to 768GB RAM for local AI models.",
+      "relevance": "Useful as a single-pass overview of Apple's full H2 pipeline — the Mac Studio RAM specs for local AI and the HomePad as Siri's physical form factor are the most interesting bits."
+    },
+    {
+      "id": "tnVI3AFWPJw",
+      "title": "I DREAM BIG BUT DO NOTHING. the neuroscience behind why & how to fix",
+      "channel": "Olga Loiek",
+      "duration": "9:44",
+      "category": "Science / Productivity",
+      "url": "https://youtu.be/tnVI3AFWPJw",
+      "summary": "Cognitive science student explains Tim Pychyl's research on procrastination as an emotion-regulation problem, not a time-management one. Covers the amygdala vs. dorsal anterior cingulate cortex competition, how avoidance loops physically strengthen procrastination neural pathways, and how perfectionism and 'productive procrastination' disguise avoidance. Fix: name the emotion, shrink the task to 10 minutes, just start.",
+      "relevance": "Useful neuroscience framing for anyone who dreams big but stalls on execution — directly applicable to shipping side projects."
+    },
+    {
+      "id": "8wXDoZtyO2A",
+      "title": "Apple BLOWS UP The Entire Tech Market With Latest Announcement!",
+      "channel": "Tech Meets East",
+      "duration": "13:54",
+      "category": "Apple / AI",
+      "url": "https://youtu.be/8wXDoZtyO2A",
+      "summary": "Comprehensive breakdown of Apple's four simultaneous 2026 moves: Tim Cook stepping down for hardware chief John Ternus, Siri AI rebuilt on Google Gemini foundation models ($1B/year deal) with multi-turn conversations and on-screen awareness, the horizontally-folding iPhone Ultra at $2K with near-invisible crease and 2nm A20 chip, and a $600B US manufacturing commitment including TSMC Arizona fab and Broadcom chip deal.",
+      "relevance": "Dense recap of every major Apple 2026 play — the Gemini-powered Siri admission alone is worth tracking for what it says about vertical integration hitting its limits in the AI era."
+    },
+    {
+      "id": "WOrBqoPntak",
+      "title": "CERN May Have Opened the Door to a New Reality | Brian Greene Explains",
+      "channel": "Brian Greene Theory",
+      "duration": "31:24",
+      "category": "Science",
+      "url": "https://youtu.be/WOrBqoPntak",
+      "summary": "Covers two major anomalies at CERN: the lepton universality violation (beauty quark decays producing electrons more often than muons, breaking the Standard Model's equal-treatment rule) and the muon g-2 anomaly (muon magnetic wobble deviating from predictions, suggesting collisions with unknown virtual particles). Both point toward a possible fifth fundamental force or undiscovered massive particles like leptoquarks or Z-prime bosons.",
+      "relevance": "Dramatized presentation aside, the underlying physics — a potential fifth force hinted by real CERN data — is genuinely frontier science worth 30 minutes if you haven't followed the muon anomalies."
+    },
+    {
+      "id": "LjTGVqTpjVs",
+      "title": "The German Workplace You Knew Is Ending And Here's What's Replacing It",
+      "channel": "Adaz Place",
+      "duration": "21:59",
+      "category": "Germany / Work & Policy",
+      "url": "https://youtu.be/LjTGVqTpjVs",
+      "summary": "Walks through five German employment law changes converging in 2025-2030: day-one sick-note requirement (abolishing the 3-day grace period and phone sick notes), EU Pay Transparency Directive (salary ranges in job ads, ban on salary-history questions, burden-of-proof shift), proposed elimination of tax classes 3/5 in favor of factored class 4, expanded Chancenkarte/skilled-immigration pathways, and a draft shift from daily to weekly working-hour caps. Frames all five as downstream of three structural forces: demographic collapse (10-12M boomers retiring by 2035), competitiveness anxiety vs. China/US/Eastern Europe, and binding EU directive transposition deadlines.",
+      "relevance": "Living and hiring in Munich, every one of these five changes hits my payroll, contracts, and team composition — worth 20 minutes to get the full picture in one sitting."
+    },
+    {
+      "id": "xmGY276gEFY",
+      "title": "Claude Code's creator has some really good advice",
+      "channel": "Theo - t3․gg",
+      "duration": "19:12",
+      "category": "AI / Anthropic",
+      "url": "https://youtu.be/xmGY276gEFY",
+      "summary": "Theo breaks down a post by Boris (co-creator of Claude Code) arguing that traditional engineering skills — automation, custom lint rules, preview environments, end-to-end tests — are now more valuable than ever because they multiply the output of AI agent fleets, not just individual developers. Key insight: engineers should encode domain knowledge into infrastructure (CLAUDE.md rules, skills, CI steps) so that both human newcomers and agents produce high-quality code from day one. Theo shares practical examples like building a Cloudflare microservice for agent file uploads and using Playwright bots for E2E testing at Twitch.",
+      "relevance": "Directly about Claude Code's origin story and the exact workflow I use daily — encoding domain knowledge into CLAUDE.md and skills to steer agents."
+    },
+    {
+      "id": "LMQwGVSSdDk",
+      "title": "OpenMontage + Antigravity Changed My Editing Game (It's Free)",
+      "channel": "AI with Surya",
+      "duration": "11:52",
+      "category": "AI / Tools",
+      "url": "https://youtu.be/LMQwGVSSdDk",
+      "summary": "Walkthrough of Open Montage, a trending open-source repo (36k GitHub stars) that uses markdown instruction files, Python scripts, and Remotion to let an AI coding agent auto-edit videos — adding motion graphics, captions, and animations locally at zero cost (minus LLM API calls). Demonstrates install, raw-clip workflow, and the difference between vague vs. detailed prompts for controlling output quality.",
+      "relevance": "Open-source video editing via agent instructions — exactly the kind of agentic tool pipeline worth knowing about."
+    },
+    {
+      "id": "jxGJT1weu4w",
+      "title": "Did Anthropic just kill the indie hacker...?",
+      "channel": "Fireship",
+      "duration": "4:47",
+      "category": "AI / Anthropic",
+      "url": "https://youtu.be/jxGJT1weu4w",
+      "summary": "Fireship covers Anthropic's Opus 5 release: 1M context window, 128K output tokens, five thinking levels, higher hallucination rate (50% when uncertain), and strong coding benchmarks with self-verification. The core argument is that AI is eroding the indie hacker moat — coding skill is no longer a barrier when anyone can vibe-code a SaaS competitor for $20/month, making distribution and branding the new differentiators.",
+      "relevance": "Classic Fireship 4-min density on Opus 5 plus a real debate on whether the indie hacker model survives when execution is commoditized — directly relevant if you're building products."
+    },
+    {
+      "id": "gdnOrWvK2Fs",
+      "title": "God Doesn’t Exist the Way You Think — Alan Watts Explains",
+      "channel": "Simply Art - Inspire",
+      "duration": "28:00",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/gdnOrWvK2Fs",
+      "summary": "Alan Watts deconstructs the traditional personified God concept, arguing what died in 'death of God' theology is an outdated idea, not the divine itself. He draws a sharp distinction between belief (a fervent wish for certainty) and faith (an open, relaxed trust — like floating in water), contending that religious fanaticism signals absence of faith. Explores how abstract philosophical concepts of God (e.g. Aquinas's 'necessary being') are more dangerous idols than wooden statues.",
+      "relevance": "Classic Watts on why clinging to fixed models — of God or reality — is the real sin; pairs well with simulation/consciousness rabbit holes."
+    }
+  ]
+}
