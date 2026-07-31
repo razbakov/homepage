@@ -1,138 +1,128 @@
 {
   "date": "2026-07-31",
   "source": "youtube-homepage-recommendations",
-  "total_recommended": 14,
-  "summarized": 13,
+  "total_recommended": 80,
+  "summarized": 12,
   "items": [
-    {
-      "id": "x7p5cClmdfI",
-      "title": "Everyone Signed This Letter (...minus Anthropic)",
-      "channel": "Theo - t3․gg",
-      "duration": "32:11",
-      "category": "AI / Anthropic",
-      "url": "https://youtu.be/x7p5cClmdfI",
-      "summary": "Nvidia published an open letter arguing that open-weight models matter for safety, innovation and national sovereignty — signed by Amazon, AMD, Google, Microsoft, Meta, Mistral, OpenAI and others. Theo's point is who didn't sign: Anthropic. He traces the trigger back to a White House claim that Moonshot AI covertly distilled Anthropic's Fable at scale to build K3, and the resulting push to possibly ban Chinese open-weight models in the US. Dario published a public letter addressing the controversy; Theo reads the split as a genuine disagreement about whether open weights help or endanger American AI leadership.",
-      "relevance": "The clearest map of the open-weights fight — and of the fault line running between the labs on whether the model layer should stay open at all."
-    },
-    {
-      "id": "JBzz53HqMEs",
-      "title": "US AI Dominance Is Over: Here's Why",
-      "channel": "AI News & Strategy Daily | Nate B Jones",
-      "duration": "24:01",
-      "category": "AI / Research",
-      "url": "https://youtu.be/JBzz53HqMEs",
-      "summary": "Jones argues 'Chinese models' is a lazy category: DeepSeek, Qwen, GLM, Kimi and MiniMax share a country of origin and nothing else — not price, not licence, not deployment path. He separates three decisions people wrongly collapse into one: the task, the model, and where the data is allowed to go. His practical read: DeepSeek for high-volume reviewable work at ~87c per million output tokens, small Qwen models for local/private work, GLM 5.2 for long-horizon coding — and 'open' itself is several separate questions (API access, downloadable weights, licence terms, whether your hardware can actually serve it).",
-      "relevance": "The most useful correction I've seen to the 'Chinese models' shorthand — it replaces a vibe with a decision procedure you can actually run."
-    },
     {
       "id": "Y8vAQ1FgNbM",
       "title": "Paste This Into Claude, Never Hit a Token Limit Again",
       "channel": "AI News & Strategy Daily | Nate B Jones",
       "duration": "20:16",
-      "category": "Building / Dev",
+      "category": "AI / Claude",
       "url": "https://youtu.be/Y8vAQ1FgNbM",
-      "summary": "On one working day Jones's tracker recorded 3.77 billion tokens through his Codex workspace — 3.59 billion of it reused input, roughly 96%. Because models have no memory, every turn resends the whole conversation from the top, so your 30th message costs far more than your first while the words you actually typed become a rounding error. He argues the labs have no incentive to fix this and lays out three levels: nine manual habits (edit mistakes instead of correcting them in a new turn, batch related questions, start a clean task when the job changes), a 'Token Saver' skill, and a multi-agent framework.",
-      "relevance": "If you keep hitting usage limits without doing anything unreasonable, this explains the actual mechanism — and rule three alone changed his measured usage most."
+      "summary": "Breaks down why AI token limits hit so fast — 96% of tokens are reused input that compounds with every message. Presents 15 rules in 3 tiers: habits (edit instead of retry, start clean threads, carry artifacts not full conversations, specify output format), a 'Token Saver' skill for Claude Code/Codex that automates those habits, and a multi-agent framework that prevents bloat by isolating tasks. Key insight: output tokens cost double because they become input on every subsequent turn.",
+      "relevance": "Practical token hygiene for heavy Claude Code users — most of these map directly to how I already structure agents and worktrees, but the 'carry the answer not the argument' framing is a good mental model."
     },
     {
-      "id": "qV_K0nTF6gY",
-      "title": "This was a data center a year ago… Now it's on my desk",
-      "channel": "Alex Ziskind",
-      "duration": "16:52",
-      "category": "AI / Hardware",
-      "url": "https://youtu.be/qV_K0nTF6gY",
-      "summary": "A hands-on with the Nvidia DGX Station (GB300 desktop superchip, in an Asus chassis): 748GB of coherent memory fusing a fast 256GB HBM pool at 7–8 TB/s with a slower ~500GB Grace pool at 500 GB/s, plus 400-gigabit ConnectX-8 network cards normally found in data centers. Ziskind runs GLM 5.2, DeepSeek V4 and Nemotron locally using Nvidia's NVFP4 4-bit format — which shrinks GLM 5.2 from roughly 2TB to 465GB on disk. Even spilling past HBM into the slower pool, the mixture-of-experts design keeps it at about 24 tokens per second; Nemotron 120B hits ~185.",
-      "relevance": "Worth it for the memory-tier explanation alone — it shows exactly what quantisation and mixture-of-experts buy you when you want frontier-scale models running on hardware you own."
+      "id": "sbzUrtQ1Rb0",
+      "title": "I've Stopped Calling Her Sophia — Her TRUE Name Changes Everything",
+      "channel": "Gnostic Talk",
+      "duration": "34:19",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/sbzUrtQ1Rb0",
+      "summary": "Deep textual analysis of Gnostic sources (Apocryphon of John, Trimorphic Protennoia, Nag Hammadi texts) arguing that Sophia's original name 'Prunikos/Pronoia' reframes her 'fall' from a passive mistake into an intentional creative lunge — the descent of divine light into matter was the mission, not the error. Explores how institutional Christianity suppressed this reading because it undermines theologies of unworthiness.",
+      "relevance": "Gnostic cosmology as proto-simulation theory — the material world as intentional construct, not degraded copy. Solid textual scholarship, not New Age fluff."
     },
     {
-      "id": "_xjxwl1zLMc",
-      "title": "Framework 13 Pro: The Modular Laptop is Real!",
-      "channel": "Marques Brownlee",
-      "duration": "12:48",
-      "category": "Hardware / Ownership",
-      "url": "https://youtu.be/_xjxwl1zLMc",
-      "summary": "Brownlee frames modular tech as a category that usually dies before shipping (Project Ara, Phonebloks) and argues Framework has now made the leap to genuinely premium. Framework's own internal brief, quoted in the video, was 'how do we build the MacBook Pro for Linux users' — MacBook-level battery life in a machine that respects your rights. The 13 Pro is a full CNC aluminium chassis roughly as thin as a 14-inch MacBook Pro, with swappable ports, a replaceable input cover and display bezel, and a published parts-replacement guide.",
-      "relevance": "The counter-argument to sealed hardware, made without the usual martyrdom — repairability is finally showing up in a machine you'd want anyway."
+      "id": "LB6X0plFg5Y",
+      "title": "Beyond the Demiurge — The Ascent from the 7 Heavens to the 13th Aeon",
+      "channel": "Hidden Gnosis",
+      "duration": "22:19",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/LB6X0plFg5Y",
+      "summary": "Deep dive into Gnostic cosmology: the seven heavens as layers of perception (not physical places) that trap consciousness through identity, desire, and false enlightenment. Explores the Ogdoad (8th realm of true light that dissolves the self) and the 13th Aeon as the source beyond the Demiurge's architecture — reached not by ascending but by becoming transparent, shedding every constructed identity.",
+      "relevance": "Gnostic cosmology as a proto-simulation framework — the Demiurge as a blind architect, reality as layered perception filters, and liberation through seeing through the construct rather than climbing it."
     },
     {
-      "id": "GDQmZ5d9P-I",
-      "title": "Claude Made This Entire Video With One Prompt (WTF)",
-      "channel": "AI Samson",
-      "duration": "5:47",
-      "category": "AI / Tools",
-      "url": "https://youtu.be/GDQmZ5d9P-I",
-      "summary": "Samson says he gave Claude a single concept-level prompt plus access to his channel analytics, transcripts, an ElevenLabs voice clone, a HeyGen avatar and Higgsfield for B-roll — and it produced the script, voiceover, footage, animations, edit list and upload, capturing its own screen while doing it. He gave four rounds of feedback (lip sync, text covering his face, B-roll featuring him) and reports it saved each correction to memory rather than repeating the mistake. Cost was about €200 across four render passes, which he estimates drops to roughly €40 now the workflow exists.",
-      "relevance": "His own conclusion is the interesting part: the bottleneck moved from 'can you make it' to 'is it worth making' — what's left of the job is taste and judgement."
+      "id": "gdnOrWvK2Fs",
+      "title": "God Doesn’t Exist the Way You Think — Alan Watts Explains",
+      "channel": "Simply Art - Inspire",
+      "duration": "28:00",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/gdnOrWvK2Fs",
+      "summary": "Alan Watts deconstructs traditional theistic concepts, arguing the 'death of God' is really the death of an outdated idol — a kingly, judgmental figure that no longer fits the universe science reveals. He distinguishes belief (fervent wishing) from faith (radical openness and trust, like relaxing into water), and warns that abstract theological concepts are more dangerous idols than wooden statues because they feel more 'spiritual.'",
+      "relevance": "Classic Watts on why clinging to fixed mental models — of God or anything — is the opposite of real understanding; resonates with simulation/consciousness thinking."
+    },
+    {
+      "id": "lKpExdKD6Zg",
+      "title": "Nobel Prize Winner Warns: “Something Is Wrong With Our Universe” — James Webb Just Confirmed It",
+      "channel": "Destiny",
+      "duration": "28:27",
+      "category": "Science",
+      "url": "https://youtu.be/lKpExdKD6Zg",
+      "summary": "Covers the Hubble tension crisis: JWST confirmed that local universe expansion measurements (73 km/s/Mpc via Cepheid variables and Type Ia supernovae) genuinely disagree with CMB-derived values (67 km/s/Mpc from Planck), ruling out instrument error. Also discusses JWST's discovery of impossibly massive, luminous galaxies existing just 600M years after the Big Bang, challenging standard galaxy formation timelines. Explores implications: the universe may be ~1 billion years younger than assumed, and our cosmological standard model may need fundamental revision.",
+      "relevance": "Solid explainer on one of the biggest open problems in physics right now — the Hubble tension is real, confirmed, and nobody knows what's missing from the model."
     },
     {
       "id": "jxGJT1weu4w",
       "title": "Did Anthropic just kill the indie hacker...?",
       "channel": "Fireship",
       "duration": "4:47",
-      "category": "Building / Dev",
-      "url": "https://youtu.be/jxGJT1weu4w",
-      "summary": "A run through Claude Opus 5 — Anthropic's fourth frontier model in eight weeks — with a 1M-token context window, up to 128k output tokens and five thinking levels, promising near-Fable intelligence at half the price. Fireship notes it scores more accurately than Opus 4.8 on the Artificial Analysis knowledge test while its hallucination rate rose 14 percentage points to 50%, meaning it now answers more often when it doesn't know. His larger argument: coding itself was the indie hacker's moat, and once execution costs $20 a month the ceiling rises but the floor gets crowded — leaving distribution, branding and proprietary data as what's left to win on.",
-      "relevance": "Five minutes that names the uncomfortable trade cleanly: 'ideas are worthless, execution is everything' stops being true when execution is a subscription."
-    },
-    {
-      "id": "FyYRDeXbfW0",
-      "title": "How to pick an AI model in 2026",
-      "channel": "AI News & Strategy Daily | Nate B Jones",
-      "duration": "1:33",
-      "category": "AI / Tools",
-      "url": "https://youtu.be/FyYRDeXbfW0",
-      "summary": "Jones splits model choice into two roles: a daily driver, which must be broadly good because you reach for it before the task is clear, and a cheap workhorse, which earns its place when the job is familiar and repeatable. He argues you should describe the work before naming a model, and makes the case that GLM 5.2 is strong on 'centre of distribution' work — landing page drafts, meeting summaries, memos, CRM cleanups, routine synthesis — not just the coding tasks that dominate the conversation because they're easy to benchmark.",
-      "relevance": "A ninety-second reframe that kills the 'which model is best' question and replaces it with a better one."
-    },
-    {
-      "id": "TN3rglofqmE",
-      "title": "A hack to build cheaper agents",
-      "channel": "AI News & Strategy Daily | Nate B Jones",
-      "duration": "0:53",
-      "category": "Building / Dev",
-      "url": "https://youtu.be/TN3rglofqmE",
-      "summary": "Jones argues most people never get past the demo agent because they think each new use case means starting over. His counter: what you built the first time — ingestion with anchors back to the source, normalisation, the receipt, the gate — are primitives that don't care whether they're running in a scheduling thread or an insurance denial claim. Every build adds a component to the shelf, which is what makes the next build cheaper.",
-      "relevance": "The flywheel framing is right: the value compounds in the primitives you keep, not in any single agent you ship."
-    },
-    {
-      "id": "VvE2hdmL22c",
-      "title": "Codeberg, wtf is this ban",
-      "channel": "Theo - t3․gg",
-      "duration": "0:50",
-      "category": "AI / Open Source",
-      "url": "https://youtu.be/VvE2hdmL22c",
-      "summary": "Theo reads Codeberg's new policy barring projects that mostly consist of AI-generated code, on the grounds that such projects have unclear copyright status and few safeguards against harmful code. He polls his chat on which is more likely to be secure — a vibe-coded package built with current models, or a random below-average developer's package — and reports about 90% picked the AI-generated one, with many saying they'd have answered the opposite a year ago.",
-      "relevance": "A live poll, not evidence — but it captures how fast the assumed quality floor of machine-written code has moved."
-    },
-    {
-      "id": "l_060SZwBeo",
-      "title": "The Fable 5 ban taught companies one thing",
-      "channel": "AI News & Strategy Daily | Nate B Jones",
-      "duration": "0:18",
       "category": "AI / Anthropic",
-      "url": "https://youtu.be/l_060SZwBeo",
-      "summary": "Jones's retrospective on the eighteen days Fable 5 was unavailable: what's gone is the assumption that the model you build on will still be there tomorrow. The companies that shrugged it off, he argues, were the ones that had never tied their work to a single model — they owned the harness, routed somewhere else, and kept moving.",
-      "relevance": "Eighteen seconds, and the most portable lesson in the whole feed: own the harness, not the model."
+      "url": "https://youtu.be/jxGJT1weu4w",
+      "summary": "Fireship reviews Claude Opus 5's capabilities (1M context, 128K output, five thinking levels) and notes its higher hallucination rate and neurotic behavior. The core argument: AI hasn't killed software engineers — it's killing software as a product, because the coding moat that made indie SaaS viable is gone when anyone can vibe-code a competitor for $20/month.",
+      "relevance": "Direct Anthropic coverage plus a sharp take on how the vibe-coding wave reshapes the indie builder playbook — relevant to anyone shipping SaaS today."
     },
     {
-      "id": "9wBOqiGsQo8",
-      "title": "The AI hype is real",
-      "channel": "AI News & Strategy Daily | Nate B Jones",
-      "duration": "0:37",
-      "category": "AI / Business",
-      "url": "https://youtu.be/9wBOqiGsQo8",
-      "summary": "Jersey Mike's filed for IPO on 2 July under ticker JMKE — a Blackstone-backed sandwich chain with $724 million in revenue last year, whose S-1 mentions artificial intelligence 22 times. TechCrunch treated it as a joke about AI hype; Jones reads it as a measurement instead, arguing that when a sandwich chain's lawyers decide the filing needs 22 AI references, it tells you how cheap capital has become around anything AI-adjacent.",
-      "relevance": "A good reminder that the funniest datapoint in a cycle is often the most diagnostic one."
+      "id": "tnVI3AFWPJw",
+      "title": "I DREAM BIG BUT DO NOTHING. the neuroscience behind why & how to fix",
+      "channel": "Olga Loiek",
+      "duration": "9:44",
+      "category": "Science",
+      "url": "https://youtu.be/tnVI3AFWPJw",
+      "summary": "Cognitive science student explains Tim Pychyl's research on procrastination as an emotion regulation problem, not a time management one. Covers the amygdala hijack / avoidance loop mechanism, how each cycle physically strengthens the procrastination neural pathway, and the two disguises (perfectionism and productive procrastination). Fix: catch & name the emotion, then shrink the task to a 10-minute start — Pychyl's pager study showed the dread is almost always worse than the doing.",
+      "relevance": "Useful neuroscience-backed framework for anyone who plans big projects but keeps defaulting to 'productive procrastination' — basically a builder's debugging guide for the avoidance loop."
     },
     {
-      "id": "iAz2K5sM_OE",
-      "title": "The West fell asleep when the rest of the world was waking up | Kishore Mahbubani",
-      "channel": "The Institute of Art and Ideas",
-      "duration": "1:22",
-      "category": "Geopolitics",
-      "url": "https://youtu.be/iAz2K5sM_OE",
-      "summary": "Mahbubani argues the 'end of history' moment was a strategic disaster for the West because triumphalism arrived precisely as other civilisations were accelerating. His example is China: the last 40 years have been, on his reading, the best 40 years in 4,000 years of Chinese history, and the West struggled to accept it because it assumed success required being liberal-democratic first. The arrogance, he says, closed Western eyes at the exact moment the rest of the world opened theirs.",
-      "relevance": "Pairs uncomfortably well with today's model-frontier videos — the same assumption that the lead is structural rather than earned."
+      "id": "7lQTfrOTROo",
+      "title": "«Главные теории физики НЕ ДОКАЗАНЫ» — Сабина Хоссенфельдер про устройство Вселенной",
+      "channel": "Глеб Соломин",
+      "duration": "1:13:05",
+      "category": "Science / Philosophy",
+      "url": "https://youtu.be/7lQTfrOTROo",
+      "summary": "Russian-language interview with theoretical physicist Sabine Hossenfelder (via Gleb Solomin) challenging the empirical status of major physics theories — likely covering unfalsifiability of string theory, multiverse hypotheses, and the sociology of modern theoretical physics that keeps unproven frameworks dominant.",
+      "relevance": "Hossenfelder всегда чётко режет правду про фундаментальную физику — 1h13m интервью на русском, стоит послушать за ужином."
+    },
+    {
+      "id": "sYdXa_yp0fc",
+      "title": "Strings Don't Vibrate The Way You Think",
+      "channel": "minutephysics",
+      "duration": "4:43",
+      "category": "Science",
+      "url": "https://youtu.be/sYdXa_yp0fc",
+      "summary": "Plucked guitar strings don't vibrate like sine-wave jump ropes — they move as triangular zigzag waves of straight lines and sharp corners, explained by how tension cancels along straight segments but combines at bend points. Phone videos showing wavy strings are rolling-shutter artifacts. The triangle shape is a superposition of harmonics; plucking near the middle emphasizes the fundamental (purer tone), while near the ends adds higher harmonics (tinnier sound). Striking (piano) and bowing (violin) produce different characteristic wave shapes.",
+      "relevance": "Beautifully counterintuitive physics — the kind of 'everything you visualized is wrong' insight that rewires how you see everyday objects."
+    },
+    {
+      "id": "bfxwzdqroe8",
+      "title": "Создатель микропроцессора о сознании. Федерико Фаджин",
+      "channel": "Booster Void",
+      "duration": "1:19:51",
+      "category": "Consciousness / Science",
+      "url": "https://youtu.be/bfxwzdqroe8",
+      "summary": "Federico Faggin, inventor of the Intel 4004 microprocessor, discusses his theory that consciousness is fundamental and irreducible to computation. He argues from decades of chip design experience that awareness cannot emerge from silicon alone, proposing a quantum information framework where consciousness is a primitive property of reality, not an epiphenomenon of complexity.",
+      "relevance": "The guy who literally built the first microprocessor says consciousness can't be computed — that's a mass-times-velocity argument worth hearing out."
+    },
+    {
+      "id": "F-S-x0b9TrE",
+      "title": "The Craziest Mapping Breakthrough Since Google Earth",
+      "channel": "Bilawal Sidhu",
+      "duration": "22:00",
+      "category": "Spatial Computing / AI",
+      "url": "https://youtu.be/F-S-x0b9TrE",
+      "summary": "Bilawal Sidhu breaks down how 3D Gaussian splatting has gone from research paper to production: Niantic's Scaniverse lets phones and 360 cameras capture photorealistic 3D scenes, Zillow already uses drone-captured splats for home listings, and the US Coast Guard trains pilots in scanned landing zones. The Khronos Group shipped a glTF extension (KHR_gaussian_splatting) standardizing the format, Niantic's SPZ codec achieves 10x compression, and Cesium's 3D Tiles streams city-scale splats in-browser over 4G — creating one unified map for both humans (AR glasses) and machines (robots, autonomous vehicles).",
+      "relevance": "The convergence of Gaussian splats + open standards + AR glasses is exactly the spatial computing infrastructure Vision Pro and its successors will run on — this is the most concrete progress report I've seen on mapping the real world for both humans and AI."
+    },
+    {
+      "id": "b_44Ra8msls",
+      "title": "OpenAI President On Reinventing Computers",
+      "channel": "Joanna Stern",
+      "duration": "21:58",
+      "category": "AI / OpenAI",
+      "url": "https://youtu.be/b_44Ra8msls",
+      "summary": "Greg Brockman outlines OpenAI's vision: voice-first computing replacing typing, ChatGPT desktop evolving into a cloud-based agent OS with computer control and Codex integration, and a family of first-party devices (with custom silicon) built for the AI era. He sidesteps Apple's trade-secrets lawsuit, discusses the innovator's dilemma of expanding ChatGPT beyond chat, and predicts a future where AI agents proactively handle tasks overnight while humans become managers approving/rejecting agent work over morning coffee.",
+      "relevance": "Brockman rarely does interviews — this is a candid look at OpenAI's product roadmap: agent OS, hardware ambitions, and the compute-in-cloud shift that directly competes with Apple's on-device paradigm."
     }
   ]
 }
