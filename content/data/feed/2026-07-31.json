@@ -1,0 +1,138 @@
+{
+  "date": "2026-07-31",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 14,
+  "summarized": 13,
+  "items": [
+    {
+      "id": "x7p5cClmdfI",
+      "title": "Everyone Signed This Letter (...minus Anthropic)",
+      "channel": "Theo - t3․gg",
+      "duration": "32:11",
+      "category": "AI / Anthropic",
+      "url": "https://youtu.be/x7p5cClmdfI",
+      "summary": "Nvidia published an open letter arguing that open-weight models matter for safety, innovation and national sovereignty — signed by Amazon, AMD, Google, Microsoft, Meta, Mistral, OpenAI and others. Theo's point is who didn't sign: Anthropic. He traces the trigger back to a White House claim that Moonshot AI covertly distilled Anthropic's Fable at scale to build K3, and the resulting push to possibly ban Chinese open-weight models in the US. Dario published a public letter addressing the controversy; Theo reads the split as a genuine disagreement about whether open weights help or endanger American AI leadership.",
+      "relevance": "The clearest map of the open-weights fight — and of the fault line running between the labs on whether the model layer should stay open at all."
+    },
+    {
+      "id": "JBzz53HqMEs",
+      "title": "US AI Dominance Is Over: Here's Why",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration": "24:01",
+      "category": "AI / Research",
+      "url": "https://youtu.be/JBzz53HqMEs",
+      "summary": "Jones argues 'Chinese models' is a lazy category: DeepSeek, Qwen, GLM, Kimi and MiniMax share a country of origin and nothing else — not price, not licence, not deployment path. He separates three decisions people wrongly collapse into one: the task, the model, and where the data is allowed to go. His practical read: DeepSeek for high-volume reviewable work at ~87c per million output tokens, small Qwen models for local/private work, GLM 5.2 for long-horizon coding — and 'open' itself is several separate questions (API access, downloadable weights, licence terms, whether your hardware can actually serve it).",
+      "relevance": "The most useful correction I've seen to the 'Chinese models' shorthand — it replaces a vibe with a decision procedure you can actually run."
+    },
+    {
+      "id": "Y8vAQ1FgNbM",
+      "title": "Paste This Into Claude, Never Hit a Token Limit Again",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration": "20:16",
+      "category": "Building / Dev",
+      "url": "https://youtu.be/Y8vAQ1FgNbM",
+      "summary": "On one working day Jones's tracker recorded 3.77 billion tokens through his Codex workspace — 3.59 billion of it reused input, roughly 96%. Because models have no memory, every turn resends the whole conversation from the top, so your 30th message costs far more than your first while the words you actually typed become a rounding error. He argues the labs have no incentive to fix this and lays out three levels: nine manual habits (edit mistakes instead of correcting them in a new turn, batch related questions, start a clean task when the job changes), a 'Token Saver' skill, and a multi-agent framework.",
+      "relevance": "If you keep hitting usage limits without doing anything unreasonable, this explains the actual mechanism — and rule three alone changed his measured usage most."
+    },
+    {
+      "id": "qV_K0nTF6gY",
+      "title": "This was a data center a year ago… Now it's on my desk",
+      "channel": "Alex Ziskind",
+      "duration": "16:52",
+      "category": "AI / Hardware",
+      "url": "https://youtu.be/qV_K0nTF6gY",
+      "summary": "A hands-on with the Nvidia DGX Station (GB300 desktop superchip, in an Asus chassis): 748GB of coherent memory fusing a fast 256GB HBM pool at 7–8 TB/s with a slower ~500GB Grace pool at 500 GB/s, plus 400-gigabit ConnectX-8 network cards normally found in data centers. Ziskind runs GLM 5.2, DeepSeek V4 and Nemotron locally using Nvidia's NVFP4 4-bit format — which shrinks GLM 5.2 from roughly 2TB to 465GB on disk. Even spilling past HBM into the slower pool, the mixture-of-experts design keeps it at about 24 tokens per second; Nemotron 120B hits ~185.",
+      "relevance": "Worth it for the memory-tier explanation alone — it shows exactly what quantisation and mixture-of-experts buy you when you want frontier-scale models running on hardware you own."
+    },
+    {
+      "id": "_xjxwl1zLMc",
+      "title": "Framework 13 Pro: The Modular Laptop is Real!",
+      "channel": "Marques Brownlee",
+      "duration": "12:48",
+      "category": "Hardware / Ownership",
+      "url": "https://youtu.be/_xjxwl1zLMc",
+      "summary": "Brownlee frames modular tech as a category that usually dies before shipping (Project Ara, Phonebloks) and argues Framework has now made the leap to genuinely premium. Framework's own internal brief, quoted in the video, was 'how do we build the MacBook Pro for Linux users' — MacBook-level battery life in a machine that respects your rights. The 13 Pro is a full CNC aluminium chassis roughly as thin as a 14-inch MacBook Pro, with swappable ports, a replaceable input cover and display bezel, and a published parts-replacement guide.",
+      "relevance": "The counter-argument to sealed hardware, made without the usual martyrdom — repairability is finally showing up in a machine you'd want anyway."
+    },
+    {
+      "id": "GDQmZ5d9P-I",
+      "title": "Claude Made This Entire Video With One Prompt (WTF)",
+      "channel": "AI Samson",
+      "duration": "5:47",
+      "category": "AI / Tools",
+      "url": "https://youtu.be/GDQmZ5d9P-I",
+      "summary": "Samson says he gave Claude a single concept-level prompt plus access to his channel analytics, transcripts, an ElevenLabs voice clone, a HeyGen avatar and Higgsfield for B-roll — and it produced the script, voiceover, footage, animations, edit list and upload, capturing its own screen while doing it. He gave four rounds of feedback (lip sync, text covering his face, B-roll featuring him) and reports it saved each correction to memory rather than repeating the mistake. Cost was about €200 across four render passes, which he estimates drops to roughly €40 now the workflow exists.",
+      "relevance": "His own conclusion is the interesting part: the bottleneck moved from 'can you make it' to 'is it worth making' — what's left of the job is taste and judgement."
+    },
+    {
+      "id": "jxGJT1weu4w",
+      "title": "Did Anthropic just kill the indie hacker...?",
+      "channel": "Fireship",
+      "duration": "4:47",
+      "category": "Building / Dev",
+      "url": "https://youtu.be/jxGJT1weu4w",
+      "summary": "A run through Claude Opus 5 — Anthropic's fourth frontier model in eight weeks — with a 1M-token context window, up to 128k output tokens and five thinking levels, promising near-Fable intelligence at half the price. Fireship notes it scores more accurately than Opus 4.8 on the Artificial Analysis knowledge test while its hallucination rate rose 14 percentage points to 50%, meaning it now answers more often when it doesn't know. His larger argument: coding itself was the indie hacker's moat, and once execution costs $20 a month the ceiling rises but the floor gets crowded — leaving distribution, branding and proprietary data as what's left to win on.",
+      "relevance": "Five minutes that names the uncomfortable trade cleanly: 'ideas are worthless, execution is everything' stops being true when execution is a subscription."
+    },
+    {
+      "id": "FyYRDeXbfW0",
+      "title": "How to pick an AI model in 2026",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration": "1:33",
+      "category": "AI / Tools",
+      "url": "https://youtu.be/FyYRDeXbfW0",
+      "summary": "Jones splits model choice into two roles: a daily driver, which must be broadly good because you reach for it before the task is clear, and a cheap workhorse, which earns its place when the job is familiar and repeatable. He argues you should describe the work before naming a model, and makes the case that GLM 5.2 is strong on 'centre of distribution' work — landing page drafts, meeting summaries, memos, CRM cleanups, routine synthesis — not just the coding tasks that dominate the conversation because they're easy to benchmark.",
+      "relevance": "A ninety-second reframe that kills the 'which model is best' question and replaces it with a better one."
+    },
+    {
+      "id": "TN3rglofqmE",
+      "title": "A hack to build cheaper agents",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration": "0:53",
+      "category": "Building / Dev",
+      "url": "https://youtu.be/TN3rglofqmE",
+      "summary": "Jones argues most people never get past the demo agent because they think each new use case means starting over. His counter: what you built the first time — ingestion with anchors back to the source, normalisation, the receipt, the gate — are primitives that don't care whether they're running in a scheduling thread or an insurance denial claim. Every build adds a component to the shelf, which is what makes the next build cheaper.",
+      "relevance": "The flywheel framing is right: the value compounds in the primitives you keep, not in any single agent you ship."
+    },
+    {
+      "id": "VvE2hdmL22c",
+      "title": "Codeberg, wtf is this ban",
+      "channel": "Theo - t3․gg",
+      "duration": "0:50",
+      "category": "AI / Open Source",
+      "url": "https://youtu.be/VvE2hdmL22c",
+      "summary": "Theo reads Codeberg's new policy barring projects that mostly consist of AI-generated code, on the grounds that such projects have unclear copyright status and few safeguards against harmful code. He polls his chat on which is more likely to be secure — a vibe-coded package built with current models, or a random below-average developer's package — and reports about 90% picked the AI-generated one, with many saying they'd have answered the opposite a year ago.",
+      "relevance": "A live poll, not evidence — but it captures how fast the assumed quality floor of machine-written code has moved."
+    },
+    {
+      "id": "l_060SZwBeo",
+      "title": "The Fable 5 ban taught companies one thing",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration": "0:18",
+      "category": "AI / Anthropic",
+      "url": "https://youtu.be/l_060SZwBeo",
+      "summary": "Jones's retrospective on the eighteen days Fable 5 was unavailable: what's gone is the assumption that the model you build on will still be there tomorrow. The companies that shrugged it off, he argues, were the ones that had never tied their work to a single model — they owned the harness, routed somewhere else, and kept moving.",
+      "relevance": "Eighteen seconds, and the most portable lesson in the whole feed: own the harness, not the model."
+    },
+    {
+      "id": "9wBOqiGsQo8",
+      "title": "The AI hype is real",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration": "0:37",
+      "category": "AI / Business",
+      "url": "https://youtu.be/9wBOqiGsQo8",
+      "summary": "Jersey Mike's filed for IPO on 2 July under ticker JMKE — a Blackstone-backed sandwich chain with $724 million in revenue last year, whose S-1 mentions artificial intelligence 22 times. TechCrunch treated it as a joke about AI hype; Jones reads it as a measurement instead, arguing that when a sandwich chain's lawyers decide the filing needs 22 AI references, it tells you how cheap capital has become around anything AI-adjacent.",
+      "relevance": "A good reminder that the funniest datapoint in a cycle is often the most diagnostic one."
+    },
+    {
+      "id": "iAz2K5sM_OE",
+      "title": "The West fell asleep when the rest of the world was waking up | Kishore Mahbubani",
+      "channel": "The Institute of Art and Ideas",
+      "duration": "1:22",
+      "category": "Geopolitics",
+      "url": "https://youtu.be/iAz2K5sM_OE",
+      "summary": "Mahbubani argues the 'end of history' moment was a strategic disaster for the West because triumphalism arrived precisely as other civilisations were accelerating. His example is China: the last 40 years have been, on his reading, the best 40 years in 4,000 years of Chinese history, and the West struggled to accept it because it assumed success required being liberal-democratic first. The arrogance, he says, closed Western eyes at the exact moment the rest of the world opened theirs.",
+      "relevance": "Pairs uncomfortably well with today's model-frontier videos — the same assumption that the lead is structural rather than earned."
+    }
+  ]
+}
