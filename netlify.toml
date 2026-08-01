@@ -7,7 +7,7 @@
   publish = "dist"
 
 [build.environment]
-  NODE_OPTIONS = "--max-old-space-size=4096"
+  NODE_OPTIONS = "--max-old-space-size=6144"
 
 [build.processing]
   skip_processing = false

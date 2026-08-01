@@ -145,6 +145,11 @@ export default defineNuxtConfig({
   routeRules: {},
   devtools: { enabled: true },
   compatibilityDate: "2025-01-07",
+  // Prerendering 1000+ routes (194 posts × 5 languages) accumulates memory;
+  // sourcemaps roughly double the build's peak heap and aren't needed in prod.
+  // Disabling them (plus the raised NODE_OPTIONS heap in netlify.toml) keeps the
+  // full-site prerender under the Netlify build container's memory ceiling.
+  sourcemap: false,
   nitro: {
     // `netlify` preset (not `static`): prerendered pages still ship as static
     // HTML, but dynamic server routes (e.g. /api/subscribe) are emitted as
