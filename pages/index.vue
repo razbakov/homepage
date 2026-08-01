@@ -14,7 +14,10 @@
             preload
           />
           <div>
-            <h1 class="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-coral-600 via-coral-500 to-teal-600 bg-clip-text text-transparent">
+            <p class="text-xs font-semibold uppercase tracking-widest text-coral-600/80 mb-3">
+              {{ $t('home.eyebrow') }}
+            </p>
+            <h1 class="text-3xl md:text-4xl font-bold mb-4 leading-tight bg-gradient-to-r from-coral-600 via-coral-500 to-teal-600 bg-clip-text text-transparent">
               {{ $t('home.title') }}
             </h1>
             <p class="text-lg text-muted-foreground leading-relaxed mb-5">
@@ -34,9 +37,20 @@
                 <Icon name="simple-icons:whatsapp" class="w-4 h-4" />
                 <span>{{ $t('home.whatsappCta') }}</span>
               </a>
+              <a
+                :href="linkedinUrl"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#0A66C2] text-white font-medium text-sm shadow-sm hover:bg-[#004182] transition-colors"
+                aria-label="Connect on LinkedIn"
+                @click="trackSocialLinkClick('LinkedIn', linkedinUrl)"
+              >
+                <Icon name="simple-icons:linkedin" class="w-4 h-4" />
+                <span>{{ $t('home.linkedinCta') }}</span>
+              </a>
               <div class="flex items-center gap-1">
                 <a
-                  v-for="link in socialLinks"
+                  v-for="link in socialLinks.filter(l => l.label !== 'LinkedIn')"
                   :key="link.label"
                   :href="link.href"
                   target="_blank"
@@ -61,10 +75,10 @@
             <Icon name="lucide:youtube" class="w-5 h-5 text-coral-600" />
           </div>
           <div class="flex-1 min-w-0">
-            <h3 class="font-semibold group-hover:text-coral-700 transition-colors">My daily YouTube feed</h3>
-            <p class="text-sm text-muted-foreground">The videos worth my time — AI, Apple, consciousness, science — summarized, with my take on each.</p>
+            <h3 class="font-semibold group-hover:text-coral-700 transition-colors">{{ $t('home.feedTitle') }}</h3>
+            <p class="text-sm text-muted-foreground">{{ $t('home.feedDescription') }}</p>
           </div>
-          <span class="text-coral-600 text-sm font-medium shrink-0 hidden sm:block">Today →</span>
+          <span class="text-coral-600 text-sm font-medium shrink-0 hidden sm:block">{{ $t('home.feedCta') }}</span>
         </NuxtLink>
 
         <!-- Academy banner -->
@@ -187,7 +201,7 @@ useSchemaOrg([
 const localePath = useLocalePath();
 const route = useRoute();
 const { filterByLanguage } = useLanguageFilter();
-const { socialLinks, whatsappUrl } = useSocialLinks();
+const { socialLinks, whatsappUrl, linkedinUrl } = useSocialLinks();
 const { trackSocialLinkClick } = useAnalytics();
 
 // Defer until after hydration so SSR and initial client render match.

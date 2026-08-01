@@ -32,19 +32,21 @@
     "relatedProjects": "Proyectos relacionados"
   },
   "home": {
-    "title": "Hola, soy Alösha",
-    "subtitle": "Construyo sistemas de agentes de IA que gestionan todo mi portafolio en piloto automático — y escribo para encontrar a mi gente.",
+    "eyebrow": "Fullstack · IA · Salsa · Múnich",
+    "title": "Construyo cosas que nos conectan — a través del código, del baile y de la comunidad.",
+    "subtitle": "La mayoría de la tecnología se hace para mantenerte en la pantalla. Yo construyo la que te devuelve a tu gente y tu propósito.",
     "cubanNudge": "También organizo eventos culturales cubanos y un festival →",
     "cubanNudgeAnd": "y",
-    "learnMore": "Más sobre mí →",
+    "learnMore": "Mira cómo funciona →",
     "whatsappCta": "Escríbeme por WhatsApp",
+    "linkedinCta": "Trabajemos juntos",
     "joinTelegram": "Únete a mi canal de Telegram",
     "telegramDescription": "Actualizaciones sobre programación en vivo, proyectos e ideas tech",
     "joinYoutube": "Suscríbete en YouTube",
     "youtubeDescription": "Tutoriales, charlas y sesiones de programación en vivo",
-    "academyTitle": "Learn by Doing Academy",
+    "academyTitle": "Aprende conmigo",
     "academyDescription": "Aprende a construir con IA. Sesiones en vivo semanales, proyectos reales, graduados en empresas reales.",
-    "academyCta": "Empezar prueba gratuita",
+    "academyCta": "Empieza gratis",
     "servicesNudge": "También ayudo a equipos a trabajar de forma más inteligente con IA.",
     "servicesNudgeLink": "Descubre cómo →",
     "interests": {
@@ -67,8 +69,11 @@
       "checkInbox": "Ya casi — revisa tu bandeja de entrada y haz clic en el enlace para confirmar."
     },
     "salsaTitle": "Baila conmigo en Múnich",
-    "salsaDescription": "Clase gratis de Salsa Cubana para principiantes los domingos en Buena Vista Bar, y noche cubana los lunes en La Frida — con Montuno Club.",
-    "salsaCta": "Ver el horario"
+    "salsaDescription": "Clase gratuita de Salsa Cubana para principiantes los domingos en Buena Vista Bar.",
+    "salsaCta": "Ver el horario",
+    "feedTitle": "Mira conmigo",
+    "feedDescription": "Los vídeos que merecen mi tiempo — IA, Apple, consciencia, ciencia — resumidos, con mi opinión sobre cada uno.",
+    "feedCta": "El feed de hoy →"
   },
   "about": {
     "title": "Alösha",

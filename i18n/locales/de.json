@@ -32,19 +32,21 @@
     "relatedProjects": "Verwandte Projekte"
   },
   "home": {
-    "title": "Hey, ich bin Alösha",
-    "subtitle": "Ich baue KI-Agentensysteme, die mein gesamtes Portfolio auf Autopilot betreiben — und ich schreibe, um meine Leute zu finden.",
+    "eyebrow": "Fullstack · KI · Salsa · München",
+    "title": "Ich baue Dinge, die uns verbinden — durch Code, durch Tanz und durch Community.",
+    "subtitle": "Die meiste Technik ist dafür gebaut, dich am Bildschirm zu halten. Ich baue die Art, die dir deine Menschen und deine Berufung zurückgibt.",
     "cubanNudge": "Ich veranstalte auch kubanische Kulturevents und ein Festival →",
     "cubanNudgeAnd": "und",
-    "learnMore": "Mehr über mich →",
+    "learnMore": "So funktioniert's →",
     "whatsappCta": "WhatsApp mir",
+    "linkedinCta": "Lass uns zusammenarbeiten",
     "joinTelegram": "Meinem Telegram-Kanal beitreten",
     "telegramDescription": "Updates zu Live-Coding, Projekten und Tech-Einblicken",
     "joinYoutube": "Auf YouTube abonnieren",
     "youtubeDescription": "Tutorials, Vorträge und Live-Coding-Sessions",
-    "academyTitle": "Learn by Doing Academy",
+    "academyTitle": "Lern mit mir",
     "academyDescription": "Lerne, mit KI zu bauen. Wöchentliche Live-Sessions, reale Projekte, Absolventen bei echten Unternehmen.",
-    "academyCta": "Kostenlos testen",
+    "academyCta": "Kostenlos starten",
     "servicesNudge": "Ich helfe Teams auch dabei, smarter mit KI zu arbeiten.",
     "servicesNudgeLink": "Mehr dazu →",
     "interests": {
@@ -67,8 +69,11 @@
       "checkInbox": "Fast geschafft — schau in dein Postfach und klicke den Link zur Bestätigung."
     },
     "salsaTitle": "Tanz mit mir in München",
-    "salsaDescription": "Kostenlose Salsa-Cubana-Anfängerstunde sonntags im Buena Vista Bar und kubanische Nacht montags im La Frida — mit Montuno Club.",
-    "salsaCta": "Zum Stundenplan"
+    "salsaDescription": "Kostenlose Salsa-Cubana-Anfängerstunde sonntags im Buena Vista Bar.",
+    "salsaCta": "Zum Stundenplan",
+    "feedTitle": "Schau mit mir",
+    "feedDescription": "Die Videos, die meine Zeit wert sind — KI, Apple, Bewusstsein, Wissenschaft — zusammengefasst, mit meiner Meinung zu jedem.",
+    "feedCta": "Heutiger Feed →"
   },
   "about": {
     "title": "Alösha",

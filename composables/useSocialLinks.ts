@@ -21,12 +21,16 @@ export function useSocialLinks() {
 
   const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}`
 
+  // LinkedIn is surfaced as a labelled CTA on the hero (business audience),
+  // and still appears as an icon in the footer via socialLinks below.
+  const linkedinUrl = "https://www.linkedin.com/in/razbakov/"
+
   const socialLinks = computed<SocialLink[]>(() => [
+    { href: "https://youtube.com/@razbakov", icon: "simple-icons:youtube", label: "YouTube" },
+    { href: "https://www.instagram.com/alosha.ai/", icon: "simple-icons:instagram", label: "Instagram" },
     { href: telegramUrl.value, icon: "simple-icons:telegram", label: "Telegram" },
     { href: "https://x.com/razbakov", icon: "simple-icons:x", label: "X" },
-    { href: "https://youtube.com/@razbakov", icon: "simple-icons:youtube", label: "YouTube" },
     { href: "https://www.linkedin.com/in/razbakov/", icon: "simple-icons:linkedin", label: "LinkedIn" },
-    { href: "https://www.threads.net/@alosha_timba_munich", icon: "simple-icons:threads", label: "Threads" },
     { href: "https://github.com/razbakov", icon: "simple-icons:github", label: "GitHub" },
   ])
 
@@ -34,5 +38,6 @@ export function useSocialLinks() {
     socialLinks,
     telegramUrl,
     whatsappUrl,
+    linkedinUrl,
   }
 }

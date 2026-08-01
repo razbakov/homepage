@@ -32,19 +32,21 @@
     "relatedProjects": "Related Projects"
   },
   "home": {
-    "title": "Hey, I'm Alösha",
-    "subtitle": "I build AI agent systems that run my whole portfolio on autopilot — and I write to find my people.",
+    "eyebrow": "Fullstack · AI · Salsa · Munich",
+    "title": "I build things that connect us — through code, through dance, and through community.",
+    "subtitle": "Most tech is built to keep you on the screen. I build the kind that hands you back your people and your calling.",
     "cubanNudge": "I also run Cuban cultural events and a festival →",
     "cubanNudgeAnd": "and",
-    "learnMore": "More about me →",
+    "learnMore": "See how it works →",
     "whatsappCta": "WhatsApp me",
+    "linkedinCta": "Let's work together",
     "joinTelegram": "Join My Telegram Channel",
     "telegramDescription": "Updates on live coding, projects, and tech insights",
     "joinYoutube": "Subscribe on YouTube",
     "youtubeDescription": "Tutorials, talks, and live coding sessions",
-    "academyTitle": "Learn by Doing Academy",
+    "academyTitle": "Learn with me",
     "academyDescription": "Learn to build with AI. Weekly live sessions, real projects, graduates at real companies.",
-    "academyCta": "Start free trial",
+    "academyCta": "Start free",
     "servicesNudge": "I also help teams work smarter with AI.",
     "servicesNudgeLink": "See how →",
     "interests": {
@@ -67,8 +69,11 @@
       "checkInbox": "Almost there — check your inbox and click the link to confirm."
     },
     "salsaTitle": "Dance with me in Munich",
-    "salsaDescription": "Free Salsa Cubana beginner class Sundays at Buena Vista Bar, and a Cuban night Mondays at La Frida — with Montuno Club.",
-    "salsaCta": "See the schedule"
+    "salsaDescription": "Free Salsa Cubana beginner class Sundays at Buena Vista Bar.",
+    "salsaCta": "See the schedule",
+    "feedTitle": "Watch with me",
+    "feedDescription": "The videos worth my time — AI, Apple, consciousness, science — summarized, with my take on each.",
+    "feedCta": "Today's feed →"
   },
   "about": {
     "title": "Alösha",
