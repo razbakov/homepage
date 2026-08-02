@@ -108,9 +108,21 @@ const COOKIE_FILE =
 // manually-exported file with that is exactly how the feed broke. So we never
 // clobber a known-good file with an unvalidated refresh. Set FEED_SKIP_COOKIE_REFRESH=1
 // to disable auto-refresh entirely (recommended when cookies are maintained by hand).
+// A LOGIN_INFO cookie only proves a session was written, NOT that YouTube still
+// honours it. The 2026-08 outage ran for days on a file that had LOGIN_INFO and
+// was nonetheless rejected server-side: /feed/subscriptions answered with a list
+// of channels instead of uploads. So presence is necessary, never sufficient —
+// the caller must also see real video ids come back before trusting the file.
 function cookieFileHasLogin(path) {
   try { return /\bLOGIN_INFO\b/.test(readFileSync(path, "utf8")); }
   catch { return false; }
+}
+
+// Did a probe actually return watchable videos? This is the real liveness test.
+function probeReturnedVideos(stdout) {
+  return (stdout || "")
+    .split("\n")
+    .some((l) => VIDEO_ID_RE.test(l.trim()));
 }
 function refreshCookies() {
   if (process.env.FEED_SKIP_COOKIE_REFRESH) {
@@ -122,20 +134,26 @@ function refreshCookies() {
   const res = spawnSync(
     "yt-dlp",
     ["--no-update", "--cookies-from-browser", "chrome", "--cookies", tmp,
-     "--flat-playlist", "--playlist-end", "1", "--print", "%(id)s",
+     "--flat-playlist", "--playlist-end", "3", "--print", "%(id)s",
      "https://www.youtube.com/feed/subscriptions"],
     { encoding: "utf8", timeout: 45000 }
   );
-  if (res.status === 0 && cookieFileHasLogin(tmp)) {
-    try { renameSync(tmp, COOKIE_FILE); log("cookies: refreshed from browser (valid logged-in session)"); }
+  // Require BOTH: a login cookie was written, and the probe came back with real
+  // video ids. Checking only the former is what let a server-rejected session
+  // masquerade as healthy.
+  const live = res.status === 0 && cookieFileHasLogin(tmp) && probeReturnedVideos(res.stdout);
+  if (live) {
+    try { renameSync(tmp, COOKIE_FILE); log("cookies: refreshed from browser (probe returned real videos)"); }
     catch { log("cookies: refresh ok but could not replace file — keeping existing"); }
   } else {
-    // Either locked/unavailable, or the refresh produced a logged-out set (ABE).
-    // Keep whatever good file we already have; never overwrite it with junk.
+    // Either locked/unavailable, or the refresh produced a logged-out/rejected
+    // set. Keep whatever good file we already have; never overwrite it with junk.
     try { rmSync(tmp, { force: true }); } catch {}
-    log(res.status === 0
-      ? "cookies: refresh produced no LOGIN_INFO (Chrome App-Bound Encryption?) — keeping existing file"
-      : "cookies: refresh skipped (browser locked/unavailable) — using last saved file");
+    log(res.status !== 0
+      ? "cookies: refresh skipped (browser locked/unavailable) — using last saved file"
+      : cookieFileHasLogin(tmp)
+      ? "cookies: refresh returned no videos (session rejected server-side) — keeping existing file"
+      : "cookies: refresh produced no LOGIN_INFO (Chrome App-Bound Encryption?) — keeping existing file");
   }
 }
 
