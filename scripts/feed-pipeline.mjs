@@ -14,7 +14,11 @@
  *
  * USAGE
  *   node scripts/feed-pipeline.mjs build [--date YYYY-MM-DD] [--source recs|subs]
- *                                        [--candidates N] [--keep N] [--force]
+ *                                        [--candidates N] [--keep N] [--force] [--backfill]
+ *
+ * --backfill reconstructs a PAST day from dated channel-RSS entries, keeping only
+ * uploads actually published on --date. Use it to repair a day that shipped empty;
+ * the live YouTube surfaces only show today, so they can't answer for a past date.
  *   node scripts/feed-pipeline.mjs collect [--source recs|subs] [--candidates N]
  *
  * EXIT CODES
@@ -229,7 +233,22 @@ function fetchChannelRss(channelId) {
   return out;
 }
 
-function collectRss(want) {
+// Which Berlin calendar day a timestamp falls on, as YYYY-MM-DD.
+function berlinDay(ts) {
+  return new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Europe/Berlin",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).format(new Date(ts));
+}
+
+// `onDay` (YYYY-MM-DD) backfills a specific past day: keep ONLY uploads
+// published on that Berlin date. The plain lookback window has no upper bound,
+// so backfilling yesterday would sweep in today's uploads and republish them
+// under yesterday's date — a page that looks fresh but misrepresents what that
+// day actually surfaced. An exact-day filter keeps a backfill honest.
+function collectRss(want, onDay) {
   const channels = readChannelList();
   if (!channels.length) {
     log(`collect: RSS fallback unavailable — no channel list at ${CHANNELS_FILE}`);
@@ -237,14 +256,22 @@ function collectRss(want) {
   }
   const lookbackDays = Number(process.env.FEED_RSS_LOOKBACK_DAYS) || 2;
   const cutoff = Date.now() - lookbackDays * 86400000;
-  log(`collect: RSS fallback — ${channels.length} channels, lookback ${lookbackDays}d (no auth, no cookies)…`);
+  log(
+    onDay
+      ? `collect: RSS backfill — ${channels.length} channels, uploads published on ${onDay} only (no auth, no cookies)…`
+      : `collect: RSS fallback — ${channels.length} channels, lookback ${lookbackDays}d (no auth, no cookies)…`
+  );
   const seen = new Set();
   const items = [];
   for (const ch of channels) {
     for (const v of fetchChannelRss(ch)) {
       if (seen.has(v.id)) continue;
       const t = Date.parse(v.published);
-      if (Number.isFinite(t) && t < cutoff) continue;
+      if (onDay) {
+        // A backfill without a usable timestamp can't be placed on a day — drop it
+        // rather than guess.
+        if (!Number.isFinite(t) || berlinDay(t) !== onDay) continue;
+      } else if (Number.isFinite(t) && t < cutoff) continue;
       seen.add(v.id);
       items.push(v);
     }
@@ -253,8 +280,56 @@ function collectRss(want) {
   return items.slice(0, want);
 }
 
-function collect({ source, candidates }) {
+// Ids already published on an EARLIER day's feed page. The RSS lookback window
+// has no memory, so without this every day re-surfaces roughly half of the
+// previous day (2026-08-01 and 2026-08-02 came out 91% identical). Earlier day
+// wins: whichever page showed a video first keeps it.
+function publishedBefore(date, days = 4) {
+  const ids = new Set();
+  const base = Date.parse(`${date}T12:00:00Z`);
+  if (!Number.isFinite(base)) return ids;
+  for (let i = 1; i <= days; i++) {
+    const d = new Date(base - i * 86400000).toISOString().slice(0, 10);
+    const p = join(FEED_DIR, `${d}.json`);
+    if (!existsSync(p)) continue;
+    try {
+      for (const it of JSON.parse(readFileSync(p, "utf8")).items || [])
+        if (it && it.id) ids.add(it.id);
+    } catch {}
+  }
+  return ids;
+}
+
+// de-dupe by id, drop obvious filler titles and anything an earlier day already
+// ran, cap to want
+function dedupeAndFilter(items, want, exclude) {
+  const seen = new Set();
+  const filtered = [];
+  let repeats = 0;
+  for (const it of items) {
+    if (seen.has(it.id)) continue;
+    seen.add(it.id);
+    if (FILLER_RE.test(it.title)) continue;
+    if (exclude && exclude.has(it.id)) { repeats++; continue; }
+    filtered.push(it);
+    if (filtered.length >= want) break;
+  }
+  if (repeats) log(`collect: dropped ${repeats} video(s) already shown on an earlier day`);
+  return filtered;
+}
+
+function collect({ source, candidates, onDay, forDate }) {
   const want = Number(candidates) || 40;
+  const exclude = publishedBefore(onDay || forDate);
+  // Backfilling a past day: the live YouTube surfaces only ever show *today's*
+  // recommendations, so they cannot answer "what came out on 2026-08-01". Only
+  // the dated RSS entries can. Go straight to RSS and skip the cookie paths.
+  if (onDay) {
+    const items = collectRss(want * 2, onDay);
+    const filtered = dedupeAndFilter(items, want, exclude);
+    log(`collect: ${items.length} raw → ${filtered.length} candidates (source=rss, day=${onDay})`);
+    return { source: "rss", totalRaw: items.length, candidates: filtered };
+  }
   const tryRecs = source !== "subs" && source !== "rss";
   let items = [];
   let used = source === "subs" ? "subs" : source === "rss" ? "rss" : "recs";
@@ -278,16 +353,7 @@ function collect({ source, candidates }) {
     if (items.length) used = "rss";
   }
 
-  // de-dupe by id, drop obvious filler titles, cap to want
-  const seen = new Set();
-  const filtered = [];
-  for (const it of items) {
-    if (seen.has(it.id)) continue;
-    seen.add(it.id);
-    if (FILLER_RE.test(it.title)) continue;
-    filtered.push(it);
-    if (filtered.length >= want) break;
-  }
+  const filtered = dedupeAndFilter(items, want, exclude);
   log(`collect: ${items.length} raw → ${filtered.length} candidates (source=${used})`);
   return { source: used, totalRaw: items.length, candidates: filtered };
 }
@@ -451,10 +517,14 @@ function build(flags) {
     process.exit(3);
   }
 
-  // (a)
+  // (a). --backfill reconstructs a past day from dated RSS entries only; without
+  // it, --date just labels today's collection (the daily run's behaviour).
+  const backfillDay = flags.backfill ? date : null;
   let { source, totalRaw, candidates } = collect({
     source: flags.source && flags.source !== true ? String(flags.source) : "recs",
     candidates: flags.candidates,
+    onDay: backfillDay,
+    forDate: date,
   });
   if (!candidates.length) {
     log("no candidates collected — aborting");
@@ -551,7 +621,12 @@ function build(flags) {
   // that's zero — an empty feed is a failure even when no step reported an error.
   if (!items.length && source !== "rss") {
     log(`curate: kept 0 of ${candidates.length} ${source} candidates — retrying via the no-auth curated RSS fallback`);
-    const rss = collect({ source: "rss", candidates: flags.candidates });
+    const rss = collect({
+      source: "rss",
+      candidates: flags.candidates,
+      onDay: backfillDay,
+      forDate: date,
+    });
     if (rss.candidates.length) {
       const retry = resolveAndSummarize(rss.candidates);
       if (retry.items.length) {
