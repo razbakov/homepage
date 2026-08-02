@@ -1,7 +1,118 @@
 {
   "date": "2026-08-01",
-  "source": "youtube-subscriptions",
-  "total_recommended": 80,
-  "summarized": 0,
-  "items": []
+  "source": "curated-channel-rss",
+  "total_recommended": 18,
+  "summarized": 11,
+  "items": [
+    {
+      "id": "h3DlwC1nex0",
+      "title": "The Codeberg Situation | TheStandup",
+      "channel": "The PrimeTime",
+      "duration": "37:22",
+      "category": "AI / Open Source",
+      "url": "https://youtu.be/h3DlwC1nex0",
+      "summary": "Codeberg bans mostly AI-generated projects citing unclear copyright, disproportionate infrastructure costs (SSDs jumped 5x), erosion of community trust (maintainers now assume all PRs are LLM slop), and misalignment with their FLOSS commons mission. Panel agrees the reasoning is sound but questions enforceability — how do you prove code is AI-generated? They note the irony: devs using AI themselves get offended receiving AI-generated PRs, revealing a deep psychological asymmetry in how we judge our own vs others' AI use.",
+      "relevance": "The trust erosion angle hits hard — I catch myself doing the same bias check on every PR now, and the enforceability question is the real unsolved problem for any platform trying this."
+    },
+    {
+      "id": "0WMfXrEf03c",
+      "title": "The REAL Reason A 60% Crash Is Coming",
+      "channel": "The Diary Of A CEO Clips",
+      "duration": "21:43",
+      "category": "Finance / Macro",
+      "url": "https://youtu.be/0WMfXrEf03c",
+      "summary": "Ray Dalio breaks down portfolio diversification across cash, stocks, gold, bonds, real estate, and Bitcoin — argues cash is the worst long-term hold due to inflation and taxes, prefers gold over Bitcoin for its non-printable, non-confiscatable properties. Discusses AI's impact on labor: top ~10% who master cutting-edge tools will accelerate, while thinking-job workers face replacement. Advises positioning yourself where your skills command the highest premium.",
+      "relevance": "Dalio's framing of AI as the new wealth-gap accelerator is worth hearing — if you're building with AI you're on the right side, but the macro portfolio advice is table-stakes."
+    },
+    {
+      "id": "XsqN6kfVDzc",
+      "title": "Kimi K3 Is the Best Open Model. Can You Actually Run It?",
+      "channel": "Bitwise AI",
+      "duration": "6:35",
+      "category": "AI / Open Models",
+      "url": "https://youtu.be/XsqN6kfVDzc",
+      "summary": "Kimi K3 is a 2.8T-parameter mixture-of-experts model (104B active per token) that tops open-weight benchmarks and rivals closed frontier models. Developer Marco Bambini built WASTE, a pure-C engine that streams expert weights off SSD, running the full model on a 64GB MacBook Pro at 0.5 tokens/sec with 982GB on disk. Economically self-hosting loses to the API ($3/1M input tokens), but the privacy/sovereignty argument stands — frontier intelligence now barely fits on hardware you own.",
+      "relevance": "The engineering of streaming a trillion-parameter model off an SSD with pure C is wild — and the honest math on when local actually loses to the API is refreshing."
+    },
+    {
+      "id": "VDifVg4Chxc",
+      "title": "Science and the unknowable universe | Avshalom Elitzur and Lera Boroditsky",
+      "channel": "The Institute of Art and Ideas",
+      "duration": "9:17",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/VDifVg4Chxc",
+      "summary": "Physicist Avshalom Elitzur and cognitive scientist Lera Boroditsky discuss how language shapes scientific perception, the centrality of information in physics (Maxwell's demon, information as fuel), and whether science delivers genuine understanding or merely prediction — referencing Wittgenstein's Fibonacci thought experiment to argue predictability ≠ comprehension.",
+      "relevance": "The information-as-reality thread and the prediction-vs-understanding distinction hit close to how I think about building with AI — are we understanding or just pattern-matching?"
+    },
+    {
+      "id": "up0Bsf3f0Xc",
+      "title": "I Stopped Installing Claude Skills. Here's What I Do Instead.",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration": "16:57",
+      "category": "AI / Claude",
+      "url": "https://youtu.be/up0Bsf3f0Xc",
+      "summary": "Nate B Jones argues most people install Claude/ChatGPT skills like collecting Pokémon — blindly grabbing repos without understanding how agents load them (description first, full instructions only on match). He breaks down why badly written skill descriptions bloat context or never trigger, references Matt Pocock's Grill Me skill as a good minimal example, and launches a 'skill builder' skill that converts unstructured voice/text into properly structured skill files with clean front matter and right-sized examples.",
+      "relevance": "You literally have 100+ custom skills — this is a good sanity check on whether your skill descriptions are tight enough for the agent to route correctly without context bloat."
+    },
+    {
+      "id": "ijiQ6ad9huE",
+      "title": "The EPR Criterion of Reality Is Hard to Deny",
+      "channel": "Curt Jaimungal",
+      "duration": "2:57",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/ijiQ6ad9huE",
+      "summary": "Curt Jaimungal breaks down the EPR paper's criterion of physical reality: it's a sufficient (not necessary) condition — if you can predict a measurement outcome with certainty without disturbing the system, there must be a corresponding element of reality. He emphasizes the distinction between criterion and definition, and why this seemingly innocuous claim leads to profound consequences for quantum mechanics.",
+      "relevance": "Short, precise philosophy-of-physics clip — worth watching if you're into the foundations of reality and why quantum mechanics is still philosophically unsettled."
+    },
+    {
+      "id": "G_mIf38LArs",
+      "title": "You dont have to follow silicon valley",
+      "channel": "The PrimeTime",
+      "duration": "1:22",
+      "category": "AI / Developer Tools",
+      "url": "https://youtu.be/G_mIf38LArs",
+      "summary": "Prime and panel advise experienced devs who dismissed LLMs in 2024-25 to try again in 2026 — but treat AI coding as an engineering practice: build repeatable processes, review every output, ignore hype cycles. No single tool is a silver bullet; if it doesn't click, that's fine too.",
+      "relevance": "Solid grounded take — skip the hype, build a repeatable process, and don't let Twitter tell you what to use."
+    },
+    {
+      "id": "ZmUNwMcSyl8",
+      "title": "If It's Unobservable It Doesn't Matter",
+      "channel": "Curt Jaimungal",
+      "duration": "2:48",
+      "category": "Science / Philosophy",
+      "url": "https://youtu.be/ZmUNwMcSyl8",
+      "summary": "Discussion of pseudo-Hilbert spaces in quantum field theory: negative norms aren't problematic because they're unobservable. The guest explains a construction where probabilities are computed directly via trace(A†A) summing over all states including ghosts, bypassing the usual projection onto a physical subspace — more economical and still yields positive probabilities given sufficient symmetry.",
+      "relevance": "Sharp 3-minute distillation of 'if it's unobservable, it doesn't matter' — the same principle applies when you're building anything: don't optimize for what nobody sees."
+    },
+    {
+      "id": "yz0SZIng2Po",
+      "title": "OpenAI and Anthropic think it's time to stop",
+      "channel": "Theo - t3․gg",
+      "duration": "32:18",
+      "category": "AI / Anthropic",
+      "url": "https://youtu.be/yz0SZIng2Po",
+      "summary": "Over 1,000 employees from OpenAI, Anthropic, DeepSeek, Meta, and others signed 'Pacing the Frontier,' requesting the US government support international tools to deliberately slow automated AI R&D. Triggered by four events: Anthropic's Project Glasswing (Mythos finding 10x more vulnerabilities than Opus), their 'When AI Builds Itself' paper on recursive self-improvement, and growing dual-use concerns. Theo analyzes whether this is genuine safety concern or competitive ladder-pulling, and highlights Mika Carroll's warning that margins for error shrink every few weeks.",
+      "relevance": "Anthropic's own CEO signed this — when the people building the frontier say it's time to pump the brakes on recursive self-improvement, that's worth 30 minutes of your attention."
+    },
+    {
+      "id": "VBtMLBDIbx8",
+      "title": "Seedance 2.5 Is Finally Here... But Is It Actually Better?",
+      "channel": "AI Samson",
+      "duration": "25:55",
+      "category": "AI / Video Generation",
+      "url": "https://youtu.be/VBtMLBDIbx8",
+      "summary": "Deep technical review of Seedance 2.5 (Runway ML's latest video model): 30-second sequences with character consistency, up to 50 multimodal references (image/video/audio), white-model 3D-to-video control, green screen compositing, and precise emotion/camera direction. Currently tops the image-to-video blind leaderboard. Storyboard technique and video extension workflows shown with community examples.",
+      "relevance": "If you're tracking how fast AI video is closing in on real film production — this is the current state of the art, and the 3D-white-model-to-render pipeline is genuinely interesting for anyone building creative tools."
+    },
+    {
+      "id": "cu9i_rvbfqg",
+      "title": "Nothing Can Make You Happy | Ramana Maharshi",
+      "channel": "Eternal Life | Non-Duality",
+      "duration": "4:38",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/cu9i_rvbfqg",
+      "summary": "Presents Ramana Maharshi's core teaching that happiness is not acquired externally but is one's true nature — the joy felt when a desire is fulfilled comes from the brief cessation of seeking, not from the object obtained. Uses Maharshi's shade-tree metaphor: we keep leaving our natural peace to chase external validation, then wonder why satisfaction never lasts.",
+      "relevance": "Classic non-duality pointer — if you've been grinding on builds and goals, this is a good 5-min reset on the 'who is the seeker' question."
+    }
+  ]
 }

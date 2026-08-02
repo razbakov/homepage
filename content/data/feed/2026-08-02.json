@@ -1,9 +1,49 @@
 {
   "date": "2026-08-02",
   "source": "curated-channel-rss",
-  "total_recommended": 37,
-  "summarized": 12,
+  "total_recommended": 9,
+  "summarized": 6,
   "items": [
+    {
+      "id": "wt4p2oalmRY",
+      "title": "Can you actually swing from spider silk?",
+      "channel": "Veritasium",
+      "duration": "26:57",
+      "category": "Science",
+      "url": "https://youtu.be/wt4p2oalmRY",
+      "summary": "Veritasium tests real spider silk's mechanical properties at the University of Akron — dragline silk hits ~600 MPa tensile strength (Darwin's bark spider reaches 1,600 MPa), with toughness up to 520 MJ/m³, roughly 10x Kevlar and 3x ultra-high-strength steel. Covers the nanocrystal-amorphous microstructure that gives silk its unique strength-plus-stretch combo, and the history of failed attempts to produce it at scale — from 18th-century French stockings to genetically modified spider goats — culminating in an attempt to actually swing from harvested silk.",
+      "relevance": "Genuinely fascinating materials science — the engineering challenge of replicating what a spider does at room temperature inside its own body is a beautiful unsolved problem."
+    },
+    {
+      "id": "rb1iEwuuLw4",
+      "title": "The Talk I Wandered Into That Changed My Research",
+      "channel": "Curt Jaimungal",
+      "duration": "1:25",
+      "category": "Science",
+      "url": "https://youtu.be/rb1iEwuuLw4",
+      "summary": "Researcher shares how wandering into an unrelated session at an interdisciplinary physics conference sparked the key insight for formulating gravity from entropy. Advocates attending talks outside your field and thinking about problems abstractly to find unexpected answers.",
+      "relevance": "Cross-pollination as a research method — exactly how breakthroughs happen when you let curiosity lead."
+    },
+    {
+      "id": "P6E2AOZAypU",
+      "title": "Vibing is banned",
+      "channel": "The PrimeTime",
+      "duration": "1:01",
+      "category": "AI / Building",
+      "url": "https://youtu.be/P6E2AOZAypU",
+      "summary": "Codeberg (a GitHub alternative) updated its terms of use to ban projects that 'mostly consist of code written by generative AI tools.' The policy raises questions about what threshold constitutes 'mostly' AI-generated, and highlights the unresolved copyright status of LLM-produced code as the strongest argument behind the ban.",
+      "relevance": "One-minute pulse check on the first major platform to draw a line against vibe-coded repos — the copyright angle is the real story here."
+    },
+    {
+      "id": "7x4qXfn_N1M",
+      "title": "The Danger of Challenging Einstein",
+      "channel": "Curt Jaimungal",
+      "duration": "1:39",
+      "category": "Science",
+      "url": "https://youtu.be/7x4qXfn_N1M",
+      "summary": "Short clip from a physicist discussing why challenging mainstream physics (dark matter, dark energy, quantum gravity problems) is socially risky despite being scientifically necessary. Uses anecdote about children only knowing Einstein to illustrate how hero worship stifles progress. Advice: 'Don't trust experts — trust your own judgment.'",
+      "relevance": "Quick hit on intellectual independence and questioning consensus — resonates with the builder mindset of trusting your own thinking over authority."
+    },
     {
       "id": "lMiHRN8pzn4",
       "title": "ChatGPT 5.6 is a dumber model. I love it.",
@@ -11,8 +51,8 @@
       "duration": "19",
       "category": "AI / LLMs",
       "url": "https://youtu.be/lMiHRN8pzn4",
-      "summary": "Discusses ChatGPT's 'Soul' model (5.6) — positioned as intentionally less powerful but more practical. Claims it set a new high on ASIA's professional work benchmark across 55 fields, arguing that 'dumber' models optimized for everyday use can outperform frontier models on real-world tasks.",
-      "relevance": "Interesting framing on why smaller, faster models might be the ones you actually want to use daily — relevant to how I think about Claude Haiku vs Opus tradeoffs."
+      "summary": "Discusses ChatGPT's new 'Soul' model (5.6), arguing that being 'dumber' (less overthinking, more practical) is actually better for daily use. Notes it scored highest on ASIA's professional benchmark across 55 fields despite being positioned as a lighter model.",
+      "relevance": "Interesting framing — sometimes the best model isn't the smartest one, it's the one that gets out of your way."
     },
     {
       "id": "sy-VgcWdcTw",
@@ -21,108 +61,8 @@
       "duration": "4:50",
       "category": "Consciousness / Philosophy",
       "url": "https://youtu.be/sy-VgcWdcTw",
-      "summary": "Distills Nisargadatta Maharaj's core teaching: the seeking mind is itself the obstacle to realization. The 'I' that wants enlightenment is a fabrication — truth isn't a destination but the raw 'I am' presence that remains when the seeker dissolves. Uses Maharaj's classic analogies (searching for your own head, child of a barren woman).",
-      "relevance": "Short, sharp non-duality pointer — good reset when you catch yourself optimizing your way to presence."
-    },
-    {
-      "id": "h3DlwC1nex0",
-      "title": "The Codeberg Situation | TheStandup",
-      "channel": "The PrimeTime",
-      "duration": "37:22",
-      "category": "Startups / Building",
-      "url": "https://youtu.be/h3DlwC1nex0",
-      "summary": "Panel discussion on Codeberg's new policy banning mostly AI-generated code repositories. Codeberg cites infrastructure cost strain (SSD costs jumping 5x), disproportionate resource use by single-person vibe-coded projects vs community-driven ones, unclear copyright status of LLM output, and erosion of community trust as maintainers increasingly dismiss all contributions as potential AI slop. The panel agrees the reasoning is sound but questions enforceability — how do you define 'mostly AI-generated' and who decides?",
-      "relevance": "Directly relevant if you ship open-source — the trust erosion argument hits home for anyone reviewing PRs that might be AI-generated."
-    },
-    {
-      "id": "0WMfXrEf03c",
-      "title": "The REAL Reason A 60% Crash Is Coming",
-      "channel": "The Diary Of A CEO Clips",
-      "duration": "21:43",
-      "category": "Startups / Building",
-      "url": "https://youtu.be/0WMfXrEf03c",
-      "summary": "Ray Dalio on Diary of a CEO explains why stock markets could crash 60-70%, breaks down asset diversification (stocks, gold, bonds, Bitcoin, real estate), argues cash is the worst long-term investment due to inflation, and discusses how AI will widen the wealth gap by replacing thinking jobs while rewarding the top 10% who master new tools.",
-      "relevance": "Dalio's framework on diversification and his take on AI accelerating inequality is worth hearing — practical money thinking from someone who's navigated multiple crashes."
-    },
-    {
-      "id": "XsqN6kfVDzc",
-      "title": "Kimi K3 Is the Best Open Model. Can You Actually Run It?",
-      "channel": "Bitwise AI",
-      "duration": "6:35",
-      "category": "AI / Open Models",
-      "url": "https://youtu.be/XsqN6kfVDzc",
-      "summary": "Kimi K3 is a 2.8T-parameter mixture-of-experts model (only 104B active per token) that tops open-weight benchmarks. Developer Marco Bambini built a pure-C streaming engine (Waste) that runs it on a 64GB MacBook Pro by keeping experts on SSD — but at 0.5 tokens/sec, since each token pulls ~17GB off disk. Economically self-hosting loses to the API ($3/M input), but the privacy/sovereignty argument stands: frontier-scale intelligence now barely fits on hardware you own.",
-      "relevance": "The engineering trick of streaming 896 experts off NVMe is wild — and the honest math showing it's impractical today makes this more credible than the usual 'run it locally!' hype."
-    },
-    {
-      "id": "VDifVg4Chxc",
-      "title": "Science and the unknowable universe | Avshalom Elitzur and Lera Boroditsky",
-      "channel": "The Institute of Art and Ideas",
-      "duration": "9:17",
-      "category": "Consciousness / Simulation",
-      "url": "https://youtu.be/VDifVg4Chxc",
-      "summary": "Panel with physicist Avshalom Elitzur and cognitive scientist Lera Boroditsky on whether science can transcend linguistic framing. Covers Maxwell's demon as proof that information is physically fundamental (not just representational), the gap between prediction and understanding (Wittgenstein's Fibonacci argument), and why maintaining diverse languages/theories is essential — they're tools, not mirrors.",
-      "relevance": "The prediction-vs-understanding distinction hits close to home when you're building with LLMs that predict beautifully but may not 'understand' anything."
-    },
-    {
-      "id": "up0Bsf3f0Xc",
-      "title": "I Stopped Installing Claude Skills. Here's What I Do Instead.",
-      "channel": "AI News & Strategy Daily | Nate B Jones",
-      "duration": "16:57",
-      "category": "AI / Claude Code",
-      "url": "https://youtu.be/up0Bsf3f0Xc",
-      "summary": "Nate B Jones argues most people install Claude/ChatGPT skills blindly from GitHub without understanding how agent skill loading actually works — description-first lazy loading, not full context injection. He breaks down why badly scoped descriptions bloat context windows, why skills must be written for agents to execute AND humans to audit, and introduces a meta 'skill builder' skill that converts unstructured voice/text intent into properly structured skill files with clean frontmatter and examples.",
-      "relevance": "You already have 100+ skills and your own skill-creator — this is mostly stuff you've solved, but his framing of 'skills as writing with two audiences' and the community conversation around skill lineage might spark ideas for your skills repo."
-    },
-    {
-      "id": "ijiQ6ad9huE",
-      "title": "The EPR Criterion of Reality Is Hard to Deny",
-      "channel": "Curt Jaimungal",
-      "duration": "2:57",
-      "category": "Science / Philosophy of Physics",
-      "url": "https://youtu.be/ijiQ6ad9huE",
-      "summary": "Curt Jaimungal breaks down the EPR paper's criterion of physical reality: if you can predict a measurement outcome with certainty without disturbing the system, an element of reality must exist corresponding to that quantity. He emphasizes this is a sufficient (not necessary) criterion — a distinction most people miss — and argues it's remarkably hard to deny on its own terms.",
-      "relevance": "A clean 3-minute explainer on the philosophical foundation that makes quantum entanglement so unsettling — worth revisiting if you're into simulation/reality debates."
-    },
-    {
-      "id": "G_mIf38LArs",
-      "title": "You dont have to follow silicon valley",
-      "channel": "The PrimeTime",
-      "duration": "1:22",
-      "category": "AI / Dev Tools",
-      "url": "https://youtu.be/G_mIf38LArs",
-      "summary": "Prime advises experienced devs who dismissed LLMs in 2024-25 to revisit in 2026: build a repeatable, reviewable engineering process around AI tools rather than chasing hype. No silver bullet exists — ignore Twitter trend-chasing, try what works for you, and remember you can have a great career without adopting Silicon Valley's tool-of-the-week.",
-      "relevance": "Grounded take on integrating AI into a mature dev workflow — no hype, just 'build a repeatable process or move on.'"
-    },
-    {
-      "id": "ZmUNwMcSyl8",
-      "title": "If It's Unobservable It Doesn't Matter",
-      "channel": "Curt Jaimungal",
-      "duration": "2:48",
-      "category": "Science / Physics",
-      "url": "https://youtu.be/ZmUNwMcSyl8",
-      "summary": "Discussion of pseudo-Hilbert spaces and negative norms in quantum field theory. The key insight: unobservable mathematical artifacts (like negative-norm 'ghost' states) don't matter physically — only observable probability transitions do. Presents a generalized BRST/Faddeev-Popov construction where probabilities are computed directly via Tr(A†A) without projecting onto a physical subspace, yielding positive probabilities provided the theory has the right symmetry.",
-      "relevance": "Sharp epistemological point — if it's unobservable, it doesn't matter — applied rigorously to quantum theory. Resonates with simulation/consciousness thinking about what's 'real' vs what's just mathematical scaffolding."
-    },
-    {
-      "id": "yz0SZIng2Po",
-      "title": "OpenAI and Anthropic think it's time to stop",
-      "channel": "Theo - t3․gg",
-      "duration": "32:18",
-      "category": "AI / Anthropic",
-      "url": "https://youtu.be/yz0SZIng2Po",
-      "summary": "Theo breaks down 'Pacing the Frontier,' a joint statement from 1000+ employees across OpenAI, Anthropic, DeepSeek, and Meta calling for government-backed tools to deliberately slow frontier AI development — triggered by Anthropic's Project Glasswing (Mythos finding 10x more vulnerabilities than Opus), their 'When AI Builds Itself' paper on recursive self-improvement, and growing dual-use concerns. Includes official statements from Dario Amodei, OpenAI's Joshua Achiam, and Meta's Dawn Song, plus Theo's conspiracy theories about competitive dynamics behind the timing.",
-      "relevance": "First time the entire AI industry publicly agrees to slow down — and the Anthropic-specific triggers (Glasswing, recursive self-improvement) make this essential context for anyone building on Claude."
-    },
-    {
-      "id": "VBtMLBDIbx8",
-      "title": "Seedance 2.5 Is Finally Here... But Is It Actually Better?",
-      "channel": "AI Samson",
-      "duration": "25:55",
-      "category": "AI / Creative Tools",
-      "url": "https://youtu.be/VBtMLBDIbx8",
-      "summary": "Deep dive into Seedance 2.5's capabilities: 30-second coherent sequences, up to 50 multimodal references (image/video/audio), white-model 3D-to-realistic rendering, green screen replacement, precise emotion direction for actors, and storyboard-driven sequential shot generation. Currently tops the image-to-video blind leaderboard. Practical applications shown include music video lip-sync, real footage extension, cinematic camera technique understanding, and professional VFX workflows.",
-      "relevance": "If you're thinking about AI-generated video for content or product demos, this is the current state of the art — the white-model and storyboard workflows feel genuinely production-ready."
+      "summary": "Presents Nisargadatta Maharaj's core teaching: the seeking mind is itself the obstacle to realization. The 'I am' prior to concepts is already what seekers chase — no path or practice can close a distance that doesn't exist. Uses Maharaj's classic analogies (searching for your own head, child of a barren woman).",
+      "relevance": "Classic non-duality distilled into 5 minutes — good if you're into the 'observer collapses the observed' thread from simulation/consciousness discussions."
     }
   ]
 }
