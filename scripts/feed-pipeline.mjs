@@ -135,6 +135,15 @@ function refreshCookies() {
   }
 }
 
+// A YouTube video id is EXACTLY 11 chars. Channel ids are 24 chars starting
+// with "UC". This distinction is load-bearing: when the cookie session is dead,
+// /feed/subscriptions silently degrades to a *list of channels* instead of their
+// uploads, and yt-dlp happily prints 80 channel ids. A loose id test lets those
+// through as "candidates" — they have no transcript, the LLM rejects every one,
+// and the day ships an empty feed while each fallback thinks it succeeded
+// (2026-08-01 and 2026-08-02 both shipped 0 items this way).
+const VIDEO_ID_RE = /^[A-Za-z0-9_-]{11}$/;
+
 function ytdlpList(url, limit) {
   // --flat-playlist is fast (no per-video network); we resolve real metadata in (b).
   const res = spawnSync(
@@ -157,10 +166,15 @@ function ytdlpList(url, limit) {
     return [];
   }
   const out = [];
+  let nonVideo = 0;
   for (const line of (res.stdout || "").split("\n")) {
     const [id, title] = line.split("\t");
-    if (id && /^[A-Za-z0-9_-]{6,}$/.test(id)) out.push({ id, title: title || "" });
+    if (!id) continue;
+    if (!VIDEO_ID_RE.test(id)) { nonVideo++; continue; }
+    out.push({ id, title: title || "" });
   }
+  if (nonVideo && !out.length)
+    log(`yt-dlp returned ${nonVideo} non-video entries (channels?) for ${url} — treating as empty; the session is probably logged out`);
   return out;
 }
 
@@ -438,7 +452,7 @@ function build(flags) {
   }
 
   // (a)
-  const { source, totalRaw, candidates } = collect({
+  let { source, totalRaw, candidates } = collect({
     source: flags.source && flags.source !== true ? String(flags.source) : "recs",
     candidates: flags.candidates,
   });
@@ -448,13 +462,7 @@ function build(flags) {
   }
   const keepTarget = Number(flags.keep) || 12;
 
-  // (b)
   const workdir = mkdtempSync(join(tmpdir(), "feed-"));
-  log(`fetch: resolving metadata + transcripts for ${candidates.length} videos…`);
-  const metaById = fetchMeta(
-    candidates.map((c) => c.id),
-    workdir
-  );
 
   // (c)
   const binDir = nodeBinDir();
@@ -466,9 +474,17 @@ function build(flags) {
     log("summarize: no Node>=18 found; skipping LLM step");
   }
 
+  // (b) + (c) for one candidate set. Factored out so a source that curates down
+  // to nothing can be retried against the no-auth RSS floor (see below).
+  function resolveAndSummarize(cands) {
+  log(`fetch: resolving metadata + transcripts for ${cands.length} videos…`);
+  const metaById = fetchMeta(
+    cands.map((c) => c.id),
+    workdir
+  );
   const items = [];
   let summarizedCount = 0;
-  for (const cand of candidates) {
+  for (const cand of cands) {
     const meta = metaById.get(cand.id) || {
       id: cand.id,
       title: cand.title,
@@ -522,6 +538,30 @@ function build(flags) {
       relevance: "Surfaced from your YouTube feed; open it to judge for yourself.",
     });
     if (items.length >= keepTarget) break;
+  }
+  return { items, summarizedCount };
+  }
+
+  let { items, summarizedCount } = resolveAndSummarize(candidates);
+
+  // Zero-kept safety net. collect()'s fallback chain only asks "did I get any
+  // rows back?", so a degraded-but-non-empty source (dead session, off-topic
+  // feed) passes that check and then curates down to nothing. Judge a source by
+  // what actually survived curation, and drop to the no-auth RSS floor when
+  // that's zero — an empty feed is a failure even when no step reported an error.
+  if (!items.length && source !== "rss") {
+    log(`curate: kept 0 of ${candidates.length} ${source} candidates — retrying via the no-auth curated RSS fallback`);
+    const rss = collect({ source: "rss", candidates: flags.candidates });
+    if (rss.candidates.length) {
+      const retry = resolveAndSummarize(rss.candidates);
+      if (retry.items.length) {
+        ({ items, summarizedCount } = retry);
+        source = "rss";
+        totalRaw = rss.totalRaw;
+      } else {
+        log("curate: RSS fallback also kept 0 — shipping an empty day");
+      }
+    }
   }
 
   const doc = {
