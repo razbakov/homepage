@@ -1,0 +1,58 @@
+{
+  "date": "2026-08-03",
+  "source": "curated-channel-rss",
+  "total_recommended": 31,
+  "summarized": 5,
+  "items": [
+    {
+      "id": "iEmx_I4_NNA",
+      "title": "This Repo Runs a 26B Model in 2GB of RAM, 4k Stars",
+      "channel": "Bitwise AI",
+      "duration": "6:21",
+      "category": "AI / Local Inference",
+      "url": "https://youtu.be/iEmx_I4_NNA",
+      "summary": "Turbo Fieldfare runs Google's Gemma 4 26B (MoE, 3.9B active params per token) on an 8GB M2 MacBook Air at ~6 tok/s by keeping only 1.35GB of shared weights in RAM and loading routed experts from SSD on demand — explicit parallel reads replaced mmap for a 7x speedup. Caveats: OS file cache does heavy lifting behind the 2GB footprint, 4-bit quantized weights with no published quality comparison, and MLX is 2.5x faster if you have 14GB free.",
+      "relevance": "Finally someone shipped what Apple Research proposed in 2023 — SSD as the new VRAM. The engineering is clean and the honest benchmarks (with asterisks) make this worth studying."
+    },
+    {
+      "id": "lewY_0sJaWg",
+      "title": "If OpenAI And Anthropic Are Discouraging You, You're Probably A Level 1 Builder.",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration": "14:28",
+      "category": "Startups / Building",
+      "url": "https://youtu.be/lewY_0sJaWg",
+      "summary": "Nate B Jones lays out a 5-level framework for AI builders: L1 (idea-obsessed, easily discouraged by lab releases), L2 (listens to customers, can build profitable side gigs), L3 (understands go-to-market + uses AI to supercharge distribution), L4 (deep problem-space thesis with unique conviction — uses WhisperFlow/voice-as-computing-paradigm as example), L5 (anticipates AI capability trajectories 6-12 months out in your specific domain, builds ahead of the curve). Argues labs can't compete with domain-specific builders because no lab will spend as much time in your niche.",
+      "relevance": "Useful mental model for self-assessment — where do my projects sit on this ladder, and which ones have a genuine L4/L5 thesis vs. just L1 passion?"
+    },
+    {
+      "id": "jT40e4mYIcs",
+      "title": "The horrifying realities of Eternity",
+      "channel": "Aperture",
+      "duration": "27:19",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/jT40e4mYIcs",
+      "summary": "Explores Bernard Williams' 'Makropulos Case' argument that immortality leads to inescapable tedium — the eternal cocktail party metaphor. Examines societal consequences: population control, Draconian law without death as deterrent, love losing urgency, Big Pharma's $5.6T market collapse. Contrasts Nietzsche's view (blessing for life-affirmers, punishment for the resentful) with the solo-immortal scenario where outliving all relationships leads to emotional numbness or tyranny.",
+      "relevance": "A solid philosophical survey of why 'live forever' might be the wrong wish — useful framing if you think about digital consciousness and mind uploading as more than engineering problems."
+    },
+    {
+      "id": "Yosyd_gIy_w",
+      "title": "The stars and the planets used to be living organisms | Rupert Sheldrake",
+      "channel": "The Institute of Art and Ideas",
+      "duration": "2:52",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/Yosyd_gIy_w",
+      "summary": "Rupert Sheldrake argues for dropping the 'supernatural' concept — pre-17th-century Europe and most non-Western cultures treat the divine as permeating nature, not separate from it. He traces how mechanistic science created an artificial split, proposes God as underlying consciousness rather than a being among beings, and cites Alister Hardy's 1970s Oxford research showing mystical experiences of unity are far more common than assumed.",
+      "relevance": "Sheldrake connecting pre-mechanistic animism to consciousness-as-substrate — the same thread that runs through simulation theory but from the mystical-experience side."
+    },
+    {
+      "id": "5HIBxwepyW8",
+      "title": "What the Ancient Greeks can teach us about love | Alain de Botton",
+      "channel": "The Institute of Art and Ideas",
+      "duration": "1:25",
+      "category": "Philosophy / Relationships",
+      "url": "https://youtu.be/5HIBxwepyW8",
+      "summary": "Alain de Botton on the ancient Greek view of love as a classroom: partners help each other grow, but this requires the pre-modern art of diplomacy — knowing how to deliver uncomfortable truths past defense mechanisms, not just having the truth but finding the right moment and framing.",
+      "relevance": "A 90-second masterclass on the skill every founder (and partner) needs: getting difficult feedback across without triggering defenses."
+    }
+  ]
+}
