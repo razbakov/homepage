@@ -1,0 +1,128 @@
+{
+  "date": "2026-08-04",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 80,
+  "summarized": 12,
+  "items": [
+    {
+      "id": "hY4ScqvJhGU",
+      "title": "3 MINUTES AGO: James Webb and Vera Rubin JUST CONFIRMED THE SAME TERRIFYING Object!",
+      "channel": "Proof",
+      "duration": "21:42",
+      "category": "Science",
+      "url": "https://youtu.be/hY4ScqvJhGU",
+      "summary": "Third interstellar object ever detected (3I/Atlas) was accidentally captured by Vera Rubin Observatory 10 days before official discovery. JWST spectroscopy revealed the highest CO₂-to-water ratio ever recorded in any comet and deuterium signatures dating its formation to 10–12 billion years ago — billions of years before our solar system existed. Peer-reviewed in Nature (June 2026).",
+      "relevance": "Clickbait title aside, the actual JWST chemistry on an interstellar time capsule older than our Sun is genuinely wild science."
+    },
+    {
+      "id": "gn1w-BIEnZ0",
+      "title": "Hands‑On with the Future of AR Glasses — AWE 2026",
+      "channel": "Kola",
+      "duration": "15:09",
+      "category": "Spatial Computing / AR",
+      "url": "https://youtu.be/gn1w-BIEnZ0",
+      "summary": "Hands-on demos of AR glasses at AWE 2026: Specs ($2K, most advanced but controversial pricing), Raven Prism (eye tracking, on-device LLMs, Linux SOC, US-assembled, privacy-first), Georgian Technology's Lenton AR reflector display, XReal Aura (Android XR in glasses form), and Unseen Reality URXR1 (90° FOV, surprisingly lightweight). Covers display tech differences between waveguides, flat prism optics, and reflector-based approaches.",
+      "relevance": "Good survey of where AR glasses actually stand mid-2026 — Raven Prism's local-LLM + privacy-first approach and the Georgian ODM model are worth tracking for anyone watching the Vision Pro competitive landscape."
+    },
+    {
+      "id": "olpNgakNjBI",
+      "title": "Apple is about to Change the Mac Forever",
+      "channel": "GregsGadgets",
+      "duration": "10:53",
+      "category": "Apple / Mac",
+      "url": "https://youtu.be/olpNgakNjBI",
+      "summary": "Roundup of rumored MacBook Ultra (or redesigned MacBook Pro): first OLED Mac with tandem displays, first Mac touchscreen with reinforced hinge and Dynamic Island replacing the notch, and first Mac with Apple's C2 5G cellular modem. Apple may skip M6 Pro/Max entirely, jumping from M5 to M7. These features are expected to roll out across the full Mac lineup (Air, iMac) over time, possibly starting late 2025.",
+      "relevance": "Major Mac hardware evolution — touchscreen + cellular + OLED is the biggest shake-up since Apple Silicon, worth tracking as a daily-driver MacBook user."
+    },
+    {
+      "id": "47U6uxEUDr8",
+      "title": "We FINALLY Understand the Power of Psychedelics (...mostly)",
+      "channel": "Dr Ben Miles",
+      "duration": "27:15",
+      "category": "Science / Consciousness",
+      "url": "https://youtu.be/47U6uxEUDr8",
+      "summary": "Traces psychedelics from Hofmann's 1943 accidental LSD discovery through early psychiatric trials (50% of 700+ alcoholics stopped relapsing), the CIA's MK-Ultra misuse, to modern neuroscience revealing how LSD/psilocybin mimic serotonin via shared indole-ring structure and literally rewire neural connectivity. Covers the decades-long research freeze and the recent clinical renaissance showing these compounds can break entrenched behavioral patterns by disrupting default-mode network activity.",
+      "relevance": "Alösha's take: Finally a rigorous walkthrough of *why* psychedelics reshape consciousness at the molecular level — connects the dots from serotonin receptors to behavioral rewiring."
+    },
+    {
+      "id": "M51asSwRLxA",
+      "title": "This $12 billion startup finally shipped something...",
+      "channel": "Fireship",
+      "duration": "5:18",
+      "category": "AI / Startups",
+      "url": "https://youtu.be/M51asSwRLxA",
+      "summary": "Mira Murati's Thinking Machines shipped Inkling, a 970B-parameter mixture-of-experts model (41B active per token) trained on 45T tokens with 1M context, Apache-licensed. It's mid-table on benchmarks but optimized for cost-efficient agentic use via a 'thinking effort' dial, and excels at epistemic calibration (knowing what it doesn't know), beating GPT-5.5 and Opus 4.8 on forecasting. The real business model: give away a decent base model free, then charge for fine-tuning via their Tinker platform.",
+      "relevance": "Murati's bet on fine-tunable open-weight infra over frontier performance is a legit counter-thesis to the scaling race — worth understanding the architecture and business logic."
+    },
+    {
+      "id": "NMdA-5j2FWw",
+      "title": "Доказано: Земля закручивает пространство-время / Загадка древней звезды / Астрообзор #212",
+      "channel": "Космос Просто",
+      "duration": "30:05",
+      "category": "Science",
+      "url": "https://youtu.be/NMdA-5j2FWw",
+      "summary": "Russian-language space review covering experimental confirmation that Earth frame-drags spacetime (Lense-Thirring effect), plus analysis of an anomalously old star that challenges stellar evolution models. Includes broader weekly astronomy news roundup.",
+      "relevance": "Solid bite-sized physics — frame-dragging confirmed and a stellar-age mystery are exactly the kind of hard-science nuggets worth 30 min."
+    },
+    {
+      "id": "PTTgYtrATfY",
+      "title": "The Demiurge Did Not Create Evil, He Created Something Worse",
+      "channel": "The Somber Sea",
+      "duration": "52:01",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/PTTgYtrATfY",
+      "summary": "A Gnostic philosophical deep-dive that systematically eliminates every traditional accusation against the Demiurge — evil, suffering, death, ignorance, illusion, imprisonment — arguing each would actually awaken people rather than keep them asleep. The real 'crime' is building a world that is genuinely real but quietly insufficient: not false enough to trigger alarm, not painful enough to crack you open, just comfortable enough that you never ask the question.",
+      "relevance": "Alösha's take: If you've ever wondered why simulation theory feels almost right but not quite — this reframes the whole trap as 'real but not enough,' which hits different."
+    },
+    {
+      "id": "XVwMi_UOfsQ",
+      "title": "Apple Just Killed AI Subscriptions Forever (Mac Mini M5)",
+      "channel": "AI Master",
+      "duration": "17:35",
+      "category": "Apple / AI Hardware",
+      "url": "https://youtu.be/XVwMi_UOfsQ",
+      "summary": "Detailed benchmark and buying guide for Mac Mini M4 Pro as a 24/7 local AI inference box: 273 GB/s bandwidth (not 550), 30-65W draw, 20-30 tok/s on 7-8B models, but can't run 120B-class models (AMD Strix Halo wins there). Covers June 2026 $200 price hike and 64GB config killed due to DRAM shortage, M5 Mini rumored for fall 2026, Apple skipping M6 Pro/Max/Ultra entirely to fast-track M7 targeting 1.5TB unified memory. Notes MLX co-creator Aani Hanan left Apple for Anthropic, and Apple paying Google ~$1B/yr for Gemini to power Siri after passing on Claude.",
+      "relevance": "Real benchmarks for running LLMs on Apple Silicon, plus the Anthropic talent grab and M5/M7 roadmap — directly relevant if you're thinking about a local inference setup."
+    },
+    {
+      "id": "OiG1GoQ4Z4E",
+      "title": "How Jesus Mastered the Ego and the Devil in 40 Days",
+      "channel": "Lucid Wisdom",
+      "duration": "29:20",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/OiG1GoQ4Z4E",
+      "summary": "Reframes Jesus's 40-day desert temptation as a psychological allegory for ego transcendence: the three temptations map to instinctive desire, need for validation, and lust for power/control — the ego's core strategies. Argues true freedom comes not from destroying the ego but from dis-identifying awareness from it, and discusses the 'sacred marriage' of integrating masculine/feminine (sun/moon) archetypes into unified consciousness, referencing alchemy's philosopher's stone and the Gospel of Thomas.",
+      "relevance": "Solid symbolic framework for understanding ego mechanics — useful lens whether you're into meditation, Jungian archetypes, or just want a non-religious take on an ancient initiation map."
+    },
+    {
+      "id": "934C7KAgIoI",
+      "title": "This Graph View Connects Obsidian to AI",
+      "channel": "Nodus Labs",
+      "duration": "15:40",
+      "category": "AI / Tools",
+      "url": "https://youtu.be/934C7KAgIoI",
+      "summary": "Demo of InfraNodus graph view plugin for Obsidian that builds dense knowledge graphs from text (not just wiki-links), uses network metrics like betweenness centrality to rank concept importance, and identifies structural gaps between topic clusters. Built-in AI (supports Claude 4.6) generates research questions bridging disconnected clusters. Compares paragraph-level co-occurrence linking vs Obsidian's page-only connections.",
+      "relevance": "Graph-based gap detection for knowledge bases — useful for anyone doing research or building a second brain with Obsidian + AI."
+    },
+    {
+      "id": "urx488ddSX0",
+      "title": "iOS 27 - Apple Did It!",
+      "channel": "zollotech",
+      "duration": "23:47",
+      "category": "Apple / iOS",
+      "url": "https://youtu.be/urx488ddSX0",
+      "summary": "iOS 27 beta 3 roundup: Apple is working with Prism ML to run larger AI models directly on-device without offloading to data centers. Apple is suing OpenAI for allegedly stealing trade secrets related to unreleased technologies. Siri gets better third-party app integration, adaptive audio slider for AirPods Pro, new accessibility features, and genmoji combination from multiple emoji.",
+      "relevance": "The Apple-suing-OpenAI angle and on-device large model push via Prism ML are the real nuggets here — rest is standard beta changelog."
+    },
+    {
+      "id": "XFSwfwiM8nk",
+      "title": "Linus is so based for this",
+      "channel": "Theo - t3․gg",
+      "duration": "23:37",
+      "category": "AI / Open Source",
+      "url": "https://youtu.be/XFSwfwiM8nk",
+      "summary": "Linus Torvalds publicly declared Linux is not an anti-AI project, endorsing AI code review tool Sashiko that catches 53.6% of bugs humans missed. Greg Kroah-Hartman reports AI-generated bug reports flipped from slop to legitimate overnight (likely driven by Opus 4.5 adoption), with 432 CVEs found in the kernel in a single day. Theo argues maintainers must adopt AI review because adversaries already use AI to find attack surfaces.",
+      "relevance": "Linus going full BDFL on AI adoption is a watershed moment — if the Linux kernel embraces AI code review, the 'AI slop' era is officially over for serious open source."
+    }
+  ]
+}
