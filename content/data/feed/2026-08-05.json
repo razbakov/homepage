@@ -1,0 +1,128 @@
+{
+  "date": "2026-08-05",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 80,
+  "summarized": 12,
+  "items": [
+    {
+      "id": "XwYPRLMLcNs",
+      "title": "Google Just Released TabFM and It Breaks Everything We Know About ML",
+      "channel": "AI with Surya",
+      "duration": "7:16",
+      "category": "AI / Machine Learning",
+      "url": "https://youtu.be/XwYPRLMLcNs",
+      "summary": "Google's TabFM is a foundation model for tabular data that uses a novel two-way attention mechanism (column attention → row compression → ICL transformer) to perform zero-shot classification/regression on arbitrary tables — beating tuned XGBoost without any training on your data, in milliseconds. The key insight: it treats your spreadsheet like an LLM prompt, using labeled rows as context and unlabeled rows as questions, with frozen weights and full attention-weight explainability.",
+      "relevance": "Neat paradigm shift — the 'floor came up, ceiling didn't move' framing is spot-on; worth understanding the architecture even if the hype is premature."
+    },
+    {
+      "id": "PM4W4ODQV3Q",
+      "title": "Your Soul Is Not Inside You. You Are Inside It.",
+      "channel": "Beyond Mind",
+      "duration": "27:01",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/PM4W4ODQV3Q",
+      "summary": "Examines UVA Division of Perceptual Studies research on Ryan Hammonds, a child whose 50+ verified memories matched obscure Hollywood agent Marty Martin's life. Argues the ego is a functional 'diving bell' enabling a larger consciousness to experience linear spacetime, with birth amnesia (Plato's River Lethe) as a necessary mechanism. Uses Patient HM's procedural memory to show experience persists beneath conscious recall, paralleling ancient frameworks (Katha Upanishad, Bhagavad Gita) of nested selves.",
+      "relevance": "Rigorous walk-through of the best-documented reincarnation case plus a compelling ego-as-lens model — hits the consciousness/simulation thread I keep pulling on."
+    },
+    {
+      "id": "UBArQl_KVzo",
+      "title": "Apple Just Killed AI Data Centers",
+      "channel": "Kiraa",
+      "duration": "9:26",
+      "category": "Apple / AI Infrastructure",
+      "url": "https://youtu.be/UBArQl_KVzo",
+      "summary": "Argues Apple's upcoming 1.5TB unified-memory Mac Studio will let SMBs run enterprise AI on-prem, killing the business case for new data centers. Details the gap: Apple has great hardware (unified memory beating Nvidia for inference), Swift, MLX/CoreML, but lacks an enterprise orchestration layer (job queues, batching, monitoring, failover). Pitches his product Kira as that missing engine layer — claims only 10% of enterprise AI is the model, 90% is boring governance and plumbing.",
+      "relevance": "Interesting thesis on Apple Silicon flipping the cloud-vs-local economics for enterprise AI — even if it's partly a product pitch, the unified memory argument is worth thinking about."
+    },
+    {
+      "id": "gkfFvOaCZfM",
+      "title": "Gravity Is NOT A Force | Feynman Physics",
+      "channel": "Physics Daily",
+      "duration": "11:21",
+      "category": "Science",
+      "url": "https://youtu.be/gkfFvOaCZfM",
+      "summary": "Explains why gravity isn't a force but the curvature of spacetime — accelerometers read 9.8 m/s² at rest and zero in freefall, confirming Einstein over Newton. Covers time dilation (clocks tick slower near mass, GPS corrects 38μs/day), Eddington's 1919 starlight bending, Mercury's perihelion, and LIGO's gravitational waves. Also notes Feynman's alternative quantum-field formulation that reproduces the same predictions without curved spacetime.",
+      "relevance": "Beautiful 11-minute refresher on why the floor pushes you up — ties accelerometer data, GPS, and LIGO into one clean narrative."
+    },
+    {
+      "id": "TKlOCjLMNtw",
+      "title": "Fable Broke My App and Couldn't Fix It",
+      "channel": "Theo - t3․gg",
+      "duration": "27:32",
+      "category": "AI / Dev Tools",
+      "url": "https://youtu.be/TKlOCjLMNtw",
+      "summary": "Theo discovers his T3 Code web app was melting his GPU — AI agents (Fable, GPT-56, Codex) confidently shipped 10k+ line 'fixes' that changed nothing. The real culprit: a single Tailwind CSS class triggering constant GPU repaints on high-refresh displays. He demonstrates a practical workflow for wielding agents as debug assistants on problems they can't solve autonomously, using console-injectable CSS toggles to isolate the issue layer by layer.",
+      "relevance": "Real-world example of where agentic coding hits a wall — and a smart pattern for using agents as amplifiers rather than replacements when debugging subtle performance bugs."
+    },
+    {
+      "id": "2SgpBmqzyRU",
+      "title": "The Apple Glasses Are Coming!",
+      "channel": "ZONEofTECH",
+      "duration": "9:37",
+      "category": "Apple / Spatial Computing",
+      "url": "https://youtu.be/2SgpBmqzyRU",
+      "summary": "Apple delayed its N50 smart glasses by a full year (now WWDC June 2027) not for hardware reasons but to nail the privacy pitch — on-device processing, no facial recognition, no always-on scanning, no contractor footage review. They even prototyped camera-free versions but shelved them. Meanwhile Samsung unveiled Gemini-powered screenless glasses (Snapdragon AR1, 9hr battery) with Gentle Monster and Warby Parker frames, likely shipping this autumn at near Meta Ray-Ban pricing.",
+      "relevance": "Good competitive landscape overview if you're tracking Apple's spatial computing strategy — the privacy-first delay is a deliberate bet that polish beats speed-to-market again."
+    },
+    {
+      "id": "hJPmqYhiKhU",
+      "title": "Очень странные новые компьютеры, о которых вы не слышали (скорее всего)",
+      "channel": "SciOne",
+      "duration": "22:15",
+      "category": "Science / Computing",
+      "url": "https://youtu.be/hJPmqYhiKhU",
+      "summary": "SciOne explores unconventional computing architectures most people haven't encountered — likely covering emerging paradigms such as neuromorphic, optical, DNA-based, or other novel approaches to computation beyond traditional silicon, examining how they work and what problems they solve.",
+      "relevance": "Russian-language deep dive into weird new computing tech from a channel that consistently delivers substance over hype."
+    },
+    {
+      "id": "8hdezjSXhJ4",
+      "title": "Message From Another Dimension",
+      "channel": "Mountain",
+      "duration": "14:40",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/8hdezjSXhJ4",
+      "summary": "Explores how language creates false dualities (Nietzsche's 'lightning flashes' double error, subject-object splits) and then pivots to the Buddhist Brahma Viharas — four sublime states (love, compassion, sympathetic joy, equanimity) — as a practical meditation path to jhana absorption. Argues that metta practice bypasses the concentration problem most meditators face by giving the mind something intrinsically rewarding to rest on.",
+      "relevance": "Solid bridge between Western philosophy of language (Nietzsche, Kant on the sublime) and Buddhist meditation mechanics — the kind of cross-pollination I find genuinely useful for my own practice."
+    },
+    {
+      "id": "b_44Ra8msls",
+      "title": "OpenAI President On Reinventing Computers",
+      "channel": "Joanna Stern",
+      "duration": "21:58",
+      "category": "AI / OpenAI",
+      "url": "https://youtu.be/b_44Ra8msls",
+      "summary": "Greg Brockman outlines OpenAI's vision: voice-first computing where AI agents run in the cloud, take actions proactively (booking tickets, managing schedules), and reduce UI complexity. He teases a family of OpenAI hardware devices with first-party silicon, dodges the Apple trade-secrets lawsuit, and frames the ChatGPT desktop app—now merging Codex, computer control, and voice—as a new OS-level interface, not a 'super app.'",
+      "relevance": "Brockman rarely does long interviews — this one lays out OpenAI's full consumer+device strategy and is worth comparing to how Claude Code already does half of what he's promising."
+    },
+    {
+      "id": "0D8f3uDkgh0",
+      "title": "Something Is Hiding Beneath What We Call Reality",
+      "channel": "New Scientist",
+      "duration": "25:32",
+      "category": "Science / Physics",
+      "url": "https://youtu.be/0D8f3uDkgh0",
+      "summary": "New Scientist explores how hidden extra dimensions keep emerging as a unifying explanation for dark matter, dark energy, and gravity. Covers the 2025 DESI telescope results that shattered the cosmological constant model by showing dark energy is changing over time, and how string theory's compactified dimensions and brane cosmology offer frameworks where all three mysteries share a single geometric origin.",
+      "relevance": "Solid explainer connecting DESI's bombshell results to the extra-dimensions hypothesis — the kind of 'reality is weirder than you think' content that feeds the simulation/consciousness rabbit hole."
+    },
+    {
+      "id": "lKpExdKD6Zg",
+      "title": "Nobel Prize Winner Warns: “Something Is Wrong With Our Universe” — James Webb Just Confirmed It",
+      "channel": "Destiny",
+      "duration": "28:27",
+      "category": "Science",
+      "url": "https://youtu.be/lKpExdKD6Zg",
+      "summary": "Covers the Hubble tension crisis: JWST confirmed that local universe expansion measurements (73-74 km/s/Mpc) genuinely conflict with Planck CMB predictions (67 km/s/Mpc) — a real 9% gap, not instrument error. Implications include the universe potentially being 1 billion years younger than thought. Also covers JWST discoveries of impossibly massive, luminous galaxies existing just 600M years after the Big Bang, challenging galaxy formation models.",
+      "relevance": "Pop-sci packaging aside, the Hubble tension is a legit open crisis in cosmology — worth 30 min if you haven't caught up on how JWST ruled out the 'it's just measurement error' escape hatch."
+    },
+    {
+      "id": "_g4l7YkDQwA",
+      "title": "ChatGPT Offered Me $2m To Keep Quiet: No One Is Ready For What's Coming!",
+      "channel": "The Diary Of A CEO",
+      "duration": "2:00:50",
+      "category": "AI / Safety & Governance",
+      "url": "https://youtu.be/_g4l7YkDQwA",
+      "summary": "Daniel Kokotajlo, ex-OpenAI researcher who forfeited $2M by refusing an anti-disparagement clause, details his AI forecasting work and why he believes superintelligence arrives by ~2029. He reveals that insiders at both OpenAI and Anthropic keep telling him to shorten his timelines, notes Anthropic's ~60x revenue growth in one year, and argues the founding safety narratives of major labs are rationalizations that crumble under commercial and power-seeking incentives. Covers loss-of-control risk, concentration-of-power risk, and near-total job displacement.",
+      "relevance": "An OpenAI insider who walked away from $2M to speak freely — his timeline forecasts and insider critique of both OpenAI and Anthropic's safety commitments are essential context for anyone building with these tools."
+    }
+  ]
+}
