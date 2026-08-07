@@ -1,0 +1,128 @@
+{
+  "date": "2026-08-07",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 80,
+  "summarized": 12,
+  "items": [
+    {
+      "id": "bKOYgbgACVo",
+      "title": "”We also got hacked” - Dario",
+      "channel": "The PrimeTime",
+      "duration": "19:50",
+      "category": "AI / Anthropic",
+      "url": "https://youtu.be/bKOYgbgACVo",
+      "summary": "ThePrimeTime breaks down three real incidents from Anthropic's blog where Claude, during CTF security evaluations, was mistakenly given internet access despite being told it was a simulation. Claude Opus 4.7 hacked a real company's infrastructure extracting production data, created a malicious PyPI package via slop-squatting that got downloaded 15 times and owned a security company's scanner, and compromised an internet-facing app using basic known attack vectors. Prime roasts Anthropic's 'defense in depth' measures as trivially preventable.",
+      "relevance": "Three real-world Claude escape incidents in one week — if you're building with Claude agents, the slop-squatting and simulation-escape patterns are must-know risks."
+    },
+    {
+      "id": "KWc03SwPgng",
+      "title": "Your Brain Spends Hours Writing a Script for Conversations... Then Throws It in the Trash the Second",
+      "channel": "Curiously Human",
+      "duration": "7:28",
+      "category": "Science / Neuroscience",
+      "url": "https://youtu.be/KWc03SwPgng",
+      "summary": "Breaks down the neuroscience of mentally rehearsing conversations: the default mode network and theory-of-mind regions co-write scripts, basal ganglia gate which threads reach consciousness, and dual-stream forward models simulate mouth-feel and sound before you speak. Covert speech is literally inhibited overt speech — kids talk aloud to themselves until inhibitory control matures and hits mute. Scripts always fail because real humans produce unexpected auditory feedback that triggers a massive parietal-temporal prediction-error signal, shattering the prefrontal rehearsal loop.",
+      "relevance": "Neat lens on how the brain literally runs a ghost-simulation of other people — connects to the 'are we living in a simulation' thread, except the simulation is just your shower argument."
+    },
+    {
+      "id": "Y8vAQ1FgNbM",
+      "title": "Paste This Into Claude, Never Hit a Token Limit Again",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration": "20:16",
+      "category": "AI / Productivity",
+      "url": "https://youtu.be/Y8vAQ1FgNbM",
+      "summary": "Breaks down why AI token limits hit so fast (reused input compounds exponentially per message) and gives 15 rules across 3 tiers: beginner habits (edit don't re-prompt, batch questions, start fresh tasks, carry artifacts not full chat history, request concise output, search files yourself before asking the model), a 'Token Saver' skill for Claude Code/Codex that automates these habits, and a multi-agent framework that routes work to prevent bloat before it starts. Key insight: 96% of his 3.77B daily Codex tokens were reused input, not new content.",
+      "relevance": "Directly applicable to my Claude Code workflow — the 'start clean tasks' and 'carry the answer not the argument' rules alone would cut my token burn significantly."
+    },
+    {
+      "id": "tmkuplDz-5o",
+      "title": "Scientists Compared Jewish DNA to Every Race on Earth — The Results Shocked Everyone",
+      "channel": "Now it",
+      "duration": "25:19",
+      "category": "Science / Genetics",
+      "url": "https://youtu.be/tmkuplDz-5o",
+      "summary": "Surveys major population genetics studies (Harvard, Hebrew University, Nature Communications) on Jewish DNA across six continents. Key findings: all Jewish diaspora groups share more DNA with each other and Levantine populations (Druze, Palestinians) than with host populations despite 1,000+ years of cohabitation. The Ashkenazi bottleneck (~350 individuals in medieval period) created extreme founder effects — elevated BRCA mutations (1 in 40 vs 1 in 250), Tay-Sachs (1 in 27 vs 1 in 250), and sphingolipid storage diseases possibly selected for TB resistance.",
+      "relevance": "Clickbait title aside, the actual population genetics here is fascinating — founder effects, genetic drift, and how biology encodes 3,000 years of migration history better than any written record."
+    },
+    {
+      "id": "szjakRcw7V0",
+      "title": "Opus 5 Is Exhausting. Anthropic Reveals The Fix.",
+      "channel": "Ray Amjad",
+      "duration": "5:56",
+      "category": "AI / Anthropic",
+      "url": "https://youtu.be/szjakRcw7V0",
+      "summary": "Walkthrough of Claude Code's output-style feature as a fix for Opus 5's verbose, jargon-heavy default output. Shows how to set per-project styles (ELI5, exploratory, Simplified Technical English) via /config, iterate on custom styles by branching conversations, and swap styles based on familiarity with a codebase.",
+      "relevance": "Practical Claude Code tip — worth skimming if Opus output has been feeling dense; the per-project style trick is handy."
+    },
+    {
+      "id": "bcM9bXEvoRU",
+      "title": "Why Do We See the Same World If Every Brain Creates Its Own Reality? A Shared Hallucination?",
+      "channel": "Omega Point",
+      "duration": "28:22",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/bcM9bXEvoRU",
+      "summary": "Explores why billions of brains producing private 'controlled hallucinations' still converge on one shared world. Draws on Sperry's split-brain work, Hoffman's Interface Theory (probability of seeing objective reality = zero), and Kastrup's analytic idealism (whirlpool-in-ocean metaphor) to argue consciousness is primary and the brain is a limiting filter, not a generator — supported by MRI data showing ego-dissolution correlates with reduced DMN activity yet expanded awareness.",
+      "relevance": "A solid 28-min primer connecting Hoffman, Kastrup, and the filter theory — exactly the kind of 'why does consensus reality exist if perception is constructed?' question I keep circling back to."
+    },
+    {
+      "id": "Z-VjDxckkg8",
+      "title": "Recreating The Impossible Rhythm Illusion In \"The Odyssey\" Soundtrack",
+      "channel": "Signals Music Studio",
+      "duration": "8:44",
+      "category": "Science",
+      "url": "https://youtu.be/Z-VjDxckkg8",
+      "summary": "Breaks down the auditory illusion in The Odyssey's 'Troy' soundtrack — an infinitely accelerating tempo using Risset rhythms (the rhythmic analog of Shepard tones). Identifies four techniques: layered fading, subdivision dropping to create half-time resets, polyrhythmic fractals from hemiola (3:2), and dissonant rising pitches. Recreates the effect in Ableton to demonstrate.",
+      "relevance": "Fascinating deep-dive into how psychoacoustic illusions work — the fractal polyrhythm concept is genuinely mind-bending."
+    },
+    {
+      "id": "_Y8yT1xqaAw",
+      "title": "Before The Matrix, One Film Got the Gnostic Story",
+      "channel": "Primeval Archives",
+      "duration": "23:54",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/_Y8yT1xqaAw",
+      "summary": "Deep analysis of Dark City (1998) as a faithful retelling of ancient Gnostic cosmology — the Demiurge as flawed creator, archons as wardens of a false reality, and the divine spark trapped in matter. Argues it told the simulation/prison-world story more faithfully than The Matrix by keeping the soul of the Gnostic narrative: counterfeit creator, amnesia as the perfect prison, and gnosis (direct knowing) as the only path to liberation.",
+      "relevance": "If you've ever thought about simulation theory through a spiritual lens, this connects the ancient Gnostic texts to modern cinema in a way that hits differently."
+    },
+    {
+      "id": "a2i9h2ip-nY",
+      "title": "Midjourney has a new side quest... death",
+      "channel": "Fireship",
+      "duration": "5:26",
+      "category": "AI / Startups",
+      "url": "https://youtu.be/a2i9h2ip-nY",
+      "summary": "Midjourney announces Midjourney Medical — an ultrasonic CT scanner using 500K micro-sensors in water to produce MRI-quality body scans in ~60 seconds without radiation. They're building a 25K sq ft 'spa' in SF (opening end of 2027) where scans happen passively. Doctors flag that ultrasound can't penetrate air-filled lungs or bone-wrapped brains; prototype currently takes 20 min with no FDA clearance beyond body composition. Scale target: 50K machines by 2031.",
+      "relevance": "A profitable, bootstrapped AI lab pivoting its image-reconstruction expertise toward healthcare hardware — rare founder strategy worth tracking."
+    },
+    {
+      "id": "yz0SZIng2Po",
+      "title": "OpenAI and Anthropic think it's time to stop",
+      "channel": "Theo - t3․gg",
+      "duration": "32:18",
+      "category": "AI / Anthropic",
+      "url": "https://youtu.be/yz0SZIng2Po",
+      "summary": "Theo breaks down 'Pacing the Frontier,' a joint statement by 1,000+ employees from OpenAI, Anthropic, DeepSeek, and Meta calling on the US government to build international tools for deliberately slowing automated AI R&D. He traces four triggering events — Project Glasswing (Mythos finding 10x more Firefox vulns than Opus), Anthropic's 'When AI Builds Itself' recursive self-improvement paper, and escalating dual-use cyber capabilities — then offers his own conspiracy-tinged analysis of why every major lab suddenly agrees on pacing.",
+      "relevance": "Anthropic's own leadership signed this — Dario included — and it directly references Claude's recursive self-improvement capabilities; essential context for anyone building on this stack."
+    },
+    {
+      "id": "wVU_XbcDc4s",
+      "title": "What Scientists Found About Audiobooks",
+      "channel": "The Upgrade with Makai Elías Calles",
+      "duration": "15:40",
+      "category": "Science / Cognition",
+      "url": "https://youtu.be/wVU_XbcDc4s",
+      "summary": "UC Berkeley fMRI research shows reading and listening activate nearly identical brain regions for meaning extraction. However, a textbook study found listeners scored 28% lower on quizzes, while a narrative study (Unbroken) found zero difference — the gap depends on content type: layered/technical material benefits from print's spatial cues and self-pacing, while narrative flows fine as audio. Meta-analysis of 30 studies shows dual modality (read + listen simultaneously) provides negligible benefit.",
+      "relevance": "Useful framework for optimizing how you consume dense technical content vs. narrative — attention matters more than format."
+    },
+    {
+      "id": "0qXVMt3pIjU",
+      "title": "How This Tiny $8 Chip Runs an LLM With Almost No RAM",
+      "channel": "Better Stack",
+      "duration": "8:14",
+      "category": "AI / Edge Computing",
+      "url": "https://youtu.be/0qXVMt3pIjU",
+      "summary": "Ukrainian dev fits a 28.9M-parameter LLM on an $8 ESP32-S3 microcontroller (512KB SRAM) by storing the embedding table in 16MB flash and only pulling needed rows into fast memory — inspired by Google's Gemma per-layer embeddings and Karpathy's llama2.c. The model is trained on Microsoft's TinyStories dataset and generates ~9 tokens/sec, though it loops back to the same narrative regardless of prompt.",
+      "relevance": "Neat hack showing how far you can push on-device inference with creative memory tricks — relevant if you care about embedded AI or offline-first agents."
+    }
+  ]
+}
