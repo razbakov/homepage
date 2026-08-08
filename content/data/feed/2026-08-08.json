@@ -1,0 +1,118 @@
+{
+  "date": "2026-08-08",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 78,
+  "summarized": 11,
+  "items": [
+    {
+      "id": "CPQoBAKxkUo",
+      "title": "The Spiritual Trap of Helping Others - Ramana Maharshi's Great Insight",
+      "channel": "Advaita Awakenings with Gaurav",
+      "duration": "9:28",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/CPQoBAKxkUo",
+      "summary": "Explores Ramana Maharshi's teaching that the impulse to help others is often ego in disguise — the mind quietly builds identity around being 'the helper.' True service arises only when the sense of a separate doer dissolves through self-inquiry ('Who is the one who wants to help?'). Action continues naturally, but without inner narration claiming credit.",
+      "relevance": "A clean distillation of non-dual selflessness vs. ego-driven virtue — useful mirror if you catch yourself performing goodness instead of just doing it."
+    },
+    {
+      "id": "8cIDi2cog8U",
+      "title": "Why the Universe Wants to Know Itself | Federico Faggin",
+      "channel": "Closer To Truth",
+      "duration": "13:06",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/8cIDi2cog8U",
+      "summary": "Federico Faggin (inventor of the microprocessor) argues the universe is a conscious quantum field whose purpose is self-knowledge. He proposes 'quantum panpsychism' — starting from a holistic, dynamic 'one' that wants to know itself — to solve the hard problem of consciousness and the combination problem that defeats classical panpsychism. Discusses implications for life after death, reincarnation, and why space-time reality may be quasi-virtual.",
+      "relevance": "Faggin bridges quantum physics and consciousness in a rigorous way — exactly the kind of deep 'what is reality?' conversation I find worth sitting with."
+    },
+    {
+      "id": "kOD9rMhn4f4",
+      "title": "How far are we from \"Her\"?",
+      "channel": "Julia Turc",
+      "duration": "21:29",
+      "category": "AI / Voice Models",
+      "url": "https://youtu.be/kOD9rMhn4f4",
+      "summary": "Deep technical breakdown of voice AI architecture evolution: from cascade systems (ASR→LLM→TTS) through end-to-end models (GPT-4o) to full-duplex systems (Moshi, GPT Live, Thinking Machines). Explains how Moshi decomposes audio into semantic+acoustic tokens, uses 'inner monologue' text streams to keep speech grounded, and how a single architecture yields speech-to-speech, ASR, and TTS. Features interview with Qutai founder Nao on why even he pivoted back to cascades for production.",
+      "relevance": "Excellent explainer on the actual architectures behind the voice AI race — finally clarifies what 'full duplex' really means technically and why cascades aren't dead yet."
+    },
+    {
+      "id": "ECT1bPo5Sl8",
+      "title": "The Prophet Who Discovered What God Actually Is",
+      "channel": "Jordan B Peterson Clips",
+      "duration": "14:59",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/ECT1bPo5Sl8",
+      "summary": "Peterson analyzes the prophet Elijah's pivotal realization that God is not in earthquakes, fires, or storms but in the 'still, small voice' of conscience — an autonomous internal voice you can't control, that transcends individuals yet speaks to all with the same aim. He argues this is as transformative for humanity as Socrates' discovery of thinking, and explores the philosophical puzzle: if conscience is part of you but beyond your control, what distinguishes it from the hypothesis of a spirit?",
+      "relevance": "Genuinely interesting framing of conscience as an autonomous, transcendent process you can't override — relevant if you think about consciousness and the boundaries of self."
+    },
+    {
+      "id": "_nlwrNTWv-s",
+      "title": "В чём ошибка оригинала? Интерстеллар:  Альтернативная теория, делающая фильм сильнее",
+      "channel": "4то за Персонаж?",
+      "duration": "30:36",
+      "category": "Science / Philosophy",
+      "url": "https://youtu.be/_nlwrNTWv-s",
+      "summary": "Deep analysis of Interstellar's core scientific framework: argues Kip Thorne's choice of Novikov's self-consistency principle over many-worlds interpretation was the film's fundamental error — it eliminates free will, predetermines all outcomes, and undermines the drama. Contrasts five time-paradox resolution models (from fairy-tale to scientifically grounded), then proposes an alternative fan theory based on David Deutsch's quantum branching that would make the story philosophically stronger and more dramatically compelling.",
+      "relevance": "Серьёзный разбор на стыке физики времени и философии свободы воли — именно то, что я люблю: когда sci-fi разбирают не на сюжетные дыры, а на фундаментальные идеи."
+    },
+    {
+      "id": "JNuORofHhrk",
+      "title": "Everyone Is Wrong About Exercise",
+      "channel": "Bryan Johnson",
+      "duration": "15:11",
+      "category": "Science / Longevity",
+      "url": "https://youtu.be/JNuORofHhrk",
+      "summary": "Bryan Johnson outlines five pillars of exercise for longevity: strength training (3x/week compound movements with progressive overload), zone-2 cardio (150 min/week for mitochondrial function), high-intensity cardio (75 min/week to boost VO2 max — each unit gained ≈ 45 extra days of life expectancy), daily mobility work, and balance training (inability to stand on one leg 10s correlates with 84% higher mortality). His personal protocol: 6-8 hrs/week, 30 min strength + 30 min cardio daily with mobility/balance layered in.",
+      "relevance": "Solid data-backed framework from Bryan Johnson — the VO2 max and balance-mortality stats alone make it worth bookmarking for your own protocol."
+    },
+    {
+      "id": "olaQ3-m271M",
+      "title": "AI Can See Without Cameras. WiFi Was Just the Beginning.",
+      "channel": "Bilawal Sidhu",
+      "duration": "15:08",
+      "category": "Science / Privacy Tech",
+      "url": "https://youtu.be/olaQ3-m271M",
+      "summary": "Deep dive into radio-wave sensing tech that sees through walls without cameras — from DARPA's Sense Through the Wall program to Google Nest Hub's 60 GHz sleep radar to $22 hobbyist modules. Covers five escalating layers: presence, heartbeat, location, emotion recognition (via chest micro-vibrations), and gait-based identity. Ends with the alleged CIA use of quantum magnetometry to locate a downed pilot in Iran by his cardiac signature.",
+      "relevance": "If you're building any kind of smart home (like his Jarvis project), this is the privacy-preserving sensor stack you want instead of cameras — and a sobering look at where the same physics leads at scale."
+    },
+    {
+      "id": "-Gj0-EIyx6g",
+      "title": "Meta's Claude Code clone is INSANELY cheap",
+      "channel": "Theo - t3․gg",
+      "duration": "44:42",
+      "category": "AI / Coding Tools",
+      "url": "https://youtu.be/-Gj0-EIyx6g",
+      "summary": "Meta releases Muse Code (Claude Code competitor) powered by Muse Spark 1.2. Model benchmarks between Grok 4.5 and Kimmy K3, behind Opus 5 and Fable 5. The real story is pricing: contributor tier at $0.10/M input, $0.20/M output (10-20x cheaper than standard) because Meta desperately needs coding data for training. Theo tests it live, discusses Meta's internal tooling history and why their massive codebase experience positions them well for agentic coding.",
+      "relevance": "Direct Claude Code competitor with absurdly cheap pricing — worth understanding Meta's data-for-discount strategy and where Muse Spark 1.2 actually lands vs Anthropic models."
+    },
+    {
+      "id": "pYP1CFr_QLo",
+      "title": "Scientists Finally Figured Out What Love Is For",
+      "channel": "Be Smart",
+      "duration": "17:35",
+      "category": "Science",
+      "url": "https://youtu.be/pYP1CFr_QLo",
+      "summary": "Be Smart explores the neuroscience and evolutionary biology of romantic love. Covers Helen Fisher's three-system framework (lust, attraction, attachment), fMRI studies showing love activates the same reward circuits as drugs while deactivating judgment centers, and the key insight that love evolved as a 'commitment device' — solving the game-theory defection problem of cooperative child-rearing. Also covers prairie vole oxytocin research and how romantic bonding likely hijacked the mother-infant attachment system.",
+      "relevance": "Solid science explainer connecting neuroscience, evolutionary game theory, and pair bonding — the commitment device framing is a genuinely useful mental model."
+    },
+    {
+      "id": "KHs27MtSYrc",
+      "title": "Другие миры, вероятно, существуют",
+      "channel": "Homo Deus",
+      "duration": "1:47:14",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/KHs27MtSYrc",
+      "summary": "A nearly two-hour Russian-language deep dive (Homo Deus channel) exploring the case for the existence of other worlds — likely covering multiverse theories from quantum many-worlds interpretation to simulation arguments and cosmological models. The extended format suggests a substantive lecture/discussion rather than pop-science clickbait.",
+      "relevance": "Long-form Russian философия about parallel worlds and reality — right up my alley for a weekend deep-listen."
+    },
+    {
+      "id": "jI4jh23e3TY",
+      "title": "The Matrix: The Gnostic Allegory Nobody Told You About",
+      "channel": "ReligionForSleep",
+      "duration": "47:03",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/jI4jh23e3TY",
+      "summary": "Deep 47-min reading of The Matrix as a literal retelling of Gnostic scripture — the Matrix as the Gnostic false world (kenoma), Agents as Archons (prison wardens of the soul), the red pill as gnosis, and Neo as the Gnostic redeemer. Maps each film element line-by-line against ancient texts (Nag Hammadi, Gospel of Thomas, Plato's cave) to argue the Wachowskis deliberately encoded a 1,700-year-old forbidden teaching: that material reality is a constructed prison, humans carry a divine spark trapped in forgetfulness, and awakening is possible but guarded against by forces that rule through the sleeping themselves.",
+      "relevance": "If you've ever felt that 'splinter in the mind' watching The Matrix — this connects it straight to the Gnostic and simulation-theory roots I keep circling back to."
+    }
+  ]
+}
