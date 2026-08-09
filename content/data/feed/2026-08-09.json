@@ -1,0 +1,128 @@
+{
+  "date": "2026-08-09",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 80,
+  "summarized": 12,
+  "items": [
+    {
+      "id": "AahSeCn7lOU",
+      "title": "This is Cheaper and Less Restricted...",
+      "channel": "AI Samson",
+      "duration": "29:10",
+      "category": "AI / Video Generation",
+      "url": "https://youtu.be/AahSeCn7lOU",
+      "summary": "Deep hands-on review of MiniMax Halo 3, a new open-weight AI video model that generates 15-second 2K videos with native audio (dialogue, SFX, music) at up to 3x cheaper than Seedance 2.0. Tests cover drone shots, lip-sync, physics simulation, character consistency, dance choreography, and censorship limits — finding strengths in smooth motion and art direction but persistent failures in physics (objects passing through each other, extra limbs) and temporal consistency.",
+      "relevance": "Open-weight video gen with native audio at 3x lower cost — the price/quality curve for AI filmmaking just shifted again."
+    },
+    {
+      "id": "tCxerOrNJn0",
+      "title": "Not Possible.",
+      "channel": "Chase Hughes",
+      "duration": "37:21",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/tCxerOrNJn0",
+      "summary": "Chase Hughes walks through the dream argument for consciousness: you manufacture eyes, light, distance, and matter in dreams indistinguishably from waking life. Covers saccadic masking (51-90 min/day of functional blindness), Donald Hoffman's evolutionary simulations showing accuracy loses to fitness-tuned perception, Schachter-Singer/Dutton-Aron studies on emotion as post-hoc labeling of raw arousal, and Kim Nader's memory reconsolidation research proving every recall rewrites the original. Concludes that present-moment experience is a forecast delivered late with fabricated timestamps.",
+      "relevance": "Popularized but genuinely dense tour of perception-as-rendering — Hoffman's interface theory plus memory reconsolidation in one sitting, worth it if you haven't encountered these ideas together before."
+    },
+    {
+      "id": "kpkEnRWK-m8",
+      "title": "Feynman Explains Why Infinity Is Impossible to Understand in Even infinite time",
+      "channel": "The Feynman Lens",
+      "duration": "1:00:04",
+      "category": "Science",
+      "url": "https://youtu.be/kpkEnRWK-m8",
+      "summary": "Hour-long exploration of infinity through Feynman's lens: why physics forbids actual infinities (infinite mass → black hole), how calculus 'solved' Zeno's dichotomy paradox with convergent series, the Planck-length alternative (space as discrete pixels → movement as micro-teleportation), and Hilbert's Hotel demonstrating infinity's rule-breaking arithmetic (∞+1=∞, ∞+∞=∞).",
+      "relevance": "The 'universe as pixels vs continuous' framing connects straight to simulation theory — solid Sunday-morning brain food if you haven't revisited these paradoxes in a while."
+    },
+    {
+      "id": "gVfEtktkvnE",
+      "title": "Did Anthropic finally fix MCP?",
+      "channel": "Theo - t3․gg",
+      "duration": "18:17",
+      "category": "AI / Anthropic",
+      "url": "https://youtu.be/gVfEtktkvnE",
+      "summary": "Theo reviews the new MCP 2026-07-28 spec that moves the protocol from stateful bidirectional connections to stateless request-response. Previously every MCP server required a persistent connection even when unused — spinning up 30+ stateful processes per agent run. Now servers can deploy on serverless/edge infra with single HTTP requests. Simon Willison built three MCP servers in a week thanks to reduced complexity. The spec also hardens auth and standardizes extensions.",
+      "relevance": "MCP just went from 'worse CLI' to actually useful — stateless means your agent infra stops melting your CPU, and building/hosting servers becomes trivial."
+    },
+    {
+      "id": "a_ZKYH8v_do",
+      "title": "Neil deGrasse Tyson And Jaron Lanier on the AI Illusion",
+      "channel": "StarTalk Plus",
+      "duration": "9:24",
+      "category": "AI / Philosophy",
+      "url": "https://youtu.be/a_ZKYH8v_do",
+      "summary": "Jaron Lanier defends his 'There is no AI' thesis on StarTalk: AI models are collaborations of people's data, not autonomous entities. He proposes a novel multi-factor AI safety approach — running a parallel process that does counterfactual cluster estimation on training data to catch guardrail evasions (like bomb recipes) without relying on the model to police itself. He argues that recognizing AI as 'made of people' is the key to opening the black box, solving hallucination/security, and avoiding the dystopian 'everyone is obsolete' narrative — instead envisioning an expanding economy of new creative roles.",
+      "relevance": "Lanier's 'counterfactual cluster estimation' idea for AI safety is genuinely novel — and his reframe of AI as human collaboration vs. new god is the kind of first-principles thinking that sharpens how you build with these tools."
+    },
+    {
+      "id": "XB6522uFA0s",
+      "title": "The Invariance Ontology Overview",
+      "channel": "Glennymer",
+      "duration": "22:42",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/XB6522uFA0s",
+      "summary": "Presents the 'invariance ontology' framework linking quantum mechanics to consciousness: Planck's constant as the universe's mechanism for irreversibly overwriting past states; the Reeh-Schlieder theorem showing local regions are maximally impure mixed states vs. the pure global vacuum; and the dynamical Casimir effect in cortical microtubules — vibrating at 7.8 THz to convert virtual photons into a coherent 30 GHz field that governs neuronal firing and generates local awareness. Argues the ego is a 'simulated subject' — an operational fiction reflecting pure vacuum-originated awareness it can never observe directly.",
+      "relevance": "A dense, physics-grounded take on how consciousness emerges from quantum vacuum amplification — connects Penrose-Hameroff microtubule ideas with QED and nondual philosophy in one coherent framework."
+    },
+    {
+      "id": "47U6uxEUDr8",
+      "title": "We FINALLY Understand the Power of Psychedelics (...mostly)",
+      "channel": "Dr Ben Miles",
+      "duration": "27:15",
+      "category": "Science / Consciousness",
+      "url": "https://youtu.be/47U6uxEUDr8",
+      "summary": "Traces psychedelics from Hofmann's 1943 accidental LSD dose through CIA MK-Ultra to modern neuroscience. Key finding: LSD and psilocybin mimic serotonin via shared indole-ring structure, binding to 5-HT2A receptors and disrupting the brain's default mode network — the neural basis of ego and habitual thought patterns. Recent clinical trials show 50%+ sustained remission in alcoholism and depression by literally rewiring synaptic connectivity, not just altering mood temporarily.",
+      "relevance": "A rigorous 27-min arc from 1940s chemistry to cutting-edge neural plasticity research — finally a mechanistic explanation for why psychedelics break behavioral loops, not just 'people have intense experiences and change.'"
+    },
+    {
+      "id": "B9okQ_3BjxI",
+      "title": "The FULL STORY of the The Monad — Every Gnostic MUST Know This",
+      "channel": "Gnostic Sleeper",
+      "duration": "2:32:37",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/B9okQ_3BjxI",
+      "summary": "A comprehensive 2.5-hour deep dive into the Gnostic concept of the Monad — the undivided absolute that precedes all existence — drawn from primary Nag Hammadi texts (Apocryphon of John, Tripartite Tractate, Gospel of Truth). Covers apophatic theology (via negativa), the Monad's relationship to Pythagorean mathematics and Neoplatonism (Plotinus), and how 'pleroma' (fullness) rather than void characterizes the pre-emanation state. Systematically dismantles every familiar image of God to approach what the ancient Gnostic teachers actually meant by the irreducible ground of reality.",
+      "relevance": "If you've ever felt that mainstream theology undersells the mystery — this is the raw source material, unfiltered, connecting ancient Gnostic cosmology to the same questions simulation theory and consciousness research keep circling back to."
+    },
+    {
+      "id": "u54rwhqOwzg",
+      "title": "EINE NEUE PHYSIK?! Durchbruch bei der ANTIGRAVITATION!",
+      "channel": "Astro-Tim",
+      "duration": "15:00",
+      "category": "Science",
+      "url": "https://youtu.be/u54rwhqOwzg",
+      "summary": "Covers a new proposal by physicists Pablo Saldanha, Chiara Marletto, and Vlatko Vedral to demonstrate quantum gravity via 'antigravity': placing a nanodiamond (NV center) in quantum superposition, then using post-selection to filter measurement results where a cesium-atom probe is repulsed rather than attracted — an effect impossible if gravity is purely classical. The team estimates conclusive lab results by early 2030s using weak-value amplification, and discusses implications from gravity-based quantum computing to Matryoshka brains and simulation theory.",
+      "relevance": "A real experimental roadmap for cracking quantum gravity by decade's end — and the simulation-theory rabbit hole at the end is a bonus."
+    },
+    {
+      "id": "Wt4F_IkgpsA",
+      "title": "We Might Be The EXPERIMENT. The Sumerian Texts Said This 4000 YEARS AGO.",
+      "channel": "The Archivist's Journal",
+      "duration": "12:32",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/Wt4F_IkgpsA",
+      "summary": "Examines 3,171 Human Accelerated Regions (HARs) — DNA sequences conserved for 300M+ years across vertebrates that rapidly mutated only in humans, concentrated around brain development genes. Connects this to chromosome 2 fusion (46 vs 48 in other great apes) and the unexplained 'cognitive revolution' ~50-70kya, then draws parallels to the Sumerian Atrahasis Epic's detailed account of engineered creation with trial-and-error prototypes. Cites Pollard's HAR1 paper and 2025 Science Advances findings.",
+      "relevance": "The HARs science is legit and the timing gap between anatomical modernity (300kya) and behavioral modernity (50kya) is a real unsolved puzzle — worth watching for the genetics alone, even if the Anunnaki framing is Sitchin-tier speculation."
+    },
+    {
+      "id": "5mfwXuS06Ok",
+      "title": "This Is Boring But It Will Make You Scary Intelligent",
+      "channel": "Sandeep Swadia",
+      "duration": "17:03",
+      "category": "AI / Critical Thinking",
+      "url": "https://youtu.be/5mfwXuS06Ok",
+      "summary": "Monk-turned-MIT-CEO Sandeep Swadia breaks down five cognitive distortions that hijack judgment in the AI era: authority bias (Theranos as a $9B failure of unchecked credentials), marketing 'true lies' (how 'up to' and 'starting at' create legal deception), groupthink (Asch conformity experiment — one dissenter breaks the spell), AI-outsourced thinking (MIT study showing ChatGPT users couldn't recall a single line they'd just 'written'), and confirmation bias. Practical tools for each: 'What needs to be true for this to be real?', cross-verify AI outputs between Claude/Gemini/ChatGPT, use AI as a devil's advocate against consensus.",
+      "relevance": "Useful mental-hygiene checklist for anyone building with AI — especially the cross-model verification habit and using AI as structured dissent rather than a crutch."
+    },
+    {
+      "id": "QuW4qVQPPoo",
+      "title": "The Shortest Book in the Bible Hides Something Disturbing",
+      "channel": "Nils Glenn",
+      "duration": "16:13",
+      "category": "Faith / Theology",
+      "url": "https://youtu.be/QuW4qVQPPoo",
+      "summary": "Deep dive into the Book of Obadiah — the Bible's shortest book — tracing how Edom's betrayal of Israel during Babylon's 586 BC destruction of Jerusalem established a theological archetype of kinsman-betrayal and prideful rebellion (paralleling Isaiah 14's 'morning star' language). The key payoff: James at the Acts 15 Jerusalem Council quotes Amos 9 from the Septuagint, where a Hebrew vowel ambiguity turns 'Edom' into 'humanity' — transforming a prophecy about possessing the betrayer-nation into the theological basis for welcoming Gentiles, the most consequential decision in early Christianity.",
+      "relevance": "A single vowel difference between 'Edom' and 'Adam' shaped whether Christianity would remain a Jewish sect or open to all nations — the kind of linguistic hinge-point that rewards close reading."
+    }
+  ]
+}
