@@ -1,0 +1,128 @@
+{
+  "date": "2026-08-10",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 80,
+  "summarized": 12,
+  "items": [
+    {
+      "id": "brYyY4Gjx9w",
+      "title": "Новый эксперимент, в котором время исчезает",
+      "channel": "SciOne",
+      "duration": "24:57",
+      "category": "Science / Physics",
+      "url": "https://youtu.be/brYyY4Gjx9w",
+      "summary": "A physicist built a mini-universe from a Bose-Einstein condensate of 24,000 rubidium atoms in an optical trap, split by a light barrier into observable ('light') and hidden ('dark') sectors. By tracking entropy of the visible sector as an internal clock, the experiment shows time literally disappears between universe cycles — the Big Crunch and next Big Bang are instantaneous from inside, though lab time passes between them. The deeper implication: time and its arrow may emerge from incomplete knowledge — only when part of reality is hidden from the observer do clocks become possible; full information would collapse past and future into an indistinguishable present.",
+      "relevance": "A tabletop experiment that makes the 'time is emergent from information' idea physically concrete — not philosophy, actual lab data showing time vanishing when entropy exchange stops."
+    },
+    {
+      "id": "XMcdIV3vkXs",
+      "title": "Yin-Yang Is Not About \"Balance\"｜What the Original Actually Says",
+      "channel": "TangSaying",
+      "duration": "7:37",
+      "category": "Philosophy / Eastern Thought",
+      "url": "https://youtu.be/XMcdIV3vkXs",
+      "summary": "Traces Yin-Yang back to original Chinese texts, showing it was never about good-vs-evil (that's Persian dualism projected onto it) or maintaining balance (a modern wellness distortion). The original model describes an unstoppable turning — summer becoming winter, day becoming night — where each phase already contains the seed of the next. The characters literally mean sunny/shady sides of the same hill as the sun moves.",
+      "relevance": "A clean correction of one of the most misunderstood symbols — the 'turning not balance' reframe is genuinely useful for anyone trying to stop white-knuckling through quiet seasons."
+    },
+    {
+      "id": "BbTq5CYKotw",
+      "title": "M5 Ultra Mac Studio - Apple Confirmed The Most Powerful Upgrade in YEARS 🔥 | Big News",
+      "channel": "SpecNerd",
+      "duration": "4:44",
+      "category": "Apple",
+      "url": "https://youtu.be/BbTq5CYKotw",
+      "summary": "Leaked M5 Ultra Mac Studio details: fusion architecture splitting CPU/GPU into separate chiplets for better power delivery, completely redesigned cooling system to handle increased thermal output, up to 80 GPU cores for 8K/3D workloads, and up to 768GB unified memory — enough to run large AI models locally without cloud servers. Expected October release with higher pricing due to global memory chip shortage.",
+      "relevance": "768GB unified memory for local AI inference on your desk — that's the real headline for anyone tired of renting cloud GPU time."
+    },
+    {
+      "id": "zPO8NYXbwSk",
+      "title": "Почему мир скрывает Бога? Главная тайна Каббалы. Иван Негреев | Punk Monk",
+      "channel": "PunkMonk",
+      "duration": "1:16:23",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/zPO8NYXbwSk",
+      "summary": "Deep lecture on Kabbalah's four historical stages (Merkavah mystics → classical/Spanish → Lurianic → modern) and three types (theoretical, practical, prophetic/meditative). Key philosophical thread: the throne of God resides both in the seventh heaven and within every being — ascent to the divine is simultaneously descent into self, requiring inner transformation. Covers Abraham Abulafia's letter-combination (Tsiruf) method for inducing altered states of consciousness and direct intuitive knowing beyond philosophical texts.",
+      "relevance": "Serious 75-min philosophy lecture on mystical consciousness, inner transformation, and the 'God-image within' — the Kabbalistic take on the simulation-from-inside question."
+    },
+    {
+      "id": "s04_gvkitnY",
+      "title": "Не человек осознаёт жизнь - жизнь осознаёт себя человеком. Елена Ачкасова",
+      "channel": "Безусловное Совпадение Елена Ачкасова",
+      "duration": "28:06",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/s04_gvkitnY",
+      "summary": "Elena Achkasova explores the idea that consciousness is not a property of humans but rather life itself becoming aware through the human form — 'unconditional coincidence' as a framework for non-dual awareness. A Russian-language philosophical talk on the nature of self and awareness.",
+      "relevance": "The title alone — 'it's not a person who realizes life, but life realizing itself as a person' — is the kind of consciousness inversion that feeds my simulation/awareness thinking."
+    },
+    {
+      "id": "DOaMIVAJ8CY",
+      "title": "I Built The World’s First Customizable HUD Glasses",
+      "channel": "Steven Sullivan",
+      "duration": "16:46",
+      "category": "Spatial Computing / AR",
+      "url": "https://youtu.be/DOaMIVAJ8CY",
+      "summary": "Creator builds a two-phase AR HUD system: v1.0 uses XR glasses with iPhone widget screens and iOS voice control for hands-free navigation, health tracking, AI chat, and task management. v2.0 is a custom iOS app with transparent camera passthrough, real-time compass that rotates with head orientation, step-synced health bar (color shifts red→purple with progress), water tracking, quest system, and a circular mini-map that rotates to face your heading — all built in ~2 hours.",
+      "relevance": "A solo builder shipping the spatial UI that XR companies keep promising but under-delivering — exactly the kind of DIY spatial computing energy I respect."
+    },
+    {
+      "id": "f4mI3d-nTrI",
+      "title": "MCP Was Wrong From The Start (They Just Fixed It)",
+      "channel": "Better Stack",
+      "duration": "6:52",
+      "category": "AI / Infrastructure",
+      "url": "https://youtu.be/f4mI3d-nTrI",
+      "summary": "MCP protocol's biggest update makes it fully stateless — removes the initialize handshake and session IDs that caused load-balancing nightmares. Servers can now scale to zero on Cloudflare Workers/Cloud Run, use standard round-robin routing, and handle follow-up questions via multi-round-trip requests instead of persistent connections. SDKs bumped to v2 with 12-month deprecation window.",
+      "relevance": "If you're running MCP servers (and you are), this changes how you deploy them — finally works like normal HTTP infra."
+    },
+    {
+      "id": "14TBuOFw4KM",
+      "title": "When did the Rabbit R1 become this good?",
+      "channel": "Reysu",
+      "duration": "10:33",
+      "category": "AI / Hardware",
+      "url": "https://youtu.be/14TBuOFw4KM",
+      "summary": "Revisit of the Rabbit R1 two years post-launch: the hardware hasn't changed, but integrating frontier models (Claude Code, OpenClaw, Hermes) as AI agents has turned it into a surprisingly functional dedicated AI assistant — push-to-talk, no distractions, can execute tasks on your computer. Main criticism: Rabbit's own built-in AI and dictation model are still weak compared to modern alternatives like Whisper.",
+      "relevance": "Interesting proof that a dedicated AI pager form factor works once you plug in real models — makes you think about what the 'Her'-style device actually needs to be."
+    },
+    {
+      "id": "ZYFpBz64SkI",
+      "title": "Atoms In Entanglement For The First Time! This Discovery Will Shock Your Reality",
+      "channel": "Frontiers of Science",
+      "duration": "19:21",
+      "category": "Science / Quantum Physics",
+      "url": "https://youtu.be/ZYFpBz64SkI",
+      "summary": "Experimental physicist Shawn Hodgman (ANU) explains on StarTalk how his team entangles entire helium atoms — not just photons — using Bose-Einstein condensates cooled near absolute zero, forcing atoms into superposition of opposite trajectories until measurement collapses them. Discussion covers why our brains evolved for classical perception (throwing things at animals, not sensing quantum effects), the fuzzy quantum-to-classical boundary as an active research frontier, and the current global race in quantum computing — where qubits exploit superposition/entanglement for certain problem classes, but scaling remains the hard engineering challenge.",
+      "relevance": "Whole-atom entanglement is a real step toward probing gravity-meets-quantum — the fuzzy boundary discussion is the part worth your time."
+    },
+    {
+      "id": "_xjxwl1zLMc",
+      "title": "Framework 13 Pro: The Modular Laptop is Real!",
+      "channel": "Marques Brownlee",
+      "duration": "12:48",
+      "category": "Hardware / Right-to-Repair",
+      "url": "https://youtu.be/_xjxwl1zLMc",
+      "summary": "MKBHD reviews the Framework 13 Pro, their most polished modular laptop yet — CNC aluminum chassis, custom 3:2 anti-glare touchscreen, Intel Core Ultra Series 3, fully upgradable RAM/SSD/battery/display/keyboard with a single screwdriver. Rates it 80-90% of MacBook Pro quality but orders of magnitude more repairable; price bumped to $1,600-$2,900. Framework also supports putting new motherboards into 5-year-old chassis, proving long-term commitment to modularity.",
+      "relevance": "A Linux-first, fully repairable laptop that's finally premium enough to daily — worth watching if you care about owning your hardware the way you own your software."
+    },
+    {
+      "id": "DqZbWB0mUlI",
+      "title": "The Bene Gesserit Aren't Witches | Here's What They Actually Are",
+      "channel": "The Understory",
+      "duration": "14:11",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/DqZbWB0mUlI",
+      "summary": "Deep analysis of the Bene Gesserit as a 10,000-year breeding and social-engineering program — not witches but a political institution using trained neuroscience (Voice, prana-bindu body control), planted religions (Missionaria Protectiva), and genetic memory to produce a prescient superhuman. The plan collapses one generation early because Jessica chose love over the program, which Herbert frames as proof that centuries-long human-engineering projects always break against individual agency.",
+      "relevance": "Herbert's core thesis — you can't engineer humans across centuries because the plan always meets the human — is the exact tension playing out in AI alignment and long-arc institution design right now."
+    },
+    {
+      "id": "-DyrBDsKA5s",
+      "title": "You've Never Seen a Real Photo",
+      "channel": "Steve Mould",
+      "duration": "18:08",
+      "category": "Science",
+      "url": "https://youtu.be/-DyrBDsKA5s",
+      "summary": "Steve Mould explores Lippmann plates — a 135-year-old Nobel Prize-winning photography technique that records the actual spectrum of light (not just RGB approximations) using standing waves in silver halide emulsion. He explains structural color through chameleons, morpho butterflies, and a custom color-changing rubber band, showing how interference patterns encode wavelength information in regularly spaced nano-mirrors embedded in gelatin.",
+      "relevance": "A beautifully explained deep-dive into why every photo you've ever seen is technically faking color — and the forgotten technique that got it right."
+    }
+  ]
+}
