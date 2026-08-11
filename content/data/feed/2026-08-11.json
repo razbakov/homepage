@@ -1,0 +1,108 @@
+{
+  "date": "2026-08-11",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 80,
+  "summarized": 10,
+  "items": [
+    {
+      "id": "BRESQ8NX-us",
+      "title": "Is AI About to Change Movies Forever?",
+      "channel": "ErikDoesVFX",
+      "duration": "16:52",
+      "category": "AI / Creative Tools",
+      "url": "https://youtu.be/BRESQ8NX-us",
+      "summary": "VFX artist travels to Iceland to create traditional dragon shots (3D modeling, particle simulations, physically-based rendering) then challenges AI company Higgs Field to recreate the same scenes using video-to-video and image-to-video models. Explains why movie rendering still takes 7+ hours per frame (path tracing) vs AI's seconds (neural network guessing). AI results show inconsistent dragon designs between shots, identity/scale drift, but occasional impressive moments — highlighting AI's current gap in coherent multi-shot VFX work.",
+      "relevance": "Honest, hands-on VFX-vs-AI benchmark with no agenda — shows exactly where generative video models break down on real production shots."
+    },
+    {
+      "id": "0D8f3uDkgh0",
+      "title": "Something Is Hiding Beneath What We Call Reality",
+      "channel": "New Scientist",
+      "duration": "25:32",
+      "category": "Science / Physics",
+      "url": "https://youtu.be/0D8f3uDkgh0",
+      "summary": "New Scientist explores how DESI telescope data has shaken cosmology by suggesting dark energy isn't a constant — it's changing over time. Physicists are increasingly pointing to hidden extra dimensions (from string theory and brane cosmology) as a unified explanation for dark matter, dark energy, and gravity. The video walks through Kaluza-Klein theory, compactified dimensions, and how upcoming experiments could provide the first real evidence.",
+      "relevance": "Solid explainer on the DESI crisis and why extra dimensions keep resurfacing — connects nicely to the 'is reality fundamentally different from what we perceive' question."
+    },
+    {
+      "id": "Q1z7J4k_fgU",
+      "title": "DeepSeek Just Ended the Cheap AI Era",
+      "channel": "Stacked Podcast",
+      "duration": "31:52",
+      "category": "AI / Industry",
+      "url": "https://youtu.be/Q1z7J4k_fgU",
+      "summary": "DeepSeek announces a 'substantial' price increase for V4 API (currently 50-180x cheaper than competitors), likely driven by new investor pressure and loss-leader strategy ending. Google's chief scientist Jeff Dean leaves after 27 years to co-found Discovery Loop (scientific experiment automation); Demis Hassabis moves to DeepMind chairman. Includes the anecdote of Hassabis testing Zuckerberg's AI understanding before rejecting Facebook's higher offer for DeepMind.",
+      "relevance": "Practical heads-up if you're running DeepSeek workloads — pricing shift could reshuffle the cheap-model calculus, plus the Google talent exodus signals where top researchers see the next frontier."
+    },
+    {
+      "id": "NmrW3w8XfLI",
+      "title": "You Are Every Person Who Has Ever Lived - Quantum Proof",
+      "channel": "Joe's Space Science",
+      "duration": "1:49:05",
+      "category": "Science / Philosophy",
+      "url": "https://youtu.be/NmrW3w8XfLI",
+      "summary": "Deep dive into why all electrons are perfectly identical to 12+ decimal places — the most precise measurement in physics. Covers Dehmelt's Penning trap (Nobel 1989), matter-antimatter symmetry, and Wheeler's 1940 phone call to Feynman proposing the 'one-electron universe': a single particle weaving back and forth through time, appearing as every electron and positron simultaneously.",
+      "relevance": "Wheeler's one-electron idea is the kind of physics-meets-philosophy rabbit hole that rewires how you think about identity and reality — right up the consciousness/simulation alley."
+    },
+    {
+      "id": "SMXq68UeeXU",
+      "title": "Physicists Say They’ve Found The Origin Of Causality",
+      "channel": "Sabine Hossenfelder",
+      "duration": "6:17",
+      "category": "Science",
+      "url": "https://youtu.be/SMXq68UeeXU",
+      "summary": "Sabine Hossenfelder reviews a paper proposing that causality is emergent, not fundamental — arising from 'hyper decoherence' of causally unordered quantum events ('Q-boxes'). If correct, this sidesteps the core obstacle in quantum gravity: indefinite causal structure. She rates it 5/10 — the math recovers standard QM, but the assumptions are too strong.",
+      "relevance": "Foundational physics that actually tries to fix quantum weirdness instead of glorifying it — exactly the kind of 'replace, don't patch' thinking I respect."
+    },
+    {
+      "id": "YaO9Hwc86pQ",
+      "title": "iOS 27, macOS Golden Gate — WWDC 2026",
+      "channel": "Rozetked",
+      "duration": "16:15",
+      "category": "Apple",
+      "url": "https://youtu.be/YaO9Hwc86pQ",
+      "summary": "Rozetked's Russian-language recap of WWDC 2026 highlights: iOS 27 features and the new macOS Golden Gate release. Covers Apple's latest platform updates across the ecosystem in a 16-minute overview.",
+      "relevance": "Quick WWDC 2026 rundown in Russian — handy if you want the iOS 27 + macOS Golden Gate highlights without sitting through the full keynote."
+    },
+    {
+      "id": "8FT-oz9aZU4",
+      "title": "Time Dilation Visualized",
+      "channel": "The Overview Effekt",
+      "duration": "11:56",
+      "category": "Science",
+      "url": "https://youtu.be/8FT-oz9aZU4",
+      "summary": "Visual explainer of relativistic time dilation — how time passes differently depending on velocity and gravitational fields, likely covering both special and general relativity effects with high-quality animations from a channel known for physics visualizations.",
+      "relevance": "Beautiful physics visualization — the kind of thing that makes relativity click intuitively rather than just mathematically."
+    },
+    {
+      "id": "6e9Axr_8CiQ",
+      "title": "It Begins: Scientists Literally Copied a Brain Into a Computer — And It Came Alive",
+      "channel": "Stellron",
+      "duration": "10:30",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/6e9Axr_8CiQ",
+      "summary": "Covers the March 2026 fruit fly connectome emulation — 140K neurons copied into code produced 91% behavior match with zero training, suggesting behavior is encoded in wiring alone. Connects this to Bostrom's simulation argument and Kipping's Bayesian update (odds flip to 'almost certainly simulated' the day we run such simulations ourselves), then discusses physicist Preston Green's 2019 warning that proving we're in a simulation could cause it to be shut down.",
+      "relevance": "The fly connectome result is legit science and the bridge from 'we copied a brain' to 'simulation argument just got real' is well-constructed — worth 10 minutes if you follow the consciousness-is-substrate-independent thread."
+    },
+    {
+      "id": "V3kZwsysuqQ",
+      "title": "How to Become Your Own ISP",
+      "channel": "Data Slayer",
+      "duration": "21:59",
+      "category": "Tech / Open Infrastructure",
+      "url": "https://youtu.be/V3kZwsysuqQ",
+      "summary": "Deep technical walkthrough of Reticulum, an open-source cryptographic networking stack that bridges LoRa, Bluetooth, packet radio, and conventional internet into a unified mesh — no subscriptions, no central authority, privacy by default. The creator sets up a public transport node on GCP, then tests whether a non-technical user (his partner) can send encrypted messages from a normal Android phone over LTE→TCP→Starlink→LoRa to a completely offline device. Demonstrates the full chain working across network boundaries.",
+      "relevance": "A credible, hands-on demo of permissionless infrastructure that actually works — the 'blockchain of communication' without the casino, as they put it. Worth watching if you care about what a post-telecom internet could look like."
+    },
+    {
+      "id": "RgpABHt2B7I",
+      "title": "The Sapient Cosmos: Where Physics, Psychedelics and Shamanism Meet | James Glattfelder, PhD",
+      "channel": "Essentia Foundation",
+      "duration": "1:46:02",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/RgpABHt2B7I",
+      "summary": "Complexity physicist James Glattfelder presents his 'syncretic idealism' — arguing information is the ontological primitive of reality, consciousness is fundamental (not produced by brains but channeled), and that shamanic, mystical, and psychedelic traditions converge with modern physics (IIT, pan-computationalism) on the same insight. He traces the Western academy's late arrival to consciousness studies (~1994) and critiques physicalism's blind spot.",
+      "relevance": "A physicist building a bridge from information theory and complexity science to idealism and psychedelics — exactly the kind of rigorous-yet-wild synthesis you dig into."
+    }
+  ]
+}
