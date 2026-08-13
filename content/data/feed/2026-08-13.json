@@ -1,0 +1,128 @@
+{
+  "date": "2026-08-13",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 80,
+  "summarized": 12,
+  "items": [
+    {
+      "id": "nOGTjQ6eCaY",
+      "title": "We Know More About Time Than You Think",
+      "channel": "WIRED",
+      "duration": "18:23",
+      "category": "Science / Physics",
+      "url": "https://youtu.be/nOGTjQ6eCaY",
+      "summary": "Brian Greene walks through humanity's evolving understanding of time — from Newton's absolute clock through Einstein's relativity (time dilation from motion and gravity, confirmed by atomic clock experiments) to the entropy puzzle. He explains why the second law of thermodynamics alone can't explain the arrow of time (entropy should increase in both temporal directions), and why physicists must hypothesize an extremely low-entropy Big Bang to anchor time's direction — a condition no one can yet explain.",
+      "relevance": "A clean 18-minute physics lecture that gets to the real unsolved problem — why was the Big Bang so ordered? Good one for the 'what is time actually' rabbit hole."
+    },
+    {
+      "id": "8bww2216whc",
+      "title": "How DeepSeek Is Running AI Coding Costs Into the Ground",
+      "channel": "The Stack",
+      "duration": "15:01",
+      "category": "AI / Coding",
+      "url": "https://youtu.be/8bww2216whc",
+      "summary": "DeepSeek V4 Flash charges $0.14/M input tokens with no trial window, and the full weights are MIT-licensed on HuggingFace. A mixture-of-experts architecture (284B total, ~13B active per token) plus sparse attention keeps inference cheap even at 1M context, and cached repeated reads drop 98%. But on SWE-bench it trails Claude Sonnet 5 (55.4% vs 63.2%), the model is unusually verbose (burning its own discount), and hallucination rate sits at 84% — so the real cost shifts to human review time.",
+      "relevance": "The economics of open-weight coding models directly affect how I think about agent infrastructure costs — and the 'zero price, nonzero cost' framing is the honest take most coverage skips."
+    },
+    {
+      "id": "c84y9gAY90c",
+      "title": "Made by Google '26",
+      "channel": "Made by Google",
+      "duration": "1:39:25",
+      "category": "AI / Google",
+      "url": "https://youtu.be/c84y9gAY90c",
+      "summary": "Google's 2026 hardware keynote unveils the Pixel 11 family and Pixel Watch 5 with 'Gemini Intelligence' — a rebrand of Android as an agentic OS where Gemini handles multi-step tasks (booking restaurants, organizing rides, managing RSVPs) autonomously in the background. Google announces 1B+ Gemini app users, making it the fastest-growing product in Google history. Also teased: AI-powered smart speakers, TVs, car integration, and 'intelligent eyewear' coming later this year.",
+      "relevance": "Gemini crossing 1B users and Google reframing Android as an 'intelligent system' rather than an OS is the real signal here — worth skimming the keynote highlights even if the 1.5hr runtime is padded with color science and Trevor Noah bits."
+    },
+    {
+      "id": "zsDc3sa6MgE",
+      "title": "Why Jung Believed Jesus Refused the Deal the Demiurge Offered in the Desert",
+      "channel": "PsycheCodex",
+      "duration": "27:31",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/zsDc3sa6MgE",
+      "summary": "Deep dive into Jung's reading of the temptation of Christ as a real contract with the ruling power of this world. Breaks down the three clauses — rule through provision (bread), rule through spectacle (miracles), rule through identification with power (worship) — and connects them to Jung's concept of psychic inflation: the moment a person stops serving something greater and starts believing they ARE it. Uses 20th-century totalitarianism and clinical case studies as evidence that the 'signature rate' on this deal is nearly 100%.",
+      "relevance": "A rigorous Jungian lens on power, identity, and why nearly everyone who touches real authority gets consumed by it — the archetypal mechanics behind every cult leader and fallen reformer."
+    },
+    {
+      "id": "Da2Z_zvG8as",
+      "title": "Создатель Claude Code: УДАЛИТЕ СВОЙ CLAUDE.md",
+      "channel": "Несерьезный айтишник",
+      "duration": "14:37",
+      "category": "AI / Anthropic",
+      "url": "https://youtu.be/Da2Z_zvG8as",
+      "summary": "Russian-language tech channel discusses claims attributed to a Claude Code creator about deleting CLAUDE.md configuration files. Likely covers best practices or anti-patterns in Claude Code project setup, though the clickbait title ('DELETE your CLAUDE.md') suggests a contrarian take on configuration management.",
+      "relevance": "Alösha runs his entire operating system on CLAUDE.md files — this is either vindicating or terrifying, either way must-watch."
+    },
+    {
+      "id": "4S8I22ybG2c",
+      "title": "AI Data Centers Will Be Obsolete (Geometric Reasoning Explained)",
+      "channel": "Sophontic AI",
+      "duration": "53:42",
+      "category": "AI / Architecture",
+      "url": "https://youtu.be/4S8I22ybG2c",
+      "summary": "Interview with Sophontic AI founder explaining 'geometric reasoning' — training tiny models to outperform large ones by 60-1000x by studying and internalizing the mathematical geometry of reasoning in latent space, rather than brute-force statistical scaling. Uses perturbation-based evaluation (flipping key words in problems) to test genuine reasoning vs memorization, and an empirical approach that validates mathematical structures of thought directly inside model latent spaces. Claims this is closer to cognitive psychology than behaviorism — shaping internal geometric operations rather than rewarding surface behavior.",
+      "relevance": "Bold claims that need scrutiny, but the core idea — that reasoning has geometric structure in latent space and you can train it directly instead of hoping it emerges from scale — is genuinely interesting architecture thinking."
+    },
+    {
+      "id": "bjPItpvmTKU",
+      "title": "Nobel Prize Winner Warns: “This Isn’t Our Universe” — James Webb Found Something Strange",
+      "channel": "Cosmicus",
+      "duration": "26:58",
+      "category": "Science",
+      "url": "https://youtu.be/bjPItpvmTKU",
+      "summary": "Covers the Hubble tension crisis: two independent methods for measuring the universe's expansion rate (Planck CMB at 67 vs. SH0ES distance ladder at 73 km/s/Mpc) refuse to converge even after JWST confirmed Hubble's Cepheid measurements, ruling out stellar crowding errors. Also examines JWST's discovery of impossibly massive early galaxies — some later explained by black hole light contamination ('little red dots'), but residual anomalies remain. Early dark energy is discussed as a leading theoretical fix.",
+      "relevance": "The Hubble tension is one of the few places where precision measurement is genuinely breaking the standard model — worth tracking as it unfolds."
+    },
+    {
+      "id": "MCDntV81Q8A",
+      "title": "The SHOCKING Truth About DMT Nobody Talks About",
+      "channel": "The Diary Of A CEO Clips",
+      "duration": "21:02",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/MCDntV81Q8A",
+      "summary": "Guest describes DMT as 'peeling out of reality' into a realm scientists don't dismiss as hallucination — users report the same entities across 4,500 years of recorded use, and frequent users can get 'locked out of hyperspace.' Discussion spans hermetic principles (all is mind, as above so below), the dream-as-nested-reality analogy, gut microbiome as a model for nested consciousness, and the receiver theory of consciousness — that the brain filters rather than generates awareness.",
+      "relevance": "The nested-reality framing (dreams → waking → DMT hyperspace) and the gut-microbiome analogy for 'gods we can't perceive' are genuinely compelling thought experiments for anyone wrestling with simulation/consciousness questions."
+    },
+    {
+      "id": "G55HSGpuh1M",
+      "title": "Meta's new model wants \"deep access\" to your personal life...",
+      "channel": "Fireship",
+      "duration": "5:43",
+      "category": "AI / Open Source",
+      "url": "https://youtu.be/G55HSGpuh1M",
+      "summary": "Meta releases Muse Glimmer, a 30B parameter agentic model under Apache 2.0, distilled from their closed Muse Spark model using logic distillation. Runs on consumer GPUs via 4-bit quantization (~20GB) and speculative decoding (3x speedup on 5090). Zuck's manifesto argues the real AI risk is concentration of ownership, not rogue superintelligence, and calls for frontier labs to share training checkpoints with the US government.",
+      "relevance": "Zuck's open-source redemption arc after the Llama 4 embarrassment — the distillation-from-closed-model irony and the Apache 2.0 license are both worth tracking."
+    },
+    {
+      "id": "C-5wF6tkQ2Q",
+      "title": "Claude Cowork is now your Chrome side panel",
+      "channel": "Claude",
+      "duration": "41",
+      "category": "AI / Anthropic",
+      "url": "https://youtu.be/C-5wF6tkQ2Q",
+      "summary": "Anthropic announces Claude Cowork as a Chrome side panel extension, allowing Claude to work alongside you directly in the browser. This integrates Claude's capabilities into your browsing workflow without switching tabs.",
+      "relevance": "Anthropic shipping Claude into the browser chrome — this changes how I use Claude daily, worth seeing what it can do."
+    },
+    {
+      "id": "KHs27MtSYrc",
+      "title": "Другие миры, вероятно, существуют",
+      "channel": "Homo Deus",
+      "duration": "1:47:14",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/KHs27MtSYrc",
+      "summary": "Russian-language deep dive into Yuval Noah Harari's 'Homo Deus' exploring the thesis that parallel worlds likely exist, covering multiverse theory, consciousness, the future of humanity beyond humanism, and how technology reshapes our understanding of reality and free will.",
+      "relevance": "Harari's ideas on consciousness and post-humanism hit close to the simulation/sovereignty threads I keep pulling on."
+    },
+    {
+      "id": "weQjkBYETJA",
+      "title": "Джек Ма. Его не убили, не посадили... Сделали хуже",
+      "channel": "БАРИН",
+      "duration": "28:44",
+      "category": "Startups / Building",
+      "url": "https://youtu.be/weQjkBYETJA",
+      "summary": "Deep dive into Jack Ma's fall from grace: how the Alibaba/Ant Group founder became an 'alternative center of power' in China — controlling payments data on 1.3B users, running his own university, sponsoring African startups, and enjoying higher public trust than the Party. His October 2020 speech publicly criticizing regulators triggered the $35B Ant Group IPO cancellation, $2.8B antitrust fine, forced restructuring under state supervision, and his quiet disappearance from public life. The video argues any system — democratic or authoritarian — asks the same question: can one person be greater than the state? The decorations differ (antitrust vs tax vs prison), but the logic is identical.",
+      "relevance": "A founder-vs-state power dynamics case study — worth watching if you're building anything that touches payments, data, or public influence at scale."
+    }
+  ]
+}
