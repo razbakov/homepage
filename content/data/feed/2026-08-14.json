@@ -1,0 +1,128 @@
+{
+  "date": "2026-08-14",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 80,
+  "summarized": 12,
+  "items": [
+    {
+      "id": "OiG1GoQ4Z4E",
+      "title": "How Jesus Conquered the Ego and the \"Devil\" in 40 Days",
+      "channel": "Lucid Wisdom",
+      "duration": "29:20",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/OiG1GoQ4Z4E",
+      "summary": "Reframes the 40-day desert temptation as a psychological allegory: the 'devil' is the ego, the three temptations map to its core strategies (bodily craving, status/validation hunger, lust for control), and 'Christ consciousness' is pure awareness refusing to identify with any of them. Extends into Jungian integration (sun/moon, sacred marriage) and warns about 'deceptive illumination' — spiritual experiences that mimic awakening but demand worship, trading sovereignty for dependence.",
+      "relevance": "A clean map of ego mechanics dressed in biblical symbolism — useful if you think about consciousness layers and self-governance the way you think about system architecture."
+    },
+    {
+      "id": "jHGx7HBB-J4",
+      "title": "Neuroscience is in big trouble",
+      "channel": "Sabine Hossenfelder",
+      "duration": "7:33",
+      "category": "Science",
+      "url": "https://youtu.be/jHGx7HBB-J4",
+      "summary": "Multiple independent studies reveal ~40% of fMRI signals don't measure what scientists assumed — neurons can increase activity without increasing blood flow. Lesion network mapping studies for 100+ conditions show supposedly disease-specific circuits look nearly identical across different disorders. Brain scans from different manufacturers (Siemens vs Philips) can't even replicate the same individual's functional network map. The systemic incentive structure (publish or perish) keeps researchers using known-flawed methods.",
+      "relevance": "The replication crisis hitting neuroscience hard — and the incentive structures that let bad science persist for decades — is a pattern worth recognizing across any field building on shaky foundations."
+    },
+    {
+      "id": "bc4YQVBeZGQ",
+      "title": "Учёные Google Не Могут Объяснить Этот Квантовый Эксперимент | Ричард Фейнман",
+      "channel": "Physics Empire",
+      "duration": "19:39",
+      "category": "Science",
+      "url": "https://youtu.be/bc4YQVBeZGQ",
+      "summary": "A Russian-language physics video exploring a quantum experiment that puzzled even Google's researchers, framed through Richard Feynman's insights on quantum mechanics. Likely covers quantum weirdness — double-slit, entanglement, or a recent quantum computing anomaly — and Feynman's famous stance that nobody truly understands quantum mechanics.",
+      "relevance": "Alösha's take: Russian-language quantum physics deep dive — Feynman + unexplained experiments is always a good combo for the curious mind."
+    },
+    {
+      "id": "gdnOrWvK2Fs",
+      "title": "God Doesn’t Exist the Way You Think — Alan Watts Explains",
+      "channel": "Simply Art - Inspire",
+      "duration": "28:00",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/gdnOrWvK2Fs",
+      "summary": "Alan Watts deconstructs the traditional Western concept of God as a royal personage, arguing that the real 'sin' (Greek hamartanein = missing the point) is confusing God with any image or concept — including abstract philosophical ones like Aquinas's 'necessary being.' He draws a sharp distinction between belief (Anglo-Saxon 'leaf' = wish, clinging) and faith (openness, trust — like relaxing into water when swimming). The 'death of God' isn't the death of the divine but of an implausible idol we mistook for it.",
+      "relevance": "Watts at his sharpest — the belief-vs-faith distinction alone is worth the 28 minutes if you've ever felt religion and direct experience pulling in opposite directions."
+    },
+    {
+      "id": "47U6uxEUDr8",
+      "title": "We FINALLY Understand the Power of Psychedelics (...mostly)",
+      "channel": "Dr Ben Miles",
+      "duration": "27:15",
+      "category": "Science / Consciousness",
+      "url": "https://youtu.be/47U6uxEUDr8",
+      "summary": "Traces psychedelics from Hofmann's 1943 accidental LSD discovery through 1950s clinical trials (Osmond & Hoffer's 50% success rate treating alcoholism), the CIA's MK Ultra program, to modern neuroscience revealing how LSD and psilocybin mimic serotonin via shared indole-ring structures and bind to 5-HT2A receptors. Recent clinical work suggests these compounds can literally restructure neural pathways, breaking entrenched behavioral patterns.",
+      "relevance": "Rigorous science storytelling on how psychedelics hijack serotonin to rewrite the brain — the consciousness-mechanism angle is genuinely fascinating."
+    },
+    {
+      "id": "Pr-Hf7MNQV0",
+      "title": "David Chalmers Discusses the Hard Problem of Consciousness",
+      "channel": "StarTalk",
+      "duration": "46:57",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/Pr-Hf7MNQV0",
+      "summary": "David Chalmers joins StarTalk to unpack his 'hard problem of consciousness' — why subjective experience resists physical explanation. Covers neural correlates debate (sensory cortex vs prefrontal), whether consciousness was selected for in evolution or is emergent, levels of consciousness across animals (trend: far more species are cognitively complex than assumed), and edge cases like anesthesia, dreams, and infant awareness.",
+      "relevance": "Chalmers is the guy who named the problem — hearing him walk Tyson through it is a solid primer if you're thinking about machine consciousness and what 'experience' even means for AI systems."
+    },
+    {
+      "id": "5bTq3j6zPsw",
+      "title": "This Is Your Brain on Psilocybin: The New Clinical Evidence",
+      "channel": "Dr. Tracey Marks",
+      "duration": "12:00",
+      "category": "Science",
+      "url": "https://youtu.be/5bTq3j6zPsw",
+      "summary": "Dr. Tracey Marks reviews 2025 psilocybin clinical evidence: Compass Pathways' COMP-360 Phase 3 trial met primary endpoint for treatment-resistant depression with a single 25mg dose. Explains the neuroscience — default mode network suppression, cross-network desynchronization, and critical-period reopening that creates a weeks-long neuroplasticity window. Covers regulatory status: Oregon/Colorado state programs already operating, FDA decision pending second Phase 3 results in 2026, plus early work on non-hallucinogenic analogues and biomarker-based patient selection.",
+      "relevance": "Solid neuroscience-first overview of where psilocybin therapy actually stands — useful if you track consciousness research or the regulatory arc of psychedelic medicine."
+    },
+    {
+      "id": "gVfEtktkvnE",
+      "title": "Did Anthropic finally fix MCP?",
+      "channel": "Theo - t3․gg",
+      "duration": "18:17",
+      "category": "AI / Anthropic",
+      "url": "https://youtu.be/gVfEtktkvnE",
+      "summary": "Theo breaks down the new MCP 2026-07-28 spec that moves the protocol from stateful bidirectional connections to stateless request-response. Previously every MCP server needed a persistent connection per agent (causing 30+ bound processes for a single Codex run with sub-agents); now servers can deploy on serverless/edge with zero idle cost. Simon Willison rebuilt three MCP servers in a week thanks to the simplification, and argues stateless MCP is better than giving agents raw shell access for sensitive applications since tools are auditable and controllable.",
+      "relevance": "MCP just went from 'worse CLI' to something I'd actually wire up — stateless means my Cloudflare Workers can serve MCP tools at zero idle cost, and the security argument over raw shell access hits home."
+    },
+    {
+      "id": "vwSx7BAj0B4",
+      "title": "Почему работают магниты? Ответ Фейнмана перевернёт ваше представление о реальности",
+      "channel": "Фейнман Объясняет",
+      "duration": "16:47",
+      "category": "Science",
+      "url": "https://youtu.be/vwSx7BAj0B4",
+      "summary": "A Russian-language explainer based on Richard Feynman's famous answer about why magnets work — exploring how the question 'why?' in physics leads to deeper layers of reality, electromagnetic forces, and the limits of human intuition about fundamental interactions.",
+      "relevance": "Feynman's magnet explanation is a masterclass in epistemology disguised as physics — pure brain fuel."
+    },
+    {
+      "id": "tCxerOrNJn0",
+      "title": "Not Possible.",
+      "channel": "Chase Hughes",
+      "duration": "37:21",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/tCxerOrNJn0",
+      "summary": "Chase Hughes walks through a dream-room thought experiment to show that matter, space, light, and even your eyes are rendered by consciousness — then stacks neuroscience evidence: saccadic blackouts (51-90 min/day of functional blindness with backdated timestamps), Donald Hoffman's evolutionary simulations proving perception optimizes for fitness not truth, Schachter-Singer and the bridge study showing emotions are post-hoc labels on raw arousal, and Karim Nader's reconsolidation research proving every memory is chemically rewritten each time you recall it.",
+      "relevance": "A tight 37-min tour of why your skull is a sealed dark room painting a full-color world — hits the simulation-theory nerve with real neuroscience instead of hand-waving."
+    },
+    {
+      "id": "HJPRqAO7vvQ",
+      "title": "Что если мы искали инопланетян неправильно? / Как спастись, если Солнце погибнет? / Астрообзор #213",
+      "channel": "Космос Просто",
+      "duration": "31:26",
+      "category": "Science",
+      "url": "https://youtu.be/HJPRqAO7vvQ",
+      "summary": "Russian-language astronomy review covering two main topics: whether our approach to searching for extraterrestrial intelligence has been fundamentally flawed (alternative detection methods beyond radio signals), and survival scenarios if the Sun were to die — exploring stellar evolution, planetary migration, and theoretical escape plans. Part of the regular Астрообзор series by Космос Просто.",
+      "relevance": "Alösha's take: Космос Просто delivers solid Russian-language pop-science — the SETI rethink angle alone makes this worth the half-hour."
+    },
+    {
+      "id": "6VwIXjFj6YQ",
+      "title": "You can just launch Sites | ChatGPT Work",
+      "channel": "OpenAI",
+      "duration": "29",
+      "category": "AI / Tools",
+      "url": "https://youtu.be/6VwIXjFj6YQ",
+      "summary": "OpenAI announces 'Sites' feature in ChatGPT Work — lets users launch simple websites directly from ChatGPT without coding, aimed at business/team use cases for quick internal or external pages.",
+      "relevance": "Competitor move worth tracking — OpenAI pushing ChatGPT deeper into no-code territory, relevant for how AI tools are eating into web100-style services."
+    }
+  ]
+}
