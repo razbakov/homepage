@@ -1,0 +1,19 @@
+# YouTube — paste-ready (2026-08-14 · democracy-is-broken)
+
+## Title
+Democracy Is Broken. Here's an Architecture. | Daily #NNN
+
+## Description
+Every election, you vote for strangers you've never met. What if you could delegate to people you actually trust — and let AI handle the rest?
+
+In 3 minutes: liquid democracy + AI agents + resource management = a governance stack that might actually work.
+
+Full essay → https://razbakov.com/blog/2026-04-07-democracy-is-broken
+New essay narrated here every day.
+
+## Tags
+liquid democracy, ai governance, democracy is broken, jacque fresco, venus project, democracy earth, ai agents, personal sovereignty, resource management, open source governance, ikigai team, agora, governance architecture, values-based ai, delegation, civic tech
+
+## Notes
+Format: Option C — cloned-voice narration over the essay hero image (no avatar).
+Voice: ElevenLabs (eleven_multilingual_v2).

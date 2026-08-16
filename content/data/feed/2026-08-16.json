@@ -1,0 +1,118 @@
+{
+  "date": "2026-08-16",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 47,
+  "summarized": 11,
+  "items": [
+    {
+      "id": "LM7Ft7g8qJw",
+      "title": "Grok Bot Is The First AI Agent You Just Install. Is It Worth $200?",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration": "18:55",
+      "category": "AI / Agents",
+      "url": "https://youtu.be/LM7Ft7g8qJw",
+      "summary": "Deep dive into xAI's Grok Bot: a dedicated cloud Linux machine per user running multiple named AI agents that share one security perimeter, auto-handle OAuth integrations conversationally, and message each other transparently. Pricing jumps from free trial straight to $200/month (included in $300 Grok Ultra). Positions it as the first truly no-code, install-and-go agent platform vs OpenClaw's DIY Mac Mini approach.",
+      "relevance": "First consumer-grade multi-agent platform with zero-config integrations — worth understanding the UX benchmark even if you're building your own agent stack."
+    },
+    {
+      "id": "XMcdIV3vkXs",
+      "title": "Yin-Yang Is Not About \"Balance\"｜What the Original Actually Says",
+      "channel": "TangSaying",
+      "duration": "7:37",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/XMcdIV3vkXs",
+      "summary": "Deconstructs three Western misconceptions about Yin-Yang using original Chinese texts: it's not good-vs-evil (that's Persian dualism projected onto it), not 50/50 balance (nature is never in equilibrium), but cyclical motion — one phase becoming the other. The original characters literally mean sunny/shady sides of the same hill, trading places as the sun moves. The Tao is the rhythm of alternation itself, not a static harmony.",
+      "relevance": "A clean corrective to shallow pop-philosophy — reframes 'balance your life' advice as fundamentally misunderstanding the model it claims to cite."
+    },
+    {
+      "id": "reD0orHTkh4",
+      "title": "Why We Haven't Yet Solved Gravity... And What Happens When We Do",
+      "channel": "Sundown Science",
+      "duration": "2:09:43",
+      "category": "Science",
+      "url": "https://youtu.be/reD0orHTkh4",
+      "summary": "Deep 2-hour explainer on why general relativity and quantum field theory remain incompatible after 96 years. Walks through the precision records of both theories (QED accurate to 1 part in 10 trillion, GR confirmed by gravitational waves, Cassini, binary pulsars), explains why gravity's extreme weakness (10^36 times weaker than electromagnetism) has let physicists avoid the conflict, and examines what a completed theory of quantum gravity would actually unlock versus what is overpromised.",
+      "relevance": "If you've ever hand-waved 'we just need to unify GR and QFT' — this is the most honest, no-hype walkthrough of why that's so hard and what 'solved gravity' would actually mean."
+    },
+    {
+      "id": "E9aOw_p0CMw",
+      "title": "Вероятность, что вы видите реальность — 0%",
+      "channel": "Homo Deus",
+      "duration": "1:13:48",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/E9aOw_p0CMw",
+      "summary": "Русскоязычный длинный разбор от канала Homo Deus, посвящённый аргументам о том, что наше восприятие реальности — конструкция мозга, а не прямой доступ к объективному миру. Затрагивает теорию интерфейса Дональда Хоффмана, байесовский мозг и вопрос: если эволюция оптимизировала нас на выживание, а не на истину — что мы вообще видим?",
+      "relevance": "Час с лишним про то, что реальность — UI нашего сознания; прямо в тему simulation theory и nature of consciousness."
+    },
+    {
+      "id": "CKbz_FfKeVk",
+      "title": "The Smartphone Is About to Change Forever",
+      "channel": "ThisIsE",
+      "duration": "16:01",
+      "category": "Tech / Hardware",
+      "url": "https://youtu.be/CKbz_FfKeVk",
+      "summary": "Deep-dive into the foldable phone race: Oppo Find N6 at 4.2mm is now thinner than a pencil with near-invisible crease (82% reduction via 3D liquid-printed titanium hinge), 6000mAh battery, and stylus support. Chinese OEMs leapfrogged Samsung's 7-year head start but remain unavailable in US/EU. Apple's iPhone Fold enters trial production now, shipping fall 2026 ~$2000 — likely to mainstream the category as Apple did with smartphones, tablets, and watches.",
+      "relevance": "Solid engineering storytelling on how Chinese OEMs out-iterated Samsung — and why Apple entering late still changes everything."
+    },
+    {
+      "id": "IWZIB7rIz4g",
+      "title": "7 Experiments that Suggest Reality isn’t What it Appears",
+      "channel": "Doodle Universe",
+      "duration": "8:46",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/IWZIB7rIz4g",
+      "summary": "Walks through seven landmark quantum physics experiments — double-slit, Wheeler's delayed choice, quantum eraser, entanglement, Wigner's friend, quantum Zeno effect, and the holographic principle — culminating in the 2015 loophole-free Bell test at Delft that definitively ruled out local hidden variables. Each experiment builds the case that reality is observer-dependent, non-local, and possibly lower-dimensional.",
+      "relevance": "Tight 9-minute primer on the experimental evidence that reality is not classical — good ammo for simulation/consciousness conversations."
+    },
+    {
+      "id": "c6u87wtQzTw",
+      "title": "192GB of VRAM in One PC… The Cheap Way",
+      "channel": "Alex Ziskind",
+      "duration": "15:34",
+      "category": "AI / Local LLMs",
+      "url": "https://youtu.be/c6u87wtQzTw",
+      "summary": "Benchmarks Intel B60 dual-GPU cards (Maxsun) against individual B60s and B70s for local LLM inference. The dual-GPU card matches two separate B60s in speed while using one PCIe slot, enabling 192GB VRAM in a single machine for ~$7K vs $24K with Nvidia. Covers PCI bifurcation gotchas, software stack limitations (LLM Scaler fork of vLLM), and when VRAM density matters more than raw speed.",
+      "relevance": "If you're thinking about a local inference rig for big models, this is the best cost-per-GB VRAM breakdown I've seen — practical numbers, not marketing."
+    },
+    {
+      "id": "2ZU3j4GQ4K8",
+      "title": "I'm done coding with AI",
+      "channel": "Brett Codes",
+      "duration": "22:12",
+      "category": "AI / Developer Experience",
+      "url": "https://youtu.be/2ZU3j4GQ4K8",
+      "summary": "20-year dev shares his arc from AI-coding skeptic to enthusiast to quitting entirely. After ~12 months of agentic coding (Cursor, Claude Code, Zed), he found it created existential dread, apathy toward the codebase, loss of craft/learning, and worse software quality despite higher output — argues 3x productivity didn't move revenue. Also recounts being sycophancy-trapped by chatbot advice (unnecessary ER visit).",
+      "relevance": "A thoughtful counterpoint to the vibe-coding hype — worth hearing the friction points even if you disagree, especially the observation that volume of AI-generated code makes meaningful review nearly impossible."
+    },
+    {
+      "id": "I7Aci76HrUo",
+      "title": "How Psilocybin \"Rewires\" Your Brain (Permanently) | Latest Neuroscience Reveals",
+      "channel": "Dr. Kasiv",
+      "duration": "19:03",
+      "category": "Science / Neuroscience",
+      "url": "https://youtu.be/I7Aci76HrUo",
+      "summary": "Physician walks through the latest psilocybin research: psilocin binds TrkB receptors with ~1000x the affinity of SSRIs, triggering rapid dendritic spine regrowth (~10% increase in 24h, persisting 1 month). Imaging shows default-mode-network quieting during sessions and lasting cross-network integration that correlates with 6-month antidepressant outcomes. Set/setting materially affects synaptic-density markers via metaplasticity, and high-dose sessions produced durable openness trait increases at 14 months.",
+      "relevance": "Solid mechanistic breakdown of why psilocybin works at the receptor and network level — useful if you follow the consciousness/neuroplasticity space beyond the hype."
+    },
+    {
+      "id": "lxTdc_1r0bI",
+      "title": "Wir leben in einer Simulation? Beweise häufen sich",
+      "channel": "Entropy - Wissenschaft Schnell Erklärt",
+      "duration": "50:35",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/lxTdc_1r0bI",
+      "summary": "German science channel Entropy presents a 50-minute deep dive into simulation hypothesis evidence — likely covering information-theoretic arguments, fine-tuning of physical constants, digital physics (Planck-scale discretization), and recent papers suggesting reality may have computational substrates. Long-form, not clickbait.",
+      "relevance": "Simulation theory deep dive auf Deutsch — right up your alley, and Entropy usually does solid science explainers."
+    },
+    {
+      "id": "JwhPLXIetVY",
+      "title": "Сапольски про Оземпик и кровосмешение | Интервью отца и чада #56 [Robert Sapolsky]",
+      "channel": "Vert Dider",
+      "duration": "29:56",
+      "category": "Science",
+      "url": "https://youtu.be/JwhPLXIetVY",
+      "summary": "Robert Sapolsky (Stanford neuroscientist) discusses the science behind Ozempic — its neurobiological mechanisms and broader implications — and the biology/anthropology of incest taboos and inbreeding. Russian-dubbed interview from Vert Dider's long-running series.",
+      "relevance": "Sapolsky always delivers — two hot-button topics through the lens of neurobiology and evolutionary behavior, in Russian via Vert Dider's quality dub."
+    }
+  ]
+}
