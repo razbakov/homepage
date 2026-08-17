@@ -1,0 +1,128 @@
+{
+  "date": "2026-08-17",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 80,
+  "summarized": 12,
+  "items": [
+    {
+      "id": "vxOAcvxXZqE",
+      "title": "3 Hidden Truths You Should Know Before You Start Dancing Salsa & Bachata",
+      "channel": "Dance With Rasa",
+      "duration": "7:41",
+      "category": "Dance / Salsa",
+      "url": "https://youtu.be/vxOAcvxXZqE",
+      "summary": "Three lessons for salsa/bachata beginners: prioritize connection and frame technique over memorizing combinations; treat social dancing as a separate skill from studio classes; expect a plateau at intermediate level where progress feels like regression before the next breakthrough.",
+      "relevance": "Solid fundamentals talk — the 'it gets worse before it gets better' plateau is real and worth hearing early."
+    },
+    {
+      "id": "TEklhVioz7I",
+      "title": "Ты НИКОГДА не поймешь квантовую механику! Поспорим?",
+      "channel": "ВЕЛИКОХАТСКИЙ | НАУКА",
+      "duration": "55:49",
+      "category": "Science / Philosophy",
+      "url": "https://youtu.be/TEklhVioz7I",
+      "summary": "A deep 55-min Russian-language explainer on quantum mechanics history: from Planck's quantization and Einstein's photoelectric effect through Bohr's atomic model, de Broglie's matter waves, Heisenberg's matrix mechanics, and Schrödinger's wave equation. Goes beyond textbook recaps to explore the philosophical fork — whether quantum properties exist before measurement, whether objective reality is observer-dependent, and how the choice of interpretation shapes questions about free will and the nature of existence.",
+      "relevance": "Solid longform science in Russian that ties quantum foundations directly to consciousness and reality questions — right up my alley for a weekend deep-dive."
+    },
+    {
+      "id": "WOzcFkld6_g",
+      "title": "The Most Interesting Displays In The World!",
+      "channel": "Marques Brownlee",
+      "duration": "15:57",
+      "category": "Apple / Spatial Computing",
+      "url": "https://youtu.be/WOzcFkld6_g",
+      "summary": "MKBHD reviews four display innovations: Intricuit's magnetic touchscreen overlay for MacBooks ($150, pretends to be a trackpad), a volumetric 'hologram' display spinning at 900 RPM with 7,200Hz refresh rate to render 3D objects in space, Dell's 52-inch 6K ultrawide with built-in KVM for 4 machines, and an exclusive first look at Project Aura — XREAL/Google/Qualcomm AR glasses running Android XR with spatial anchoring via onboard sensors.",
+      "relevance": "The volumetric display tech and Project Aura running Android XR are worth seeing — real spatial computing progress from both ends of the form factor spectrum."
+    },
+    {
+      "id": "f8O3XMrC8hg",
+      "title": "A Rock Is Trapped Light",
+      "channel": "Art of the Problem",
+      "duration": "17:43",
+      "category": "Science / Physics",
+      "url": "https://youtu.be/f8O3XMrC8hg",
+      "summary": "Traces 2,600 years of humanity trying to understand what matter actually is — from ancient 'soul' and 'scent' analogies for magnetism, through Gilbert, Faraday, and Maxwell unifying electricity and magnetism, to the vortex-ring model where a photon bent into a toroidal loop reproduces all properties of an electron (charge, spin, mass). Argues that mass is not 'stuff' but energy confined in field vortices — every time we look deeper (atoms, nuclei, quarks, strong force), we find motion, not substance.",
+      "relevance": "Beautiful visual walkthrough of why E=mc² isn't just an equation but a literal description — matter is trapped light. Hits that 'what is reality actually made of' nerve."
+    },
+    {
+      "id": "RLdMLRhBzjI",
+      "title": "ПОЧЕМУ ОСОЗНАННОСТЬ НЕ МЕНЯЕТ ВАШУ ЖИЗНЬ. ПЕРЕОСМЫСЛЕНИЕ ТРАНСЕРФИНГА САМИМ ЗЕЛАНДОМ",
+      "channel": "ИВАН ЯШУКОВ. ДЕЛО ЖИЗНИ.",
+      "duration": "1:03:10",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/RLdMLRhBzjI",
+      "summary": "Иван Яшуков переосмысливает ключевые идеи Трансерфинга Вадима Зеланда, разбирая почему практики осознанности часто не приводят к реальным изменениям в жизни. Часовое интервью о механизмах намерения, пространстве вариантов и практическом применении трансерфинга как модели реальности.",
+      "relevance": "Зеланд и трансерфинг — одна из самых интересных русскоязычных моделей реальности на стыке философии и практики, стоит послушать свежий взгляд."
+    },
+    {
+      "id": "awDAvbxS1vk",
+      "title": "I Changed My Mind.",
+      "channel": "More Alex O'Connor",
+      "duration": "15:30",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/awDAvbxS1vk",
+      "summary": "Alex O'Connor discusses his shift away from physicalism, arguing that science describes what things *do* (math models, equations) but cannot tell us what things *are* at a fundamental level. He critiques the Copenhagen 'shut up and calculate' approach as a category error, uses Newton's gravity as an example of useful-but-ontologically-incomplete models, and argues consciousness may be something real that simply can't be captured by mathematical language — challenging Galileo's claim that math is the universe's only valid language.",
+      "relevance": "A thoughtful unpacking of why physicalism is philosophically incomplete — connects directly to the hard problem of consciousness and the limits of reductionism."
+    },
+    {
+      "id": "koEhSRv9Fis",
+      "title": "Великолепная афера, или как читать Евангелие так, чтобы захватывало дух",
+      "channel": "SLOVO",
+      "duration": "18:06",
+      "category": "Philosophy / Theology",
+      "url": "https://youtu.be/koEhSRv9Fis",
+      "summary": "Reframes the Gospel narrative through the lens of early Church 'dramatic theory of atonement' (Origen, Gregory of Nyssa, Augustine): the crucifixion was not a tragedy but a meticulously planned divine heist operation — God disguised divinity inside mortal flesh as bait, the devil 'swallowed the hook' by killing a sinless man and thereby voided his legal claim over all human souls. Uses heist-movie structure (Ocean's Eleven, Prestige) to walk through each Gospel beat as a screenwriting device.",
+      "relevance": "A genuinely clever narrative reframe — if you've ever thought the Gospel plot felt passive, this early-Church reading turns it into a cosmic con-job worth 18 minutes."
+    },
+    {
+      "id": "V3kZwsysuqQ",
+      "title": "How to Become Your Own ISP",
+      "channel": "Data Slayer",
+      "duration": "21:59",
+      "category": "Tech / Infrastructure",
+      "url": "https://youtu.be/V3kZwsysuqQ",
+      "summary": "Deep dive into Reticulum, an open-source cryptographic networking stack that bridges LoRa, Bluetooth, packet radio, and TCP into a unified mesh network — no ISP required. The creator sets up a public transport node on GCP, then demonstrates end-to-end message delivery from a normal Android phone over LTE through a field bridge to an offline phone connected only via LoRa, proving the stack works for non-technical users on everyday devices.",
+      "relevance": "Permissionless, community-owned networking infra that actually works on normal phones — the kind of parallel system worth watching as centralized platforms tighten control."
+    },
+    {
+      "id": "fWaHz2KcuNo",
+      "title": "Neuroscience, Synchronicities, & the Evidence for a Playful Universe — Dr. Marjorie Woollacott",
+      "channel": "The Weekend University",
+      "duration": "1:03:30",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/fWaHz2KcuNo",
+      "summary": "Neuroscientist Dr. Marjorie Woollacott presents the brain-as-filter hypothesis — arguing that neural filters (default mode network, cortico-thalamic loops, left-brain dominance) progressively narrow awareness, and that meditation, psilocybin, and NDEs demonstrably reduce these filters, revealing expanded perception. She discusses her research on how deep meditation suppresses the default mode network, enabling feelings of interconnection, and frames synchronicities as evidence for a non-local, non-dual reality where consciousness extends beyond the five senses.",
+      "relevance": "A card-carrying neuroscientist who flipped from strict materialism to studying non-local consciousness — her filter-model framework connects meditation research, NDEs, and synchronicity into one coherent picture worth sitting with."
+    },
+    {
+      "id": "AahSeCn7lOU",
+      "title": "This AI Video Model is FREE* and Less Restricted",
+      "channel": "AI Samson",
+      "duration": "29:10",
+      "category": "AI / Video Generation",
+      "url": "https://youtu.be/AahSeCn7lOU",
+      "summary": "Deep technical review of MiniMax H3, a new open-source AI video model that generates 15-second 2K videos with native audio (dialogue, music, sound effects). Demonstrates strengths (smooth drone shots, text rendering, character consistency, lip-sync) and weaknesses (physics failures, temporal inconsistencies, dance choreography). Up to 3x cheaper than Seedance 2.0, downloadable from Hugging Face, and significantly less censored than competitors.",
+      "relevance": "Open-weight video gen models are closing the gap fast — the physics still breaks but the aesthetic taste and audio integration are genuinely impressive for what you can self-host."
+    },
+    {
+      "id": "xozWPDAu6Yk",
+      "title": "Будда против мира: как отказаться от всего и не сойти с ума | Иван Негреев | Punk Monk",
+      "channel": "PunkMonk",
+      "duration": "1:46:17",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/xozWPDAu6Yk",
+      "summary": "Длинное интервью с Иваном Негреевым о буддийской философии отречения: как практика отказа от привязанностей работает в современном мире, где грань между аскезой и саморазрушением, и что буддизм реально предлагает как систему работы с сознанием.",
+      "relevance": "Полуторачасовой разговор о буддизме и отречении — если в настроении для глубокого философского подкаста на русском."
+    },
+    {
+      "id": "57Md198yLII",
+      "title": "I Tested The Viral URXR One: Is It Really Like Apple Vision Pro?",
+      "channel": "Steven Sullivan",
+      "duration": "13:00",
+      "category": "Apple / Vision Pro",
+      "url": "https://youtu.be/57Md198yLII",
+      "summary": "Hands-on review of the URXR One AR glasses ($500K in first 24h on Kickstarter), created by ex-Apple Vision Pro / Meta XR engineer. Features virtual see-through (like AVP), 5K dual-eye display, 90° FOV (double most AR glasses), 7 simultaneous screens, hand tracking, virtual environments — all at 93g and a fraction of AVP's price. Key cons: no built-in speakers, hand tracking needs work, futuristic appearance. Steam VR support is a primary goal post-launch.",
+      "relevance": "A 93g pair of glasses doing what Vision Pro does — from someone who actually built Vision Pro. Worth watching to see where lightweight spatial computing is heading."
+    }
+  ]
+}
