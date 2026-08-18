@@ -1,0 +1,128 @@
+{
+  "date": "2026-08-18",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 80,
+  "summarized": 11,
+  "items": [
+    {
+      "id": "8e_JSOxaEVQ",
+      "title": "Two Dimensions of Time Explain Quantum Physics, Physicist Argues",
+      "channel": "Sabine Hossenfelder",
+      "duration": "6:26",
+      "category": "Science",
+      "url": "https://youtu.be/8e_JSOxaEVQ",
+      "summary": "A physicist mathematically demonstrates that adding a second time dimension to spacetime (3+2) could explain quantum entanglement's faster-than-light correlations via a hidden field connecting only entangled particles. The theory predicts a testable deviation from standard QM: tiny additional correlations between independent entangled-photon experiments that depend on distance. Hossenfelder rates it 7/10 — genuinely novel but leaves vacuum stability, time-travel paradoxes, and GR compatibility unaddressed.",
+      "relevance": "Fresh beyond-quantum-physics idea with a concrete experimental prediction — exactly the kind of foundational physics rethinking that feeds the simulation/consciousness rabbit hole."
+    },
+    {
+      "id": "g-R8RianJs8",
+      "title": "Code Of Space Time and Mind",
+      "channel": "Jason Padgett",
+      "duration": "3:02",
+      "category": "Uncategorized",
+      "url": "https://youtu.be/g-R8RianJs8",
+      "summary": "(summary pending — AI backend unavailable for this run)",
+      "relevance": "Surfaced from your YouTube feed; open it to judge for yourself."
+    },
+    {
+      "id": "JBFnr6b5K4Y",
+      "title": "The God Too Evil to Worship",
+      "channel": "Pantheon Mythology",
+      "duration": "14:14",
+      "category": "Philosophy / Ethics",
+      "url": "https://youtu.be/JBFnr6b5K4Y",
+      "summary": "A philosophical critique of Yahweh's evolution from tribal war-god to cosmic authority, arguing that command-based morality replaces conscience with compliance. The video traces how worship structured around obedience erodes personal ethical judgment — harm becomes 'duty,' hesitation becomes 'weakness,' and ethics answers to power rather than the reverse. Uses Abraham's binding of Isaac and the Amalekite genocide command as case studies in moral reclassification.",
+      "relevance": "Sharp framework for thinking about any authority system — religious or secular — that trains people to override their own judgment. Relevant pattern for AI alignment debates too."
+    },
+    {
+      "id": "mRirvjqEZHU",
+      "title": "Дзэн-буддизм - это пустота и парадокс. От махаяны до сатори. Иван Негреев",
+      "channel": "PunkMonk",
+      "duration": "57:39",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/mRirvjqEZHU",
+      "summary": "Лекция Ивана Негреева о дзэн-буддизме: эволюция от махаяны к практике коанов и сатори, концепция пустоты (шуньята) как центральная идея, парадокс как метод преодоления дуалистического мышления. Часовой формат предполагает глубокое погружение в философские основы дзэн.",
+      "relevance": "Часовое погружение в философию дзэн — пустота, парадокс, сатори — прямо в тему сознания и природы реальности."
+    },
+    {
+      "id": "q8bCB-6y6-A",
+      "title": "The .env Leak Epidemic Nobody's Talking About! Fix YOURS Now!",
+      "channel": "DIY Smart Code",
+      "duration": "6:55",
+      "category": "AI / Security",
+      "url": "https://youtu.be/q8bCB-6y6-A",
+      "summary": "GitHub saw 24M secret leaks last year; repos with Copilot active show 40% higher secret exposure. AI coding assistants (Claude, Cursor, Copilot) read .env files and can paste live API keys into code. Video demos Warlock, an open-source tool using an .env.schema spec to give AI agents variable metadata without actual secret values, plus leak scanning and log redaction.",
+      "relevance": "The AI-agent-leaking-secrets angle is real and under-discussed — worth knowing even if you skip the Warlock promo parts."
+    },
+    {
+      "id": "2AQMGHHPB0Y",
+      "title": "You’re Not Inside a Simulation — You’re Inside Something Much Stranger",
+      "channel": "Beyond Reality",
+      "duration": "16:22",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/2AQMGHHPB0Y",
+      "summary": "Argues the simulation debate is a distraction that preserves the illusion of a solid self inside a container. Walks through quantum field theory (no solid matter), relational QM (Rovelli), Wheeler's 'it from bit' participatory universe, and the holographic principle to dismantle both objective reality and the observer. Lands on analytic idealism (Kastrup): consciousness is the fundamental substrate, the brain is a 'whirlpool' localizing universal experience, and the real/simulated distinction collapses entirely.",
+      "relevance": "Solid 16-min synthesis of relational QM, Wheeler, and Kastrup — basically the anti-simulation-argument argument I keep trying to explain to people."
+    },
+    {
+      "id": "Jhtya7E45BE",
+      "title": "The Revolution of Systems Thinking: Why It Changes Everything We Know About Reality",
+      "channel": "Pantha Rhey",
+      "duration": "20:34",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/Jhtya7E45BE",
+      "summary": "Overview of the systems-theoretical revolution: traces how Cartesian dualism and Newtonian reductionism dominated science, then shows why emergence (hurricanes, consciousness from neurons) breaks that model. Maps the landscape from established systems sciences (chaos theory, cybernetics, game theory) through frontier theories (IIT, panpsychism, Whitehead's process philosophy) to older holistic/mystical traditions, arguing they all converge on seeing reality as interconnected process rather than isolated parts.",
+      "relevance": "Solid primer connecting emergence, IIT, and process philosophy under one framework — useful if you want a map of how consciousness theories relate to complexity science."
+    },
+    {
+      "id": "iRTW0XgLAPo",
+      "title": "I Can Work From Anywhere — XREAL One Pro Review After Real Use",
+      "channel": "Creator Alchemist",
+      "duration": "19:31",
+      "category": "Spatial Computing / XR",
+      "url": "https://youtu.be/iRTW0XgLAPo",
+      "summary": "Creator walks through three portable AR-glasses work setups (iPad+XREAL One Pro, laptop+glasses, phone+Samsung Dex) he actually uses daily for video editing and app development. Key insights: XREAL One Pro's built-in chip eliminates jitter of older models, M-chip iPads unlock ultrawide virtual display, Jump Desktop enables remote video editing from iPad through the glasses with manageable lag.",
+      "relevance": "Practical spatial-computing productivity rig that's half the cost of a physical ultrawide — worth comparing to Vision Pro for the nomad-dev use case."
+    },
+    {
+      "id": "J1WoNuemKOg",
+      "title": "Total Solar Eclipse From Space",
+      "channel": "Veritasium",
+      "duration": "22:45",
+      "category": "Science",
+      "url": "https://youtu.be/J1WoNuemKOg",
+      "summary": "Veritasium joins NASA in Burgos, Spain for the 2026 total solar eclipse, launching balloons to the edge of space. Explains why the Northern Hemisphere gets ~15% more total eclipses (Earth's elliptical orbit + axial tilt), why you always get at least 2 solar eclipses per year (34-day eclipse season vs 29.5-day lunar cycle), and how eclipses led to discovering helium and the fake element 'coronium' (actually ultra-ionized iron). Demos pinhole-camera crescent projections and the still-unexplained shadow bands phenomenon.",
+      "relevance": "Veritasium at peak form — real NASA footage from the edge of space plus genuinely surprising orbital mechanics I hadn't seen explained this well before."
+    },
+    {
+      "id": "c84y9gAY90c",
+      "title": "Made by Google '26",
+      "channel": "Made by Google",
+      "duration": "1:24:10",
+      "category": "AI / Google",
+      "url": "https://youtu.be/c84y9gAY90c",
+      "summary": "Google's 2026 hardware keynote unveils the Pixel 11 lineup and Pixel Watch 5, all built around 'Gemini Intelligence' — repositioning the phone from an OS to an agentic intelligence layer that books restaurants, organizes rides, and handles tasks autonomously from within conversations. Gemini app crosses 1 billion users (fastest-growing Google product ever). Rick Osterloh teases intelligent eyewear and Gemini-powered reimagining of laptops, speakers, TVs, and cars.",
+      "relevance": "Worth skimming for the Gemini-as-OS thesis and the eyewear tease — Google's agentic phone vision is the clearest competitive frame against Apple Intelligence right now."
+    },
+    {
+      "id": "xNcrfveKlDU",
+      "title": "10% of the world computers were hacked",
+      "channel": "The PrimeTime",
+      "duration": "17:14",
+      "category": "Tech / Security",
+      "url": "https://youtu.be/xNcrfveKlDU",
+      "summary": "Deep technical breakdown of the 1988 Morris Worm — the first internet worm that infected 10% of all connected computers in 13 hours. Walks through the actual C code: population control via battle-royale between worm instances (with accidental immortality bugs that made it spread faster than intended), fake phone-home to Berkeley as a decoy for decompilers, password cracking with sleep intervals to hide CPU usage, PID rotation to evade detection, and remote exploitation via rsh/fingerd/sendmail. Robert Morris later co-founded Y Combinator with Paul Graham.",
+      "relevance": "Brilliant code archaeology — the worm's elegance in ~400 lines of C is humbling, plus the Morris-to-YC pipeline is peak startup lore."
+    },
+    {
+      "id": "GZHp3WFc9Ps",
+      "title": "Introducing Suno Studio 2.0",
+      "channel": "Suno Music",
+      "duration": "21:34",
+      "category": "AI / Creative Tools",
+      "url": "https://youtu.be/GZHp3WFc9Ps",
+      "summary": "Suno Studio 2.0 adds traditional DAW features (MIDI input, real-time audio effects, side-chain compression) alongside AI capabilities: a studio chat assistant that can rename tracks, generate audio from text prompts, convert MIDI to realistic instrument recordings, and do advanced stem splitting. The update merges conventional music production workflows with AI generation, letting producers use natural language to manipulate their projects.",
+      "relevance": "Interesting demo of AI deeply integrated into a creative workflow — not just generating music but acting as a co-producer inside a real DAW."
+    }
+  ]
+}
