@@ -1,0 +1,128 @@
+{
+  "date": "2026-08-19",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 80,
+  "summarized": 12,
+  "items": [
+    {
+      "id": "0oXOOlqVu5M",
+      "title": "So I tried Matt's skills...",
+      "channel": "Theo - t3․gg",
+      "duration": "38:21",
+      "category": "AI / Developer Tools",
+      "url": "https://youtu.be/0oXOOlqVu5M",
+      "summary": "Theo reviews Matt Pocock's 200k-star AI skills repo and Lauren (Potato)'s PStack skills suite. Deep dive into skill design philosophy — descriptions as triggers not documentation, the 'unslop' writing skill that strips AI puffery, and how to audit/rank skills against your actual workflow rather than blindly copying setups. Practical before/after comparisons show dramatic readability improvements.",
+      "relevance": "You literally build and curate skills for a living — Theo's take on skill trigger design and the unslop pattern are worth stealing from."
+    },
+    {
+      "id": "30CVverI15I",
+      "title": "КАБАЛА: єврейська містика, що підкорила Голлівуд",
+      "channel": "Як Є",
+      "duration": "28:17",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/30CVverI15I",
+      "summary": "Deep dive into Kabbalah's history: from Merkava mysticism and Ezekiel's chariot visions through 10th-century Provence (Isaac the Blind, Cathar/Gnostic cross-pollination) to the Zohar. Breaks down core concepts — Ein Sof as unknowable absolute (paralleled with Brahman), Sephiroth as emanation stations, Shekhina as feminine divine principle — and distinguishes orthodox Kabbalah from pop celebrity-center offshoots (Madonna, Laitman).",
+      "relevance": "Solid primer on how Jewish esotericism evolved its 'tree of life' metaphysics — useful if you're into comparing emanation frameworks across traditions (Gnosticism, Hinduism, simulation layers)."
+    },
+    {
+      "id": "7zZy1QTvokM",
+      "title": "Stop Prompting Claude. Use Karpathy's Method Instead.",
+      "channel": "Austin Marchese",
+      "duration": "13:18",
+      "category": "AI / Claude",
+      "url": "https://youtu.be/7zZy1QTvokM",
+      "summary": "Breaks down Andrej Karpathy's AISN 2026 talk into three layers for working with Claude: (1) writing detailed specs via iterative interviews instead of vague prompts, using agile chunking over waterfall; (2) verification — setting eval criteria upfront, using a second model as critic, and pulling external signals for feedback loops; (3) environment — building a Claude.md, an LLM knowledge base of your own data, reusable custom skills, and rule-based guardrails. Cites Claude Code creator Boris Cherney saying feedback loops 2-3x output quality.",
+      "relevance": "Validates the exact workflow you already run — Claude.md, custom skills, verification layers — now backed by Karpathy's framing. Good confirmation bias, maybe one or two new angles on spec-writing."
+    },
+    {
+      "id": "hq6YhQaHu6E",
+      "title": "Катастрофа возобновляемой энергии",
+      "channel": "SciOne",
+      "duration": "28:17",
+      "category": "Science",
+      "url": "https://youtu.be/hq6YhQaHu6E",
+      "summary": "SciOne examines the hidden downsides and systemic challenges of renewable energy — likely covering intermittency, storage limitations, rare-earth mining costs, land use, and grid stability problems that complicate the green transition narrative. A 28-min deep dive typical of SciOne's well-researched popular science format.",
+      "relevance": "Russian-language science deep dive on a topic that matters for anyone building in climate/energy tech — SciOne usually delivers substance over hype."
+    },
+    {
+      "id": "1H_79aWdWnc",
+      "title": "I Took the Most Powerful Psychedelic on Earth",
+      "channel": "Sean Clayton",
+      "duration": "22:18",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/1H_79aWdWnc",
+      "summary": "First-person account of an extended-state DMT infusion (DMTX protocol) — a controlled IV drip sustaining the experience far beyond the usual 5-10 minutes. Describes ego dissolution, loss of body/time/identity, perceived 360° awareness, and feeling connected to his wife across distance. Concludes with personal spiritual takeaways about purpose, relationships, and awareness persisting beyond identity.",
+      "relevance": "Worth a skim if you follow DMTX research — the protocol itself is genuinely novel consciousness science, though this is more trip report than analysis."
+    },
+    {
+      "id": "DkhhE97Swmo",
+      "title": "Therapy for the Vibe-Coded Brain",
+      "channel": "JetBrains Academy",
+      "duration": "10:00",
+      "category": "AI / Learning",
+      "url": "https://youtu.be/DkhhE97Swmo",
+      "summary": "Breaks down 8 metacognitive traps programmers face when learning to code — 5 classic (forming, dislodging, assumption, location, achievement) plus 3 new ones introduced by AI tools (progression, interruption, mislead). Based on a research study observing novices with AI tutors, showing that students who offloaded thinking to AI were unaware of their own incompetence. Argues that pauses, struggle, and frustration are essential parts of problem-solving, not signs of failure.",
+      "relevance": "Solid framework for thinking about when AI assistance helps vs. hinders — useful if you're mentoring junior devs or reflecting on your own vibe-coding habits."
+    },
+    {
+      "id": "BsIZBOH_Omc",
+      "title": "САМАЯ БЕЗУМНАЯ ТЕОРИЯ О НАШЕМ МОЗГЕ",
+      "channel": "Азазелло",
+      "duration": "15:03",
+      "category": "Consciousness / Science",
+      "url": "https://youtu.be/BsIZBOH_Omc",
+      "summary": "Russian science channel Azazello explores a provocative neuroscience theory about how the brain works. No transcript available, but the channel is known for well-produced popular science explainers covering consciousness, perception, and cognition. Likely covers a paradigm-challenging model of brain function (predictive processing, free energy principle, or similar).",
+      "relevance": "Brain theories in digestible Russian-language format — worth a watch if the topic hooks you, Azazello usually delivers substance behind the clickbait titles."
+    },
+    {
+      "id": "aooiDA-AsNo",
+      "title": "I Tracked Down the Hidden Workers Secretly Powering ChatGPT",
+      "channel": "More Perfect Union",
+      "duration": "16:02",
+      "category": "AI / Labor",
+      "url": "https://youtu.be/aooiDA-AsNo",
+      "summary": "Investigative report on the precarious workforce training ChatGPT, Gemini, and other AI models. Companies like Mercor and Scale AI hire PhD graduates and vulnerable workers as gig contractors for $15-55/hr (median earnings <$23K/year), with contracts ending without warning. 86% of data workers struggle financially, 25% rely on public assistance. Economist Daron Acemoglu warns this automation-first ideology could create unprecedented inequality, though AI could instead augment teachers and nurses.",
+      "relevance": "Essential context for anyone building with AI — the human supply chain behind the models we use daily, and why the 'AI replaces all workers' narrative masks a grimmer interim reality."
+    },
+    {
+      "id": "YoMi1rLjVrY",
+      "title": "Your Startup Idea Isn't Worth Stealing",
+      "channel": "Rob Walling",
+      "duration": "11:06",
+      "category": "Startups / Building",
+      "url": "https://youtu.be/YoMi1rLjVrY",
+      "summary": "Rob Walling (20 yrs, 240+ investments) argues idea theft fear is overblown: none of his copied companies (Drip, HitTail, MicroConf, TinySeed) died from copycats. Real killer is building in stealth for months without customer feedback. Practical framework: share the problem/value publicly, keep implementation details private, build distribution as your moat — copycats can clone features but not your momentum or future roadmap.",
+      "relevance": "Solid reminder that validation > secrecy, especially now that AI makes cloning trivial — distribution and speed are the real defensibility."
+    },
+    {
+      "id": "A021WhBGTnE",
+      "title": "Эффект наблюдателя – полное объяснение без мистики.",
+      "channel": "PRO Hi-Tech",
+      "duration": "29:56",
+      "category": "Science / Physics",
+      "url": "https://youtu.be/A021WhBGTnE",
+      "summary": "Thorough demystification of the observer effect and double-slit experiment. Covers wave-particle duality, interference vs diffraction, Feynman's thought experiments, and explains why instrumental measurement collapses the wave function — all without invoking simulation theory or mystical interpretations. Includes practical demos of reproducing Young's experiment with lasers and foil.",
+      "relevance": "Solid physics explainer that debunks the 'we live in a simulation because quantum' takes — the kind of rigorous framing worth having in your mental toolkit."
+    },
+    {
+      "id": "nxCtScEImew",
+      "title": "Your Mac Has Hidden VRAM… Here's How to Unlock It",
+      "channel": "Alex Ziskind",
+      "duration": "6:24",
+      "category": "AI / Local LLMs",
+      "url": "https://youtu.be/nxCtScEImew",
+      "summary": "Walkthrough of adjusting macOS's GPU wired memory limit (via sysctl) on Apple Silicon to allow LM Studio to load larger LLMs than the default ~75% VRAM allocation permits. Demonstrates on a 16GB M4 MacBook Air loading a 20B-param model, discusses safe vs unsafe limits, and mentions a Mac Studio cluster with 512GB per node for running massive models.",
+      "relevance": "Practical hack for squeezing bigger local models out of your Mac — useful if you're running LLMs on Apple Silicon with limited RAM."
+    },
+    {
+      "id": "Y8vAQ1FgNbM",
+      "title": "Paste This Into Claude, Never Hit a Token Limit Again",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration": "20:16",
+      "category": "AI / Tooling",
+      "url": "https://youtu.be/Y8vAQ1FgNbM",
+      "summary": "Breaks down why AI token limits hit so fast (96% of tokens are reused input from conversation history) and gives 15 rules across 3 levels: beginner habits (edit mistakes instead of correcting, start clean tasks, carry artifacts not arguments, specify output format), a 'Token Saver' skill for Claude Code/Codex that automates these habits, and a multi-agent framework that routes work to prevent context bloat. Key insight: output tokens cost double because they become input on every subsequent turn.",
+      "relevance": "Practical token hygiene for heavy Claude Code users — the 'carry the answer, not the argument' and 'start clean tasks' rules alone probably save hours of rate-limit waits."
+    }
+  ]
+}
