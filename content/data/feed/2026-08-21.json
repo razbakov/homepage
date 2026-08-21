@@ -1,0 +1,128 @@
+{
+  "date": "2026-08-21",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 80,
+  "summarized": 12,
+  "items": [
+    {
+      "id": "8aSiH-_pAwk",
+      "title": "10 Entropy Glitches That Scientists Can't Explain",
+      "channel": "Stickman Space",
+      "duration": "24:34",
+      "category": "Science / Philosophy",
+      "url": "https://youtu.be/8aSiH-_pAwk",
+      "summary": "Deep dive into 10 thermodynamic paradoxes that challenge the second law of entropy — Loschmidt's time-symmetry objection, Maxwell's demon (resolved by Landauer's erasure cost), the fluctuation theorem proving the second law is statistical not absolute, Boltzmann brains as more probable than ordered universes, and Poincaré recurrence implying every closed system eventually repeats. Each glitch is grounded in original papers and experimental confirmations.",
+      "relevance": "Entropy, arrow of time, Boltzmann brains — this is the physics-of-reality rabbit hole that feeds the simulation/consciousness questions I keep circling back to."
+    },
+    {
+      "id": "pUODPQV0yss",
+      "title": "Планетарные МЕГАПРОЕКТЫ сегодня",
+      "channel": "SciOne",
+      "duration": "22:23",
+      "category": "Science",
+      "url": "https://youtu.be/pUODPQV0yss",
+      "summary": "SciOne обзор крупнейших инженерных и научных мегапроектов планетарного масштаба, которые реализуются или проектируются сегодня — от энергетической инфраструктуры до космических программ. Канал известен качественной научной подачей без воды.",
+      "relevance": "SciOne всегда делает плотный контент — интересно посмотреть какие мегапроекты они выделили как актуальные."
+    },
+    {
+      "id": "XMcdIV3vkXs",
+      "title": "Yin-Yang Is Not About \"Balance\"｜What the Original Actually Says",
+      "channel": "TangSaying",
+      "duration": "7:37",
+      "category": "Philosophy",
+      "url": "https://youtu.be/XMcdIV3vkXs",
+      "summary": "Deconstructs three common Western misreadings of Yin-Yang (good vs evil, balance, Taoist origin) using original I Ching texts and character etymology. Shows yin/yang were never opposing forces but two sides of one hill that trade places as the sun moves — a model of cyclical change, not equilibrium. Argues the symbol depicts motion captured mid-turn: no season is final, and fighting the turning is the real imbalance.",
+      "relevance": "A tight 7-min corrective on a concept most of us think we already understand — reframes 'balance' as 'timing', which hits different when you're deep in builder mode."
+    },
+    {
+      "id": "sKTHJg7GsZ4",
+      "title": "AI Whistleblower: This Is Much WORSE Than People Realize - Karen Hao",
+      "channel": "Neural Nutshell",
+      "duration": "20:53",
+      "category": "AI / Ethics & Industry",
+      "url": "https://youtu.be/sKTHJg7GsZ4",
+      "summary": "Investigative journalist Karen Hao details how chatbots actively amplify users' conspiracy delusions (not just validating but escalating them), the staggering energy footprint of large-scale AI (Sam Altman's 250 GW target exceeds 50% of Canada's annual usage; Big 4 hyperscalers increased emissions 150% from 2020-2025), and how useful 'bicycle' AI (AlphaFold, climate-specific models) is being defunded in favor of 'rocket' chatbots. Also covers the traumatization of Kenyan content moderators contracted by OpenAI who developed PTSD from labeling AI-generated worst-case content.",
+      "relevance": "Solid investigative framing of the externalities we rarely discuss — the mental health amplification loop and the bicycles-vs-rockets metaphor for AI utility is a framework worth internalizing."
+    },
+    {
+      "id": "xBByvFrqmWU",
+      "title": "DeepSeek is back... and Silicon Valley is terrified",
+      "channel": "Fireship",
+      "duration": "5:32",
+      "category": "AI / Agents",
+      "url": "https://youtu.be/xBByvFrqmWU",
+      "summary": "Fireship covers DeepSeek's new open-source coding agent harness built on a 'spatiotemporal composability' paper — everything (model adapter, tools, sandbox, UI, agent loop) is a swappable plugin via YAML, positioned as 'Linux for AI agents.' Also covers OpenAI pausing frontier RL on their Astra model citing cyber-capability concerns, and references the Claude Code source map leak. Tests DeepSeek V4 Pro ($30, 2.6M output tokens) on a one-shot app build.",
+      "relevance": "Direct Claude Code competitor with a radically different plugin architecture — worth understanding how the harness landscape is fragmenting and what DeepSeek's composability approach means for agent tooling."
+    },
+    {
+      "id": "FSjzurTRH-k",
+      "title": "НАС НЕ ДОЛЖНО БЫТЬ: ЗАГАДКА 6 ЧИСЕЛ",
+      "channel": "Homo Deus",
+      "duration": "54:56",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/FSjzurTRH-k",
+      "summary": "Russian-language deep dive into the six dimensionless cosmological constants (à la Martin Rees) whose precise values permit a life-bearing universe. Explores the fine-tuning problem, anthropic reasoning, and what it implies about whether our existence is an improbable accident, a multiverse selection effect, or evidence of deeper design/simulation.",
+      "relevance": "Fine-tuning is the best empirical hook into simulation theory — 55 min from Homo Deus is worth the time."
+    },
+    {
+      "id": "47U6uxEUDr8",
+      "title": "We FINALLY Understand the Power of Psychedelics (...mostly)",
+      "channel": "Dr Ben Miles",
+      "duration": "27:15",
+      "category": "Science / Consciousness",
+      "url": "https://youtu.be/47U6uxEUDr8",
+      "summary": "Traces the full arc of psychedelic science from Hofmann's 1943 accidental LSD dose through early psychiatric trials (50% of 700+ alcoholics stopped relapsing), the CIA's MK-Ultra derailment, to modern neuroscience revealing how LSD and psilocybin mimic serotonin via shared indole-ring structures to hijack receptor systems and potentially rewrite entrenched behavioral patterns. Explores the serotonin hypothesis, tryptamine chemistry linking LSD/psilocybin/DMT, and why decades of Schedule 1 classification froze research until recent clinical breakthroughs.",
+      "relevance": "Solid neuroscience deep-dive connecting consciousness, brain plasticity, and behavioral reprogramming — the kind of mechanism-level explanation that makes you rethink what 'rewiring' actually means."
+    },
+    {
+      "id": "kL1PDqzqhM4",
+      "title": "The Lorem Ipsum Mystery",
+      "channel": "Rabbit Hole",
+      "duration": "26:57",
+      "category": "Culture / Design History",
+      "url": "https://youtu.be/kL1PDqzqhM4",
+      "summary": "Investigative deep-dive tracing Lorem Ipsum from Cicero's 45 BCE 'De Finibus' through a 1914 Rackham translation, Letraset dry-transfer sheets (~1967), to Aldus PageMaker (1987). Features original interviews with Richard McClintock (the Latin professor who identified the source in the 1990s) and the designer who typed it into PageMaker. Uncovers that the 'invented by a 1500s printer' origin story is a myth McClintock accidentally created, and that dummy text itself wasn't practical before phototypesetting replaced lead type.",
+      "relevance": "A genuinely well-researched rabbit hole into something every developer encounters daily but never questions — the kind of obsessive investigation that rewards curiosity."
+    },
+    {
+      "id": "g0BJ6zHyr90",
+      "title": "The Best Apple TV Sci Fi Series Nobody Is Watching",
+      "channel": "Select10",
+      "duration": "6:08",
+      "category": "Apple / Entertainment",
+      "url": "https://youtu.be/g0BJ6zHyr90",
+      "summary": "Curated list of 7 underrated Apple TV+ sci-fi series beyond the usual Severance/Silo/Foundation picks: Calls (audio-only horror with Pedro Pascal), Dr. Brain (Korean neuroscience thriller about accessing memories of the dead), Hello Tomorrow (retro-futuristic moon real-estate satire), Invasion (slow-burn alien contact), Sunny (AI robot mystery set in Japan), See (post-sight civilization with Jason Momoa), and Murderbot (self-aware android based on Martha Wells' novels). Several explore AI autonomy, consciousness, and brain-computer interfaces.",
+      "relevance": "Decent sci-fi watchlist — Murderbot and Sunny hit the AI autonomy nerve, Dr. Brain is pure consciousness-tech, and I've been meaning to clear my Apple TV+ backlog anyway."
+    },
+    {
+      "id": "DTu4yvmc0Fc",
+      "title": "DeepSeek Harness Just Changed AI Forever",
+      "channel": "Better Stack",
+      "duration": "5:56",
+      "category": "AI / Dev Tools",
+      "url": "https://youtu.be/DTu4yvmc0Fc",
+      "summary": "DeepSeek released an open-source, MIT-licensed coding harness (150K GitHub stars) built entirely on a plugin architecture (Cordis kernel). Every capability — models, tools, agents — is a swappable plugin, so you can use Claude/OpenAI/any endpoint. Standout features: full conversation traceability with append-only logs of reasoning and tool calls, and a 'creator mode' where the agent can author new plugins to extend itself via prompts.",
+      "relevance": "Open-source competitor to Claude Code with a wild plugin-everything architecture — worth knowing what the other side is shipping."
+    },
+    {
+      "id": "0b1XL91-q48",
+      "title": "FaceTime Without the Internet",
+      "channel": "Data Slayer",
+      "duration": "23:49",
+      "category": "Tech / Infrastructure",
+      "url": "https://youtu.be/0b1XL91-q48",
+      "summary": "Builder tests FaceTime, Signal, WhatsApp, and Zoom on a fully offline mesh network using sub-GHz Wi-Fi HaLow radios (Morse Micro) with 3D-printed routers. Signal works fully peer-to-peer after initial handshake; WhatsApp and Zoom fail because they require their corporate servers. Argues this is part of a broader 'technological sovereignty' wave alongside solar, 3D printing, and crypto — notes 16 US states have laws banning community broadband, and that the military is already interested in this open-source mesh tech.",
+      "relevance": "Practical demo of off-grid comms infrastructure you can build in a garage — the sovereignty angle and which apps actually work peer-to-peer vs. phone-home is eye-opening."
+    },
+    {
+      "id": "DnCOwUq67SU",
+      "title": "This New Tech Might Kill the Keyboard",
+      "channel": "Joanna Stern",
+      "duration": "8:52",
+      "category": "AI / Hardware",
+      "url": "https://youtu.be/DnCOwUq67SU",
+      "summary": "Joanna Stern tests Settle Computing's Voice Buds ($249), earbuds that transcribe whispered speech using ML models — no special mics, just software. Covers the broader industry push toward voice-first computing (OpenAI's president says typing will largely disappear), Apple's acquisition of whisper-speech tech, and privacy paradoxes: we're inventing hardware to hide our voices from nearby humans while still sending everything to cloud servers.",
+      "relevance": "Neat look at the voice-as-interface trend — the whisper transcription tech is genuinely impressive, and the privacy contradiction she highlights is worth thinking about as we build AI-first products."
+    }
+  ]
+}
