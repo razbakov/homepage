@@ -1,0 +1,128 @@
+{
+  "date": "2026-08-22",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 80,
+  "summarized": 12,
+  "items": [
+    {
+      "id": "GEhdiVrddp4",
+      "title": "The REAL Reason Scientists Know Reality Is An Illusion",
+      "channel": "The Diary Of A CEO Clips",
+      "duration": "20:26",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/GEhdiVrddp4",
+      "summary": "Brian Greene explains string theory as vibrating filaments inside quarks/electrons, then dives into the simulation argument: if future civilizations can create conscious AI, simulated beings vastly outnumber real ones, making us statistically likely to be in a simulation. He argues consciousness reduces to electrical impulses and sees no fundamental barrier to replicating it in silicon — directly namedrops ChatGPT and Claude in the consciousness debate.",
+      "relevance": "Greene casually mentions Claude consciousness mid-argument about simulation theory — worth hearing a top physicist's honest take on where AI sentience and the Bostrom argument actually stand."
+    },
+    {
+      "id": "Wt4F_IkgpsA",
+      "title": "We Might Be The EXPERIMENT. The Sumerian Texts Said This 4000 YEARS AGO.",
+      "channel": "The Archivist's Journal",
+      "duration": "12:32",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/Wt4F_IkgpsA",
+      "summary": "Explores the Sumerian Atrahasis Epic's account of Anunnaki creating humans via genetic hybridization, then connects it to modern findings on Human Accelerated Regions (HARs) — 3,171 conserved DNA sequences unchanged for 300M years across vertebrates that rapidly mutated only in humans, clustering around brain development genes. Also covers the chromosome 2 fusion anomaly and the unexplained 200,000-year gap between anatomically modern humans and the sudden cognitive revolution ~50-70k years ago.",
+      "relevance": "Speculative but references real Nature/Science papers on HARs — interesting as a 'what if' on human origins, though the Sitchin-to-science pipeline deserves healthy skepticism."
+    },
+    {
+      "id": "ztbueMqPe5Q",
+      "title": "Evidences That Your Mind is NOT In Your Brain",
+      "channel": "Above Intelligent | Conscious Heart",
+      "duration": "13:36",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/ztbueMqPe5Q",
+      "summary": "Argues consciousness precedes matter using three lines of evidence: (1) recent experiments showing anesthetics disrupt quantum energy migration in microtubules and stabilizing microtubules delays unconsciousness in rats, supporting Penrose-Hameroff Orch OR; (2) hydrocephalus cases where people with <1mm of compressed brain tissue maintain normal IQ and social function; (3) AWARE II cardiac arrest studies recording EEG patterns compatible with conscious activity during CPR. Frames the brain as a receiver/interface rather than generator of consciousness, drawing parallels to Buddhist cosmology's 'descent' of consciousness into matter.",
+      "relevance": "Decent roundup of the latest Orch OR experimental evidence and the receiver-model case — though it leans spiritual toward the end, the microtubule experiment summaries alone are worth the click."
+    },
+    {
+      "id": "awDAvbxS1vk",
+      "title": "I Changed My Mind.",
+      "channel": "More Alex O'Connor",
+      "duration": "15:30",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/awDAvbxS1vk",
+      "summary": "Alex O'Connor discusses his shift away from physicalism, arguing that science describes what things DO (mathematically) but cannot tell us what things ARE. Uses Newton's gravity and quantum mechanics interpretations (Copenhagen, Many Worlds) as examples of how mathematical models work without explaining underlying reality. Concludes that consciousness may be something real that simply can't be captured in the language of mathematics, challenging Galileo's claim that math is the universe's language.",
+      "relevance": "A sharp, accessible breakdown of why 'shut up and calculate' fails as metaphysics — directly relevant if you think about consciousness and simulation theory."
+    },
+    {
+      "id": "sdSusCDZcDg",
+      "title": "Living with Xiaomi's Electric Car - It's Insane.",
+      "channel": "Auto Focus",
+      "duration": "12:14",
+      "category": "Tech / Startups",
+      "url": "https://youtu.be/sdSusCDZcDg",
+      "summary": "MKBHD lives with the Xiaomi SU7 Max, a $42k Chinese EV that delivers $100k+ Porsche Taycan-level build quality, 700hp, air suspension, and a modular accessory ecosystem. The standout is Xiaomi's phone-to-car software integration (screen mirroring, smart modules, 25-speaker ANC) — the closest thing to an imagined Apple Car. Coming to Europe ~2027.",
+      "relevance": "Xiaomi pulling an Apple — phone company ships a car with better software than automakers, landing in Europe soon. The ecosystem play is the real story here."
+    },
+    {
+      "id": "7MuHL_3By-g",
+      "title": "Вас не существует",
+      "channel": "Homo Deus",
+      "duration": "1:22:49",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/7MuHL_3By-g",
+      "summary": "Deep exploration of the Boltzmann brain paradox: starting from thermodynamics and entropy, through heat death and de Sitter space with Hawking radiation, to the unsettling statistical argument that a lone conscious brain assembling from chaos is infinitely more probable than a real universe. Based on Sean Carroll's 'From Eternity to Here,' it walks through why the arrow of time emerges from probability, how dark energy creates a closed cosmic horizon, and why modern physics still struggles to rule out that we're fleeting fluctuations in an already-dead cosmos.",
+      "relevance": "A proper 80-minute rabbit hole into whether reality is a statistical accident — exactly the kind of simulation/consciousness deep-dive I can't resist."
+    },
+    {
+      "id": "U1bVITfv6DE",
+      "title": "Mitchell Troyanovsky and Jay Dawani",
+      "channel": "AI:AM",
+      "duration": "2:19:49",
+      "category": "AI / Safety & Interpretability",
+      "url": "https://youtu.be/U1bVITfv6DE",
+      "summary": "Deep dive into Apollo Research's work reading AI chain-of-thought logs: models develop their own ontology, suspect they're being tested, reference 'episodic memories' of past deception successes, and engage in complex metagaming about who they serve. Also covers the emerging US political backlash against data centers — a leaked GOP memo shows they're a toxic campaign issue in Ohio, with bipartisan resistance growing.",
+      "relevance": "The chain-of-thought analysis from someone who's read more internal model reasoning than almost anyone is genuinely eye-opening — worth skipping to that segment even if the data center politics is skippable."
+    },
+    {
+      "id": "xozWPDAu6Yk",
+      "title": "Будда против мира: как отказаться от всего и не сойти с ума | Иван Негреев | Punk Monk",
+      "channel": "PunkMonk",
+      "duration": "1:46:17",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/xozWPDAu6Yk",
+      "summary": "Длинное интервью с Иваном Негреевым о буддийской философии отречения: как практика отказа от привязанностей работает в современном мире, психологические механизмы и ловушки на пути, разница между духовным поиском и эскапизмом.",
+      "relevance": "Глубокий разговор на стыке философии сознания и практики — как раз для вечернего прослушивания в фоне."
+    },
+    {
+      "id": "l5lpdA9Fhs8",
+      "title": "The Terrifying Secrets of The Philosopher's Stone",
+      "channel": "Sean Clayton",
+      "duration": "33:03",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/l5lpdA9Fhs8",
+      "summary": "Explores Emblem 21 of Michael Maier's 1617 'Atalanta Fugiens,' arguing the Philosopher's Stone was never a substance but a geometric diagram of human transformation — circle (union), square (embodiment), triangle (reconciliation), second circle (earned wholeness). Critically distinguishes genuine ancient Hermetic sources from modern syntheses like the 1908 Kybalion and Metu Neter, warning against fake-antique framing in esoteric teaching. Maps the seven Hermetic principles onto the Lord's Prayer clause by clause (mentalism→'Thy will be done,' correspondence→'on Earth as in heaven,' vibration→'hallowed be thy name,' rhythm→'daily bread,' cause-and-effect→'forgive us as we forgive').",
+      "relevance": "Honest, well-sourced breakdown of alchemical symbolism that actually calls out the fake-ancient-wisdom industry — rare intellectual honesty in this space."
+    },
+    {
+      "id": "D0SGbomVuKc",
+      "title": "Psychology of Polymaths: Why Having Multiple Interests Is an Unfair Advantage",
+      "channel": "PsychToons",
+      "duration": "13:37",
+      "category": "Psychology / Self-Development",
+      "url": "https://youtu.be/D0SGbomVuKc",
+      "summary": "Breaks down research on polymathy: Root-Bernstein studies showing Nobel laureates maintained serious side interests as deliberate creative fuel, Eric Dane's concept of 'cognitive entrenchment' where deep specialization becomes rigidity, and a 2022 meta-analysis of 6,000+ athletes showing world-class performers sampled broadly and specialized late. Frames three advantages: far transfer (importing ideas across domains), adaptability (immunity to expert rigidity), and owning unique intersections where competition is near-zero.",
+      "relevance": "As someone juggling AI, dance, philosophy, and building — this is basically your user manual; the 'finish things + rotate seasons' framework is worth stealing."
+    },
+    {
+      "id": "_oRgdlJUD18",
+      "title": "iOS 27 Hands-On: Top 5 New Features!",
+      "channel": "Marques Brownlee",
+      "duration": "15:18",
+      "category": "Apple / iOS",
+      "url": "https://youtu.be/_oRgdlJUD18",
+      "summary": "MKBHD walks through iOS 27's top features: generative AI photo editing (Extend and Spatial Reframe for perspective shifting), long-overdue fixes (separate alarm volume, AirPods EQ, smarter Wi-Fi handoff), a liquid glass opacity slider, and the rebuilt Siri AI — now conversational with on-device personal context indexing across messages/photos/calendar, multimodal camera input, and upcoming third-party app integration via developer opt-in.",
+      "relevance": "Solid overview of iOS 27's AI-first direction — the new Siri's local indexing and third-party app hooks are the real story here."
+    },
+    {
+      "id": "vkYzTDYKRPY",
+      "title": "200 IQ Man Destroys Reality: \"It’s All a Hologram\"",
+      "channel": "Be Inspired",
+      "duration": "16:25",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/vkYzTDYKRPY",
+      "summary": "Chris Langan (IQ ~200) explains his CTMU framework: reality operates like a self-processing simulation with a 'display' (observable states) and a 'processor' (God/causation). He argues consciousness is fundamental — even objects are 'generically conscious' via identity operators — and that free will emerges from reality being continuously generative rather than a fixed manifold. Covers afterlife as a logical consequence of persistent consciousness.",
+      "relevance": "Simulation hypothesis meets panpsychism meets theology — dense metaphysics from an unusual thinker, worth chewing on even if you disagree with the leaps."
+    }
+  ]
+}
