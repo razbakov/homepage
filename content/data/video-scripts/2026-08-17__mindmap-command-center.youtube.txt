@@ -1,0 +1,18 @@
+# YouTube — paste-ready (2026-08-17 · mindmap-command-center)
+
+## Title
+I Mapped My Entire Life System in 49 Nodes | Daily #NNN
+
+## Description
+18 projects, 1 job, zero tools that show how it all connects — so I built a map.
+3 minutes on why drawing the map matters more than the map itself.
+
+Full essay → https://razbakov.com/blog/2026-03-25-mindmap-command-center
+New essay narrated here every day.
+
+## Tags
+mindmap, life system, personal operating system, d3js, side projects, productivity, notion, second brain, okrs, radial tree, command center, founder workflow, life design, systems thinking, open source, knowledge management
+
+## Notes
+Format: Option C — cloned-voice narration over the essay hero image (no avatar).
+Voice: ElevenLabs (eleven_multilingual_v2).

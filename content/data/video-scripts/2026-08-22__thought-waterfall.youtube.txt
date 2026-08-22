@@ -1,0 +1,18 @@
+# YouTube — paste-ready (2026-08-22 · thought-waterfall)
+
+## Title
+Your Brain at 3 AM Knows Something You Don't | Daily #NNN
+
+## Description
+What happens when ideas arrive faster than you can write them down?
+3 minutes on Thought Waterfall — what it is, why AI triggers it, and how to catch the good stuff.
+
+Full essay → https://razbakov.com/blog/2026-03-23-thought-waterfall
+New essay narrated here every day.
+
+## Tags
+thought waterfall, creative thinking, lateral thinking, ai productivity, idea capture, flow state, brain dump, free writing, ai agents, creative process, edward de bono, gtd, voice notes, idea management, morning routine, thinking tools
+
+## Notes
+Format: Option C — cloned-voice narration over the essay hero image (no avatar).
+Voice: ElevenLabs (eleven_multilingual_v2).

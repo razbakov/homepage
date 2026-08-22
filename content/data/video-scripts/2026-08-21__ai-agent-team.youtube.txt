@@ -1,0 +1,18 @@
+# YouTube — paste-ready (2026-08-21 · ai-agent-team)
+
+## Title
+I Built 6 AI Agents to Run My 15 Side Projects | Daily #NNN
+
+## Description
+15 side projects, 1 full-time job — the math only works if you delegate to AI.
+In 3 minutes: the 6-agent executive team that runs my projects while I sleep.
+
+Full essay → https://razbakov.com/blog/2026-03-24-ai-agent-team
+New essay narrated here every day.
+
+## Tags
+ai agents, claude code, side projects, ai automation, ai team, solopreneur, productivity, delegation, sociocracy, tmux, git worktrees, ai workflow, agent framework, markdown prompts, indie hacker, build in public
+
+## Notes
+Format: Option C — cloned-voice narration over the essay hero image (no avatar).
+Voice: ElevenLabs (eleven_multilingual_v2).
