@@ -1,0 +1,128 @@
+{
+  "date": "2026-08-23",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 80,
+  "summarized": 12,
+  "items": [
+    {
+      "id": "CKbz_FfKeVk",
+      "title": "The Smartphone Is About to Change Forever",
+      "channel": "ThisIsE",
+      "duration": "16:01",
+      "category": "Tech / Hardware",
+      "url": "https://youtu.be/CKbz_FfKeVk",
+      "summary": "Deep analysis of the foldable phone race: Oppo Find N6 at 4.2mm is now thinner than a pencil with near-invisible crease (82% reduction), 6000mAh battery, and stylus support — outpacing Samsung's Z Fold 7 which had to remove S Pen to hit similar dimensions. iPhone Fold is in trial production at Foxconn now, mass production planned for July, expected to ship this fall at ~$2,000. Chinese manufacturers (Oppo, Honor, Xiaomi, Huawei) lead the category but remain unavailable in US/Europe.",
+      "relevance": "The iPhone Fold timeline is concrete — Foxconn building units this month — and the engineering gap between what's available in Asia vs. what we can buy in Europe is genuinely frustrating."
+    },
+    {
+      "id": "qoGNwVxyCIk",
+      "title": "Религия, которую от нас СКРЫЛИ. Исходный КОД христианства!",
+      "channel": "Библия Без Цензуры",
+      "duration": "33:18",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/qoGNwVxyCIk",
+      "summary": "Traces how Zoroastrianism (1500 BC) originated monotheism, cosmic dualism (good vs evil), free will, angels, Satan, resurrection, and final judgment — concepts later absorbed into Judaism during Babylonian captivity under Persian rule, then inherited by Christianity and Islam. Details the historical transmission mechanism: Cyrus freeing 50,000 Jews who carried Zoroastrian 'source code' back to Jerusalem, transforming Satan from a bureaucratic angel-prosecutor into a personified cosmic adversary modeled on Angra Mainyu.",
+      "relevance": "Fascinating deep dive into the 'git blame' of Western religious architecture — how one steppe prophet's ideas became the spiritual API that Judaism, Christianity, and Islam all forked from."
+    },
+    {
+      "id": "p1E0eXesFuk",
+      "title": "Third Eye is a Trap | Nisargadatta Maharaj",
+      "channel": "Eternal Life | Non-Duality",
+      "duration": "4:44",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/p1E0eXesFuk",
+      "summary": "Explores Nisargadatta Maharaj's warning that mystical experiences (third eye visions, kundalini, bliss states) can reinforce ego rather than dissolve it. The core argument: if an experience comes and goes, it cannot be truth — and the seeker collecting spiritual experiences is just the ego relocated from marketplace to temple. Real inquiry turns attention from the vision to the knower behind it.",
+      "relevance": "Classic non-duality pointer — if you've ever been tempted to chase peak experiences as 'progress,' this is a clean 4-minute reset on what self-inquiry actually asks."
+    },
+    {
+      "id": "aAg9iDh9_BQ",
+      "title": "Oneiric | AI Sci-Fi Short Film | Higgsfield Originals (2026)",
+      "channel": "Higgsfield AI",
+      "duration": "19:49",
+      "category": "AI / Creative",
+      "url": "https://youtu.be/aAg9iDh9_BQ",
+      "summary": "Higgsfield AI's 19-min AI-generated sci-fi short film explores a brain-computer interface ('Oneric') that lets users live inside any dream scenario. Friends debate where they'd go — Troy, deep space, fantasy kingdoms — before a twist reveals the protagonist is a convicted prisoner forced to relive his fatal mistake as punishment. Showcases Higgsfield's video generation engine for long-form narrative filmmaking.",
+      "relevance": "Solid benchmark of where AI video generation is now — full narrative arc, multiple VFX-heavy settings, and emotional beats all generated. Worth watching for the tech showcase alone, plus the simulation/consciousness themes hit close to home."
+    },
+    {
+      "id": "hcKltGA-DvQ",
+      "title": "Apple's Smart Glasses Could Put an End to Every Other Smart Eyewear Brand",
+      "channel": "Nate's Network",
+      "duration": "15:00",
+      "category": "Apple / Spatial Computing",
+      "url": "https://youtu.be/hcKltGA-DvQ",
+      "summary": "Deep dive into Apple's N50 smart glasses: no display, camera+mic+speakers in normal-looking acetate frames, $200-500, paired with iPhone, powered by new Siri AI (rebuilt on Google Gemini). Privacy-first approach causing deliberate delays — tamper-proof recording indicators, learned from Meta's privacy scandals. EU users won't get Siri AI at launch due to Digital Markets Act standoff. Competitive landscape: Meta at 84% market share, Google/Samsung arriving with similar no-display approach, Snap building true standalone AR.",
+      "relevance": "Living in Munich, the EU Siri AI blackout is directly relevant — and Apple's privacy-first delay strategy vs Meta's move-fast approach is a fascinating product philosophy case study."
+    },
+    {
+      "id": "VcLdVFE3_yE",
+      "title": "AI Safety Expert: What Would Happen If We Stopped AI? | Steven Bartlett",
+      "channel": "Top Podcast Moments",
+      "duration": "7:07",
+      "category": "AI / Safety",
+      "url": "https://youtu.be/VcLdVFE3_yE",
+      "summary": "AI safety researcher argues on Steven Bartlett's podcast that superintelligent AI cannot simply be 'unplugged' (comparing it to distributed systems like Bitcoin), that safety progress is linear while capability progress is exponential, and advocates stopping at current narrow AI — which already covers 99% of unrealized economic potential — rather than racing toward uncontrollable superintelligence. Frames the US-China arms race as mutually assured destruction.",
+      "relevance": "Concise distillation of the core safety argument — worth 7 minutes if you want the 'just unplug it' rebuttal explained clearly."
+    },
+    {
+      "id": "4HvFqhtCb-A",
+      "title": "Stop Paying $200 For Work An $18 Model Can Do Inside Claude Code And Codex.",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "duration": "20:49",
+      "category": "AI / Claude Code",
+      "url": "https://youtu.be/4HvFqhtCb-A",
+      "summary": "Practical walkthrough of running GLM 5.3 ($18/mo) inside Claude Code and Codex as a cheaper worker model. Distinguishes model vs harness vs project context vs conversation, explains why late-session model switches are costly (cache invalidation), and proposes a two-session pattern with explicit handoff files and git worktrees for safe parallel work.",
+      "relevance": "I run Claude Code daily with sub-agents and worktrees — the context-hygiene and handoff-file patterns here map directly to how I already dispatch work."
+    },
+    {
+      "id": "mRirvjqEZHU",
+      "title": "Дзэн-буддизм - это пустота и парадокс. От махаяны до сатори. Иван Негреев",
+      "channel": "PunkMonk",
+      "duration": "57:39",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/mRirvjqEZHU",
+      "summary": "In-depth lecture tracing Zen Buddhism from its Mahayana roots through Nagarjuna's emptiness (shunyata) doctrine to Chan/Zen practice. Explains the Buddhist view that reality is discrete moments of consciousness (dharmas) — like frames in film or pixels on screen — with no objective world independent of perception. Covers how Nagarjuna's nested-stupa vision led to the formalization of emptiness as the foundation underlying Zen's paradoxical teaching methods.",
+      "relevance": "Solid philosophy-of-mind content — the dharma-as-discrete-consciousness-frames model maps surprisingly well onto simulation/digital-physics thinking I keep coming back to."
+    },
+    {
+      "id": "-07VtDrv9Fg",
+      "title": "Genius Historian: The Ancients Warned Us About AI. We’re Building What They Feared | A. Mayor",
+      "channel": "This Is The World",
+      "duration": "43:59",
+      "category": "AI / Philosophy",
+      "url": "https://youtu.be/-07VtDrv9Fg",
+      "summary": "Historian Adrienne Mayor traces how ancient Greek myths — Pandora's sealed jar as AI's black box, Hephaestus's automatons, Aristotle linking robots to slavery — prefigured modern anxieties about opaque AI decision-making and unchecked technological power. She argues myth functioned as antiquity's science fiction, warning that devices benign among gods become destructive among humans, and that we need 'Promethean' (foresight) thinkers over 'Epimethean' (hindsight) ones. Also covers lost technologies like Greek fire and the surprising pervasiveness of chemical/biological weapons in antiquity alongside ethical objections to their use.",
+      "relevance": "Pandora-as-black-box and Aristotle's automation-replaces-slavery thought experiment hit differently when you're actually building the things the myths warned about."
+    },
+    {
+      "id": "BkA0bkb6ZO0",
+      "title": "China quietly saved the world last month",
+      "channel": "Max Fisher",
+      "duration": "31:03",
+      "category": "Geopolitics / Energy",
+      "url": "https://youtu.be/BkA0bkb6ZO0",
+      "summary": "Analysis of how China secretly cut its oil imports by ~5.5M barrels/day during the Iran-Hormuz crisis, preventing a global oil shock. China banned fuel exports, ramped coal plants, accelerated EV adoption, and shifted plastics/fertilizer production to coal — all without public announcement. The deficit dropped from 20M to ~5M barrels/day, turning predicted economic collapse into manageable price increases.",
+      "relevance": "Fascinating systems-level breakdown of how China's energy infrastructure (coal, EVs, rail) gave it a strategic lever no one expected — reshapes how you think about energy independence and geopolitical leverage."
+    },
+    {
+      "id": "bjPItpvmTKU",
+      "title": "Nobel Prize Winner Warns: “This Isn’t Our Universe” — James Webb Found Something Strange",
+      "channel": "Cosmicus",
+      "duration": "26:58",
+      "category": "Science",
+      "url": "https://youtu.be/bjPItpvmTKU",
+      "summary": "Covers the Hubble tension crisis: two independent methods for measuring cosmic expansion yield 67 vs 73 km/s/Mpc, and JWST confirmed the higher value, ruling out measurement error. Also examines JWST's discovery of impossibly massive early galaxies (later partially explained by black hole light contamination) and the early dark energy hypothesis as a potential resolution.",
+      "relevance": "Solid deep-dive into why our standard model of the universe might be cracking — the kind of 'reality isn't what we thought' story that feeds the simulation rabbit hole."
+    },
+    {
+      "id": "3MYiYutOU7s",
+      "title": "Why Our Existence Doesn’t Really Make Sense",
+      "channel": "New Scientist",
+      "duration": "30:26",
+      "category": "Science",
+      "url": "https://youtu.be/3MYiYutOU7s",
+      "summary": "New Scientist goes inside CERN's antimatter factory to explore why the universe exists at all. The Big Bang should have created equal matter and antimatter that annihilated completely, but a one-in-a-billion asymmetry tipped the balance. Physicists trap antiprotons in Penning traps, create antihydrogen atoms, and measure antimatter's properties (color, weight, gravitational behavior) with extraordinary precision to find the source of that asymmetry.",
+      "relevance": "The ultimate 'why is there something instead of nothing' — real CERN lab footage, not pop-sci hand-waving."
+    }
+  ]
+}
