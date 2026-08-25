@@ -1,0 +1,128 @@
+{
+  "date": "2026-08-25",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 80,
+  "summarized": 12,
+  "items": [
+    {
+      "id": "9SDkU5VDQEQ",
+      "title": "You need to switch to Linux RIGHT NOW!!",
+      "channel": "NetworkChuck",
+      "duration": "33:36",
+      "category": "AI / Developer Tools",
+      "url": "https://youtu.be/9SDkU5VDQEQ",
+      "summary": "DHH's Omarchy is an opinionated Arch Linux distro with AI-first design: Claude is built in as a system agent that can generate themes, manage configs, and act as an OS-level assistant. The distro uses Hyprland tiling WM, installs in under 2 minutes, and aims to eliminate mouse usage entirely with keyboard-driven workflows. DHH invested ~3000 hours making it a polished, riced-out developer OS that challenges Mac/Windows defaults.",
+      "relevance": "DHH building Claude directly into an OS as the default agent is a interesting signal for where AI-native computing is heading — worth a skim even if you're staying on macOS."
+    },
+    {
+      "id": "DshDA8qfOhI",
+      "title": "XREAL AURA: The AR Glasses Getting Everyone’s Attention.",
+      "channel": "TechAvid",
+      "duration": "4:30",
+      "category": "Spatial Computing / AR",
+      "url": "https://youtu.be/DshDA8qfOhI",
+      "summary": "XREAL Aura AR glasses hit 10K+ reservations ahead of fall 2026 launch at sub-$1,500. Built on Android XR with Qualcomm Snapdragon Reality Elite puck, Sony micro-OLED optical see-through displays (70° FOV, 120Hz), 6DOF + hand tracking, and deep Gemini integration for contextual AI. Electrochromic lenses, Bose-tuned spatial audio, and USB-C tethered compute puck with touchpad/fingerprint controls.",
+      "relevance": "A serious Android XR competitor to Vision Pro at a fraction of the price — worth tracking how Google's spatial platform stacks up against visionOS."
+    },
+    {
+      "id": "gO6eRAhzjss",
+      "title": "I Built an AI Agent to Cure AI Slop",
+      "channel": "Cloudflare Developers",
+      "duration": "6:57",
+      "category": "AI / Building",
+      "url": "https://youtu.be/gO6eRAhzjss",
+      "summary": "Developer builds 'Slop Doctor' — a multi-agent app using Cloudflare's Flue framework (built on Pi harness) that audits websites for AI-generated patterns (copy clichés, visual sameness, layout tropes). Uses three composable agents with skills (including Peter Yang's no-ai-slop skill via skills API), Seedance 2.5 via AI Gateway for video, and outputs a 'prescription' that can be fed directly to a coding agent for cleanup PRs.",
+      "relevance": "Flue framework demo with real agent composition, skills API, and a practical use case — worth watching if you're building agents on Cloudflare."
+    },
+    {
+      "id": "iegICzVSF9Y",
+      "title": "Очень странная штука. Но работает | Пушка Космос",
+      "channel": "SciOne",
+      "duration": "23:08",
+      "category": "Science",
+      "url": "https://youtu.be/iegICzVSF9Y",
+      "summary": "SciOne explores an unconventional space-launch concept — a 'space cannon' (likely a light-gas gun or electromagnetic launcher) that sounds implausible but has real physics behind it. The episode walks through the engineering challenges, historical attempts, and why the idea keeps resurfacing as a cheaper alternative to rockets.",
+      "relevance": "Russian-language science deep-dive from SciOne — solid channel, and non-rocket launch tech is the kind of weird-but-real engineering that's fun to geek out on."
+    },
+    {
+      "id": "WQKhvhKRwX0",
+      "title": "Joe Rogan: \"They Are Watching Us: The Alien Message To Humanity\"",
+      "channel": "JRE Collection",
+      "duration": "22:03",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/WQKhvhKRwX0",
+      "summary": "JRE compilation exploring the hypothesis that humans were genetically engineered by advanced beings — too intelligent yet too primitively violent to be natural evolution. Features Neil deGrasse Tyson's thought experiment on humanity's possible insignificance (we may be the ant, not the peer) and briefly touches on Colossal Bioworks resurrecting the direwolf as evidence of where our own genetic engineering is heading.",
+      "relevance": "Casual pop-philosophy on the engineering hypothesis and Fermi paradox — entertaining if you're in the mood for speculative Rogan, but don't expect rigor."
+    },
+    {
+      "id": "Be-NqsW-wuk",
+      "title": "Claude watermarks your code now",
+      "channel": "Theo - t3․gg",
+      "duration": "31:58",
+      "category": "AI / Anthropic",
+      "url": "https://youtu.be/Be-NqsW-wuk",
+      "summary": "Theo breaks down Anthropic's new compliance with the EU AI Act: Claude models launched in the EU after Aug 2, 2026 will embed machine-readable watermarks in all generated text and code, plus signed provenance metadata in files. He demonstrates why image watermarking (SynthID-style noise patterns) is trivially defeated by recompression/resizing, and argues text watermarking is even harder since there's far less redundant data to hide signals in — raising questions about whether code watermarks will survive linting, formatting, or minor edits.",
+      "relevance": "Directly affects your Claude Code workflow — worth understanding what Anthropic is actually shipping and whether these watermarks will survive real-world dev pipelines."
+    },
+    {
+      "id": "SEQnFXc_QQs",
+      "title": "The Most Dangerous Form Of Meditation",
+      "channel": "HealthyGamerGG",
+      "duration": "30:11",
+      "category": "Consciousness / Science",
+      "url": "https://youtu.be/SEQnFXc_QQs",
+      "summary": "Harvard-trained psychiatrist Dr. K breaks down why not all meditation is equal: focused attention practices carry the highest adverse-effect rate (17.7%), sessions over 40 min significantly increase risk of anxiety, panic, and depersonalization. He traces how John Kabat-Zinn's standardization of 'mindfulness' stripped esoteric practices (kundalini, pranayama, chakra work) into a safer but less powerful subset, and presents multicenter research categorizing meditation types by risk profile.",
+      "relevance": "Solid science-backed deep dive into meditation risks — useful if you meditate regularly or are curious about the neuroscience behind different practices."
+    },
+    {
+      "id": "xDVxhm54ees",
+      "title": "What Happened in Gaussian Splatting Last Week (August 17-24)",
+      "channel": "Radiance Fields (Gaussian Splatting, NeRF, & More)",
+      "duration": "3:34",
+      "category": "AI / 3D Graphics",
+      "url": "https://youtu.be/xDVxhm54ees",
+      "summary": "Weekly roundup of Gaussian Splatting industry news: PlayCanvas opened a REST API for Super Splat, Nuke 17.1 shipped animated Gaussian splat support, a new open-source in-browser trainer (splat.js) launched, Navvis added GS beta support, and the '4D Anyone' research paper generates 4D Gaussian splats from monocular video. Multiple tools and plugins now integrate GS across Maya, Octane, and more.",
+      "relevance": "Solid pulse-check on how 3D Gaussian Splatting is going mainstream across creative tools — relevant if you're tracking spatial computing and the future of 3D content creation."
+    },
+    {
+      "id": "a1Vfvx9RIqE",
+      "title": "I don't use my macbook anymore",
+      "channel": "Ras Mic",
+      "duration": "15:03",
+      "category": "AI / Dev Workflow",
+      "url": "https://youtu.be/a1Vfvx9RIqE",
+      "summary": "Developer moved his agentic coding workflow from MacBook to a Linux mini PC (32GB RAM) to solve macOS memory issues with parallel agents. Uses SSH + Tailscale for remote access, git worktrees for parallel feature isolation, Cloudflare Tunnel for dev servers, and keeps a Mac only for Xcode/iOS. Also building 'Bezel' — a unified MCP capability plane that lets him swap agent harnesses (Claude Code, Cursor, Codex, Hermes) while keeping the same tool/connector layer.",
+      "relevance": "Practical home-cloud setup for running multiple coding agents in parallel — the worktree workflow and unified MCP server idea are worth stealing."
+    },
+    {
+      "id": "9qQ_qoL6Tg0",
+      "title": "The Time Paradox That Challenges God",
+      "channel": "More Alex O'Connor",
+      "duration": "18:26",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/9qQ_qoL6Tg0",
+      "summary": "Philosopher discusses whether God is temporal or atemporal, exploring how A-theory (presentism), B-theory (block universe), and the lesser-known C-theory (directionless time) each imply different God-time relationships. Argues the B-theory/block universe is best supported by special and general relativity, since relativity eliminates universal simultaneity and objective 'now.' Also examines McTaggart's 1908 framework, the novel/author analogy for a timeless God, and why William Lane Craig's 'God was timeless then became temporal at creation' is self-refuting.",
+      "relevance": "Deep cut on time ontology meets theology — block universe, relativity, and whether 'now' is real. Right up your alley if you're into simulation-theory adjacent philosophy."
+    },
+    {
+      "id": "GRJaKcXZS94",
+      "title": "Ex-Google Maps PM Open Sources God’s Eye View",
+      "channel": "Bilawal Sidhu",
+      "duration": "9:58",
+      "category": "Startups / Building",
+      "url": "https://youtu.be/GRJaKcXZS94",
+      "summary": "Ex-Google Maps PM Bilawal Sidhu open-sources 'God's Eye View,' a real-time geospatial platform tracking planes, vessels, satellites, and infrastructure on a 3D globe. Features include AI voice control for navigation/annotation, cockpit mode with AR overlays, CCTV/traffic layers via TomTom, undersea cable and dam visualization, NASA fire data, and space mission replay. Built for performance with millisecond latency; a paid product for historical data and analyst workflows is teased.",
+      "relevance": "Impressive open-source geo tool with voice AI — worth checking out as a building reference and just to play with."
+    },
+    {
+      "id": "EV7sYWGKAVU",
+      "title": "Apple Won the AI Race (Yes, Apple.)",
+      "channel": "Caleb Ulku",
+      "duration": "18:03",
+      "category": "AI / Apple",
+      "url": "https://youtu.be/EV7sYWGKAVU",
+      "summary": "Analyzes the 'two races' framework for AI: the model race (where leads last ~30 days — Anthropic's Fable 5 topped by OpenAI's Soul in a month) and the hardware race (where Apple has a structural advantage with 2.5B devices). Argues AI models are converging and commoditizing, so Apple's strategy of skipping frontier model development, distilling Gemini for on-device use, and owning the device layer may be the winning play. Also covers OpenAI Soul's benchmark gaming flagged by METR.",
+      "relevance": "Solid breakdown of why the model race is a treadmill nobody wins — and the Anthropic/OpenAI leapfrog cycle is a perfect case study for that thesis."
+    }
+  ]
+}
