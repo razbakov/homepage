@@ -1,0 +1,128 @@
+{
+  "date": "2026-08-26",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 80,
+  "summarized": 12,
+  "items": [
+    {
+      "id": "xBByvFrqmWU",
+      "title": "DeepSeek is back... and Silicon Valley is terrified",
+      "channel": "Fireship",
+      "duration": "5:32",
+      "category": "AI / Tools",
+      "url": "https://youtu.be/xBByvFrqmWU",
+      "summary": "Fireship covers DeepSeek's new open-source coding harness (plugin-based architecture inspired by their spatio-temporal composability paper) and DeepSeek V4 Pro model. Also discusses OpenAI pausing frontier RL training on 'Astra' for alleged safety reasons, with skepticism about the real motive. Includes a hands-on test building an app with the DeepSeek harness — 2.6M output tokens for $0.30.",
+      "relevance": "Directly relevant to your daily driver — compares DeepSeek's harness architecture against Claude Code, and the Anthropic source-map leak callback is spicy context."
+    },
+    {
+      "id": "Hbh3ajm4coU",
+      "title": "Книга объясняющая ВСЁ / Роза Мира",
+      "channel": "Дзига",
+      "duration": "44:14",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/Hbh3ajm4coU",
+      "summary": "A 44-minute deep dive into Daniil Andreev's 'Rose of the World' (Роза Мира) — a Russian mystical-philosophical work that maps a layered metaphysical structure of reality, spiritual planes of existence, and humanity's cosmic destiny. The video explores Andreev's framework of interconnected spiritual dimensions and his vision of universal consciousness.",
+      "relevance": "Andreev's multi-layered reality model reads like a pre-digital simulation theory — worth exploring if you're into consciousness and metaphysical frameworks."
+    },
+    {
+      "id": "DX_oIQ-tA6M",
+      "title": "Quantum Computing Failure Now Obvious",
+      "channel": "Sabine Hossenfelder",
+      "duration": "6:47",
+      "category": "Science",
+      "url": "https://youtu.be/DX_oIQ-tA6M",
+      "summary": "Sabine Hossenfelder argues that NISQ (noisy intermediate-scale quantum) computing has definitively failed to deliver on commercial promises made 2017-2023 by Google, IBM, IonQ, and consulting firms like BCG. She cites philosopher Amit Hagar's paper showing every quantum advantage claim has been reproduced classically within 18 months, and notes Demis Hassabis's conjecture that AI on classical hardware can model quantum processes found in nature.",
+      "relevance": "Sharp, well-sourced reality check on quantum hype — plus the Hassabis conjecture that AI might make quantum computing irrelevant for practical problems is genuinely thought-provoking."
+    },
+    {
+      "id": "0oXOOlqVu5M",
+      "title": "So I tried Matt's skills...",
+      "channel": "Theo - t3․gg",
+      "duration": "38:21",
+      "category": "AI / Tools & Prompting",
+      "url": "https://youtu.be/0oXOOlqVu5M",
+      "summary": "Theo reviews Matt Pocock's 200k-star AI skills repo and Lauren (Potato)'s Pstack skills for Claude Code/Cursor. Deep dive into how markdown skill files work — trigger descriptions vs. content, the 'unslop' skill that strips AI writing patterns, and a practical before/after comparison showing dramatically more readable agent output. Key insight: don't blindly copy setups; audit skills against your actual workflow and build your own system.",
+      "relevance": "Directly relevant if you're crafting Claude Code skills — the unslop technique and trigger-description philosophy are worth stealing."
+    },
+    {
+      "id": "RLdMLRhBzjI",
+      "title": "ПОЧЕМУ ЗЕЛАНД ПЕРЕПИСАЛ ТРАНСЕРФИНГ. ЧТО ОН ОТКРЫЛ 20 ЛЕТ СПУСТЯ",
+      "channel": "ИВАН ЯШУКОВ. ДЕЛО ЖИЗНИ.",
+      "duration": "1:03:10",
+      "category": "Consciousness / Philosophy",
+      "url": "https://youtu.be/RLdMLRhBzjI",
+      "summary": "Deep analysis of why Vadim Zeland rewrote his Transurfing Reality teachings 20 years later with the Tafti series. Explores three nested 'matrix traps': first you learn to choose reality, then you discover the chooser itself is running on autopilot scripts (fear, validation-seeking), then the attempt to 'wake up' becomes yet another script. Draws on Gurdjieff's 'man is a machine' framework and Kahneman's blindness-to-blindness, arguing most decisions are post-hoc rationalizations of automatic reactions already fired.",
+      "relevance": "If you've ever caught yourself 'consciously choosing' a goal that was actually just an old fear wearing a new mask — this maps Zeland's evolution onto the same self-observation loop Gurdjieff described, worth the hour."
+    },
+    {
+      "id": "u7sm1vrV9TQ",
+      "title": "Иисус объяснил квантовую физику 2000 лет назад (Секрет Веры)",
+      "channel": "Код Наблюдателя",
+      "duration": "12:27",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/u7sm1vrV9TQ",
+      "summary": "Explores parallels between quantum physics concepts (observer effect, wave function collapse) and biblical teachings attributed to Jesus, arguing that faith and observation share a common mechanism — consciousness shapes reality. Draws on double-slit experiment interpretations to frame ancient spiritual teachings as proto-quantum insights.",
+      "relevance": "Consciousness-meets-physics rabbit hole in Russian — right up my alley for the simulation/philosophy thread."
+    },
+    {
+      "id": "6LP3n9V7H_8",
+      "title": "We Actually Have a Third Eye (And It’s Not Metaphysical)",
+      "channel": "Anton Petrov",
+      "duration": "17:18",
+      "category": "Science",
+      "url": "https://youtu.be/6LP3n9V7H_8",
+      "summary": "Anton Petrov covers a recent study tracing vertebrate eye evolution back 600 million years to a worm-like ancestor that had both lateral eyes and a midline eye. When ancestors became sedentary filter feeders, they lost lateral eyes but kept the central light sensor; upon returning to swimming, that midline eye budded lateral cups that became our paired eyes. The pineal gland is the remnant of that original third eye — it still contains retinal photoreceptor cells (pinealocytes) and regulates circadian rhythm, and in frogs/lizards it remains a visible parietal eye with cornea, lens, and retina.",
+      "relevance": "Genuinely fascinating evolutionary detective story — our pineal gland is literally a vestigial eye, and the proof is in the cell biology."
+    },
+    {
+      "id": "2AQMGHHPB0Y",
+      "title": "You’re Not Inside a Simulation — You’re Inside Something Much Stranger",
+      "channel": "Beyond Reality",
+      "duration": "16:22",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/2AQMGHHPB0Y",
+      "summary": "Argues the simulation hypothesis is the wrong question — it still assumes a solid self inside a container. Walks through quantum field theory, Rovelli's relational QM, Wheeler's 'it from bit' participatory universe, and the holographic principle to dismantle both matter and self, then lands on analytic idealism (Kastrup): consciousness is the fundamental substrate, the physical world is what experience looks like from the outside, and the real/simulated distinction collapses entirely.",
+      "relevance": "Solid synthesis of relational QM, Wheeler, and Kastrup into one coherent argument — if you're past the basic simulation debate, this frames the deeper question well."
+    },
+    {
+      "id": "F3lL98Pj90o",
+      "title": "/wayfinder: Nothing is too big to plan anymore",
+      "channel": "Matt Pocock",
+      "duration": "15:09",
+      "category": "AI / Agents",
+      "url": "https://youtu.be/F3lL98Pj90o",
+      "summary": "Matt Pocock introduces Wayfinder, a skill for orchestrating multi-session planning of large work with AI coding agents. It uses a fog-of-war metaphor: an initial grilling session charts a map of decision tickets (research, prototype, grilling, task types) with blocking dependencies, then each ticket is resolved in its own agent session, progressively clearing fog until a dense spec emerges. Issue-tracker agnostic, works with any coding agent.",
+      "relevance": "You run your own skills system with /workflow and /inbox dispatch — Wayfinder's multi-session orchestration and ticket-type taxonomy is a direct comparison point for how you structure agent planning."
+    },
+    {
+      "id": "57Md198yLII",
+      "title": "I Tested The Viral URXR One: Is It Really Like Apple Vision Pro?",
+      "channel": "Steven Sullivan",
+      "duration": "13:00",
+      "category": "Apple / Vision Pro",
+      "url": "https://youtu.be/57Md198yLII",
+      "summary": "Hands-on review of URXR One AR glasses ($500K Kickstarter in 24h) — VST glasses with 5K dual-eye display, 90° FOV (double most AR glasses), 7 simultaneous screens, hand tracking, and virtual environments. CEO is ex-Apple Vision Pro / Meta XR. Key pros: fully opaque screens via virtual see-through, massive FOV, 2.5K/eye resolution. Key cons: no built-in speakers, hand tracking needs work, bulky appearance. Steam VR support is a stated priority but won't ship at launch.",
+      "relevance": "Vision Pro DNA in a lightweight form factor at a fraction of the cost — worth tracking as the spatial computing market fragments beyond Apple."
+    },
+    {
+      "id": "bPUAKW1Dyek",
+      "title": "It's Happening - Europe is Building an Impossible Fusion Reactor",
+      "channel": "Dr Ben Miles",
+      "duration": "34:59",
+      "category": "Science / Startups",
+      "url": "https://youtu.be/bPUAKW1Dyek",
+      "summary": "Deep dive into Proxima Fusion, a Munich-based startup that raised €411M (backed by Google, RWE) to build the first commercial stellarator fusion reactor — a twisted-donut design abandoned 50 years ago because it was too complex to engineer precisely. Explains the physics of plasma confinement, why tokamaks won in the 1960s after Soviet T-3 results, and why modern AI/computational tools may finally make stellarators viable. First episode in an inside-access series following Proxima's progress.",
+      "relevance": "A €411M fusion startup literally down the road in Munich — the physics is well explained and the stellarator-vs-tokamak history is genuinely fascinating."
+    },
+    {
+      "id": "84Y_FA44ZYY",
+      "title": "Ген шизофрении, мыши-невротики, вырождение человечества. Михаил Никитин о последствиях Евгеники",
+      "channel": "А поговорить?",
+      "duration": "1:29:38",
+      "category": "Science / Genetics",
+      "url": "https://youtu.be/84Y_FA44ZYY",
+      "summary": "Evolutionary biologist Mikhail Nikitin argues that gene variants boosting intelligence are rare for a reason — natural selection would have spread them already if they had no downsides. Rat experiments selecting for intelligence produced neurotic, alcoholism-prone animals by generation 5, because the same neuroplasticity that enables fast learning also causes mood instability and addiction susceptibility. Also covers practical IVF genetic diagnostics for hereditary diseases and why embryo selection for traits like IQ is far more dangerous than its proponents admit.",
+      "relevance": "Fascinating evolutionary argument against polygenic embryo screening hype — the rat neurosis data alone is worth the watch"
+    }
+  ]
+}
