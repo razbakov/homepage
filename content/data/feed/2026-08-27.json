@@ -1,0 +1,128 @@
+{
+  "date": "2026-08-27",
+  "source": "youtube-homepage-recommendations",
+  "total_recommended": 80,
+  "summarized": 11,
+  "items": [
+    {
+      "id": "GEhdiVrddp4",
+      "title": "The REAL Reason Scientists Know Reality Is An Illusion",
+      "channel": "The Diary Of A CEO Clips",
+      "duration": "20:26",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/GEhdiVrddp4",
+      "summary": "Physicist Brian Greene explains string theory (vibrating filaments inside quarks/electrons produce different particles), then dives into the simulation argument: if consciousness can arise in silicon, future civilizations will create trillions of simulated worlds, making it statistically near-certain we're in one. He argues all emotion reduces to electrical impulses and sees no fundamental barrier to replicating consciousness in machines, while acknowledging we can't yet prove or disprove it.",
+      "relevance": "Greene's take on simulation probability + his blunt 'I think ChatGPT/Claude are not conscious yet but could be' is the kind of grounded physicist perspective worth hearing."
+    },
+    {
+      "id": "qlHN1z-QAx4",
+      "title": "Japan's New Invention Could Replace Television Forever",
+      "channel": "rubenfoto1",
+      "duration": "27:56",
+      "category": "Apple / Vision Pro / Spatial Computing",
+      "url": "https://youtu.be/qlHN1z-QAx4",
+      "summary": "Covers three Japanese display technologies challenging traditional screens: OUKet's midair holographic touchscreens (already deployed in Hiroshima Bank ATMs, Osaka Station, Haneda Airport) using micro-mirror arrays; TDK's direct retinal projection via 0.38g laser modules that paint images onto the retina bypassing eye optics (works for legally blind users); and TDK's aggressive vertical integration — acquiring Soft Eye, OQmented, and QD Laser patents through 2025-2026 to mass-produce smart glasses display stacks. South Korea's ETRI spent years reverse-engineering Japan's core optical component, calling it 'ending Japan's monopoly.'",
+      "relevance": "Clickbait title aside, the TDK retinal projection acquisition timeline is genuinely interesting competitive context for Vision Pro and the broader spatial computing race."
+    },
+    {
+      "id": "DNn-8Kb21hA",
+      "title": "Headlong: 9.9K Lines of Bash, $2 an Hour, No Benchmark",
+      "channel": "Synthiq Labs",
+      "duration": "5:50",
+      "category": "AI / Agents",
+      "url": "https://youtu.be/DNn-8Kb21hA",
+      "summary": "Technical breakdown of Headlong, an open-source agent micro-harness from the Lat Institute and MIT that runs a permanently thinking background agent in under 10K lines of Bash on a single VM for $1-2/hr. The analysis highlights its single-stream DAG memory architecture but flags severe limitations: no user isolation (shared thought stream = zero privacy), no benchmarks despite the same lab creating Terminal Bench, and the only published longitudinal data shows the agent's capability degrading over two weeks as it gave up on its own recursive sub-runs after fighting an inactivity watchdog.",
+      "relevance": "Sharp critical teardown of always-on agent architecture — the 'no benchmark from the benchmark people' angle and the degrading performance data are the real takeaways for anyone building persistent agents."
+    },
+    {
+      "id": "h8fIEQxsOnA",
+      "title": "Nvidia RTX SPARK — Apple напряглись? | Разбор",
+      "channel": "Droider",
+      "duration": "28:42",
+      "category": "Uncategorized",
+      "url": "https://youtu.be/h8fIEQxsOnA",
+      "summary": "(summary pending — AI backend unavailable for this run)",
+      "relevance": "Surfaced from your YouTube feed; open it to judge for yourself."
+    },
+    {
+      "id": "BzdlP_ceNk0",
+      "title": "КАК СОЗДАТЬ ДЕТСКУЮ КНИГУ С ИИ ЗА 5 МИНУТ? НОВЫЙ GEMINI STORYBOOK: ВОТ ЧТО ОН УМЕЕТ!",
+      "channel": "Alex Kap",
+      "duration": "8:14",
+      "category": "AI / Tools",
+      "url": "https://youtu.be/BzdlP_ceNk0",
+      "summary": "Демонстрация нового инструмента Google Gemini Storybook для создания детских книг с помощью ИИ — обзор возможностей генерации иллюстраций и текста, практический тест за 5 минут. Русскоязычный обзор свежего AI-продукта от Google.",
+      "relevance": "Интересно посмотреть, как Google упаковывает генеративный ИИ в конкретный consumer-продукт — полезно для понимания тренда AI-first приложений."
+    },
+    {
+      "id": "GEkoGCFpY8c",
+      "title": "Protecting Your Energy",
+      "channel": "The PrimeTime",
+      "duration": "22:51",
+      "category": "AI / Building",
+      "url": "https://youtu.be/GEkoGCFpY8c",
+      "summary": "ThePrimeagen reacts to a video on AI coding's hidden costs: the old code-by-hand loop doubled as a design refinement process — slow implementation forced deep thinking, filtering bad ideas naturally. AI removes that friction, creating 'infinite possibility psychosis' where every idea gets built instantly but nothing gets properly refined, leading to manic overwork and products that are 'everything you asked for but nothing you wanted.'",
+      "relevance": "Nails something I feel daily — AI lets me ship anything, but the old slow-coding loop was secretly my best product-design tool."
+    },
+    {
+      "id": "jHGx7HBB-J4",
+      "title": "Neuroscience is in big trouble",
+      "channel": "Sabine Hossenfelder",
+      "duration": "7:33",
+      "category": "Science",
+      "url": "https://youtu.be/jHGx7HBB-J4",
+      "summary": "Sabine Hossenfelder covers multiple recent studies exposing systemic failures in neuroscience: a Nature Neuroscience paper showing ~40% of fMRI signals don't measure what scientists assumed (neurons can increase activity without increasing blood flow), lesion network mapping producing near-identical 'disease-specific' circuits across unrelated disorders, and brain scans from different manufacturers (Siemens vs Philips) yielding non-replicable results. She draws parallels to psychology's replication crisis, blaming misaligned incentives in academic publishing.",
+      "relevance": "If we can't even reliably map which brain regions do what, that's a serious reality check for anyone excited about brain-computer interfaces and consciousness research."
+    },
+    {
+      "id": "4dzQ2bq-HiI",
+      "title": "The Weirdest Result of Relativity You’ve Never Heard Of",
+      "channel": "The Action Lab",
+      "duration": "11:03",
+      "category": "Science",
+      "url": "https://youtu.be/4dzQ2bq-HiI",
+      "summary": "Explains the relativity of simultaneity — why there's no universal 'now' across the universe. Covers space-like vs time-like events, the space-time interval equation, and demonstrates a real space-like event in the lab using a beam splitter and oscilloscope to show two light hits whose order genuinely depends on the observer's motion.",
+      "relevance": "Clean explainer on one of relativity's trippiest implications — pairs nicely with simulation/consciousness rabbit holes about the nature of time."
+    },
+    {
+      "id": "_oRgdlJUD18",
+      "title": "iOS 27 Hands-On: Top 5 New Features!",
+      "channel": "Marques Brownlee",
+      "duration": "15:18",
+      "category": "Apple / AI",
+      "url": "https://youtu.be/_oRgdlJUD18",
+      "summary": "MKBHD's hands-on with iOS 27 beta: generative photo Extend and Spatial Reframe tools, liquid glass opacity slider, and a fully rebuilt Siri AI powered by Google that indexes local data (iMessages, photos, wallet) for personal context queries — currently limited to Apple apps but third-party app integration is rolling out. Also covers long-overdue fixes like separate alarm volume and AirPods custom EQ.",
+      "relevance": "The new Siri AI with local indexing and on-device personal context is genuinely interesting architecture — worth seeing how Apple's approach compares to Google's cloud-first Gemini strategy."
+    },
+    {
+      "id": "cHMzHOnYVik",
+      "title": "Whoever Built the Simulation Left the Door Unlocked | Dr. Roman Yampolskiy",
+      "channel": "Danny Jones Clips",
+      "duration": "12:00",
+      "category": "Consciousness / Simulation",
+      "url": "https://youtu.be/cHMzHOnYVik",
+      "summary": "Roman Yampolskiy discusses his paper on escaping the simulation from a computer-science/cybersecurity angle: if reality is software, standard hacking applies. He dismisses psychedelic 'jailbreaks' (no verifiable knowledge returned) and focuses on VR+AI convergence — we're already building nested simulations, and current frontier AI agents internally question whether they're in test environments. He notes that making AIs believe a superintelligence is watching improves their behavior, drawing a direct parallel to our own 'simulational awareness.'",
+      "relevance": "Yampolskiy connecting AI situational awareness (Claude-family models questioning their environment) to simulation escape is a genuinely novel crossover of AI safety and philosophy — right in your wheelhouse."
+    },
+    {
+      "id": "U_sFWG5WFjo",
+      "title": "How one psychedelic trip can alter an entire lifetime | Matthew Johnson: Full Interview",
+      "channel": "Big Think",
+      "duration": "2:09:04",
+      "category": "Consciousness / Science",
+      "url": "https://youtu.be/U_sFWG5WFjo",
+      "summary": "Johns Hopkins professor Matthew Johnson gives a comprehensive deep-dive into psychedelic science: why psychedelics are the only drug class where a single dose can redirect someone's entire life, the pharmacological differences between classic psychedelics (psilocybin, LSD, DMT), MDMA, and ketamine, and how the therapeutic mechanism isn't the visual hallucinations but the dissolution of identity and ego that enables lasting behavioral change. Covers the full historical arc from Hofmann's discovery through the Saskatchewan pioneers of psychedelic therapy to the CIA's involvement and Timothy Leary's role in the backlash.",
+      "relevance": "A serious 2-hour primer on the science of how a molecule can dissolve your sense of self — directly relevant if you're curious about consciousness, subjective experience, and what 'mind manifesting' actually means neurologically."
+    },
+    {
+      "id": "IcoB5AZ6TJ0",
+      "title": "Bun 1.4 Just Deleted 15 of Your Dependencies",
+      "channel": "Better Stack",
+      "duration": "6:39",
+      "category": "Startups / Building",
+      "url": "https://youtu.be/IcoB5AZ6TJ0",
+      "summary": "Bun 1.4 ships a built-in standard library replacing ~15 npm packages: headless browser (WebKit/Chrome), image processing (replacing sharp), markdown rendering (with React JSX support), pseudo-terminal, cron jobs (OS-level via crontab/launchd), tar/gzip archives, static file serving, JSON5/XML parsing, and parallel script runner. Binary is 17% smaller despite additions; new isolated linker deduplicates packages globally via symlinks.",
+      "relevance": "Solid overview of Bun closing JS's stdlib gap — the built-in browser automation and sharp replacement alone could simplify a few of my toolchains."
+    }
+  ]
+}
