@@ -9,6 +9,11 @@ tags:
   - Personal Story
 language: ru
 image: https://cdn-images-1.medium.com/max/800/1*hAv9VTid7q_XTQhWuUX6dw.jpeg
+translations:
+  en: /blog/2016-02-04-germany
+  de: /de/blog/2016-02-04-germany
+  es: /es/blog/2016-02-04-germany
+  uk: /uk/blog/2016-02-04-germany
 ---
 
 Жизнь дарит нам интересные возможности. Некоторые возможности могут основательно изменить ее. К примеру — предложение о переезде в Германию.
