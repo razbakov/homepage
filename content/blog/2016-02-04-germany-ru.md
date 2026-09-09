@@ -9,11 +9,6 @@ tags:
   - Personal Story
 language: ru
 image: https://cdn-images-1.medium.com/max/800/1*hAv9VTid7q_XTQhWuUX6dw.jpeg
-translations:
-  en: /blog/2016-02-04-germany
-  de: /de/blog/2016-02-04-germany
-  es: /es/blog/2016-02-04-germany
-  uk: /uk/blog/2016-02-04-germany
 ---
 
 Жизнь дарит нам интересные возможности. Некоторые возможности могут основательно изменить ее. К примеру — предложение о переезде в Германию.
@@ -36,7 +31,7 @@ translations:
 
 <figure>
   <img src="https://cdn-images-1.medium.com/max/800/1*HnUaIj69EXa9M6VAuCLGyA.jpeg" alt="Мариенплац" />
-  <figcaption>Мариенплац — центральная площадь Мюнхена</figcaption>
+  <figcaption>Мариенплац — центральная площадь Мюнхена</figcaption>
 </figure>
 
 Баварцы очень скоро дадут о себе знать. Группа веселых баварцев, направляющихся на празднования, ярко выделяются среди других пассажиров местного метрополитена. Особенно зимой.
@@ -57,7 +52,7 @@ translations:
 
 <figure>
   <img src="https://cdn-images-1.medium.com/max/800/1*LA95C9wnf1hA8zBS-kWIxQ.jpeg" alt="Oberammergau" />
-  <figcaption>Очаровательная деревня Oberammergau в Баварии, Германия</figcaption>
+  <figcaption>Очаровательная деревня Oberammergau в Баварии, Германия</figcaption>
 </figure>
 
 Проезжаем эту небольшую деревню и перед нами открывается захватывающий вид — горы. Всего 2 часа езды от Мюнхена. Находясь у подножья гор, ощущаешь их величие. Горы бросают вызов всем, кто проходит рядом. Зимой — спуститься на лыжах или сноуборде, летом — забраться на вершину и отведать вкуснейшего баварского пива.
