@@ -8,7 +8,7 @@ tags:
   - Culture
   - Personal Story
 language: ru
-image: https://cdn-images-1.medium.com/max/800/1*hAv9VTid7q_XTQhWuUX6dw.jpeg
+image: /img/germany/1_hAv9VTid7q_XTQhWuUX6dw.jpg
 ---
 
 Жизнь дарит нам интересные возможности. Некоторые возможности могут основательно изменить ее. К примеру — предложение о переезде в Германию.
@@ -30,28 +30,28 @@ image: https://cdn-images-1.medium.com/max/800/1*hAv9VTid7q_XTQhWuUX6dw.jpeg
 Какая же Германия на самом деле? Мюнхен — это совершенно другая Германия. Этот город приятно удивляет: чистота, ровные дороги, архитектура, BMW, пиво, метро.
 
 <figure>
-  <img src="https://cdn-images-1.medium.com/max/800/1*HnUaIj69EXa9M6VAuCLGyA.jpeg" alt="Мариенплац" />
+  <img src="/img/germany/1_HnUaIj69EXa9M6VAuCLGyA.jpg" alt="Мариенплац" />
   <figcaption>Мариенплац — центральная площадь Мюнхена</figcaption>
 </figure>
 
 Баварцы очень скоро дадут о себе знать. Группа веселых баварцев, направляющихся на празднования, ярко выделяются среди других пассажиров местного метрополитена. Особенно зимой.
 
 <figure>
-  <img src="https://cdn-images-1.medium.com/max/800/1*rQJRxx3zjS0qN2bNKW2Khw.jpeg" alt="Dirndl & Lederhosen" />
+  <img src="/img/germany/1_rQJRxx3zjS0qN2bNKW2Khw.jpg" alt="Dirndl & Lederhosen" />
   <figcaption>Dirndl & Lederhosen</figcaption>
 </figure>
 
 Баварский национальный костюм — дирндлы и ледерхозэны — это основная парадно-выходная одежда в Баварии. Особенно на фестиваль пива Октоберфест. Во время фестиваля тысячи туристов переодеваются и поддаются пивному веселью по всему городу. В это время город просто не узнать. Баварцы очень любят традиции, фестивали, ярмарки, живую музыку, пиво и мясо.
 
 <figure>
-  <img src="https://cdn-images-1.medium.com/max/800/1*hL34yE7fkHMdrru73MRyxg.jpeg" alt="Октоберфест" />
+  <img src="/img/germany/1_hL34yE7fkHMdrru73MRyxg.jpg" alt="Октоберфест" />
   <figcaption>Октоберфест</figcaption>
 </figure>
 
 Оказаться в сказке братьев Гримм проще простого — выезжаем из Мюнхена и двигаем на юг, заезжаем в небольшую деревню. Здесь каждый домик разукрашен в своем неповторимом стиле и погружает наблюдателя в сказочную атмосферу.
 
 <figure>
-  <img src="https://cdn-images-1.medium.com/max/800/1*LA95C9wnf1hA8zBS-kWIxQ.jpeg" alt="Oberammergau" />
+  <img src="/img/germany/1_LA95C9wnf1hA8zBS-kWIxQ.jpg" alt="Oberammergau" />
   <figcaption>Очаровательная деревня Oberammergau в Баварии, Германия</figcaption>
 </figure>
 
