@@ -8,7 +8,7 @@ tags:
   - Culture
   - Personal Story
 language: de
-image: https://cdn-images-1.medium.com/max/800/1*hAv9VTid7q_XTQhWuUX6dw.jpeg
+image: /img/germany/1_hAv9VTid7q_XTQhWuUX6dw.jpg
 translations:
   en: /blog/2016-02-04-germany
   ru: /ru/blog/2016-02-04-germany
@@ -35,28 +35,28 @@ Zurück zu Deutschland. Diejenigen, die nicht leidenschaftlich an deutscher Spra
 Wie ist Deutschland wirklich? München — das ist ein ganz anderes Deutschland. Diese Stadt überrascht angenehm: Sauberkeit, gerade Straßen, Architektur, BMW, Bier, U-Bahn.
 
 <figure>
-  <img src="https://cdn-images-1.medium.com/max/800/1*HnUaIj69EXa9M6VAuCLGyA.jpeg" alt="Marienplatz" />
+  <img src="/img/germany/1_HnUaIj69EXa9M6VAuCLGyA.jpg" alt="Marienplatz" />
   <figcaption>Marienplatz — Münchens zentraler Platz</figcaption>
 </figure>
 
 Die Bayern werden bald auf sich aufmerksam machen. Eine Gruppe fröhlicher Bayern, die zu Feiern unterwegs sind, stechen unter anderen Passagieren deutlich hervor. Besonders im Winter.
 
 <figure>
-  <img src="https://cdn-images-1.medium.com/max/800/1*rQJRxx3zjS0qN2bNKW2Khw.jpeg" alt="Dirndl & Lederhosen" />
+  <img src="/img/germany/1_rQJRxx3zjS0qN2bNKW2Khw.jpg" alt="Dirndl & Lederhosen" />
   <figcaption>Dirndl & Lederhosen</figcaption>
 </figure>
 
 Die bayerische Tracht — Dirndls und Lederhosen — ist die Hauptfestkleidung in Bayern. Besonders auf dem Oktoberfest. Während des Festivals kleiden sich Tausende von Touristen um und frönen dem Bierspaß in der ganzen Stadt. Während dieser Zeit ist die Stadt unkenntlich. Bayern lieben Traditionen, Festivals, Jahrmärkte, Live-Musik, Bier und Fleisch.
 
 <figure>
-  <img src="https://cdn-images-1.medium.com/max/800/1*hL34yE7fkHMdrru73MRyxg.jpeg" alt="Oktoberfest" />
+  <img src="/img/germany/1_hL34yE7fkHMdrru73MRyxg.jpg" alt="Oktoberfest" />
   <figcaption>Oktoberfest</figcaption>
 </figure>
 
 Es ist einfach, sich in ein Märchen der Brüder Grimm zu versetzen — verlasse München und fahre nach Süden, fahre in ein kleines Dorf. Hier ist jedes kleine Haus in seinem eigenen einzigartigen Stil angestrichen und taucht den Beobachter in eine märchenhafte Atmosphäre.
 
 <figure>
-  <img src="https://cdn-images-1.medium.com/max/800/1*LA95C9wnf1hA8zBS-kWIxQ.jpeg" alt="Oberammergau" />
+  <img src="/img/germany/1_LA95C9wnf1hA8zBS-kWIxQ.jpg" alt="Oberammergau" />
   <figcaption>Das charmante Dorf Oberammergau in Bayern, Deutschland</figcaption>
 </figure>
 

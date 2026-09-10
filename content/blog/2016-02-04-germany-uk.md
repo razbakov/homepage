@@ -8,7 +8,7 @@ tags:
   - Culture
   - Personal Story
 language: uk
-image: https://cdn-images-1.medium.com/max/800/1*hAv9VTid7q_XTQhWuUX6dw.jpeg
+image: /img/germany/1_hAv9VTid7q_XTQhWuUX6dw.jpg
 ---
 
 Життя дає нам цікаві можливості. Деякі можливості можуть його принципово змінити. Наприклад — пропозиція переїхати в Німеччину.
@@ -30,28 +30,28 @@ image: https://cdn-images-1.medium.com/max/800/1*hAv9VTid7q_XTQhWuUX6dw.jpeg
 Якою насправді є Німеччина? Мюнхен — це зовсім інша Німеччина. Це місто приємно дивує: чистота, рівні дороги, архітектура, BMW, пиво, метро.
 
 <figure>
-  <img src="https://cdn-images-1.medium.com/max/800/1*HnUaIj69EXa9M6VAuCLGyA.jpeg" alt="Мариенплац" />
+  <img src="/img/germany/1_HnUaIj69EXa9M6VAuCLGyA.jpg" alt="Мариенплац" />
   <figcaption>Мариенплац — центральна площа Мюнхена</figcaption>
 </figure>
 
 Баварці дуже скоро дадуть про себе знати. Група веселих баварців, які йдуть на святкування, яскраво виділяються серед інших пасажирів місцевого метро. Особливо взимку.
 
 <figure>
-  <img src="https://cdn-images-1.medium.com/max/800/1*rQJRxx3zjS0qN2bNKW2Khw.jpeg" alt="Dirndl & Lederhosen" />
+  <img src="/img/germany/1_rQJRxx3zjS0qN2bNKW2Khw.jpg" alt="Dirndl & Lederhosen" />
   <figcaption>Dirndl & Lederhosen</figcaption>
 </figure>
 
 Баварський національний костюм — дирндли та ледерхозени — це основний святковий одяг у Баварії. Особливо на фестивалі пива Октоберфест. Під час фестивалю тисячі туристів переодягаються й піддаються пивному веселю по всьому місту. У цей час місто просто не впізнати. Баварці дуже люблять традиції, фестивалі, ярмарки, живу музику, пиво та м'ясо.
 
 <figure>
-  <img src="https://cdn-images-1.medium.com/max/800/1*hL34yE7fkHMdrru73MRyxg.jpeg" alt="Октоберфест" />
+  <img src="/img/germany/1_hL34yE7fkHMdrru73MRyxg.jpg" alt="Октоберфест" />
   <figcaption>Октоберфест</figcaption>
 </figure>
 
 Опинитися в казці братів Грімм — просто просто — виїжджаємо з Мюнхена й рухаємо на південь, заїжджаємо в невелику деревню. Тут кожен будиночок розписаний у своєму неповторному стилі й занурює спостерігача в чарівну атмосферу.
 
 <figure>
-  <img src="https://cdn-images-1.medium.com/max/800/1*LA95C9wnf1hA8zBS-kWIxQ.jpeg" alt="Oberammergau" />
+  <img src="/img/germany/1_LA95C9wnf1hA8zBS-kWIxQ.jpg" alt="Oberammergau" />
   <figcaption>Чарівне село Oberammergau у Баварії, Німеччина</figcaption>
 </figure>
 

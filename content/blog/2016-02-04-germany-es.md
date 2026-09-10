@@ -8,7 +8,7 @@ tags:
   - Culture
   - Personal Story
 language: es
-image: https://cdn-images-1.medium.com/max/800/1*hAv9VTid7q_XTQhWuUX6dw.jpeg
+image: /img/germany/1_hAv9VTid7q_XTQhWuUX6dw.jpg
 translations:
   en: /blog/2016-02-04-germany
   ru: /ru/blog/2016-02-04-germany
@@ -35,28 +35,28 @@ Volvamos a Alemania. Aquellos no apasionados por el idioma y la cultura alemana 
 ¿Cómo es realmente Alemania? Múnich — este es un Alemania completamente diferente. Esta ciudad agrada gratamente: limpieza, carreteras uniformes, arquitectura, BMW, cerveza, metro.
 
 <figure>
-  <img src="https://cdn-images-1.medium.com/max/800/1*HnUaIj69EXa9M6VAuCLGyA.jpeg" alt="Marienplatz" />
+  <img src="/img/germany/1_HnUaIj69EXa9M6VAuCLGyA.jpg" alt="Marienplatz" />
   <figcaption>Marienplatz — la plaza central de Múnich</figcaption>
 </figure>
 
 Los bávaros pronto se harán notar. Un grupo de bávaros alegres que se dirigen a celebraciones se destacan brillantemente entre otros pasajeros del metro. Especialmente en invierno.
 
 <figure>
-  <img src="https://cdn-images-1.medium.com/max/800/1*rQJRxx3zjS0qN2bNKW2Khw.jpeg" alt="Dirndl & Lederhosen" />
+  <img src="/img/germany/1_rQJRxx3zjS0qN2bNKW2Khw.jpg" alt="Dirndl & Lederhosen" />
   <figcaption>Dirndl & Lederhosen</figcaption>
 </figure>
 
 El traje bávaro tradicional — dirndls y pantalones de cuero — es la ropa festiva principal en Baviera. Especialmente en el festival de cerveza Oktoberfest. Durante el festival, miles de turistas se visten y se entregan a la diversión de la cerveza en toda la ciudad. Durante este tiempo, la ciudad es irreconocible. Los bávaros aman las tradiciones, los festivales, las ferias, la música en vivo, la cerveza y la carne.
 
 <figure>
-  <img src="https://cdn-images-1.medium.com/max/800/1*hL34yE7fkHMdrru73MRyxg.jpeg" alt="Oktoberfest" />
+  <img src="/img/germany/1_hL34yE7fkHMdrru73MRyxg.jpg" alt="Oktoberfest" />
   <figcaption>Oktoberfest</figcaption>
 </figure>
 
 Es fácil encontrarse en un cuento de hadas de los hermanos Grimm — sal de Múnich y dirígete al sur, detente en un pueblecito. Aquí, cada pequeña casa está pintada en su propio estilo único e sumerge al observador en una atmósfera de cuento de hadas.
 
 <figure>
-  <img src="https://cdn-images-1.medium.com/max/800/1*LA95C9wnf1hA8zBS-kWIxQ.jpeg" alt="Oberammergau" />
+  <img src="/img/germany/1_LA95C9wnf1hA8zBS-kWIxQ.jpg" alt="Oberammergau" />
   <figcaption>El encantador pueblo de Oberammergau en Baviera, Alemania</figcaption>
 </figure>
 
