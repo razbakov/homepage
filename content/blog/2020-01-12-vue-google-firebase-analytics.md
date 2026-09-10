@@ -10,7 +10,7 @@ tags:
   - Quasar
   - Firebase
   - Web Development
-image: https://thepracticaldev.s3.amazonaws.com/i/z96uk4p7dwsx7nx9f3jm.png
+image: /img/vue-google-firebase-analytics/hero.png
 tweet: https://twitter.com/razbakov/status/1233891527916691463
 ---
 
