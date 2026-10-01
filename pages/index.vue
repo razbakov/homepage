@@ -24,7 +24,7 @@
               {{ $t('home.subtitle') }} <NuxtLink :to="localePath('/about')" class="text-primary hover:underline">{{ $t('home.learnMore') }}</NuxtLink>
             </p>
 
-            <!-- Contact row: WhatsApp CTA + social links (above the fold) -->
+            <!-- Contact row: WhatsApp CTA + vCard + social links (above the fold) -->
             <div class="flex flex-wrap items-center gap-2">
               <a
                 :href="whatsappUrl"
@@ -47,6 +47,15 @@
               >
                 <Icon name="simple-icons:linkedin" class="w-4 h-4" />
                 <span>{{ $t('home.linkedinCta') }}</span>
+              </a>
+              <a
+                href="/alosha-razbakov.vcf"
+                download="alosha-razbakov.vcf"
+                class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary text-primary-foreground font-medium text-sm shadow-sm hover:bg-primary/90 transition-colors"
+                @click="trackVcardDownload('home_hero')"
+              >
+                <Icon name="lucide:contact" class="w-4 h-4" />
+                <span>{{ $t('home.saveContact') }}</span>
               </a>
               <div class="flex items-center gap-1">
                 <a
@@ -202,7 +211,7 @@ const localePath = useLocalePath();
 const route = useRoute();
 const { filterByLanguage } = useLanguageFilter();
 const { socialLinks, whatsappUrl, linkedinUrl } = useSocialLinks();
-const { trackSocialLinkClick } = useAnalytics();
+const { trackSocialLinkClick, trackVcardDownload } = useAnalytics();
 
 // Defer until after hydration so SSR and initial client render match.
 // Reading route.query during prerender returns {} but on client it has ?drafts,

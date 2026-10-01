@@ -1,0 +1,16 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Aleksey "Alösha" Razbakov
+N:Razbakov;Aleksey;;;
+NICKNAME:Alösha
+TITLE:Senior Fullstack-Entwickler · KI-Ingenieur
+ORG:razbakov.com
+TEL;TYPE=CELL,VOICE:+49 157 820 394 01
+EMAIL;TYPE=INTERNET:alex@razbakov.com
+URL:https://razbakov.com
+URL;TYPE=LinkedIn:https://www.linkedin.com/in/razbakov/
+URL;TYPE=GitHub:https://github.com/razbakov
+URL;TYPE=YouTube:https://www.youtube.com/@razbakov
+ADR;TYPE=WORK:;;;München;;;DE
+PHOTO;VALUE=URI:https://razbakov.com/images/alex-top.webp
+END:VCARD
