@@ -14,7 +14,7 @@
  *      frontmatter / headings) → the SPOKEN narration only
  *   3. ElevenLabs TTS (cloned voice) → narration mp3
  *      POST https://api.elevenlabs.io/v1/text-to-speech/{voice_id}
- *   4. ffmpeg: hero image (public/images/blog/<slug>.png) as a static 1080p
+ *   4. ffmpeg: hero image (the script's `hero:`, else public/images/blog/<slug>.png) as a static 1080p
  *      background + narration mp3 → an MP4 sized for YouTube (1920x1080, h264)
  *   5. write <date>__<slug>.mp4 + <date>__<slug>.youtube.txt (paste-ready
  *      title/description/tags) next to the script in the staging folder.
@@ -42,7 +42,8 @@
  *   4  ELEVENLABS_API_KEY / ELEVENLABS_VOICE_ID missing — stop after script
  *      (the runner treats this as "script ready, render pending key")
  *   5  ElevenLabs API call failed
- *   6  ffmpeg assembly failed / no hero image
+ *   6  ffmpeg assembly failed
+ *   7  no hero image (STDOUT = {"ok":false,"reason":"no_hero","slug":…,"tried":[…]})
  *
  * STDOUT status example:
  *   {"ok":true,"date":"2026-06-19","slug":"water-is-memory","mp4":"...","duration":211.4,"width":1920,"height":1080,"voice":"<id>"}
@@ -58,7 +59,7 @@ import {
   statSync,
 } from "node:fs";
 import { fileURLToPath } from "node:url";
-import { dirname, resolve, join, basename } from "node:path";
+import { dirname, resolve, join, basename, relative } from "node:path";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = resolve(__dirname, "..");
@@ -321,20 +322,35 @@ async function synthesize(text, outMp3) {
  * (e) FFMPEG ASSEMBLY — hero image + narration → 1080p MP4.           *
  * ------------------------------------------------------------------ */
 
-function heroImageFor(slug) {
-  // Blog heroes use two conventions over time:
+function heroImageFor(slug, scriptRaw = "") {
+  // The script generator records the essay's hero in the script frontmatter
+  // (`hero: public/images/blog/…`, repo-relative) — that is the source of
+  // truth, since hero folders keep the post's date prefix and are not
+  // derivable from the slug. Older scripts have no `hero:`, so fall back to the
+  // two slug-based conventions:
   //   legacy flat:     public/images/blog/<slug>.png
-  //   current nested:  public/images/blog/<slug>/hero.png   (matches blog frontmatter)
-  // Check both (and common extensions) so the render works regardless of vintage.
+  //   current nested:  public/images/blog/<slug>/hero.png
+  // Returns { path, tried } — `tried` is what the loud failure message lists.
   const candidates = [];
+  const fm = scriptRaw.match(/^---\n([\s\S]*?)\n---/);
+  const fmHero = fm && fm[1].match(/^hero:\s*(\S+)\s*$/m);
+  if (fmHero) candidates.push(resolve(REPO_ROOT, fmHero[1].replace(/^["']|["']$/g, "")));
   for (const ext of ["png", "jpg", "jpeg", "webp"]) {
     candidates.push(join(HERO_DIR, `${slug}.${ext}`));
     candidates.push(join(HERO_DIR, slug, `hero.${ext}`));
   }
-  for (const p of candidates) {
-    if (existsSync(p)) return p;
-  }
-  return null;
+  return { path: candidates.find((p) => existsSync(p)) || null, tried: candidates };
+}
+
+// A missing hero is not an ffmpeg failure: it means the source post can never
+// become a video until someone adds an image. Exit 7 with a JSON status so the
+// runner can say exactly that, instead of a generic "render failed".
+function failNoHero(slug, tried) {
+  log(`NO HERO IMAGE for '${slug}' — cannot assemble. Tried:\n  ${tried.join("\n  ")}`);
+  process.stdout.write(
+    JSON.stringify({ ok: false, reason: "no_hero", slug, tried: tried.map((p) => relative(REPO_ROOT, p)) }) + "\n"
+  );
+  process.exit(7);
 }
 
 function probeMp4(mp4) {
@@ -445,14 +461,11 @@ async function cmdRender(flags) {
     process.exit(4);
   }
 
-  const hero = heroImageFor(src.slug);
-  if (!hero) {
-    log(`no hero image for slug '${src.slug}' in ${HERO_DIR} — cannot assemble`);
-    process.exit(6);
-  }
+  const raw = readFileSync(src.full, "utf8");
+  const { path: hero, tried } = heroImageFor(src.slug, raw);
+  if (!hero) failNoHero(src.slug, tried);
   log(`hero: ${hero}`);
 
-  const raw = readFileSync(src.full, "utf8");
   const narration = extractNarration(raw);
   if (!narration) {
     log("narration came out empty after stripping directions — aborting");
@@ -512,11 +525,10 @@ function cmdAssemble(flags) {
     slug = src.slug;
     date = src.date;
   }
-  const hero = heroImageFor(slug);
-  if (!hero) {
-    log(`no hero image for slug '${slug}' in ${HERO_DIR}`);
-    process.exit(6);
-  }
+  const scriptPath = join(SCRIPT_DIR, `${date}__${slug}.md`);
+  const scriptRaw = existsSync(scriptPath) ? readFileSync(scriptPath, "utf8") : "";
+  const { path: hero, tried } = heroImageFor(slug, scriptRaw);
+  if (!hero) failNoHero(slug, tried);
   const outMp4 =
     flags.out && flags.out !== true
       ? resolve(String(flags.out))

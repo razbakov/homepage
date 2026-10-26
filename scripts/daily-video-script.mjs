@@ -15,11 +15,13 @@
  *   - the git commit + Telegram notify live in the bash runner (daily-video-script.sh)
  *   - never overwrites an existing dated script (exit 3) unless --force
  *
- * TRIGGER (matches the issue):
- *   primary  = a NEW published blog post since the last run (newest English/
- *              canonical post whose slug we haven't scripted yet)
- *   fallback = the daily feed Editor's Note (content/data/feed/<date>.json),
- *              scripted as a "what I watched today" teaser when no new post.
+ * TRIGGER:
+ *   the newest published essay we haven't scripted yet, in ANY language
+ *   (English preferred when the essay has an English version), that has a
+ *   hero image. The script is always written in English. Essays without a
+ *   hero are skipped and named in `skipped_no_hero` so the runner can flag
+ *   them. (The daily-feed fallback was removed: the feed was retired
+ *   2026-09-10 and a feed note has no hero, so it could never render.)
  *
  * USAGE
  *   node scripts/daily-video-script.mjs build [--date YYYY-MM-DD] [--slug <slug>] [--force]
@@ -27,12 +29,15 @@
  *
  * EXIT CODES
  *   0  script written (STDOUT = one-line JSON status)
- *   2  nothing to script (no new post AND no usable feed fallback)
+ *   2  nothing to script (no un-scripted post with a hero image);
+ *      STDOUT = {"ok":false,"reason":"nothing","skipped_no_hero":[…]}
  *   3  the dated script already exists and --force was not passed
  *   4  found a source but the LLM backend was unavailable (no script written)
+ *   6  --slug names a post that has no hero image
  *
  * STDOUT status example:
- *   {"ok":true,"date":"2026-06-19","slug":"water-is-memory","source":"blog","path":"...","llm":"api-key"}
+ *   {"ok":true,"date":"2026-06-19","slug":"water-is-memory","source":"blog","language":"en",
+ *    "hero":"public/images/blog/…/hero.png","skipped_no_hero":[],"path":"...","llm":"api-key"}
  *
  * The Anthropic backend is detected EXACTLY like feed-pipeline.mjs:
  *   (1) ANTHROPIC_API_KEY (or DAILY_VIDEO_ANTHROPIC_API_KEY → ANTHROPIC_API_KEY
@@ -48,13 +53,12 @@ import {
   existsSync,
 } from "node:fs";
 import { fileURLToPath } from "node:url";
-import { dirname, resolve, join, basename } from "node:path";
+import { dirname, resolve, join, basename, relative } from "node:path";
 import { homedir } from "node:os";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = resolve(__dirname, "..");
 const BLOG_DIR = join(REPO_ROOT, "content", "blog");
-const FEED_DIR = join(REPO_ROOT, "content", "data", "feed");
 // Scripts staging folder. Lives in the repo so the accumulation is versioned
 // and the render step can find them deterministically.
 const SCRIPT_DIR =
@@ -88,14 +92,29 @@ function todayBerlin() {
 }
 
 /* ------------------------------------------------------------------ *
- * (a) SOURCE SELECTION — newest un-scripted English blog post, or     *
- *     the day's feed Editor's Note as a fallback.                     *
+ * (a) SOURCE SELECTION — newest un-scripted post, in ANY language,    *
+ *     that has a hero image.                                          *
  * ------------------------------------------------------------------ */
 
-// Translations carry a language suffix in the filename (-de/-es/-ru/-uk) and a
-// `language:` other than `en` in frontmatter. The canonical English post has
-// neither. We only script the English/canonical post.
-const LANG_SUFFIX_RE = /-(de|es|ru|uk|fr|it|pt)\.md$/i;
+// An essay is one file per language: the canonical file plus translations
+// with a language suffix (-de/-es/-ru/-uk) and a matching `language:` in
+// frontmatter. Some essays were only ever published in translation, so there
+// is not always an English file. All language versions share one slug (the
+// filename minus date and suffix) and become ONE video; English is preferred
+// when it exists.
+//
+// The video is narration over the essay's hero image, so a post without a hero
+// cannot become a video. Those are skipped and reported by name
+// (`skipped_no_hero`) so the runner can say so loudly instead of the job
+// silently running dry.
+const LANG_SUFFIX_RE = /-(en|de|es|ru|uk|fr|it|pt)\.md$/i;
+const LANG_PREFERENCE = ["en", "de", "es", "ru", "uk", "fr", "it", "pt"];
+const LANG_NAMES = {
+  en: "English", de: "German", es: "Spanish", ru: "Russian",
+  uk: "Ukrainian", fr: "French", it: "Italian", pt: "Portuguese",
+};
+const PUBLIC_DIR = join(REPO_ROOT, "public");
+const HERO_EXTS = ["png", "jpg", "jpeg", "webp"];
 
 function parseFrontmatter(raw) {
   const m = raw.match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/);
@@ -115,11 +134,45 @@ function parseFrontmatter(raw) {
   return { fm, body: m[2] };
 }
 
+// 2026-06-19-water-is-memory.md and 2026-06-19-water-is-memory-ru.md → water-is-memory
 function slugFromFilename(file) {
-  // 2026-06-19-water-is-memory.md → water-is-memory
   return basename(file)
+    .replace(LANG_SUFFIX_RE, ".md")
     .replace(/\.md$/, "")
     .replace(/^\d{4}-\d{2}-\d{2}-/, "");
+}
+
+// Scripts written before this change used the full filename slug, which kept
+// a "-en" suffix on a few posts — compare against that form too.
+function legacySlugFromFilename(file) {
+  return basename(file).replace(/\.md$/, "").replace(/^\d{4}-\d{2}-\d{2}-/, "");
+}
+
+function languageOf(file, fm) {
+  if (typeof fm.language === "string" && fm.language) return fm.language.toLowerCase();
+  const m = basename(file).match(LANG_SUFFIX_RE);
+  return m ? m[1].toLowerCase() : "en";
+}
+
+// The frontmatter `image:` is the source of truth (the hero folder keeps the
+// post's date prefix, so it is not derivable from the slug). The two older
+// slug-based conventions are the fallback.
+function heroFor(post) {
+  const candidates = [];
+  if (typeof post.fm.image === "string" && post.fm.image.startsWith("/")) {
+    candidates.push(join(PUBLIC_DIR, post.fm.image));
+  }
+  for (const ext of HERO_EXTS) {
+    candidates.push(join(PUBLIC_DIR, "images", "blog", `${post.slug}.${ext}`));
+    candidates.push(join(PUBLIC_DIR, "images", "blog", post.slug, `hero.${ext}`));
+  }
+  return candidates.find((p) => existsSync(p)) || null;
+}
+
+function postUrl(post) {
+  const name = basename(post.file).replace(/\.md$/, "");
+  if (post.lang === "en") return `${SITE_BASE}/blog/${name}`;
+  return `${SITE_BASE}/${post.lang}/blog/${name.replace(/-[a-z]{2}$/i, "")}`;
 }
 
 function listScriptedSlugs() {
@@ -133,46 +186,61 @@ function listScriptedSlugs() {
   return slugs;
 }
 
-// Newest English/canonical post we have NOT scripted yet.
-function pickBlogSource() {
-  if (!existsSync(BLOG_DIR)) return null;
-  const scripted = listScriptedSlugs();
-  const candidates = readdirSync(BLOG_DIR)
-    .filter((f) => f.endsWith(".md") && !LANG_SUFFIX_RE.test(f))
-    .map((f) => {
-      const full = join(BLOG_DIR, f);
-      const { fm, body } = parseFrontmatter(readFileSync(full, "utf8"));
-      return { file: f, full, fm, body, slug: slugFromFilename(f) };
-    })
-    // canonical English only (language absent or explicitly en)
-    .filter((p) => !p.fm.language || String(p.fm.language).toLowerCase() === "en")
-    // not a draft
-    .filter((p) => String(p.fm.draft || "").toLowerCase() !== "true")
-    // must have a real date
-    .filter((p) => /^\d{4}-\d{2}-\d{2}$/.test(String(p.fm.date || "")))
-    // not already scripted
-    .filter((p) => !scripted.has(p.slug))
-    // sort by date desc, then filename desc (stable tiebreak)
-    .sort((a, b) =>
-      a.fm.date === b.fm.date
-        ? b.file.localeCompare(a.file)
-        : String(b.fm.date).localeCompare(String(a.fm.date))
-    );
-  return candidates[0] || null;
+// Every published essay, one entry per slug, with its preferred language
+// version and its hero image (null when there is none). Newest first.
+function listEssays() {
+  if (!existsSync(BLOG_DIR)) return [];
+  const bySlug = new Map();
+  for (const f of readdirSync(BLOG_DIR)) {
+    if (!f.endsWith(".md")) continue;
+    const full = join(BLOG_DIR, f);
+    const { fm, body } = parseFrontmatter(readFileSync(full, "utf8"));
+    if (String(fm.draft || "").toLowerCase() === "true") continue;
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(String(fm.date || ""))) continue;
+    const post = { file: f, full, fm, body, slug: slugFromFilename(f), lang: languageOf(f, fm) };
+    if (!bySlug.has(post.slug)) bySlug.set(post.slug, []);
+    bySlug.get(post.slug).push(post);
+  }
+  const rank = (lang) => {
+    const i = LANG_PREFERENCE.indexOf(lang);
+    return i === -1 ? LANG_PREFERENCE.length : i;
+  };
+  const essays = [];
+  for (const [slug, versions] of bySlug) {
+    versions.sort((a, b) => rank(a.lang) - rank(b.lang) || a.file.localeCompare(b.file));
+    const preferred = versions[0];
+    // A hero on any language version is the essay's hero.
+    const hero = heroFor(preferred) || versions.map(heroFor).find(Boolean) || null;
+    essays.push({
+      ...preferred,
+      slug,
+      hero,
+      url: postUrl(preferred),
+      legacySlugs: versions.map((v) => legacySlugFromFilename(v.file)),
+    });
+  }
+  // sort by date desc, then filename desc (stable tiebreak)
+  return essays.sort((a, b) =>
+    a.fm.date === b.fm.date
+      ? b.file.localeCompare(a.file)
+      : String(b.fm.date).localeCompare(String(a.fm.date))
+  );
 }
 
-// Fallback: today's feed Editor's Note source (the day's curated items).
-function pickFeedFallback(date) {
-  const path = join(FEED_DIR, `${date}.json`);
-  if (!existsSync(path)) return null;
-  let doc;
-  try {
-    doc = JSON.parse(readFileSync(path, "utf8"));
-  } catch {
-    return null;
-  }
-  if (!doc.items || !doc.items.length) return null;
-  return { date, doc, path, slug: `feed-${date}` };
+// Newest essay we have NOT scripted yet that has a hero. Un-scripted essays
+// newer than it (or all of them, when none qualifies) that lack a hero come
+// back in skippedNoHero.
+function pickBlogSource() {
+  const scripted = listScriptedSlugs();
+  const pending = listEssays().filter(
+    (e) => !scripted.has(e.slug) && !e.legacySlugs.some((s) => scripted.has(s))
+  );
+  const source = pending.find((e) => e.hero) || null;
+  const cutoff = source ? pending.indexOf(source) : pending.length;
+  const skippedNoHero = pending
+    .slice(0, cutoff)
+    .map((e) => ({ slug: e.slug, file: e.file, date: e.fm.date }));
+  return { source, skippedNoHero };
 }
 
 /* ------------------------------------------------------------------ *
@@ -296,12 +364,18 @@ Resolve the idea in 2-3 sentences, then: "The full essay is on razbakov.com — 
 **Thumbnail:** reuse the essay hero image if one exists; per Julia method, swap to a real photo of Alex once available.`;
 
 function buildBlogPrompt(source) {
-  const url = `${SITE_BASE}/blog/${basename(source.file).replace(/\.md$/, "")}`;
+  const url = source.url;
   const title = source.fm.title || source.slug;
+  // The channel is English; an essay published only in translation is
+  // narrated in English and still links to the version that exists.
+  const languageNote =
+    source.lang === "en"
+      ? ""
+      : `\nThe essay below is written in ${LANG_NAMES[source.lang] || source.lang}. Write the script, title, description and tags in ENGLISH. The essay link stays as given.\n`;
   return `${VOICE}
 
 Write the daily video script from the blog essay below. Narrate the SPINE of the essay (don't read it verbatim) and drive viewers to the full post.
-
+${languageNote}
 ${TEMPLATE_SPEC}
 
 Use this canonical URL everywhere it says <FULL_URL>: ${url}
@@ -312,30 +386,6 @@ Output ONLY the markdown script (starting at "## Hook"). No preamble, no code fe
 ESSAY TITLE: ${title}
 ESSAY BODY:
 ${source.body.slice(0, 16000)}`;
-}
-
-function buildFeedPrompt(source) {
-  const url = `${SITE_BASE}/feed/${source.date}`;
-  const items = source.doc.items
-    .slice(0, 10)
-    .map(
-      (it) =>
-        `- [${it.category || "?"}] ${it.title} — ${it.channel}: ${it.summary || ""}`
-    )
-    .join("\n");
-  return `${VOICE}
-
-There is no new blog essay today, so script a short "what I watched today" teaser from my curated daily YouTube feed. Pull a single THROUGHLINE across the items (a tension or theme), don't just list them.
-
-${TEMPLATE_SPEC}
-
-Use this URL everywhere it says <FULL_URL>: ${url}
-Leave "Daily #NNN" literally as "Daily #NNN".
-
-Output ONLY the markdown script (starting at "## Hook"). No preamble.
-
-TODAY'S CURATED ITEMS (${source.date}):
-${items}`;
 }
 
 function generate(backend, prompt) {
@@ -364,37 +414,39 @@ function build(flags) {
     process.exit(1);
   }
 
-  // --- pick source: explicit slug > newest un-scripted blog > feed fallback
+  // --- pick source: explicit slug > newest un-scripted essay with a hero
   let source = null;
-  let kind = null;
   if (flags.slug && flags.slug !== true) {
     const wanted = String(flags.slug);
-    const file = existsSync(BLOG_DIR)
-      ? readdirSync(BLOG_DIR).find(
-          (f) => slugFromFilename(f) === wanted && !LANG_SUFFIX_RE.test(f)
-        )
-      : null;
-    if (!file) {
+    source = listEssays().find((e) => e.slug === wanted) || null;
+    if (!source) {
       log(`no blog post matched --slug ${wanted}`);
       process.exit(2);
     }
-    const { fm, body } = parseFrontmatter(readFileSync(join(BLOG_DIR, file), "utf8"));
-    source = { file, full: join(BLOG_DIR, file), fm, body, slug: wanted };
-    kind = "blog";
+    if (!source.hero) {
+      log(`NO HERO IMAGE for '${wanted}' (${source.file}) — a video needs one. Add the post's \`image:\` hero first.`);
+      process.stdout.write(JSON.stringify({ ok: false, reason: "no_hero", slug: wanted, file: source.file }) + "\n");
+      process.exit(6);
+    }
   } else {
-    source = pickBlogSource();
-    kind = source ? "blog" : null;
+    const picked = pickBlogSource();
+    source = picked.source;
+    for (const s of picked.skippedNoHero) {
+      log(`skipped (NO HERO IMAGE): ${s.file}`);
+    }
     if (!source) {
-      source = pickFeedFallback(date);
-      kind = source ? "feed" : null;
+      log("nothing to script: no un-scripted post with a hero image for " + date);
+      process.stdout.write(
+        JSON.stringify({ ok: false, reason: "nothing", skipped_no_hero: picked.skippedNoHero }) + "\n"
+      );
+      process.exit(2);
+    }
+    if (picked.skippedNoHero.length) {
+      // Surface the skip even on a good day, so a hero-less post never just vanishes.
+      source.skippedNoHero = picked.skippedNoHero;
     }
   }
-
-  if (!source) {
-    log("nothing to script: no new English blog post and no usable feed for " + date);
-    process.exit(2);
-  }
-  log(`source: ${kind} → ${source.slug}`);
+  log(`source: ${source.lang} → ${source.slug} (hero ${relative(REPO_ROOT, source.hero)})`);
 
   // --- never overwrite a dated+slugged script
   mkdirSync(SCRIPT_DIR, { recursive: true });
@@ -418,7 +470,7 @@ function build(flags) {
   }
 
   // --- generate
-  const prompt = kind === "blog" ? buildBlogPrompt(source) : buildFeedPrompt(source);
+  const prompt = buildBlogPrompt(source);
   log(`generating script via ${backend.label}…`);
   const script = generate(backend, prompt);
   if (!script) {
@@ -427,16 +479,15 @@ function build(flags) {
   }
 
   // --- frontmatter header so the render step has structured inputs
-  const sourceUrl =
-    kind === "blog"
-      ? `${SITE_BASE}/blog/${basename(source.file).replace(/\.md$/, "")}`
-      : `${SITE_BASE}/feed/${date}`;
+  const sourceUrl = source.url;
   const header = [
     "---",
     `date: ${date}`,
     `slug: ${source.slug}`,
-    `source: ${kind}`,
+    `source: blog`,
+    `source_language: ${source.lang}`,
     `source_url: ${sourceUrl}`,
+    `hero: ${relative(REPO_ROOT, source.hero)}`,
     `channel: "Alösha — Daily (@razbakovdaily)"`,
     `format: "AI-avatar narration (HeyGen) + cloned voice (ElevenLabs)"`,
     `target_length: "~3:30"`,
@@ -445,7 +496,7 @@ function build(flags) {
     `llm: ${backend.label}`,
     "---",
     "",
-    `# Daily — ${kind === "blog" ? source.fm.title || source.slug : `Feed ${date}`}`,
+    `# Daily — ${source.fm.title || source.slug}`,
     "",
     `**Source:** ${sourceUrl}`,
     "",
@@ -459,7 +510,10 @@ function build(flags) {
     ok: true,
     date,
     slug: source.slug,
-    source: kind,
+    source: "blog",
+    language: source.lang,
+    hero: relative(REPO_ROOT, source.hero),
+    skipped_no_hero: source.skippedNoHero || [],
     path: outPath,
     llm: backend.label,
   };
@@ -474,17 +528,19 @@ function main() {
   const flags = parseFlags(rest);
   if (cmd === "build") return build(flags);
   if (cmd === "latest") {
-    const src = pickBlogSource();
-    if (src) {
-      process.stdout.write(
-        JSON.stringify({ source: "blog", slug: src.slug, title: src.fm.title || "", date: src.fm.date }, null, 2) + "\n"
-      );
-    } else {
-      const fb = pickFeedFallback(todayBerlin());
-      process.stdout.write(
-        JSON.stringify(fb ? { source: "feed", slug: fb.slug } : { source: null }, null, 2) + "\n"
-      );
-    }
+    const { source: src, skippedNoHero } = pickBlogSource();
+    process.stdout.write(
+      JSON.stringify(
+        {
+          source: src
+            ? { slug: src.slug, language: src.lang, title: src.fm.title || "", date: src.fm.date, url: src.url, hero: relative(REPO_ROOT, src.hero) }
+            : null,
+          skipped_no_hero: skippedNoHero,
+        },
+        null,
+        2
+      ) + "\n"
+    );
     return;
   }
   log(
