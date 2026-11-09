@@ -6,6 +6,7 @@ image: /images/blog/skills-agents-org-chart-trap/hero.png
 heroImage: true
 category: Technology
 language: en
+telegram: https://t.me/razbakov/175
 tags:
   - Artificial Intelligence
   - Claude Code
